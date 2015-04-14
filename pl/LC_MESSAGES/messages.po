@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2015-04-14 05:09+0000\n"
+"POT-Creation-Date: 2015-04-15 00:29+0000\n"
 "PO-Revision-Date: 2015-04-13 20:00-0500\n"
 "Last-Translator: <pirxpilot@code42day.com>\n"
 "Language-Team: none\n"
@@ -45,10 +45,25 @@ msgstr "Pokaż całą podróż"
 msgid "Suggest"
 msgstr "Dodaj"
 
-#: views/board/board.jade:28 views/components/dialog.jade:7
-#: views/components/import-dlg.jade:65 views/tripshot/tripshot.jade:133
+#: views/board/board.jade:28 views/components/add-stops.jade:2
+#: views/components/add-stops.jade:10 views/components/dialog.jade:7
+#: views/components/dup-stops.jade:2 views/components/import-dlg.jade:65
+#: views/components/share-dlg.jade:56 views/components/share-dlg.jade:64
+#: views/components/share-dlg.jade:76 views/components/step-switches.jade:61
+#: views/components/step-switches.jade:69
+#: views/components/step-switches.jade:77
+#: views/components/step-switches.jade:85
+#: views/components/step-switches.jade:93
+#: views/components/step-switches.jade:97
+#: views/components/step-switches.jade:105
+#: views/components/trip-detail.jade:296 views/components/trip-detail.jade:304
+#: views/components/trip-detail.jade:310 views/components/trip-detail.jade:320
+#: views/components/trip-detail.jade:336 views/components/trip-detail.jade:341
+#: views/components/trip-detail.jade:346 views/components/trip-detail.jade:354
+#: views/components/trip-detail.jade:359 views/components/trip-detail.jade:364
+#: views/components/trip-toolbar.jade:16 views/tripshot/tripshot.jade:133
 msgid "Cancel"
-msgstr "Cofnij zmiany"
+msgstr "Cofnij"
 
 #: views/board/board.jade:29 views/components/accounts.jade:37
 #: views/components/tour.jade:41
@@ -102,6 +117,27 @@ msgstr "Nie można zmienić hasła"
 #: views/components/accounts.jade:26
 msgid "Connected Accounts"
 msgstr "Podłączone konta"
+
+#: views/components/add-stops.jade:2 views/components/add-stops.jade:10
+#: views/components/dup-stops.jade:2 views/components/share-dlg.jade:56
+#: views/components/share-dlg.jade:64 views/components/share-dlg.jade:76
+#: views/components/step-switches.jade:61
+#: views/components/step-switches.jade:69
+#: views/components/step-switches.jade:77
+#: views/components/step-switches.jade:85
+#: views/components/step-switches.jade:93
+#: views/components/step-switches.jade:97
+#: views/components/step-switches.jade:105
+#: views/components/trip-detail.jade:296 views/components/trip-detail.jade:304
+#: views/components/trip-detail.jade:310 views/components/trip-detail.jade:320
+#: views/components/trip-detail.jade:336 views/components/trip-detail.jade:341
+#: views/components/trip-detail.jade:346 views/components/trip-detail.jade:354
+#: views/components/trip-detail.jade:359 views/components/trip-detail.jade:364
+#: views/components/trip-toolbar.jade:16 views/components/warning.jade:9
+#: views/mobile/app.jade:28 views/mobile/app.jade:39
+#: views/tripshot/tripshot.jade:136
+msgid "OK"
+msgstr "OK"
 
 #: views/components/add-stops.jade:2
 msgid "Plan stops"
@@ -3218,15 +3254,15 @@ msgstr "Zmień środka transportu"
 
 #: views/components/step-detail.jade:344 views/components/trip-detail.jade:259
 msgid "Driving"
-msgstr "Samochód"
+msgstr "Samochodem"
 
 #: views/components/step-detail.jade:347
 msgid "Motorcycle"
-msgstr "Motocykl"
+msgstr "Motocyklem"
 
 #: views/components/step-detail.jade:350
 msgid "Bicycle"
-msgstr "Rower"
+msgstr "Rowerem"
 
 #: views/components/step-detail.jade:353 views/components/trip-detail.jade:261
 msgid "Walking"
@@ -3318,18 +3354,18 @@ msgstr "Kliknij, aby zmienić czas, w którym w końcu ten dzień podróży"
 msgid ""
 "Click anywhere on the map to drop a pin representing the start of your trip."
 msgstr ""
-"Kliknij w dowolnym miejscu na mapie, aby upuścić pin reprezentujący "
-"rozpoczęcia podróży."
+"Kliknij w dowolnym miejscu na mapie, aby umieścić symbol reprezentujący "
+"początek podróży."
 
 #. L10n: square brackets [] denote a button (icon)
 #: views/components/step-detail.jade:454
 msgid "Use the new stop [] button above to type-in the address."
-msgstr "Użyj przycisku [] Nowy postój powyżej wpisać w adresie."
+msgstr "Użyj przycisku nowy postój [] powyżej aby wpisać adres."
 
 #. L10n: followed by the FIND drawer trigger and period .
 #: views/components/step-detail.jade:456
 msgid "Search for places to visit using"
-msgstr "Szukaj miejsc do odwiedzenia za pomocą"
+msgstr "Szukaj miejsc do odwiedzenia w szufladzie"
 
 #: views/components/step-detail.jade:461
 msgid "Fold this route details"
@@ -3342,6 +3378,11 @@ msgstr "Omijany"
 #: views/components/step-item.jade:26
 msgid "Deleted"
 msgstr "Usunięty"
+
+#. L10n: 3-letter word is ideal; use abbreviation if translated word exceeds 4 letters
+#: views/components/step-item.jade:73
+msgid "day"
+msgstr "dn."
 
 #: views/components/step-lodging.jade:3
 msgid "More rooms may be available"
@@ -3697,7 +3738,7 @@ msgstr "Liczba Osób w Pokoju"
 
 #: views/components/trip-detail.jade:4
 msgid "Change trip type"
-msgstr "Zmienić typ podróży"
+msgstr "Zmień typ podróży"
 
 #: views/components/trip-detail.jade:20 views/components/trip-item.jade:20
 msgid "Delete this trip"
@@ -3737,7 +3778,7 @@ msgstr "Wpisz nazwę podróży"
 
 #: views/components/trip-detail.jade:59
 msgid "Type trip name. Furkot will use it to orient the map"
-msgstr "Wpisz nazwę podróży. Furkot użyje go ustawić mapę"
+msgstr "Wpisz nazwę podróży. Furkot użyje jej do zorientowania mapy"
 
 #: views/components/trip-detail.jade:63 views/components/trip-detail.jade:64
 msgid "Click to modify trip name"
@@ -3922,7 +3963,7 @@ msgstr "Rowerem"
 
 #: views/components/trip-detail.jade:265
 msgid "Per Day"
-msgstr "Na Dzień"
+msgstr "Dziennie"
 
 #: views/components/trip-detail.jade:268
 msgid "Average"
@@ -3930,7 +3971,7 @@ msgstr "Średnio"
 
 #: views/components/trip-detail.jade:272
 msgid "Description of this trip"
-msgstr "Opis tej podróży"
+msgstr "Opis podróży"
 
 #: views/components/trip-detail.jade:275
 msgid "Click to edit trip tags"
@@ -4207,11 +4248,6 @@ msgid ""
 msgstr ""
 "Nie można utworzyć własnej wersji podróży podczas przeglądania w trybie "
 "prywatnym."
-
-#: views/components/warning.jade:9 views/mobile/app.jade:28
-#: views/mobile/app.jade:39 views/tripshot/tripshot.jade:136
-msgid "OK"
-msgstr "OK"
 
 #: views/connect.jade:7
 msgid "Sign in with"
