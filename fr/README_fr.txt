@@ -1,5 +1,5 @@
-README
--
+README for French translation
+=============================
 
 Common words:
 
@@ -8,11 +8,11 @@ Common words:
 * stop: étape
 * pass-through stop: étape de transition
 * route: route
-* track: ?
+* track: piste
 * place: lieu
-* skip (stop): mis de côté
+* skip (stop): ignoré (mis de côté ?)
 * overnight lodging: logement d’une nuit
-* trip drawer: tiroir de voyage (classeur?)
+* drawer (in UI): tiroir
 * ready-made trips: voyages prédéfinis
-* Road Trip Planner
+* Road Trip Planner: Road Trip Planner
 * tripshot: tripshot
