@@ -15,4 +15,7 @@ Common words:
 * drawer (in UI): tiroir
 * ready-made trips: voyages prédéfinis
 * Road Trip Planner: Road Trip Planner
-* tripshot: tripshot
+* tripshot: tripshot (sic)
+
+Other:
+* Use of "indicatif" / "impératif" are sometimes not consistent (e.g. "Cliquer" / "Cliquez"). "Impératif" should be preferred for actions, but some verbs are not common in "impératif" for UIs (e.g. "Voir les ..." is more common than "Voyez les ...". Could deserve a dedicated review.
