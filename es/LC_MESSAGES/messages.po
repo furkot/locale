@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2015-04-13 16:15+0000\n"
+"POT-Creation-Date: 2015-04-19 21:41+0000\n"
 "PO-Revision-Date: 2015-04-13 15:54+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -12,9 +12,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: views/app.jade:4 views/tripshot/tripshot.jade:201
+msgid "My Trips"
+msgstr ""
+
 #. L10n: square brackets [] denote a link
 #: views/board/board.jade:7 views/tripshot/map.jade:32
-#: views/tripshot/tripshot.jade:102 views/tripshot/widget.jade:29
+#: views/tripshot/tripshot.jade:115 views/tripshot/widget.jade:29
 msgid "Plan with [Furkot]"
 msgstr ""
 
@@ -38,12 +42,28 @@ msgstr ""
 msgid "Suggest"
 msgstr ""
 
-#: views/board/board.jade:28 views/components/dialog.jade:7
-#: views/components/import-dlg.jade:65 views/tripshot/tripshot.jade:133
+#: views/board/board.jade:28 views/components/add-stops.jade:2
+#: views/components/add-stops.jade:10 views/components/dialog.jade:7
+#: views/components/dup-stops.jade:2 views/components/import-dlg.jade:65
+#: views/components/share-dlg.jade:56 views/components/share-dlg.jade:64
+#: views/components/share-dlg.jade:76 views/components/step-switches.jade:61
+#: views/components/step-switches.jade:69
+#: views/components/step-switches.jade:77
+#: views/components/step-switches.jade:85
+#: views/components/step-switches.jade:93
+#: views/components/step-switches.jade:97
+#: views/components/step-switches.jade:105
+#: views/components/trip-detail.jade:296 views/components/trip-detail.jade:304
+#: views/components/trip-detail.jade:310 views/components/trip-detail.jade:320
+#: views/components/trip-detail.jade:336 views/components/trip-detail.jade:341
+#: views/components/trip-detail.jade:346 views/components/trip-detail.jade:354
+#: views/components/trip-detail.jade:359 views/components/trip-detail.jade:364
+#: views/components/trip-toolbar.jade:16 views/tripshot/tripshot.jade:146
 msgid "Cancel"
 msgstr ""
 
-#: views/board/board.jade:29
+#: views/board/board.jade:29 views/components/accounts.jade:37
+#: views/components/tour.jade:41
 msgid "Close"
 msgstr ""
 
@@ -95,6 +115,27 @@ msgstr ""
 msgid "Connected Accounts"
 msgstr ""
 
+#: views/components/add-stops.jade:2 views/components/add-stops.jade:10
+#: views/components/dup-stops.jade:2 views/components/share-dlg.jade:56
+#: views/components/share-dlg.jade:64 views/components/share-dlg.jade:76
+#: views/components/step-switches.jade:61
+#: views/components/step-switches.jade:69
+#: views/components/step-switches.jade:77
+#: views/components/step-switches.jade:85
+#: views/components/step-switches.jade:93
+#: views/components/step-switches.jade:97
+#: views/components/step-switches.jade:105
+#: views/components/trip-detail.jade:296 views/components/trip-detail.jade:304
+#: views/components/trip-detail.jade:310 views/components/trip-detail.jade:320
+#: views/components/trip-detail.jade:336 views/components/trip-detail.jade:341
+#: views/components/trip-detail.jade:346 views/components/trip-detail.jade:354
+#: views/components/trip-detail.jade:359 views/components/trip-detail.jade:364
+#: views/components/trip-toolbar.jade:16 views/components/warning.jade:9
+#: views/mobile/app.jade:31 views/mobile/app.jade:42
+#: views/tripshot/tripshot.jade:149
+msgid "OK"
+msgstr ""
+
 #: views/components/add-stops.jade:2
 msgid "Plan stops"
 msgstr ""
@@ -138,7 +179,8 @@ msgstr ""
 
 #: views/components/book-trip.jade:25 views/components/book-trip.jade:32
 #: views/components/import-dlg.jade:67
-#: views/components/new-trip-wizard.jade:117 views/mobile/app.jade:106
+#: views/components/new-trip-wizard.jade:117 views/components/tour.jade:42
+#: views/mobile/app.jade:109
 msgid "Next"
 msgstr ""
 
@@ -149,12 +191,12 @@ msgstr ""
 
 #: views/components/book-trip.jade:29 views/components/export-dlg.jade:74
 #: views/components/import-dlg.jade:72 views/components/share-dlg.jade:53
-#: views/tripshot/tripshot.jade:139 views/tripshot/tripshot.jade:155
+#: views/tripshot/tripshot.jade:152 views/tripshot/tripshot.jade:168
 msgid "Learn more"
 msgstr ""
 
-#: views/components/book-trip.jade:32 views/mobile/app.jade:44
-#: views/mobile/app.jade:55
+#: views/components/book-trip.jade:32 views/mobile/app.jade:47
+#: views/mobile/app.jade:58
 msgid "Back"
 msgstr ""
 
@@ -212,8 +254,7 @@ msgstr ""
 
 #: views/components/book-trip.jade:46
 msgid ""
-"Make sure the hotel name and address in Furkot matches the one that you "
-"booked."
+"Make sure the hotel name and address in Furkot match the one that you booked."
 msgstr ""
 
 #: views/components/book-trip.jade:49
@@ -361,12 +402,12 @@ msgid "Show lodgings from"
 msgstr ""
 
 #: views/components/dialog.jade:5 views/components/place-switch.jade:161
-#: views/tripshot/tripshot.jade:131
+#: views/tripshot/tripshot.jade:144
 msgid "Cancel changes"
 msgstr ""
 
 #: views/components/dialog.jade:8 views/components/place-switch.jade:163
-#: views/tripshot/tripshot.jade:134
+#: views/tripshot/tripshot.jade:147
 msgid "Accept changes"
 msgstr ""
 
@@ -634,6 +675,26 @@ msgstr ""
 msgid "Redo visit stop"
 msgstr ""
 
+#: views/components/header.jade:4 views/footer.jade:17
+msgid "Mobile"
+msgstr ""
+
+#: views/components/header.jade:7
+msgid ""
+"Sign up to share your trip with friends and to access it from other "
+"computers and browsers."
+msgstr ""
+
+#: views/components/header.jade:9 views/components/share-dlg.jade:2
+#: views/welcome/signup-page.jade:30 views/widget/plan.jade:58
+msgid "Sign up"
+msgstr ""
+
+#: views/components/header.jade:11 views/login-form.jade:9
+#: views/widget/plan.jade:57
+msgid "Sign in"
+msgstr ""
+
 #: views/components/import-dlg.jade:2
 msgid "Import Trip"
 msgstr ""
@@ -676,7 +737,8 @@ msgstr ""
 #: views/components/trip-config-item.jade:46
 #: views/components/trip-config-item.jade:70
 #: views/components/trip-detail.jade:105 views/components/trip-detail.jade:218
-#: views/components/trip-detail.jade:228
+#: views/components/trip-detail.jade:228 views/tripshot/tripshot.jade:19
+#: views/tripshot/tripshot.jade:62
 msgid "km"
 msgstr ""
 
@@ -741,7 +803,7 @@ msgid "File size limit for all types is 8MB."
 msgstr ""
 
 #: views/components/import-dlg.jade:66
-#: views/components/new-trip-wizard.jade:116 views/mobile/app.jade:104
+#: views/components/new-trip-wizard.jade:116 views/mobile/app.jade:107
 msgid "Previous"
 msgstr ""
 
@@ -920,6 +982,10 @@ msgstr ""
 
 #: views/components/new-trip-wizard.jade:17
 msgid "Start point"
+msgstr ""
+
+#: views/components/new-trip-wizard.jade:20
+msgid "Starting from home"
 msgstr ""
 
 #: views/components/new-trip-wizard.jade:23
@@ -1146,7 +1212,7 @@ msgstr ""
 msgid "Use buttons above to show points of interest on the map."
 msgstr ""
 
-#: views/components/place-detail.jade:8 views/mobile/app.jade:57
+#: views/components/place-detail.jade:8 views/mobile/app.jade:60
 msgid "Stop"
 msgstr ""
 
@@ -2201,7 +2267,7 @@ msgid "Hide gas stations from myGasFeed"
 msgstr ""
 
 #: views/components/places.jade:215
-msgid "Add this this road or trail as a skipped stop"
+msgid "Add this road or trail as a skipped stop"
 msgstr ""
 
 #: views/components/places.jade:215
@@ -2542,7 +2608,7 @@ msgid "Hide deals from Yipit"
 msgstr ""
 
 #: views/components/print.jade:15 views/components/step-detail.jade:294
-#: views/components/step-detail.jade:439 views/tripshot/tripshot.jade:41
+#: views/components/step-detail.jade:439 views/tripshot/tripshot.jade:54
 msgid "Day"
 msgstr ""
 
@@ -2552,12 +2618,6 @@ msgstr ""
 
 #: views/components/share-dlg.jade:2
 msgid "Sign Up"
-msgstr ""
-
-#: views/components/share-dlg.jade:2 views/header.jade:8
-#: views/welcome/header.jade:9 views/welcome/signup-page.jade:27
-#: views/widget/plan.jade:58
-msgid "Sign up"
 msgstr ""
 
 #: views/components/share-dlg.jade:3
@@ -3275,6 +3335,11 @@ msgstr ""
 msgid "Deleted"
 msgstr ""
 
+#. L10n: 3-letter word is ideal; use abbreviation if translated word exceeds 4 letters
+#: views/components/step-item.jade:73
+msgid "day"
+msgstr ""
+
 #: views/components/step-lodging.jade:3
 msgid "More rooms may be available"
 msgstr ""
@@ -3562,7 +3627,8 @@ msgid "Fuel Range"
 msgstr ""
 
 #: views/components/trip-config-item.jade:47
-#: views/components/trip-detail.jade:229
+#: views/components/trip-detail.jade:229 views/tripshot/tripshot.jade:19
+#: views/tripshot/tripshot.jade:62
 msgid "miles"
 msgstr ""
 
@@ -4069,6 +4135,10 @@ msgstr ""
 msgid "Display ready-made trips"
 msgstr ""
 
+#: views/components/trips.jade:19
+msgid "Inspire me"
+msgstr ""
+
 #. L10n: square brackets [] denote a button
 #: views/components/trips.jade:23
 msgid "Click on the [plus] sign to add a new trip."
@@ -4078,11 +4148,6 @@ msgstr ""
 msgid ""
 "You cannot create your own version of this trip when browsing in private "
 "mode."
-msgstr ""
-
-#: views/components/warning.jade:9 views/mobile/app.jade:28
-#: views/mobile/app.jade:39 views/tripshot/tripshot.jade:136
-msgid "OK"
 msgstr ""
 
 #: views/connect.jade:7
@@ -4097,68 +4162,53 @@ msgstr ""
 msgid "Feedback"
 msgstr ""
 
-#: views/footer.jade:7
+#: views/footer.jade:8
 msgid "Terms"
 msgstr ""
 
-#: views/footer.jade:10
+#: views/footer.jade:11
 msgid "Credits"
 msgstr ""
 
-#: views/footer.jade:13
+#: views/footer.jade:14
 msgid "Disclaimer"
 msgstr ""
 
-#: views/footer.jade:16 views/header.jade:28 views/welcome/header.jade:26
-msgid "Mobile"
-msgstr ""
-
-#: views/footer.jade:18 views/header.jade:2 views/welcome/header.jade:2
-#: views/welcome/header.jade:4
+#: views/footer.jade:19 views/header.jade:4 views/welcome/header.jade:4
+#: views/welcome/header.jade:6
 msgid "Help"
 msgstr ""
 
-#: views/footer.jade:20
+#: views/footer.jade:21
 msgid "Blog"
 msgstr ""
 
-#: views/footer.jade:23
+#: views/footer.jade:24
 msgid "Affiliates"
 msgstr ""
 
-#: views/footer.jade:25
+#: views/footer.jade:26
 msgid "Questions or suggestions?"
 msgstr ""
 
-#: views/footer.jade:26 views/mobile/footer.jade:4
+#: views/footer.jade:27 views/mobile/footer.jade:4
 msgid "E-mail Furkot"
 msgstr ""
 
-#: views/footer.jade:28 views/mobile/footer.jade:6 views/welcome/index.jade:38
+#: views/footer.jade:29 views/mobile/footer.jade:6 views/welcome/index.jade:38
 msgid "Follow Furkot"
 msgstr ""
 
-#: views/footer.jade:30 views/mobile/footer.jade:8 views/welcome/index.jade:40
+#: views/footer.jade:31 views/mobile/footer.jade:8 views/welcome/index.jade:40
 msgid "Like Furkot"
 msgstr ""
 
-#: views/header.jade:6 views/welcome/header.jade:7
-msgid ""
-"Sign up to share your trip with friends and to access it from other "
-"computers and browsers."
-msgstr ""
-
-#: views/header.jade:11 views/login-form.jade:9 views/welcome/header.jade:12
-#: views/widget/plan.jade:57
-msgid "Sign in"
-msgstr ""
-
-#: views/header.jade:14 views/welcome/header.jade:15
-#: views/welcome/header.jade:17 views/widget/plan.jade:59
+#: views/header.jade:8 views/welcome/header.jade:9
+#: views/welcome/header.jade:11 views/widget/plan.jade:59
 msgid "Sign out"
 msgstr ""
 
-#: views/header.jade:18
+#: views/header.jade:12
 msgid "Account settings"
 msgstr ""
 
@@ -4170,101 +4220,101 @@ msgid ""
 "all roads"
 msgstr ""
 
-#: views/login-form.jade:3 views/welcome/signup-page.jade:18
+#: views/login-form.jade:3 views/welcome/signup-page.jade:21
 msgid "Nickname"
 msgstr ""
 
-#: views/login-form.jade:6 views/welcome/signup-page.jade:21
+#: views/login-form.jade:6 views/welcome/signup-page.jade:24
 msgid "Password"
 msgstr ""
 
-#: views/mobile/app.jade:10 views/mobile/app.jade:45
+#: views/mobile/app.jade:13 views/mobile/app.jade:48
 msgid "Trips"
 msgstr ""
 
-#: views/mobile/app.jade:12
+#: views/mobile/app.jade:15
 msgid "Sync"
 msgstr ""
 
-#: views/mobile/app.jade:14
+#: views/mobile/app.jade:17
 msgid "Sign Out"
 msgstr ""
 
-#: views/mobile/app.jade:18 views/mobile/app.jade:50
+#: views/mobile/app.jade:21 views/mobile/app.jade:53
 msgid "Top"
 msgstr ""
 
-#: views/mobile/app.jade:19
+#: views/mobile/app.jade:22
 msgid "Full Site"
 msgstr ""
 
-#: views/mobile/app.jade:23 views/mobile/app.jade:32 views/mobile/app.jade:65
+#: views/mobile/app.jade:26 views/mobile/app.jade:35 views/mobile/app.jade:68
 msgid "Info"
 msgstr ""
 
-#: views/mobile/app.jade:25
+#: views/mobile/app.jade:28
 msgid "Looks like driving information is missing from some trips."
 msgstr ""
 
 #. L10n: square brackets [] denote a link
-#: views/mobile/app.jade:27
+#: views/mobile/app.jade:30
 msgid ""
 "Not to worry, open Furkot's [full site], go to the trip and the driving "
 "information will be automatically updated."
 msgstr ""
 
-#: views/mobile/app.jade:34
+#: views/mobile/app.jade:37
 msgid "Looks like there are no trips to show here."
 msgstr ""
 
 #. L10n: square brackets [] denote a link; pair of _underscores_ denotes different formatting
-#: views/mobile/app.jade:36
+#: views/mobile/app.jade:39
 msgid ""
 "Not to worry, open Furkot's [full site], go to your trip and press the "
 "_Phone_ button."
 msgstr ""
 
 #. L10n: square brackets [] denote a link
-#: views/mobile/app.jade:38
+#: views/mobile/app.jade:41
 msgid ""
 "Press [Sync] to have the up-to-date version of your trips downloaded to your "
 "mobile device."
 msgstr ""
 
-#: views/mobile/app.jade:46 views/mobile/app.jade:56
+#: views/mobile/app.jade:49 views/mobile/app.jade:59
 msgid "Stops"
 msgstr ""
 
-#: views/mobile/app.jade:83
+#: views/mobile/app.jade:86
 msgid "Navigate"
 msgstr ""
 
-#: views/mobile/app.jade:85
+#: views/mobile/app.jade:88
 msgid "Navigation Apps"
 msgstr ""
 
-#: views/mobile/app.jade:87
+#: views/mobile/app.jade:90
 msgid "Navigate to"
 msgstr ""
 
-#: views/mobile/app.jade:89
+#: views/mobile/app.jade:92
 msgid "Exact coordinates"
 msgstr ""
 
-#: views/mobile/app.jade:91
+#: views/mobile/app.jade:94
 msgid "Stop address"
 msgstr ""
 
-#: views/mobile/app.jade:93
+#: views/mobile/app.jade:96
 msgid "Install the app before you select it"
 msgstr ""
 
-#: views/mobile/app.jade:96
+#: views/mobile/app.jade:99
 msgid "Default nav app"
 msgstr ""
 
 #. L10n: verb - as in 'reserve'
-#: views/mobile/app.jade:99
+#: views/mobile/app.jade:102
 msgid "Book"
 msgstr ""
 
@@ -4290,69 +4340,92 @@ msgid ""
 "while traveling. Use Furkot on your phone or tablet on the go."
 msgstr ""
 
-#: views/relay.jade:16
+#: views/relay.jade:8
+msgid "here"
+msgstr ""
+
+#: views/relay.jade:25
 msgid "Please wait while Furkot is contacting the booking site"
 msgstr ""
 
 #. L10n: followed by a target webpage logo or a phrase 'here'
-#: views/relay.jade:20
+#: views/relay.jade:29
 msgid "If it is taking too long click"
-msgstr ""
-
-#: views/relay.jade:28 views/relay.jade:34
-msgid "here"
 msgstr ""
 
 #: views/relay.jade:41
 msgid "Booking site is in a separate window"
 msgstr ""
 
+#. L10n: curly brackets {} are placeholders for trip start and end point respectively
+#: views/tripshot/tripshot.jade:27
+msgid "From {} to {}."
+msgstr ""
+
+#. L10n: curly brackets {} are placeholders for trip time (as in 'X days') and distance respectively
 #: views/tripshot/tripshot.jade:31
+msgid "{} and {} kilometers of new adventures."
+msgstr ""
+
+#. L10n: curly brackets {} are placeholders for trip time (as in 'X days') and distance respectively
+#: views/tripshot/tripshot.jade:34
+msgid "{} and {} miles of new adventures."
+msgstr ""
+
+#: views/tripshot/tripshot.jade:36
+msgid "You too can use Furkot to plan your next road trip."
+msgstr ""
+
+#: views/tripshot/tripshot.jade:44
 msgid "Insert your own trip photo here"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:116
+#: views/tripshot/tripshot.jade:95 views/tripshot/tripshot.jade:105
+msgid "Book cover"
+msgstr ""
+
+#: views/tripshot/tripshot.jade:121
+msgid "Edit trip snapshot"
+msgstr ""
+
+#: views/tripshot/tripshot.jade:129
 msgid "Link to the trip photo"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:119
+#: views/tripshot/tripshot.jade:132
 msgid "Link to more info about the trip"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:122
+#: views/tripshot/tripshot.jade:135
 msgid "Select the best travel guide for the trip"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:127
+#: views/tripshot/tripshot.jade:140
 msgid "Search travel guides by title, author, place(s), keyword(s)"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:128
+#: views/tripshot/tripshot.jade:141
 msgid "Run the search"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:145
+#: views/tripshot/tripshot.jade:158
 msgid "Embed in website"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:151
+#: views/tripshot/tripshot.jade:164
 msgid "Copy and paste to embed in your website"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:167
+#: views/tripshot/tripshot.jade:180
 msgid "Itinerary"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:168
+#: views/tripshot/tripshot.jade:181
 msgid "Guidebooks"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:169
+#: views/tripshot/tripshot.jade:182
 msgid "Comments"
-msgstr ""
-
-#: views/tripshot/tripshot.jade:188
-msgid "My Trips"
 msgstr ""
 
 #: views/welcome/blurbs.jade:3
@@ -4534,8 +4607,17 @@ msgstr ""
 msgid "Forgot your password?"
 msgstr ""
 
+#. L10n: short phrase describing what Furkot is displayed under the logo. As 'road trip' may not translate well, translation meaning 'trip planner' or 'trip planning' is acceptable
+#: views/welcome/header.jade:17
+msgid "road trip planner"
+msgstr ""
+
 #: views/welcome/index.jade:4
-msgid " | Free Road Trip Planner | Map Your Route"
+msgid "Free Road Trip Planner"
+msgstr ""
+
+#: views/welcome/index.jade:4
+msgid "Map Your Route"
 msgstr ""
 
 #: views/welcome/index.jade:12
@@ -4564,7 +4646,7 @@ msgid "Subscribe to Furkot"
 msgstr ""
 
 #: views/welcome/login-page.jade:4
-msgid " | Sign in to Road Trip Planner"
+msgid "Sign in to Road Trip Planner"
 msgstr ""
 
 #: views/welcome/login-page.jade:7
@@ -4598,14 +4680,14 @@ msgid "To sign in as a different user [click here]"
 msgstr ""
 
 #: views/welcome/signup-page.jade:4
-msgid " | Sign up for Road Trip Planner"
+msgid "Sign up for Road Trip Planner"
 msgstr ""
 
 #: views/welcome/signup-page.jade:7
 msgid "Sign up for an account at Furkot, a free online road trip planner."
 msgstr ""
 
-#: views/welcome/signup-page.jade:24
+#: views/welcome/signup-page.jade:27
 msgid "Confirm"
 msgstr ""
 
