@@ -75,6 +75,17 @@ To update a `.po` file you run:
 
     make hu/LC_MESSAGES/messages.po  # only updates Hungarian location
 
+## Generating _translated-only_ version
+
+Sometimes you need a translated text - for example to run it through the spell checker.
+
+To generate translated-only text file
+
+    make <locale>.txt
+
+For example for German
+
+    make de.txt
 
 ## Credits
 
