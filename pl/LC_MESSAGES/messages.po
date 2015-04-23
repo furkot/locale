@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2015-04-17 01:03+0000\n"
-"PO-Revision-Date: 2015-04-15 10:41-0500\n"
-"Last-Translator: <pirxpilot@code42day.com>\n"
+"POT-Creation-Date: 2015-04-19 21:41+0000\n"
+"PO-Revision-Date: 2015-04-19 17:44-0500\n"
+"Last-Translator:   <melitele@code42day.com>\n"
 "Language-Team: none\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -19,13 +19,13 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.7.5\n"
 
-#: views/app.jade:4 views/tripshot/tripshot.jade:188
+#: views/app.jade:4 views/tripshot/tripshot.jade:201
 msgid "My Trips"
 msgstr "Podróże"
 
 #. L10n: square brackets [] denote a link
 #: views/board/board.jade:7 views/tripshot/map.jade:32
-#: views/tripshot/tripshot.jade:102 views/tripshot/widget.jade:29
+#: views/tripshot/tripshot.jade:115 views/tripshot/widget.jade:29
 msgid "Plan with [Furkot]"
 msgstr "Zaplanuj na [Furkocie]"
 
@@ -65,7 +65,7 @@ msgstr "Dodaj"
 #: views/components/trip-detail.jade:336 views/components/trip-detail.jade:341
 #: views/components/trip-detail.jade:346 views/components/trip-detail.jade:354
 #: views/components/trip-detail.jade:359 views/components/trip-detail.jade:364
-#: views/components/trip-toolbar.jade:16 views/tripshot/tripshot.jade:133
+#: views/components/trip-toolbar.jade:16 views/tripshot/tripshot.jade:146
 msgid "Cancel"
 msgstr "Cofnij"
 
@@ -139,7 +139,7 @@ msgstr "Podłączone konta"
 #: views/components/trip-detail.jade:359 views/components/trip-detail.jade:364
 #: views/components/trip-toolbar.jade:16 views/components/warning.jade:9
 #: views/mobile/app.jade:31 views/mobile/app.jade:42
-#: views/tripshot/tripshot.jade:136
+#: views/tripshot/tripshot.jade:149
 msgid "OK"
 msgstr "OK"
 
@@ -198,7 +198,7 @@ msgstr "Koniec"
 
 #: views/components/book-trip.jade:29 views/components/export-dlg.jade:74
 #: views/components/import-dlg.jade:72 views/components/share-dlg.jade:53
-#: views/tripshot/tripshot.jade:139 views/tripshot/tripshot.jade:155
+#: views/tripshot/tripshot.jade:152 views/tripshot/tripshot.jade:168
 msgid "Learn more"
 msgstr "Więcej informacji"
 
@@ -272,8 +272,7 @@ msgstr "Furkot wróci do planowania podróży."
 
 #: views/components/book-trip.jade:46
 msgid ""
-"Make sure the hotel name and address in Furkot matches the one that you "
-"booked."
+"Make sure the hotel name and address in Furkot match the one that you booked."
 msgstr ""
 "Upewnij się, że nazwa i adres w Furkocie odpowiada zarezerwowanemu hotelowi."
 
@@ -422,12 +421,12 @@ msgid "Show lodgings from"
 msgstr "Pokaż kwatery z"
 
 #: views/components/dialog.jade:5 views/components/place-switch.jade:161
-#: views/tripshot/tripshot.jade:131
+#: views/tripshot/tripshot.jade:144
 msgid "Cancel changes"
 msgstr "Cofnij zmiany"
 
 #: views/components/dialog.jade:8 views/components/place-switch.jade:163
-#: views/tripshot/tripshot.jade:134
+#: views/tripshot/tripshot.jade:147
 msgid "Accept changes"
 msgstr "Zatwierdź zmiany"
 
@@ -762,7 +761,8 @@ msgstr "Średnia prędkość"
 #: views/components/trip-config-item.jade:46
 #: views/components/trip-config-item.jade:70
 #: views/components/trip-detail.jade:105 views/components/trip-detail.jade:218
-#: views/components/trip-detail.jade:228
+#: views/components/trip-detail.jade:228 views/tripshot/tripshot.jade:19
+#: views/tripshot/tripshot.jade:62
 msgid "km"
 msgstr "km"
 
@@ -2318,7 +2318,7 @@ msgid "Hide gas stations from myGasFeed"
 msgstr "Ukryj stacje benzynowe z myGasFeed"
 
 #: views/components/places.jade:215
-msgid "Add this this road or trail as a skipped stop"
+msgid "Add this road or trail as a skipped stop"
 msgstr "Dodaj drogę lub szlak jako omijany postój"
 
 #: views/components/places.jade:215
@@ -2659,7 +2659,7 @@ msgid "Hide deals from Yipit"
 msgstr "Ukryj promocje z Yipit"
 
 #: views/components/print.jade:15 views/components/step-detail.jade:294
-#: views/components/step-detail.jade:439 views/tripshot/tripshot.jade:41
+#: views/components/step-detail.jade:439 views/tripshot/tripshot.jade:54
 msgid "Day"
 msgstr "Dzień"
 
@@ -3729,7 +3729,8 @@ msgid "Fuel Range"
 msgstr "Zasięg"
 
 #: views/components/trip-config-item.jade:47
-#: views/components/trip-detail.jade:229
+#: views/components/trip-detail.jade:229 views/tripshot/tripshot.jade:19
+#: views/tripshot/tripshot.jade:62
 msgid "miles"
 msgstr "mile"
 
@@ -4480,64 +4481,91 @@ msgstr ""
 "Zabierz plan ze sobą w podróż. Użyj Furkota na telefonie lub tablecie w "
 "podróży."
 
-#: views/relay.jade:16
+#: views/relay.jade:8
+msgid "here"
+msgstr "tutaj"
+
+#: views/relay.jade:25
 msgid "Please wait while Furkot is contacting the booking site"
 msgstr "Poczekaj aż Furkot otworzy stronę internetową serwisu rezerwacyjnego"
 
 #. L10n: followed by a target webpage logo or a phrase 'here'
-#: views/relay.jade:20
+#: views/relay.jade:29
 msgid "If it is taking too long click"
 msgstr "Jeśli trwa to zbyt długo, kliknij"
-
-#: views/relay.jade:28 views/relay.jade:34
-msgid "here"
-msgstr "tutaj"
 
 #: views/relay.jade:41
 msgid "Booking site is in a separate window"
 msgstr "Strona serwisu rezerwacyjnego jest w osobnym oknie"
 
-#: views/tripshot/tripshot.jade:31
-msgid "Insert your own trip photo here"
-msgstr "Wstaw tu zdjęce dla swojej podróży"
+#. L10n: curly brackets {} are placeholders for trip start and end point respectively
+#: views/tripshot/tripshot.jade:27
+msgid "From {} to {}."
+msgstr "{} - {}."
 
-#: views/tripshot/tripshot.jade:116
+#. L10n: curly brackets {} are placeholders for trip time (as in 'X days') and distance respectively
+#: views/tripshot/tripshot.jade:31
+msgid "{} and {} kilometers of new adventures."
+msgstr "{} i {} kilometrów nowych przygód."
+
+#. L10n: curly brackets {} are placeholders for trip time (as in 'X days') and distance respectively
+#: views/tripshot/tripshot.jade:34
+msgid "{} and {} miles of new adventures."
+msgstr "{} i {} mil nowych przygód."
+
+#: views/tripshot/tripshot.jade:36
+msgid "You too can use Furkot to plan your next road trip."
+msgstr "Ty też możesz zaplanować swoją następną podróż z pomocą Furkota."
+
+#: views/tripshot/tripshot.jade:44
+msgid "Insert your own trip photo here"
+msgstr "Wstaw tu zdjęcie dla swojej podróży"
+
+#: views/tripshot/tripshot.jade:95 views/tripshot/tripshot.jade:105
+msgid "Book cover"
+msgstr "Okładka książki"
+
+#: views/tripshot/tripshot.jade:121
+msgid "Edit trip snapshot"
+msgstr "Edytuj podróż"
+
+#: views/tripshot/tripshot.jade:129
 msgid "Link to the trip photo"
 msgstr "Link do zdjęcia dla podróży"
 
-#: views/tripshot/tripshot.jade:119
+#: views/tripshot/tripshot.jade:132
 msgid "Link to more info about the trip"
 msgstr "Link do informacji o podróży"
 
-#: views/tripshot/tripshot.jade:122
+#: views/tripshot/tripshot.jade:135
 msgid "Select the best travel guide for the trip"
 msgstr "Wybierz najlepszy przewodnik turystyczny dla podróży"
 
-#: views/tripshot/tripshot.jade:127
+#: views/tripshot/tripshot.jade:140
 msgid "Search travel guides by title, author, place(s), keyword(s)"
 msgstr "Szukaj przewodników według tytułu, autora, miejsc, słów kluczowych"
 
-#: views/tripshot/tripshot.jade:128
+#: views/tripshot/tripshot.jade:141
 msgid "Run the search"
 msgstr "Uruchom wyszukiwanie"
 
-#: views/tripshot/tripshot.jade:145
+#: views/tripshot/tripshot.jade:158
 msgid "Embed in website"
 msgstr "Umieść na swojej stronie internetowej"
 
-#: views/tripshot/tripshot.jade:151
+#: views/tripshot/tripshot.jade:164
 msgid "Copy and paste to embed in your website"
 msgstr "Skopiuj i wklej, aby umieścić na swojej stronie internetowej"
 
-#: views/tripshot/tripshot.jade:167
+#: views/tripshot/tripshot.jade:180
 msgid "Itinerary"
 msgstr "Plan"
 
-#: views/tripshot/tripshot.jade:168
+#: views/tripshot/tripshot.jade:181
 msgid "Guidebooks"
 msgstr "Przewodniki"
 
-#: views/tripshot/tripshot.jade:169
+#: views/tripshot/tripshot.jade:182
 msgid "Comments"
 msgstr "Komentarze"
 
@@ -4767,7 +4795,8 @@ msgstr "Odpowiedzi nie muszą być dokładne."
 msgid "Forgot your password?"
 msgstr "Zapomniałeś hasła?"
 
-#: views/welcome/header.jade:16
+#. L10n: short phrase describing what Furkot is displayed under the logo. As 'road trip' may not translate well, translation meaning 'trip planner' or 'trip planning' is acceptable
+#: views/welcome/header.jade:17
 msgid "road trip planner"
 msgstr "planowanie podróży"
 
