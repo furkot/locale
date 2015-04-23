@@ -65,12 +65,16 @@ toggle that state.
 
 If you don't see you language open an issue or [e-mail us][furkot-email]
 
-Alternatively - but only if you are comfortable with gettext toolkit - you can
-also use `msginit`. For example to add Hungarian:
+Alternatively - but only if you are comfortable with [gettext] toolkit - you can
+also use `make`. For example to add Hungarian add `hu` to `LANGUAGES` variable
+and then run.
 
-    msginit --input=templates/LC_MESSAGES/messages.pot \
-    	--output-file=locale/hu/LC_MESSAGES/messages.po \
-    	--locale hu
+    make
+
+To update a `.po` file you run:
+
+    make hu/LC_MESSAGES/messages.po  # only updates Hungarian location
+
 
 ## Credits
 
