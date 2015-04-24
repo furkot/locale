@@ -18,6 +18,10 @@ all: $(PO_FILES)
 %/LC_MESSAGES:
 	mkdir -p $@
 
+# translated only text only version
+%.txt: %/LC_MESSAGES/messages.po
+	msgexec --input $< 0 | xargs -0 -I M echo M > $@
+
 # merge existing po files with new template
 merge:
 	$(foreach po,$(PO_FILES), $(MSGMERGE) $(po) $(POT);)
