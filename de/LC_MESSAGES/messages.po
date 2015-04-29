@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2015-04-25 01:04+0000\n"
-"PO-Revision-Date: 2015-04-28 17:49+0100\n"
-"Last-Translator: melitele@code42day.com\n"
+"PO-Revision-Date: 2015-04-28 20:03-0500\n"
+"Last-Translator:   <melitele@code42day.com>\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -28,6 +28,8 @@ msgid "Plan with [Furkot]"
 msgstr "Plane mit [Furkot]"
 
 # I hope it means adding something?
+# --
+# Location of the place
 #. L10n: "Place location" is the name or address of a place that the user wants to add to the trip
 #: views/board/board.jade:12
 #, fuzzy
@@ -402,6 +404,10 @@ msgid "Replace selected stop with this lodging"
 msgstr "Ersetzen Sie die ausgewählt Unterkunft mit dieser Unterkunft"
 
 # Not clear what this is?
+# —
+# lodging host profile - webpage with the information about the host (owner) of the lodging
+# --
+# it is displayed for private rooms for rent
 #. L10n: displayed for Roomorama/AirBnB - link to the profile page of the lodging host/owner
 #: views/components/bookable.jade:61 views/temp.jade:4
 #, fuzzy
@@ -1318,6 +1324,10 @@ msgid "Route"
 msgstr "Routen"
 
 # what is a backtrack
+# --
+# When selecting a route from the Find drawer (for instance a scenic byway - US only), you can either travel that route in one direction or in reverse (backtrack)
+# --
+# Backtrack = Reverse
 #: views/components/place-detail.jade:16
 #, fuzzy
 msgid "Backtrack"
@@ -3002,10 +3012,8 @@ msgstr "Offroad Route"
 msgid "Driving route"
 msgstr "Fahrstrecke"
 
-# Not sure what it means
 #. L10n: Overlook as a scenic viewpoint or a vista point
 #: views/components/step-detail.jade:104
-#, fuzzy
 msgid "Overlook"
 msgstr "Aussichtspunkt"
 
@@ -3117,10 +3125,8 @@ msgstr "Rabatt"
 msgid "Other"
 msgstr "Andere"
 
-# not sure what it means
 #. L10n: Pass-through (stop) is a point anchoring route in place - displayed as a small circle on the map and as a stop of zero duration in the itinerary
 #: views/components/step-detail.jade:189
-#, fuzzy
 msgid "Pass-through"
 msgstr "Durchreisen"
 
@@ -3177,6 +3183,10 @@ msgid "Up"
 msgstr "Oben"
 
 # not sure what it means or does
+# —
+# Inbound means when returning
+# --
+# Most stops in the loop trip will have either In or Out button that switches the stop from one half of the loop to the other
 #. L10n: cue for the "In" button - changing the stop to be visited on the return leg (inbound) instead of when traveling outward (loop trips only)
 #: views/components/step-detail.jade:224
 #, fuzzy
@@ -3184,6 +3194,10 @@ msgid "Visit this place traveling inbound"
 msgstr "Besuchen Sie diesen Ort reisen Inbound"
 
 # need to know in/outbound first
+# --
+# Most commonly those words are used  when refering to round trip (especially  on the train) with outbound meaning traveling to your destination and inbound - returning.
+# --
+# If there are no words like that in German, translation of “To (somewhere)” for outbound and “From (somewhere)” for inbound may be good approximation
 #. L10n: "In" button - change the stop to be visited on the return leg (inbound) instead of when traveling outward (loop trips only)
 #: views/components/step-detail.jade:227
 #, fuzzy
@@ -3191,6 +3205,10 @@ msgid "In"
 msgstr "In"
 
 # not sure what it does means
+# —
+# Outbound means when travelling toward a destination
+# --
+# Most stops in the loop trip will have either In or Out button that switches the stop from one half of the loop to the other
 #. L10n: cue for the "Out" button - changing the stop to be visited traveling outward (outbound) instead of on the return leg (loop trips only)
 #: views/components/step-detail.jade:229
 #, fuzzy
@@ -3406,6 +3424,12 @@ msgid "Regular route"
 msgstr "Stammstrecke"
 
 # What is meant?
+# --
+# Regular is a button that recalculates a route using a standard algorithm. It shows up on locked routes.
+# —
+# Each route has either Alternate or Regular button. If you click Alternate and then select the grey route, you should see Regular button. If you click it, Furkot will show a grey route again that you can select.
+# —
+# Regular = Straight
 #: views/components/step-detail.jade:381
 #, fuzzy
 msgid "Regular"
@@ -4132,6 +4156,10 @@ msgid "Click to edit trip tags"
 msgstr "Klicken Sie hier um Tour-Tags zu bearbeiten"
 
 # what is labels means
+# —
+# labels are keywords - words or phrases that you can use to classify trips
+# --
+# if you specify labels in th eTrip drawer, you can then view trips in the My Trips page groups by those labels (tags) using a Tag button (at the top of the My Trips screen, looks like a price tag)
 #: views/components/trip-detail.jade:281
 #, fuzzy
 msgid "Comma-separated trip tags (labels)"
@@ -4515,6 +4543,12 @@ msgid "Top"
 msgstr "Top-"
 
 # what does this mean?
+# —
+# this text is displayed in the Mobile page - “full site” means a regular desktop version of Furkot website
+# —
+# there is a link “Mobile” in the footer of Furkot 
+# website that you can use to switch to mobile 
+# version. In the mobile version there is a button “Full site” that you can use to switch back
 #: views/mobile/app.jade:22
 #, fuzzy
 msgid "Full Site"
@@ -4525,12 +4559,20 @@ msgid "Info"
 msgstr "Information"
 
 # What is driving information, which vehicle?
+# --
+# in this context “driving information” means “information about the route”
 #: views/mobile/app.jade:28
 #, fuzzy
 msgid "Looks like driving information is missing from some trips."
 msgstr "Es sieht so aus als wenn Fahr Informationen bei einigen Touren fehlt."
 
 # Again what means full site? Mainpage?
+# --
+# this text is displayed in the Mobile page - “full site” means a regular desktop version of Furkot website
+# —
+# there is a link “Mobile” in the footer of Furkot 
+# website that you can use to switch to mobile 
+# version. In the mobile version there is a button “Full site” that you can use to switch back
 #. L10n: square brackets [] denote a link
 #: views/mobile/app.jade:30
 #, fuzzy
@@ -4546,6 +4588,10 @@ msgid "Looks like there are no trips to show here."
 msgstr "Es sieht so aus, als wenn hier keine Touren angezeigt werden."
 
 # Again what means full site? Mainpage?
+# --
+# this text is displayed in the Mobile page - “full site” means a regular desktop version of Furkot website
+# —
+# there is a link “Mobile” in the footer of Furkot website that you can use to switch to mobile version. In the mobile version there is a button “Full site” that you can use to switch back
 #. L10n: square brackets [] denote a link; pair of _underscores_ denotes different formatting
 #: views/mobile/app.jade:39
 #, fuzzy
@@ -4615,6 +4661,12 @@ msgstr ""
 "Ihre Touren zu sehen."
 
 # Full Site again???
+# —
+# this text is displayed in the Mobile page - “full site” means a regular desktop version of Furkot website
+# —
+# there is a link “Mobile” in the footer of Furkot 
+# website that you can use to switch to mobile 
+# version. In the mobile version there is a button “Full site” that you can use to switch back
 #. L10n: square brackets [] denote a link
 #: views/mobile/index.jade:26
 #, fuzzy
@@ -4824,6 +4876,8 @@ msgstr ""
 "Reiseroute zu landen ."
 
 # Wow a difficult sentence, please explain.
+# —
+# Cars don’t drive over water but Furkot will route you to the closest point on land and you can take a boat from there. You can [drive and dive] with Furkot.
 #. L10n: square brackets [] denote a link
 #: views/welcome/blurbs.jade:39
 #, fuzzy
@@ -4837,6 +4891,10 @@ msgstr ""
 "eine Bootsfahrt machen. Sie können [fahren und tauchen] mit Furkot."
 
 # shredding corduroy  and Trees or bowls cant find translation
+# —
+# Or maybe shredding corduroy is your thing? = Do you prefer groomed ski trails?
+# —
+# Trees or bowls? = Do you prefer to ski between trees or in the open valley?
 #. L10n: square brackets [] denote a link
 #: views/welcome/blurbs.jade:42
 #, fuzzy
