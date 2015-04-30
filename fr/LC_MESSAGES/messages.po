@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2015-04-29 05:07+0000\n"
-"PO-Revision-Date: 2015-04-29 08:36-0800\n"
-"Last-Translator: melitele@code42day.com\n"
+"POT-Creation-Date: 2015-05-01 05:00+0000\n"
+"PO-Revision-Date: 2015-05-01 01:40-0500\n"
+"Last-Translator:   <melitele@code42day.com>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8beta1\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #: views/app.jade:4 views/tripshot/tripshot.jade:191
 msgid "My Trips"
@@ -47,25 +47,26 @@ msgstr "Suggérer"
 #: views/board/board.jade:29 views/components/add-stops.jade:2
 #: views/components/add-stops.jade:10 views/components/dialog.jade:7
 #: views/components/dup-stops.jade:2 views/components/import-dlg.jade:65
-#: views/components/share-dlg.jade:62 views/components/share-dlg.jade:70
-#: views/components/share-dlg.jade:82 views/components/step-switches.jade:61
+#: views/components/share-dlg.jade:75 views/components/share-dlg.jade:83
+#: views/components/share-dlg.jade:95 views/components/step-switches.jade:61
 #: views/components/step-switches.jade:69
 #: views/components/step-switches.jade:77
 #: views/components/step-switches.jade:85
 #: views/components/step-switches.jade:93
 #: views/components/step-switches.jade:97
 #: views/components/step-switches.jade:105
-#: views/components/trip-detail.jade:312 views/components/trip-detail.jade:320
-#: views/components/trip-detail.jade:326 views/components/trip-detail.jade:336
-#: views/components/trip-detail.jade:352 views/components/trip-detail.jade:357
-#: views/components/trip-detail.jade:362 views/components/trip-detail.jade:370
-#: views/components/trip-detail.jade:375 views/components/trip-detail.jade:380
+#: views/components/trip-detail.jade:318 views/components/trip-detail.jade:326
+#: views/components/trip-detail.jade:332 views/components/trip-detail.jade:342
+#: views/components/trip-detail.jade:358 views/components/trip-detail.jade:363
+#: views/components/trip-detail.jade:368 views/components/trip-detail.jade:376
+#: views/components/trip-detail.jade:381 views/components/trip-detail.jade:386
 #: views/components/trip-toolbar.jade:17 views/tripshot/tripshot.jade:135
 msgid "Cancel"
 msgstr "Annuler"
 
-#: views/board/board.jade:30 views/components/accounts.jade:37
-#: views/components/share-dlg.jade:91 views/components/tour.jade:41
+#. L10n: Invitation to share a trip
+#: views/board/board.jade:30 views/components/accounts.jade:56
+#: views/components/share-dlg.jade:105 views/components/tour.jade:41
 msgid "Close"
 msgstr "Fermer"
 
@@ -79,53 +80,121 @@ msgstr "Retour"
 msgid "Account Settings"
 msgstr "Paramètres du compte"
 
+#. L10n: Signature is a public name shown to others
 #: views/components/accounts.jade:6
-msgid "Current Password"
-msgstr "Mot de passe actuel"
+#, fuzzy
+msgid "Signature"
+msgstr "Signature"
 
 #: views/components/accounts.jade:7
-msgid "Current password"
-msgstr "Mot de passe actuel"
+#, fuzzy
+msgid "Signature is your public name shown to others"
+msgstr "Signature est votre nom public pour les autres à voir"
 
-#: views/components/accounts.jade:9
+#: views/components/accounts.jade:7
+#, fuzzy
+msgid "public name"
+msgstr "nom public"
+
+#. L10n: Email in a sense of the "email address"
+#: views/components/accounts.jade:11
+#, fuzzy
+msgid "Email"
+msgstr "E-mail"
+
+#. L10n: Email in a sense of the "email address"
+#: views/components/accounts.jade:13
+#, fuzzy
+msgid "Email is only used to reset forgotten password and to share trips"
+msgstr ""
+"Email est utilisé seulement pour réinitialiser un mot de passe oublié et à "
+"partager voyages"
+
+#. L10n: Email in a sense of the "email address"
+#: views/components/accounts.jade:13
+#, fuzzy
+msgid "email is optional"
+msgstr "e-mail est facultative"
+
+#. L10n: Nickname is a private identifier used to sign in
+#: views/components/accounts.jade:18
+msgid "Nickname"
+msgstr "Pseudo"
+
+#: views/components/accounts.jade:19
+#, fuzzy
+msgid "Nickname is your private identifier used to sign in"
+msgstr "Pseudo est votre identifiant privée utilisée pour vous connecter"
+
+#: views/components/accounts.jade:19
+#, fuzzy
+msgid "private identifier"
+msgstr "identifiant privée"
+
+#: views/components/accounts.jade:22
 msgid "New Password"
 msgstr "Nouveau mot de passe"
 
-#: views/components/accounts.jade:12
-msgid "Confirm Password"
-msgstr "Confirmez le mot de passe"
+#. L10n: leave empty (password) unless changing (password or settings)
+#: views/components/accounts.jade:24
+#, fuzzy
+msgid "Leave it empty unless you want to change password"
+msgstr "Laissez-le vide, sauf si vous voulez changer le mot de passe"
 
-#: views/components/accounts.jade:13
-msgid "Confirm password"
-msgstr "Confirmez le mot de passe"
+#. L10n: leave empty (password) unless changing (password or settings)
+#: views/components/accounts.jade:24
+#, fuzzy
+msgid "leave empty unless changing"
+msgstr "laisser vide, sauf si le changement"
 
-#: views/components/accounts.jade:15
+#: views/components/accounts.jade:27
+msgid "Current Password"
+msgstr "Mot de passe actuel"
+
+#. L10n: (password is) needed to change settings
+#: views/components/accounts.jade:29
+#, fuzzy
+msgid "The current password is necessary to change settings"
+msgstr "Le mot de passe actuel est nécessaire pour modifier les paramètres"
+
+#. L10n: (password is) needed to change settings
+#: views/components/accounts.jade:29
+#, fuzzy
+msgid "needed to change settings"
+msgstr "nécessaire pour modifier les paramètres"
+
+#: views/components/accounts.jade:32
 msgid "Change"
 msgstr "Modifier"
 
-#: views/components/accounts.jade:18
+#: views/components/accounts.jade:35
 msgid "Password changed successfully"
 msgstr "Mot de passe changé avec succès"
 
-#: views/components/accounts.jade:20
-msgid "Password and confirmation do not match"
-msgstr "Les mots de passe ne correspondent pas"
+#: views/components/accounts.jade:36
+#, fuzzy
+msgid "Settings changed successfully"
+msgstr "Les paramètres changé avec succès"
 
-#: views/components/accounts.jade:21
-msgid "Missing password"
-msgstr "Mot de passe requis"
-
-#: views/components/accounts.jade:22
+#. L10n: Password cannot be changed
+#: views/components/accounts.jade:39
+#, fuzzy
 msgid "Cannot change password"
-msgstr "Vous ne pouvez pas changer le mot de passe"
+msgstr "Le mot de passe ne peut pas être changé"
 
-#: views/components/accounts.jade:26
+#. L10n: Settings cannot be changed
+#: views/components/accounts.jade:41
+#, fuzzy
+msgid "Cannot change settings"
+msgstr "Les paramètres ne peut pas être changé"
+
+#: views/components/accounts.jade:45
 msgid "Connected Accounts"
 msgstr "Comptes connectés"
 
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:10
-#: views/components/dup-stops.jade:2 views/components/share-dlg.jade:62
-#: views/components/share-dlg.jade:70 views/components/share-dlg.jade:82
+#: views/components/dup-stops.jade:2 views/components/share-dlg.jade:75
+#: views/components/share-dlg.jade:83 views/components/share-dlg.jade:95
 #: views/components/step-switches.jade:61
 #: views/components/step-switches.jade:69
 #: views/components/step-switches.jade:77
@@ -133,11 +202,11 @@ msgstr "Comptes connectés"
 #: views/components/step-switches.jade:93
 #: views/components/step-switches.jade:97
 #: views/components/step-switches.jade:105
-#: views/components/trip-detail.jade:312 views/components/trip-detail.jade:320
-#: views/components/trip-detail.jade:326 views/components/trip-detail.jade:336
-#: views/components/trip-detail.jade:352 views/components/trip-detail.jade:357
-#: views/components/trip-detail.jade:362 views/components/trip-detail.jade:370
-#: views/components/trip-detail.jade:375 views/components/trip-detail.jade:380
+#: views/components/trip-detail.jade:318 views/components/trip-detail.jade:326
+#: views/components/trip-detail.jade:332 views/components/trip-detail.jade:342
+#: views/components/trip-detail.jade:358 views/components/trip-detail.jade:363
+#: views/components/trip-detail.jade:368 views/components/trip-detail.jade:376
+#: views/components/trip-detail.jade:381 views/components/trip-detail.jade:386
 #: views/components/trip-toolbar.jade:17 views/components/warning.jade:9
 #: views/mobile/app.jade:31 views/mobile/app.jade:42
 #: views/tripshot/tripshot.jade:138
@@ -198,7 +267,7 @@ msgid "Done"
 msgstr "Terminé"
 
 #: views/components/book-trip.jade:29 views/components/export-dlg.jade:74
-#: views/components/import-dlg.jade:72 views/components/share-dlg.jade:59
+#: views/components/import-dlg.jade:72 views/components/share-dlg.jade:72
 #: views/tripshot/tripshot.jade:141 views/tripshot/tripshot.jade:157
 msgid "Learn more"
 msgstr "En savoir plus"
@@ -715,11 +784,11 @@ msgstr ""
 "partir d'autres ordinateurs et navigateurs."
 
 #: views/components/header.jade:9 views/components/share-dlg.jade:2
-#: views/welcome/signup-page.jade:30 views/widget/plan.jade:58
+#: views/widget/plan.jade:58
 msgid "Sign up"
 msgstr "S’inscrire"
 
-#: views/components/header.jade:11 views/login-form.jade:9
+#: views/components/header.jade:11 views/login-form.jade:3
 #: views/widget/plan.jade:57
 msgid "Sign in"
 msgstr "Se connecter"
@@ -768,7 +837,7 @@ msgid "Average speed"
 msgstr "Vitesse moyenne"
 
 #. L10n: abbreviation of kilometer
-#: views/components/import-dlg.jade:32 views/components/step-detail.jade:414
+#: views/components/import-dlg.jade:32 views/components/step-detail.jade:422
 #: views/components/trip-config-item.jade:46
 #: views/components/trip-config-item.jade:70
 #: views/components/trip-detail.jade:106 views/components/trip-detail.jade:230
@@ -779,7 +848,7 @@ msgid "km"
 msgstr "km"
 
 #. L10n: abbreviation of mile
-#: views/components/import-dlg.jade:33 views/components/step-detail.jade:415
+#: views/components/import-dlg.jade:33 views/components/step-detail.jade:423
 #: views/components/trip-config-item.jade:71
 #: views/components/trip-detail.jade:108 views/components/trip-detail.jade:231
 msgid "mi"
@@ -954,7 +1023,7 @@ msgstr "Afficher les détails du voyage"
 
 #. L10n: Label on the handle of the TRIP drawer
 #. L10n: label for time/distance covered since beginning of the trip
-#: views/components/map.jade:64 views/components/step-detail.jade:340
+#: views/components/map.jade:64 views/components/step-detail.jade:346
 msgid "Trip"
 msgstr "Voyage"
 
@@ -1006,7 +1075,7 @@ msgid "Show points of interest"
 msgstr "Montrer les points d'intérêt"
 
 #. L10n: Label on the handle of the FIND drawer - can be also translated as "Search" or "Places of Interest" or "Attractions"
-#: views/components/map.jade:100 views/components/step-detail.jade:472
+#: views/components/map.jade:100 views/components/step-detail.jade:480
 msgid "Find"
 msgstr "Chercher"
 
@@ -1230,17 +1299,17 @@ msgid "Walking trip"
 msgstr "Voyage à pied"
 
 #: views/components/new-trip-wizard.jade:80
-#: views/components/step-detail.jade:419 views/components/trip-detail.jade:30
+#: views/components/step-detail.jade:427 views/components/trip-detail.jade:30
 msgid "Highways"
 msgstr "Autoroutes"
 
 #: views/components/new-trip-wizard.jade:81
-#: views/components/step-detail.jade:420 views/components/trip-detail.jade:31
+#: views/components/step-detail.jade:428 views/components/trip-detail.jade:31
 msgid "Avoid highways where possible"
 msgstr "Eviter les autoroutes si possible"
 
 #: views/components/new-trip-wizard.jade:81
-#: views/components/step-detail.jade:420 views/components/trip-detail.jade:31
+#: views/components/step-detail.jade:428 views/components/trip-detail.jade:31
 msgid "Prefer highways where available"
 msgstr "Privilégiez les autoroutes si possible"
 
@@ -1356,15 +1425,19 @@ msgstr "Nouveau"
 msgid "Stay"
 msgstr "Rester"
 
+#: views/components/place-detail.jade:43
+msgid "Pets allowed"
+msgstr "Animaux acceptés"
+
 #: views/components/place-detail.jade:63
 msgid "Add stop"
 msgstr "Ajouter une étape"
 
-#: views/components/place-detail.jade:63 views/components/trip-detail.jade:302
+#: views/components/place-detail.jade:63 views/components/trip-detail.jade:308
 msgid "No"
 msgstr "Non"
 
-#: views/components/place-detail.jade:63 views/components/trip-detail.jade:302
+#: views/components/place-detail.jade:63 views/components/trip-detail.jade:308
 msgid "Yes"
 msgstr "Oui"
 
@@ -2563,7 +2636,7 @@ msgid "Copy stop from its trip to this one"
 msgstr "Copier l’étape de son voyage d’origine à ce voyage"
 
 #: views/components/places.jade:288 views/components/places.jade:307
-#: views/components/step-detail.jade:475
+#: views/components/step-detail.jade:483
 msgid "Fold this stop details"
 msgstr "Cacher les détails de cette étape"
 
@@ -2731,8 +2804,8 @@ msgstr "Offres de Yipit"
 msgid "Hide deals from Yipit"
 msgstr "Cacher les offres de Yipit"
 
-#: views/components/print.jade:15 views/components/step-detail.jade:304
-#: views/components/step-detail.jade:453 views/tripshot/tripshot.jade:42
+#: views/components/print.jade:15 views/components/step-detail.jade:310
+#: views/components/step-detail.jade:461 views/tripshot/tripshot.jade:42
 msgid "Day"
 msgstr "Jour"
 
@@ -2764,7 +2837,7 @@ msgstr ""
 "Laissez les gens vous inspirer. Ils verront votre voyage et vous suggèreront "
 "des lieux, mais vous seul pourrez ajouter des étapes."
 
-#: views/components/share-dlg.jade:12 views/components/share-dlg.jade:44
+#: views/components/share-dlg.jade:12 views/components/share-dlg.jade:57
 msgid "They will know where you are planning to go but not when."
 msgstr "Ils sauront où vous prévoyez d'aller mais pas quand."
 
@@ -2774,7 +2847,7 @@ msgstr ""
 "Cliquez sur le bouton Demander Aux Autres pour prévisualiser comment les "
 "autres vont voir votre voyage."
 
-#: views/components/share-dlg.jade:15 views/components/share-dlg.jade:47
+#: views/components/share-dlg.jade:15 views/components/share-dlg.jade:60
 msgid "You will be able to select how you want to share on the next page."
 msgstr "Vous pourrez choisir vos préférences de partage sur la page suivante."
 
@@ -2809,36 +2882,58 @@ msgstr ""
 "Saisissez les adresses e-mail des amis que vous souhaitez inviter dans le "
 "champ ci-dessous."
 
-#: views/components/share-dlg.jade:26
+#: views/components/share-dlg.jade:27
 msgid "Email addresses of your friends"
 msgstr "Adresses e-mail de vos amis"
 
-#: views/components/share-dlg.jade:29
-msgid "From"
-msgstr "De"
-
-#: views/components/share-dlg.jade:30
-msgid "Your email address"
-msgstr "Votre adresse e-mail"
-
-#: views/components/share-dlg.jade:31
+#: views/components/share-dlg.jade:28
 msgid "Authorize friends to modify the trip"
 msgstr "Autoriser les amis à modifier le voyage"
 
-#: views/components/share-dlg.jade:31
+#: views/components/share-dlg.jade:28
 msgid "Restrict friends to viewing the trip only"
 msgstr "Limiter les amis à seulement consulter le voyage"
 
+#: views/components/share-dlg.jade:35
+msgid "From"
+msgstr "De"
+
 #: views/components/share-dlg.jade:37
+msgid "Your email address"
+msgstr "Votre adresse e-mail"
+
+#: views/components/share-dlg.jade:38
+#, fuzzy
+msgid "Your signature"
+msgstr "Votre signature"
+
+#: views/components/share-dlg.jade:44
+#, fuzzy
+msgid "Save your email address for future use"
+msgstr "Enregistrez votre adresse e-mail pour une utilisation future"
+
+#: views/components/share-dlg.jade:45
+#, fuzzy
+msgid "Your password"
+msgstr "Votre mot de passe"
+
+#: views/components/share-dlg.jade:45
+#, fuzzy
+msgid "Your password is necessary to save your email address for future use"
+msgstr ""
+"Votre mot de passe est nécessaire pour sauver votre adresse e-mail pour une "
+"utilisation future"
+
+#: views/components/share-dlg.jade:50
 msgid "Email selected friends to plan the trip together."
 msgstr ""
 "Envoyer l’e-mail aux amis sélectionnés pour planifier le voyage ensemble."
 
-#: views/components/share-dlg.jade:39
+#: views/components/share-dlg.jade:52
 msgid "Invite"
 msgstr "Inviter"
 
-#: views/components/share-dlg.jade:43
+#: views/components/share-dlg.jade:56
 msgid ""
 "Show off your trip. People will see your trip but they will not be able to "
 "modify it."
@@ -2846,69 +2941,77 @@ msgstr ""
 "Montrez votre voyage. Les gens verront votre voyage, mais ils ne seront pas "
 "en mesure de le modifier."
 
-#: views/components/share-dlg.jade:46
+#: views/components/share-dlg.jade:59
 msgid "Click Publish button to preview how others will see your trip."
 msgstr ""
 "Cliquez sur le bouton Publier pour prévisualiser comment les autres verront "
 "votre voyage."
 
-#: views/components/share-dlg.jade:52
+#: views/components/share-dlg.jade:65
 msgid "Share your trip with Furkot community"
 msgstr "Partagez votre voyage avec la communauté Furkot"
 
-#: views/components/share-dlg.jade:54
+#: views/components/share-dlg.jade:67
 msgid "Preview a snapshot of the trip to share with your friends."
 msgstr "Prévisualiser un aperçu du voyage à partager avec vos amis."
 
-#: views/components/share-dlg.jade:56
+#: views/components/share-dlg.jade:69
 msgid "Publish"
 msgstr "Publier"
 
-#: views/components/share-dlg.jade:62 views/components/share-dlg.jade:70
+#: views/components/share-dlg.jade:75 views/components/share-dlg.jade:83
 msgid "Remove from trip"
 msgstr "Supprimer du voyage"
 
 #. L10n: followed by the user name and a question mark ?
-#: views/components/share-dlg.jade:64
+#: views/components/share-dlg.jade:77
 msgid "Are you sure you want stop sharing this trip with"
 msgstr "Etes-vous sûr que vous voulez arrêter de partager ce voyage avec"
 
 #. L10n: followed by the user name and a period .
-#: views/components/share-dlg.jade:73
+#: views/components/share-dlg.jade:86
 msgid "This trip is owned by"
 msgstr "Ce voyage appartient à"
 
-#: views/components/share-dlg.jade:77
+#: views/components/share-dlg.jade:90
 msgid "This trip is owned by somebody else."
 msgstr "Ce voyage appartient à quelqu'un d'autre."
 
-#: views/components/share-dlg.jade:78
+#: views/components/share-dlg.jade:91
 msgid ""
 "Once you remove yourself, you will no longer be able to access this trip."
 msgstr "Si vous vous retirez, vous ne pourrez plus accéder à ce voyage."
 
-#: views/components/share-dlg.jade:79
+#: views/components/share-dlg.jade:92
 msgid "Are you sure want to remove yourself from this trip?"
 msgstr "Êtes-vous sûr de vouloir vous retirer de ce voyage ?"
 
-#: views/components/share-dlg.jade:82
+#: views/components/share-dlg.jade:95
 msgid "Change owner"
 msgstr "Changer le propriétaire"
 
 #. L10n: preceded by the user name
-#: views/components/share-dlg.jade:87
+#: views/components/share-dlg.jade:100
 msgid "will become the new owner of this trip."
 msgstr "deviendra le nouveau propriétaire de ce voyage."
 
-#: views/components/share-dlg.jade:88
+#: views/components/share-dlg.jade:101
 msgid "Are you sure you want to change this trip owner?"
 msgstr "Etes-vous sûr de vouloir changer le propriétaire de ce voyage ?"
 
-#: views/components/share-dlg.jade:92
+#. L10n: Invitation to share a trip
+#: views/components/share-dlg.jade:105
+#, fuzzy
+msgid "Invalid invitation"
+msgstr "Invitation invalide"
+
+#. L10n: Invitation to share a trip
+#: views/components/share-dlg.jade:107
 msgid "Looks like this invitation is no longer valid."
 msgstr "Il semble que cette invitation ne soit plus valide."
 
-#: views/components/share-dlg.jade:93
+#. L10n: Invitation to share a trip
+#: views/components/share-dlg.jade:109
 msgid "You may want to e-mail your friend to send you a new invitation."
 msgstr ""
 "Vous devriez demander à votre ami(e) de vous envoyer une nouvelle invitation."
@@ -3146,7 +3249,7 @@ msgstr "Guide"
 msgid "Discount"
 msgstr "Promotion"
 
-#: views/components/step-detail.jade:185 views/components/step-detail.jade:369
+#: views/components/step-detail.jade:185 views/components/step-detail.jade:375
 msgid "Other"
 msgstr "Autre"
 
@@ -3263,243 +3366,264 @@ msgstr "Téléphone"
 msgid "Click to modify phone number"
 msgstr "Cliquez pour modifier le numéro de téléphone"
 
-#: views/components/step-detail.jade:250 views/components/step-detail.jade:397
-msgid "Duration"
-msgstr "Durée"
+#. L10n: label for the number of nights at a lodging
+#: views/components/step-detail.jade:253
+#, fuzzy
+msgid "Nights"
+msgstr "Nuits"
 
-#: views/components/step-detail.jade:251 views/components/step-detail.jade:398
-msgid "Click to modify duration"
-msgstr "Cliquez pour modifier la durée"
-
-#: views/components/step-detail.jade:256
+#. L10n: the number of nights at a lodging
+#: views/components/step-detail.jade:255
 msgid "Click to modify number of nights"
 msgstr "Cliquez pour modifier le nombre de nuits"
 
+#. L10n: label for the time needed to visit a place - duration of the stop
 #: views/components/step-detail.jade:264
+msgid "Duration"
+msgstr "Durée"
+
+#. L10n: duration of the stop - the time needed to visit a place
+#: views/components/step-detail.jade:266
+msgid "Click to modify duration"
+msgstr "Cliquez pour modifier la durée"
+
+#: views/components/step-detail.jade:270
 msgid "Stay the night here"
 msgstr "Passez la nuit ici"
 
-#: views/components/step-detail.jade:264
+#: views/components/step-detail.jade:270
 msgid "Visit and go to the next stop"
 msgstr "Visitez et passez à l'étape suivante"
 
-#: views/components/step-detail.jade:270
+#: views/components/step-detail.jade:276
 msgid "View booking confirmation"
 msgstr "Voir la confirmation de réservation"
 
-#: views/components/step-detail.jade:274 views/components/step-detail.jade:435
+#: views/components/step-detail.jade:280 views/components/step-detail.jade:443
 msgid "Arrival"
 msgstr "Arrivée"
 
-#: views/components/step-detail.jade:275
+#: views/components/step-detail.jade:281
 msgid "Click to modify arrival date"
 msgstr "Cliquez pour modifier la date d'arrivée"
 
-#: views/components/step-detail.jade:276
+#: views/components/step-detail.jade:282
 msgid "Click to modify arrival time"
 msgstr "Cliquez pour modifier l'heure d'arrivée"
 
-#: views/components/step-detail.jade:277
+#: views/components/step-detail.jade:283
 msgid "Allow automatic changes"
 msgstr "Autoriser les changements automatiques"
 
-#: views/components/step-detail.jade:277
+#: views/components/step-detail.jade:283
 msgid "Prevent automatic changes"
 msgstr "Empêcher les modifications automatiques"
 
-#: views/components/step-detail.jade:284 views/components/step-detail.jade:443
+#: views/components/step-detail.jade:290 views/components/step-detail.jade:451
 msgid "Departure"
 msgstr "Départ"
 
-#: views/components/step-detail.jade:285
+#: views/components/step-detail.jade:291
 msgid "Click to modify departure date"
 msgstr "Cliquez pour modifier la date de départ"
 
-#: views/components/step-detail.jade:286
+#: views/components/step-detail.jade:292
 msgid "Click to modify departure time"
 msgstr "Cliquez pour modifier l'heure de départ"
 
-#: views/components/step-detail.jade:292
+#: views/components/step-detail.jade:298
 msgid "Forecast"
 msgstr "Météo"
 
-#: views/components/step-detail.jade:293
+#: views/components/step-detail.jade:299
 msgid "View current weather forecast"
 msgstr "Voir les prévisions météo actuelles"
 
-#: views/components/step-detail.jade:296 views/components/trip-detail.jade:73
+#: views/components/step-detail.jade:302 views/components/trip-detail.jade:73
 msgid "More Info"
 msgstr "Plus d’information"
 
-#: views/components/step-detail.jade:297
+#: views/components/step-detail.jade:303
 msgid "View webpage for this stop"
 msgstr "Voir la page web pour cette étape"
 
-#: views/components/step-detail.jade:301
+#: views/components/step-detail.jade:307
 msgid "Night"
 msgstr "Nuit"
 
-#: views/components/step-detail.jade:311
+#: views/components/step-detail.jade:317
 msgid "Sunrise"
 msgstr "Lever du soleil"
 
-#: views/components/step-detail.jade:314
+#: views/components/step-detail.jade:320
 msgid "Sunset"
 msgstr "Coucher du soleil"
 
-#: views/components/step-detail.jade:317
+#: views/components/step-detail.jade:323
 msgid "Elevation"
 msgstr "Élévation"
 
-#: views/components/step-detail.jade:320
+#: views/components/step-detail.jade:326
 msgid "Coordinates"
 msgstr "Coordonnées"
 
-#: views/components/step-detail.jade:321
+#: views/components/step-detail.jade:327
 msgid "Click to modify geographical coordinates"
 msgstr "Cliquez pour modifier les coordonnées géographiques"
 
-#: views/components/step-detail.jade:324 views/components/trip-detail.jade:285
+#: views/components/step-detail.jade:330 views/components/trip-detail.jade:285
 msgid "Click to edit description"
 msgstr "Cliquez pour modifier la description"
 
-#: views/components/step-detail.jade:324
+#: views/components/step-detail.jade:330
 msgid "Description of this stop"
 msgstr "Description de cette étape"
 
 #. L10n: label for time/distance covered since last stop
-#: views/components/step-detail.jade:332
+#: views/components/step-detail.jade:338
 msgid "Leg"
 msgstr "Etape"
 
 #. L10n: label for time/distance covered since last overnight stop - keep underscores _
-#: views/components/step-detail.jade:336
+#: views/components/step-detail.jade:342
 msgid "_Day_"
 msgstr "_Journée_"
 
-#: views/components/step-detail.jade:346 views/components/step-detail.jade:408
+#: views/components/step-detail.jade:352 views/components/step-detail.jade:416
 #: views/components/trip-config-item.jade:39
 #: views/components/trip-detail.jade:224
 msgid "km/h"
 msgstr "km/h"
 
-#: views/components/step-detail.jade:347 views/components/step-detail.jade:409
+#: views/components/step-detail.jade:353 views/components/step-detail.jade:417
 #: views/components/trip-config-item.jade:40
 #: views/components/trip-detail.jade:225
 msgid "mph"
 msgstr "mph"
 
-#: views/components/step-detail.jade:353
+#: views/components/step-detail.jade:359
 msgid "Change route type"
 msgstr "Changer le moyen de transport"
 
-#: views/components/step-detail.jade:357 views/components/trip-detail.jade:272
+#: views/components/step-detail.jade:363 views/components/trip-detail.jade:272
 msgid "Driving"
 msgstr "Conduite"
 
-#: views/components/step-detail.jade:360
+#: views/components/step-detail.jade:366
 msgid "Motorcycle"
 msgstr "Moto"
 
-#: views/components/step-detail.jade:363
+#: views/components/step-detail.jade:369
 msgid "Bicycle"
 msgstr "Vélo"
 
-#: views/components/step-detail.jade:366 views/components/trip-detail.jade:274
+#: views/components/step-detail.jade:372 views/components/trip-detail.jade:274
 msgid "Walking"
 msgstr "Marche"
 
-#: views/components/step-detail.jade:372
+#: views/components/step-detail.jade:378
 msgid "Reset this route"
 msgstr "Réinitialiser cette voie"
 
-#: views/components/step-detail.jade:374
+#: views/components/step-detail.jade:380
 msgid "Reset"
 msgstr "Réinitialiser"
 
-#: views/components/step-detail.jade:375
+#: views/components/step-detail.jade:381
 msgid "Alternative to this route"
 msgstr "Alternative à cette route"
 
 #. L10n: "Alternate" route can be translated as "Detour" unless detour has a negative flavor, i.e. means that something is wrong with the normal road
-#: views/components/step-detail.jade:378
+#: views/components/step-detail.jade:384
 msgid "Alternate"
 msgstr "Alternative"
 
-#: views/components/step-detail.jade:379
+#: views/components/step-detail.jade:385
 msgid "Regular route"
 msgstr "Ligne régulière"
 
-#: views/components/step-detail.jade:381
+#: views/components/step-detail.jade:387
 msgid "Regular"
 msgstr "Régulier"
 
-#: views/components/step-detail.jade:391
+#: views/components/step-detail.jade:397
 msgid "Routing"
 msgstr "Routage"
 
-#: views/components/step-detail.jade:392
+#: views/components/step-detail.jade:398
 msgid "Preserve this route when adding new stops"
 msgstr "Préserver cette route lors de l'ajout de nouvelles étapes"
 
-#: views/components/step-detail.jade:392
+#: views/components/step-detail.jade:398
 msgid "Re-route when adding new stops"
 msgstr "Re-router lors de l'ajout de nouvelles étapes"
 
-#: views/components/step-detail.jade:403
+#. L10n: label for the time needed to cover the route between two stops - keep the underscores _
+#: views/components/step-detail.jade:404
+#, fuzzy
+msgid "_Duration_"
+msgstr "_Durée_"
+
+#. L10n: _duration_ is the time needed to cover the route between two stops - keep the underscores _
+#: views/components/step-detail.jade:406
+#, fuzzy
+msgid "Click to modify _duration_"
+msgstr "Cliquez pour modifier la _durée_"
+
+#: views/components/step-detail.jade:411
 #: views/components/trip-config-item.jade:35
 #: views/components/trip-detail.jade:219
 msgid "My Speed"
 msgstr "Ma vitesse"
 
-#: views/components/step-detail.jade:404 views/components/trip-detail.jade:220
+#: views/components/step-detail.jade:412 views/components/trip-detail.jade:220
 msgid "Click to adjust your average speed for more accurate travel times"
 msgstr ""
 "Cliquez pour ajuster votre vitesse moyenne pour des temps de déplacement "
 "plus précis"
 
-#: views/components/step-detail.jade:411 views/components/trip-detail.jade:227
+#: views/components/step-detail.jade:419 views/components/trip-detail.jade:227
 msgid "Constant average speed"
 msgstr "Vitesse moyenne constante"
 
-#: views/components/step-detail.jade:411 views/components/trip-detail.jade:227
+#: views/components/step-detail.jade:419 views/components/trip-detail.jade:227
 msgid "Slower/faster than standard travel time"
 msgstr "Plus lent/rapide que le temps de voyage normal"
 
 # TOCHECK "Routes à péage" is too long
-#: views/components/step-detail.jade:426 views/components/trip-detail.jade:36
+#: views/components/step-detail.jade:434 views/components/trip-detail.jade:36
 msgid "Toll Roads"
 msgstr "Péages"
 
-#: views/components/step-detail.jade:427 views/components/trip-detail.jade:37
+#: views/components/step-detail.jade:435 views/components/trip-detail.jade:37
 msgid "Avoid toll roads where possible"
 msgstr "Éviter les péages si possible"
 
-#: views/components/step-detail.jade:427 views/components/trip-detail.jade:37
+#: views/components/step-detail.jade:435 views/components/trip-detail.jade:37
 msgid "Prefer toll roads where available"
 msgstr "Préférez les routes à péage lorsqu’elles sont disponibles"
 
-#: views/components/step-detail.jade:459 views/components/trip-detail.jade:92
+#: views/components/step-detail.jade:467 views/components/trip-detail.jade:92
 msgid "Start a Day"
 msgstr "Commencer à"
 
-#: views/components/step-detail.jade:460
+#: views/components/step-detail.jade:468
 msgid "Click to modify the time at which you start travelling this day"
 msgstr ""
 "Cliquez pour modifier l'heure à laquelle vous commencez à voyager cette "
 "journée"
 
-#: views/components/step-detail.jade:461 views/components/trip-detail.jade:94
+#: views/components/step-detail.jade:469 views/components/trip-detail.jade:94
 msgid "End a Day"
 msgstr "Terminer à"
 
-#: views/components/step-detail.jade:462
+#: views/components/step-detail.jade:470
 msgid "Click to modify the time by which you end travelling this day"
 msgstr ""
 "Cliquez pour modifier l'heure à laquelle vous finissez de voyager cette "
 "journée"
 
-#: views/components/step-detail.jade:466
+#: views/components/step-detail.jade:474
 msgid ""
 "Click anywhere on the map to drop a pin representing the start of your trip."
 msgstr ""
@@ -3507,19 +3631,108 @@ msgstr ""
 "de votre voyage."
 
 #. L10n: square brackets [] denote a button (icon)
-#: views/components/step-detail.jade:468
+#: views/components/step-detail.jade:476
 msgid "Use the new stop [] button above to type-in the address."
 msgstr ""
 "Utilisez le bouton [] de nouvelle étape ci-dessus pour saisir l'adresse."
 
 #. L10n: followed by the FIND drawer trigger and period .
-#: views/components/step-detail.jade:470
+#: views/components/step-detail.jade:478
 msgid "Search for places to visit using"
 msgstr "Rechercher des lieux à visiter en utilisant"
 
-#: views/components/step-detail.jade:475
+#: views/components/step-detail.jade:483
 msgid "Fold this route details"
 msgstr "Cacher les détails de cet itinéraire"
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "Actual arrival on {} at {} is earlier than planned."
+msgstr "Arrivée effective sur {} au {} est au plus tôt que prévu."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "Actual arrival on {} at {} is later than planned."
+msgstr "Arrivée effective sur {} au {} est plus tard que prévu ."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "Actual departure on {} at {} is earlier than planned."
+msgstr "Départ effective sur {} au {} est au plus tôt que prévu ."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "Actual departure on {} at {} is later than planned."
+msgstr "Départ effective sur {} au {} est plus tard que prévu."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "Lodging on weekend not reserved yet."
+msgstr "Hébergement en week-end pas encore réservé."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "No arrival date."
+msgstr "Manque date d'arrivée."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "No departure date."
+msgstr "Manque date de départ."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "No gas station nearby."
+msgstr "Aucun station-service autour."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "No hotels around."
+msgstr "Aucun hôtel autour."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid ""
+"No route available (stops too far from roads or a road is seasonally closed)."
+msgstr ""
+"Pas de route disponibles (étapes trop loin des routes ou d'une route est "
+"saisonnière fermée)."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "Stop cannot be located."
+msgstr "Arrêt ne peut pas être localisé."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "The trip begins earlier on {} at {}."
+msgstr "Le voyage commence plus tôt le {} au {}."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "The trip begins later on {} at {}."
+msgstr "Le voyage commence plus tard le {} au {}."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "The trip ends earlier on {} at {}."
+msgstr "Le voyage se termine plus tôt le {} au {}."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "This is Saturday."
+msgstr "Etape est le samedi."
+
+#: views/components/step-detail.jade:485
+#, fuzzy
+msgid "Visit duration exceeds time between this day start and end."
+msgstr ""
+"Durée de la visite dépasse temps entre ce début et à la fin de la journée."
+
+#: views/components/step-item.jade:19
+#, fuzzy
+msgid "night"
+msgstr "nuit"
 
 #: views/components/step-item.jade:23
 msgid "Skipped"
@@ -4173,11 +4386,26 @@ msgstr "Anticiper les fermetures saisonnières pendant le voyage."
 msgid "Experimental"
 msgstr "Expérimental"
 
-#: views/components/trip-detail.jade:302
+#: views/components/trip-detail.jade:301
+#, fuzzy
+msgid "No begin date."
+msgstr "Manque date de début du voyage."
+
+#: views/components/trip-detail.jade:301
+#, fuzzy
+msgid "No end date."
+msgstr "Manque date de fin du voyage."
+
+#: views/components/trip-detail.jade:301
+#, fuzzy
+msgid "Trip ends before it begins."
+msgstr "Fin du voyage avant qu'il ne commence."
+
+#: views/components/trip-detail.jade:308
 msgid "Seasonal closures"
 msgstr "Fermetures saisonnières"
 
-#: views/components/trip-detail.jade:304
+#: views/components/trip-detail.jade:310
 msgid ""
 "Depending on your trip dates Furkot will include or exclude seasonally "
 "closed roads when calculating routes. The seasonal closures are based on the"
@@ -4186,7 +4414,7 @@ msgstr ""
 "saisonnières fermées lors du calcul des itinéraires. Les fermetures "
 "saisonnières sont basés sur le"
 
-#: views/components/trip-detail.jade:308
+#: views/components/trip-detail.jade:314
 msgid ""
 "This is an experimental feature. When enabled, calculating routes will take "
 "longer and may produce less reliable results."
@@ -4195,19 +4423,19 @@ msgstr ""
 "calcul d’itinéraire prendra plus de temps et peut produire des résultats "
 "moins fiables."
 
-#: views/components/trip-detail.jade:309
+#: views/components/trip-detail.jade:315
 msgid "Are you sure you want to enable it?"
 msgstr "Etes-vous sûr que vous voulez l'activer ?"
 
-#: views/components/trip-detail.jade:312
+#: views/components/trip-detail.jade:318
 msgid "No lodgings to book"
 msgstr "Aucun hébergement à réserver"
 
-#: views/components/trip-detail.jade:314
+#: views/components/trip-detail.jade:320
 msgid "This trip has no overnight stops to book lodging accommodations for."
 msgstr "Ce voyage n'a pas d’étape de nuit pour réserver d’hébergement."
 
-#: views/components/trip-detail.jade:315
+#: views/components/trip-detail.jade:321
 msgid ""
 "Booking hotels for the trip works best when you plan your itinerary first."
 msgstr ""
@@ -4215,7 +4443,7 @@ msgstr ""
 "commencez par planifier votre itinéraire avant."
 
 #. L10n: square brackets [] denote a button (icon)
-#: views/components/trip-detail.jade:317
+#: views/components/trip-detail.jade:323
 msgid ""
 "Add some overnight stops, pick hotels for them and then use the book [] "
 "button to let Furkot assist you with reservations."
@@ -4223,16 +4451,16 @@ msgstr ""
 "Ajoutez des étapes de nuit, choisissez des hôtels pour elles, puis utilisez "
 "le bouton de réservation [] pour laisser Furkot vous aider à réserver."
 
-#: views/components/trip-detail.jade:320
+#: views/components/trip-detail.jade:326
 msgid "All lodgings booked"
 msgstr "Tous les hébergements réservés"
 
-#: views/components/trip-detail.jade:321
+#: views/components/trip-detail.jade:327
 msgid "All future lodging accommodations for this trip are already booked."
 msgstr "Tous les hébergements ultérieurs pour ce voyage sont déjà réservés."
 
 #. L10n: square brackets [] denote a button (icon)
-#: views/components/trip-detail.jade:323
+#: views/components/trip-detail.jade:329
 msgid ""
 "If you plan more overnight stops, add them to the trip now and use the book "
 "[] button to let Furkot assist you with reservations."
@@ -4241,55 +4469,55 @@ msgstr ""
 "maintenant et utilisez le bouton de réservation [] pour laisser Furkot vous "
 "aider à réserver"
 
-#: views/components/trip-detail.jade:326
+#: views/components/trip-detail.jade:332
 msgid "Automatically scheduled refueling stop"
 msgstr "Planifier automatiquement l’étape pour faire le plein d’essence"
 
-#: views/components/trip-detail.jade:328
+#: views/components/trip-detail.jade:334
 msgid "This is an automatically scheduled refueling stop."
 msgstr ""
 "Cette étape a été planifiée automatiquement pour faire le plein d’essence."
 
-#: views/components/trip-detail.jade:329
+#: views/components/trip-detail.jade:335
 msgid "It will disappear when you add a filling station before it."
 msgstr "Elle disparaîtra lorsque vous ajouterez une station-service avant."
 
-#: views/components/trip-detail.jade:331
+#: views/components/trip-detail.jade:337
 msgid ""
 "You can control frequency of refueling stops by changing the driving range."
 msgstr ""
 "Vous pouvez contrôler la fréquence des étapes de ravitaillement d’essence en "
 "changeant l’autonomie."
 
-#: views/components/trip-detail.jade:332
+#: views/components/trip-detail.jade:338
 msgid "You can also disable automatic scheduling of refueling stops."
 msgstr ""
 "Vous pouvez également désactiver la planification automatique des étapes de "
 "ravitaillement d’essence."
 
-#: views/components/trip-detail.jade:336
+#: views/components/trip-detail.jade:342
 msgid "Update trip"
 msgstr "Modifier le voyage"
 
-#: views/components/trip-detail.jade:338
+#: views/components/trip-detail.jade:344
 msgid ""
 "Furkot would like to synchronize your trip plan with your TripIt itinerary."
 msgstr ""
 "Furkot aimerait synchroniser votre voyage avec votre itinéraire TripIt."
 
-#: views/components/trip-detail.jade:341
+#: views/components/trip-detail.jade:347
 msgid "Stops to update"
 msgstr "Etapes à mettre à jour"
 
-#: views/components/trip-detail.jade:344
+#: views/components/trip-detail.jade:350
 msgid "New stops to add"
 msgstr "Nouvelles étapes à ajouter"
 
-#: views/components/trip-detail.jade:347
+#: views/components/trip-detail.jade:353
 msgid "Do you want to proceed?"
 msgstr "Souhaitez-vous continuer ?"
 
-#: views/components/trip-detail.jade:349
+#: views/components/trip-detail.jade:355
 msgid ""
 "If your Furkot trip plan already includes all the stops corresponding to the "
 "lodging confirmations in your TripIt itinerary, cancel this operation and "
@@ -4301,35 +4529,35 @@ msgstr ""
 "opération et assurez-vous que les dates et les adresses de vos étapes sont "
 "les mêmes dans TripIt et Furkot avant de synchroniser à nouveau."
 
-#: views/components/trip-detail.jade:352
+#: views/components/trip-detail.jade:358
 msgid "Location access denied"
 msgstr "Accès à votre position refusé"
 
-#: views/components/trip-detail.jade:354
+#: views/components/trip-detail.jade:360
 msgid ""
 "Furkot needs access to your location to determine the city of departure."
 msgstr ""
 "Furkot doit avoir accès à votre position pour déterminer la ville de départ."
 
-#: views/components/trip-detail.jade:357
+#: views/components/trip-detail.jade:363
 msgid "Location unavailable"
 msgstr "Position indisponible"
 
-#: views/components/trip-detail.jade:359
+#: views/components/trip-detail.jade:365
 msgid "Furkot cannot obtain your location to determine the city of departure."
 msgstr ""
 "Furkot ne peut pas obtenir votre position pour déterminer la ville de départ."
 
-#: views/components/trip-detail.jade:362
+#: views/components/trip-detail.jade:368
 msgid "Trip sent to phone"
 msgstr "Voyage envoyé au téléphone"
 
-#: views/components/trip-detail.jade:364
+#: views/components/trip-detail.jade:370
 msgid "This trip is now ready to be displayed on your mobile device."
 msgstr ""
 "Ce voyage est maintenant prêt à être affiché sur votre appareil mobile."
 
-#: views/components/trip-detail.jade:367
+#: views/components/trip-detail.jade:373
 msgid ""
 "Open Furkot on your phone or tablet to see the up-to-date version of this "
 "trip."
@@ -4337,31 +4565,31 @@ msgstr ""
 "Ouvrez Furkot sur votre téléphone ou tablette pour voir la version à jour de "
 "ce voyage."
 
-#: views/components/trip-detail.jade:370
+#: views/components/trip-detail.jade:376
 msgid "Trip removed from phone"
 msgstr "Voyage supprimé du téléphone"
 
-#: views/components/trip-detail.jade:372
+#: views/components/trip-detail.jade:378
 msgid "This trip will no longer be displayed on your mobile device."
 msgstr "Ce voyage ne sera plus affiché sur votre appareil mobile."
 
-#: views/components/trip-detail.jade:375 views/components/trip-detail.jade:380
+#: views/components/trip-detail.jade:381 views/components/trip-detail.jade:386
 msgid "Delete trip"
 msgstr "Supprimer le voyage"
 
-#: views/components/trip-detail.jade:377 views/components/trip-detail.jade:387
+#: views/components/trip-detail.jade:383 views/components/trip-detail.jade:393
 msgid "Are you sure you want to delete this trip?"
 msgstr "Êtes-vous sûr de vouloir supprimer ce voyage ?"
 
-#: views/components/trip-detail.jade:382
+#: views/components/trip-detail.jade:388
 msgid "This trip is shared by other people."
 msgstr "Ce voyage est partagé avec d'autres personnes."
 
-#: views/components/trip-detail.jade:384
+#: views/components/trip-detail.jade:390
 msgid "Once you delete it nobody will be able to access it."
 msgstr "Si vous le supprimez, personne ne pourra y accéder."
 
-#: views/components/trip-detail.jade:389
+#: views/components/trip-detail.jade:395
 msgid "Fold this section"
 msgstr "Cacher les détails de cette section"
 
@@ -4414,25 +4642,25 @@ msgstr "instructions de direction"
 msgid "map"
 msgstr "carte"
 
-#: views/components/trips.jade:6
+#: views/components/trips.jade:5
 msgid "Hide trip tags"
 msgstr "Cacher les tags du voyage"
 
-#: views/components/trips.jade:6
+#: views/components/trips.jade:5
 msgid "Show trip tags"
 msgstr "Montrer les tags du voyage"
 
-#: views/components/trips.jade:18
+#: views/components/trips.jade:17
 msgid "Display ready-made trips"
 msgstr "Afficher les voyages prédéfinis"
 
 #. L10n: can be also translated as "Inspirations"
-#: views/components/trips.jade:20
+#: views/components/trips.jade:19
 msgid "Inspire me"
 msgstr "Inspirez-moi"
 
 #. L10n: square brackets [] denote a button
-#: views/components/trips.jade:24
+#: views/components/trips.jade:23
 msgid "Click on the [plus] sign to add a new trip."
 msgstr "Cliquez sur le signe [plus] pour ajouter un nouveau voyage."
 
@@ -4447,6 +4675,29 @@ msgstr ""
 #: views/connect.jade:7
 msgid "Sign in with"
 msgstr "Se connecter avec"
+
+#. L10n: the first curly brackets {} stand for the user name, the second - for the trip name
+#: views/email/invite.subject.jade:2
+#, fuzzy
+msgid "{} invited you to plan a trip to {}"
+msgstr "{} vous invite à planifier un voyage à {}"
+
+#. L10n: greetings at the beginning of the email with the invitation to share a trip
+#: views/email/invite.txt.jade:2
+#, fuzzy
+msgid "Hello,"
+msgstr "Bonjour,"
+
+#. L10n: the curly brackets {} stand for the trip name. This is the first sentence of the invitation preceded by "Hello,". Capitalize the first letter as appropriate after comma ,
+#: views/email/invite.txt.jade:5
+#, fuzzy
+msgid "I'd like to share a plan of a road trip to {} with you."
+msgstr "je voudrais vous inviter pour planifier le voyage à {} ensemble."
+
+#: views/email/invite.txt.jade:6
+#, fuzzy
+msgid "Please follow this link to view the trip:"
+msgstr "S'il vous plaît suivez ce lien pour voir le voyage:"
 
 #: views/feedback.jade:2
 msgid "Click to leave suggestions"
@@ -4518,11 +4769,14 @@ msgstr ""
 "car, en vélo, à pied, vos vacances en famille, vos week-ends. Une planète, 6 "
 "continents, toutes les routes."
 
-#: views/login-form.jade:3 views/welcome/signup-page.jade:21
-msgid "Nickname"
-msgstr "Pseudo"
+#. L10n: Nickname is a private identifier used to sign in. Email in a sense of the "email address"
+#: views/login-form.jade:7
+#, fuzzy
+msgid "Nickname or Email"
+msgstr "Pseudo ou E-mail"
 
-#: views/login-form.jade:6 views/welcome/signup-page.jade:24
+#. L10n: Password used to sign in
+#: views/login-form.jade:11
 msgid "Password"
 msgstr "Mot de passe"
 
@@ -4624,11 +4878,11 @@ msgstr "App de navigation par défaut"
 msgid "Book"
 msgstr "Réserver"
 
-#: views/mobile/index.jade:22
+#: views/mobile/index.jade:23
 msgid "Welcome"
 msgstr "Bienvenue"
 
-#: views/mobile/index.jade:24
+#: views/mobile/index.jade:25
 msgid ""
 "This is a road trip planning application. Please sign in to view your trips."
 msgstr ""
@@ -4636,7 +4890,7 @@ msgstr ""
 "vous connecter pour voir vos voyages."
 
 #. L10n: square brackets [] denote a link
-#: views/mobile/index.jade:26
+#: views/mobile/index.jade:27
 msgid ""
 "If this is your first time and you would like to sign up, please go to "
 "Furkot's [full site]."
@@ -5052,12 +5306,12 @@ msgid "Plan a trip"
 msgstr "Planifier un voyage"
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/login.jade:19
+#: views/welcome/login.jade:20
 msgid "If you already have an account [click here] to sign in."
 msgstr "Si vous avez déjà un compte, [cliquez ici] pour vous connecter."
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/login.jade:22
+#: views/welcome/login.jade:23
 msgid "To sign in as a different user [click here]"
 msgstr "Pour vous connecter avec un autre compte, [cliquez ici]"
 
@@ -5070,10 +5324,6 @@ msgid "Sign up for an account at Furkot, a free online road trip planner."
 msgstr ""
 "Enregistrez un compte chez Furkot, un planificateur gratuit de voyage en "
 "ligne."
-
-#: views/welcome/signup-page.jade:27
-msgid "Confirm"
-msgstr "Confirmer"
 
 #: views/widget/plan.jade:25
 msgid "Select trip"
@@ -5098,5 +5348,23 @@ msgstr ""
 "[Furkot] pour compléter votre itinéraire, voir la carte, trouver plus "
 "d’attractions et d’options d'hébergement."
 
+#~ msgid "Current password"
+#~ msgstr "Mot de passe actuel"
+
+#~ msgid "Confirm password"
+#~ msgstr "Confirmez le mot de passe"
+
 #~ msgid " | Free Road Trip Planner | Map Your Route"
 #~ msgstr " | Planificateur Gratuit De Voyage | Planifiez Votre Itinéraire"
+
+#~ msgid "Password and confirmation do not match"
+#~ msgstr "Les mots de passe ne correspondent pas"
+
+#~ msgid "Missing password"
+#~ msgstr "Mot de passe requis"
+
+#~ msgid "Confirm Password"
+#~ msgstr "Confirmez le mot de passe"
+
+#~ msgid "Confirm"
+#~ msgstr "Confirmer"
