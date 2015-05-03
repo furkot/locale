@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2015-05-01 05:00+0000\n"
+"POT-Creation-Date: 2015-05-03 04:08+0000\n"
 
 #: views/board/board.jade:7
 #: views/tripshot/map.jade:32
@@ -43,14 +43,15 @@ msgid "Suggest"
 msgstr ""
 
 #: views/board/board.jade:29
+#: views/components/accounts.jade:52
 #: views/components/add-stops.jade:2
 #: views/components/add-stops.jade:10
 #: views/components/dialog.jade:7
 #: views/components/dup-stops.jade:2
 #: views/components/import-dlg.jade:65
-#: views/components/share-dlg.jade:75
-#: views/components/share-dlg.jade:83
-#: views/components/share-dlg.jade:95
+#: views/components/share-dlg.jade:74
+#: views/components/share-dlg.jade:82
+#: views/components/share-dlg.jade:94
 #: views/components/step-switches.jade:61
 #: views/components/step-switches.jade:69
 #: views/components/step-switches.jade:77
@@ -74,8 +75,7 @@ msgid "Cancel"
 msgstr ""
 
 #: views/board/board.jade:30
-#: views/components/accounts.jade:56
-#: views/components/share-dlg.jade:105
+#: views/components/share-dlg.jade:104
 #: views/components/tour.jade:41
 #. L10n: Invitation to share a trip
 msgid "Close"
@@ -94,16 +94,12 @@ msgid "Account Settings"
 msgstr ""
 
 #: views/components/accounts.jade:6
-#. L10n: Signature is a public name shown to others
-msgid "Signature"
+#. L10n: Nickname is a private identifier used to sign in
+msgid "Nickname"
 msgstr ""
 
 #: views/components/accounts.jade:7
-msgid "public name"
-msgstr ""
-
-#: views/components/accounts.jade:7
-msgid "Signature is your public name shown to others"
+msgid "Nickname is your private identifier used to sign in"
 msgstr ""
 
 #: views/components/accounts.jade:11
@@ -121,83 +117,76 @@ msgstr ""
 msgid "Email is only used to reset forgotten password and to share trips"
 msgstr ""
 
+#: views/components/accounts.jade:17
+#. L10n: Signature is a public name shown to others
+msgid "Signature"
+msgstr ""
+
 #: views/components/accounts.jade:18
-#. L10n: Nickname is a private identifier used to sign in
-msgid "Nickname"
+msgid "public name"
 msgstr ""
 
-#: views/components/accounts.jade:19
-msgid "private identifier"
+#: views/components/accounts.jade:18
+msgid "Signature is your public name shown to others"
 msgstr ""
 
-#: views/components/accounts.jade:19
-msgid "Nickname is your private identifier used to sign in"
-msgstr ""
-
-#: views/components/accounts.jade:22
-msgid "New Password"
-msgstr ""
-
-#: views/components/accounts.jade:24
-#. L10n: leave empty (password) unless changing (password or settings)
-msgid "leave empty unless changing"
-msgstr ""
-
-#: views/components/accounts.jade:24
-#. L10n: leave empty (password) unless changing (password or settings)
-msgid "Leave it empty unless you want to change password"
-msgstr ""
-
-#: views/components/accounts.jade:27
+#: views/components/accounts.jade:21
 msgid "Current Password"
 msgstr ""
 
-#: views/components/accounts.jade:29
+#: views/components/accounts.jade:23
 #. L10n: (password is) needed to change settings
 msgid "needed to change settings"
 msgstr ""
 
-#: views/components/accounts.jade:29
+#: views/components/accounts.jade:23
 #. L10n: (password is) needed to change settings
 msgid "The current password is necessary to change settings"
 msgstr ""
 
-#: views/components/accounts.jade:32
-msgid "Change"
+#: views/components/accounts.jade:26
+msgid "New Password"
 msgstr ""
 
-#: views/components/accounts.jade:35
+#: views/components/accounts.jade:28
+#. L10n: leave empty (password) unless changing (password or settings)
+msgid "leave empty unless changing"
+msgstr ""
+
+#: views/components/accounts.jade:28
+#. L10n: leave empty (password) unless changing (password or settings)
+msgid "Leave it empty unless you want to change password"
+msgstr ""
+
+#: views/components/accounts.jade:32
 msgid "Password changed successfully"
 msgstr ""
 
-#: views/components/accounts.jade:36
+#: views/components/accounts.jade:33
 msgid "Settings changed successfully"
 msgstr ""
 
-#: views/components/accounts.jade:39
+#: views/components/accounts.jade:36
 #. L10n: Password cannot be changed
 msgid "Cannot change password"
 msgstr ""
 
-#: views/components/accounts.jade:41
+#: views/components/accounts.jade:38
 #. L10n: Settings cannot be changed
 msgid "Cannot change settings"
 msgstr ""
 
-#: views/components/accounts.jade:45
+#: views/components/accounts.jade:42
 msgid "Connected Accounts"
 msgstr ""
 
-#: views/components/add-stops.jade:2
-msgid "Plan stops"
-msgstr ""
-
+#: views/components/accounts.jade:53
 #: views/components/add-stops.jade:2
 #: views/components/add-stops.jade:10
 #: views/components/dup-stops.jade:2
-#: views/components/share-dlg.jade:75
-#: views/components/share-dlg.jade:83
-#: views/components/share-dlg.jade:95
+#: views/components/share-dlg.jade:74
+#: views/components/share-dlg.jade:82
+#: views/components/share-dlg.jade:94
 #: views/components/step-switches.jade:61
 #: views/components/step-switches.jade:69
 #: views/components/step-switches.jade:77
@@ -221,6 +210,10 @@ msgstr ""
 #: views/mobile/app.jade:42
 #: views/tripshot/tripshot.jade:138
 msgid "OK"
+msgstr ""
+
+#: views/components/add-stops.jade:2
+msgid "Plan stops"
 msgstr ""
 
 #: views/components/add-stops.jade:4
@@ -279,7 +272,7 @@ msgstr ""
 #: views/components/book-trip.jade:29
 #: views/components/export-dlg.jade:74
 #: views/components/import-dlg.jade:72
-#: views/components/share-dlg.jade:72
+#: views/components/share-dlg.jade:71
 #: views/tripshot/tripshot.jade:141
 #: views/tripshot/tripshot.jade:157
 msgid "Learn more"
@@ -2846,7 +2839,7 @@ msgid ""
 msgstr ""
 
 #: views/components/share-dlg.jade:12
-#: views/components/share-dlg.jade:57
+#: views/components/share-dlg.jade:56
 msgid "They will know where you are planning to go but not when."
 msgstr ""
 
@@ -2855,7 +2848,7 @@ msgid "Click Ask Around button to preview how others will see your trip."
 msgstr ""
 
 #: views/components/share-dlg.jade:15
-#: views/components/share-dlg.jade:60
+#: views/components/share-dlg.jade:59
 msgid "You will be able to select how you want to share on the next page."
 msgstr ""
 
@@ -2898,107 +2891,105 @@ msgstr ""
 msgid "From"
 msgstr ""
 
-#: views/components/share-dlg.jade:37
+#: views/components/share-dlg.jade:38
+#: views/components/share-dlg.jade:42
 msgid "Your email address"
 msgstr ""
 
-#: views/components/share-dlg.jade:38
-msgid "Your signature"
+#: views/components/share-dlg.jade:39
+msgid "Change email or signature"
 msgstr ""
 
 #: views/components/share-dlg.jade:44
 msgid "Save your email address for future use"
 msgstr ""
 
-#: views/components/share-dlg.jade:45
-msgid "Your password"
+#: views/components/share-dlg.jade:47
+#. L10n: label for the checkbox that saves the email address for future use; the space is limited - ideally the translated phrase won't be longer by more than 5 letters than a the original
+msgid "Save for future use"
 msgstr ""
 
-#: views/components/share-dlg.jade:45
-msgid "Your password is necessary to save your email address for future use"
-msgstr ""
-
-#: views/components/share-dlg.jade:50
+#: views/components/share-dlg.jade:49
 msgid "Email selected friends to plan the trip together."
 msgstr ""
 
-#: views/components/share-dlg.jade:52
+#: views/components/share-dlg.jade:51
 msgid "Invite"
 msgstr ""
 
-#: views/components/share-dlg.jade:56
+#: views/components/share-dlg.jade:55
 msgid ""
 "Show off your trip. People will see your trip but they will not be able to "
 "modify it."
 msgstr ""
 
-#: views/components/share-dlg.jade:59
+#: views/components/share-dlg.jade:58
 msgid "Click Publish button to preview how others will see your trip."
 msgstr ""
 
-#: views/components/share-dlg.jade:65
+#: views/components/share-dlg.jade:64
 msgid "Share your trip with Furkot community"
 msgstr ""
 
-#: views/components/share-dlg.jade:67
+#: views/components/share-dlg.jade:66
 msgid "Preview a snapshot of the trip to share with your friends."
 msgstr ""
 
-#: views/components/share-dlg.jade:69
+#: views/components/share-dlg.jade:68
 msgid "Publish"
 msgstr ""
 
-#: views/components/share-dlg.jade:75
-#: views/components/share-dlg.jade:83
+#: views/components/share-dlg.jade:74
+#: views/components/share-dlg.jade:82
 msgid "Remove from trip"
 msgstr ""
 
-#: views/components/share-dlg.jade:77
+#: views/components/share-dlg.jade:76
 #. L10n: followed by the user name and a question mark ?
 msgid "Are you sure you want stop sharing this trip with"
 msgstr ""
 
-#: views/components/share-dlg.jade:86
+#: views/components/share-dlg.jade:85
 #. L10n: followed by the user name and a period .
 msgid "This trip is owned by"
 msgstr ""
 
-#: views/components/share-dlg.jade:90
+#: views/components/share-dlg.jade:89
 msgid "This trip is owned by somebody else."
 msgstr ""
 
-#: views/components/share-dlg.jade:91
+#: views/components/share-dlg.jade:90
 msgid "Once you remove yourself, you will no longer be able to access this trip."
 msgstr ""
 
-#: views/components/share-dlg.jade:92
+#: views/components/share-dlg.jade:91
 msgid "Are you sure want to remove yourself from this trip?"
 msgstr ""
 
-#: views/components/share-dlg.jade:95
+#: views/components/share-dlg.jade:94
 msgid "Change owner"
 msgstr ""
 
-#: views/components/share-dlg.jade:100
+#: views/components/share-dlg.jade:99
 #. L10n: preceded by the user name
 msgid "will become the new owner of this trip."
 msgstr ""
 
-#: views/components/share-dlg.jade:101
+#: views/components/share-dlg.jade:100
 msgid "Are you sure you want to change this trip owner?"
 msgstr ""
 
-#: views/components/share-dlg.jade:105
+#: views/components/share-dlg.jade:104
 #. L10n: Invitation to share a trip
 msgid "Invalid invitation"
 msgstr ""
 
-#: views/components/share-dlg.jade:107
+#: views/components/share-dlg.jade:106
 #. L10n: Invitation to share a trip
 msgid "Looks like this invitation is no longer valid."
 msgstr ""
 
-#: views/components/share-dlg.jade:109
+#: views/components/share-dlg.jade:108
 #. L10n: Invitation to share a trip
 msgid "You may want to e-mail your friend to send you a new invitation."
 msgstr ""
@@ -3250,7 +3241,7 @@ msgid "Pass-through"
 msgstr ""
 
 #: views/components/step-detail.jade:201
-#: views/components/step-item.jade:29
+#: views/components/step-item.jade:32
 msgid "Delete this stop"
 msgstr ""
 
@@ -3284,7 +3275,7 @@ msgid "Keep"
 msgstr ""
 
 #: views/components/step-detail.jade:214
-#: views/components/step-item.jade:31
+#: views/components/step-item.jade:34
 #. L10n: can be translated "Move this stop after its successor"
 msgid "Move this stop down"
 msgstr ""
@@ -3295,7 +3286,7 @@ msgid "Down"
 msgstr ""
 
 #: views/components/step-detail.jade:219
-#: views/components/step-item.jade:33
+#: views/components/step-item.jade:36
 #. L10n: can be translated "Move this stop before its predecessor"
 msgid "Move this stop up"
 msgstr ""
@@ -3715,15 +3706,15 @@ msgstr ""
 msgid "night"
 msgstr ""
 
-#: views/components/step-item.jade:23
+#: views/components/step-item.jade:26
 msgid "Skipped"
 msgstr ""
 
-#: views/components/step-item.jade:26
+#: views/components/step-item.jade:29
 msgid "Deleted"
 msgstr ""
 
-#: views/components/step-item.jade:73
+#: views/components/step-item.jade:76
 #. L10n: 3-letter word is ideal; use abbreviation if translated word exceeds 4 letters
 msgid "day"
 msgstr ""
