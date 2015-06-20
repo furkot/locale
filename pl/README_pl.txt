@@ -13,6 +13,8 @@ deal: promocja
 discount: zniżka
 skipped: omijany
 pass-through: przelotowy
+if: jeśli
+to: aby
 
 button: przycisk
 Done: Koniec
