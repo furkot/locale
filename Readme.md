@@ -4,7 +4,7 @@ Translations and other locale specific data for [Furkot] road trip planner.
 
 This repository contains all the translatable resources from Furkot road trip
 planner. If you want to help translating Furkot into your language [let us
-know][furkot-email]
+know][furkot-email].
 
 ## Translating
 
@@ -20,7 +20,7 @@ can do:
 ### Editing message.po files
 
 `.po` files can be edited in pretty much any text editor. Format is quite
-`.self-explanatory:
+self-explanatory:
 
 ````po
 # You can add more comments here
@@ -31,7 +31,7 @@ msgid "Trip map"	      <<-- original string
 msgstr "Mapa padróży"     <<-- translated string
 ````
 
-There are also specialized editor available. If you don't have any that you
+There are also specialized editors available. If you don't have any that you
 regularly use try one of these two:
 
 * [PoEdit] - versions for Windows, Mac OS X and Linux are available
@@ -41,7 +41,7 @@ regularly use try one of these two:
 in: really bad and awkward) translation in your language. All automatically
 translated strings are marked as _fuzzy_.
 
-As a reviewer translator you go through the list of strings and do **one** of
+As a translator you go through the list of strings and do **one** of
 the 3 things:
 
 - approve the existing translation - by removing the _fuzzy_ indicator
@@ -61,9 +61,13 @@ _fuzzy_ comment. All specialized .po editors (like [PoEdit] or similar
 software) have a dedicated _fuzzy_/_not fuzzy_  button which makes it easy to
 toggle that state.
 
+### Glossary
+
+`glossary.po` file contains a list of common words and their translations to a given language. It is in the same format as `messages.po` file. Feel free to add to it to improve consistency of the translation.
+
 ## Adding your language
 
-If you don't see you language open an issue or [e-mail us][furkot-email]
+If you don't see your language open an issue or [e-mail us][furkot-email]
 
 Alternatively - but only if you are comfortable with [gettext] toolkit - you can
 also use `make`. For example to add Hungarian add `hu` to `LANGUAGES` variable
@@ -90,8 +94,11 @@ For example for German
 ## Credits
 
 Let us know how you want to be credited: we will list your name here and in Furkot.
-We can also include (or not) your e-mail or/and a link to your website.
+We can also include (or not) your e-mail and/or a link to your website.
 
+French translation by [Sylvain Francois](https://github.com/syllant).
+
+German translation by [Jörgen Klein](http://www.klein-bild.de/).
 
 [Furkot]: https://trips.furkot.com
 [furkot-email]: mailto:trips@furkot.com
