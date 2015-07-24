@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2015-07-23 04:58+0000\n"
+"POT-Creation-Date: 2015-07-24 01:58+0000\n"
 "PO-Revision-Date: 2015-07-23 18:32-0400\n"
 "Last-Translator: Natalia Kowalczyk <melitele@furkot.com>\n"
-"Language-Team: French "
-"<http://translate.code42day.com/projects/furkot/trips/fr/>\n"
+"Language-Team: French <http://translate.code42day.com/projects/furkot/trips/"
+"fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -808,12 +808,12 @@ msgstr "S’inscrire"
 msgid "Sign in"
 msgstr "Se connecter"
 
-#: views/components/header.jade:17 views/footer.jade:19 views/header.jade:14
+#: views/components/header.jade:17 views/footer.jade:19 views/header.jade:15
 #: views/welcome/header.jade:4 views/welcome/header.jade:6
 msgid "Help"
 msgstr "Aide"
 
-#: views/components/header.jade:21 views/header.jade:20
+#: views/components/header.jade:21 views/header.jade:21
 #: views/welcome/header.jade:9 views/welcome/header.jade:11
 #: views/widget/plan.jade:59
 msgid "Sign out"
@@ -3755,75 +3755,76 @@ msgstr "Cacher les détails de cet itinéraire"
 msgid "Visit this place at the end"
 msgstr "Visiter ce lieu à la fin"
 
-#: views/components/step-detail.jade:518
+#. L10n: add stop at the end of the trip (as opposed to 'Save' that places a stop to minimize driving)
+#: views/components/step-detail.jade:519
 #, fuzzy
 msgid "Append"
 msgstr "Ajouter"
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "Actual arrival on {} at {} is earlier than planned."
 msgstr "L’arrivée actuelle le {} à {} est plus tôt que prévu."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "Actual arrival on {} at {} is later than planned."
 msgstr "L’arrivée actuelle le {} à {} est plus tard que prévu."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "Actual departure on {} at {} is earlier than planned."
 msgstr "Le départ actuel le {} à {} est plus tôt que prévu."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "Actual departure on {} at {} is later than planned."
 msgstr "Le départ actuel le {} à {} est plus tard que prévu."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "Lodging on weekend not reserved yet."
 msgstr "Hébergement du week-end encore non réservé."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "No arrival date."
 msgstr "Pas de date d'arrivée."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "No departure date."
 msgstr "Pas de date de départ."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "No gas station nearby."
 msgstr "Aucune station-service à proximité."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "No hotels around."
 msgstr "Aucun hôtel à proximité."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid ""
 "No route available (stops too far from roads or a road is seasonally closed)."
 msgstr ""
 "Aucune route disponible (étapes trop loins des routes, ou route fermée à "
 "cette saison)."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "Stop cannot be located."
 msgstr "L’étape ne peut pas être localisée."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "The trip begins earlier on {} at {}."
 msgstr "Le voyage commence plus tôt le {} à {}."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "The trip begins later on {} at {}."
 msgstr "Le voyage commence plus tard le {} à {}."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "The trip ends earlier on {} at {}."
 msgstr "Le voyage se termine plus tôt le {} à {}."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "This is Saturday."
 msgstr "C’est samedi."
 
-#: views/components/step-detail.jade:520
+#: views/components/step-detail.jade:521
 msgid "Visit duration exceeds time between this day start and end."
 msgstr ""
 "La durée de la visite excède le temps entre le début et la fin de cette "
@@ -4817,8 +4818,7 @@ msgstr ""
 #: views/email/password-reset-more-info.txt.jade:3
 msgid "Try using your social service account again to sign in:"
 msgstr ""
-"Essayez d’utiliser votre compte social une nouvelle fois pour vous "
-"connecter:"
+"Essayez d’utiliser votre compte social une nouvelle fois pour vous connecter:"
 
 #: views/email/password-reset-more-info.txt.jade:5
 msgid ""
@@ -4916,7 +4916,7 @@ msgstr "Crédits"
 msgid "Disclaimer"
 msgstr "Non-responsabilité"
 
-#: views/footer.jade:17 views/header.jade:11
+#: views/footer.jade:17 views/header.jade:12
 msgid "Mobile"
 msgstr "Mobile"
 
@@ -4944,12 +4944,13 @@ msgstr "Suivre Furkot"
 msgid "Like Furkot"
 msgstr "J’aime Furkot"
 
-#: views/header.jade:5
+#. L10n: tooltip for the menu with a set of basic options (Help, Account, Sign-out)
+#: views/header.jade:6
 #, fuzzy
 msgid "More options"
 msgstr "Plus d'options"
 
-#: views/header.jade:17
+#: views/header.jade:18
 msgid "Account settings"
 msgstr "Paramètres du compte"
 
@@ -5530,14 +5531,12 @@ msgstr ""
 #~ msgid "Click on the [plus] sign to add a new trip."
 #~ msgstr "Cliquez sur le signe [plus] pour ajouter un nouveau voyage."
 
-#~ msgid "Confirm"
-#~ msgstr "Confirmer"
-
 #~ msgid " | Free Road Trip Planner | Map Your Route"
 #~ msgstr " | Planificateur Gratuit De Voyage | Planifiez Votre Itinéraire"
 
-#~ msgid "Change"
-#~ msgstr "Modifier"
+#, fuzzy
+#~ msgid "private identifier"
+#~ msgstr "identifiant privée"
 
 #~ msgid "Password and confirmation do not match"
 #~ msgstr "Les mots de passe ne correspondent pas"
@@ -5549,25 +5548,11 @@ msgstr ""
 #~ msgid "Confirm Password"
 #~ msgstr "Confirmez le mot de passe"
 
-#~ msgid ""
-#~ "If this is your first time and you would like to sign up, please go to "
-#~ "Furkot's [full site]."
-#~ msgstr ""
-#~ "Si c’est votre première visite et que vous souhaitez vous inscrire, merci "
-#~ "de vous rendre sur le [site complet] de Furkot."
-
-#~ msgid "Hide satellite imagery"
-#~ msgstr "Cacher l’image satellite"
-
-#, fuzzy
-#~ msgid "private identifier"
-#~ msgstr "identifiant privée"
+#~ msgid "Welcome"
+#~ msgstr "Bienvenue"
 
 #~ msgid "Confirm password"
 #~ msgstr "Confirmez le mot de passe"
-
-#~ msgid "Welcome"
-#~ msgstr "Bienvenue"
 
 #, fuzzy
 #~ msgid "Your password is necessary to save your email address for future use"
@@ -5575,17 +5560,30 @@ msgstr ""
 #~ "Votre mot de passe est nécessaire pour sauver votre adresse e-mail pour "
 #~ "une utilisation future"
 
+#~ msgid ""
+#~ "If this is your first time and you would like to sign up, please go to "
+#~ "Furkot's [full site]."
+#~ msgstr ""
+#~ "Si c’est votre première visite et que vous souhaitez vous inscrire, merci "
+#~ "de vous rendre sur le [site complet] de Furkot."
+
 #~ msgid "Hide terrain"
 #~ msgstr "Cacher le terrain"
 
-#~ msgid "Current password"
-#~ msgstr "Mot de passe actuel"
+#~ msgid "Missing password"
+#~ msgstr "Mot de passe requis"
 
-#~ msgid "Forgot password"
-#~ msgstr "Mot de passe oublié"
+#~ msgid "Confirm"
+#~ msgstr "Confirmer"
+
+#~ msgid "Change"
+#~ msgstr "Modifier"
 
 #~ msgid "Type trip name"
 #~ msgstr "Saisissez le nom de voyage"
+
+#~ msgid "Current password"
+#~ msgstr "Mot de passe actuel"
 
 #~ msgid "Type to modify place"
 #~ msgstr "Ecrire pour modifier le lieu"
@@ -5597,5 +5595,8 @@ msgstr ""
 #~ "Ceci est une application de planification d’itinéraires de voyage. Merci "
 #~ "de vous connecter pour voir vos voyages."
 
-#~ msgid "Missing password"
-#~ msgstr "Mot de passe requis"
+#~ msgid "Forgot password"
+#~ msgstr "Mot de passe oublié"
+
+#~ msgid "Hide satellite imagery"
+#~ msgstr "Cacher l’image satellite"
