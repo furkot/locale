@@ -8,10 +8,20 @@ know][furkot-email].
 
 ## Translating
 
+[![Translation status][weblate-furkot-image]][Furkot translation website]
+
+If you want to help translating Furkot to your language, the good place to
+start is the [Furkot translation website]: you can check the status of the
+translation, make suggestions, review and edit already translated texts.
+[Furkot translation website] is based on [Weblate], a free
+web-based translation management system; for the introduction check the
+[translators guide].
+
 Furkot is using [gettext] compatible [.po] file format. If you're familiar
-with github and gettext feel free to fork this repo and send PRs. If you want
-to help but terms line _fork_, _PR_, _git_ are foreign to you here's what you
-can do:
+with github and gettext feel free to fork this repo and send PRs.
+
+If you prefer to edit `.po` files directly but terms like _fork_, _PR_, _git_
+are foreign to you here's what you can do:
 
 1. download .po file for your language
 2. review and edit the file
@@ -28,7 +38,7 @@ self-explanatory:
 #: file.jade:45           <<-- you can safely ignore this
 #, fuzzy                  <<-- fuzzy indicator
 msgid "Trip map"	      <<-- original string
-msgstr "Mapa padróży"     <<-- translated string
+msgstr "Mapa podróży"     <<-- translated string
 ````
 
 There are also specialized editors available. If you don't have any that you
@@ -56,6 +66,11 @@ helps. You are also always welcome to improve the existing translation.
 
 ### Removing _fuzzy_
 
+If you use [Furkot translation website] each translated
+string has a checkbox _fuzzy_ to mark translations that may not be accurate
+(for instance automatically generated). When  correcting a translation uncheck
+it to indicate that translation is accurate.
+
 If you use text editor removing _fuzzy_ means removing the entire line with
 _fuzzy_ comment. All specialized .po editors (like [PoEdit] or similar
 software) have a dedicated _fuzzy_/_not fuzzy_  button which makes it easy to
@@ -63,7 +78,11 @@ toggle that state.
 
 ### Glossary
 
-`glossary.po` file contains a list of common words and their translations to a given language. It is in the same format as `messages.po` file. Feel free to add to it to improve consistency of the translation.
+[Furkot translation website] maintains glossaries of common words for each
+language. Feel free to add to it to improve consistency of the translation.
+
+The glossary for each language is stored as `glossary.po` file in the same
+format as `messages.po` file. Feel free to add to it and include it in PR.
 
 ## Adding your language
 
@@ -106,3 +125,7 @@ German translation by [Jörgen Klein](http://www.klein-bild.de/).
 [.po]: https://www.gnu.org/software/gettext/manual/gettext.html#PO-Files
 [PoEdit]: http://poedit.net
 [PoEditor]: https://localise.biz/free/poeditor
+[Furkot translation website]: https://translate.code42day.com/projects/furkot/trips/
+[translators guide]: http://weblate.readthedocs.org/en/latest/user/translating.html
+[Weblate]: https://weblate.org
+[weblate-furkot-image]: https://translate.code42day.com/widgets/furkot/-/svg-badge.svg
