@@ -26,4 +26,12 @@ all: $(PO_FILES)
 merge:
 	$(foreach po,$(PO_FILES), $(MSGMERGE) $(po) $(POT);)
 
-.PHONY: all merge
+# commit latest changes, push to weblate branch, notify weblate server and reset to master
+push:
+	git commit -am 'updated to recent changes in UI'
+	git push origin HEAD:weblate
+	curl --silent --show-error https://translate.code42day.com/hooks/update/furkot/trips/ > /dev/null
+	git reset --hard origin/master
+
+
+.PHONY: all merge push
