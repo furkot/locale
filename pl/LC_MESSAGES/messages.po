@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2016-01-11 15:13+0000\n"
-"PO-Revision-Date: 2015-09-03 21:18-0400\n"
+"PO-Revision-Date: 2016-02-28 11:12-0400\n"
 "Last-Translator: Damian Krzeminski <pirxpilot@code42day.com>\n"
-"Language-Team: Polish <https://translate.code42day.com/projects/furkot/trips/"
-"pl/>\n"
+"Language-Team: Polish "
+"<https://translate.code42day.com/projects/furkot/trips/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -881,6 +881,8 @@ msgstr "Zmień kolejność postojów w celu skrócenia trasy"
 msgid ""
 "When not set in the imported file Furkot will use a default stop duration."
 msgstr ""
+"Jeśli czas postoju nie jest zdefiniowany w importowanym pliku, Furkot używa "
+"domyslnej wartości."
 
 #: views/components/import-dlg.jade:37
 #: views/components/trip-config-item.jade:30
@@ -889,24 +891,20 @@ msgid "Stopover"
 msgstr "Czas Postoju"
 
 #: views/components/import-dlg.jade:42
-#, fuzzy
 msgid "Furkot assumes it is a riding trip."
-msgstr "Na podstawie prędkości Furkot zakłada, że jest to podróż samochodem."
+msgstr "Furkot zakłada, że jest to podróż motocyklem."
 
 #: views/components/import-dlg.jade:43
-#, fuzzy
 msgid "Furkot assumes it is a driving trip."
-msgstr "Na podstawie prędkości Furkot zakłada, że jest to podróż samochodem."
+msgstr "Furkot zakłada, że jest to podróż samochodem."
 
 #: views/components/import-dlg.jade:44
-#, fuzzy
 msgid "Furkot assumes it is a bicycle trip."
-msgstr "Na podstawie prędkości Furkot uważa, że jest to podróż rowerem."
+msgstr "Furkot zakłada, że jest to podróż rowerem."
 
 #: views/components/import-dlg.jade:45
-#, fuzzy
 msgid "Furkot assumes it is a walking trip."
-msgstr "Na podstawie prędkości Furkot zakłada, że jest to podróż pieszo."
+msgstr "Furkot zakłada, że jest to podróż pieszo."
 
 #: views/components/import-dlg.jade:46
 msgid "If it is not, you can change it later."
@@ -922,21 +920,20 @@ msgid "Follow roads"
 msgstr "Drogi Płatne"
 
 #: views/components/import-dlg.jade:51 views/components/step-detail.jade:483
-#, fuzzy
 msgid "Travel off road"
-msgstr "Wybierz trasę"
+msgstr "Na przełaj"
 
 #: views/components/import-dlg.jade:54
 msgid "Let Furkot follow roads unless importing off-road routes/tracks."
 msgstr ""
 
 #: views/components/import-dlg.jade:57
-#, fuzzy
 msgid ""
 "Not all routes/tracks have timing data. Furkot will use an average speed "
 "instead."
 msgstr ""
-"Nie wszystkie trasy / ścieżki mają czasy. Furkot zastosuje średnią prędkość."
+"Nie wszystkie trasy/ścieżki mają określony czas przejazdu. Furkot zastosuje "
+"średnią prędkość."
 
 #: views/components/import-dlg.jade:59
 msgid "Average speed"
@@ -1151,18 +1148,16 @@ msgstr "Przewodnik po Furkocie"
 #: views/components/map.jade:97 views/components/place-switch.jade:76
 #: views/components/step-switches.jade:71
 msgid "Nothing to display. Internet connection may be down."
-msgstr ""
+msgstr "Brak danych. Prawdopodobnie nie ma połączenia z Internetem."
 
 #: views/components/map.jade:101
-#, fuzzy
 msgid "Show map"
-msgstr "Pokaż miejsca"
+msgstr "Pokaż mapę"
 
 #. L10n: Label on the button that shows map (visible only on phone/tablet screen)
 #: views/components/map.jade:106
-#, fuzzy
 msgid "Map"
-msgstr "mapa"
+msgstr "Mapa"
 
 #: views/components/map.jade:111
 msgid "Hide trip details"
@@ -1520,9 +1515,8 @@ msgid "Chain hotels and motels"
 msgstr "Hotele i motele sieciowe"
 
 #: views/components/new-trip-wizard.jade:95
-#, fuzzy
 msgid "No chain hotels or motels"
-msgstr "Bez hoteli i moteli"
+msgstr "Ukryj hotele i motele sieciowe"
 
 #: views/components/new-trip-wizard.jade:97
 #: views/components/place-switch.jade:87 views/components/step-lodging.jade:30
@@ -1548,7 +1542,6 @@ msgid "Hostels"
 msgstr "Hostele"
 
 #: views/components/new-trip-wizard.jade:101
-#, fuzzy
 msgid "No hostels"
 msgstr "Ukryj schroniska"
 
@@ -1558,9 +1551,8 @@ msgid "Blind hotel deals"
 msgstr "Zastrzeżone promocje hoteli"
 
 #: views/components/new-trip-wizard.jade:103
-#, fuzzy
 msgid "No blind hotel deals"
-msgstr "Zastrzeżone promocje hoteli"
+msgstr "Ukryj zastrzeżone promocje hoteli"
 
 #: views/components/new-trip-wizard.jade:106
 msgid "With Pets"
@@ -1690,8 +1682,9 @@ msgstr "Dane meteo"
 
 #. L10n: a word, very short phrase or abbreviation displayed after the net price (price that doesn't include fees, taxes or surcharges)
 #: views/components/place-detail.jade:107
+#, fuzzy
 msgid "+tax"
-msgstr ""
+msgstr "bez podatku"
 
 #: views/components/place-switch.jade:6
 msgid "Configure search options"
@@ -2578,7 +2571,6 @@ msgid "Hide incidents from InciWeb"
 msgstr "Ukryj zdarzenia z InciWeb"
 
 #: views/components/places.jade:181
-#, fuzzy
 msgid "Incidents from InciWeb"
 msgstr "Zdarzenia z InciWeb"
 
@@ -3629,7 +3621,7 @@ msgstr "Kliknij, aby zmienić adres"
 #: views/components/step-detail.jade:255
 #, fuzzy
 msgid "Navigate to stop address"
-msgstr "Nawiguj do"
+msgstr "Nawiguj do adresu"
 
 #: views/components/step-detail.jade:258
 msgid "Phone"
@@ -3746,7 +3738,7 @@ msgstr "Kliknij aby zmienić współrzędne geograficzne"
 #: views/components/step-detail.jade:343
 #, fuzzy
 msgid "Navigate to exact coordinates"
-msgstr "Dokładne współrzędne"
+msgstr "Nawiguj do współrzędnych"
 
 #: views/components/step-detail.jade:348 views/components/trip-detail.jade:314
 msgid "Click to edit description"
@@ -3757,12 +3749,10 @@ msgid "Description of this stop"
 msgstr "Opis postoju"
 
 #: views/components/step-detail.jade:351
-#, fuzzy
 msgid "Click to edit stop tags"
-msgstr "Kliknij, aby zmodyfikować etykiety"
+msgstr "Kliknij, aby zmienić etykiety"
 
 #: views/components/step-detail.jade:351
-#, fuzzy
 msgid "Comma-separated stop tags (labels)"
 msgstr "Etykiety oddzielone przecinkami"
 
@@ -3969,13 +3959,13 @@ msgid "Click to modify the time by which you end travelling this day"
 msgstr "Kliknij, aby zmienić czas, w którym w kończy się ten dzień podróży"
 
 #: views/components/step-detail.jade:578
-#, fuzzy
 msgid "Click to edit this day theme"
-msgstr "Kliknij, aby edytować opis dnia"
+msgstr "Kliknij, aby zmienić opis dnia"
 
 #: views/components/step-detail.jade:578
+#, fuzzy
 msgid "Day theme (label)"
-msgstr ""
+msgstr "Motyw (etykieta) dnia"
 
 #: views/components/step-detail.jade:581
 msgid "Click to edit this day description"
@@ -4073,7 +4063,7 @@ msgstr ""
 
 #: views/components/step-detail.jade:613
 msgid "The road may be seasonally closed. Check its status before departure."
-msgstr ""
+msgstr "Droga może być sezonowo nieprzejezdna. Sprawdź przed wyjazdem."
 
 #: views/components/step-detail.jade:613
 msgid "The trip begins earlier on {} at {}."
@@ -4092,8 +4082,9 @@ msgid "This is Saturday."
 msgstr "Postój wypada w sobotę."
 
 #: views/components/step-detail.jade:613
+#, fuzzy
 msgid "Very little time to rest at the lodging."
-msgstr ""
+msgstr "Bardzo mało czasu na nocleg."
 
 #: views/components/step-detail.jade:613
 msgid "Visit duration exceeds time between this day start and end."
@@ -4139,7 +4130,7 @@ msgstr "Zarezerwuj Nocleg"
 
 #: views/components/step-lodging.jade:24
 msgid "View More"
-msgstr ""
+msgstr "Zobacz więcej"
 
 #: views/components/step-lodging.jade:28
 msgid "Hotel chains"
@@ -4152,12 +4143,12 @@ msgstr "Apartamenty, pokoje gościnne, pensjonaty"
 #: views/components/step-lodging.jade:46
 #, fuzzy
 msgid "Stay in this lodging"
-msgstr "Cofnij zakwaterowanie"
+msgstr "Zatrzymaj się na noc"
 
 #: views/components/step-lodging.jade:53
 #, fuzzy
 msgid "Nearby Lodgings"
-msgstr "Noclegi"
+msgstr "Pobliskie noclegi"
 
 #: views/components/step-lodging.jade:58
 msgid "Booking"
@@ -4240,13 +4231,12 @@ msgid "Optimize for"
 msgstr ""
 
 #: views/components/step-switches.jade:64 views/header.jade:19
-#, fuzzy
 msgid "Navigation"
-msgstr "Aplikacje do Navigacji"
+msgstr "Navigacja"
 
 #: views/components/step-switches.jade:67
 msgid "Advanced use"
-msgstr ""
+msgstr "Funkcje zaawansowane"
 
 #: views/components/step-switches.jade:74
 #: views/components/step-switches.jade:90
@@ -4633,14 +4623,13 @@ msgid "Click to let Furkot suggest hotels and motels"
 msgstr "Kliknij aby Furkot sugerował hotele i motele"
 
 #: views/components/trip-detail.jade:168
-#, fuzzy
 msgid "Click to exclude chain hotels and motels from lodging suggestions"
-msgstr "Kliknij, aby wykluczyć hotele i motele z proponowanych noclegów"
+msgstr ""
+"Kliknij, aby wykluczyć hotele i motele sieciowe z proponowanych noclegów"
 
 #: views/components/trip-detail.jade:168
-#, fuzzy
 msgid "Click to let Furkot suggest chain hotels and motels"
-msgstr "Kliknij aby Furkot sugerował hotele i motele"
+msgstr "Kliknij aby Furkot sugerował hotele i motele sieciowe"
 
 #: views/components/trip-detail.jade:171
 msgid "Click to exclude campgrounds from lodging suggestions"
@@ -4660,24 +4649,20 @@ msgid "Click to let Furkot suggest apartments and private rooms"
 msgstr "Kliknij aby Furkot sugerował apartamenty i pokoje gościnne"
 
 #: views/components/trip-detail.jade:177
-#, fuzzy
 msgid "Click to exclude hostels from lodging suggestions"
-msgstr "Kliknij, aby wykluczyć hotele i motele z proponowanych noclegów"
+msgstr "Kliknij, aby wykluczyć schroniska z proponowanych noclegów"
 
 #: views/components/trip-detail.jade:177
-#, fuzzy
 msgid "Click to let Furkot suggest hostels"
-msgstr "Kliknij aby Furkot sugerował hotele i motele"
+msgstr "Kliknij aby Furkot sugerował schroniska"
 
 #: views/components/trip-detail.jade:180
-#, fuzzy
 msgid "Click to exclude blind hotel deals from lodging suggestions"
-msgstr "Kliknij, aby wykluczyć hotele i motele z proponowanych noclegów"
+msgstr "Kliknij, aby wykluczyć zastrzeżone promocje z proponowanych noclegów"
 
 #: views/components/trip-detail.jade:180
-#, fuzzy
 msgid "Click to let Furkot suggest blind hotel deals"
-msgstr "Kliknij aby Furkot sugerował hotele i motele"
+msgstr "Kliknij, aby Furkot sugerował zastrzeżone promocje"
 
 #: views/components/trip-detail.jade:183
 msgid "Click if you are not traveling with pets"
@@ -4701,11 +4686,11 @@ msgstr "Niska cena czy wysoka ocena?"
 
 #: views/components/trip-detail.jade:206
 msgid "Currency"
-msgstr ""
+msgstr "Waluta"
 
 #: views/components/trip-detail.jade:208
 msgid "US dollar"
-msgstr ""
+msgstr "Dolar amerykański"
 
 #: views/components/trip-detail.jade:212
 msgid "Euro"
@@ -4713,15 +4698,15 @@ msgstr ""
 
 #: views/components/trip-detail.jade:216
 msgid "Pound sterling"
-msgstr ""
+msgstr "Funt szterling"
 
 #: views/components/trip-detail.jade:220
 msgid "Canadian dollar"
-msgstr ""
+msgstr "Dolar kanadyjski"
 
 #: views/components/trip-detail.jade:224
 msgid "Australian dollar"
-msgstr ""
+msgstr "Dolar australijski"
 
 #: views/components/trip-detail.jade:230
 msgid "Click to modify the number of rooms (1&nbsp;to&nbsp;6)"
@@ -4794,8 +4779,9 @@ msgid "Comma-separated trip tags (labels)"
 msgstr "Etykiety oddzielone przecinkami"
 
 #: views/components/trip-detail.jade:326
+#, fuzzy
 msgid "Access this trip without Internet connection"
-msgstr ""
+msgstr "Oglądaj podróż w przypadku braku połączenia z Internetem"
 
 #: views/components/trip-detail.jade:328
 msgid "No begin date."
@@ -4951,37 +4937,41 @@ msgstr ""
 #: views/components/trip-detail.jade:397
 #, fuzzy
 msgid "Offline access enabled"
-msgstr "Odmowa dostępu do lokalizacji"
+msgstr "Włączony dostęp w trybie offline"
 
 #: views/components/trip-detail.jade:399
 #, fuzzy
 msgid "This trip is now ready for offline access."
-msgstr "Ta podróż należy do kogoś innego."
+msgstr "Podróż dostępna w trybie offline"
 
 #: views/components/trip-detail.jade:402
+#, fuzzy
 msgid ""
 "When you open this trip on any computer, phone or tablet, Furkot will cache "
 "it locally."
 msgstr ""
+"Po otwarciu tej podróży na komputerze, tablecie lub telefonie Furkot zachowa "
+"ją na twoim urządzeniu"
 
 #: views/components/trip-detail.jade:404
+#, fuzzy
 msgid "You will not need Internet connection to access this trip."
-msgstr ""
+msgstr "Dostęp do Internetu nie będzie konieczny w celu obejrzenia podróży."
 
 #: views/components/trip-detail.jade:407
 #, fuzzy
 msgid "Offline access disabled"
-msgstr "Odmowa dostępu do lokalizacji"
+msgstr "Wyłączony tryb offline"
 
 #: views/components/trip-detail.jade:409
 #, fuzzy
 msgid "This trip will no longer be cached locally for offline access."
-msgstr "Podróż nie będzie już wyświetlane w urządzeniu mobilnym."
+msgstr "Podróż nie będzie wyświetlana bez połączenia z Internetem."
 
 #: views/components/trip-detail.jade:412
 #, fuzzy
 msgid "You will need Internet connection to access this trip."
-msgstr "stanie się nowym właścicielem tej podróży."
+msgstr "W celu obejrzenia podróży będzie niezbędne połączenie z Internetem."
 
 #: views/components/trip-detail.jade:415 views/components/trip-detail.jade:420
 msgid "Delete trip"
@@ -5257,14 +5247,17 @@ msgstr "Menu opcji"
 
 #. L10n: tooltip for the menu with a set of basic options (Help, Account, Sign-out)
 #: views/header.jade:6
+#, fuzzy
 msgid ""
 "New version of Furkot is available. Click the button above to update now."
 msgstr ""
+"Dostępna jest nowa wersja Furkota. Naciśnij przycisk powyżej, aby ją "
+"załadować."
 
 #: views/header.jade:13
 #, fuzzy
 msgid "Update now"
-msgstr "Aktualizacja podróży"
+msgstr "Aktualizuj"
 
 #: views/header.jade:22
 msgid "Account settings"
@@ -5294,8 +5287,9 @@ msgstr "Hasło"
 
 #. L10n: Checkbox label
 #: views/login-form.jade:18
+#, fuzzy
 msgid "Keep me signed in"
-msgstr ""
+msgstr "Nie wylogowuj mnie"
 
 #: views/mobile/app.jade:21 views/mobile/app.jade:63
 msgid "Trips"
@@ -5416,7 +5410,7 @@ msgstr "tutaj"
 #: views/relay.jade:26
 #, fuzzy
 msgid "Please wait while Furkot is sending you to "
-msgstr " Poczekaj aż Furkot przygotuje plan podróży"
+msgstr "Poczekaj aż Furkot przekieruje Cię do "
 
 #. L10n: followed by a target webpage logo or a phrase 'here'
 #: views/relay.jade:31
@@ -5792,11 +5786,11 @@ msgstr ""
 #: views/welcome/signup-page.jade:23
 #, fuzzy
 msgid "To sign up with email and password [click here]"
-msgstr "[Kliknij tutaj] aby użyć innego konta"
+msgstr "[Kliknij tutaj] aby zalogować sie podając adress e-mail i hasło"
 
 #: views/welcome/signup-page.jade:26
 msgid "Do I have to sign up to use Furkot?"
-msgstr ""
+msgstr "Czy muszę zakładać konto żeby korzystać z Furkota?"
 
 #: views/widget/plan.jade:25
 msgid "Select trip"
