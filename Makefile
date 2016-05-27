@@ -1,7 +1,7 @@
 POT_DIR = templates/LC_MESSAGES
 POT = $(POT_DIR)/messages.pot
 
-LANGUAGES = pl de es fr it
+LANGUAGES = bn de es fr it nl pl ru zh_TW
 
 PO_FILES = $(LANGUAGES:%=%/LC_MESSAGES/messages.po)
 
