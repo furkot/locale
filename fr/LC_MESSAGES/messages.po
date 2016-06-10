@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2016-05-27 08:29+0000\n"
-"PO-Revision-Date: 2016-03-21 18:19-0400\n"
+"PO-Revision-Date: 2016-06-09 23:28-0400\n"
 "Last-Translator: Sylvain FRANÇOIS <syllant@gmail.com>\n"
-"Language-Team: French <https://translate.code42day.com/projects/furkot/trips/"
-"fr/>\n"
+"Language-Team: French "
+"<https://translate.code42day.com/projects/furkot/trips/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -496,6 +496,8 @@ msgid ""
 "The Hot Rate hotel is located in the highlighted area. Once you book, you'll "
 "learn the location."
 msgstr ""
+"L'hôtel \"Hot Rate\" est dans la zone sélectionnée. Le lieux précis sera "
+"dévoilé à la réservation."
 
 #: views/components/bookable.jade:119
 msgid ""
@@ -504,6 +506,10 @@ msgid ""
 "rates this low, so Hotwire hides their name, address, and picture until "
 "after booking."
 msgstr ""
+"Quand des hôtels de marque utilisent Hotwire pour remplir des chambres qui "
+"seraient restées invendues, les prix sont fortement réduits. Les hôtels ne "
+"souhaitent pas rendre ces réductions visibles, c'est pourquoi Hotwire cache "
+"leur nom, adresse et photo avant la réservation."
 
 #. L10n: pair of _underscores_ denotes different formatting
 #: views/components/browse-happy.jade:4
@@ -1275,6 +1281,8 @@ msgid ""
 "Selected app will open when you click on the navigation button next to stop "
 "coordinates or address."
 msgstr ""
+"L'application sélectionnée s'ouvrira lorsque vous cliquerez sur le bouton de "
+"navigation à côté des coordonnées de l'arrêt ou de l'adresse."
 
 #: views/components/new-trip-wizard.jade:2
 msgid "Plan new trip"
@@ -1341,13 +1349,12 @@ msgid "One way trip from start to end point"
 msgstr "Aller simple à partir du point de départ jusqu’au point d’arrivée"
 
 #: views/components/new-trip-wizard.jade:30
-#, fuzzy
 msgid ""
 "For round trips, enter a name of a city, a landmark or an address half way "
 "down the road."
 msgstr ""
-"Pour des voyages en aller-simple, saisissez un nom de ville, un point de "
-"repère ou une adresse où le voyage se termine."
+"Pour des voyages aller-retours, saisissez un nom de ville, un point de "
+"repère ou une adresse à mi-parcours."
 
 #: views/components/new-trip-wizard.jade:31
 msgid ""
@@ -1358,16 +1365,12 @@ msgstr ""
 "repère ou une adresse où le voyage se termine."
 
 #: views/components/new-trip-wizard.jade:34
-#, fuzzy
 msgid "City, landmark or address where you want to go."
-msgstr ""
-"Ville, monument ou adresse sur laquelle vous souhaitez mettre fin à votre "
-"voyage."
+msgstr "Ville, monument ou adresse où vous souhaitez aller."
 
 #: views/components/new-trip-wizard.jade:34
-#, fuzzy
 msgid "Mid point"
-msgstr "Point d’arrivée"
+msgstr "Point à mi-parcours"
 
 #: views/components/new-trip-wizard.jade:38
 msgid "City, landmark or address where you want to end your trip."
@@ -1657,24 +1660,23 @@ msgstr "Rester"
 
 #: views/components/place-detail.jade:51
 msgid "Bathrooms"
-msgstr ""
+msgstr "Salles de bains"
 
 #: views/components/place-detail.jade:51
-#, fuzzy
 msgid "Bedrooms"
-msgstr "Toilettes"
+msgstr "Chambres"
 
 #: views/components/place-detail.jade:51
 msgid "Maximum guests"
-msgstr ""
+msgstr "Nombre d'invités maximum"
 
 #: views/components/place-detail.jade:51
 msgid "Minimum nights"
-msgstr ""
+msgstr "Nombre de nuits minimum"
 
 #: views/components/place-detail.jade:51
 msgid "Number of beds"
-msgstr ""
+msgstr "Nombre de lits"
 
 #: views/components/place-detail.jade:51
 msgid "Pets allowed"
@@ -1682,7 +1684,7 @@ msgstr "Animaux acceptés"
 
 #: views/components/place-detail.jade:51
 msgid "Studio apartment"
-msgstr ""
+msgstr "Studio"
 
 #: views/components/place-detail.jade:81
 msgid "Add stop"
@@ -3362,7 +3364,7 @@ msgstr "Hôtel"
 
 #: views/components/step-detail.jade:27
 msgid "Discounted lodging or blind deal"
-msgstr ""
+msgstr "Hébergement en promotion ou \"blind deal\""
 
 #: views/components/step-detail.jade:30 views/components/step-detail.jade:234
 msgid "Trip begin"
@@ -3394,7 +3396,7 @@ msgstr "Tour"
 
 #: views/components/step-detail.jade:52
 msgid "Residence"
-msgstr ""
+msgstr "Résidence"
 
 #: views/components/step-detail.jade:55
 msgid "Public building"
@@ -3405,9 +3407,8 @@ msgid "Historical site or landmark"
 msgstr "Site culturel ou historique"
 
 #: views/components/step-detail.jade:61
-#, fuzzy
 msgid "Library"
-msgstr "Itinéraire"
+msgstr "Bibliothèque"
 
 #: views/components/step-detail.jade:64
 msgid "Cemetery"
@@ -3423,15 +3424,15 @@ msgstr "Stade ou site sportif"
 
 #: views/components/step-detail.jade:73
 msgid "Amusement park"
-msgstr ""
+msgstr "Parc d'attraction"
 
 #: views/components/step-detail.jade:76
 msgid "Theater"
-msgstr ""
+msgstr "Théâtre"
 
 #: views/components/step-detail.jade:79
 msgid "Zoo, aquarium or wildlife viewing"
-msgstr ""
+msgstr "Zoo, aquarium ou zone d'observation naturelle"
 
 #: views/components/step-detail.jade:82
 msgid "Park"
@@ -3458,7 +3459,6 @@ msgid "Hiking trail"
 msgstr "Sentier de randonnée"
 
 #: views/components/step-detail.jade:103
-#, fuzzy
 msgid "Bicycle path"
 msgstr "Piste cyclable"
 
@@ -3467,9 +3467,8 @@ msgid "Motorcycle route"
 msgstr "Route de moto"
 
 #: views/components/step-detail.jade:109
-#, fuzzy
 msgid "ATV trail"
-msgstr "Sentiers VTT"
+msgstr "Sentier VTT"
 
 #: views/components/step-detail.jade:112
 msgid "Offroad route"
@@ -3480,23 +3479,20 @@ msgid "Driving route"
 msgstr "Route"
 
 #: views/components/step-detail.jade:118
-#, fuzzy
 msgid "Parking area"
-msgstr "Stations de ski"
+msgstr "Aire de stationnement"
 
 #: views/components/step-detail.jade:121
-#, fuzzy
 msgid "Airport"
-msgstr "Aéroport ou ville"
+msgstr "Aéroport"
 
 #: views/components/step-detail.jade:124
-#, fuzzy
 msgid "Train station"
-msgstr "Borne de recharge"
+msgstr "Gare ferroviaire"
 
 #: views/components/step-detail.jade:127
 msgid "Ferry terminal or route"
-msgstr ""
+msgstr "Gare maritime"
 
 #. L10n: Overlook as a scenic viewpoint or a vista point
 #: views/components/step-detail.jade:131
@@ -3533,24 +3529,23 @@ msgstr "Plage"
 
 #: views/components/step-detail.jade:155
 msgid "Pier or boardwalk"
-msgstr ""
+msgstr "Ponton ou quai"
 
 #: views/components/step-detail.jade:158
 msgid "Boat ramp"
-msgstr ""
+msgstr "Rampe de mise à l'eau"
 
 #: views/components/step-detail.jade:161
 msgid "Marina or harbor"
-msgstr ""
+msgstr "Marina ou port"
 
 #: views/components/step-detail.jade:164
 msgid "Restaurant"
 msgstr "Restaurant"
 
 #: views/components/step-detail.jade:167
-#, fuzzy
 msgid "Coffee shop"
-msgstr "Cafés"
+msgstr "Café"
 
 #: views/components/step-detail.jade:170
 msgid "Bar"
@@ -3578,7 +3573,7 @@ msgstr "Commerce de proximité"
 
 #: views/components/step-detail.jade:188
 msgid "Shopping center"
-msgstr ""
+msgstr "Centre commercial"
 
 #: views/components/step-detail.jade:191
 msgid "Drinking water"
@@ -3621,14 +3616,12 @@ msgid "Favorite"
 msgstr "Favori"
 
 #: views/components/step-detail.jade:221
-#, fuzzy
 msgid "Visitor center or information point"
-msgstr "Voir plus d'informations sur ce voyage"
+msgstr "Centre d'accueil ou point d'information"
 
 #: views/components/step-detail.jade:224
-#, fuzzy
 msgid "Deal or discount"
-msgstr "Offres et promotions"
+msgstr "Offre ou promotion"
 
 #: views/components/step-detail.jade:227 views/components/step-detail.jade:442
 msgid "Other"
@@ -3715,9 +3708,8 @@ msgid "Out"
 msgstr "De"
 
 #: views/components/step-detail.jade:276
-#, fuzzy
 msgid "Specify a descriptive name"
-msgstr "Indiquez un nom plus personnalisé"
+msgstr "Indiquez un nom détaillé"
 
 #: views/components/step-detail.jade:276
 msgid "Specify place location"
@@ -4197,6 +4189,8 @@ msgid ""
 "Split this lodging stop to avoid booking for {} nights in order to stay {} "
 "nights."
 msgstr ""
+"Fractionnez cet arrêt d'hébergement afin d'éviter de réserver {} nuits pour "
+"rester {} nuits."
 
 #: views/components/step-detail.jade:668
 msgid "Stop cannot be located."
@@ -4353,9 +4347,8 @@ msgid "Only overnight lodgings"
 msgstr "Seulement les hébergements d’une nuit"
 
 #: views/components/step-switches.jade:48
-#, fuzzy
 msgid "Only with selected tags"
-msgstr "Autour de l'étape sélectionnée"
+msgstr "Seulement avec les tags sélectionnés"
 
 #: views/components/step-switches.jade:53
 msgid "Distance from"
@@ -4387,7 +4380,7 @@ msgstr "Usage avancé"
 
 #: views/components/step-switches.jade:78
 msgid "Type tags to filter by"
-msgstr ""
+msgstr "Saisissez des tags pour filtrer"
 
 #: views/components/step-switches.jade:89
 #: views/components/step-switches.jade:105
@@ -5250,14 +5243,12 @@ msgid "New Trip"
 msgstr "Nouveau voyage"
 
 #: views/components/trips.jade:8
-#, fuzzy
 msgid "Hide trip thumbnails"
-msgstr "Cacher les détails du voyage"
+msgstr "Cacher les vignettes de voyage"
 
 #: views/components/trips.jade:8
-#, fuzzy
 msgid "Show trip thumbnails"
-msgstr "Afficher les détails du voyage"
+msgstr "Afficher les vignettes de voyage"
 
 #: views/components/trips.jade:10
 msgid "Hide trip tags"
@@ -5309,7 +5300,7 @@ msgstr "Merci de suivre ce lien pour voir le voyage :"
 
 #: views/email/password-reset-more-info.txt.jade:1
 msgid "We couldn't find an account associated with your email."
-msgstr ""
+msgstr "Impossible de trouver un compte associé à votre email."
 
 #: views/email/password-reset-more-info.txt.jade:2
 msgid ""
@@ -5350,13 +5341,12 @@ msgstr ""
 "merci de le saisir sur cette page :"
 
 #: views/email/password-reset-more-info.txt.jade:9
-#, fuzzy
 msgid ""
 "Feel free to sign up for a new account with Furkot and start planning a new "
 "trip right away:"
 msgstr ""
-"En attendant, vous pouvez enregistrer un nouveau compte sur Furkot et "
-"commencer à planifier un nouveau voyage tout de suite :"
+"Vous pouvez enregistrer un nouveau compte sur Furkot et commencer à "
+"planifier un nouveau voyage de suite :"
 
 #: views/email/password-reset-more-info.txt.jade:11
 msgid "You can always move trips between accounts later on."
@@ -5376,6 +5366,8 @@ msgid ""
 "Click the button above and select the application that can open the exported "
 "file."
 msgstr ""
+"Cliquez sur le bouton ci-dessus et sélectionnez l'application pouvant ouvrir "
+"le fichier exporté."
 
 #: views/footer.jade:14
 msgid "Credits"
@@ -5476,6 +5468,8 @@ msgid ""
 "We take care to keep prices and availability current but they may differ at "
 "the partner site"
 msgstr ""
+"Nous actualisons les prix et les disponibilités régulièrement, mais ils "
+"peuvent être différents sur le site partenaire"
 
 #: views/relay.jade:50
 msgid "Booking site is in a separate window"
