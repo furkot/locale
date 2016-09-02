@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2016-05-27 08:29+0000\n"
+"POT-Creation-Date: 2016-09-02 15:54+0000\n"
 "PO-Revision-Date: 2016-04-18 03:11-0400\n"
 "Last-Translator: Андрей Пестрецов <andrey@gold-key.biz>\n"
 "Language-Team: Russian <https://translate.code42day.com/projects/furkot/"
@@ -15,13 +15,13 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.4\n"
 
-#: views/app.jade:4 views/tripshot/tripshot.jade:199
+#: views/app.jade:4 views/tripshot/tripshot.jade:104
 msgid "My Trips"
 msgstr "Мои поездки"
 
 #. L10n: square brackets [] denote a link
 #: views/board/board.jade:7 views/tripshot/map.jade:36
-#: views/tripshot/tripshot.jade:113 views/tripshot/widget.jade:32
+#: views/tripshot/mixin.jade:135 views/tripshot/widget.jade:32
 msgid "Plan with [Furkot]"
 msgstr "Планировать с [Furkot]"
 
@@ -64,18 +64,18 @@ msgstr "Предложить"
 #: views/components/trip-detail.jade:409 views/components/trip-detail.jade:414
 #: views/components/trip-detail.jade:419 views/components/trip-detail.jade:429
 #: views/components/trip-detail.jade:437 views/components/trip-detail.jade:442
-#: views/components/trip-toolbar.jade:17 views/tripshot/tripshot.jade:144
+#: views/components/trip-toolbar.jade:17 views/tripshot/mixin.jade:114
 msgid "Cancel"
 msgstr "Отменить"
 
 #. L10n: Invitation to share a trip
-#: views/board/board.jade:30 views/components/share-dlg.jade:106
-#: views/components/tour.jade:41
+#: views/board/board.jade:30 views/components/applications.jade:18
+#: views/components/share-dlg.jade:106 views/components/tour.jade:41
 msgid "Close"
 msgstr "Закрыть"
 
 #: views/board/board.jade:92 views/components/book-trip.jade:32
-#: views/tripshot/tripshot.jade:200
+#: views/tripshot/tripshot.jade:105
 msgid "Back"
 msgstr "Назад"
 
@@ -190,7 +190,7 @@ msgstr "Присоединённые учётные записи"
 #: views/components/trip-detail.jade:419 views/components/trip-detail.jade:429
 #: views/components/trip-detail.jade:437 views/components/trip-detail.jade:442
 #: views/components/trip-toolbar.jade:17 views/components/warning.jade:9
-#: views/tripshot/tripshot.jade:147
+#: views/tripshot/mixin.jade:117
 msgid "OK"
 msgstr "ОК"
 
@@ -214,6 +214,33 @@ msgstr "Новое путешествие"
 #: views/components/add-stops.jade:12
 msgid "Do you want to create your own version of a trip"
 msgstr "Хочешь ли ты создать свою собственную версию поездки"
+
+#: views/components/applications.jade:2 views/header.jade:25
+msgid "Applications"
+msgstr ""
+
+#: views/components/applications.jade:5
+msgid "You haven’t given any application access to your Furkot trips."
+msgstr ""
+
+#. L10n: Followed by the list of applications that work with Furkot
+#: views/components/applications.jade:7
+msgid "We recommend:"
+msgstr ""
+
+#: views/components/applications.jade:15 views/components/book-trip.jade:29
+#: views/components/export-dlg.jade:81 views/components/import-dlg.jade:82
+#: views/components/navigation.jade:45
+#: views/components/new-trip-wizard.jade:135
+#: views/components/share-dlg.jade:73 views/components/trip-detail.jade:406
+#: views/components/trip-toolbar.jade:39 views/tripshot/mixin.jade:120
+#: views/tripshot/mixin.jade:129
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: views/components/applications.jade:24
+msgid "Remove"
+msgstr ""
 
 #: views/components/book-trip.jade:12
 msgid "Hotel name"
@@ -245,15 +272,6 @@ msgstr "Следующий"
 #: views/components/new-trip-wizard.jade:131
 msgid "Done"
 msgstr "Готово"
-
-#: views/components/book-trip.jade:29 views/components/export-dlg.jade:81
-#: views/components/import-dlg.jade:82 views/components/navigation.jade:45
-#: views/components/new-trip-wizard.jade:135
-#: views/components/share-dlg.jade:73 views/components/trip-detail.jade:406
-#: views/components/trip-toolbar.jade:39 views/tripshot/tripshot.jade:150
-#: views/tripshot/tripshot.jade:166
-msgid "Learn more"
-msgstr "Узнать больше"
 
 #: views/components/book-trip.jade:33
 msgid ""
@@ -360,7 +378,7 @@ msgstr "Заменить выбранную остановку этим отел
 
 #: views/components/bookable.jade:18 views/components/bookable.jade:33
 #: views/components/bookable.jade:60 views/components/bookable.jade:74
-#: views/components/bookable.jade:89
+#: views/components/bookable.jade:89 views/components/bookable.jade:104
 msgid "See guest reviews at"
 msgstr "Посмотреть отзывы на"
 
@@ -444,19 +462,19 @@ msgstr "Скрыть предложения от"
 msgid "Show deals from"
 msgstr "Показать предложения от"
 
-#: views/components/bookable.jade:74 views/components/bookable.jade:89
+#: views/components/bookable.jade:74 views/components/bookable.jade:104
 msgid "Add this lodging as a new stop"
 msgstr "Добавить это жильё как новую остановку"
 
-#: views/components/bookable.jade:74 views/components/bookable.jade:89
+#: views/components/bookable.jade:74 views/components/bookable.jade:104
 msgid "Add this lodging as a skipped stop"
 msgstr "Добавить это жильё как пропущенную остановку"
 
-#: views/components/bookable.jade:74 views/components/bookable.jade:89
+#: views/components/bookable.jade:74 views/components/bookable.jade:104
 msgid "Fold this lodging details"
 msgstr "Скрыть детали этого жилья"
 
-#: views/components/bookable.jade:74 views/components/bookable.jade:89
+#: views/components/bookable.jade:74 views/components/bookable.jade:104
 msgid "Replace selected stop with this lodging"
 msgstr "Заменить выбранную остановку этим жильём"
 
@@ -465,7 +483,7 @@ msgstr "Заменить выбранную остановку этим жиль
 msgid "See this lodging host profile"
 msgstr "Смотреть профиль хозяина этого жилья"
 
-#: views/components/bookable.jade:74 views/components/bookable.jade:89
+#: views/components/bookable.jade:74 views/components/bookable.jade:104
 msgid "See this lodging page at"
 msgstr "Смотрите страницу этого жилья на"
 
@@ -478,24 +496,64 @@ msgid "Show apartments and rooms from"
 msgstr "Показать номера и апартаменты от"
 
 #: views/components/bookable.jade:89
+#, fuzzy
+msgid "Add this hostel as a new stop"
+msgstr "Добавьте этот отель в качестве новой остановки"
+
+#: views/components/bookable.jade:89
+#, fuzzy
+msgid "Add this hostel as a skipped stop"
+msgstr "Добавьте этот отель как пропущеную остановку"
+
+#: views/components/bookable.jade:89
+#, fuzzy
+msgid "Fold this hostel details"
+msgstr "Свернуть детали об этом отеле"
+
+#: views/components/bookable.jade:89
+#, fuzzy
+msgid "Replace selected stop with this hostel"
+msgstr "Заменить выбранную остановку этим отелем"
+
+#: views/components/bookable.jade:89
+#, fuzzy
+msgid "See this hostel own website"
+msgstr "Смотрите этот сайт отеля"
+
+#: views/components/bookable.jade:89
+#, fuzzy
+msgid "See this hostel page at"
+msgstr "Смотрите страницу отеля на"
+
+#: views/components/bookable.jade:97
+#, fuzzy
+msgid "Hide hostels from"
+msgstr "Скрыть отели из"
+
+#: views/components/bookable.jade:97
+#, fuzzy
+msgid "Show hostels from"
+msgstr "Показать отели из"
+
+#: views/components/bookable.jade:104
 msgid "See this lodging own website"
 msgstr "Посмотреть сайт владельца этого жилья"
 
-#: views/components/bookable.jade:97
+#: views/components/bookable.jade:112
 msgid "Hide lodgings from"
 msgstr "Скрыть жильё от"
 
-#: views/components/bookable.jade:97
+#: views/components/bookable.jade:112
 msgid "Show lodgings from"
 msgstr "Показать жильё от"
 
-#: views/components/bookable.jade:119
+#: views/components/bookable.jade:136
 msgid ""
 "The Hot Rate hotel is located in the highlighted area. Once you book, you'll "
 "learn the location."
 msgstr ""
 
-#: views/components/bookable.jade:119
+#: views/components/bookable.jade:136
 msgid ""
 "When brand-name hotels use Hotwire to fill rooms that would otherwise go "
 "unsold, their prices are deeply discounted. Hotels don't want to publicize "
@@ -504,24 +562,24 @@ msgid ""
 msgstr ""
 
 #. L10n: pair of _underscores_ denotes different formatting
-#: views/components/browse-happy.jade:4
+#: views/components/browse-happy.jade:5
 msgid "You are using an _outdated_ browser."
 msgstr "Вы используете _устаревший_ браузер"
 
 #. L10n: square brackets [] denote a link
-#: views/components/browse-happy.jade:6
+#: views/components/browse-happy.jade:7
 msgid "Please [upgrade your browser] to improve your experience."
 msgstr "Пожалуйста [обновите браузер], чтобы улучшить ощущения."
 
 #: views/components/dialog.jade:5 views/components/place-switch.jade:190
 #: views/components/step-detail.jade:657
-#: views/components/step-switches.jade:80 views/tripshot/tripshot.jade:142
+#: views/components/step-switches.jade:80 views/tripshot/mixin.jade:112
 msgid "Cancel changes"
 msgstr "Отменить изменения"
 
 #: views/components/dialog.jade:8 views/components/place-switch.jade:192
 #: views/components/step-detail.jade:660
-#: views/components/step-switches.jade:82 views/tripshot/tripshot.jade:145
+#: views/components/step-switches.jade:82 views/tripshot/mixin.jade:115
 msgid "Accept changes"
 msgstr "Принять изменения"
 
@@ -835,7 +893,7 @@ msgstr ""
 msgid "Help"
 msgstr ""
 
-#: views/components/header.jade:21 views/header.jade:25
+#: views/components/header.jade:21 views/header.jade:28
 #: views/welcome/header.jade:9 views/welcome/header.jade:11
 #: views/widget/plan.jade:59
 msgid "Sign out"
@@ -934,8 +992,8 @@ msgstr ""
 #: views/components/trip-config-item.jade:74
 #: views/components/trip-detail.jade:97 views/components/trip-detail.jade:110
 #: views/components/trip-detail.jade:281 views/components/trip-detail.jade:292
-#: views/tripshot/map.jade:23 views/tripshot/tripshot.jade:21
-#: views/tripshot/tripshot.jade:58 views/tripshot/widget.jade:25
+#: views/tripshot/map.jade:23 views/tripshot/tripshot.jade:20
+#: views/tripshot/tripshot.jade:45 views/tripshot/widget.jade:25
 msgid "km"
 msgstr ""
 
@@ -990,15 +1048,15 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
-#: views/components/language.jade:22
+#: views/components/language.jade:25
 msgid "Languages partially translated"
 msgstr ""
 
-#: views/components/language.jade:25
+#: views/components/language.jade:28
 msgid "If you want to help"
 msgstr ""
 
-#: views/components/language.jade:26
+#: views/components/language.jade:29
 msgid "click here"
 msgstr ""
 
@@ -3063,7 +3121,7 @@ msgid "View only"
 msgstr ""
 
 #: views/components/print.jade:15 views/components/step-detail.jade:373
-#: views/components/step-detail.jade:623 views/tripshot/tripshot.jade:47
+#: views/components/step-detail.jade:623 views/tripshot/tripshot.jade:34
 msgid "Day"
 msgstr ""
 
@@ -4452,8 +4510,8 @@ msgstr ""
 #: views/components/trip-config-item.jade:40
 #: views/components/trip-config-item.jade:50
 #: views/components/trip-detail.jade:98 views/components/trip-detail.jade:293
-#: views/tripshot/map.jade:23 views/tripshot/tripshot.jade:21
-#: views/tripshot/tripshot.jade:58 views/tripshot/widget.jade:25
+#: views/tripshot/map.jade:23 views/tripshot/tripshot.jade:20
+#: views/tripshot/tripshot.jade:45 views/tripshot/widget.jade:25
 msgid "miles"
 msgstr ""
 
@@ -5269,74 +5327,86 @@ msgid "Booking site is in a separate window"
 msgstr ""
 
 #. L10n: curly brackets {} are placeholders for trip start and end point respectively
-#: views/tripshot/mixin.jade:25
+#: views/tripshot/mixin.jade:26
 msgid "From {} to {}."
 msgstr ""
 
 #. L10n: curly brackets {} are placeholders for trip time (as in 'X days') and distance respectively
-#: views/tripshot/mixin.jade:28
+#: views/tripshot/mixin.jade:32
 msgid "{} and {} kilometers of new adventures."
 msgstr ""
 
 #. L10n: curly brackets {} are placeholders for trip time (as in 'X days') and distance respectively
-#: views/tripshot/mixin.jade:31
+#: views/tripshot/mixin.jade:35
 msgid "{} and {} miles of new adventures."
 msgstr ""
 
-#: views/tripshot/mixin.jade:32
+#: views/tripshot/mixin.jade:37
 msgid "You too can use Furkot to plan your next road trip."
 msgstr ""
 
-#: views/tripshot/tripshot.jade:37
-msgid "Insert your own trip photo here"
-msgstr ""
-
 #. L10n: "Book cover" meaning a front and back of a book
-#: views/tripshot/tripshot.jade:93 views/tripshot/tripshot.jade:103
+#: views/tripshot/mixin.jade:72 views/tripshot/mixin.jade:79
 msgid "Book cover"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:119
-msgid "Edit trip snapshot"
+#: views/tripshot/mixin.jade:91
+msgid "Title"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:127
+#: views/tripshot/mixin.jade:94
+msgid "Description"
+msgstr ""
+
+#: views/tripshot/mixin.jade:97
 msgid "Link to the trip photo"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:130
+#: views/tripshot/mixin.jade:100
 msgid "Link to more info about the trip"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:133
+#: views/tripshot/mixin.jade:103
 msgid "Select the best travel guide for the trip"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:138
+#: views/tripshot/mixin.jade:108
 msgid "Search travel guides by title, author, place(s), keyword(s)"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:139
+#: views/tripshot/mixin.jade:109
 msgid "Run the search"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:156
-msgid "Embed in website"
-msgstr ""
-
-#: views/tripshot/tripshot.jade:162
+#: views/tripshot/mixin.jade:125
 msgid "Copy and paste to embed in your website"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:177
+#: views/tripshot/mixin.jade:141
+msgid "Edit trip snapshot"
+msgstr ""
+
+#: views/tripshot/mixin.jade:147
+msgid "Embed in website"
+msgstr ""
+
+#: views/tripshot/mixin.jade:168
+msgid "Insert your own trip photo here"
+msgstr ""
+
+#: views/tripshot/tripshot.jade:9
+msgid "See more trips"
+msgstr ""
+
+#: views/tripshot/tripshot.jade:82
 msgid "Itinerary"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:178
+#: views/tripshot/tripshot.jade:83
 msgid "Guidebooks"
 msgstr ""
 
-#: views/tripshot/tripshot.jade:179
+#: views/tripshot/tripshot.jade:84
 msgid "Comments"
 msgstr ""
 
@@ -5565,6 +5635,15 @@ msgstr ""
 #. L10n: square brackets [] denote a link
 #: views/welcome/login.jade:24
 msgid "To sign in as a different user [click here]"
+msgstr ""
+
+#. L10n: curly brackets {} denote a placeholder for the application name
+#: views/welcome/oauth2_grant.jade:15
+msgid "The application {} is requesting read-only access to your trips."
+msgstr ""
+
+#: views/welcome/oauth2_grant.jade:17
+msgid "Do you allow the application to connect to Furkot?"
 msgstr ""
 
 #: views/welcome/password-forgot-page.jade:4
