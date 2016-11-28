@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2016-11-27 01:49+0000\n"
-"PO-Revision-Date: 2016-10-27 20:44-0400\n"
+"PO-Revision-Date: 2016-11-28 13:05-0400\n"
 "Last-Translator: Sylvain Francois <syllant@gmail.com>\n"
-"Language-Team: French <https://translate.code42day.com/projects/furkot/trips/"
-"fr/>\n"
+"Language-Team: French "
+"<https://translate.code42day.com/projects/furkot/trips/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -923,7 +923,6 @@ msgid "Import Trip"
 msgstr "Importer le voyage"
 
 #: views/components/import-dlg.jade:5
-#, fuzzy
 msgid "Select a file to import"
 msgstr "Sélectionnez le fichier à importer"
 
@@ -937,7 +936,7 @@ msgstr "URL (adresse web) du fichier KML, GPX ou CSV"
 
 #: views/components/import-dlg.jade:10
 msgid "Choose File"
-msgstr ""
+msgstr "Sélectionnez un fichier"
 
 #: views/components/import-dlg.jade:15
 msgid "Could not find any stops in this file. Try selecting another one."
@@ -947,7 +946,7 @@ msgstr ""
 
 #: views/components/import-dlg.jade:18
 msgid "Unsupported file type."
-msgstr ""
+msgstr "Type de fichier non supporté."
 
 #. L10n: pair of _underscores_ denotes different formatting
 #: views/components/import-dlg.jade:20 views/components/import-dlg.jade:122
@@ -957,7 +956,7 @@ msgstr ""
 
 #: views/components/import-dlg.jade:22
 msgid "The file is too large."
-msgstr ""
+msgstr "Le fichier est trop volumineux."
 
 #: views/components/import-dlg.jade:23 views/components/import-dlg.jade:132
 msgid "File size limit for all types is 8MB."
@@ -965,31 +964,33 @@ msgstr "La taille limite des fichiers est de 8Mo."
 
 #: views/components/import-dlg.jade:25
 msgid "Furkot no longer has information from this file."
-msgstr ""
+msgstr "Furkot n'a plus accès à ce fichier."
 
 #: views/components/import-dlg.jade:26
-#, fuzzy
 msgid "Choose the file to import it again."
-msgstr "Sélectionnez le fichier à importer"
+msgstr "Sélectionnez le fichier pour l'importer de nouveau."
 
 #: views/components/import-dlg.jade:28 views/components/import-dlg.jade:31
 msgid "Invalid CSV file."
-msgstr ""
+msgstr "Fichier CSV invalide."
 
 #: views/components/import-dlg.jade:29
 msgid ""
 "Supported CSV formats are Garmin Custom POI files and files with at least a "
 "name and either an address or lat and lon columns."
 msgstr ""
+"Les formats CSV supportés sont les fichiers Garmin Custom POI et les "
+"fichiers comportant au moins les champs name et, soit address, soit lat et "
+"lon."
 
 #. L10n: the curly brackets {} stand for " character
 #: views/components/import-dlg.jade:33 views/components/import-dlg.jade:131
 msgid "Enclose fields with commas in double-quotes {}."
-msgstr ""
+msgstr "Entourez les champs entre guillemets et séparez-les par une virgule {}."
 
 #: views/components/import-dlg.jade:35
 msgid "Invalid GPX file."
-msgstr ""
+msgstr "Fichier GPX invalide."
 
 #: views/components/import-dlg.jade:36 views/components/import-dlg.jade:126
 msgid "GPX schema 1.1 is supported. Proprietary extensions are ignored."
@@ -998,7 +999,7 @@ msgstr ""
 
 #: views/components/import-dlg.jade:38
 msgid "Invalid KML file."
-msgstr ""
+msgstr "Fichier KML invalide."
 
 #: views/components/import-dlg.jade:39 views/components/import-dlg.jade:125
 msgid "Supported KML elements are Placemark and LineString."
@@ -1006,18 +1007,22 @@ msgstr "Les éléments KML supportés sont les Placemark et LineString."
 
 #: views/components/import-dlg.jade:41
 msgid "Invalid KMZ file."
-msgstr ""
+msgstr "Fichier KMZ invalide."
 
 #. L10n: pair of _underscores_ denotes different formatting
 #: views/components/import-dlg.jade:44
 msgid ""
 "The URL doesn't serve _KML_, _GPX_, or _CSV_ data or requires a sign on."
 msgstr ""
+"L'URL ne sert pas de données _KML_, _GPX_, ou _CSV_, ou requiert une "
+"authentification."
 
 #: views/components/import-dlg.jade:45
 msgid ""
 "Try opening the URL directly in the browser and import the downloaded file."
 msgstr ""
+"Essayez d'ouvrir l'URL directement dans votre navigateur et importez le "
+"fichier téléchargé."
 
 #: views/components/import-dlg.jade:47
 msgid " Please wait while Furkot is preparing your trip"
@@ -1029,20 +1034,19 @@ msgstr "Fichier analysé avec succès."
 
 #: views/components/import-dlg.jade:52
 msgid "You can select which stops to import."
-msgstr ""
+msgstr "Vous pouvez sélectionner quelles étapes importer."
 
 #: views/components/import-dlg.jade:55
 msgid "Found stops"
 msgstr "Etapes trouvées"
 
 #: views/components/import-dlg.jade:58
-#, fuzzy
 msgid "Import stops"
-msgstr "Importer un voyage"
+msgstr "Importer les étapes"
 
 #: views/components/import-dlg.jade:59
 msgid "Number of stops to import"
-msgstr ""
+msgstr "Nombre d'étapes à importer"
 
 #: views/components/import-dlg.jade:67
 #: views/components/new-trip-wizard.jade:67
@@ -1051,31 +1055,30 @@ msgstr "Commencez à"
 
 #: views/components/import-dlg.jade:68
 msgid "Index of the first stop to import"
-msgstr ""
+msgstr "Index de la première étape à importer"
 
 #: views/components/import-dlg.jade:74
 msgid "Filter"
-msgstr ""
+msgstr "Filtrer"
 
 #: views/components/import-dlg.jade:75
 msgid "Matching phrase"
-msgstr ""
+msgstr "Expression correspondante"
 
 #: views/components/import-dlg.jade:75
 msgid "Optional phrase to match against stop fields"
-msgstr ""
+msgstr "Expression optionnelle pour filtrer les étapes"
 
 #: views/components/import-dlg.jade:83
 msgid "Reorder stops for the shortest route"
 msgstr "Réorganiser les étapes pour établir la route la plus courte"
 
 #: views/components/import-dlg.jade:86
-#, fuzzy
 msgid ""
 "When not defined in the imported file, Furkot will use the default stop "
 "duration."
 msgstr ""
-"Si l'information manque dans le fichier importé, Furkot utilisera une durée "
+"Si l'information manque dans le fichier importé, Furkot utilisera la durée "
 "d'étape par défaut."
 
 #: views/components/import-dlg.jade:88
@@ -1118,11 +1121,10 @@ msgstr ""
 "la vitesse moyenne à la place."
 
 #: views/components/import-dlg.jade:107
-#, fuzzy
 msgid "For routes/tracks without timing data Furkot will use an average speed."
 msgstr ""
-"Certaines routes / traces n’ont pas d’information horaire. Furkot utilisera "
-"la vitesse moyenne à la place."
+"Si des routes / pistes sont définies sans information horaire, Furkot "
+"utilisera la vitesse moyenne."
 
 #: views/components/import-dlg.jade:109
 msgid "Average speed"
@@ -1163,10 +1165,9 @@ msgid "Please wait while Furkot is analyzing your file"
 msgstr "Merci de patienter pendant que Furkot analyse votre fichier"
 
 #: views/components/import-dlg.jade:123
-#, fuzzy
 msgid "You can import places from _KML_, _GPX_, and _CSV_ files."
 msgstr ""
-"Vous pouvez importer des voyages à partir de fichiers _KML_, _GPX_, et _CSV_."
+"Vous pouvez importer des lieux à partir de fichiers _KML_, _GPX_, et _CSV_."
 
 #: views/components/import-dlg.jade:127
 msgid ""
@@ -1181,12 +1182,17 @@ msgid ""
 "Supported CSV formats are Garmin Custom POI file and files with at least "
 "name and either address or lat and lon columns."
 msgstr ""
+"Les formats CSV supportés sont les fichiers Garmin Custom POI et les "
+"fichiers comportant au moins un champ name et soit un champ address, soit "
+"des champs lat et lon."
 
 #: views/components/import-dlg.jade:133
 msgid ""
 "Places without coordinates have been ignored. To retrieve places without "
 "coordinates import the file as a new trip."
 msgstr ""
+"Les lieux sans coordonnées ont été ignorés. Pour récupérer des lieux sans "
+"coordonnées, importez le fichier comme un nouveau voyage."
 
 #: views/components/import-dlg.jade:140
 #: views/components/new-trip-wizard.jade:121
@@ -1521,13 +1527,13 @@ msgid "Apple Maps"
 msgstr "Apple Maps"
 
 #: views/components/navigation.jade:54
-#, fuzzy
 msgid ""
 "Selected app will open when you click on the navigation button next to stop "
 "coordinates, its address or route."
 msgstr ""
 "L'application sélectionnée s'ouvrira lorsque vous cliquerez sur le bouton de "
-"navigation à côté des coordonnées de l'arrêt ou de l'adresse."
+"navigation à côté des coordonnées de l'étape, de son adresse ou de sa "
+"route."
 
 #: views/components/new-trip-wizard.jade:2
 msgid "Plan new trip"
@@ -2392,9 +2398,8 @@ msgid "My other trips, routes and tracks"
 msgstr "Mes autres voyages, routes et pistes"
 
 #: views/components/place-switch.jade:200
-#, fuzzy
 msgid "Configure Find"
-msgstr "Configurer les options de recherche"
+msgstr "Configurer Chercher"
 
 #: views/components/places.jade:1 views/components/places.jade:141
 #: views/components/places.jade:155 views/components/places.jade:284
@@ -2447,9 +2452,8 @@ msgid "Fold this search details"
 msgstr "Cacher les détails de cette recherche"
 
 #: views/components/places.jade:10
-#, fuzzy
 msgid "Guidebooks and travel guides on Amazon"
-msgstr "Chercher les guides de voyage sur Amazon"
+msgstr "Guides touristiques et de voyage sur Amazon"
 
 #: views/components/places.jade:10
 msgid "Search guidebooks and travel guides on Amazon"
@@ -4220,9 +4224,8 @@ msgid "Transparent"
 msgstr "Transparent"
 
 #: views/components/step-detail.jade:533
-#, fuzzy
 msgid "Navigate this route"
-msgstr "Parcourir cette route"
+msgstr "Prendre cette route"
 
 #. L10n: label for the time needed to cover the route between two stops - keep the underscores _
 #: views/components/step-detail.jade:545
@@ -4412,7 +4415,6 @@ msgid "The trip ends earlier on {} at {}."
 msgstr "Le voyage se termine plus tôt le {} à {}."
 
 #: views/components/step-detail.jade:670
-#, fuzzy
 msgid "The trip ends later on {} at {}."
 msgstr "Le voyage commence plus tard le {} à {}."
 
