@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2016-11-27 01:49+0000\n"
+"POT-Creation-Date: 2017-01-06 01:46+0000\n"
 "PO-Revision-Date: 2016-11-28 13:05-0400\n"
 "Last-Translator: Sylvain Francois <syllant@gmail.com>\n"
-"Language-Team: French "
-"<https://translate.code42day.com/projects/furkot/trips/fr/>\n"
+"Language-Team: French <https://translate.code42day.com/projects/furkot/trips/"
+"fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,8 +47,8 @@ msgstr "Suggérer"
 
 #: views/board/board.jade:29 views/components/accounts.jade:69
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:10
-#: views/components/dialog.jade:7 views/components/import-dlg.jade:139
-#: views/components/navigation.jade:2 views/components/place-switch.jade:203
+#: views/components/dialog.jade:7 views/components/import-dlg.jade:141
+#: views/components/navigation.jade:2 views/components/place-switch.jade:205
 #: views/components/plan-msg.jade:2 views/components/share-dlg.jade:87
 #: views/components/share-dlg.jade:95 views/components/share-dlg.jade:107
 #: views/components/step-detail.jade:661
@@ -174,7 +174,7 @@ msgstr "Comptes connectés"
 
 #: views/components/accounts.jade:70 views/components/add-stops.jade:2
 #: views/components/add-stops.jade:10 views/components/navigation.jade:2
-#: views/components/place-switch.jade:204 views/components/plan-msg.jade:2
+#: views/components/place-switch.jade:206 views/components/plan-msg.jade:2
 #: views/components/plan-msg.jade:12 views/components/share-dlg.jade:87
 #: views/components/share-dlg.jade:95 views/components/share-dlg.jade:107
 #: views/components/step-switches.jade:86
@@ -229,10 +229,10 @@ msgid "We recommend:"
 msgstr "Nous recommandons :"
 
 #: views/components/applications.jade:15 views/components/book-trip.jade:29
-#: views/components/export-dlg.jade:81 views/components/import-dlg.jade:146
-#: views/components/navigation.jade:57
+#: views/components/export-dlg.jade:81 views/components/import-dlg.jade:148
+#: views/components/navigation.jade:69
 #: views/components/new-trip-wizard.jade:127
-#: views/components/place-switch.jade:207 views/components/share-dlg.jade:84
+#: views/components/place-switch.jade:209 views/components/share-dlg.jade:84
 #: views/components/trip-detail.jade:406 views/components/trip-toolbar.jade:39
 #: views/tripshot/mixin.jade:99 views/tripshot/mixin.jade:128
 msgid "Learn more"
@@ -263,7 +263,7 @@ msgid "Booking confirmation"
 msgstr "Confirmation de réservation"
 
 #: views/components/book-trip.jade:25 views/components/book-trip.jade:32
-#: views/components/import-dlg.jade:141
+#: views/components/import-dlg.jade:143
 #: views/components/new-trip-wizard.jade:122 views/components/tour.jade:42
 msgid "Next"
 msgstr "Suivant"
@@ -907,7 +907,7 @@ msgstr "S’inscrire"
 msgid "Sign in"
 msgstr "Se connecter"
 
-#: views/components/header.jade:17 views/footer.jade:19 views/header.jade:16
+#: views/components/header.jade:17 views/footer.jade:20 views/header.jade:16
 #: views/welcome/header.jade:4 views/welcome/header.jade:6
 msgid "Help"
 msgstr "Aide"
@@ -949,7 +949,7 @@ msgid "Unsupported file type."
 msgstr "Type de fichier non supporté."
 
 #. L10n: pair of _underscores_ denotes different formatting
-#: views/components/import-dlg.jade:20 views/components/import-dlg.jade:122
+#: views/components/import-dlg.jade:20 views/components/import-dlg.jade:124
 msgid "You can import trips from _KML_, _GPX_, and _CSV_ files."
 msgstr ""
 "Vous pouvez importer des voyages à partir de fichiers _KML_, _GPX_, et _CSV_."
@@ -958,23 +958,28 @@ msgstr ""
 msgid "The file is too large."
 msgstr "Le fichier est trop volumineux."
 
-#: views/components/import-dlg.jade:23 views/components/import-dlg.jade:132
+#: views/components/import-dlg.jade:23 views/components/import-dlg.jade:134
 msgid "File size limit for all types is 8MB."
 msgstr "La taille limite des fichiers est de 8Mo."
 
 #: views/components/import-dlg.jade:25
+#, fuzzy
+msgid "This file is taking too long to analyze."
+msgstr "Si cela prend trop de temps, cliquez"
+
+#: views/components/import-dlg.jade:27
 msgid "Furkot no longer has information from this file."
 msgstr "Furkot n'a plus accès à ce fichier."
 
-#: views/components/import-dlg.jade:26
+#: views/components/import-dlg.jade:28
 msgid "Choose the file to import it again."
 msgstr "Sélectionnez le fichier pour l'importer de nouveau."
 
-#: views/components/import-dlg.jade:28 views/components/import-dlg.jade:31
+#: views/components/import-dlg.jade:30 views/components/import-dlg.jade:33
 msgid "Invalid CSV file."
 msgstr "Fichier CSV invalide."
 
-#: views/components/import-dlg.jade:29
+#: views/components/import-dlg.jade:31
 msgid ""
 "Supported CSV formats are Garmin Custom POI files and files with at least a "
 "name and either an address or lat and lon columns."
@@ -984,96 +989,97 @@ msgstr ""
 "lon."
 
 #. L10n: the curly brackets {} stand for " character
-#: views/components/import-dlg.jade:33 views/components/import-dlg.jade:131
+#: views/components/import-dlg.jade:35 views/components/import-dlg.jade:133
 msgid "Enclose fields with commas in double-quotes {}."
-msgstr "Entourez les champs entre guillemets et séparez-les par une virgule {}."
+msgstr ""
+"Entourez les champs entre guillemets et séparez-les par une virgule {}."
 
-#: views/components/import-dlg.jade:35
+#: views/components/import-dlg.jade:37
 msgid "Invalid GPX file."
 msgstr "Fichier GPX invalide."
 
-#: views/components/import-dlg.jade:36 views/components/import-dlg.jade:126
+#: views/components/import-dlg.jade:38 views/components/import-dlg.jade:128
 msgid "GPX schema 1.1 is supported. Proprietary extensions are ignored."
 msgstr ""
 "Le schéma GPX 1.1 est supporté. Les extensions propriétaires sont ignorées."
 
-#: views/components/import-dlg.jade:38
+#: views/components/import-dlg.jade:40
 msgid "Invalid KML file."
 msgstr "Fichier KML invalide."
 
-#: views/components/import-dlg.jade:39 views/components/import-dlg.jade:125
+#: views/components/import-dlg.jade:41 views/components/import-dlg.jade:127
 msgid "Supported KML elements are Placemark and LineString."
 msgstr "Les éléments KML supportés sont les Placemark et LineString."
 
-#: views/components/import-dlg.jade:41
+#: views/components/import-dlg.jade:43
 msgid "Invalid KMZ file."
 msgstr "Fichier KMZ invalide."
 
 #. L10n: pair of _underscores_ denotes different formatting
-#: views/components/import-dlg.jade:44
+#: views/components/import-dlg.jade:46
 msgid ""
 "The URL doesn't serve _KML_, _GPX_, or _CSV_ data or requires a sign on."
 msgstr ""
 "L'URL ne sert pas de données _KML_, _GPX_, ou _CSV_, ou requiert une "
 "authentification."
 
-#: views/components/import-dlg.jade:45
+#: views/components/import-dlg.jade:47
 msgid ""
 "Try opening the URL directly in the browser and import the downloaded file."
 msgstr ""
 "Essayez d'ouvrir l'URL directement dans votre navigateur et importez le "
 "fichier téléchargé."
 
-#: views/components/import-dlg.jade:47
+#: views/components/import-dlg.jade:49
 msgid " Please wait while Furkot is preparing your trip"
 msgstr " Merci de patienter pendant que Furkot prépare votre voyage"
 
-#: views/components/import-dlg.jade:51
+#: views/components/import-dlg.jade:53
 msgid "File analyzed successfully."
 msgstr "Fichier analysé avec succès."
 
-#: views/components/import-dlg.jade:52
+#: views/components/import-dlg.jade:54
 msgid "You can select which stops to import."
 msgstr "Vous pouvez sélectionner quelles étapes importer."
 
-#: views/components/import-dlg.jade:55
+#: views/components/import-dlg.jade:57
 msgid "Found stops"
 msgstr "Etapes trouvées"
 
-#: views/components/import-dlg.jade:58
+#: views/components/import-dlg.jade:60
 msgid "Import stops"
 msgstr "Importer les étapes"
 
-#: views/components/import-dlg.jade:59
+#: views/components/import-dlg.jade:61
 msgid "Number of stops to import"
 msgstr "Nombre d'étapes à importer"
 
-#: views/components/import-dlg.jade:67
+#: views/components/import-dlg.jade:69
 #: views/components/new-trip-wizard.jade:67
 msgid "Start at"
 msgstr "Commencez à"
 
-#: views/components/import-dlg.jade:68
+#: views/components/import-dlg.jade:70
 msgid "Index of the first stop to import"
 msgstr "Index de la première étape à importer"
 
-#: views/components/import-dlg.jade:74
+#: views/components/import-dlg.jade:76
 msgid "Filter"
 msgstr "Filtrer"
 
-#: views/components/import-dlg.jade:75
+#: views/components/import-dlg.jade:77
 msgid "Matching phrase"
 msgstr "Expression correspondante"
 
-#: views/components/import-dlg.jade:75
+#: views/components/import-dlg.jade:77
 msgid "Optional phrase to match against stop fields"
 msgstr "Expression optionnelle pour filtrer les étapes"
 
-#: views/components/import-dlg.jade:83
+#: views/components/import-dlg.jade:85
 msgid "Reorder stops for the shortest route"
 msgstr "Réorganiser les étapes pour établir la route la plus courte"
 
-#: views/components/import-dlg.jade:86
+#: views/components/import-dlg.jade:88
 msgid ""
 "When not defined in the imported file, Furkot will use the default stop "
 "duration."
@@ -1081,38 +1087,38 @@ msgstr ""
 "Si l'information manque dans le fichier importé, Furkot utilisera la durée "
 "d'étape par défaut."
 
-#: views/components/import-dlg.jade:88
+#: views/components/import-dlg.jade:90
 #: views/components/trip-config-item.jade:30
 #: views/components/trip-detail.jade:100
 msgid "Stopover"
 msgstr "Escale"
 
 #. L10n: "Travel by" car/motorcycle/bicycle/on foot - label for the mode of travel
-#: views/components/import-dlg.jade:94
+#: views/components/import-dlg.jade:96
 #: views/components/new-trip-wizard.jade:75
 msgid "Travel by"
 msgstr "Voyager par"
 
-#: views/components/import-dlg.jade:97
+#: views/components/import-dlg.jade:99
 msgid "Let Furkot follow roads unless importing off-road routes/tracks."
 msgstr ""
 "Laisser Furkot suivre les routes sauf pour les chemins/pistes hors route "
 "importés."
 
-#: views/components/import-dlg.jade:99 views/components/step-detail.jade:538
+#: views/components/import-dlg.jade:101 views/components/step-detail.jade:538
 msgid "Routing"
 msgstr "Routage"
 
 # TOCHECK "Routes à péage" is too long
-#: views/components/import-dlg.jade:101 views/components/step-detail.jade:539
+#: views/components/import-dlg.jade:103 views/components/step-detail.jade:539
 msgid "Follow roads"
 msgstr "Suivre les routes"
 
-#: views/components/import-dlg.jade:101 views/components/step-detail.jade:539
+#: views/components/import-dlg.jade:103 views/components/step-detail.jade:539
 msgid "Travel off road"
 msgstr "Voyager hors route"
 
-#: views/components/import-dlg.jade:106
+#: views/components/import-dlg.jade:108
 msgid ""
 "Not all routes/tracks have timing data. Furkot will use an average speed "
 "instead."
@@ -1120,18 +1126,18 @@ msgstr ""
 "Certaines routes / traces n’ont pas d’information horaire. Furkot utilisera "
 "la vitesse moyenne à la place."
 
-#: views/components/import-dlg.jade:107
+#: views/components/import-dlg.jade:109
 msgid "For routes/tracks without timing data Furkot will use an average speed."
 msgstr ""
 "Si des routes / pistes sont définies sans information horaire, Furkot "
 "utilisera la vitesse moyenne."
 
-#: views/components/import-dlg.jade:109
+#: views/components/import-dlg.jade:111
 msgid "Average speed"
 msgstr "Vitesse moyenne"
 
 #. L10n: abbreviation of kilometer
-#: views/components/import-dlg.jade:112 views/components/place-switch.jade:29
+#: views/components/import-dlg.jade:114 views/components/place-switch.jade:29
 #: views/components/step-detail.jade:564
 #: views/components/trip-config-item.jade:39
 #: views/components/trip-config-item.jade:49
@@ -1144,7 +1150,7 @@ msgid "km"
 msgstr "km"
 
 #. L10n: abbreviation of mile
-#: views/components/import-dlg.jade:113 views/components/place-switch.jade:30
+#: views/components/import-dlg.jade:115 views/components/place-switch.jade:30
 #: views/components/step-detail.jade:565
 #: views/components/trip-config-item.jade:75
 #: views/components/trip-detail.jade:112 views/components/trip-detail.jade:282
@@ -1152,7 +1158,7 @@ msgid "mi"
 msgstr "mi"
 
 #. L10n: square brackets [] denote a button
-#: views/components/import-dlg.jade:116
+#: views/components/import-dlg.jade:118
 msgid ""
 "Press [Import] to add a new trip now or configure more options on the [Next] "
 "page."
@@ -1160,16 +1166,16 @@ msgstr ""
 "Cliquez sur [Importer] pour ajouter un nouveau voyage maintenant ou sur "
 "[Suivant] pour configurer plus d’options."
 
-#: views/components/import-dlg.jade:118
+#: views/components/import-dlg.jade:120
 msgid "Please wait while Furkot is analyzing your file"
 msgstr "Merci de patienter pendant que Furkot analyse votre fichier"
 
-#: views/components/import-dlg.jade:123
+#: views/components/import-dlg.jade:125
 msgid "You can import places from _KML_, _GPX_, and _CSV_ files."
 msgstr ""
 "Vous pouvez importer des lieux à partir de fichiers _KML_, _GPX_, et _CSV_."
 
-#: views/components/import-dlg.jade:127
+#: views/components/import-dlg.jade:129
 msgid ""
 "If the selected GPX file contains waypoints, routes and tracks, the routes "
 "are ignored."
@@ -1177,7 +1183,7 @@ msgstr ""
 "Si le fichier GPX sélectionné contient des points de jalonnement, routes et "
 "traces, les routes sont ignorées."
 
-#: views/components/import-dlg.jade:129
+#: views/components/import-dlg.jade:131
 msgid ""
 "Supported CSV formats are Garmin Custom POI file and files with at least "
 "name and either address or lat and lon columns."
@@ -1186,7 +1192,7 @@ msgstr ""
 "fichiers comportant au moins un champ name et soit un champ address, soit "
 "des champs lat et lon."
 
-#: views/components/import-dlg.jade:133
+#: views/components/import-dlg.jade:135
 msgid ""
 "Places without coordinates have been ignored. To retrieve places without "
 "coordinates import the file as a new trip."
@@ -1194,12 +1200,12 @@ msgstr ""
 "Les lieux sans coordonnées ont été ignorés. Pour récupérer des lieux sans "
 "coordonnées, importez le fichier comme un nouveau voyage."
 
-#: views/components/import-dlg.jade:140
+#: views/components/import-dlg.jade:142
 #: views/components/new-trip-wizard.jade:121
 msgid "Previous"
 msgstr "Précédent"
 
-#: views/components/import-dlg.jade:142
+#: views/components/import-dlg.jade:144
 msgid "Import"
 msgstr "Importer"
 
@@ -1490,7 +1496,7 @@ msgid "Directions"
 msgstr "Directions"
 
 #. L10n: 'terms' as in Terms of Service (ToS) governing use of a website
-#: views/components/map.jade:173 views/footer.jade:11
+#: views/components/map.jade:173 views/footer.jade:12
 msgid "Terms"
 msgstr "Termes"
 
@@ -1526,14 +1532,17 @@ msgstr "Application de navigation par défaut"
 msgid "Apple Maps"
 msgstr "Apple Maps"
 
-#: views/components/navigation.jade:54
+#: views/components/navigation.jade:64
+msgid "Scenic"
+msgstr ""
+
+#: views/components/navigation.jade:66
 msgid ""
 "Selected app will open when you click on the navigation button next to stop "
 "coordinates, its address or route."
 msgstr ""
 "L'application sélectionnée s'ouvrira lorsque vous cliquerez sur le bouton de "
-"navigation à côté des coordonnées de l'étape, de son adresse ou de sa "
-"route."
+"navigation à côté des coordonnées de l'étape, de son adresse ou de sa route."
 
 #: views/components/new-trip-wizard.jade:2
 msgid "Plan new trip"
@@ -1957,22 +1966,22 @@ msgid "Rooms available at this price"
 msgstr "Chambres disponibles à ce prix"
 
 #. L10n: followed by the name of the service weather data (OpenWeatherMap)
-#: views/components/place-detail.jade:114
+#: views/components/place-detail.jade:120
 msgid "Weather data"
 msgstr "Données météo"
 
 #. L10n: a word, very short phrase or abbreviation displayed after the net price (price that doesn't include fees, taxes or surcharges)
-#: views/components/place-detail.jade:119
+#: views/components/place-detail.jade:125
 msgid "+tax"
 msgstr "+taxes"
 
 #. L10n: a word, very short phrase or abbreviation displayed before the total price (price that includes all fees, taxes and surcharges)
-#: views/components/place-detail.jade:123
+#: views/components/place-detail.jade:129
 msgid "total"
 msgstr "total"
 
 #. L10n: a word, very short phrase or abbreviation displayed before the minimal price (when actual price may be higher than displayed)
-#: views/components/place-detail.jade:125
+#: views/components/place-detail.jade:131
 msgid "from"
 msgstr "de"
 
@@ -2043,17 +2052,17 @@ msgid "Add all displayed places as skipped stops"
 msgstr "Ajouter tous les lieux affichés comme des étapes ignorées"
 
 #: views/components/place-switch.jade:74
-#: views/components/place-switch.jade:186
+#: views/components/place-switch.jade:188
 msgid "All"
 msgstr "Tous"
 
 #: views/components/place-switch.jade:74
-#: views/components/place-switch.jade:186
+#: views/components/place-switch.jade:188
 msgid "None"
 msgstr "Aucun"
 
 #: views/components/place-switch.jade:75
-#: views/components/place-switch.jade:187
+#: views/components/place-switch.jade:189
 msgid "ALL"
 msgstr "TOUS"
 
@@ -2182,233 +2191,242 @@ msgid "Hide fire incidents"
 msgstr "Cacher les incendies"
 
 #: views/components/place-switch.jade:123
+msgid "Birdwatching"
+msgstr ""
+
+#: views/components/place-switch.jade:123
+#, fuzzy
+msgid "Hide birdwatching hotspots"
+msgstr "Cacher les chaînes hôtelières et motels"
+
+#: views/components/place-switch.jade:125
 msgid "Hide hiking trails"
 msgstr "Cacher les sentiers de randonnée"
 
-#: views/components/place-switch.jade:123
+#: views/components/place-switch.jade:125
 msgid "Hiking trails"
 msgstr "Sentiers de randonnée"
 
-#: views/components/place-switch.jade:125
+#: views/components/place-switch.jade:127
 msgid "Bike paths and tracks"
 msgstr "Pistes et sentiers cyclables"
 
-#: views/components/place-switch.jade:125
+#: views/components/place-switch.jade:127
 msgid "Hide bike paths and tracks"
 msgstr "Cacher les pistes et sentiers cyclables"
 
-#: views/components/place-switch.jade:127
+#: views/components/place-switch.jade:129
 msgid "Climbing routes"
 msgstr "Voies d'escalade"
 
-#: views/components/place-switch.jade:127
+#: views/components/place-switch.jade:129
 msgid "Hide climbing routes"
 msgstr "Cacher les voies d'escalade"
 
-#: views/components/place-switch.jade:129
+#: views/components/place-switch.jade:131
 msgid "Hide snowshoeing trails"
 msgstr "Cacher les sentiers de raquette"
 
-#: views/components/place-switch.jade:129
+#: views/components/place-switch.jade:131
 msgid "Snowshoeing trails"
 msgstr "Sentiers de raquettes"
 
-#: views/components/place-switch.jade:131
+#: views/components/place-switch.jade:133
 msgid "Hide ski areas"
 msgstr "Cacher les pistes de ski"
 
-#: views/components/place-switch.jade:131
+#: views/components/place-switch.jade:133
 msgid "Ski areas"
 msgstr "Stations de ski"
 
 #. L10n: dive site - a stop suitable for scuba diving
-#: views/components/place-switch.jade:134
+#: views/components/place-switch.jade:136
 msgid "Dive sites"
 msgstr "Sites de plongée"
 
 #. L10n: dive site - a stop suitable for scuba diving
-#: views/components/place-switch.jade:134
+#: views/components/place-switch.jade:136
 msgid "Hide dive sites"
 msgstr "Cacher les sites de plongée"
 
-#: views/components/place-switch.jade:138
+#: views/components/place-switch.jade:140
 msgid "Hide surf spots"
 msgstr "Cacher les spots de surf"
 
-#: views/components/place-switch.jade:138
+#: views/components/place-switch.jade:140
 msgid "Surf spots"
 msgstr "Spots de surf"
 
-#: views/components/place-switch.jade:140
+#: views/components/place-switch.jade:142
 msgid "Beaches"
 msgstr "Plages"
 
-#: views/components/place-switch.jade:140
+#: views/components/place-switch.jade:142
 msgid "Hide beaches"
 msgstr "Cacher les plages"
 
 #. L10n: hide roads that can be driven in passenger cars (as opposed to jeeping/SUV roads)
-#: views/components/place-switch.jade:143
+#: views/components/place-switch.jade:145
 msgid "Driving (passenger cars)"
 msgstr "Conduite (voitures particulières)"
 
 #. L10n: hide roads that can be driven in passenger cars (as opposed to jeeping/SUV roads)
-#: views/components/place-switch.jade:143
+#: views/components/place-switch.jade:145
 msgid "Hide driving"
 msgstr "Cacher la conduite"
 
-#: views/components/place-switch.jade:147
+#: views/components/place-switch.jade:149
 msgid "Hide jeeping and offroading"
 msgstr "Cacher la conduite hors-piste"
 
-#: views/components/place-switch.jade:147
+#: views/components/place-switch.jade:149
 msgid "Jeeping and offroading"
 msgstr "Conduite hors-piste"
 
-#: views/components/place-switch.jade:149
+#: views/components/place-switch.jade:151
 msgid "Hide motorcycling routes"
 msgstr "Cacher les routes de moto"
 
-#: views/components/place-switch.jade:149
+#: views/components/place-switch.jade:151
 msgid "Motorcycling routes"
 msgstr "Routes de moto"
 
-#: views/components/place-switch.jade:151
+#: views/components/place-switch.jade:153
 msgid "ATV trails"
 msgstr "Sentiers VTT"
 
-#: views/components/place-switch.jade:151
+#: views/components/place-switch.jade:153
 msgid "Hide ATV trails"
 msgstr "Cacher les sentiers VTT"
 
-#: views/components/place-switch.jade:153
+#: views/components/place-switch.jade:155
 msgid "Hide scenic overlooks and vista points"
 msgstr "Cacher les points de vue"
 
-#: views/components/place-switch.jade:153
+#: views/components/place-switch.jade:155
 msgid "Scenic overlooks and vista points"
 msgstr "Points de vue"
 
-#: views/components/place-switch.jade:155
+#: views/components/place-switch.jade:157
 msgid "Hide other places"
 msgstr "Cacher les autres lieux"
 
-#: views/components/place-switch.jade:155
+#: views/components/place-switch.jade:157
 msgid "Other places"
 msgstr "Autres lieux"
 
-#: views/components/place-switch.jade:157
+#: views/components/place-switch.jade:159
 msgid "Hide my other trips"
 msgstr "Cacher mes autres voyages"
 
-#: views/components/place-switch.jade:157
+#: views/components/place-switch.jade:159
 msgid "My other trips"
 msgstr "Mes autres voyages"
 
-#: views/components/place-switch.jade:159
+#: views/components/place-switch.jade:161
 msgid "Hide stops from my other trips"
 msgstr "Cacher les étapes de mes autres voyages"
 
-#: views/components/place-switch.jade:159
+#: views/components/place-switch.jade:161
 msgid "Stops from my other trips"
 msgstr "Etapes de mes autres voyages"
 
-#: views/components/place-switch.jade:161
-#: views/components/place-switch.jade:190
+#: views/components/place-switch.jade:163
+#: views/components/place-switch.jade:192
 msgid "Hide places, routes and tracks from file"
 msgstr "Cacher les lieux, routes et traces du fichier"
 
-#: views/components/place-switch.jade:161
-#: views/components/place-switch.jade:190
+#: views/components/place-switch.jade:163
+#: views/components/place-switch.jade:192
 msgid "Places, routes and tracks from file"
 msgstr "Lieux, routes et traces du fichier"
 
-#: views/components/place-switch.jade:163
-#: views/components/place-switch.jade:195
+#: views/components/place-switch.jade:165
+#: views/components/place-switch.jade:197
 msgid "Hide places, routes and tracks from website"
 msgstr "Cacher les lieux, routes et traces du site web"
 
-#: views/components/place-switch.jade:163
-#: views/components/place-switch.jade:195
+#: views/components/place-switch.jade:165
+#: views/components/place-switch.jade:197
 msgid "Places, routes and tracks from website"
 msgstr "Lieux, routes et traces du site web"
 
-#: views/components/place-switch.jade:167
+#: views/components/place-switch.jade:169
 msgid "Hide museums and man-made structures"
 msgstr "Cacher les musées et monuments"
 
-#: views/components/place-switch.jade:167
+#: views/components/place-switch.jade:169
 msgid "Museums and man-made structures"
 msgstr "Musées et monuments"
 
-#: views/components/place-switch.jade:169
+#: views/components/place-switch.jade:171
 msgid "Hide parks and natural features"
 msgstr "Cacher les parcs et les sites naturels"
 
-#: views/components/place-switch.jade:169
+#: views/components/place-switch.jade:171
 msgid "Parks and natural features"
 msgstr "Parcs et les sites naturels"
 
-#: views/components/place-switch.jade:171
+#: views/components/place-switch.jade:173
 msgid "Hide outdoor sports and activities"
 msgstr "Cacher les sports de plein air et les activités"
 
-#: views/components/place-switch.jade:171
+#: views/components/place-switch.jade:173
 msgid "Outdoor sports and activities"
 msgstr "Sports de plein air et activités"
 
-#: views/components/place-switch.jade:173
+#: views/components/place-switch.jade:175
 msgid "Beach and water recreation"
 msgstr "Plages et loisirs nautiques"
 
-#: views/components/place-switch.jade:173
+#: views/components/place-switch.jade:175
 msgid "Hide beach and water recreation"
 msgstr "Cacher les plages et loisirs nautiques"
 
-#: views/components/place-switch.jade:175
+#: views/components/place-switch.jade:177
 msgid "Hide scenic byways and backroads"
 msgstr "Cacher les routes panoramiques et routes pittoresques"
 
-#: views/components/place-switch.jade:175
+#: views/components/place-switch.jade:177
 msgid "Scenic byways and backroads"
 msgstr "Routes panoramiques et routes pittoresques"
 
-#: views/components/place-switch.jade:177
+#: views/components/place-switch.jade:179
 msgid "Hide unpaved roads and off-road trails"
 msgstr "Cacher les routes non couvertes et sentiers hors-pistes"
 
-#: views/components/place-switch.jade:177
+#: views/components/place-switch.jade:179
 msgid "Unpaved roads and off-road trails"
 msgstr "Routes non couvertes et sentiers hors-pistes"
 
-#: views/components/place-switch.jade:179
+#: views/components/place-switch.jade:181
 msgid "Everything else"
 msgstr "Tout le reste"
 
-#: views/components/place-switch.jade:179
+#: views/components/place-switch.jade:181
 msgid "Hide everything else"
 msgstr "Cacher tout le reste"
 
-#: views/components/place-switch.jade:181
+#: views/components/place-switch.jade:183
 msgid "Hide my other trips, routes and tracks"
 msgstr "Cacher mes autres voyages, routes et pistes"
 
-#: views/components/place-switch.jade:181
+#: views/components/place-switch.jade:183
 msgid "My other trips, routes and tracks"
 msgstr "Mes autres voyages, routes et pistes"
 
-#: views/components/place-switch.jade:200
+#: views/components/place-switch.jade:202
 msgid "Configure Find"
 msgstr "Configurer Chercher"
 
-#: views/components/places.jade:1 views/components/places.jade:141
-#: views/components/places.jade:155 views/components/places.jade:284
-#: views/components/places.jade:375
+#: views/components/places.jade:1 views/components/places.jade:150
+#: views/components/places.jade:164 views/components/places.jade:293
+#: views/components/places.jade:384
 msgid "Add this place as a skipped stop"
 msgstr "Ajouter ce lieu comme une étape ignorée"
 
-#: views/components/places.jade:1 views/components/places.jade:141
-#: views/components/places.jade:155 views/components/places.jade:284
+#: views/components/places.jade:1 views/components/places.jade:150
+#: views/components/places.jade:164 views/components/places.jade:293
 msgid "Fold this place details"
 msgstr "Cacher les détails de ce lieu"
 
@@ -2420,13 +2438,13 @@ msgstr "Inverser cet itinéraire"
 msgid "See description of this place"
 msgstr "Voir la description de ce lieu"
 
-#: views/components/places.jade:1 views/components/places.jade:141
-#: views/components/places.jade:155 views/components/places.jade:284
-#: views/components/places.jade:375
+#: views/components/places.jade:1 views/components/places.jade:150
+#: views/components/places.jade:164 views/components/places.jade:293
+#: views/components/places.jade:384
 msgid "See this place own website"
 msgstr "Voir le site web de ce lieu"
 
-#: views/components/places.jade:1 views/components/places.jade:375
+#: views/components/places.jade:1 views/components/places.jade:384
 msgid "Stop and visit this place"
 msgstr "S’arrêter et visiter ce lieu"
 
@@ -2491,23 +2509,23 @@ msgstr "Curiosités d'Atlas Obscura"
 msgid "Hide curiosities from Atlas Obscura"
 msgstr "Cacher les curiosités d'Atlas Obscura"
 
-#: views/components/places.jade:34 views/components/places.jade:210
-#: views/components/places.jade:224
+#: views/components/places.jade:34 views/components/places.jade:219
+#: views/components/places.jade:233
 msgid "Add this motorcycle road as a skipped stop"
 msgstr "Ajouter cette route de la moto comme une étape ignorée"
 
-#: views/components/places.jade:34 views/components/places.jade:210
-#: views/components/places.jade:224
+#: views/components/places.jade:34 views/components/places.jade:219
+#: views/components/places.jade:233
 msgid "Fold this motorcycle road details"
 msgstr "Cacher les détails de cette route de moto"
 
-#: views/components/places.jade:34 views/components/places.jade:210
-#: views/components/places.jade:224
+#: views/components/places.jade:34 views/components/places.jade:219
+#: views/components/places.jade:233
 msgid "Reverse this motorcycle road"
 msgstr "Inverser cette route de la moto"
 
-#: views/components/places.jade:34 views/components/places.jade:210
-#: views/components/places.jade:224
+#: views/components/places.jade:34 views/components/places.jade:219
+#: views/components/places.jade:233
 msgid "Ride this motorcycle road"
 msgstr "Prendre cette route de moto"
 
@@ -2523,8 +2541,8 @@ msgstr "Voir la description de cette route sur BestBikingRoads.com"
 msgid "See riders' rating at BestBikingRoads.com"
 msgstr "Voir la note des motocyclistes sur BestBikingRoads.com"
 
-#: views/components/places.jade:34 views/components/places.jade:210
-#: views/components/places.jade:224
+#: views/components/places.jade:34 views/components/places.jade:219
+#: views/components/places.jade:233
 msgid "Stop at this motorcycle road"
 msgstr "S'arrêter sur cette route de moto"
 
@@ -2601,11 +2619,11 @@ msgstr "America's Scenic Byways"
 msgid "Hide America's Scenic Byways"
 msgstr "Cacher America's Scenic Byways"
 
-#: views/components/places.jade:71 views/components/places.jade:306
+#: views/components/places.jade:71 views/components/places.jade:315
 msgid "Add this dive site as a skipped stop"
 msgstr "Ajouter ce site de plongée comme une étape ignorée"
 
-#: views/components/places.jade:71 views/components/places.jade:306
+#: views/components/places.jade:71 views/components/places.jade:315
 msgid "Fold this dive site details"
 msgstr "Cacher les détails de ce site de plongée"
 
@@ -2617,7 +2635,7 @@ msgstr "Voir la description de ce site de plongée sur DiveSpots"
 msgid "See user reviews at DiveSpots"
 msgstr "Consultez les avis des utilisateurs sur DiveSpots"
 
-#: views/components/places.jade:71 views/components/places.jade:306
+#: views/components/places.jade:71 views/components/places.jade:315
 msgid "Stop and dive at this site"
 msgstr "S’arrêtez et plonger à ce site"
 
@@ -2629,680 +2647,708 @@ msgstr "Sites de plongée de DiveSpots"
 msgid "Hide dive sites from DiveSpots"
 msgstr "Cacher les sites de plongée de DiveSpots"
 
-#: views/components/places.jade:81 views/components/places.jade:174
+#: views/components/places.jade:81
+#, fuzzy
+msgid "Add this birdwatching hotspot as a skipped stop"
+msgstr "Ajouter ce point de départ du voyage comme une étape ignorée"
+
+#: views/components/places.jade:81
+#, fuzzy
+msgid "Fold this birdwatching hotspot details"
+msgstr "Cacher les détails de ce spot de surf"
+
+#: views/components/places.jade:81
+#, fuzzy
+msgid "See description of this birdwatching hotspot at ebird.org"
+msgstr "Voir la description de cet incident sur InciWeb"
+
+#: views/components/places.jade:81
+#, fuzzy
+msgid "Stop at this birdwatching hotspot"
+msgstr "S'arrêter à ce point de départ du voyage"
+
+#: views/components/places.jade:86
+msgid "Birdwatching hotspots from ebird.org"
+msgstr ""
+
+#: views/components/places.jade:86
+msgid "Hide birdwatching hotspots from ebird.org"
+msgstr ""
+
+#: views/components/places.jade:90 views/components/places.jade:183
 msgid "Add this ski resort as a skipped stop"
 msgstr "Ajouter cette station de ski comme une étape ignorée"
 
-#: views/components/places.jade:81 views/components/places.jade:174
+#: views/components/places.jade:90 views/components/places.jade:183
 msgid "Fold this ski resort details"
 msgstr "Cacher les détails de cette station de ski"
 
-#: views/components/places.jade:81
+#: views/components/places.jade:90
 msgid "See description of this ski resort at EpicSki"
 msgstr "Voir la description de cette station de ski sur EpicSki"
 
-#: views/components/places.jade:81
+#: views/components/places.jade:90
 msgid "See this ski resort own website"
 msgstr "Voir le site web de cette station de ski"
 
-#: views/components/places.jade:81
+#: views/components/places.jade:90
 msgid "See user reviews at EpicSki"
 msgstr "Consultez les avis des utilisateurs sur EpicSki"
 
-#: views/components/places.jade:81 views/components/places.jade:174
+#: views/components/places.jade:90 views/components/places.jade:183
 msgid "Stop and ski at this resort"
 msgstr "S’arrêtez et skier dans cette station"
 
-#: views/components/places.jade:88
+#: views/components/places.jade:97
 msgid "Hide ski resorts from EpicSki"
 msgstr "Cacher les stations de ski de EpicSki"
 
-#: views/components/places.jade:88
+#: views/components/places.jade:97
 msgid "Ski resorts from EpicSki"
 msgstr "Stations de ski de EpicSki"
 
-#: views/components/places.jade:92 views/components/places.jade:106
-#: views/components/places.jade:184
+#: views/components/places.jade:101 views/components/places.jade:115
+#: views/components/places.jade:193
 msgid "Add this trail as a skipped stop"
 msgstr "Ajouter ce sentier comme une étape ignorée"
 
-#: views/components/places.jade:92
+#: views/components/places.jade:101
 msgid "Fold this trail details"
 msgstr "Cacher les détails de ce sentier"
 
-#: views/components/places.jade:92 views/components/places.jade:106
-#: views/components/places.jade:184
+#: views/components/places.jade:101 views/components/places.jade:115
+#: views/components/places.jade:193
 msgid "Reverse this trail"
 msgstr "Inverser ce sentier"
 
-#: views/components/places.jade:92 views/components/places.jade:106
+#: views/components/places.jade:101 views/components/places.jade:115
 msgid "See author's profile at EveryTrail"
 msgstr "Voir le profil de l'auteur sur EveryTrail"
 
-#: views/components/places.jade:92
+#: views/components/places.jade:101
 msgid "See this trail description at EveryTrail"
 msgstr "Voir la description du sentier sur EveryTrail"
 
-#: views/components/places.jade:92 views/components/places.jade:106
+#: views/components/places.jade:101 views/components/places.jade:115
 msgid "See user reviews at EveryTrail"
 msgstr "Consultez les avis des utilisateurs sur EveryTrail"
 
-#: views/components/places.jade:92 views/components/places.jade:106
+#: views/components/places.jade:101 views/components/places.jade:115
 msgid "Stop and take this trail"
 msgstr "S’arrêter et prendre ce sentier"
 
-#: views/components/places.jade:92 views/components/places.jade:106
-#: views/components/places.jade:184
+#: views/components/places.jade:101 views/components/places.jade:115
+#: views/components/places.jade:193
 msgid "Take this trail"
 msgstr "Prenez ce sentier"
 
-#: views/components/places.jade:101
+#: views/components/places.jade:110
 msgid "Hide trails from EveryTrail"
 msgstr "Cacher les sentiers de EveryTrail"
 
-#: views/components/places.jade:101
+#: views/components/places.jade:110
 msgid "Trails from EveryTrail"
 msgstr "Sentiers de EveryTrail"
 
-#: views/components/places.jade:106
+#: views/components/places.jade:115
 msgid "Fold this guide details"
 msgstr "Cacher les détails de ce guide"
 
-#: views/components/places.jade:106
+#: views/components/places.jade:115
 msgid "See this guide at EveryTrail"
 msgstr "Voir ce guide sur EveryTrail"
 
-#: views/components/places.jade:115
+#: views/components/places.jade:124
 msgid "Guides from EveryTrail"
 msgstr "Guides de EveryTrail"
 
-#: views/components/places.jade:115
+#: views/components/places.jade:124
 msgid "Hide guides from EveryTrail"
 msgstr "Cacher les guides de EveryTrail"
 
-#: views/components/places.jade:120
+#: views/components/places.jade:129
 msgid "Add this farmers market as a skipped stop"
 msgstr "Ajouter ce marché fermier comme une étape ignorée"
 
-#: views/components/places.jade:120
+#: views/components/places.jade:129
 msgid "Fold this farmers market details"
 msgstr "Cacher les détails de ce marché fermier"
 
-#: views/components/places.jade:120
+#: views/components/places.jade:129
 msgid "See this farmers market own website"
 msgstr "Voir le site web de ce marché fermier"
 
-#: views/components/places.jade:120
+#: views/components/places.jade:129
 msgid "Stop at this farmers market"
 msgstr "S'arrêter à ce marché fermier"
 
-#: views/components/places.jade:125
+#: views/components/places.jade:134
 msgid "Farmers markets"
 msgstr "Marchés fermiers"
 
-#: views/components/places.jade:125
+#: views/components/places.jade:134
 msgid "Hide farmers markets"
 msgstr "Cacher les marchés fermiers"
 
-#: views/components/places.jade:129
+#: views/components/places.jade:138
 msgid "Add this sight as a skipped stop"
 msgstr "Ajouter cette vue comme une étape ignorée"
 
-#: views/components/places.jade:129
+#: views/components/places.jade:138
 msgid "Fold this sight details"
 msgstr "Cacher les détails de cette vue"
 
-#: views/components/places.jade:129
+#: views/components/places.jade:138
 msgid "See Fodor's review of this sight"
 msgstr "Consulter les avis de Fodor sur cette vue"
 
-#: views/components/places.jade:129
+#: views/components/places.jade:138
 msgid "See this sight own website"
 msgstr "Voir le site web de cette vue"
 
-#: views/components/places.jade:129
+#: views/components/places.jade:138
 msgid "See user reviews at Fodor's Travel"
 msgstr "Consultez les avis des utilisateurs sur Fodor’s Travel"
 
-#: views/components/places.jade:129
+#: views/components/places.jade:138
 msgid "Stop at this sight"
 msgstr "S'arrêter à cette vue"
 
-#: views/components/places.jade:136
+#: views/components/places.jade:145
 msgid "Hide sights from Fodor's Travel"
 msgstr "Cacher les vues de Fodor’s Travel"
 
-#: views/components/places.jade:136
+#: views/components/places.jade:145
 msgid "Sights from Fodor's Travel"
 msgstr "Vues de Fodor's Travel"
 
-#: views/components/places.jade:141
+#: views/components/places.jade:150
 msgid "See description of this place at Foursquare"
 msgstr "Voir la description de ce lieu sur Foursquare"
 
-#: views/components/places.jade:141
+#: views/components/places.jade:150
 msgid "See user reviews at Foursquare"
 msgstr "Consultez les avis des utilisateurs sur Foursquare"
 
-#: views/components/places.jade:141 views/components/places.jade:155
-#: views/components/places.jade:284
+#: views/components/places.jade:150 views/components/places.jade:164
+#: views/components/places.jade:293
 msgid "Stop at this place"
 msgstr "S'arrêter à ce lieu"
 
-#: views/components/places.jade:148
+#: views/components/places.jade:157
 msgid "Hide places recommended by Foursquare"
 msgstr "Cacher les lieux recommandés par Foursquare"
 
-#: views/components/places.jade:148
+#: views/components/places.jade:157
 msgid "Places recommended by Foursquare"
 msgstr "Lieux recommandé par Foursquare"
 
-#: views/components/places.jade:155
+#: views/components/places.jade:164
 msgid "See guest reviews at Google"
 msgstr "Consultez les avis des utilisateurs sur Google"
 
-#: views/components/places.jade:155
+#: views/components/places.jade:164
 msgid "See this place page at Google"
 msgstr "Voir la page de de lieu sur Google"
 
-#: views/components/places.jade:162
+#: views/components/places.jade:171
 msgid "Hide places from Google"
 msgstr "Cacher les lieux de Google"
 
-#: views/components/places.jade:162
+#: views/components/places.jade:171
 msgid "Places from Google"
 msgstr "Lieux de Google"
 
-#: views/components/places.jade:166
+#: views/components/places.jade:175
 msgid "Add this incident as a skipped stop"
 msgstr "Ajouter cet incident comme une étape ignorée"
 
-#: views/components/places.jade:166
+#: views/components/places.jade:175
 msgid "Fold this incident details"
 msgstr "Cacher les détails de cet incident"
 
-#: views/components/places.jade:166
+#: views/components/places.jade:175
 msgid "See description of this incident at InciWeb"
 msgstr "Voir la description de cet incident sur InciWeb"
 
-#: views/components/places.jade:170
+#: views/components/places.jade:179
 msgid "Hide incidents from InciWeb"
 msgstr "Cacher les incidents de InciWeb"
 
-#: views/components/places.jade:170
+#: views/components/places.jade:179
 msgid "Incidents from InciWeb"
 msgstr "Incidents de InciWeb"
 
-#: views/components/places.jade:174
+#: views/components/places.jade:183
 msgid "Check out lift ticket deals at Liftopia"
 msgstr "Découvrez les offres de forfaits sur Liftopia"
 
-#: views/components/places.jade:174
+#: views/components/places.jade:183
 msgid "See user reviews at Liftopia"
 msgstr "Consultez les avis des utilisateurs sur Liftopia"
 
-#: views/components/places.jade:180
+#: views/components/places.jade:189
 msgid "Hide ski resorts from Liftopia"
 msgstr "Cacher les stations de ski de Liftopia"
 
-#: views/components/places.jade:180
+#: views/components/places.jade:189
 msgid "Ski resorts from Liftopia"
 msgstr "Stations de ski de Liftopia"
 
-#: views/components/places.jade:184
+#: views/components/places.jade:193
 msgid "Fold this hike details"
 msgstr "Cacher les détails de cette randonnée"
 
-#: views/components/places.jade:184
+#: views/components/places.jade:193
 msgid "See author's profile at LocalHikes"
 msgstr "Voir le profil de l’auteur sur LocalHikes"
 
-#: views/components/places.jade:184
+#: views/components/places.jade:193
 msgid "See description of this hike at LocalHikes"
 msgstr "Voir la description de cette randonnée sur LocalHikes"
 
-#: views/components/places.jade:184
+#: views/components/places.jade:193
 msgid "See user reviews at LocalHikes"
 msgstr "Consultez les avis des utilisateurs sur LocalHikes"
 
-#: views/components/places.jade:184
+#: views/components/places.jade:193
 msgid "Stop and hike this trail"
 msgstr "S'arrêter et prendre ce sentier"
 
-#: views/components/places.jade:193
+#: views/components/places.jade:202
 msgid "Hide hikes from LocalHikes"
 msgstr "Cacher les randonnées de LocalHikes"
 
-#: views/components/places.jade:193
+#: views/components/places.jade:202
 msgid "Hiking trails from LocalHikes"
 msgstr "Sentiers de randonnée de LocalHikes"
 
-#: views/components/places.jade:197
+#: views/components/places.jade:206
 msgid "Add this bike track as a skipped stop"
 msgstr "Ajouter cette piste de vélo comme une étape ignorée"
 
-#: views/components/places.jade:197
+#: views/components/places.jade:206
 msgid "Fold this bike track details"
 msgstr "Cacher les détails de cette piste de vélo"
 
-#: views/components/places.jade:197
+#: views/components/places.jade:206
 msgid "Reverse this bike track"
 msgstr "Inversez cette piste de vélo"
 
-#: views/components/places.jade:197
+#: views/components/places.jade:206
 msgid "Ride this bike track"
 msgstr "Prendre cette piste de vélo"
 
-#: views/components/places.jade:197
+#: views/components/places.jade:206
 msgid "See author's profile at MBPost"
 msgstr "Voir le profil de l'auteur sur MBPost"
 
-#: views/components/places.jade:197
+#: views/components/places.jade:206
 msgid "See description of this bike track at MBPost"
 msgstr "Voir la description de cette piste de vélo sur MBPost"
 
-#: views/components/places.jade:197
+#: views/components/places.jade:206
 msgid "See user reviews at MBPost"
 msgstr "Consultez les avis des utilisateurs sur MBPost"
 
-#: views/components/places.jade:197
+#: views/components/places.jade:206
 msgid "Stop and ride this bike track"
 msgstr "S'arrêter et prendre cette piste de vélo"
 
-#: views/components/places.jade:206
+#: views/components/places.jade:215
 msgid "Bike tracks from MBPost"
 msgstr "Pistes de vélo de MBPost"
 
-#: views/components/places.jade:206
+#: views/components/places.jade:215
 msgid "Hide bike tracks from MBPost"
 msgstr "Cacher les pistes de vélo de MBPost"
 
-#: views/components/places.jade:210
+#: views/components/places.jade:219
 msgid "See contributor's profile at MotorcycleRoads.com"
 msgstr "Voir le profil de contributeur sur MotorcycleRoads.com"
 
-#: views/components/places.jade:210
+#: views/components/places.jade:219
 msgid "See description of this road at MotorcycleRoads.com"
 msgstr "Voir la description de cette route sur MotorcycleRoads.com"
 
-#: views/components/places.jade:210
+#: views/components/places.jade:219
 msgid "See riders' rating at MotorcycleRoads.com"
 msgstr "Voir la note des motocyclistes sur MotorcycleRoads.com"
 
-#: views/components/places.jade:219
+#: views/components/places.jade:228
 msgid "Hide roads and rides from MotorcycleRoads.com"
 msgstr "Cacher les routes et les parcours de MotorcycleRoads.com"
 
-#: views/components/places.jade:219
+#: views/components/places.jade:228
 msgid "Roads and rides from MotorcycleRoads.com"
 msgstr "Routes et parcours de MotorcycleRoads.com"
 
-#: views/components/places.jade:224
+#: views/components/places.jade:233
 msgid "See contributor's profile at MotorcycleRoads.us"
 msgstr "Voir le profil du contributeur sur MotorcycleRoads.us"
 
-#: views/components/places.jade:224
+#: views/components/places.jade:233
 msgid "See description of this road at MotorcycleRoads.us"
 msgstr "Voir la description de cette route sur MotorcycleRoads.us"
 
-#: views/components/places.jade:224
+#: views/components/places.jade:233
 msgid "See riders' rating at MotorcycleRoads.us"
 msgstr "Voir la note des motocyclistes sur MotorcycleRoads.us"
 
-#: views/components/places.jade:233
+#: views/components/places.jade:242
 msgid "Hide roads and rides from MotorcycleRoads.us"
 msgstr "Cacher les routes et les parcours de MotorcycleRoads.us"
 
-#: views/components/places.jade:233
+#: views/components/places.jade:242
 msgid "Roads and rides from MotorcycleRoads.us"
 msgstr "Routes et parcours de MotorcycleRoads.us"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:237 views/components/places.jade:269
+#: views/components/places.jade:246 views/components/places.jade:278
 msgid "Add this gas station as a skipped stop"
 msgstr "Ajouter cette station-service comme une étape ignorée"
 
-#: views/components/places.jade:237
+#: views/components/places.jade:246
 msgid "Fill up at this gas station"
 msgstr "Faire le plein à cette station-service"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:237 views/components/places.jade:269
+#: views/components/places.jade:246 views/components/places.jade:278
 msgid "Fold this gas station details"
 msgstr "Cacher les détails de cette station-service"
 
-#: views/components/places.jade:237
+#: views/components/places.jade:246
 msgid "See this gas station own website"
 msgstr "Voir le site web de cette station-service"
 
-#: views/components/places.jade:237
+#: views/components/places.jade:246
 msgid "See this gas station page on myGasFeed"
 msgstr "Voir la page de cette station-service sur myGasFeed"
 
-#: views/components/places.jade:243
+#: views/components/places.jade:252
 msgid "Gas stations from myGasFeed"
 msgstr "Stations-service de myGasFeed"
 
-#: views/components/places.jade:243
+#: views/components/places.jade:252
 msgid "Hide gas stations from myGasFeed"
 msgstr "Cacher les stations-service de myGasFeed"
 
-#: views/components/places.jade:247
+#: views/components/places.jade:256
 msgid "Add this road or trail as a skipped stop"
 msgstr "Ajouter cette route ou sentier comme une étape ignorée"
 
-#: views/components/places.jade:247
+#: views/components/places.jade:256
 msgid "Fold this road or trail details"
 msgstr "Cacher les détails de cette route ou sentier"
 
-#: views/components/places.jade:247
+#: views/components/places.jade:256
 msgid "Reverse this road or trail"
 msgstr "Inverser cette route ou sentier"
 
-#: views/components/places.jade:247
+#: views/components/places.jade:256
 msgid "See Motor Vehicle Use Maps at U.S. Forest Service"
 msgstr "Voir les cartes pour véhicules à moteur sur U.S. Forest Service"
 
-#: views/components/places.jade:247
+#: views/components/places.jade:256
 msgid "Stop at this road or trail"
 msgstr "S'arrêter à cette route ou sentier"
 
-#: views/components/places.jade:247
+#: views/components/places.jade:256
 msgid "Travel this road or trail"
 msgstr "Prendre cette route ou sentier"
 
-#: views/components/places.jade:254
+#: views/components/places.jade:263
 msgid "Hide U.S. Forest Service Motor Vehicle Use Maps"
 msgstr "Cacher les cartes pour véhicules à moteur sur U.S. Forest Service"
 
-#: views/components/places.jade:254
+#: views/components/places.jade:263
 msgid "U.S. Forest Service Motor Vehicle Use Maps"
 msgstr "Cartes pour véhicules à moteur sur U.S. Forest Service"
 
-#: views/components/places.jade:259
+#: views/components/places.jade:268
 msgid "Add this charging station as a skipped stop"
 msgstr "Ajouter cette borne de recharge comme une étape ignorée"
 
-#: views/components/places.jade:259
+#: views/components/places.jade:268
 msgid "Add this charging station to your trip"
 msgstr "Ajouter cette borne de recharge à votre voyage"
 
-#: views/components/places.jade:259
+#: views/components/places.jade:268
 msgid "Fold this charging station details"
 msgstr "Cacher les détails de cette borne de recharge"
 
-#: views/components/places.jade:259
+#: views/components/places.jade:268
 msgid "See charging station network"
 msgstr "Voir le réseau de bornes de recharge"
 
-#: views/components/places.jade:264
+#: views/components/places.jade:273
 msgid "Electric car charging stations"
 msgstr "Bornes de recharge pour voitures électriques"
 
-#: views/components/places.jade:264
+#: views/components/places.jade:273
 msgid "Hide electric car charging stations"
 msgstr "Cacher les bornes de recharge pour voitures électriques"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:269
+#: views/components/places.jade:278
 msgid "Fill up at this ethanol-free gas station"
 msgstr "Faire le plein à cette station-service sans-éthanol"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:269
+#: views/components/places.jade:278
 msgid "See this ethanol-free gas station page on pure-gas.org"
 msgstr "Voir la page de cette station-service sans-éthanol sur pure-gas.org"
 
-#: views/components/places.jade:274
+#: views/components/places.jade:283
 msgid "Ethanol-free gas stations from pure-gas.org"
 msgstr "Stations-service sans-éthanol de pure-gas.org"
 
-#: views/components/places.jade:274
+#: views/components/places.jade:283
 msgid "Hide gas stations from pure-gas.org"
 msgstr "Cacher les station-service sans-éthanol de pure-gas.org"
 
-#: views/components/places.jade:284
+#: views/components/places.jade:293
 msgid "See description of this place at Recreation.gov"
 msgstr "Voir la description de ce lieu sur Recreation.gov"
 
-#: views/components/places.jade:290
+#: views/components/places.jade:299
 msgid "Hide places and activities from Recreation.gov"
 msgstr "Cacher les lieux et activités de Recreation.gov"
 
-#: views/components/places.jade:290
+#: views/components/places.jade:299
 msgid "Places and activities from Recreation.gov"
 msgstr "Lieux et activités de Recreation.gov"
 
-#: views/components/places.jade:295 views/components/places.jade:386
+#: views/components/places.jade:304 views/components/places.jade:395
 msgid "Add this restaurant as a skipped stop"
 msgstr "Ajouter ce restaurant comme une étape ignorée"
 
-#: views/components/places.jade:295 views/components/places.jade:386
+#: views/components/places.jade:304 views/components/places.jade:395
 msgid "Fold this restaurant details"
 msgstr "Cacher les détails de ce restaurant"
 
-#: views/components/places.jade:295
+#: views/components/places.jade:304
 msgid "See guest reviews at Roadfood.com"
 msgstr "Consultez les avis des clients sur Roadfood.com"
 
-#: views/components/places.jade:295 views/components/places.jade:386
+#: views/components/places.jade:304 views/components/places.jade:395
 msgid "See this restaurant own website"
 msgstr "Voir le site web de ce restaurant"
 
-#: views/components/places.jade:295
+#: views/components/places.jade:304
 msgid "See this restaurant page on Roadfood.com"
 msgstr "Voir la page de ce restaurant sur Roadfood.com"
 
-#: views/components/places.jade:295 views/components/places.jade:386
+#: views/components/places.jade:304 views/components/places.jade:395
 msgid "Stop and eat at this restaurant"
 msgstr "S’arrêter et manger dans ce restaurant"
 
-#: views/components/places.jade:302
+#: views/components/places.jade:311
 msgid "Hide restaurants recommended by Roadfood.com"
 msgstr "Cacher les restaurants recommandés par Roadfood.com"
 
-#: views/components/places.jade:302
+#: views/components/places.jade:311
 msgid "Restaurants recommended by Roadfood.com"
 msgstr "Restaurants recommandés par Roadfood.com"
 
-#: views/components/places.jade:306
+#: views/components/places.jade:315
 msgid "See description of this dive site at ShoreDiving"
 msgstr "Voir la description de ce site de plongée sur ShoreDiving"
 
-#: views/components/places.jade:306
+#: views/components/places.jade:315
 msgid "See user reviews at ShoreDiving"
 msgstr "Consultez les avis des utilisateurs sur ShoreDiving"
 
-#: views/components/places.jade:312
+#: views/components/places.jade:321
 msgid "Dive sites from ShoreDiving"
 msgstr "Sites de plongée de ShoreDiving"
 
-#: views/components/places.jade:312
+#: views/components/places.jade:321
 msgid "Hide dive sites from ShoreDiving"
 msgstr "Cacher les sites de plongée de ShoreDiving"
 
-#: views/components/places.jade:316
+#: views/components/places.jade:325
 msgid "Add this winery as a skipped stop"
 msgstr "Ajouter cette cave comme une étape ignorée"
 
-#: views/components/places.jade:316
+#: views/components/places.jade:325
 msgid "Fold this winery details"
 msgstr "Cacher les détails de cette cave"
 
-#: views/components/places.jade:316
+#: views/components/places.jade:325
 msgid "See description of this winery at Snooth.com"
 msgstr "Voir la description de cette cave sur Snooth.com"
 
-#: views/components/places.jade:316
+#: views/components/places.jade:325
 msgid "See this winery own website"
 msgstr "Voir le site web de cette cave"
 
-#: views/components/places.jade:316
+#: views/components/places.jade:325
 msgid "Stop at this winery"
 msgstr "S'arrêter à cette cave"
 
-#: views/components/places.jade:322
+#: views/components/places.jade:331
 msgid "Hide wineries from Snooth.com"
 msgstr "Cacher les caves de Snooth.com"
 
-#: views/components/places.jade:322
+#: views/components/places.jade:331
 msgid "Wineries from Snooth.com"
 msgstr "Caves de Snooth.com"
 
-#: views/components/places.jade:326
+#: views/components/places.jade:335
 msgid "Add as a skipped stop"
 msgstr "Ajouter comme une étape ignorée"
 
-#: views/components/places.jade:326
+#: views/components/places.jade:335
 msgid "Copy route to the next stop"
 msgstr "Copier la route pour la prochain étape"
 
-#: views/components/places.jade:326
+#: views/components/places.jade:335
 msgid "Copy stop from its trip to this one"
 msgstr "Copier l’étape de son voyage d’origine à ce voyage"
 
-#: views/components/places.jade:326 views/components/places.jade:345
+#: views/components/places.jade:335 views/components/places.jade:354
 #: views/components/step-detail.jade:653
 msgid "Fold this stop details"
 msgstr "Cacher les détails de cette étape"
 
-#: views/components/places.jade:326
+#: views/components/places.jade:335
 msgid "Reverse route when copying"
 msgstr "Inverser la route lors de la copie"
 
-#: views/components/places.jade:326
+#: views/components/places.jade:335
 msgid "See more information about this place"
 msgstr "Voir plus d'informations sur ce lieu"
 
-#: views/components/places.jade:334
+#: views/components/places.jade:343
 msgid "Add this summit as a skipped stop"
 msgstr "Ajouter ce sommet comme une étape ignorée"
 
-#: views/components/places.jade:334
+#: views/components/places.jade:343
 msgid "Fold this summit details"
 msgstr "Cacher les détails de ce sommet"
 
-#: views/components/places.jade:334
+#: views/components/places.jade:343
 msgid "See author's profile at SummitPost"
 msgstr "Voir le profil de l'auteur sur SummitPost"
 
-#: views/components/places.jade:334
+#: views/components/places.jade:343
 msgid "See description of this summit at SummitPost"
 msgstr "Voir la description de ce sommet sur SummitPost"
 
-#: views/components/places.jade:334
+#: views/components/places.jade:343
 msgid "See user reviews at SummitPost"
 msgstr "Consultez les avis des utilisateurs sur SummitPost"
 
-#: views/components/places.jade:334
+#: views/components/places.jade:343
 msgid "Stop and climb this summit"
 msgstr "S'arrêter et monter à ce sommet"
 
-#: views/components/places.jade:341
+#: views/components/places.jade:350
 msgid "Hide summits and routes from SummitPost"
 msgstr "Cacher les sommets et les itinéraires de SummitPost"
 
-#: views/components/places.jade:341
+#: views/components/places.jade:350
 msgid "Summits and climbing routes from SummitPost"
 msgstr "Sommets et voies d'escalade de SummitPost"
 
-#: views/components/places.jade:345 views/components/places.jade:353
+#: views/components/places.jade:354 views/components/places.jade:362
 msgid "Add this trip starting point as a skipped stop"
 msgstr "Ajouter ce point de départ du voyage comme une étape ignorée"
 
-#: views/components/places.jade:345
+#: views/components/places.jade:354
 msgid "Copy the entire trip to this one"
 msgstr "Copier la totalité du voyage vers celui-ci"
 
-#: views/components/places.jade:345
+#: views/components/places.jade:354
 msgid "Reverse this trip when copying"
 msgstr "Inverser ce voyage lors de la copie"
 
-#: views/components/places.jade:345 views/components/places.jade:353
+#: views/components/places.jade:354 views/components/places.jade:362
 msgid "See more information about this trip"
 msgstr "Voir plus d'informations sur ce voyage"
 
-#: views/components/places.jade:345 views/components/places.jade:353
+#: views/components/places.jade:354 views/components/places.jade:362
 msgid "Stop at this trip starting point"
 msgstr "S'arrêter à ce point de départ du voyage"
 
-#: views/components/places.jade:353
+#: views/components/places.jade:362
 msgid "Add this trip to yours"
 msgstr "Ajouter ce voyage aux vôtres"
 
-#: views/components/places.jade:353
+#: views/components/places.jade:362
 msgid "Fold this trip details"
 msgstr "Cacher les détails de ce voyage"
 
-#: views/components/places.jade:353
+#: views/components/places.jade:362
 msgid "Reverse this trip when adding"
 msgstr "Inverser ce voyage lors de l'ajout"
 
-#: views/components/places.jade:360
+#: views/components/places.jade:369
 msgid "Hide trips shared by Furkot community"
 msgstr "Cacher les voyages partagés par la communauté Furkot"
 
-#: views/components/places.jade:360
+#: views/components/places.jade:369
 msgid "Trips shared by Furkot community"
 msgstr "Voyages partagés par la communauté Furkot"
 
-#: views/components/places.jade:365
+#: views/components/places.jade:374
 msgid "Add this surf spot as a skipped stop"
 msgstr "Ajouter ce spot de surf comme une étape ignorée"
 
-#: views/components/places.jade:365
+#: views/components/places.jade:374
 msgid "Fold this surf spot details"
 msgstr "Cacher les détails de ce spot de surf"
 
-#: views/components/places.jade:365
+#: views/components/places.jade:374
 msgid "See description of this surf spot at WannaSurf"
 msgstr "Voir la description de ce spot de surf sur Wannasurf"
 
-#: views/components/places.jade:365
+#: views/components/places.jade:374
 msgid "See user reviews at WannaSurf"
 msgstr "Consultez les avis des utilisateurs sur Wannasurf"
 
-#: views/components/places.jade:365
+#: views/components/places.jade:374
 msgid "Stop and surf at this spot"
 msgstr "S'arrêter et surfer à ce spot"
 
-#: views/components/places.jade:371
+#: views/components/places.jade:380
 msgid "Hide surf spots from WannaSurf"
 msgstr "Cacher les spots de surf de Wannasurf"
 
-#: views/components/places.jade:371
+#: views/components/places.jade:380
 msgid "Surf spots from WannaSurf"
 msgstr "Spots de surf de Wannasurf"
 
-#: views/components/places.jade:375
+#: views/components/places.jade:384
 msgid "Fold this article details"
 msgstr "Cacher les détails de cet article"
 
-#: views/components/places.jade:375
+#: views/components/places.jade:384
 msgid "Read this article on Wikipedia"
 msgstr "Lire cet article sur Wikipedia"
 
-#: views/components/places.jade:381
+#: views/components/places.jade:390
 msgid "Articles from Wikipedia, the free encyclopedia"
 msgstr "Articles de Wikipedia, l'encyclopédie libre"
 
-#: views/components/places.jade:381
+#: views/components/places.jade:390
 msgid "Hide articles from Wikipedia"
 msgstr "Cacher les articles de Wikipedia"
 
-#: views/components/places.jade:386
+#: views/components/places.jade:395
 msgid "See guest reviews at Yelp"
 msgstr "Consultez les avis des clients sur Yelp"
 
-#: views/components/places.jade:386
+#: views/components/places.jade:395
 msgid "See this restaurant page on Yelp"
 msgstr "Voir la page de ce restaurant sur Yelp"
 
-#: views/components/places.jade:393
+#: views/components/places.jade:402
 msgid "Hide restaurants recommended by Yelp"
 msgstr "Cacher les restaurants recommandés par Yelp"
 
-#: views/components/places.jade:393
+#: views/components/places.jade:402
 msgid "Restaurants recommended by Yelp"
 msgstr "Restaurants recommandés par Yelp"
 
@@ -4223,6 +4269,11 @@ msgstr "Couleur par défaut"
 msgid "Transparent"
 msgstr "Transparent"
 
+#: views/components/step-detail.jade:530
+#, fuzzy
+msgid "Change route color"
+msgstr "Changer le moyen de transport"
+
 #: views/components/step-detail.jade:533
 msgid "Navigate this route"
 msgstr "Prendre cette route"
@@ -4287,6 +4338,11 @@ msgstr "Déplacer cette journée vers le bas"
 #: views/components/step-detail.jade:616
 msgid "Move this day up"
 msgstr "Déplacer cette journée vers le haut"
+
+#: views/components/step-detail.jade:631
+#, fuzzy
+msgid "Change day color"
+msgstr "Changer une photo"
 
 #: views/components/step-detail.jade:635
 msgid "Click to edit this day theme"
@@ -5590,35 +5646,35 @@ msgstr ""
 "Cliquez sur le bouton ci-dessus et sélectionnez l'application pouvant ouvrir "
 "le fichier exporté."
 
-#: views/footer.jade:14
+#: views/footer.jade:15
 msgid "Credits"
 msgstr "Crédits"
 
-#: views/footer.jade:17
+#: views/footer.jade:18
 msgid "Disclaimer"
 msgstr "Non-responsabilité"
 
-#: views/footer.jade:21
+#: views/footer.jade:22
 msgid "Blog"
 msgstr "Blog"
 
-#: views/footer.jade:24
+#: views/footer.jade:25
 msgid "Affiliates"
 msgstr "Affiliations"
 
-#: views/footer.jade:26
+#: views/footer.jade:27
 msgid "Questions or suggestions?"
 msgstr "Des questions ou suggestions ?"
 
-#: views/footer.jade:27
+#: views/footer.jade:28
 msgid "E-mail Furkot"
 msgstr "E-mail Furkot"
 
-#: views/footer.jade:29 views/welcome/index.jade:25
+#: views/footer.jade:30 views/welcome/index.jade:25
 msgid "Follow Furkot"
 msgstr "Suivre Furkot"
 
-#: views/footer.jade:31 views/welcome/index.jade:27
+#: views/footer.jade:32 views/welcome/index.jade:27
 msgid "Like Furkot"
 msgstr "J’aime Furkot"
 
@@ -5790,12 +5846,12 @@ msgstr "Guides"
 msgid "Comments"
 msgstr "Commentaires"
 
-#: views/welcome/blurbs.jade:3
+#: views/welcome/blurbs.jade:19
 msgid "Dates, distances and directions"
 msgstr "Dates, distances et directions"
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:7
+#: views/welcome/blurbs.jade:23
 msgid ""
 "Always wanted to travel across US but were not sure if you have enough time "
 "for that? Did you ever try to figure out [how long it takes] to drive from "
@@ -5806,7 +5862,7 @@ msgstr ""
 "conduire de Yosemite à Yellowstone ou de Lisbonne à Rome ?"
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:10
+#: views/welcome/blurbs.jade:26
 msgid ""
 "Start clicking on the map. [Choose your destination] and have Furkot "
 "calculate how much time you need to get there. Set daily limits on the "
@@ -5820,7 +5876,7 @@ msgstr ""
 "cherchiez."
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:13
+#: views/welcome/blurbs.jade:29
 msgid ""
 "Don't worry about putting stops in order. Furkot attempts to plan a route "
 "for your trip in the most efficient way. If you don't want efficient, you "
@@ -5832,7 +5888,7 @@ msgstr ""
 "[inverser votre itinéraire]."
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:16
+#: views/welcome/blurbs.jade:32
 msgid ""
 "Tell us how long you want to drive every day, and we will show you where to "
 "[stop for the night] Furkot suggests overnight stops along the route based "
@@ -5844,7 +5900,7 @@ msgstr ""
 "préférences."
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:19
+#: views/welcome/blurbs.jade:35
 msgid ""
 "Furkot can help you with all your travel plans: a day trip, a weekend "
 "getaway, or a continent-crossing road trip. And [driving is not the only "
@@ -5857,21 +5913,21 @@ msgstr ""
 "itinéraires en moto, des excursions en vélo et des randonnées à pied avec "
 "Furkot."
 
-#: views/welcome/blurbs.jade:22 views/welcome/blurbs.jade:48
-#: views/welcome/blurbs.jade:72
+#: views/welcome/blurbs.jade:38 views/welcome/blurbs.jade:64
+#: views/welcome/blurbs.jade:88
 msgid "Read more"
 msgstr "En savoir plus"
 
-#: views/welcome/blurbs.jade:25
+#: views/welcome/blurbs.jade:41
 msgid "Trip map"
 msgstr "Carte de voyage"
 
-#: views/welcome/blurbs.jade:29
+#: views/welcome/blurbs.jade:45
 msgid "It's not just about driving"
 msgstr "Ce n’est pas que de la conduite"
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:33
+#: views/welcome/blurbs.jade:49
 msgid ""
 "It's also about all the things you do on the way. Leave your car parked for "
 "a couple of hours and hike one of the trails from the vast [Everytrail] "
@@ -5882,7 +5938,7 @@ msgstr ""
 "sentiers de la collection [Everytrail]."
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:36
+#: views/welcome/blurbs.jade:52
 msgid ""
 "Need some hints? Make sure to check interesting places described on "
 "[Wikipedia]. They are one click away from ending up on your road trip stop "
@@ -5893,7 +5949,7 @@ msgstr ""
 "dans la liste des étapes de votre voyage."
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:39
+#: views/welcome/blurbs.jade:55
 msgid ""
 "If your car resembles ours you can't drive on water, but Furkot will route "
 "you to the closest dry land point for those spots that do require a boat "
@@ -5905,7 +5961,7 @@ msgstr ""
 "[conduire et plonger] avec Furkot."
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:42
+#: views/welcome/blurbs.jade:58
 msgid ""
 "Are you after fresh powder? Or maybe shredding corduroy is your thing? Trees "
 "or bowls? Skis or snowboard? Regardless of the answer, you can use Furkot to "
@@ -5917,7 +5973,7 @@ msgstr ""
 "[EpicSki]."
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:45
+#: views/welcome/blurbs.jade:61
 msgid ""
 "You can even plan meal stops and add gas stations to your itinerary. Not to "
 "mention biking paths, museums, monuments, [climbing routes], national parks, "
@@ -5930,16 +5986,16 @@ msgstr ""
 "vues panoramiques &mdash; ajoutez-en autant que vous voulez. Furkot vous "
 "garde sur les rails. Suivez le guide."
 
-#: views/welcome/blurbs.jade:51
+#: views/welcome/blurbs.jade:67
 msgid "Attractions search"
 msgstr "Recherche d’attractions"
 
-#: views/welcome/blurbs.jade:55
+#: views/welcome/blurbs.jade:71
 msgid "Campgrounds? Motels? Hotels? Staying with friends?"
 msgstr "Campings ? Motels ? Hôtels ? Chez des amis ?"
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:59
+#: views/welcome/blurbs.jade:75
 msgid ""
 "Whatever your lodging preference is &mdash; hotel, campground, apartment "
 "&mdash; Furkot will show you scores of [accommodations] on the map and will "
@@ -5951,7 +6007,7 @@ msgstr ""
 "voyage."
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:62
+#: views/welcome/blurbs.jade:78
 msgid ""
 "Furkot makes it easy to decide which hotels offer the best combination of "
 "cost, amenities and convenient location. Whenever available, Furkot displays "
@@ -5962,7 +6018,7 @@ msgstr ""
 "caractéristique et de leur location. Dans la mesure du possible, Furkot "
 "affiche exactement [ce que vous allez payer] (taxes et service compris)."
 
-#: views/welcome/blurbs.jade:64
+#: views/welcome/blurbs.jade:80
 msgid ""
 "When you are ready to book, Furkot will take you directly to your favorite "
 "booking site and pre-fill the check-in and check-out dates so that you don't "
@@ -5973,7 +6029,7 @@ msgstr ""
 "mauvaise surprise en vous mélangeant dans les dates."
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:67
+#: views/welcome/blurbs.jade:83
 msgid ""
 "Booking [all hotels] for your trip can be a daunting experience: multiple "
 "cities, multiple booking sites and many dates and details to mistype? Let "
@@ -5986,13 +6042,13 @@ msgstr ""
 "page par page et hôtel par hôtel."
 
 #. L10n: square brackets [] denote buttons. This is a bit of word play meaning that Furkot makes booking hotels as easy as pressing Next button repeatedly until the only thing left to do is to press "Done". If translation cannot reflect this word play, a sentence meaning that booking is easy is acceptable. Either button or both can be dropped.
-#: views/welcome/blurbs.jade:70
+#: views/welcome/blurbs.jade:86
 msgid "All you need to do is to keep pressing [Next] until you are [Done]."
 msgstr ""
 "Tout ce que vous devez faire est de cliquer sur [Suivant] jusqu'à ce que "
 "vous ayez [Terminé]."
 
-#: views/welcome/blurbs.jade:75
+#: views/welcome/blurbs.jade:91
 msgid "Lodging search"
 msgstr "Recherche d'un hébergement"
 
@@ -6134,41 +6190,368 @@ msgstr ""
 "[Furkot] pour compléter votre itinéraire, voir la carte, trouver plus "
 "d’attractions et d’options d'hébergement."
 
-#~ msgid "Undo unlock route"
-#~ msgstr "Annuler le verrouillage de la route"
+#~ msgid "Furkot assumes it is a riding trip."
+#~ msgstr "Furkot suppose qu'il s’agit d'un voyage à moto."
 
-#~ msgid "Redo unlock route"
-#~ msgstr "Refaire le déverrouillage de la route"
+#~ msgid "Furkot assumes it is a driving trip."
+#~ msgstr "Furkot suppose qu'il s’agit d'un voyage en voiture."
 
-#~ msgid "Preserve / allow re-routing"
-#~ msgstr "Préserver / activer le re-routage"
+#~ msgid "Furkot assumes it is a bicycle trip."
+#~ msgstr "Furkot suppose qu'il s’agit d'un voyage en vélo."
 
-#~ msgid "Directions courtesy of"
-#~ msgstr "Indications fournies gracieusement par"
+#~ msgid "Furkot assumes it is a walking trip."
+#~ msgstr "Furkot suppose qu'il s’agit d'un voyage à pied."
 
-#~ msgid "Feel free to press [Done] at any point."
-#~ msgstr "N’hésitez pas à cliquer sur [Terminé] à tout moment."
+#~ msgid "If it is not, you can change it later."
+#~ msgstr "Si ce n’est pas le cas, vous pourrez changer plus tard."
 
-#~ msgid "Preserve this route when adding new stops"
-#~ msgstr "Préserver cette route lors de l'ajout de nouvelles étapes"
+#~ msgid "Select KML, GPX or CSV file"
+#~ msgstr "Sélectionnez un fichier KML, GPX ou CSV"
 
-#~ msgid "Re-route when adding new stops"
-#~ msgstr "Re-router lors de l'ajout de nouvelles étapes"
+#~ msgid "Add this museum as a skipped stop"
+#~ msgstr "Ajouter ce musée comme une étape ignorée"
 
-#~ msgid "Hide hotel chains"
-#~ msgstr "Cacher les chaînes hôtelières"
+#~ msgid "Fold this museum details"
+#~ msgstr "Cacher les détails de ce musée"
 
-#~ msgid "Hide apartments, private rooms, B&Bs"
-#~ msgstr "Cacher les appartements, chambres privées, B&Bs"
+#~ msgid "See description of this museum at Go Historic"
+#~ msgstr "Voir la description de ce musée sur Go Historic"
 
-#~ msgid "Anticipate seasonal closures during trip."
-#~ msgstr "Anticiper les fermetures saisonnières pendant le voyage."
+#~ msgid "See this museum own website"
+#~ msgstr "Voir le site web de ce musée"
 
-#~ msgid "Experimental"
-#~ msgstr "Expérimental"
+#~ msgid "See user reviews at Go Historic"
+#~ msgstr "Consultez les avis des utilisateurs sur Go Historic"
 
-#~ msgid "Seasonal closures"
-#~ msgstr "Fermetures saisonnières"
+#~ msgid "Visit this museum"
+#~ msgstr "Visitez ce musée"
+
+#~ msgid "Hide museums from Go Historic"
+#~ msgstr "Cacher les musées de Go Historic"
+
+#~ msgid "Museums from Go Historic"
+#~ msgstr "Musées de Go Historic"
+
+#~ msgid "Places you want to visit - your Atlas Obscura user name"
+#~ msgstr ""
+#~ "Endroits que vous souhaitez visiter - votre nom d'utilisateur Atlas "
+#~ "Obscura"
+
+#~ msgid "Analyze"
+#~ msgstr "Analyser"
+
+#~ msgid "Deal"
+#~ msgstr "Offre"
+
+#~ msgid "House"
+#~ msgstr "Maison"
+
+#~ msgid "Guidebook"
+#~ msgstr "Guide"
+
+#~ msgid "Discount"
+#~ msgstr "Promotion"
+
+#~ msgid "Reserve a Lodging"
+#~ msgstr "Réservez un hébergement"
+
+#~ msgid "View More"
+#~ msgstr "Voir plus"
+
+#~ msgid ""
+#~ "We'll be happy to reset your password, but we need more information to "
+#~ "identify your account."
+#~ msgstr ""
+#~ "Nous serons heureux de réinitialiser votre mot de passe, mais nous avons "
+#~ "besoin de plus d’informations pour identifier votre compte."
+
+#~ msgid ""
+#~ "Otherwise you can tell us more and we will try to verify your account."
+#~ msgstr ""
+#~ "Sinon, vous pouvez nous en dire plus et nous allons essayer de vérifier "
+#~ "votre compte."
+
+#~ msgid ""
+#~ "In reply to this email let us know what your nickname (a.k.a. username) "
+#~ "is and, to your best recollection, answer some questions about your "
+#~ "planned trips."
+#~ msgstr ""
+#~ "En réponse, indiquez-nous votre pseudo (nom d'utilisateur) et répondez à "
+#~ "quelques questions au sujet de vos voyages prévus."
+
+#~ msgid "Do you remember any names of the trips you planned with Furkot?"
+#~ msgstr ""
+#~ "Vous souvenez-vous de noms de voyages que vous auriez planifiés avec "
+#~ "Furkot ?"
+
+#~ msgid "When did you intend to travel?"
+#~ msgstr "Quand souhaitez-vous partir ?"
+
+#~ msgid "Do you remember any places/stops that you added?"
+#~ msgstr "Vous souvenez-vous de lieux / étapes que vous auriez ajoutés ?"
+
+#~ msgid "Which states/countries did you visit on your trips?"
+#~ msgstr ""
+#~ "Quels sont les états / pays que vous avez visités lors de vos voyages?"
+
+#~ msgid "The answers don't have to be exact."
+#~ msgstr "Les réponses peuvent être approximatives."
+
+#~ msgid "Add this deal as a skipped stop"
+#~ msgstr "Ajouter cet offre comme une étape ignorée"
+
+#~ msgid "See the business offering this deal"
+#~ msgstr "Voir le commerce proposant cette offre"
+
+#~ msgid "See this deal details at Yipit"
+#~ msgstr "Voir les détails de cette offre sur Yipit"
+
+#~ msgid "Stop and use this deal"
+#~ msgstr "S'arrêter et utiliser cette offre"
+
+#~ msgid "Deals from Yipit"
+#~ msgstr "Offres de Yipit"
+
+#~ msgid "Hide deals from Yipit"
+#~ msgstr "Cacher les offres de Yipit"
+
+#~ msgid "Persons per room"
+#~ msgstr "Personnes par chambre"
+
+#~ msgid "Click to modify the time at which you start driving every day"
+#~ msgstr ""
+#~ "Cliquez pour modifier l'heure à laquelle vous commencez à conduire chaque "
+#~ "jour"
+
+#~ msgid "Click to modify the time by which you end driving every day"
+#~ msgstr ""
+#~ "Cliquez pour modifier l'heure à laquelle vous terminez de conduire chaque "
+#~ "jour"
+
+#~ msgid "Click to leave suggestions"
+#~ msgstr "Cliquez pour laisser des suggestions"
+
+#~ msgid "Feedback"
+#~ msgstr "Votre avis"
+
+#~ msgid "Mobile"
+#~ msgstr "Mobile"
+
+#~ msgid "Trips"
+#~ msgstr "Voyages"
+
+#~ msgid "Sync"
+#~ msgstr "Synchroniser"
+
+#~ msgid "Sign Out"
+#~ msgstr "Se déconnecter"
+
+#~ msgid "Top"
+#~ msgstr "Haut"
+
+#~ msgid "Full Site"
+#~ msgstr "Site complet"
+
+#~ msgid "Info"
+#~ msgstr "Information"
+
+#~ msgid "Looks like driving information is missing from some trips."
+#~ msgstr ""
+#~ "Il semble que les informations de conduites manquent pour certains "
+#~ "voyages."
+
+#~ msgid ""
+#~ "Not to worry, open Furkot's [full site], go to the trip and the driving "
+#~ "information will be automatically updated."
+#~ msgstr ""
+#~ "Pas de soucis, ouvrez le [site complet] de Furkot, allez sur le voyage et "
+#~ "les informations de conduite seront automatiquement mises à jour."
+
+#~ msgid "Looks like there are no trips to show here."
+#~ msgstr "Aucun voyage à afficher."
+
+#~ msgid ""
+#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
+#~ msgstr ""
+#~ "Pas de soucis, ouvrez le [site complet] de Furkot pour planifier un "
+#~ "nouveau voyage."
+
+#~ msgid ""
+#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
+#~ msgstr ""
+#~ "Si vous avez déjà un [voyage], assurez-vous qu’il a l’option _Téléphone_ "
+#~ "activée."
+
+#~ msgid ""
+#~ "Press [Sync] to have the up-to-date version of your trips downloaded to "
+#~ "your mobile device."
+#~ msgstr ""
+#~ "Cliquez sur [Synchroniser] pour mettre à jour vos voyages sur votre "
+#~ "appareil mobile."
+
+#~ msgid "Stops"
+#~ msgstr "Etapes"
+
+#~ msgid "Navigate"
+#~ msgstr "Naviguer"
+
+#~ msgid "Navigate to"
+#~ msgstr "Naviguer vers"
+
+#~ msgid "Exact coordinates"
+#~ msgstr "Coordonnées exactes"
+
+#~ msgid "Stop address"
+#~ msgstr "Adresse d'étape"
+
+#~ msgid "Default nav app"
+#~ msgstr "App de navigation par défaut"
+
+#~ msgid "Book"
+#~ msgstr "Réserver"
+
+#~ msgid ""
+#~ "Take itinerary of your road trip, weekend outing, family vacation with "
+#~ "you while traveling. Use Furkot on your phone or tablet on the go."
+#~ msgstr ""
+#~ "Gardez à portée de main l’itinéraire détaillé de votre voyage, de votre "
+#~ "escapade en week-end ou de vos vacances en famille. Utilisez Furkot sur "
+#~ "votre téléphone ou votre tablette de partout."
+
+#~ msgid "Label Roads"
+#~ msgstr "Noms des Routes"
+
+#~ msgid "Weather"
+#~ msgstr "Météo"
+
+#~ msgid "Guidebooks and travel guides"
+#~ msgstr "Guides de voyage"
+
+#~ msgid "Hide guidebooks and travel guides"
+#~ msgstr "Cacher les guides de voyage"
+
+#~ msgid "Hide deals and discounts"
+#~ msgstr "Cacher les offres et promotions"
+
+#~ msgid "Guidebooks, deals and discounts"
+#~ msgstr "Guides de voyages, offres et promotions"
+
+#~ msgid "Hide guidebooks, deals and discounts"
+#~ msgstr "Cacher les guides de voyages, offres et promotions"
+
+#~ msgid "Remove this trip from phone"
+#~ msgstr "Supprimer ce voyage du téléphone"
+
+#~ msgid "Send this trip to phone"
+#~ msgstr "Envoyer ce voyage sur le téléphone"
+
+#~ msgid "Trip sent to phone"
+#~ msgstr "Voyage envoyé au téléphone"
+
+#~ msgid "This trip is now ready to be displayed on your mobile device."
+#~ msgstr ""
+#~ "Ce voyage est maintenant prêt à être affiché sur votre appareil mobile."
+
+#~ msgid ""
+#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
+#~ "trip."
+#~ msgstr ""
+#~ "Ouvrez Furkot sur votre téléphone ou tablette pour voir la version à jour "
+#~ "de ce voyage."
+
+#~ msgid "Trip removed from phone"
+#~ msgstr "Voyage supprimé du téléphone"
+
+#~ msgid "Please wait while Furkot is contacting the booking site"
+#~ msgstr ""
+#~ "Merci de patienter pendant que Furkot contacte le site de réservation"
+
+#~ msgid "Hide satellite imagery"
+#~ msgstr "Cacher l’image satellite"
+
+#~ msgid "Forgot password"
+#~ msgstr "Mot de passe oublié"
+
+#~ msgid ""
+#~ "This is a road trip planning application. Please sign in to view your "
+#~ "trips."
+#~ msgstr ""
+#~ "Ceci est une application de planification d’itinéraires de voyage. Merci "
+#~ "de vous connecter pour voir vos voyages."
+
+#~ msgid "Type to modify place"
+#~ msgstr "Ecrire pour modifier le lieu"
+
+#~ msgid "Current password"
+#~ msgstr "Mot de passe actuel"
+
+#~ msgid "Type trip name"
+#~ msgstr "Saisissez le nom de voyage"
+
+#~ msgid "Change"
+#~ msgstr "Modifier"
+
+#~ msgid "Confirm"
+#~ msgstr "Confirmer"
+
+#~ msgid "Missing password"
+#~ msgstr "Mot de passe requis"
+
+#~ msgid "Hide terrain"
+#~ msgstr "Cacher le terrain"
+
+#~ msgid ""
+#~ "If this is your first time and you would like to sign up, please go to "
+#~ "Furkot's [full site]."
+#~ msgstr ""
+#~ "Si c’est votre première visite et que vous souhaitez vous inscrire, merci "
+#~ "de vous rendre sur le [site complet] de Furkot."
+
+#, fuzzy
+#~ msgid "Your password is necessary to save your email address for future use"
+#~ msgstr ""
+#~ "Votre mot de passe est nécessaire pour sauver votre adresse e-mail pour "
+#~ "une utilisation future"
+
+#~ msgid "Confirm password"
+#~ msgstr "Confirmez le mot de passe"
+
+#~ msgid "Welcome"
+#~ msgstr "Bienvenue"
+
+#~ msgid "Confirm Password"
+#~ msgstr "Confirmez le mot de passe"
+
+#, fuzzy
+#~ msgid "Your password"
+#~ msgstr "Votre mot de passe"
+
+#~ msgid "Password and confirmation do not match"
+#~ msgstr "Les mots de passe ne correspondent pas"
+
+#, fuzzy
+#~ msgid "private identifier"
+#~ msgstr "identifiant privée"
+
+#~ msgid " | Free Road Trip Planner | Map Your Route"
+#~ msgstr " | Planificateur Gratuit De Voyage | Planifiez Votre Itinéraire"
+
+#~ msgid "Click on the [plus] sign to add a new trip."
+#~ msgstr "Cliquez sur le signe [plus] pour ajouter un nouveau voyage."
+
+#~ msgid "Looking for trip ideas?"
+#~ msgstr "Vous cherchez des idées de voyage ?"
+
+#~ msgid "Are you sure you want to enable it?"
+#~ msgstr "Etes-vous sûr que vous voulez l'activer ?"
+
+#~ msgid ""
+#~ "This is an experimental feature. When enabled, calculating routes will "
+#~ "take longer and may produce less reliable results."
+#~ msgstr ""
+#~ "Ceci est une fonctionnalité expérimentale. Lorsqu'elle est activée, le "
+#~ "calcul d’itinéraire prendra plus de temps et peut produire des résultats "
+#~ "moins fiables."
 
 #~ msgid ""
 #~ "Depending on your trip dates Furkot will include or exclude seasonally "
@@ -6179,365 +6562,38 @@ msgstr ""
 #~ "saisonnières fermées lors du calcul des itinéraires. Les fermetures "
 #~ "saisonnières sont basés sur le"
 
-#~ msgid ""
-#~ "This is an experimental feature. When enabled, calculating routes will "
-#~ "take longer and may produce less reliable results."
-#~ msgstr ""
-#~ "Ceci est une fonctionnalité expérimentale. Lorsqu'elle est activée, le "
-#~ "calcul d’itinéraire prendra plus de temps et peut produire des résultats "
-#~ "moins fiables."
+#~ msgid "Seasonal closures"
+#~ msgstr "Fermetures saisonnières"
 
-#~ msgid "Are you sure you want to enable it?"
-#~ msgstr "Etes-vous sûr que vous voulez l'activer ?"
+#~ msgid "Experimental"
+#~ msgstr "Expérimental"
 
-#~ msgid "Looking for trip ideas?"
-#~ msgstr "Vous cherchez des idées de voyage ?"
+#~ msgid "Anticipate seasonal closures during trip."
+#~ msgstr "Anticiper les fermetures saisonnières pendant le voyage."
 
-#~ msgid "Click on the [plus] sign to add a new trip."
-#~ msgstr "Cliquez sur le signe [plus] pour ajouter un nouveau voyage."
+#~ msgid "Hide apartments, private rooms, B&Bs"
+#~ msgstr "Cacher les appartements, chambres privées, B&Bs"
 
-#~ msgid " | Free Road Trip Planner | Map Your Route"
-#~ msgstr " | Planificateur Gratuit De Voyage | Planifiez Votre Itinéraire"
+#~ msgid "Hide hotel chains"
+#~ msgstr "Cacher les chaînes hôtelières"
 
-#, fuzzy
-#~ msgid "private identifier"
-#~ msgstr "identifiant privée"
+#~ msgid "Re-route when adding new stops"
+#~ msgstr "Re-router lors de l'ajout de nouvelles étapes"
 
-#~ msgid "Password and confirmation do not match"
-#~ msgstr "Les mots de passe ne correspondent pas"
+#~ msgid "Preserve this route when adding new stops"
+#~ msgstr "Préserver cette route lors de l'ajout de nouvelles étapes"
 
-#, fuzzy
-#~ msgid "Your password"
-#~ msgstr "Votre mot de passe"
+#~ msgid "Feel free to press [Done] at any point."
+#~ msgstr "N’hésitez pas à cliquer sur [Terminé] à tout moment."
 
-#~ msgid "Confirm Password"
-#~ msgstr "Confirmez le mot de passe"
+#~ msgid "Directions courtesy of"
+#~ msgstr "Indications fournies gracieusement par"
 
-#~ msgid "Welcome"
-#~ msgstr "Bienvenue"
+#~ msgid "Preserve / allow re-routing"
+#~ msgstr "Préserver / activer le re-routage"
 
-#~ msgid "Confirm password"
-#~ msgstr "Confirmez le mot de passe"
+#~ msgid "Redo unlock route"
+#~ msgstr "Refaire le déverrouillage de la route"
 
-#, fuzzy
-#~ msgid "Your password is necessary to save your email address for future use"
-#~ msgstr ""
-#~ "Votre mot de passe est nécessaire pour sauver votre adresse e-mail pour "
-#~ "une utilisation future"
-
-#~ msgid ""
-#~ "If this is your first time and you would like to sign up, please go to "
-#~ "Furkot's [full site]."
-#~ msgstr ""
-#~ "Si c’est votre première visite et que vous souhaitez vous inscrire, merci "
-#~ "de vous rendre sur le [site complet] de Furkot."
-
-#~ msgid "Hide terrain"
-#~ msgstr "Cacher le terrain"
-
-#~ msgid "Missing password"
-#~ msgstr "Mot de passe requis"
-
-#~ msgid "Confirm"
-#~ msgstr "Confirmer"
-
-#~ msgid "Change"
-#~ msgstr "Modifier"
-
-#~ msgid "Type trip name"
-#~ msgstr "Saisissez le nom de voyage"
-
-#~ msgid "Current password"
-#~ msgstr "Mot de passe actuel"
-
-#~ msgid "Type to modify place"
-#~ msgstr "Ecrire pour modifier le lieu"
-
-#~ msgid ""
-#~ "This is a road trip planning application. Please sign in to view your "
-#~ "trips."
-#~ msgstr ""
-#~ "Ceci est une application de planification d’itinéraires de voyage. Merci "
-#~ "de vous connecter pour voir vos voyages."
-
-#~ msgid "Forgot password"
-#~ msgstr "Mot de passe oublié"
-
-#~ msgid "Hide satellite imagery"
-#~ msgstr "Cacher l’image satellite"
-
-#~ msgid "Please wait while Furkot is contacting the booking site"
-#~ msgstr ""
-#~ "Merci de patienter pendant que Furkot contacte le site de réservation"
-
-#~ msgid "Trip removed from phone"
-#~ msgstr "Voyage supprimé du téléphone"
-
-#~ msgid ""
-#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
-#~ "trip."
-#~ msgstr ""
-#~ "Ouvrez Furkot sur votre téléphone ou tablette pour voir la version à jour "
-#~ "de ce voyage."
-
-#~ msgid "This trip is now ready to be displayed on your mobile device."
-#~ msgstr ""
-#~ "Ce voyage est maintenant prêt à être affiché sur votre appareil mobile."
-
-#~ msgid "Trip sent to phone"
-#~ msgstr "Voyage envoyé au téléphone"
-
-#~ msgid "Send this trip to phone"
-#~ msgstr "Envoyer ce voyage sur le téléphone"
-
-#~ msgid "Remove this trip from phone"
-#~ msgstr "Supprimer ce voyage du téléphone"
-
-#~ msgid "Hide guidebooks, deals and discounts"
-#~ msgstr "Cacher les guides de voyages, offres et promotions"
-
-#~ msgid "Guidebooks, deals and discounts"
-#~ msgstr "Guides de voyages, offres et promotions"
-
-#~ msgid "Hide deals and discounts"
-#~ msgstr "Cacher les offres et promotions"
-
-#~ msgid "Hide guidebooks and travel guides"
-#~ msgstr "Cacher les guides de voyage"
-
-#~ msgid "Guidebooks and travel guides"
-#~ msgstr "Guides de voyage"
-
-#~ msgid "Weather"
-#~ msgstr "Météo"
-
-#~ msgid "Label Roads"
-#~ msgstr "Noms des Routes"
-
-#~ msgid ""
-#~ "Take itinerary of your road trip, weekend outing, family vacation with "
-#~ "you while traveling. Use Furkot on your phone or tablet on the go."
-#~ msgstr ""
-#~ "Gardez à portée de main l’itinéraire détaillé de votre voyage, de votre "
-#~ "escapade en week-end ou de vos vacances en famille. Utilisez Furkot sur "
-#~ "votre téléphone ou votre tablette de partout."
-
-#~ msgid "Book"
-#~ msgstr "Réserver"
-
-#~ msgid "Default nav app"
-#~ msgstr "App de navigation par défaut"
-
-#~ msgid "Stop address"
-#~ msgstr "Adresse d'étape"
-
-#~ msgid "Exact coordinates"
-#~ msgstr "Coordonnées exactes"
-
-#~ msgid "Navigate to"
-#~ msgstr "Naviguer vers"
-
-#~ msgid "Navigate"
-#~ msgstr "Naviguer"
-
-#~ msgid "Stops"
-#~ msgstr "Etapes"
-
-#~ msgid ""
-#~ "Press [Sync] to have the up-to-date version of your trips downloaded to "
-#~ "your mobile device."
-#~ msgstr ""
-#~ "Cliquez sur [Synchroniser] pour mettre à jour vos voyages sur votre "
-#~ "appareil mobile."
-
-#~ msgid ""
-#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
-#~ msgstr ""
-#~ "Si vous avez déjà un [voyage], assurez-vous qu’il a l’option _Téléphone_ "
-#~ "activée."
-
-#~ msgid ""
-#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
-#~ msgstr ""
-#~ "Pas de soucis, ouvrez le [site complet] de Furkot pour planifier un "
-#~ "nouveau voyage."
-
-#~ msgid "Looks like there are no trips to show here."
-#~ msgstr "Aucun voyage à afficher."
-
-#~ msgid ""
-#~ "Not to worry, open Furkot's [full site], go to the trip and the driving "
-#~ "information will be automatically updated."
-#~ msgstr ""
-#~ "Pas de soucis, ouvrez le [site complet] de Furkot, allez sur le voyage et "
-#~ "les informations de conduite seront automatiquement mises à jour."
-
-#~ msgid "Looks like driving information is missing from some trips."
-#~ msgstr ""
-#~ "Il semble que les informations de conduites manquent pour certains "
-#~ "voyages."
-
-#~ msgid "Info"
-#~ msgstr "Information"
-
-#~ msgid "Full Site"
-#~ msgstr "Site complet"
-
-#~ msgid "Top"
-#~ msgstr "Haut"
-
-#~ msgid "Sign Out"
-#~ msgstr "Se déconnecter"
-
-#~ msgid "Sync"
-#~ msgstr "Synchroniser"
-
-#~ msgid "Trips"
-#~ msgstr "Voyages"
-
-#~ msgid "Mobile"
-#~ msgstr "Mobile"
-
-#~ msgid "Feedback"
-#~ msgstr "Votre avis"
-
-#~ msgid "Click to leave suggestions"
-#~ msgstr "Cliquez pour laisser des suggestions"
-
-#~ msgid "Click to modify the time by which you end driving every day"
-#~ msgstr ""
-#~ "Cliquez pour modifier l'heure à laquelle vous terminez de conduire chaque "
-#~ "jour"
-
-#~ msgid "Click to modify the time at which you start driving every day"
-#~ msgstr ""
-#~ "Cliquez pour modifier l'heure à laquelle vous commencez à conduire chaque "
-#~ "jour"
-
-#~ msgid "Persons per room"
-#~ msgstr "Personnes par chambre"
-
-#~ msgid "Hide deals from Yipit"
-#~ msgstr "Cacher les offres de Yipit"
-
-#~ msgid "Deals from Yipit"
-#~ msgstr "Offres de Yipit"
-
-#~ msgid "Stop and use this deal"
-#~ msgstr "S'arrêter et utiliser cette offre"
-
-#~ msgid "See this deal details at Yipit"
-#~ msgstr "Voir les détails de cette offre sur Yipit"
-
-#~ msgid "See the business offering this deal"
-#~ msgstr "Voir le commerce proposant cette offre"
-
-#~ msgid "Add this deal as a skipped stop"
-#~ msgstr "Ajouter cet offre comme une étape ignorée"
-
-#~ msgid "The answers don't have to be exact."
-#~ msgstr "Les réponses peuvent être approximatives."
-
-#~ msgid "Which states/countries did you visit on your trips?"
-#~ msgstr ""
-#~ "Quels sont les états / pays que vous avez visités lors de vos voyages?"
-
-#~ msgid "Do you remember any places/stops that you added?"
-#~ msgstr "Vous souvenez-vous de lieux / étapes que vous auriez ajoutés ?"
-
-#~ msgid "When did you intend to travel?"
-#~ msgstr "Quand souhaitez-vous partir ?"
-
-#~ msgid "Do you remember any names of the trips you planned with Furkot?"
-#~ msgstr ""
-#~ "Vous souvenez-vous de noms de voyages que vous auriez planifiés avec "
-#~ "Furkot ?"
-
-#~ msgid ""
-#~ "In reply to this email let us know what your nickname (a.k.a. username) "
-#~ "is and, to your best recollection, answer some questions about your "
-#~ "planned trips."
-#~ msgstr ""
-#~ "En réponse, indiquez-nous votre pseudo (nom d'utilisateur) et répondez à "
-#~ "quelques questions au sujet de vos voyages prévus."
-
-#~ msgid ""
-#~ "Otherwise you can tell us more and we will try to verify your account."
-#~ msgstr ""
-#~ "Sinon, vous pouvez nous en dire plus et nous allons essayer de vérifier "
-#~ "votre compte."
-
-#~ msgid ""
-#~ "We'll be happy to reset your password, but we need more information to "
-#~ "identify your account."
-#~ msgstr ""
-#~ "Nous serons heureux de réinitialiser votre mot de passe, mais nous avons "
-#~ "besoin de plus d’informations pour identifier votre compte."
-
-#~ msgid "View More"
-#~ msgstr "Voir plus"
-
-#~ msgid "Reserve a Lodging"
-#~ msgstr "Réservez un hébergement"
-
-#~ msgid "Discount"
-#~ msgstr "Promotion"
-
-#~ msgid "Guidebook"
-#~ msgstr "Guide"
-
-#~ msgid "House"
-#~ msgstr "Maison"
-
-#~ msgid "Deal"
-#~ msgstr "Offre"
-
-#~ msgid "Analyze"
-#~ msgstr "Analyser"
-
-#~ msgid "Places you want to visit - your Atlas Obscura user name"
-#~ msgstr ""
-#~ "Endroits que vous souhaitez visiter - votre nom d'utilisateur Atlas "
-#~ "Obscura"
-
-#~ msgid "Museums from Go Historic"
-#~ msgstr "Musées de Go Historic"
-
-#~ msgid "Hide museums from Go Historic"
-#~ msgstr "Cacher les musées de Go Historic"
-
-#~ msgid "Visit this museum"
-#~ msgstr "Visitez ce musée"
-
-#~ msgid "See user reviews at Go Historic"
-#~ msgstr "Consultez les avis des utilisateurs sur Go Historic"
-
-#~ msgid "See this museum own website"
-#~ msgstr "Voir le site web de ce musée"
-
-#~ msgid "See description of this museum at Go Historic"
-#~ msgstr "Voir la description de ce musée sur Go Historic"
-
-#~ msgid "Fold this museum details"
-#~ msgstr "Cacher les détails de ce musée"
-
-#~ msgid "Add this museum as a skipped stop"
-#~ msgstr "Ajouter ce musée comme une étape ignorée"
-
-#~ msgid "Select KML, GPX or CSV file"
-#~ msgstr "Sélectionnez un fichier KML, GPX ou CSV"
-
-#~ msgid "If it is not, you can change it later."
-#~ msgstr "Si ce n’est pas le cas, vous pourrez changer plus tard."
-
-#~ msgid "Furkot assumes it is a walking trip."
-#~ msgstr "Furkot suppose qu'il s’agit d'un voyage à pied."
-
-#~ msgid "Furkot assumes it is a bicycle trip."
-#~ msgstr "Furkot suppose qu'il s’agit d'un voyage en vélo."
-
-#~ msgid "Furkot assumes it is a driving trip."
-#~ msgstr "Furkot suppose qu'il s’agit d'un voyage en voiture."
-
-#~ msgid "Furkot assumes it is a riding trip."
-#~ msgstr "Furkot suppose qu'il s’agit d'un voyage à moto."
+#~ msgid "Undo unlock route"
+#~ msgstr "Annuler le verrouillage de la route"
