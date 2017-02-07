@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2017-02-07 04:47+0000\n"
+"POT-Creation-Date: 2017-02-07 04:55+0000\n"
 "PO-Revision-Date: 2017-02-06 23:10-0400\n"
 "Last-Translator: kenji Iura <iurakenji@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.code42day.com/projects/"
@@ -48,7 +48,7 @@ msgstr "Sugestão"
 #: views/board/board.jade:29 views/components/accounts.jade:69
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:10
 #: views/components/dialog.jade:7 views/components/import-dlg.jade:141
-#: views/components/navigation.jade:2 views/components/place-switch.jade:205
+#: views/components/navigation.jade:2 views/components/place-switch.jade:209
 #: views/components/plan-msg.jade:2 views/components/share-dlg.jade:87
 #: views/components/share-dlg.jade:95 views/components/share-dlg.jade:107
 #: views/components/step-detail.jade:665 views/components/step-switches.jade:86
@@ -172,7 +172,7 @@ msgstr "Contas Conectadas"
 
 #: views/components/accounts.jade:70 views/components/add-stops.jade:2
 #: views/components/add-stops.jade:10 views/components/navigation.jade:2
-#: views/components/place-switch.jade:206 views/components/plan-msg.jade:2
+#: views/components/place-switch.jade:210 views/components/plan-msg.jade:2
 #: views/components/plan-msg.jade:12 views/components/share-dlg.jade:87
 #: views/components/share-dlg.jade:95 views/components/share-dlg.jade:107
 #: views/components/step-switches.jade:86
@@ -238,7 +238,7 @@ msgstr "Scenic"
 #: views/components/export-dlg.jade:81 views/components/import-dlg.jade:148
 #: views/components/navigation.jade:70
 #: views/components/new-trip-wizard.jade:127
-#: views/components/place-switch.jade:209 views/components/share-dlg.jade:84
+#: views/components/place-switch.jade:213 views/components/share-dlg.jade:84
 #: views/components/trip-detail.jade:418 views/components/trip-toolbar.jade:39
 #: views/tripshot/mixin.jade:99 views/tripshot/mixin.jade:128
 msgid "Learn more"
@@ -1607,7 +1607,7 @@ msgstr ""
 msgid "Furkot guided tour"
 msgstr "Furkot visita guiada"
 
-#: views/components/map.jade:97 views/components/place-switch.jade:76
+#: views/components/map.jade:97 views/components/place-switch.jade:80
 #: views/components/step-switches.jade:83
 #, fuzzy
 msgid "Nothing to display. Internet connection may be down."
@@ -2038,7 +2038,7 @@ msgid "No hotels or motels"
 msgstr "Não há hotéis ou motéis"
 
 #: views/components/new-trip-wizard.jade:93
-#: views/components/place-switch.jade:85
+#: views/components/place-switch.jade:89
 #, fuzzy
 msgid "Chain hotels and motels"
 msgstr "hotéis e motéis de cadeia"
@@ -2049,7 +2049,7 @@ msgid "No chain hotels or motels"
 msgstr "Não há hotéis ou motéis de cadeia"
 
 #: views/components/new-trip-wizard.jade:95
-#: views/components/place-switch.jade:87 views/components/step-lodging.jade:27
+#: views/components/place-switch.jade:91 views/components/step-lodging.jade:27
 #, fuzzy
 msgid "Campgrounds"
 msgstr "campgrounds"
@@ -2060,7 +2060,7 @@ msgid "No campgrounds"
 msgstr "não há acampamentos"
 
 #: views/components/new-trip-wizard.jade:97
-#: views/components/place-switch.jade:89
+#: views/components/place-switch.jade:93
 #, fuzzy
 msgid "Apartments and private rooms"
 msgstr "Apartamentos e quartos privados"
@@ -2071,7 +2071,7 @@ msgid "No apartments and private rooms"
 msgstr "Não há apartamentos e quartos privados"
 
 #: views/components/new-trip-wizard.jade:99
-#: views/components/place-switch.jade:91 views/components/step-lodging.jade:31
+#: views/components/place-switch.jade:95 views/components/step-lodging.jade:31
 #, fuzzy
 msgid "Hostels"
 msgstr "hostels"
@@ -2082,7 +2082,7 @@ msgid "No hostels"
 msgstr "não albergues"
 
 #: views/components/new-trip-wizard.jade:101
-#: views/components/place-switch.jade:93 views/components/step-lodging.jade:33
+#: views/components/place-switch.jade:97 views/components/step-lodging.jade:33
 #, fuzzy
 msgid "Blind hotel deals"
 msgstr "ofertas de hotéis cegos"
@@ -2373,455 +2373,463 @@ msgstr "Por Rating (mais alta primeiro)"
 msgid "Add all displayed places as skipped stops"
 msgstr "Adicione todos os lugares mostrados como ignorados paradas"
 
-#: views/components/place-switch.jade:74 views/components/place-switch.jade:188
+#: views/components/place-switch.jade:74 views/components/place-switch.jade:77
+#: views/components/place-switch.jade:192
 #, fuzzy
 msgid "All"
 msgstr "Todos"
 
-#: views/components/place-switch.jade:74 views/components/place-switch.jade:188
+#: views/components/place-switch.jade:74 views/components/place-switch.jade:77
+#: views/components/place-switch.jade:192
 #, fuzzy
 msgid "None"
 msgstr "Nenhum"
 
-#: views/components/place-switch.jade:75 views/components/place-switch.jade:189
+#. L10n: 'ALL' means 'Select all options'. 4 letters or less. Doesn't have to be all capital letters, esp. when longer than 3 letters
+#: views/components/place-switch.jade:76 views/components/place-switch.jade:193
 #, fuzzy
 msgid "ALL"
 msgstr "TODOS"
 
-#: views/components/place-switch.jade:83
+#. L10n: 'NONE' means 'Select no options (i.e. unselect all)'. 4 letters or less. Doesn't have to be all capital letters, esp. when longer than 3 letters
+#: views/components/place-switch.jade:79
+msgid "NONE"
+msgstr ""
+
+#: views/components/place-switch.jade:87
 #, fuzzy
 msgid "Hide hotels"
 msgstr "esconder hotéis"
 
-#: views/components/place-switch.jade:83 views/components/step-lodging.jade:23
+#: views/components/place-switch.jade:87 views/components/step-lodging.jade:23
 #, fuzzy
 msgid "Hotels"
 msgstr "hotéis"
 
-#: views/components/place-switch.jade:85
+#: views/components/place-switch.jade:89
 #, fuzzy
 msgid "Hide chain hotels and motels"
 msgstr "hotéis e motéis de cadeia Ocultar"
 
-#: views/components/place-switch.jade:87
+#: views/components/place-switch.jade:91
 #, fuzzy
 msgid "Hide campgrounds"
 msgstr "esconder acampamentos"
 
-#: views/components/place-switch.jade:89
+#: views/components/place-switch.jade:93
 #, fuzzy
 msgid "Hide apartments and private rooms"
 msgstr "Esconder apartamentos e quartos privados"
 
-#: views/components/place-switch.jade:91
+#: views/components/place-switch.jade:95
 #, fuzzy
 msgid "Hide hostels"
 msgstr "esconder albergues"
 
-#: views/components/place-switch.jade:93
+#: views/components/place-switch.jade:97
 #, fuzzy
 msgid "Hide blind hotel deals"
 msgstr "Esconder as ofertas cegos"
 
-#: views/components/place-switch.jade:95
+#: views/components/place-switch.jade:99
 #, fuzzy
 msgid "Hide LGBT welcoming hotels"
 msgstr "Esconder aberto à comunidade LGBT hotéis"
 
-#: views/components/place-switch.jade:95 views/components/step-lodging.jade:35
+#: views/components/place-switch.jade:99 views/components/step-lodging.jade:35
 #, fuzzy
 msgid "LGBT welcoming hotels"
 msgstr "Aberto à comunidade LGBT hotéis"
 
-#: views/components/place-switch.jade:99
+#: views/components/place-switch.jade:103
 #, fuzzy
 msgid "Hide restaurants"
 msgstr "esconder restaurantes"
 
-#: views/components/place-switch.jade:99
+#: views/components/place-switch.jade:103
 #, fuzzy
 msgid "Restaurants"
 msgstr "restaurantes"
 
-#: views/components/place-switch.jade:101
+#: views/components/place-switch.jade:105
 #, fuzzy
 msgid "Breweries, wineries and bars"
 msgstr "Cervejarias, adegas e bares"
 
-#: views/components/place-switch.jade:101
+#: views/components/place-switch.jade:105
 #, fuzzy
 msgid "Hide breweries, wineries and bars"
 msgstr "Esconder cervejarias, adegas e bares"
 
-#: views/components/place-switch.jade:103
+#: views/components/place-switch.jade:107
 #, fuzzy
 msgid "Coffee shops"
 msgstr "Lojas de Café"
 
-#: views/components/place-switch.jade:103
+#: views/components/place-switch.jade:107
 #, fuzzy
 msgid "Hide coffee shops"
 msgstr "Esconder lojas de café"
 
-#: views/components/place-switch.jade:105
+#: views/components/place-switch.jade:109
 #, fuzzy
 msgid "Farmers markets and grocery stores"
 msgstr "mercados de agricultores e supermercados"
 
-#: views/components/place-switch.jade:105
+#: views/components/place-switch.jade:109
 #, fuzzy
 msgid "Hide farmers markets and grocery stores"
 msgstr "Esconder agricultores mercados e mercearias"
 
-#: views/components/place-switch.jade:107
+#: views/components/place-switch.jade:111
 #, fuzzy
 msgid "Filling stations"
 msgstr "postos de abastecimento"
 
-#: views/components/place-switch.jade:107
+#: views/components/place-switch.jade:111
 #, fuzzy
 msgid "Hide filling stations"
 msgstr "Esconder postos de abastecimento"
 
-#: views/components/place-switch.jade:111
+#: views/components/place-switch.jade:115
 #, fuzzy
 msgid "Hide museums"
 msgstr "esconder museus"
 
-#: views/components/place-switch.jade:111
+#: views/components/place-switch.jade:115
 #, fuzzy
 msgid "Museums"
 msgstr "Museus"
 
-#: views/components/place-switch.jade:113
+#: views/components/place-switch.jade:117
 #, fuzzy
 msgid "Hide historical sites, monuments and landmarks"
 msgstr "Esconder locais históricos, monumentos e marcos históricos"
 
-#: views/components/place-switch.jade:113
+#: views/components/place-switch.jade:117
 #, fuzzy
 msgid "Historical sites, monuments and landmarks"
 msgstr "locais históricos, monumentos e marcos históricos"
 
-#: views/components/place-switch.jade:115
+#: views/components/place-switch.jade:119
 #, fuzzy
 msgid "Hide parks"
 msgstr "esconder parques"
 
-#: views/components/place-switch.jade:115
+#: views/components/place-switch.jade:119
 #, fuzzy
 msgid "Parks"
 msgstr "parques"
 
-#: views/components/place-switch.jade:117
+#: views/components/place-switch.jade:121
 #, fuzzy
 msgid "Hide mountains"
 msgstr "Esconder montanhas"
 
-#: views/components/place-switch.jade:117 views/components/step-detail.jade:88
+#: views/components/place-switch.jade:121 views/components/step-detail.jade:88
 #, fuzzy
 msgid "Mountains"
 msgstr "Montanhas"
 
-#: views/components/place-switch.jade:119
+#: views/components/place-switch.jade:123
 #, fuzzy
 msgid "Hide lakes, rivers and hot springs"
 msgstr "Esconder lagos, rios e nascentes de água quente"
 
-#: views/components/place-switch.jade:119
+#: views/components/place-switch.jade:123
 #, fuzzy
 msgid "Lakes, rivers and hot springs"
 msgstr "Lagos, rios e nascentes de água quente"
 
-#: views/components/place-switch.jade:121
+#: views/components/place-switch.jade:125
 #, fuzzy
 msgid "Fire incidents"
 msgstr "incidentes de fogo"
 
-#: views/components/place-switch.jade:121
+#: views/components/place-switch.jade:125
 #, fuzzy
 msgid "Hide fire incidents"
 msgstr "incidentes Ocultar fogo"
 
-#: views/components/place-switch.jade:123
+#: views/components/place-switch.jade:127
 #, fuzzy
 msgid "Birdwatching"
 msgstr "Observação de pássaros"
 
-#: views/components/place-switch.jade:123
+#: views/components/place-switch.jade:127
 #, fuzzy
 msgid "Hide birdwatching hotspots"
 msgstr "Esconder hotspots birdwatching"
 
-#: views/components/place-switch.jade:125
+#: views/components/place-switch.jade:129
 #, fuzzy
 msgid "Hide hiking trails"
 msgstr "Esconder trilhas para caminhadas"
 
-#: views/components/place-switch.jade:125
+#: views/components/place-switch.jade:129
 #, fuzzy
 msgid "Hiking trails"
 msgstr "Trilhas para caminhadas"
 
-#: views/components/place-switch.jade:127
+#: views/components/place-switch.jade:131
 #, fuzzy
 msgid "Bike paths and tracks"
 msgstr "ciclovias e faixas"
 
-#: views/components/place-switch.jade:127
+#: views/components/place-switch.jade:131
 #, fuzzy
 msgid "Hide bike paths and tracks"
 msgstr "Esconder ciclovias e faixas"
 
-#: views/components/place-switch.jade:129
+#: views/components/place-switch.jade:133
 #, fuzzy
 msgid "Climbing routes"
 msgstr "vias de escalada"
 
-#: views/components/place-switch.jade:129
+#: views/components/place-switch.jade:133
 #, fuzzy
 msgid "Hide climbing routes"
 msgstr "Esconder vias de escalada"
 
-#: views/components/place-switch.jade:131
+#: views/components/place-switch.jade:135
 #, fuzzy
 msgid "Hide snowshoeing trails"
 msgstr "Esconder trilhas snowshoeing"
 
-#: views/components/place-switch.jade:131
+#: views/components/place-switch.jade:135
 #, fuzzy
 msgid "Snowshoeing trails"
 msgstr "snowshoeing trilhas"
 
-#: views/components/place-switch.jade:133
+#: views/components/place-switch.jade:137
 #, fuzzy
 msgid "Hide ski areas"
 msgstr "áreas de esqui Ocultar"
 
-#: views/components/place-switch.jade:133
+#: views/components/place-switch.jade:137
 #, fuzzy
 msgid "Ski areas"
 msgstr "áreas de esqui"
 
 #. L10n: dive site - a stop suitable for scuba diving
-#: views/components/place-switch.jade:136
+#: views/components/place-switch.jade:140
 #, fuzzy
 msgid "Dive sites"
 msgstr "locais de mergulho"
 
 #. L10n: dive site - a stop suitable for scuba diving
-#: views/components/place-switch.jade:136
+#: views/components/place-switch.jade:140
 #, fuzzy
 msgid "Hide dive sites"
 msgstr "locais de mergulho Ocultar"
 
-#: views/components/place-switch.jade:140
+#: views/components/place-switch.jade:144
 #, fuzzy
 msgid "Hide surf spots"
 msgstr "Esconder spots de surf"
 
-#: views/components/place-switch.jade:140
+#: views/components/place-switch.jade:144
 #, fuzzy
 msgid "Surf spots"
 msgstr "spots de surf"
 
-#: views/components/place-switch.jade:142
+#: views/components/place-switch.jade:146
 #, fuzzy
 msgid "Beaches"
 msgstr "Praias"
 
-#: views/components/place-switch.jade:142
+#: views/components/place-switch.jade:146
 #, fuzzy
 msgid "Hide beaches"
 msgstr "esconder praias"
 
 #. L10n: hide roads that can be driven in passenger cars (as opposed to jeeping/SUV roads)
-#: views/components/place-switch.jade:145
+#: views/components/place-switch.jade:149
 #, fuzzy
 msgid "Driving (passenger cars)"
 msgstr "Condução (automóveis de passageiros)"
 
 #. L10n: hide roads that can be driven in passenger cars (as opposed to jeeping/SUV roads)
-#: views/components/place-switch.jade:145
+#: views/components/place-switch.jade:149
 #, fuzzy
 msgid "Hide driving"
 msgstr "Ocultar condução"
 
-#: views/components/place-switch.jade:149
+#: views/components/place-switch.jade:153
 #, fuzzy
 msgid "Hide jeeping and offroading"
 msgstr "Esconder jeeping e offroading"
 
-#: views/components/place-switch.jade:149
+#: views/components/place-switch.jade:153
 #, fuzzy
 msgid "Jeeping and offroading"
 msgstr "Jeeping e offroading"
 
-#: views/components/place-switch.jade:151
+#: views/components/place-switch.jade:155
 #, fuzzy
 msgid "Hide motorcycling routes"
 msgstr "Esconder rotas de motociclismo"
 
-#: views/components/place-switch.jade:151
+#: views/components/place-switch.jade:155
 #, fuzzy
 msgid "Motorcycling routes"
 msgstr "rotas de motociclismo"
 
-#: views/components/place-switch.jade:153
+#: views/components/place-switch.jade:157
 #, fuzzy
 msgid "ATV trails"
 msgstr "ATV trilhas"
 
-#: views/components/place-switch.jade:153
+#: views/components/place-switch.jade:157
 #, fuzzy
 msgid "Hide ATV trails"
 msgstr "Esconder trilhas ATV"
 
-#: views/components/place-switch.jade:155
+#: views/components/place-switch.jade:159
 #, fuzzy
 msgid "Hide scenic overlooks and vista points"
 msgstr "Esconder mirantes e pontos de vista"
 
-#: views/components/place-switch.jade:155
+#: views/components/place-switch.jade:159
 #, fuzzy
 msgid "Scenic overlooks and vista points"
 msgstr "Scenic negligencia e pontos de vista"
 
-#: views/components/place-switch.jade:157
+#: views/components/place-switch.jade:161
 #, fuzzy
 msgid "Hide other places"
 msgstr "Esconder outros lugares"
 
-#: views/components/place-switch.jade:157
+#: views/components/place-switch.jade:161
 #, fuzzy
 msgid "Other places"
 msgstr "Outros lugares"
 
-#: views/components/place-switch.jade:159
+#: views/components/place-switch.jade:163
 #, fuzzy
 msgid "Hide my other trips"
 msgstr "Esconder as minhas outras viagens"
 
-#: views/components/place-switch.jade:159
+#: views/components/place-switch.jade:163
 #, fuzzy
 msgid "My other trips"
 msgstr "Minhas outras viagens"
 
-#: views/components/place-switch.jade:161
+#: views/components/place-switch.jade:165
 #, fuzzy
 msgid "Hide stops from my other trips"
 msgstr "Esconder paragens de minhas outras viagens"
 
-#: views/components/place-switch.jade:161
+#: views/components/place-switch.jade:165
 #, fuzzy
 msgid "Stops from my other trips"
 msgstr "Paragens de minhas outras viagens"
 
-#: views/components/place-switch.jade:163
-#: views/components/place-switch.jade:192
+#: views/components/place-switch.jade:167
+#: views/components/place-switch.jade:196
 #, fuzzy
 msgid "Hide places, routes and tracks from file"
 msgstr "Esconder lugares, rotas e faixas de arquivo"
 
-#: views/components/place-switch.jade:163
-#: views/components/place-switch.jade:192
+#: views/components/place-switch.jade:167
+#: views/components/place-switch.jade:196
 #, fuzzy
 msgid "Places, routes and tracks from file"
 msgstr "Lugares, rotas e trilhas de arquivo"
 
-#: views/components/place-switch.jade:165
-#: views/components/place-switch.jade:197
+#: views/components/place-switch.jade:169
+#: views/components/place-switch.jade:201
 #, fuzzy
 msgid "Hide places, routes and tracks from website"
 msgstr "Esconder lugares, rotas e faixas de website"
 
-#: views/components/place-switch.jade:165
-#: views/components/place-switch.jade:197
+#: views/components/place-switch.jade:169
+#: views/components/place-switch.jade:201
 #, fuzzy
 msgid "Places, routes and tracks from website"
 msgstr "Lugares, rotas e trilhas de website"
 
-#: views/components/place-switch.jade:169
+#: views/components/place-switch.jade:173
 #, fuzzy
 msgid "Hide museums and man-made structures"
 msgstr "Esconder museus e estruturas feitas pelo homem"
 
-#: views/components/place-switch.jade:169
+#: views/components/place-switch.jade:173
 #, fuzzy
 msgid "Museums and man-made structures"
 msgstr "Museus e estruturas feitas pelo homem"
 
-#: views/components/place-switch.jade:171
+#: views/components/place-switch.jade:175
 #, fuzzy
 msgid "Hide parks and natural features"
 msgstr "Esconder parques e recursos naturais"
 
-#: views/components/place-switch.jade:171
+#: views/components/place-switch.jade:175
 #, fuzzy
 msgid "Parks and natural features"
 msgstr "Parques e recursos naturais"
 
-#: views/components/place-switch.jade:173
+#: views/components/place-switch.jade:177
 #, fuzzy
 msgid "Hide outdoor sports and activities"
 msgstr "Esconder esportes ao ar livre e atividades"
 
-#: views/components/place-switch.jade:173
+#: views/components/place-switch.jade:177
 #, fuzzy
 msgid "Outdoor sports and activities"
 msgstr "esportes e atividades ao ar livre"
 
-#: views/components/place-switch.jade:175
+#: views/components/place-switch.jade:179
 #, fuzzy
 msgid "Beach and water recreation"
 msgstr "Praia e recreação na água"
 
-#: views/components/place-switch.jade:175
+#: views/components/place-switch.jade:179
 #, fuzzy
 msgid "Hide beach and water recreation"
 msgstr "Esconder praia e recreação na água"
 
-#: views/components/place-switch.jade:177
+#: views/components/place-switch.jade:181
 #, fuzzy
 msgid "Hide scenic byways and backroads"
 msgstr "Esconder caminhos panorâmicos e backroads"
 
-#: views/components/place-switch.jade:177
+#: views/components/place-switch.jade:181
 #, fuzzy
 msgid "Scenic byways and backroads"
 msgstr "byways cênica e backroads"
 
-#: views/components/place-switch.jade:179
+#: views/components/place-switch.jade:183
 #, fuzzy
 msgid "Hide unpaved roads and off-road trails"
 msgstr "Esconder estradas não pavimentadas e trilhas off-road"
 
-#: views/components/place-switch.jade:179
+#: views/components/place-switch.jade:183
 #, fuzzy
 msgid "Unpaved roads and off-road trails"
 msgstr "estradas não pavimentadas e trilhas off-road"
 
-#: views/components/place-switch.jade:181
+#: views/components/place-switch.jade:185
 #, fuzzy
 msgid "Everything else"
 msgstr "Todo o resto"
 
-#: views/components/place-switch.jade:181
+#: views/components/place-switch.jade:185
 #, fuzzy
 msgid "Hide everything else"
 msgstr "Esconder tudo"
 
-#: views/components/place-switch.jade:183
+#: views/components/place-switch.jade:187
 #, fuzzy
 msgid "Hide my other trips, routes and tracks"
 msgstr "Esconder as minhas outras viagens, rotas e trilhas"
 
-#: views/components/place-switch.jade:183
+#: views/components/place-switch.jade:187
 #, fuzzy
 msgid "My other trips, routes and tracks"
 msgstr "Minhas outras viagens, rotas e trilhas"
 
-#: views/components/place-switch.jade:202
+#: views/components/place-switch.jade:206
 #, fuzzy
 msgid "Configure Find"
 msgstr "configurar Encontrar"

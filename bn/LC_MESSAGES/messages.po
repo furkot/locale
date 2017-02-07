@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2017-02-07 04:47+0000\n"
+"POT-Creation-Date: 2017-02-07 04:55+0000\n"
 "PO-Revision-Date: 2015-10-20 01:17-0400\n"
 "Last-Translator: Nilanjan Saha (নীল) <motofarer@gmail.com>\n"
 "Language-Team: Bengali <https://translate.code42day.com/projects/furkot/"
@@ -48,7 +48,7 @@ msgstr "পরামর্শ দিন"
 #: views/board/board.jade:29 views/components/accounts.jade:69
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:10
 #: views/components/dialog.jade:7 views/components/import-dlg.jade:141
-#: views/components/navigation.jade:2 views/components/place-switch.jade:205
+#: views/components/navigation.jade:2 views/components/place-switch.jade:209
 #: views/components/plan-msg.jade:2 views/components/share-dlg.jade:87
 #: views/components/share-dlg.jade:95 views/components/share-dlg.jade:107
 #: views/components/step-detail.jade:665 views/components/step-switches.jade:86
@@ -170,7 +170,7 @@ msgstr ""
 
 #: views/components/accounts.jade:70 views/components/add-stops.jade:2
 #: views/components/add-stops.jade:10 views/components/navigation.jade:2
-#: views/components/place-switch.jade:206 views/components/plan-msg.jade:2
+#: views/components/place-switch.jade:210 views/components/plan-msg.jade:2
 #: views/components/plan-msg.jade:12 views/components/share-dlg.jade:87
 #: views/components/share-dlg.jade:95 views/components/share-dlg.jade:107
 #: views/components/step-switches.jade:86
@@ -233,7 +233,7 @@ msgstr ""
 #: views/components/export-dlg.jade:81 views/components/import-dlg.jade:148
 #: views/components/navigation.jade:70
 #: views/components/new-trip-wizard.jade:127
-#: views/components/place-switch.jade:209 views/components/share-dlg.jade:84
+#: views/components/place-switch.jade:213 views/components/share-dlg.jade:84
 #: views/components/trip-detail.jade:418 views/components/trip-toolbar.jade:39
 #: views/tripshot/mixin.jade:99 views/tripshot/mixin.jade:128
 msgid "Learn more"
@@ -1349,7 +1349,7 @@ msgstr ""
 msgid "Furkot guided tour"
 msgstr ""
 
-#: views/components/map.jade:97 views/components/place-switch.jade:76
+#: views/components/map.jade:97 views/components/place-switch.jade:80
 #: views/components/step-switches.jade:83
 msgid "Nothing to display. Internet connection may be down."
 msgstr ""
@@ -1682,7 +1682,7 @@ msgid "No hotels or motels"
 msgstr ""
 
 #: views/components/new-trip-wizard.jade:93
-#: views/components/place-switch.jade:85
+#: views/components/place-switch.jade:89
 msgid "Chain hotels and motels"
 msgstr ""
 
@@ -1691,7 +1691,7 @@ msgid "No chain hotels or motels"
 msgstr ""
 
 #: views/components/new-trip-wizard.jade:95
-#: views/components/place-switch.jade:87 views/components/step-lodging.jade:27
+#: views/components/place-switch.jade:91 views/components/step-lodging.jade:27
 msgid "Campgrounds"
 msgstr ""
 
@@ -1700,7 +1700,7 @@ msgid "No campgrounds"
 msgstr ""
 
 #: views/components/new-trip-wizard.jade:97
-#: views/components/place-switch.jade:89
+#: views/components/place-switch.jade:93
 msgid "Apartments and private rooms"
 msgstr ""
 
@@ -1709,7 +1709,7 @@ msgid "No apartments and private rooms"
 msgstr ""
 
 #: views/components/new-trip-wizard.jade:99
-#: views/components/place-switch.jade:91 views/components/step-lodging.jade:31
+#: views/components/place-switch.jade:95 views/components/step-lodging.jade:31
 msgid "Hostels"
 msgstr ""
 
@@ -1718,7 +1718,7 @@ msgid "No hostels"
 msgstr ""
 
 #: views/components/new-trip-wizard.jade:101
-#: views/components/place-switch.jade:93 views/components/step-lodging.jade:33
+#: views/components/place-switch.jade:97 views/components/step-lodging.jade:33
 msgid "Blind hotel deals"
 msgstr ""
 
@@ -1951,367 +1951,375 @@ msgstr ""
 msgid "Add all displayed places as skipped stops"
 msgstr ""
 
-#: views/components/place-switch.jade:74 views/components/place-switch.jade:188
+#: views/components/place-switch.jade:74 views/components/place-switch.jade:77
+#: views/components/place-switch.jade:192
 msgid "All"
 msgstr ""
 
-#: views/components/place-switch.jade:74 views/components/place-switch.jade:188
+#: views/components/place-switch.jade:74 views/components/place-switch.jade:77
+#: views/components/place-switch.jade:192
 msgid "None"
 msgstr ""
 
-#: views/components/place-switch.jade:75 views/components/place-switch.jade:189
+#. L10n: 'ALL' means 'Select all options'. 4 letters or less. Doesn't have to be all capital letters, esp. when longer than 3 letters
+#: views/components/place-switch.jade:76 views/components/place-switch.jade:193
 msgid "ALL"
 msgstr ""
 
-#: views/components/place-switch.jade:83
-msgid "Hide hotels"
-msgstr ""
-
-#: views/components/place-switch.jade:83 views/components/step-lodging.jade:23
-msgid "Hotels"
-msgstr ""
-
-#: views/components/place-switch.jade:85
-msgid "Hide chain hotels and motels"
+#. L10n: 'NONE' means 'Select no options (i.e. unselect all)'. 4 letters or less. Doesn't have to be all capital letters, esp. when longer than 3 letters
+#: views/components/place-switch.jade:79
+msgid "NONE"
 msgstr ""
 
 #: views/components/place-switch.jade:87
-msgid "Hide campgrounds"
+msgid "Hide hotels"
+msgstr ""
+
+#: views/components/place-switch.jade:87 views/components/step-lodging.jade:23
+msgid "Hotels"
 msgstr ""
 
 #: views/components/place-switch.jade:89
-msgid "Hide apartments and private rooms"
+msgid "Hide chain hotels and motels"
 msgstr ""
 
 #: views/components/place-switch.jade:91
-msgid "Hide hostels"
+msgid "Hide campgrounds"
 msgstr ""
 
 #: views/components/place-switch.jade:93
-msgid "Hide blind hotel deals"
+msgid "Hide apartments and private rooms"
 msgstr ""
 
 #: views/components/place-switch.jade:95
+msgid "Hide hostels"
+msgstr ""
+
+#: views/components/place-switch.jade:97
+msgid "Hide blind hotel deals"
+msgstr ""
+
+#: views/components/place-switch.jade:99
 msgid "Hide LGBT welcoming hotels"
 msgstr ""
 
-#: views/components/place-switch.jade:95 views/components/step-lodging.jade:35
+#: views/components/place-switch.jade:99 views/components/step-lodging.jade:35
 msgid "LGBT welcoming hotels"
 msgstr ""
 
-#: views/components/place-switch.jade:99
+#: views/components/place-switch.jade:103
 msgid "Hide restaurants"
 msgstr ""
 
-#: views/components/place-switch.jade:99
+#: views/components/place-switch.jade:103
 msgid "Restaurants"
 msgstr ""
 
-#: views/components/place-switch.jade:101
+#: views/components/place-switch.jade:105
 msgid "Breweries, wineries and bars"
 msgstr ""
 
-#: views/components/place-switch.jade:101
+#: views/components/place-switch.jade:105
 msgid "Hide breweries, wineries and bars"
 msgstr ""
 
-#: views/components/place-switch.jade:103
+#: views/components/place-switch.jade:107
 msgid "Coffee shops"
 msgstr ""
 
-#: views/components/place-switch.jade:103
+#: views/components/place-switch.jade:107
 msgid "Hide coffee shops"
 msgstr ""
 
-#: views/components/place-switch.jade:105
+#: views/components/place-switch.jade:109
 msgid "Farmers markets and grocery stores"
 msgstr ""
 
-#: views/components/place-switch.jade:105
+#: views/components/place-switch.jade:109
 msgid "Hide farmers markets and grocery stores"
 msgstr ""
 
-#: views/components/place-switch.jade:107
+#: views/components/place-switch.jade:111
 msgid "Filling stations"
 msgstr ""
 
-#: views/components/place-switch.jade:107
+#: views/components/place-switch.jade:111
 msgid "Hide filling stations"
 msgstr ""
 
-#: views/components/place-switch.jade:111
+#: views/components/place-switch.jade:115
 msgid "Hide museums"
 msgstr ""
 
-#: views/components/place-switch.jade:111
+#: views/components/place-switch.jade:115
 msgid "Museums"
 msgstr ""
 
-#: views/components/place-switch.jade:113
+#: views/components/place-switch.jade:117
 msgid "Hide historical sites, monuments and landmarks"
 msgstr ""
 
-#: views/components/place-switch.jade:113
+#: views/components/place-switch.jade:117
 msgid "Historical sites, monuments and landmarks"
 msgstr ""
 
-#: views/components/place-switch.jade:115
+#: views/components/place-switch.jade:119
 msgid "Hide parks"
 msgstr ""
 
-#: views/components/place-switch.jade:115
+#: views/components/place-switch.jade:119
 msgid "Parks"
 msgstr ""
 
-#: views/components/place-switch.jade:117
+#: views/components/place-switch.jade:121
 msgid "Hide mountains"
 msgstr ""
 
-#: views/components/place-switch.jade:117 views/components/step-detail.jade:88
+#: views/components/place-switch.jade:121 views/components/step-detail.jade:88
 msgid "Mountains"
 msgstr ""
 
-#: views/components/place-switch.jade:119
+#: views/components/place-switch.jade:123
 msgid "Hide lakes, rivers and hot springs"
 msgstr ""
 
-#: views/components/place-switch.jade:119
+#: views/components/place-switch.jade:123
 msgid "Lakes, rivers and hot springs"
 msgstr ""
 
-#: views/components/place-switch.jade:121
+#: views/components/place-switch.jade:125
 msgid "Fire incidents"
 msgstr ""
 
-#: views/components/place-switch.jade:121
+#: views/components/place-switch.jade:125
 msgid "Hide fire incidents"
 msgstr ""
 
-#: views/components/place-switch.jade:123
+#: views/components/place-switch.jade:127
 msgid "Birdwatching"
 msgstr ""
 
-#: views/components/place-switch.jade:123
+#: views/components/place-switch.jade:127
 msgid "Hide birdwatching hotspots"
 msgstr ""
 
-#: views/components/place-switch.jade:125
+#: views/components/place-switch.jade:129
 msgid "Hide hiking trails"
 msgstr ""
 
-#: views/components/place-switch.jade:125
+#: views/components/place-switch.jade:129
 msgid "Hiking trails"
 msgstr ""
 
-#: views/components/place-switch.jade:127
+#: views/components/place-switch.jade:131
 msgid "Bike paths and tracks"
 msgstr ""
 
-#: views/components/place-switch.jade:127
+#: views/components/place-switch.jade:131
 msgid "Hide bike paths and tracks"
 msgstr ""
 
-#: views/components/place-switch.jade:129
+#: views/components/place-switch.jade:133
 msgid "Climbing routes"
 msgstr ""
 
-#: views/components/place-switch.jade:129
+#: views/components/place-switch.jade:133
 msgid "Hide climbing routes"
 msgstr ""
 
-#: views/components/place-switch.jade:131
+#: views/components/place-switch.jade:135
 msgid "Hide snowshoeing trails"
 msgstr ""
 
-#: views/components/place-switch.jade:131
+#: views/components/place-switch.jade:135
 msgid "Snowshoeing trails"
 msgstr ""
 
-#: views/components/place-switch.jade:133
+#: views/components/place-switch.jade:137
 msgid "Hide ski areas"
 msgstr ""
 
-#: views/components/place-switch.jade:133
+#: views/components/place-switch.jade:137
 msgid "Ski areas"
 msgstr ""
 
 #. L10n: dive site - a stop suitable for scuba diving
-#: views/components/place-switch.jade:136
+#: views/components/place-switch.jade:140
 msgid "Dive sites"
 msgstr ""
 
 #. L10n: dive site - a stop suitable for scuba diving
-#: views/components/place-switch.jade:136
+#: views/components/place-switch.jade:140
 msgid "Hide dive sites"
 msgstr ""
 
-#: views/components/place-switch.jade:140
+#: views/components/place-switch.jade:144
 msgid "Hide surf spots"
 msgstr ""
 
-#: views/components/place-switch.jade:140
+#: views/components/place-switch.jade:144
 msgid "Surf spots"
 msgstr ""
 
-#: views/components/place-switch.jade:142
+#: views/components/place-switch.jade:146
 msgid "Beaches"
 msgstr ""
 
-#: views/components/place-switch.jade:142
+#: views/components/place-switch.jade:146
 msgid "Hide beaches"
 msgstr ""
 
 #. L10n: hide roads that can be driven in passenger cars (as opposed to jeeping/SUV roads)
-#: views/components/place-switch.jade:145
+#: views/components/place-switch.jade:149
 msgid "Driving (passenger cars)"
 msgstr ""
 
 #. L10n: hide roads that can be driven in passenger cars (as opposed to jeeping/SUV roads)
-#: views/components/place-switch.jade:145
+#: views/components/place-switch.jade:149
 msgid "Hide driving"
 msgstr ""
 
-#: views/components/place-switch.jade:149
+#: views/components/place-switch.jade:153
 msgid "Hide jeeping and offroading"
 msgstr ""
 
-#: views/components/place-switch.jade:149
+#: views/components/place-switch.jade:153
 msgid "Jeeping and offroading"
 msgstr ""
 
-#: views/components/place-switch.jade:151
+#: views/components/place-switch.jade:155
 msgid "Hide motorcycling routes"
 msgstr ""
 
-#: views/components/place-switch.jade:151
+#: views/components/place-switch.jade:155
 msgid "Motorcycling routes"
 msgstr ""
 
-#: views/components/place-switch.jade:153
+#: views/components/place-switch.jade:157
 msgid "ATV trails"
 msgstr ""
 
-#: views/components/place-switch.jade:153
+#: views/components/place-switch.jade:157
 msgid "Hide ATV trails"
 msgstr ""
 
-#: views/components/place-switch.jade:155
+#: views/components/place-switch.jade:159
 msgid "Hide scenic overlooks and vista points"
 msgstr ""
 
-#: views/components/place-switch.jade:155
+#: views/components/place-switch.jade:159
 msgid "Scenic overlooks and vista points"
 msgstr ""
 
-#: views/components/place-switch.jade:157
+#: views/components/place-switch.jade:161
 msgid "Hide other places"
 msgstr ""
 
-#: views/components/place-switch.jade:157
+#: views/components/place-switch.jade:161
 msgid "Other places"
 msgstr ""
 
-#: views/components/place-switch.jade:159
+#: views/components/place-switch.jade:163
 msgid "Hide my other trips"
 msgstr ""
 
-#: views/components/place-switch.jade:159
+#: views/components/place-switch.jade:163
 msgid "My other trips"
 msgstr ""
 
-#: views/components/place-switch.jade:161
+#: views/components/place-switch.jade:165
 msgid "Hide stops from my other trips"
 msgstr ""
 
-#: views/components/place-switch.jade:161
+#: views/components/place-switch.jade:165
 msgid "Stops from my other trips"
 msgstr ""
 
-#: views/components/place-switch.jade:163
-#: views/components/place-switch.jade:192
+#: views/components/place-switch.jade:167
+#: views/components/place-switch.jade:196
 msgid "Hide places, routes and tracks from file"
 msgstr ""
 
-#: views/components/place-switch.jade:163
-#: views/components/place-switch.jade:192
+#: views/components/place-switch.jade:167
+#: views/components/place-switch.jade:196
 msgid "Places, routes and tracks from file"
 msgstr ""
 
-#: views/components/place-switch.jade:165
-#: views/components/place-switch.jade:197
+#: views/components/place-switch.jade:169
+#: views/components/place-switch.jade:201
 msgid "Hide places, routes and tracks from website"
 msgstr ""
 
-#: views/components/place-switch.jade:165
-#: views/components/place-switch.jade:197
+#: views/components/place-switch.jade:169
+#: views/components/place-switch.jade:201
 msgid "Places, routes and tracks from website"
 msgstr ""
 
-#: views/components/place-switch.jade:169
+#: views/components/place-switch.jade:173
 msgid "Hide museums and man-made structures"
 msgstr ""
 
-#: views/components/place-switch.jade:169
+#: views/components/place-switch.jade:173
 msgid "Museums and man-made structures"
 msgstr ""
 
-#: views/components/place-switch.jade:171
+#: views/components/place-switch.jade:175
 msgid "Hide parks and natural features"
 msgstr ""
 
-#: views/components/place-switch.jade:171
+#: views/components/place-switch.jade:175
 msgid "Parks and natural features"
 msgstr ""
 
-#: views/components/place-switch.jade:173
+#: views/components/place-switch.jade:177
 msgid "Hide outdoor sports and activities"
 msgstr ""
 
-#: views/components/place-switch.jade:173
+#: views/components/place-switch.jade:177
 msgid "Outdoor sports and activities"
 msgstr ""
 
-#: views/components/place-switch.jade:175
+#: views/components/place-switch.jade:179
 msgid "Beach and water recreation"
 msgstr ""
 
-#: views/components/place-switch.jade:175
+#: views/components/place-switch.jade:179
 msgid "Hide beach and water recreation"
 msgstr ""
 
-#: views/components/place-switch.jade:177
+#: views/components/place-switch.jade:181
 msgid "Hide scenic byways and backroads"
 msgstr ""
 
-#: views/components/place-switch.jade:177
+#: views/components/place-switch.jade:181
 msgid "Scenic byways and backroads"
 msgstr ""
 
-#: views/components/place-switch.jade:179
+#: views/components/place-switch.jade:183
 msgid "Hide unpaved roads and off-road trails"
 msgstr ""
 
-#: views/components/place-switch.jade:179
+#: views/components/place-switch.jade:183
 msgid "Unpaved roads and off-road trails"
 msgstr ""
 
-#: views/components/place-switch.jade:181
+#: views/components/place-switch.jade:185
 msgid "Everything else"
 msgstr ""
 
-#: views/components/place-switch.jade:181
+#: views/components/place-switch.jade:185
 msgid "Hide everything else"
 msgstr ""
 
-#: views/components/place-switch.jade:183
+#: views/components/place-switch.jade:187
 msgid "Hide my other trips, routes and tracks"
 msgstr ""
 
-#: views/components/place-switch.jade:183
+#: views/components/place-switch.jade:187
 msgid "My other trips, routes and tracks"
 msgstr ""
 
-#: views/components/place-switch.jade:202
+#: views/components/place-switch.jade:206
 msgid "Configure Find"
 msgstr ""
 
