@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2017-01-20 03:51+0000\n"
-"PO-Revision-Date: 2017-01-26 10:44-0400\n"
-"Last-Translator: Damian Krzeminski <pirxpilot@code42day.com>\n"
+"PO-Revision-Date: 2017-02-06 23:10-0400\n"
+"Last-Translator: kenji Iura <iurakenji@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) "
 "<https://translate.code42day.com/projects/furkot/trips/pt_BR/>\n"
 "Language: pt-BR\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: views/app.jade:4
 msgid "My Trips"
-msgstr "Minhas Trilhas"
+msgstr "Minhas Viagens"
 
 #. L10n: square brackets [] denote a link
 #: views/board/board.jade:7 views/tripshot/map.jade:36 views/tripshot/mixin.jade:149 views/tripshot/widget.jade:32
@@ -26,7 +26,7 @@ msgstr "Planejar com [Furkot]"
 #. L10n: "Place location" (location of the place) is the name or address of a place that the user wants to add to the trip
 #: views/board/board.jade:12
 msgid "Place location"
-msgstr "local"
+msgstr "Localização"
 
 #: views/board/board.jade:16 views/components/map.jade:57
 msgid "Zoom in"
@@ -62,7 +62,7 @@ msgstr "Voltar"
 
 #: views/components/accounts.jade:1
 msgid "Account Settings"
-msgstr "Minha Conta"
+msgstr "Configurações da Conta"
 
 #. L10n: Nickname is a private identifier used to sign in
 #: views/components/accounts.jade:6
@@ -71,7 +71,7 @@ msgstr "Apelido"
 
 #: views/components/accounts.jade:7
 msgid "Nickname is your private identifier used to sign in"
-msgstr "O seu apelido é único entre todos os usuários"
+msgstr "O seu apelido é a sua identificação pessoal para logar"
 
 #. L10n: Email in a sense of the "email address"
 #: views/components/accounts.jade:11 views/welcome/password-forgot-page.jade:21
@@ -81,7 +81,9 @@ msgstr "Email"
 #. L10n: Email in a sense of the "email address"
 #: views/components/accounts.jade:13
 msgid "Email is only used to reset forgotten password and to share trips"
-msgstr "O email é utilizado somente para recuperar a senha a compartilhar suas trilhas"
+msgstr ""
+"O email é utilizado somente para recuperar a senha e compartilhar suas "
+"viagens"
 
 #. L10n: Email in a sense of the "email address"
 #: views/components/accounts.jade:13
@@ -95,7 +97,7 @@ msgstr "Assinatura"
 
 #: views/components/accounts.jade:22
 msgid "Signature is your public name shown to others"
-msgstr "Assinatura é o seu nome público mostrado para os outros usuários"
+msgstr "Assinatura é o seu nome público que aparece para os outros usuários"
 
 #: views/components/accounts.jade:22
 msgid "public name"
@@ -113,7 +115,7 @@ msgstr "A senha atual é necessária para alterar as configurações"
 #. L10n: (password is) needed to change settings
 #: views/components/accounts.jade:32
 msgid "needed to change settings"
-msgstr "Necessário alterar as configurações"
+msgstr "Necessário para alterar as configurações"
 
 #: views/components/accounts.jade:39 views/welcome/password-reset-page.jade:21
 msgid "New Password"
@@ -140,12 +142,12 @@ msgstr "Configurações alteradas com sucesso"
 #. L10n: Password cannot be changed
 #: views/components/accounts.jade:53
 msgid "Cannot change password"
-msgstr "Senha não pode ser alterada"
+msgstr "A senha não pode ser alterada"
 
 #. L10n: Settings cannot be changed
 #: views/components/accounts.jade:55
 msgid "Cannot change settings"
-msgstr "Configurações não podem ser alteradas"
+msgstr "As configurações não podem ser alteradas"
 
 #: views/components/accounts.jade:59
 msgid "Connected Accounts"
@@ -163,9 +165,8 @@ msgid "Plan stops"
 msgstr "Paradas planejadas"
 
 #: views/components/add-stops.jade:4
-#, fuzzy
 msgid "Adding:"
-msgstr "acrescentando:"
+msgstr "Adicionando:"
 
 #: views/components/add-stops.jade:7
 msgid "Select a trip to add to."
@@ -177,9 +178,8 @@ msgstr "Nova viagem"
 
 #. L10n: followed by the trip name and a question mark ?
 #: views/components/add-stops.jade:12
-#, fuzzy
 msgid "Do you want to create your own version of a trip"
-msgstr "Você quer criar sua própria versão de uma viagem"
+msgstr "Deseja criar sua própria versão de uma viagem"
 
 #: views/components/applications.jade:2 views/header.jade:25
 #, fuzzy
@@ -204,7 +204,7 @@ msgstr "Scenic"
 #: views/components/applications.jade:16 views/components/book-trip.jade:29 views/components/export-dlg.jade:81 views/components/import-dlg.jade:148 views/components/navigation.jade:70 views/components/new-trip-wizard.jade:127 views/components/place-switch.jade:209 views/components/share-dlg.jade:84
 #: views/components/trip-detail.jade:406 views/components/trip-toolbar.jade:39 views/tripshot/mixin.jade:99 views/tripshot/mixin.jade:128
 msgid "Learn more"
-msgstr "Leia mais"
+msgstr "Saiba mais"
 
 #: views/components/applications.jade:25
 msgid "Remove"
@@ -241,8 +241,8 @@ msgstr "Pronto"
 #: views/components/book-trip.jade:33
 msgid "Looks like you started hotel booking process, but did not enter any booking confirmation."
 msgstr ""
-"Parece que você começou o processo de reserva de hotel, mas não realizou "
-"nehuma confirmação de reserva."
+"Parece que você começou o processo de reserva de hotel, mas não realizou a "
+"confirmação de reserva."
 
 #: views/components/book-trip.jade:34
 msgid "Entering your booking confirmation (number or URL) in Furkot does not change your booking status, but lets Furkot help you keep track of your reservations."
@@ -268,14 +268,14 @@ msgstr "Pressione [Next] se pretender introduzir a confirmação da reserva mais
 
 #: views/components/book-trip.jade:42
 msgid "Furkot will take you to the next lodging to book."
-msgstr "Furkot irá levá-lo para a próxima reserva de hospedagem."
+msgstr "Furkot irá levá-lo para a próxima opção de hospedagem para reservar."
 
 #. L10n: square brackets [] denote a button
 #: views/components/book-trip.jade:44
 msgid "Press [Done] if you intend to enter the booking confirmation later, or if you don't want to complete the booking at this time."
 msgstr ""
-"Pressione [Pronto] se pretender introduzir a confirmação da reserva mais "
-"tarde ou se não pretender concluir a reserva no momento."
+"Pressione [Pronto] se pretende introduzir a confirmação da reserva mais "
+"tarde ou se não pretende concluir a reserva no momento."
 
 #: views/components/book-trip.jade:45
 msgid "Furkot will take you back to the trip planning."
@@ -283,7 +283,9 @@ msgstr "Furkot o levará de volta ao planejamento da viagem."
 
 #: views/components/book-trip.jade:46
 msgid "Make sure the hotel name and address in Furkot match the one that you booked."
-msgstr "Verifique se o nome do hotel e endereço no Furkot coincide com o que você reservou."
+msgstr ""
+"Verifique se o nome do hotel e endereço no Furkot coincidem com o que você "
+"reservou."
 
 #: views/components/book-trip.jade:49
 msgid "Booking complete"
@@ -299,16 +301,15 @@ msgstr "Reserve no"
 
 #: views/components/bookable.jade:18
 msgid "Add this hotel as a new stop"
-msgstr "Adicione este hotel como uma nova parada"
+msgstr "Adicionar este hotel como uma nova parada"
 
 #: views/components/bookable.jade:18
 msgid "Add this hotel as a skipped stop"
-msgstr "Adicione este hotel como uma parada ignorada"
+msgstr "Adicionar este hotel como uma parada ignorada"
 
 #: views/components/bookable.jade:18
-#, fuzzy
 msgid "Fold this hotel details"
-msgstr "Dobre este hotel detalhes"
+msgstr "Ocultar detalhes do hotel"
 
 #: views/components/bookable.jade:18 views/components/bookable.jade:60
 msgid "Replace selected stop with this hotel"
@@ -320,132 +321,108 @@ msgstr "Ver avaliações dos hóspedes"
 
 #: views/components/bookable.jade:18
 msgid "See this hotel own website"
-msgstr "Ver este hotel no próprio site"
+msgstr "Ver o site deste hotel"
 
 #: views/components/bookable.jade:18
 msgid "See this hotel page at"
-msgstr "Veja esta página do hotel em"
+msgstr "Veja a página deste hotel em"
 
 #: views/components/bookable.jade:26
-#, fuzzy
 msgid "Hide hotels from"
-msgstr "Esconder hotéis a partir de"
+msgstr "Ocultar hotéis de"
 
 #: views/components/bookable.jade:26
-#, fuzzy
 msgid "Show hotels from"
-msgstr "Mostrar hotéis a partir de"
+msgstr "Mostrar hotéis de"
 
 #: views/components/bookable.jade:33
-#, fuzzy
 msgid "Add this campground as a new stop"
-msgstr "Adicionar este acampamento como uma nova paragem"
+msgstr "Adicionar este camping como uma nova parada"
 
 #: views/components/bookable.jade:33
-#, fuzzy
 msgid "Add this campground as a skipped stop"
-msgstr "Adicionar este acampamento como uma parada ignorado"
+msgstr "Adicionar este camping como uma parada ignorada"
 
 #: views/components/bookable.jade:33
-#, fuzzy
 msgid "Fold this campground details"
-msgstr "Dobre este detalhes de acampamento"
+msgstr "Ocultar detalhes deste camping"
 
 #: views/components/bookable.jade:33
-#, fuzzy
 msgid "Replace selected stop with this campground"
-msgstr "Substitua stop selecionada com este acampamento"
+msgstr "Substituir a parada selecionada com este camping"
 
 #: views/components/bookable.jade:33
-#, fuzzy
 msgid "See this campground own website"
-msgstr "Veja este acampamento próprio site"
+msgstr "Ver o website deste camping"
 
 #: views/components/bookable.jade:33
-#, fuzzy
 msgid "See this campground page at"
-msgstr "Veja esta página acampamento no"
+msgstr "Ver a página deste camping em"
 
 #: views/components/bookable.jade:41
-#, fuzzy
 msgid "Hide campgrounds from"
-msgstr "Esconder acampamentos de"
+msgstr "Ocultar campings de"
 
 #: views/components/bookable.jade:41
-#, fuzzy
 msgid "Show campgrounds from"
-msgstr "Mostrar acampamentos de"
+msgstr "Mostrar campings de"
 
 #: views/components/bookable.jade:49
-#, fuzzy
 msgid "Rent a car at"
-msgstr "Alugar um carro no"
+msgstr "Alugar um carro em"
 
 #: views/components/bookable.jade:55
-#, fuzzy
 msgid "Book a flight at"
 msgstr "Reservar um voo com"
 
 #: views/components/bookable.jade:60
-#, fuzzy
 msgid "Add hotel in this neighborhood as a new stop"
-msgstr "Adicionar hotel em este bairro como uma nova paragem"
+msgstr "Adicionar hotel neste bairro como uma nova parada"
 
 #: views/components/bookable.jade:60
-#, fuzzy
 msgid "Add hotel in this neighborhood as a skipped stop"
-msgstr "Adicionar hotel em este bairro como uma parada ignorado"
+msgstr "Adicionar hotel neste bairro como uma parada ignorada"
 
 #: views/components/bookable.jade:60
-#, fuzzy
 msgid "Fold this deal details"
-msgstr "Dobre este detalhes deal"
+msgstr "Ocultar detalhes desta oferta"
 
 #: views/components/bookable.jade:60
-#, fuzzy
 msgid "See this deal page at"
-msgstr "Veja esta página negócio em"
+msgstr "Ver a página desta oferta em"
 
 #: views/components/bookable.jade:67
-#, fuzzy
 msgid "Hide deals from"
 msgstr "Esconder ofertas de"
 
 #: views/components/bookable.jade:67
-#, fuzzy
 msgid "Show deals from"
 msgstr "Mostrar ofertas de"
 
 #: views/components/bookable.jade:74 views/components/bookable.jade:104
-#, fuzzy
 msgid "Add this lodging as a new stop"
-msgstr "Adicionar este hospedagem como uma nova paragem"
+msgstr "Adicionar esta hospedagem como uma nova parada"
 
 #: views/components/bookable.jade:74 views/components/bookable.jade:104
-#, fuzzy
 msgid "Add this lodging as a skipped stop"
-msgstr "Adicionar este hospedagem como uma parada ignorado"
+msgstr "Adicionar este hospedagem como uma parada ignorada"
 
 #: views/components/bookable.jade:74 views/components/bookable.jade:104
-#, fuzzy
 msgid "Fold this lodging details"
-msgstr "Dobre este detalhes de alojamento"
+msgstr "Ocultar detalhes desta hospedagem"
 
 #: views/components/bookable.jade:74 views/components/bookable.jade:104
-#, fuzzy
 msgid "Replace selected stop with this lodging"
-msgstr "Substitua stop selecionada com este hospedagem"
+msgstr "Substituir a parada selecionada por esta hospedagem"
 
 #. L10n: displayed for Roomorama/AirBnB - link to the profile page of the lodging host/owner
 #: views/components/bookable.jade:74 views/temp.jade:4
-#, fuzzy
 msgid "See this lodging host profile"
-msgstr "Veja este perfil acolhimento alojamento"
+msgstr "Ver o perfil desta hospedagem"
 
 #: views/components/bookable.jade:74 views/components/bookable.jade:104
-#, fuzzy
 msgid "See this lodging page at"
-msgstr "Veja esta página hospedagem no"
+msgstr "Veja a pagina desta hospedagem em"
 
 #: views/components/bookable.jade:82
 #, fuzzy
