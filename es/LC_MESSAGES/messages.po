@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2017-01-20 03:51+0000\n"
+"POT-Creation-Date: 2017-02-07 04:47+0000\n"
 "PO-Revision-Date: 2017-01-19 23:38-0400\n"
 "Last-Translator: Damian Krzeminski <pirxpilot@code42day.com>\n"
-"Language-Team: Spanish "
-"<https://translate.code42day.com/projects/furkot/trips/es/>\n"
+"Language-Team: Spanish <https://translate.code42day.com/projects/furkot/"
+"trips/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,19 +52,18 @@ msgstr "Sugerir"
 #: views/components/navigation.jade:2 views/components/place-switch.jade:205
 #: views/components/plan-msg.jade:2 views/components/share-dlg.jade:87
 #: views/components/share-dlg.jade:95 views/components/share-dlg.jade:107
-#: views/components/step-detail.jade:661
-#: views/components/step-switches.jade:86
+#: views/components/step-detail.jade:665 views/components/step-switches.jade:86
 #: views/components/step-switches.jade:94
 #: views/components/step-switches.jade:102
 #: views/components/step-switches.jade:110
 #: views/components/step-switches.jade:118
 #: views/components/step-switches.jade:122
 #: views/components/step-switches.jade:130
-#: views/components/trip-detail.jade:357 views/components/trip-detail.jade:365
-#: views/components/trip-detail.jade:371 views/components/trip-detail.jade:381
-#: views/components/trip-detail.jade:409 views/components/trip-detail.jade:414
-#: views/components/trip-detail.jade:419 views/components/trip-detail.jade:429
-#: views/components/trip-detail.jade:437 views/components/trip-detail.jade:442
+#: views/components/trip-detail.jade:369 views/components/trip-detail.jade:377
+#: views/components/trip-detail.jade:383 views/components/trip-detail.jade:393
+#: views/components/trip-detail.jade:421 views/components/trip-detail.jade:426
+#: views/components/trip-detail.jade:431 views/components/trip-detail.jade:441
+#: views/components/trip-detail.jade:449 views/components/trip-detail.jade:454
 #: views/components/trip-toolbar.jade:17 views/tripshot/mixin.jade:93
 msgid "Cancel"
 msgstr "Cancelar"
@@ -96,8 +95,7 @@ msgid "Nickname is your private identifier used to sign in"
 msgstr "Apodo es el identificador privado que utilizada para iniciar sesión"
 
 #. L10n: Email in a sense of the "email address"
-#: views/components/accounts.jade:11
-#: views/welcome/password-forgot-page.jade:21
+#: views/components/accounts.jade:11 views/welcome/password-forgot-page.jade:21
 #, fuzzy
 msgid "Email"
 msgstr "Email"
@@ -190,12 +188,12 @@ msgstr "Cuentas conectadas"
 #: views/components/step-switches.jade:110
 #: views/components/step-switches.jade:118
 #: views/components/step-switches.jade:122
-#: views/components/step-switches.jade:130
-#: views/components/trip-detail.jade:357 views/components/trip-detail.jade:365
-#: views/components/trip-detail.jade:371 views/components/trip-detail.jade:381
-#: views/components/trip-detail.jade:409 views/components/trip-detail.jade:414
-#: views/components/trip-detail.jade:419 views/components/trip-detail.jade:429
-#: views/components/trip-detail.jade:437 views/components/trip-detail.jade:442
+#: views/components/step-switches.jade:130 views/components/translate.jade:2
+#: views/components/trip-detail.jade:369 views/components/trip-detail.jade:377
+#: views/components/trip-detail.jade:383 views/components/trip-detail.jade:393
+#: views/components/trip-detail.jade:421 views/components/trip-detail.jade:426
+#: views/components/trip-detail.jade:431 views/components/trip-detail.jade:441
+#: views/components/trip-detail.jade:449 views/components/trip-detail.jade:454
 #: views/components/trip-toolbar.jade:17 views/components/warning.jade:9
 #: views/tripshot/mixin.jade:96
 msgid "OK"
@@ -245,7 +243,7 @@ msgstr ""
 #: views/components/navigation.jade:70
 #: views/components/new-trip-wizard.jade:127
 #: views/components/place-switch.jade:209 views/components/share-dlg.jade:84
-#: views/components/trip-detail.jade:406 views/components/trip-toolbar.jade:39
+#: views/components/trip-detail.jade:418 views/components/trip-toolbar.jade:39
 #: views/tripshot/mixin.jade:99 views/tripshot/mixin.jade:128
 msgid "Learn more"
 msgstr "Aprender más"
@@ -585,17 +583,17 @@ msgstr "Usted está utilizando un navegador obsoleto."
 msgid "Please [upgrade your browser] to improve your experience."
 msgstr "Por favor, [actualizar su navegador] para mejorar su experiencia."
 
-#: views/components/dialog.jade:5 views/components/step-detail.jade:659
+#: views/components/dialog.jade:5 views/components/step-detail.jade:663
 #: views/tripshot/mixin.jade:91
 msgid "Cancel changes"
 msgstr "Cancelar cambios"
 
-#: views/components/dialog.jade:8 views/components/step-detail.jade:662
+#: views/components/dialog.jade:8 views/components/step-detail.jade:666
 #: views/tripshot/mixin.jade:94
 msgid "Accept changes"
 msgstr "Aceptar los cambios"
 
-#: views/components/dialog.jade:10 views/components/step-detail.jade:664
+#: views/components/dialog.jade:10 views/components/step-detail.jade:668
 msgid "Save"
 msgstr "Guardar"
 
@@ -743,173 +741,191 @@ msgstr "abrir como una hoja de cálculo"
 msgid "Export"
 msgstr "Exportar"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo add place"
 msgstr "Deshacer añadir lugar"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo add route"
 msgstr "Deshacer añadir ruta"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo add stop"
 msgstr "Deshacer añadir parada"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo change route"
 msgstr "Deshacer cambio de ruta"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo change route type"
 msgstr "Deshacer cambio de tipo de ruta"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo delete route"
 msgstr "Deshacer borrar ruta"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo delete stop"
 msgstr "Deshacer parada eliminada"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo drag route"
 msgstr "Deshacer ruta arrastrada"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo edit route"
 msgstr "Deshacer ruta editada"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo follow roads"
 msgstr "Deshacer ruta seguida"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo keep stop"
 msgstr "Deshacer mantener parada"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo move day"
 msgstr "Deshacer días movimiento"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo move stop"
 msgstr "Deshacer parada movida"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo plan B"
 msgstr "Deshacer plan B"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo reorder stop"
 msgstr "Deshacer re-ordenar paradas"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo reset route"
 msgstr "Deshacer reiniciar ruta"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo reverse itinerary"
 msgstr "Deshacer itinerario inverso"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo skip stop"
 msgstr "Deshacer saltar parada"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo stay in lodging"
 msgstr "Deshacer estancia en alojamiento"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo travel off road"
 msgstr "Deshacer viaje fuera de carretera"
 
-#: views/components/furkot-data.jade:4
+#: views/components/furkot-data.jade:14
 msgid "Undo visit stop"
 msgstr "Deshacer parada de visita"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo add place"
 msgstr "Rehacer añadir lugar"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo add route"
 msgstr "Rehacer agregar ruta"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo add stop"
 msgstr "Rehacer agregar parada"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo change route"
 msgstr "Rehacer cambio de ruta"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo change route type"
 msgstr "Rehacer cambio de tipo de ruta"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo delete route"
 msgstr "Rehacer ruta eliminada"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo delete stop"
 msgstr "Rehacer parada eliminada"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo drag route"
 msgstr "Rehacer ruta arrastrada"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo edit route"
 msgstr "Rehacer ruta editada"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo follow roads"
 msgstr "Rehacer ruta seguida"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo keep stop"
 msgstr "Rehacer mantener parada"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo move day"
 msgstr "Rehacer días movidos"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo move stop"
 msgstr "Rehacer parada movida"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo plan B"
 msgstr "Rehacer plan B"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo reorder stop"
 msgstr "Rehacer reordenado de paradas"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo reset route"
 msgstr "Rehacer ruta reiniciada"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo reverse itinerary"
 msgstr "Rehacer itinerario inverso"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo skip stop"
 msgstr "Rehacer parada omitida"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo stay in lodging"
 msgstr "Rehacer permanecer en alojamiento"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo travel off road"
 msgstr "Rehacer viaje fuera de carretera"
 
-#: views/components/furkot-data.jade:27
+#: views/components/furkot-data.jade:37
 msgid "Redo visit stop"
 msgstr "Rehacer parada de visita"
+
+#. L10n: abbreviation of 'ante meridiem', meaning 'before midday'; maximum 4 letters including punctuation
+#: views/components/furkot-data.jade:63 views/components/furkot-data.jade:70
+msgid "AM"
+msgstr ""
+
+#: views/components/furkot-data.jade:63
+msgid "Hours"
+msgstr ""
+
+#: views/components/furkot-data.jade:63
+#, fuzzy
+msgid "Minutes"
+msgstr "rutas"
+
+#: views/components/furkot-data.jade:63 views/components/furkot-data.jade:72
+msgid "PM"
+msgstr ""
 
 #: views/components/header.jade:6
 msgid ""
@@ -1019,7 +1035,8 @@ msgstr "Archivo GPX no válido."
 
 #: views/components/import-dlg.jade:38 views/components/import-dlg.jade:128
 msgid "GPX schema 1.1 is supported. Proprietary extensions are ignored."
-msgstr "Esquema GPX 1.1 es compatible. Las extensiones propietarias se ignoran."
+msgstr ""
+"Esquema GPX 1.1 es compatible. Las extensiones propietarias se ignoran."
 
 #: views/components/import-dlg.jade:40
 msgid "Invalid KML file."
@@ -1070,8 +1087,7 @@ msgstr "Paradas importadas"
 msgid "Number of stops to import"
 msgstr "Número de paradas a importar"
 
-#: views/components/import-dlg.jade:69
-#: views/components/new-trip-wizard.jade:67
+#: views/components/import-dlg.jade:69 views/components/new-trip-wizard.jade:67
 msgid "Start at"
 msgstr "Empieza en"
 
@@ -1110,8 +1126,7 @@ msgid "Stopover"
 msgstr "Escala"
 
 #. L10n: "Travel by" car/motorcycle/bicycle/on foot - label for the mode of travel
-#: views/components/import-dlg.jade:96
-#: views/components/new-trip-wizard.jade:75
+#: views/components/import-dlg.jade:96 views/components/new-trip-wizard.jade:75
 msgid "Travel by"
 msgstr "Viajar por"
 
@@ -1121,15 +1136,15 @@ msgstr ""
 "Deje a Furkot seguir caminos a menos que importe las rutas / pistas de fuera "
 "de carretera."
 
-#: views/components/import-dlg.jade:101 views/components/step-detail.jade:538
+#: views/components/import-dlg.jade:101 views/components/step-detail.jade:540
 msgid "Routing"
 msgstr "Enrutamiento"
 
-#: views/components/import-dlg.jade:103 views/components/step-detail.jade:539
+#: views/components/import-dlg.jade:103 views/components/step-detail.jade:541
 msgid "Follow roads"
 msgstr "Carreteras De Peaje"
 
-#: views/components/import-dlg.jade:103 views/components/step-detail.jade:539
+#: views/components/import-dlg.jade:103 views/components/step-detail.jade:541
 msgid "Travel off road"
 msgstr "Viaja esta ruta"
 
@@ -1153,12 +1168,12 @@ msgstr "Velocidad media"
 
 #. L10n: abbreviation of kilometer
 #: views/components/import-dlg.jade:114 views/components/place-switch.jade:29
-#: views/components/step-detail.jade:564
+#: views/components/step-detail.jade:566
 #: views/components/trip-config-item.jade:39
 #: views/components/trip-config-item.jade:49
 #: views/components/trip-config-item.jade:74
 #: views/components/trip-detail.jade:97 views/components/trip-detail.jade:110
-#: views/components/trip-detail.jade:281 views/components/trip-detail.jade:292
+#: views/components/trip-detail.jade:284 views/components/trip-detail.jade:295
 #: views/tripshot/map.jade:23 views/tripshot/tripshot.jade:20
 #: views/tripshot/tripshot.jade:45 views/tripshot/widget.jade:25
 msgid "km"
@@ -1166,9 +1181,9 @@ msgstr "km"
 
 #. L10n: abbreviation of mile
 #: views/components/import-dlg.jade:115 views/components/place-switch.jade:30
-#: views/components/step-detail.jade:565
+#: views/components/step-detail.jade:567
 #: views/components/trip-config-item.jade:75
-#: views/components/trip-detail.jade:112 views/components/trip-detail.jade:282
+#: views/components/trip-detail.jade:112 views/components/trip-detail.jade:285
 msgid "mi"
 msgstr "mi"
 
@@ -1295,18 +1310,15 @@ msgstr ""
 msgid "go to Find drawer"
 msgstr ""
 
-#: views/components/language.jade:25
+#: views/components/language.jade:27
 msgid "Languages partially translated"
 msgstr ""
 
-#: views/components/language.jade:28
+#. L10n: square brackets [] denote a link
+#: views/components/language.jade:31
 #, fuzzy
-msgid "If you want to help"
+msgid "If you want to help [click here]"
 msgstr "Quieres proceder?"
-
-#: views/components/language.jade:29
-msgid "click here"
-msgstr ""
 
 #: views/components/map.jade:5
 #, fuzzy
@@ -1486,7 +1498,7 @@ msgstr "Mostrar detalles de viaje"
 
 #. L10n: Label on the handle of the TRIP drawer
 #. L10n: label for time/distance covered since beginning of the trip
-#: views/components/map.jade:117 views/components/step-detail.jade:414
+#: views/components/map.jade:117 views/components/step-detail.jade:416
 #, fuzzy
 msgid "Trip"
 msgstr "Viaje"
@@ -1550,34 +1562,34 @@ msgid "Show points of interest"
 msgstr "Mostrar puntos de interés"
 
 #. L10n: Label on the handle of the FIND drawer - can be also translated as "Search" or "Places of Interest" or "Attractions"
-#: views/components/map.jade:161 views/components/step-detail.jade:650
+#: views/components/map.jade:161 views/components/step-detail.jade:654
 #, fuzzy
 msgid "Find"
 msgstr "Encontrar"
 
-#. L10n: followed by the name of the service providing directions (MapQuest)
+#. L10n: followed by the name of the service providing directions (for instance MapQuest)
 #: views/components/map.jade:167
 #, fuzzy
 msgid "Directions"
 msgstr "Duración"
 
 #. L10n: 'terms' as in Terms of Service (ToS) governing use of a website
-#: views/components/map.jade:173 views/footer.jade:12
+#: views/components/map.jade:174 views/footer.jade:12
 #, fuzzy
 msgid "Terms"
 msgstr "Condiciones"
 
-#: views/components/map.jade:207
+#: views/components/map.jade:224
 #, fuzzy
 msgid "Drag to change route"
 msgstr "Arrastre para cambiar la ruta"
 
-#: views/components/map.jade:208
+#: views/components/map.jade:225
 #, fuzzy
 msgid "Click to select"
 msgstr "Clic para seleccionar"
 
-#: views/components/map.jade:209
+#: views/components/map.jade:226
 #, fuzzy
 msgid "Click to add a new stop here"
 msgstr "Haga clic para añadir una nueva parada aquí"
@@ -1840,19 +1852,19 @@ msgstr ""
 "proporcionará direcciones en consecuencia."
 
 #: views/components/new-trip-wizard.jade:78
-#: views/components/step-detail.jade:569 views/components/trip-detail.jade:31
+#: views/components/step-detail.jade:571 views/components/trip-detail.jade:31
 #, fuzzy
 msgid "Highways"
 msgstr "Carreteras"
 
 #: views/components/new-trip-wizard.jade:79
-#: views/components/step-detail.jade:570 views/components/trip-detail.jade:32
+#: views/components/step-detail.jade:572 views/components/trip-detail.jade:32
 #, fuzzy
 msgid "Avoid highways where possible"
 msgstr "Evitar autopistas siempre que sea posible"
 
 #: views/components/new-trip-wizard.jade:79
-#: views/components/step-detail.jade:570 views/components/trip-detail.jade:32
+#: views/components/step-detail.jade:572 views/components/trip-detail.jade:32
 #, fuzzy
 msgid "Prefer highways where available"
 msgstr "Prefiero carreteras donde esté disponible"
@@ -1870,7 +1882,7 @@ msgstr ""
 "problema, a su vez todas las opciones de alojamiento fuera."
 
 #: views/components/new-trip-wizard.jade:89
-#: views/components/step-lodging.jade:21 views/components/trip-detail.jade:173
+#: views/components/step-lodging.jade:21 views/components/trip-detail.jade:176
 #, fuzzy
 msgid "Lodging"
 msgstr "Alojamiento"
@@ -2071,8 +2083,7 @@ msgstr "No"
 msgid "Yes"
 msgstr "Sí"
 
-#: views/components/place-detail.jade:82
-#: views/components/step-switches.jade:87
+#: views/components/place-detail.jade:82 views/components/step-switches.jade:87
 #: views/components/step-switches.jade:95
 #, fuzzy
 msgid "Do you want to change the starting point?"
@@ -2089,8 +2100,7 @@ msgid "Click No to add this stop after the starting point."
 msgstr ""
 "Haga clic en No para añadir esta parada después de que el punto de partida."
 
-#: views/components/place-detail.jade:85
-#: views/components/step-switches.jade:88
+#: views/components/place-detail.jade:85 views/components/step-switches.jade:88
 #: views/components/step-switches.jade:96
 #, fuzzy
 msgid ""
@@ -2217,20 +2227,17 @@ msgstr "Por calificación (más alto primero)"
 msgid "Add all displayed places as skipped stops"
 msgstr "Añadir todos los lugares que aparecen como saltado paradas"
 
-#: views/components/place-switch.jade:74
-#: views/components/place-switch.jade:188
+#: views/components/place-switch.jade:74 views/components/place-switch.jade:188
 #, fuzzy
 msgid "All"
 msgstr "Todos"
 
-#: views/components/place-switch.jade:74
-#: views/components/place-switch.jade:188
+#: views/components/place-switch.jade:74 views/components/place-switch.jade:188
 #, fuzzy
 msgid "None"
 msgstr "Ninguno"
 
-#: views/components/place-switch.jade:75
-#: views/components/place-switch.jade:189
+#: views/components/place-switch.jade:75 views/components/place-switch.jade:189
 #, fuzzy
 msgid "ALL"
 msgstr "TODO"
@@ -3669,7 +3676,7 @@ msgid "Copy stop from its trip to this one"
 msgstr "Copie parada de su viaje a éste"
 
 #: views/components/places.jade:339 views/components/places.jade:358
-#: views/components/step-detail.jade:653
+#: views/components/step-detail.jade:657
 #, fuzzy
 msgid "Fold this stop details"
 msgstr "Doblar esta parada detalles"
@@ -3869,8 +3876,8 @@ msgstr "¿Quieres añadir a este viaje de todos modos?"
 msgid "View only"
 msgstr "sólo vista"
 
-#: views/components/print.jade:15 views/components/step-detail.jade:373
-#: views/components/step-detail.jade:625 views/tripshot/tripshot.jade:34
+#: views/components/print.jade:15 views/components/step-detail.jade:375
+#: views/components/step-detail.jade:629 views/tripshot/tripshot.jade:34
 #, fuzzy
 msgid "Day"
 msgstr "Día"
@@ -4465,7 +4472,7 @@ msgstr "Ver más información acerca de este viaje"
 msgid "Deal or discount"
 msgstr "Ofertas y descuentos"
 
-#: views/components/step-detail.jade:227 views/components/step-detail.jade:442
+#: views/components/step-detail.jade:227 views/components/step-detail.jade:444
 #, fuzzy
 msgid "Other"
 msgstr "Otro"
@@ -4481,7 +4488,7 @@ msgstr "Paso a través"
 msgid "Delete this stop"
 msgstr "Eliminar esta parada"
 
-#: views/components/step-detail.jade:245 views/components/step-detail.jade:447
+#: views/components/step-detail.jade:245 views/components/step-detail.jade:449
 #: views/components/trip-detail.jade:22
 #, fuzzy
 msgid "Delete"
@@ -4525,7 +4532,7 @@ msgstr "Move esta parada abajo"
 
 #. L10n: "Down" button can be translated as "After" as its action is to move the stop after its successor
 #. L10n: "Down" button can be translated as "After" as its action is to move the day after its successor
-#: views/components/step-detail.jade:259 views/components/step-detail.jade:614
+#: views/components/step-detail.jade:259 views/components/step-detail.jade:618
 #, fuzzy
 msgid "Down"
 msgstr "Abajo"
@@ -4538,7 +4545,7 @@ msgstr "Mover esta parada hasta"
 
 #. L10n: "Up" button can be translated as "Before" as its action is to move the stop before its predecessor
 #. L10n: "Up" button can be translated as "Before" as its action is to move the day before its predecessor
-#: views/components/step-detail.jade:264 views/components/step-detail.jade:619
+#: views/components/step-detail.jade:264 views/components/step-detail.jade:623
 #, fuzzy
 msgid "Up"
 msgstr "Arriba"
@@ -4661,7 +4668,7 @@ msgstr "Visita e ir a la siguiente parada"
 msgid "View booking confirmation"
 msgstr "Ver confirmación de la reserva"
 
-#: views/components/step-detail.jade:338 views/components/step-detail.jade:589
+#: views/components/step-detail.jade:338 views/components/step-detail.jade:591
 #, fuzzy
 msgid "Arrival"
 msgstr "Llegada"
@@ -4676,389 +4683,388 @@ msgstr "Haga clic para modificar la fecha de llegada"
 msgid "Click to modify arrival time"
 msgstr "Haga clic para modificar la hora de llegada"
 
-#: views/components/step-detail.jade:341
+#: views/components/step-detail.jade:342
 #, fuzzy
 msgid "Allow automatic changes"
 msgstr "Permitir cambios automáticos"
 
-#: views/components/step-detail.jade:341
+#: views/components/step-detail.jade:342
 #, fuzzy
 msgid "Prevent automatic changes"
 msgstr "Prevenir cambios automáticos"
 
-#: views/components/step-detail.jade:350 views/components/step-detail.jade:596
+#: views/components/step-detail.jade:351 views/components/step-detail.jade:599
 #, fuzzy
 msgid "Departure"
 msgstr "Salida"
 
-#: views/components/step-detail.jade:351
+#: views/components/step-detail.jade:352
 #, fuzzy
 msgid "Click to modify departure date"
 msgstr "Haga clic para modificar la fecha de salida"
 
-#: views/components/step-detail.jade:352
+#: views/components/step-detail.jade:353
 #, fuzzy
 msgid "Click to modify departure time"
 msgstr "Haga clic para modificar la hora de salida"
 
-#: views/components/step-detail.jade:358 views/components/trip-detail.jade:64
+#: views/components/step-detail.jade:360 views/components/trip-detail.jade:64
 #, fuzzy
 msgid "More Info"
 msgstr "Más Información"
 
-#: views/components/step-detail.jade:359
+#: views/components/step-detail.jade:361
 #, fuzzy
 msgid "View webpage for this stop"
 msgstr "Ver página web para esta parada"
 
-#: views/components/step-detail.jade:363
+#: views/components/step-detail.jade:365
 #, fuzzy
 msgid "Sunrise"
 msgstr "Salida del sol"
 
-#: views/components/step-detail.jade:366
+#: views/components/step-detail.jade:368
 #, fuzzy
 msgid "Sunset"
 msgstr "Puesta del sol"
 
-#: views/components/step-detail.jade:370
+#: views/components/step-detail.jade:372
 #, fuzzy
 msgid "Night"
 msgstr "Noche"
 
-#: views/components/step-detail.jade:377
+#: views/components/step-detail.jade:379
 #, fuzzy
 msgid "Elevation"
 msgstr "Elevación"
 
-#: views/components/step-detail.jade:380
+#: views/components/step-detail.jade:382
 #, fuzzy
 msgid "Forecast"
 msgstr "Pronóstico"
 
-#: views/components/step-detail.jade:381
+#: views/components/step-detail.jade:383
 #, fuzzy
 msgid "View current weather forecast"
 msgstr "Ver el pronóstico del tiempo actual"
 
-#: views/components/step-detail.jade:384
+#: views/components/step-detail.jade:386
 #, fuzzy
 msgid "Coordinates"
 msgstr "Coordenadas"
 
-#: views/components/step-detail.jade:386
+#: views/components/step-detail.jade:388
 #, fuzzy
 msgid "Click to modify geographical coordinates"
 msgstr "Haga clic para modificar las coordenadas geográficas"
 
-#: views/components/step-detail.jade:387
+#: views/components/step-detail.jade:389
 #, fuzzy
 msgid "Navigate to exact coordinates"
 msgstr "Coordenadas exactas"
 
-#: views/components/step-detail.jade:392 views/components/trip-detail.jade:336
+#: views/components/step-detail.jade:394 views/components/trip-detail.jade:348
 #, fuzzy
 msgid "Click to edit description"
 msgstr "Haga clic para editar la descripción"
 
-#: views/components/step-detail.jade:392
+#: views/components/step-detail.jade:394
 #, fuzzy
 msgid "Description of this stop"
 msgstr "Descripción de esta parada"
 
-#: views/components/step-detail.jade:395
+#: views/components/step-detail.jade:397
 #, fuzzy
 msgid "Click to edit stop tags"
 msgstr "Haga clic para editar las etiquetas de viaje"
 
-#: views/components/step-detail.jade:395
-#: views/components/step-switches.jade:77
+#: views/components/step-detail.jade:397 views/components/step-switches.jade:77
 #, fuzzy
 msgid "Comma-separated stop tags (labels)"
 msgstr "Etiquetas de viaje separados por comas (etiquetas)"
 
 #. L10n: label for time/distance covered since last stop
-#: views/components/step-detail.jade:406
+#: views/components/step-detail.jade:408
 #, fuzzy
 msgid "Leg"
 msgstr "Pierna"
 
 #. L10n: label for time/distance covered since last overnight stop - keep underscores _
-#: views/components/step-detail.jade:410
+#: views/components/step-detail.jade:412
 #, fuzzy
 msgid "_Day_"
 msgstr "_Day_"
 
-#: views/components/step-detail.jade:419 views/components/step-detail.jade:558
+#: views/components/step-detail.jade:421 views/components/step-detail.jade:560
 #: views/components/trip-config-item.jade:60
-#: views/components/trip-detail.jade:275
+#: views/components/trip-detail.jade:278
 #, fuzzy
 msgid "km/h"
 msgstr "km / h"
 
-#: views/components/step-detail.jade:420 views/components/step-detail.jade:559
+#: views/components/step-detail.jade:422 views/components/step-detail.jade:561
 #: views/components/trip-config-item.jade:61
-#: views/components/trip-detail.jade:276
+#: views/components/trip-detail.jade:279
 #, fuzzy
 msgid "mph"
 msgstr "mph"
 
-#: views/components/step-detail.jade:426
+#: views/components/step-detail.jade:428
 #, fuzzy
 msgid "Change route type"
 msgstr "Cambiar tipo de ruta"
 
-#: views/components/step-detail.jade:430 views/components/trip-detail.jade:323
+#: views/components/step-detail.jade:432 views/components/trip-detail.jade:335
 #, fuzzy
 msgid "Driving"
 msgstr "Conducir"
 
-#: views/components/step-detail.jade:433
+#: views/components/step-detail.jade:435
 #, fuzzy
 msgid "Motorcycle"
 msgstr "Motocicleta"
 
-#: views/components/step-detail.jade:436
+#: views/components/step-detail.jade:438
 #, fuzzy
 msgid "Bicycle"
 msgstr "Bicicleta"
 
-#: views/components/step-detail.jade:439 views/components/trip-detail.jade:325
+#: views/components/step-detail.jade:441 views/components/trip-detail.jade:337
 #, fuzzy
 msgid "Walking"
 msgstr "Para caminar"
 
-#: views/components/step-detail.jade:445
+#: views/components/step-detail.jade:447
 #, fuzzy
 msgid "Delete this route"
 msgstr "Cambiar esta ruta"
 
-#: views/components/step-detail.jade:448
+#: views/components/step-detail.jade:450
 #, fuzzy
 msgid "Reset this route"
 msgstr "Cambiar esta ruta"
 
-#: views/components/step-detail.jade:450
+#: views/components/step-detail.jade:452
 #, fuzzy
 msgid "Reset"
 msgstr "Reajustar"
 
-#: views/components/step-detail.jade:451
+#: views/components/step-detail.jade:453
 #, fuzzy
 msgid "Alternative to this route"
 msgstr "Alternativa a esta ruta"
 
-#: views/components/step-detail.jade:451
+#: views/components/step-detail.jade:453
 #, fuzzy
 msgid "Regular route"
 msgstr "Ruta regular"
 
 #. L10n: Regular is a button that recalculates a route using a standard algorithm. It shows up on off road routes. "Regular" can be translated as "Straight"
-#: views/components/step-detail.jade:455
+#: views/components/step-detail.jade:457
 #, fuzzy
 msgid "Regular"
 msgstr "Regular"
 
 #. L10n: Alternate is a button that calculates an alternative - usually the shortest - route between stops. It shows up on routes that follow roads. "Alternate" route can be translated as "Detour" unless detour has a negative flavor, i.e. means that something is wrong with the normal road
-#: views/components/step-detail.jade:457
+#: views/components/step-detail.jade:459
 #, fuzzy
 msgid "Alternate"
 msgstr "Suplente"
 
-#: views/components/step-detail.jade:458
+#: views/components/step-detail.jade:460
 msgid "Bring this route out as primary plan"
 msgstr ""
 
-#: views/components/step-detail.jade:458
+#: views/components/step-detail.jade:460
 msgid "Set this route aside as backup plan"
 msgstr ""
 
 #. L10n: Plan B is a button that designates a route as a backup
-#: views/components/step-detail.jade:461
+#: views/components/step-detail.jade:463
 #, fuzzy
 msgid "Plan B"
 msgstr "Plan"
 
-#: views/components/step-detail.jade:467
+#: views/components/step-detail.jade:469
 msgid "Black"
 msgstr ""
 
-#: views/components/step-detail.jade:470
+#: views/components/step-detail.jade:472
 msgid "Dark Red"
 msgstr ""
 
-#: views/components/step-detail.jade:473
+#: views/components/step-detail.jade:475
 msgid "Dark Green"
 msgstr ""
 
-#: views/components/step-detail.jade:476
+#: views/components/step-detail.jade:478
 msgid "Dark Yellow"
 msgstr ""
 
-#: views/components/step-detail.jade:479
+#: views/components/step-detail.jade:481
 msgid "Dark Blue"
 msgstr ""
 
-#: views/components/step-detail.jade:482
+#: views/components/step-detail.jade:484
 msgid "Dark Magenta"
 msgstr ""
 
-#: views/components/step-detail.jade:485
+#: views/components/step-detail.jade:487
 msgid "Dark Cyan"
 msgstr ""
 
-#: views/components/step-detail.jade:488
+#: views/components/step-detail.jade:490
 msgid "Light Gray"
 msgstr ""
 
-#: views/components/step-detail.jade:491
+#: views/components/step-detail.jade:493
 msgid "Dark Gray"
 msgstr ""
 
-#: views/components/step-detail.jade:494
+#: views/components/step-detail.jade:496
 msgid "Red"
 msgstr ""
 
-#: views/components/step-detail.jade:497
+#: views/components/step-detail.jade:499
 msgid "Green"
 msgstr ""
 
-#: views/components/step-detail.jade:500
+#: views/components/step-detail.jade:502
 #, fuzzy
 msgid "Yellow"
 msgstr "Hola"
 
-#: views/components/step-detail.jade:503
+#: views/components/step-detail.jade:505
 msgid "Blue"
 msgstr ""
 
-#: views/components/step-detail.jade:506
+#: views/components/step-detail.jade:508
 msgid "Magenta"
 msgstr ""
 
-#: views/components/step-detail.jade:509
+#: views/components/step-detail.jade:511
 msgid "Cyan"
 msgstr ""
 
-#: views/components/step-detail.jade:512
+#: views/components/step-detail.jade:514
 msgid "White"
 msgstr ""
 
-#: views/components/step-detail.jade:518
+#: views/components/step-detail.jade:520
 msgid "Default color"
 msgstr ""
 
-#: views/components/step-detail.jade:523
+#: views/components/step-detail.jade:525
 msgid "Transparent"
 msgstr ""
 
-#: views/components/step-detail.jade:530
+#: views/components/step-detail.jade:532
 #, fuzzy
 msgid "Change route color"
 msgstr "Cambiar tipo de ruta"
 
-#: views/components/step-detail.jade:533
+#: views/components/step-detail.jade:535
 #, fuzzy
 msgid "Navigate this route"
 msgstr "Viaja esta ruta"
 
 #. L10n: label for the time needed to cover the route between two stops - keep the underscores _
-#: views/components/step-detail.jade:545
+#: views/components/step-detail.jade:547
 #, fuzzy
 msgid "_Duration_"
 msgstr "_Duration_"
 
 #. L10n: _duration_ is the time needed to cover the route between two stops - keep the underscores _
-#: views/components/step-detail.jade:547
+#: views/components/step-detail.jade:549
 #, fuzzy
 msgid "Click to modify _duration_"
 msgstr "Haga clic para modificar _duration_"
 
-#: views/components/step-detail.jade:553
+#: views/components/step-detail.jade:555
 #: views/components/trip-config-item.jade:56
-#: views/components/trip-detail.jade:270
+#: views/components/trip-detail.jade:273
 #, fuzzy
 msgid "My Speed"
 msgstr "Velocidad de mi"
 
-#: views/components/step-detail.jade:554 views/components/trip-detail.jade:271
+#: views/components/step-detail.jade:556 views/components/trip-detail.jade:274
 #, fuzzy
 msgid "Click to adjust your average speed for more accurate travel times"
 msgstr ""
 "Haga clic para ajustar la velocidad media de los tiempos de viaje más "
 "precisos"
 
-#: views/components/step-detail.jade:561 views/components/trip-detail.jade:278
+#: views/components/step-detail.jade:563 views/components/trip-detail.jade:281
 #, fuzzy
 msgid "Constant average speed"
 msgstr "Velocidad media constante"
 
-#: views/components/step-detail.jade:561 views/components/trip-detail.jade:278
+#: views/components/step-detail.jade:563 views/components/trip-detail.jade:281
 #, fuzzy
 msgid "Slower/faster than standard travel time"
 msgstr "Más lento / rápido que el tiempo de viaje normalizado"
 
-#: views/components/step-detail.jade:576 views/components/trip-detail.jade:38
+#: views/components/step-detail.jade:578 views/components/trip-detail.jade:38
 #, fuzzy
 msgid "Toll Roads"
 msgstr "Carreteras De Peaje"
 
-#: views/components/step-detail.jade:577 views/components/trip-detail.jade:39
+#: views/components/step-detail.jade:579 views/components/trip-detail.jade:39
 #, fuzzy
 msgid "Avoid toll roads where possible"
 msgstr "Evitar carreteras de peaje cuando sea posible"
 
-#: views/components/step-detail.jade:577 views/components/trip-detail.jade:39
+#: views/components/step-detail.jade:579 views/components/trip-detail.jade:39
 #, fuzzy
 msgid "Prefer toll roads where available"
 msgstr "Prefiero carreteras de peaje cuando estén disponibles"
 
-#: views/components/step-detail.jade:582
+#: views/components/step-detail.jade:584
 #, fuzzy
 msgid "Click to edit this route theme"
 msgstr "Haga clic para editar esta descripción días"
 
-#: views/components/step-detail.jade:582
+#: views/components/step-detail.jade:584
 msgid "Route theme (label)"
 msgstr ""
 
 #. L10n: can be translated "Move this day after its successor"
-#: views/components/step-detail.jade:611
+#: views/components/step-detail.jade:615
 #, fuzzy
 msgid "Move this day down"
 msgstr "Mueva este día abajo"
 
 #. L10n: can be translated "Move this day before its predecessor"
-#: views/components/step-detail.jade:616
+#: views/components/step-detail.jade:620
 #, fuzzy
 msgid "Move this day up"
 msgstr "Mueva el día de hoy hasta"
 
-#: views/components/step-detail.jade:631
+#: views/components/step-detail.jade:635
 #, fuzzy
 msgid "Change day color"
 msgstr "Cambiar vista de mapa"
 
-#: views/components/step-detail.jade:635
+#: views/components/step-detail.jade:639
 #, fuzzy
 msgid "Click to edit this day theme"
 msgstr "Haga clic para editar esta descripción días"
 
-#: views/components/step-detail.jade:635
+#: views/components/step-detail.jade:639
 msgid "Day theme (label)"
 msgstr ""
 
-#: views/components/step-detail.jade:638
+#: views/components/step-detail.jade:642
 #, fuzzy
 msgid "Click to edit this day description"
 msgstr "Haga clic para editar esta descripción días"
 
-#: views/components/step-detail.jade:638
+#: views/components/step-detail.jade:642
 #, fuzzy
 msgid "Description of this day"
 msgstr "Descripción del día"
 
-#: views/components/step-detail.jade:644
+#: views/components/step-detail.jade:648
 #, fuzzy
 msgid ""
 "Click anywhere on the map to drop a pin representing the start of your trip."
@@ -5067,80 +5073,80 @@ msgstr ""
 "el inicio de su viaje."
 
 #. L10n: square brackets [] denote a button (icon)
-#: views/components/step-detail.jade:646
+#: views/components/step-detail.jade:650
 #, fuzzy
 msgid "Use the new stop [] button above to type-in the address."
 msgstr ""
 "Utilice el botón nueva parada [] de arriba para escribir en la dirección."
 
 #. L10n: followed by the FIND drawer trigger and period .
-#: views/components/step-detail.jade:648
+#: views/components/step-detail.jade:652
 #, fuzzy
 msgid "Search for places to visit using"
 msgstr "Búsqueda de lugares para visitar usando"
 
-#: views/components/step-detail.jade:653
+#: views/components/step-detail.jade:657
 #, fuzzy
 msgid "Fold this route details"
 msgstr "Doblar esta ruta detalles"
 
-#: views/components/step-detail.jade:665
+#: views/components/step-detail.jade:669
 #, fuzzy
 msgid "Visit this place at the end"
 msgstr "Visita este lugar al final"
 
 #. L10n: add stop at the end of the trip (as opposed to 'Save' that places a stop to minimize driving)
-#: views/components/step-detail.jade:668
+#: views/components/step-detail.jade:672
 #, fuzzy
 msgid "Append"
 msgstr "Anexar"
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "Actual arrival on {} at {} is earlier than planned."
 msgstr "La llegada real de los {} en {} es antes de lo previsto."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "Actual arrival on {} at {} is later than planned."
 msgstr "La llegada real de los {} en {} es después de lo previsto."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "Actual departure on {} at {} is earlier than planned."
 msgstr "Salida real de los {} en {} es antes de lo previsto."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "Actual departure on {} at {} is later than planned."
 msgstr "Salida real de los {} en {} es después de lo previsto."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "Lodging on weekend not reserved yet."
 msgstr "Alojamiento en fin de semana aún no reservados."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "No arrival date."
 msgstr "No hay fecha de llegada."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "No departure date."
 msgstr "Sin fecha de salida."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "No gas station nearby."
 msgstr "No gasolinera cercana."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "No hotels around."
 msgstr "No hay hoteles en los alrededores."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid ""
 "No route available (stops too far from roads or a road is seasonally closed)."
@@ -5148,56 +5154,56 @@ msgstr ""
 "No hay ruta disponible (se detiene demasiado lejos de carreteras o una "
 "carretera es estacionalmente cerrado)."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 msgid ""
 "Split this lodging stop to avoid booking for {} nights in order to stay {} "
 "nights."
 msgstr ""
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "Stop cannot be located."
 msgstr "Parar no puede ser localizado."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 msgid ""
 "Stop position is uncertain. Click the VISIT button above for the best guess."
 msgstr ""
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 msgid "The road may be seasonally closed. Check its status before departure."
 msgstr ""
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "The trip begins earlier on {} at {}."
 msgstr "El viaje comienza antes el {} en {}."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "The trip begins later on {} at {}."
 msgstr "El viaje comienza más tarde {} en {}."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "The trip ends earlier on {} at {}."
 msgstr "El viaje termina temprano el {} en {}."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "The trip ends later on {} at {}."
 msgstr "El viaje comienza más tarde {} en {}."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "This is Saturday."
 msgstr "Este es el sábado."
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 msgid "Very little time to rest at the lodging."
 msgstr ""
 
-#: views/components/step-detail.jade:670
+#: views/components/step-detail.jade:674
 #, fuzzy
 msgid "Visit duration exceeds time between this day start and end."
 msgstr "Visita duración excede el tiempo entre este inicio día y al final."
@@ -5216,12 +5222,6 @@ msgstr "Se ha parado"
 #, fuzzy
 msgid "Deleted"
 msgstr "Suprimido"
-
-#. L10n: 3-letter word is ideal; use abbreviation if translated word exceeds 4 letters
-#: views/components/step-item.jade:74
-#, fuzzy
-msgid "day"
-msgstr "día"
 
 #: views/components/step-lodging.jade:3
 #, fuzzy
@@ -5607,6 +5607,22 @@ msgstr ""
 msgid "Press [Close] to end the tour now."
 msgstr "Pulse [Cerrar] para finalizar la gira ahora."
 
+#: views/components/translate.jade:2
+msgid "Help translate Furkot"
+msgstr ""
+
+#. L10n: the curly brackets {} stand for the language name
+#: views/components/translate.jade:5
+msgid ""
+"Furkot supports your preferred language {} but we don't have a complete "
+"translation yet."
+msgstr ""
+
+#. L10n: square brackets [] denote a link
+#: views/components/translate.jade:8
+msgid "If you want to help us translate Furkot to your language [click here]"
+msgstr ""
+
 #: views/components/trip-config-item.jade:26
 #, fuzzy
 msgid "Day Time"
@@ -5625,7 +5641,7 @@ msgstr ""
 
 #: views/components/trip-config-item.jade:40
 #: views/components/trip-config-item.jade:50
-#: views/components/trip-detail.jade:98 views/components/trip-detail.jade:293
+#: views/components/trip-detail.jade:98 views/components/trip-detail.jade:296
 #: views/tripshot/map.jade:23 views/tripshot/tripshot.jade:20
 #: views/tripshot/tripshot.jade:45 views/tripshot/widget.jade:25
 #, fuzzy
@@ -5633,7 +5649,7 @@ msgid "miles"
 msgstr "millas"
 
 #: views/components/trip-config-item.jade:46
-#: views/components/trip-detail.jade:288
+#: views/components/trip-detail.jade:291
 #, fuzzy
 msgid "Fuel Range"
 msgstr "La Capacidad De Combustible"
@@ -5643,30 +5659,47 @@ msgstr "La Capacidad De Combustible"
 msgid "Settings"
 msgstr "Ajustes"
 
-#: views/components/trip-config-item.jade:93
-#: views/components/trip-detail.jade:302
+#. L10n: 24-hour clock; maximum 3 letters; can be just a number 24
+#: views/components/trip-config-item.jade:82
+#: views/components/trip-detail.jade:124
+msgid "24h"
+msgstr ""
+
+#. L10n: abbreviation of 'ante meridiem', meaning 'before midday'; maximum 3 letters
+#: views/components/trip-config-item.jade:85
+#: views/components/trip-detail.jade:127
+msgid "am"
+msgstr ""
+
+#: views/components/trip-config-item.jade:87
+#: views/components/trip-detail.jade:129
+msgid "pm"
+msgstr ""
+
+#: views/components/trip-config-item.jade:96
+#: views/components/trip-detail.jade:314
 #, fuzzy
 msgid "Rent a Car"
 msgstr "Alquilar un coche"
 
-#: views/components/trip-config-item.jade:94
+#: views/components/trip-config-item.jade:97
 #, fuzzy
 msgid "Book a Flight"
 msgstr "Reservar un vuelo"
 
-#: views/components/trip-config-item.jade:101
+#: views/components/trip-config-item.jade:104
 #, fuzzy
 msgid "Lodging Preferences"
 msgstr "Alojamiento Preferencias"
 
-#: views/components/trip-config-item.jade:118
-#: views/components/trip-detail.jade:249
+#: views/components/trip-config-item.jade:121
+#: views/components/trip-detail.jade:252
 #, fuzzy
 msgid "Rooms"
 msgstr "Habitaciones"
 
-#: views/components/trip-config-item.jade:121
-#: views/components/trip-detail.jade:258
+#: views/components/trip-config-item.jade:124
+#: views/components/trip-detail.jade:261
 #, fuzzy
 msgid "Persons per Room"
 msgstr "Personas por habitación"
@@ -5777,7 +5810,7 @@ msgstr "Haga clic para modificar el tiempo en el que empezar a viajar este día"
 msgid "Click to modify default duration of a stop"
 msgstr "Haga clic para modificar la duración predeterminada de una parada"
 
-#: views/components/trip-detail.jade:107 views/components/trip-detail.jade:317
+#: views/components/trip-detail.jade:107 views/components/trip-detail.jade:329
 #, fuzzy
 msgid "Distance"
 msgstr "Distancia"
@@ -5792,328 +5825,346 @@ msgstr "Temperatura"
 msgid "Clock"
 msgstr "Reloj"
 
-#: views/components/trip-detail.jade:128
+#: views/components/trip-detail.jade:131
 #, fuzzy
 msgid "Weekends"
 msgstr "Los fines de semana"
 
-#: views/components/trip-detail.jade:129
+#: views/components/trip-detail.jade:132
 #, fuzzy
 msgid "Quietly ignore warnings for weekend stops"
 msgstr "En silencio ignorar advertencias para paradas de fin de semana"
 
-#: views/components/trip-detail.jade:129
+#: views/components/trip-detail.jade:132
 #, fuzzy
 msgid "Show warnings for weekend stops"
 msgstr "Mostrar advertencias para paradas de fin de semana"
 
-#: views/components/trip-detail.jade:138
+#: views/components/trip-detail.jade:141
 #, fuzzy
 msgid "Published"
 msgstr "Publicado"
 
 #. L10n: tripshot is a static snapshot of the trip that can be shared with others or embedded in a webpage
-#: views/components/trip-detail.jade:140
+#: views/components/trip-detail.jade:143
 #, fuzzy
 msgid "View published tripshot"
 msgstr "Ver tripshot publicada"
 
-#: views/components/trip-detail.jade:144
+#: views/components/trip-detail.jade:147
 #, fuzzy
 msgid "Suggestions"
 msgstr "Sugerencias"
 
-#: views/components/trip-detail.jade:145
+#: views/components/trip-detail.jade:148
 #, fuzzy
 msgid "View suggestions board"
 msgstr "Ver sugerencias bordo"
 
-#: views/components/trip-detail.jade:148
+#: views/components/trip-detail.jade:151
 #, fuzzy
 msgid "Shared with"
 msgstr "Compartido con"
 
 #. L10n: a trip owner
-#: views/components/trip-detail.jade:155
+#: views/components/trip-detail.jade:158
 #, fuzzy
 msgid "owner"
 msgstr "propietario"
 
 #. L10n: level of access to the trip
-#: views/components/trip-detail.jade:157
+#: views/components/trip-detail.jade:160
 #, fuzzy
 msgid "view only"
 msgstr "sólo vista"
 
 #. L10n: the new owner of this trip
-#: views/components/trip-detail.jade:159
+#: views/components/trip-detail.jade:162
 #, fuzzy
 msgid "Make this user the new owner"
 msgstr "Hacer este usuario el nuevo propietario"
 
-#: views/components/trip-detail.jade:161
+#: views/components/trip-detail.jade:164
 #, fuzzy
 msgid "Stop sharing with this user"
 msgstr "Dejar de compartir con este usuario"
 
-#: views/components/trip-detail.jade:163
+#: views/components/trip-detail.jade:166
 #, fuzzy
 msgid "Authorize this user to modify the trip"
 msgstr "Autorizar a este usuario para modificar el viaje"
 
-#: views/components/trip-detail.jade:163
+#: views/components/trip-detail.jade:166
 #, fuzzy
 msgid "Restrict this user to viewing the trip only"
 msgstr "Restringir este usuario a ver sólo el viaje"
 
-#: views/components/trip-detail.jade:175
+#: views/components/trip-detail.jade:178
 #, fuzzy
 msgid "Click to exclude hotels and motels from lodging suggestions"
 msgstr ""
 "Haga clic para excluir los hoteles y moteles de sugerencias de alojamiento"
 
-#: views/components/trip-detail.jade:175
+#: views/components/trip-detail.jade:178
 #, fuzzy
 msgid "Click to let Furkot suggest hotels and motels"
 msgstr "Haz clic aquí para dejar Furkot sugerir hoteles y moteles"
 
-#: views/components/trip-detail.jade:178
+#: views/components/trip-detail.jade:181
 #, fuzzy
 msgid "Click to exclude chain hotels and motels from lodging suggestions"
 msgstr ""
 "Haga clic para excluir los hoteles y moteles de sugerencias de alojamiento"
 
-#: views/components/trip-detail.jade:178
+#: views/components/trip-detail.jade:181
 #, fuzzy
 msgid "Click to let Furkot suggest chain hotels and motels"
 msgstr "Haz clic aquí para dejar Furkot sugerir hoteles y moteles"
 
-#: views/components/trip-detail.jade:181
+#: views/components/trip-detail.jade:184
 #, fuzzy
 msgid "Click to exclude campgrounds from lodging suggestions"
 msgstr "Haga clic para excluir campamentos de sugerencias de alojamiento"
 
-#: views/components/trip-detail.jade:181
+#: views/components/trip-detail.jade:184
 #, fuzzy
 msgid "Click to let Furkot suggest campgrounds"
 msgstr "Haz clic aquí para dejar Furkot sugieren campamentos"
 
-#: views/components/trip-detail.jade:184
+#: views/components/trip-detail.jade:187
 #, fuzzy
 msgid "Click to exclude apartments and private rooms from lodging suggestions"
 msgstr ""
 "Haga clic para excluir apartamentos y habitaciones privadas de sugerencias "
 "de alojamiento"
 
-#: views/components/trip-detail.jade:184
+#: views/components/trip-detail.jade:187
 #, fuzzy
 msgid "Click to let Furkot suggest apartments and private rooms"
 msgstr ""
 "Haz clic aquí para dejar Furkot sugieren apartamentos y habitaciones privadas"
 
-#: views/components/trip-detail.jade:187
+#: views/components/trip-detail.jade:190
 #, fuzzy
 msgid "Click to exclude hostels from lodging suggestions"
 msgstr ""
 "Haga clic para excluir los hoteles y moteles de sugerencias de alojamiento"
 
-#: views/components/trip-detail.jade:187
+#: views/components/trip-detail.jade:190
 #, fuzzy
 msgid "Click to let Furkot suggest hostels"
 msgstr "Haz clic aquí para dejar Furkot sugerir hoteles y moteles"
 
-#: views/components/trip-detail.jade:190
+#: views/components/trip-detail.jade:193
 #, fuzzy
 msgid "Click to exclude blind hotel deals from lodging suggestions"
 msgstr ""
 "Haga clic para excluir los hoteles y moteles de sugerencias de alojamiento"
 
-#: views/components/trip-detail.jade:190
+#: views/components/trip-detail.jade:193
 #, fuzzy
 msgid "Click to let Furkot suggest blind hotel deals"
 msgstr "Haz clic aquí para dejar Furkot sugerir hoteles y moteles"
 
-#: views/components/trip-detail.jade:193
+#: views/components/trip-detail.jade:196
 #, fuzzy
 msgid "Click if you are not traveling with pets"
 msgstr "Haga clic si no viaja con mascotas"
 
-#: views/components/trip-detail.jade:193
+#: views/components/trip-detail.jade:196
 #, fuzzy
 msgid "Click if you are traveling with pets"
 msgstr "Haga clic en si se viaja con mascotas"
 
-#: views/components/trip-detail.jade:198
+#: views/components/trip-detail.jade:201
 #, fuzzy
 msgid "Low Price"
 msgstr "Bajo Precio"
 
-#: views/components/trip-detail.jade:199
+#: views/components/trip-detail.jade:202
 #, fuzzy
 msgid "High Rating"
 msgstr "Alta valoración"
 
-#: views/components/trip-detail.jade:201
+#: views/components/trip-detail.jade:204
 #, fuzzy
 msgid "Low price or high rating?"
 msgstr "Precio bajo o alto calificación?"
 
-#: views/components/trip-detail.jade:216
+#: views/components/trip-detail.jade:219
 msgid "Currency"
 msgstr ""
 
-#: views/components/trip-detail.jade:218
+#: views/components/trip-detail.jade:221
 msgid "US dollar"
 msgstr ""
 
-#: views/components/trip-detail.jade:222
+#: views/components/trip-detail.jade:225
 msgid "Euro"
 msgstr ""
 
-#: views/components/trip-detail.jade:226
+#: views/components/trip-detail.jade:229
 msgid "Pound sterling"
 msgstr ""
 
-#: views/components/trip-detail.jade:230
+#: views/components/trip-detail.jade:233
 msgid "Polish zloty"
 msgstr ""
 
-#: views/components/trip-detail.jade:234
+#: views/components/trip-detail.jade:237
 msgid "Canadian dollar"
 msgstr ""
 
-#: views/components/trip-detail.jade:238
+#: views/components/trip-detail.jade:241
 msgid "Australian dollar"
 msgstr ""
 
 #. L10n: XYZ is a fake currency code used as a placeholder in the currency field
-#: views/components/trip-detail.jade:244
+#: views/components/trip-detail.jade:247
 #, fuzzy
 msgid "Click to set other currency code"
 msgstr "Haga clic para editar esta descripción días"
 
 #. L10n: XYZ is a fake currency code used as a placeholder in the currency field
-#: views/components/trip-detail.jade:244
+#: views/components/trip-detail.jade:247
 msgid "XYZ"
 msgstr ""
 
-#: views/components/trip-detail.jade:250
+#: views/components/trip-detail.jade:253
 #, fuzzy
 msgid "Click to modify the number of rooms (1&nbsp;to&nbsp;6)"
 msgstr ""
 "Haga clic para modificar el número de habitaciones (1 & nbsp; & nbsp; 6)"
 
-#: views/components/trip-detail.jade:259
+#: views/components/trip-detail.jade:262
 #, fuzzy
 msgid "Click to modify the number of persons per room (1&nbsp;to&nbsp;4)"
 msgstr ""
 "Haga clic para modificar el número de personas por habitación (1 & nbsp; & "
 "nbsp; 4)"
 
-#: views/components/trip-detail.jade:289
+#: views/components/trip-detail.jade:292
 #, fuzzy
 msgid "Click to modify your vehicle range between refills"
 msgstr "Haga clic para modificar su gama de vehículos entre recargas"
 
-#: views/components/trip-detail.jade:294
+#: views/components/trip-detail.jade:299
 #, fuzzy
 msgid "I will manage refueling stops myself"
 msgstr "Me las arreglaré paradas para repostar mí"
 
-#: views/components/trip-detail.jade:294
+#: views/components/trip-detail.jade:299
 #, fuzzy
 msgid "Let Furkot schedule refueling stops automatically"
 msgstr "Deje Furkot horario de repostaje se detiene automáticamente"
 
+#: views/components/trip-detail.jade:305
+msgid "Click to fill-up when leaving in the morning"
+msgstr ""
+
+#: views/components/trip-detail.jade:305
+msgid "Click to skip filling-up in the morning"
+msgstr ""
+
 #: views/components/trip-detail.jade:308
+#, fuzzy
+msgid "Click to fill-up before stopping for the night"
+msgstr "Haga clic para modificar el tiempo en el que empezar a viajar este día"
+
+#: views/components/trip-detail.jade:308
+#, fuzzy
+msgid "Click to skip filling-up at night"
+msgstr "Haga clic para modificar el número de noches"
+
+#: views/components/trip-detail.jade:320
 #, fuzzy
 msgid "Book a Flight from"
 msgstr "Reserva un vuelo desde"
 
-#: views/components/trip-detail.jade:309
+#: views/components/trip-detail.jade:321
 #, fuzzy
 msgid "Airport or City"
 msgstr "Aeropuerto o ciudad"
 
-#: views/components/trip-detail.jade:309
+#: views/components/trip-detail.jade:321
 #, fuzzy
 msgid "Click to enter airport to fly from"
 msgstr "Haga clic para entrar al aeropuerto para volar de"
 
-#: views/components/trip-detail.jade:310
+#: views/components/trip-detail.jade:322
 #, fuzzy
 msgid "Fly from home"
 msgstr "Vuela desde casa"
 
 #. L10n: total time of riding a motorcycle (not horseback riding)
-#: views/components/trip-detail.jade:322
+#: views/components/trip-detail.jade:334
 #, fuzzy
 msgid "Riding"
 msgstr "Equitación"
 
-#: views/components/trip-detail.jade:324
+#: views/components/trip-detail.jade:336
 #, fuzzy
 msgid "Biking"
 msgstr "Ciclismo"
 
-#: views/components/trip-detail.jade:328
+#: views/components/trip-detail.jade:340
 #, fuzzy
 msgid "Per Day"
 msgstr "Por Dia"
 
-#: views/components/trip-detail.jade:331
+#: views/components/trip-detail.jade:343
 #, fuzzy
 msgid "Average"
 msgstr "Promedio"
 
-#: views/components/trip-detail.jade:336
+#: views/components/trip-detail.jade:348
 #, fuzzy
 msgid "Description of this trip"
 msgstr "Descripción del viaje"
 
-#: views/components/trip-detail.jade:339
+#: views/components/trip-detail.jade:351
 #, fuzzy
 msgid "Click to edit trip tags"
 msgstr "Haga clic para editar las etiquetas de viaje"
 
 #. L10n: labels as in keywords - words or phrases that you can use to classify trips. If you specify labels in the Trip drawer, you can then view trips in the My Trips page grouped by those labels (tags)
-#: views/components/trip-detail.jade:339 views/temp.jade:10
+#: views/components/trip-detail.jade:351 views/temp.jade:10
 #, fuzzy
 msgid "Comma-separated trip tags (labels)"
 msgstr "Etiquetas de viaje separados por comas (etiquetas)"
 
-#: views/components/trip-detail.jade:348
+#: views/components/trip-detail.jade:360
 msgid "Access this trip without Internet connection"
 msgstr ""
 
-#: views/components/trip-detail.jade:350
+#: views/components/trip-detail.jade:362
 #, fuzzy
 msgid "No begin date."
 msgstr "No se iniciará la fecha."
 
-#: views/components/trip-detail.jade:350
+#: views/components/trip-detail.jade:362
 #, fuzzy
 msgid "No end date."
 msgstr "Sin fecha de finalización."
 
-#: views/components/trip-detail.jade:350
+#: views/components/trip-detail.jade:362
 #, fuzzy
 msgid "Trip ends before it begins."
 msgstr "Viaje termina antes de que comience."
 
-#: views/components/trip-detail.jade:357
+#: views/components/trip-detail.jade:369
 #, fuzzy
 msgid "No lodgings to book"
 msgstr "No hay alojamientos para reservar"
 
-#: views/components/trip-detail.jade:359
+#: views/components/trip-detail.jade:371
 #, fuzzy
 msgid "This trip has no overnight stops to book lodging accommodations for."
 msgstr ""
 "Este viaje no se detiene durante la noche para reservar alojamiento "
 "alojamiento para."
 
-#: views/components/trip-detail.jade:360
+#: views/components/trip-detail.jade:372
 #, fuzzy
 msgid ""
 "Booking hotels for the trip works best when you plan your itinerary first."
@@ -6122,7 +6173,7 @@ msgstr ""
 "itinerario primero."
 
 #. L10n: square brackets [] denote a button (icon)
-#: views/components/trip-detail.jade:362
+#: views/components/trip-detail.jade:374
 #, fuzzy
 msgid ""
 "Add some overnight stops, pick hotels for them and then use the book [] "
@@ -6131,19 +6182,19 @@ msgstr ""
 "Añadir algunas paradas nocturnas, elegir hoteles para ellos y luego utilizar "
 "el botón libro [] para dejar Furkot ayudarle con reservas."
 
-#: views/components/trip-detail.jade:365
+#: views/components/trip-detail.jade:377
 #, fuzzy
 msgid "All lodgings booked"
 msgstr "Todos los alojamientos reservados"
 
-#: views/components/trip-detail.jade:366
+#: views/components/trip-detail.jade:378
 #, fuzzy
 msgid "All future lodging accommodations for this trip are already booked."
 msgstr ""
 "Todas las comodidades de alojamiento futuras para este viaje ya están llenos."
 
 #. L10n: square brackets [] denote a button (icon)
-#: views/components/trip-detail.jade:368
+#: views/components/trip-detail.jade:380
 #, fuzzy
 msgid ""
 "If you plan more overnight stops, add them to the trip now and use the book "
@@ -6152,22 +6203,22 @@ msgstr ""
 "Si usted planea paradas más durante la noche, añadirlos al viaje ahora y "
 "utilice el botón libro [] para dejar Furkot ayudarle con reservas."
 
-#: views/components/trip-detail.jade:371
+#: views/components/trip-detail.jade:383
 #, fuzzy
 msgid "Automatically scheduled refueling stop"
 msgstr "Parada de reabastecimiento de combustible programada automáticamente"
 
-#: views/components/trip-detail.jade:373
+#: views/components/trip-detail.jade:385
 #, fuzzy
 msgid "This is an automatically scheduled refueling stop."
 msgstr "Esta es una parada para repostar programado automáticamente."
 
-#: views/components/trip-detail.jade:374
+#: views/components/trip-detail.jade:386
 #, fuzzy
 msgid "It will disappear when you add a filling station before it."
 msgstr "Desaparecerá cuando se agrega una estación de servicio antes de ella."
 
-#: views/components/trip-detail.jade:376
+#: views/components/trip-detail.jade:388
 #, fuzzy
 msgid ""
 "You can control frequency of refueling stops by changing the driving range."
@@ -6175,45 +6226,45 @@ msgstr ""
 "Puede controlar la frecuencia de paradas de repostaje cambiando el campo de "
 "prácticas."
 
-#: views/components/trip-detail.jade:377
+#: views/components/trip-detail.jade:389
 #, fuzzy
 msgid "You can also disable automatic scheduling of refueling stops."
 msgstr ""
 "También puede desactivar la programación automática de las paradas de "
 "repostaje."
 
-#: views/components/trip-detail.jade:381
+#: views/components/trip-detail.jade:393
 #, fuzzy
 msgid "Update trip"
 msgstr "Actualización de viaje"
 
-#: views/components/trip-detail.jade:384
+#: views/components/trip-detail.jade:396
 #, fuzzy
 msgid ""
 "Furkot would like to synchronize your trip plan with your TripIt itinerary."
 msgstr "Furkot gustaría sincronizar tu plan de viaje con su itinerario TripIt."
 
-#: views/components/trip-detail.jade:387
+#: views/components/trip-detail.jade:399
 #, fuzzy
 msgid "Stops to update"
 msgstr "Detiene actualizar"
 
-#: views/components/trip-detail.jade:390
+#: views/components/trip-detail.jade:402
 #, fuzzy
 msgid "New stops to add"
 msgstr "Nueva detiene añadir"
 
-#: views/components/trip-detail.jade:393
+#: views/components/trip-detail.jade:405
 #, fuzzy
 msgid "Stops to review"
 msgstr "Detiene actualizar"
 
-#: views/components/trip-detail.jade:396
+#: views/components/trip-detail.jade:408
 #, fuzzy
 msgid "Do you want to proceed?"
 msgstr "Quieres proceder?"
 
-#: views/components/trip-detail.jade:398
+#: views/components/trip-detail.jade:410
 #, fuzzy
 msgid ""
 "If your Furkot trip plan already includes all the stops corresponding to the "
@@ -6227,7 +6278,7 @@ msgstr ""
 "mismas en TripIt y Furkot antes de sincronizar de nuevo."
 
 #. L10n: square brackets [] denote a button (icon) - please keep in the translation
-#: views/components/trip-detail.jade:400
+#: views/components/trip-detail.jade:412
 msgid ""
 "At least one lodging confirmation in your TripIt itinerary cannot "
 "synchronize automatically. You can review and add it to a stop using the "
@@ -6235,19 +6286,19 @@ msgid ""
 msgstr ""
 
 #. L10n: square brackets [] denote a button (icon) - please keep in the translation
-#: views/components/trip-detail.jade:402
+#: views/components/trip-detail.jade:414
 msgid ""
 "If you prefer to review lodging confirmations from your TripIt itinerary "
 "before adding them to stops cancel this operation and use the match [] "
 "button."
 msgstr ""
 
-#: views/components/trip-detail.jade:409
+#: views/components/trip-detail.jade:421
 #, fuzzy
 msgid "Location access denied"
 msgstr "Acceso denegado Ubicación"
 
-#: views/components/trip-detail.jade:411
+#: views/components/trip-detail.jade:423
 #, fuzzy
 msgid ""
 "Furkot needs access to your location to determine the city of departure."
@@ -6255,73 +6306,73 @@ msgstr ""
 "Furkot necesita tener acceso a su ubicación para determinar la ciudad de "
 "salida."
 
-#: views/components/trip-detail.jade:414
+#: views/components/trip-detail.jade:426
 #, fuzzy
 msgid "Location unavailable"
 msgstr "Ubicación no disponible"
 
-#: views/components/trip-detail.jade:416
+#: views/components/trip-detail.jade:428
 #, fuzzy
 msgid "Furkot cannot obtain your location to determine the city of departure."
 msgstr ""
 "Furkot no puede obtener su ubicación para determinar la ciudad de salida."
 
-#: views/components/trip-detail.jade:419
+#: views/components/trip-detail.jade:431
 #, fuzzy
 msgid "Offline access enabled"
 msgstr "Acceso denegado Ubicación"
 
-#: views/components/trip-detail.jade:421
+#: views/components/trip-detail.jade:433
 #, fuzzy
 msgid "This trip is now ready for offline access."
 msgstr "Este viaje es propiedad de otra persona."
 
-#: views/components/trip-detail.jade:424
+#: views/components/trip-detail.jade:436
 msgid ""
 "When you open this trip on any computer, phone or tablet, Furkot will cache "
 "it locally."
 msgstr ""
 
-#: views/components/trip-detail.jade:426
+#: views/components/trip-detail.jade:438
 msgid "You will not need Internet connection to access this trip."
 msgstr ""
 
-#: views/components/trip-detail.jade:429
+#: views/components/trip-detail.jade:441
 #, fuzzy
 msgid "Offline access disabled"
 msgstr "Acceso denegado Ubicación"
 
-#: views/components/trip-detail.jade:431
+#: views/components/trip-detail.jade:443
 #, fuzzy
 msgid "This trip will no longer be cached locally for offline access."
 msgstr "Este viaje ya no se mostrará en su dispositivo móvil."
 
-#: views/components/trip-detail.jade:434
+#: views/components/trip-detail.jade:446
 #, fuzzy
 msgid "You will need Internet connection to access this trip."
 msgstr "se convertirá en el nuevo propietario de este viaje."
 
-#: views/components/trip-detail.jade:437 views/components/trip-detail.jade:442
+#: views/components/trip-detail.jade:449 views/components/trip-detail.jade:454
 #, fuzzy
 msgid "Delete trip"
 msgstr "Eliminar viaje"
 
-#: views/components/trip-detail.jade:439 views/components/trip-detail.jade:449
+#: views/components/trip-detail.jade:451 views/components/trip-detail.jade:461
 #, fuzzy
 msgid "Are you sure you want to delete this trip?"
 msgstr "¿Seguro que quieres borrar este viaje?"
 
-#: views/components/trip-detail.jade:444
+#: views/components/trip-detail.jade:456
 #, fuzzy
 msgid "This trip is shared by other people."
 msgstr "Este viaje es compartido por otras personas."
 
-#: views/components/trip-detail.jade:446
+#: views/components/trip-detail.jade:458
 #, fuzzy
 msgid "Once you delete it nobody will be able to access it."
 msgstr "Una vez que lo elimine nadie será capaz de acceder a él."
 
-#: views/components/trip-detail.jade:451
+#: views/components/trip-detail.jade:463
 #, fuzzy
 msgid "Fold this section"
 msgstr "Doblar esta sección"
@@ -7184,10 +7235,42 @@ msgstr ""
 "atracciones y opciones de alojamiento."
 
 #, fuzzy
+#~ msgid "Are you sure you want to enable it?"
+#~ msgstr "¿Seguro que desea activarlo?"
+
+#, fuzzy
+#~ msgid "If it is not, you can change it later."
+#~ msgstr "Si no es así, se puede cambiar más adelante."
+
+#, fuzzy
+#~ msgid "Undo unlock route"
+#~ msgstr "Deshacer ruta de desbloqueo"
+
+#, fuzzy
+#~ msgid "Book"
+#~ msgstr "Libro"
+
+#, fuzzy
+#~ msgid "Top"
+#~ msgstr "Cima"
+
+#, fuzzy
+#~ msgid "day"
+#~ msgstr "día"
+
+#, fuzzy
+#~ msgid "Full Site"
+#~ msgstr "Sitio completo"
+
+#, fuzzy
 #~ msgid "Furkot assumes it is a riding trip."
 #~ msgstr ""
 #~ "Con base en los datos de temporización Furkot asume que es un viaje en "
 #~ "coche."
+
+#, fuzzy
+#~ msgid "Info"
+#~ msgstr "Info"
 
 #, fuzzy
 #~ msgid "Furkot assumes it is a driving trip."
@@ -7196,98 +7279,71 @@ msgstr ""
 #~ "coche."
 
 #, fuzzy
-#~ msgid "Furkot assumes it is a bicycle trip."
-#~ msgstr ""
-#~ "Con base en los datos de temporización Furkot asume que es un viaje en "
-#~ "bicicleta."
-
-#, fuzzy
-#~ msgid "Furkot assumes it is a walking trip."
-#~ msgstr ""
-#~ "Con base en los datos de temporización Furkot asume que es un viaje a pie."
-
-#, fuzzy
-#~ msgid "If it is not, you can change it later."
-#~ msgstr "Si no es así, se puede cambiar más adelante."
-
-#, fuzzy
-#~ msgid "Select KML, GPX or CSV file"
-#~ msgstr "Seleccionar archivo KML, GPX o CSV"
-
-#, fuzzy
-#~ msgid "Add this museum as a skipped stop"
-#~ msgstr "Añadir este museo como una parada omitida"
+#~ msgid "Looks like driving information is missing from some trips."
+#~ msgstr "Parece que conduce la información que falta en algunos viajes."
 
 #, fuzzy
 #~ msgid "Fold this museum details"
 #~ msgstr "Dobla este museo detalles"
 
 #, fuzzy
-#~ msgid "See description of this museum at Go Historic"
-#~ msgstr "Véase la descripción de este museo en Go Histórico"
-
-#, fuzzy
-#~ msgid "See this museum own website"
-#~ msgstr "Ver este museo propio sitio web"
-
-#, fuzzy
-#~ msgid "See user reviews at Go Historic"
-#~ msgstr "Ver opiniones de los usuarios en el Go Histórico"
+#~ msgid ""
+#~ "Not to worry, open Furkot's [full site], go to the trip and the driving "
+#~ "information will be automatically updated."
+#~ msgstr ""
+#~ "No hay que preocuparse, abra [Completo] de Furkot, ir al viaje y la "
+#~ "información de conducción se actualizará automáticamente."
 
 #, fuzzy
 #~ msgid "Visit this museum"
 #~ msgstr "Visite este museo"
 
 #, fuzzy
-#~ msgid "Hide museums from Go Historic"
-#~ msgstr "Ocultar museos de Go Histórico"
+#~ msgid "Looks like there are no trips to show here."
+#~ msgstr "Parece que no hay viajes que mostrar aquí."
 
 #, fuzzy
-#~ msgid "Museums from Go Historic"
-#~ msgstr "Museos de Go Histórico"
+#~ msgid "Sign Out"
+#~ msgstr "Desconectarse"
 
 #, fuzzy
-#~ msgid "Places you want to visit - your Atlas Obscura user name"
-#~ msgstr "Lugares que desea visitar - su nombre de usuario Atlas Obscura"
+#~ msgid "Default nav app"
+#~ msgstr "Aplicación de navegación por defecto"
 
 #, fuzzy
-#~ msgid "Analyze"
-#~ msgstr "Analizar"
+#~ msgid "Which states/countries did you visit on your trips?"
+#~ msgstr "¿Qué estados / países tenían que visitar en sus viajes?"
 
 #, fuzzy
-#~ msgid "Deal"
-#~ msgstr "Acuerdo"
+#~ msgid ""
+#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
+#~ msgstr ""
+#~ "No hay que preocuparse, [Completo] abierto de Furkot donde usted puede "
+#~ "planear un nuevo viaje."
 
 #, fuzzy
-#~ msgid "House"
-#~ msgstr "Casa"
+#~ msgid "Persons per room"
+#~ msgstr "Personas por habitación"
 
 #, fuzzy
-#~ msgid "Guidebook"
-#~ msgstr "Guía"
+#~ msgid "Hide apartments, private rooms, B&Bs"
+#~ msgstr "Ocultar apartamentos, habitaciones privadas, B & B"
 
 #, fuzzy
 #~ msgid "Discount"
 #~ msgstr "Descuento"
 
 #, fuzzy
-#~ msgid "Reserve a Lodging"
-#~ msgstr "Reserve un Alojamiento"
+#~ msgid "Guidebooks, deals and discounts"
+#~ msgstr "Guías, ofertas y descuentos"
 
 #, fuzzy
-#~ msgid ""
-#~ "We'll be happy to reset your password, but we need more information to "
-#~ "identify your account."
-#~ msgstr ""
-#~ "Estaremos encantados de restablecer la contraseña, pero necesitamos más "
-#~ "información para identificar su cuenta."
+#~ msgid "See this deal details at Yipit"
+#~ msgstr "Ver detalles de este acuerdo en Yipit"
 
 #, fuzzy
-#~ msgid ""
-#~ "Otherwise you can tell us more and we will try to verify your account."
-#~ msgstr ""
-#~ "De lo contrario, usted puede decirnos más y vamos a tratar de verificar "
-#~ "su cuenta."
+#~ msgid "Navigate"
+#~ msgstr "Navegar"
 
 #, fuzzy
 #~ msgid ""
@@ -7299,252 +7355,12 @@ msgstr ""
 #~ "recuerdo, responder a algunas preguntas acerca de sus viajes previstos."
 
 #, fuzzy
-#~ msgid "Do you remember any names of the trips you planned with Furkot?"
-#~ msgstr "¿Te acuerdas de los nombres de los viajes planificados con Furkot?"
-
-#, fuzzy
-#~ msgid "When did you intend to travel?"
-#~ msgstr "Cuándo quieres ir?"
-
-#, fuzzy
-#~ msgid "Do you remember any places/stops that you added?"
-#~ msgstr "¿Te acuerdas de cualquier lugar / paradas que agregó?"
-
-#, fuzzy
-#~ msgid "Which states/countries did you visit on your trips?"
-#~ msgstr "¿Qué estados / países tenían que visitar en sus viajes?"
-
-#, fuzzy
-#~ msgid "The answers don't have to be exact."
-#~ msgstr "Las respuestas no tienen que ser exactos."
-
-#, fuzzy
-#~ msgid "Add this deal as a skipped stop"
-#~ msgstr "Añadir este acuerdo como una parada omitida"
-
-#, fuzzy
-#~ msgid "See the business offering this deal"
-#~ msgstr "Ver el negocio que tiene este acuerdo"
-
-#, fuzzy
-#~ msgid "See this deal details at Yipit"
-#~ msgstr "Ver detalles de este acuerdo en Yipit"
-
-#, fuzzy
-#~ msgid "Stop and use this deal"
-#~ msgstr "Detener y utilizar este acuerdo"
-
-#, fuzzy
-#~ msgid "Deals from Yipit"
-#~ msgstr "Ofertas de Yipit"
-
-#, fuzzy
-#~ msgid "Hide deals from Yipit"
-#~ msgstr "Ocultar ofertas de Yipit"
-
-#, fuzzy
-#~ msgid "Persons per room"
-#~ msgstr "Personas por habitación"
-
-#, fuzzy
-#~ msgid "Click to modify the time at which you start driving every day"
-#~ msgstr ""
-#~ "Haga clic para modificar el tiempo en el que empezar a conducir todos los "
-#~ "días"
-
-#, fuzzy
-#~ msgid "Click to modify the time by which you end driving every day"
-#~ msgstr ""
-#~ "Haga clic para modificar el tiempo por el cual se termina la conducción "
-#~ "todos los días"
-
-#, fuzzy
-#~ msgid "Click to leave suggestions"
-#~ msgstr "Haz clic aquí para dejar sugerencias"
+#~ msgid "Feel free to press [Done] at any point."
+#~ msgstr "Siéntase libre de pulsar [Listo] en cualquier punto."
 
 #, fuzzy
 #~ msgid "Feedback"
 #~ msgstr "Retroalimentación"
-
-#, fuzzy
-#~ msgid "Mobile"
-#~ msgstr "Móvil"
-
-#, fuzzy
-#~ msgid "Trips"
-#~ msgstr "Viajes"
-
-#, fuzzy
-#~ msgid "Sync"
-#~ msgstr "Sincronización"
-
-#, fuzzy
-#~ msgid "Sign Out"
-#~ msgstr "Desconectarse"
-
-#, fuzzy
-#~ msgid "Top"
-#~ msgstr "Cima"
-
-#, fuzzy
-#~ msgid "Full Site"
-#~ msgstr "Sitio completo"
-
-#, fuzzy
-#~ msgid "Info"
-#~ msgstr "Info"
-
-#, fuzzy
-#~ msgid "Looks like driving information is missing from some trips."
-#~ msgstr "Parece que conduce la información que falta en algunos viajes."
-
-#, fuzzy
-#~ msgid ""
-#~ "Not to worry, open Furkot's [full site], go to the trip and the driving "
-#~ "information will be automatically updated."
-#~ msgstr ""
-#~ "No hay que preocuparse, abra [Completo] de Furkot, ir al viaje y la "
-#~ "información de conducción se actualizará automáticamente."
-
-#, fuzzy
-#~ msgid "Looks like there are no trips to show here."
-#~ msgstr "Parece que no hay viajes que mostrar aquí."
-
-#, fuzzy
-#~ msgid ""
-#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
-#~ msgstr ""
-#~ "No hay que preocuparse, [Completo] abierto de Furkot donde usted puede "
-#~ "planear un nuevo viaje."
-
-#, fuzzy
-#~ msgid ""
-#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
-#~ msgstr ""
-#~ "Si usted ya tiene una [viaje], asegúrese de que tiene la opción _Phone_ "
-#~ "habilitado."
-
-#, fuzzy
-#~ msgid ""
-#~ "Press [Sync] to have the up-to-date version of your trips downloaded to "
-#~ "your mobile device."
-#~ msgstr ""
-#~ "Pulse [Sincronizar] para tener la versión actualizada de sus viajes "
-#~ "descargados en el dispositivo móvil."
-
-#, fuzzy
-#~ msgid "Stops"
-#~ msgstr "Detiene"
-
-#, fuzzy
-#~ msgid "Navigate"
-#~ msgstr "Navegar"
-
-#, fuzzy
-#~ msgid "Navigate to"
-#~ msgstr "Navegar a"
-
-#, fuzzy
-#~ msgid "Exact coordinates"
-#~ msgstr "Coordenadas exactas"
-
-#, fuzzy
-#~ msgid "Stop address"
-#~ msgstr "Dirección de la parada"
-
-#, fuzzy
-#~ msgid "Default nav app"
-#~ msgstr "Aplicación de navegación por defecto"
-
-#, fuzzy
-#~ msgid "Book"
-#~ msgstr "Libro"
-
-#, fuzzy
-#~ msgid ""
-#~ "Take itinerary of your road trip, weekend outing, family vacation with "
-#~ "you while traveling. Use Furkot on your phone or tablet on the go."
-#~ msgstr ""
-#~ "Tome itinerario de su viaje por carretera, excursión de fin de semana, "
-#~ "vacaciones en familia con usted mientras viaja. Utilice Furkot en su "
-#~ "teléfono o tableta sobre la marcha."
-
-#, fuzzy
-#~ msgid "Label Roads"
-#~ msgstr "Carreteras Label"
-
-#, fuzzy
-#~ msgid "Weather"
-#~ msgstr "Clima"
-
-#, fuzzy
-#~ msgid "Guidebooks and travel guides"
-#~ msgstr "Guías turísticas y guías de viaje"
-
-#, fuzzy
-#~ msgid "Hide guidebooks and travel guides"
-#~ msgstr "Ocultar guías y guías de viaje"
-
-#, fuzzy
-#~ msgid "Hide deals and discounts"
-#~ msgstr "Ocultar ofertas y descuentos"
-
-#, fuzzy
-#~ msgid "Guidebooks, deals and discounts"
-#~ msgstr "Guías, ofertas y descuentos"
-
-#, fuzzy
-#~ msgid "Hide guidebooks, deals and discounts"
-#~ msgstr "Ocultar guías, ofertas y descuentos"
-
-#, fuzzy
-#~ msgid "Remove this trip from phone"
-#~ msgstr "Eliminar este viaje desde el teléfono"
-
-#, fuzzy
-#~ msgid "Send this trip to phone"
-#~ msgstr "Enviar este viaje a teléfono"
-
-#, fuzzy
-#~ msgid "Trip sent to phone"
-#~ msgstr "Trip enviado a teléfono"
-
-#, fuzzy
-#~ msgid "This trip is now ready to be displayed on your mobile device."
-#~ msgstr "Este viaje está lista para que se muestre en su dispositivo móvil."
-
-#, fuzzy
-#~ msgid ""
-#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
-#~ "trip."
-#~ msgstr ""
-#~ "Abra Furkot en su teléfono o tableta para ver la versión actualizada de "
-#~ "este viaje."
-
-#, fuzzy
-#~ msgid "Trip removed from phone"
-#~ msgstr "Viaje retirado de teléfono"
-
-#, fuzzy
-#~ msgid "Please wait while Furkot is contacting the booking site"
-#~ msgstr ""
-#~ "Por favor espere mientras Furkot está en contacto con el sitio de reserva"
-
-#, fuzzy
-#~ msgid "Looking for trip ideas?"
-#~ msgstr "Buscando ideas de viaje?"
-
-#, fuzzy
-#~ msgid "Are you sure you want to enable it?"
-#~ msgstr "¿Seguro que desea activarlo?"
-
-#, fuzzy
-#~ msgid ""
-#~ "This is an experimental feature. When enabled, calculating routes will "
-#~ "take longer and may produce less reliable results."
-#~ msgstr ""
-#~ "Esta es una característica experimental. Cuando se activa, el cálculo de "
-#~ "rutas se tardará más y pueden producir resultados menos fiables."
 
 #, fuzzy
 #~ msgid ""
@@ -7557,49 +7373,288 @@ msgstr ""
 #~ "estacionales se basan en el"
 
 #, fuzzy
-#~ msgid "Seasonal closures"
-#~ msgstr "Cierres estacionales"
+#~ msgid "See description of this museum at Go Historic"
+#~ msgstr "Véase la descripción de este museo en Go Histórico"
 
 #, fuzzy
-#~ msgid "Experimental"
-#~ msgstr "Experimental"
+#~ msgid "Trip sent to phone"
+#~ msgstr "Trip enviado a teléfono"
 
 #, fuzzy
-#~ msgid "Anticipate seasonal closures during trip."
-#~ msgstr "Anticipar las vedas estacionales durante su viaje."
+#~ msgid "Add this museum as a skipped stop"
+#~ msgstr "Añadir este museo como una parada omitida"
 
 #, fuzzy
-#~ msgid "Hide apartments, private rooms, B&Bs"
-#~ msgstr "Ocultar apartamentos, habitaciones privadas, B & B"
+#~ msgid "Weather"
+#~ msgstr "Clima"
 
 #, fuzzy
-#~ msgid "Hide hotel chains"
-#~ msgstr "Ocultar cadenas de hoteles"
+#~ msgid ""
+#~ "We'll be happy to reset your password, but we need more information to "
+#~ "identify your account."
+#~ msgstr ""
+#~ "Estaremos encantados de restablecer la contraseña, pero necesitamos más "
+#~ "información para identificar su cuenta."
 
 #, fuzzy
-#~ msgid "Re-route when adding new stops"
-#~ msgstr "Re-ruta al añadir nuevas paradas"
+#~ msgid ""
+#~ "Press [Sync] to have the up-to-date version of your trips downloaded to "
+#~ "your mobile device."
+#~ msgstr ""
+#~ "Pulse [Sincronizar] para tener la versión actualizada de sus viajes "
+#~ "descargados en el dispositivo móvil."
 
 #, fuzzy
-#~ msgid "Preserve this route when adding new stops"
-#~ msgstr "Preservar esta ruta al añadir nuevas paradas"
+#~ msgid "Deals from Yipit"
+#~ msgstr "Ofertas de Yipit"
 
 #, fuzzy
-#~ msgid "Feel free to press [Done] at any point."
-#~ msgstr "Siéntase libre de pulsar [Listo] en cualquier punto."
+#~ msgid "Exact coordinates"
+#~ msgstr "Coordenadas exactas"
 
 #, fuzzy
-#~ msgid "Directions courtesy of"
-#~ msgstr "Direcciones cortesía de"
+#~ msgid "Analyze"
+#~ msgstr "Analizar"
 
 #, fuzzy
 #~ msgid "Preserve / allow re-routing"
 #~ msgstr "Preservar / permitirá re-enrutamiento"
 
 #, fuzzy
+#~ msgid "Click to modify the time by which you end driving every day"
+#~ msgstr ""
+#~ "Haga clic para modificar el tiempo por el cual se termina la conducción "
+#~ "todos los días"
+
+#, fuzzy
+#~ msgid "Re-route when adding new stops"
+#~ msgstr "Re-ruta al añadir nuevas paradas"
+
+#, fuzzy
+#~ msgid "When did you intend to travel?"
+#~ msgstr "Cuándo quieres ir?"
+
+#, fuzzy
+#~ msgid "Experimental"
+#~ msgstr "Experimental"
+
+#, fuzzy
+#~ msgid "Trips"
+#~ msgstr "Viajes"
+
+#, fuzzy
+#~ msgid "Museums from Go Historic"
+#~ msgstr "Museos de Go Histórico"
+
+#, fuzzy
+#~ msgid ""
+#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
+#~ "trip."
+#~ msgstr ""
+#~ "Abra Furkot en su teléfono o tableta para ver la versión actualizada de "
+#~ "este viaje."
+
+#, fuzzy
+#~ msgid "Furkot assumes it is a bicycle trip."
+#~ msgstr ""
+#~ "Con base en los datos de temporización Furkot asume que es un viaje en "
+#~ "bicicleta."
+
+#, fuzzy
+#~ msgid "Remove this trip from phone"
+#~ msgstr "Eliminar este viaje desde el teléfono"
+
+#, fuzzy
+#~ msgid "Add this deal as a skipped stop"
+#~ msgstr "Añadir este acuerdo como una parada omitida"
+
+#, fuzzy
+#~ msgid "Hide guidebooks and travel guides"
+#~ msgstr "Ocultar guías y guías de viaje"
+
+#, fuzzy
+#~ msgid "Places you want to visit - your Atlas Obscura user name"
+#~ msgstr "Lugares que desea visitar - su nombre de usuario Atlas Obscura"
+
+#, fuzzy
+#~ msgid ""
+#~ "Take itinerary of your road trip, weekend outing, family vacation with "
+#~ "you while traveling. Use Furkot on your phone or tablet on the go."
+#~ msgstr ""
+#~ "Tome itinerario de su viaje por carretera, excursión de fin de semana, "
+#~ "vacaciones en familia con usted mientras viaja. Utilice Furkot en su "
+#~ "teléfono o tableta sobre la marcha."
+
+#, fuzzy
+#~ msgid "Hide museums from Go Historic"
+#~ msgstr "Ocultar museos de Go Histórico"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
+#~ msgstr ""
+#~ "Si usted ya tiene una [viaje], asegúrese de que tiene la opción _Phone_ "
+#~ "habilitado."
+
+#, fuzzy
+#~ msgid "Stop and use this deal"
+#~ msgstr "Detener y utilizar este acuerdo"
+
+#, fuzzy
+#~ msgid "Stops"
+#~ msgstr "Detiene"
+
+#, fuzzy
+#~ msgid ""
+#~ "Otherwise you can tell us more and we will try to verify your account."
+#~ msgstr ""
+#~ "De lo contrario, usted puede decirnos más y vamos a tratar de verificar "
+#~ "su cuenta."
+
+#, fuzzy
+#~ msgid "Navigate to"
+#~ msgstr "Navegar a"
+
+#, fuzzy
+#~ msgid "Hide deals from Yipit"
+#~ msgstr "Ocultar ofertas de Yipit"
+
+#, fuzzy
+#~ msgid "Stop address"
+#~ msgstr "Dirección de la parada"
+
+#, fuzzy
+#~ msgid "See this museum own website"
+#~ msgstr "Ver este museo propio sitio web"
+
+#, fuzzy
 #~ msgid "Redo unlock route"
 #~ msgstr "Rehacer desbloquear ruta"
 
 #, fuzzy
-#~ msgid "Undo unlock route"
-#~ msgstr "Deshacer ruta de desbloqueo"
+#~ msgid "Click to modify the time at which you start driving every day"
+#~ msgstr ""
+#~ "Haga clic para modificar el tiempo en el que empezar a conducir todos los "
+#~ "días"
+
+#, fuzzy
+#~ msgid "Directions courtesy of"
+#~ msgstr "Direcciones cortesía de"
+
+#, fuzzy
+#~ msgid "Do you remember any names of the trips you planned with Furkot?"
+#~ msgstr "¿Te acuerdas de los nombres de los viajes planificados con Furkot?"
+
+#, fuzzy
+#~ msgid "Preserve this route when adding new stops"
+#~ msgstr "Preservar esta ruta al añadir nuevas paradas"
+
+#, fuzzy
+#~ msgid "Click to leave suggestions"
+#~ msgstr "Haz clic aquí para dejar sugerencias"
+
+#, fuzzy
+#~ msgid "Hide hotel chains"
+#~ msgstr "Ocultar cadenas de hoteles"
+
+#, fuzzy
+#~ msgid "Guidebook"
+#~ msgstr "Guía"
+
+#, fuzzy
+#~ msgid "Anticipate seasonal closures during trip."
+#~ msgstr "Anticipar las vedas estacionales durante su viaje."
+
+#, fuzzy
+#~ msgid "Mobile"
+#~ msgstr "Móvil"
+
+#, fuzzy
+#~ msgid "Seasonal closures"
+#~ msgstr "Cierres estacionales"
+
+#, fuzzy
+#~ msgid "Do you remember any places/stops that you added?"
+#~ msgstr "¿Te acuerdas de cualquier lugar / paradas que agregó?"
+
+#, fuzzy
+#~ msgid ""
+#~ "This is an experimental feature. When enabled, calculating routes will "
+#~ "take longer and may produce less reliable results."
+#~ msgstr ""
+#~ "Esta es una característica experimental. Cuando se activa, el cálculo de "
+#~ "rutas se tardará más y pueden producir resultados menos fiables."
+
+#, fuzzy
+#~ msgid "Sync"
+#~ msgstr "Sincronización"
+
+#, fuzzy
+#~ msgid "Looking for trip ideas?"
+#~ msgstr "Buscando ideas de viaje?"
+
+#, fuzzy
+#~ msgid "House"
+#~ msgstr "Casa"
+
+#, fuzzy
+#~ msgid "Trip removed from phone"
+#~ msgstr "Viaje retirado de teléfono"
+
+#, fuzzy
+#~ msgid "Furkot assumes it is a walking trip."
+#~ msgstr ""
+#~ "Con base en los datos de temporización Furkot asume que es un viaje a pie."
+
+#, fuzzy
+#~ msgid "This trip is now ready to be displayed on your mobile device."
+#~ msgstr "Este viaje está lista para que se muestre en su dispositivo móvil."
+
+#, fuzzy
+#~ msgid "The answers don't have to be exact."
+#~ msgstr "Las respuestas no tienen que ser exactos."
+
+#, fuzzy
+#~ msgid "Send this trip to phone"
+#~ msgstr "Enviar este viaje a teléfono"
+
+#, fuzzy
+#~ msgid "Select KML, GPX or CSV file"
+#~ msgstr "Seleccionar archivo KML, GPX o CSV"
+
+#, fuzzy
+#~ msgid "Hide guidebooks, deals and discounts"
+#~ msgstr "Ocultar guías, ofertas y descuentos"
+
+#, fuzzy
+#~ msgid "Reserve a Lodging"
+#~ msgstr "Reserve un Alojamiento"
+
+#, fuzzy
+#~ msgid "Hide deals and discounts"
+#~ msgstr "Ocultar ofertas y descuentos"
+
+#, fuzzy
+#~ msgid "See user reviews at Go Historic"
+#~ msgstr "Ver opiniones de los usuarios en el Go Histórico"
+
+#, fuzzy
+#~ msgid "Guidebooks and travel guides"
+#~ msgstr "Guías turísticas y guías de viaje"
+
+#, fuzzy
+#~ msgid "See the business offering this deal"
+#~ msgstr "Ver el negocio que tiene este acuerdo"
+
+#, fuzzy
+#~ msgid "Label Roads"
+#~ msgstr "Carreteras Label"
+
+#, fuzzy
+#~ msgid "Deal"
+#~ msgstr "Acuerdo"
+
+#, fuzzy
+#~ msgid "Please wait while Furkot is contacting the booking site"
+#~ msgstr ""
+#~ "Por favor espere mientras Furkot está en contacto con el sitio de reserva"
