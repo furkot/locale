@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2017-02-07 11:05+0000\n"
+"POT-Creation-Date: 2017-02-09 06:02+0000\n"
 "PO-Revision-Date: 2017-01-25 05:40-0400\n"
 "Last-Translator: Natalia Kowalczyk <melitele@furkot.com>\n"
 "Language-Team: Dutch <https://translate.code42day.com/projects/furkot/trips/"
@@ -52,7 +52,7 @@ msgstr "Voorstellen"
 #: views/board/board.jade:30 views/components/accounts.jade:72
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:16
 #: views/components/dialog.jade:7 views/components/import-dlg.jade:154
-#: views/components/navigation.jade:2 views/components/place-switch.jade:265
+#: views/components/navigation.jade:2 views/components/place-switch.jade:258
 #: views/components/plan-msg.jade:2 views/components/share-dlg.jade:94
 #: views/components/share-dlg.jade:105 views/components/share-dlg.jade:117
 #: views/components/step-detail.jade:798 views/components/step-switches.jade:92
@@ -62,11 +62,11 @@ msgstr "Voorstellen"
 #: views/components/step-switches.jade:130
 #: views/components/step-switches.jade:134
 #: views/components/step-switches.jade:142
-#: views/components/trip-detail.jade:395 views/components/trip-detail.jade:403
-#: views/components/trip-detail.jade:409 views/components/trip-detail.jade:419
-#: views/components/trip-detail.jade:453 views/components/trip-detail.jade:458
-#: views/components/trip-detail.jade:466 views/components/trip-detail.jade:476
-#: views/components/trip-detail.jade:484 views/components/trip-detail.jade:492
+#: views/components/trip-detail.jade:397 views/components/trip-detail.jade:405
+#: views/components/trip-detail.jade:411 views/components/trip-detail.jade:421
+#: views/components/trip-detail.jade:455 views/components/trip-detail.jade:460
+#: views/components/trip-detail.jade:468 views/components/trip-detail.jade:478
+#: views/components/trip-detail.jade:486 views/components/trip-detail.jade:494
 #: views/components/trip-toolbar.jade:17 views/tripshot/mixin.jade:93
 msgid "Cancel"
 msgstr "Annuleer"
@@ -180,7 +180,7 @@ msgstr "Gelinkte Accounts"
 
 #: views/components/accounts.jade:73 views/components/add-stops.jade:2
 #: views/components/add-stops.jade:16 views/components/navigation.jade:2
-#: views/components/place-switch.jade:266 views/components/plan-msg.jade:2
+#: views/components/place-switch.jade:259 views/components/plan-msg.jade:2
 #: views/components/plan-msg.jade:17 views/components/share-dlg.jade:94
 #: views/components/share-dlg.jade:105 views/components/share-dlg.jade:117
 #: views/components/step-switches.jade:92
@@ -190,11 +190,11 @@ msgstr "Gelinkte Accounts"
 #: views/components/step-switches.jade:130
 #: views/components/step-switches.jade:134
 #: views/components/step-switches.jade:142 views/components/translate.jade:2
-#: views/components/trip-detail.jade:395 views/components/trip-detail.jade:403
-#: views/components/trip-detail.jade:409 views/components/trip-detail.jade:419
-#: views/components/trip-detail.jade:453 views/components/trip-detail.jade:458
-#: views/components/trip-detail.jade:466 views/components/trip-detail.jade:476
-#: views/components/trip-detail.jade:484 views/components/trip-detail.jade:492
+#: views/components/trip-detail.jade:397 views/components/trip-detail.jade:405
+#: views/components/trip-detail.jade:411 views/components/trip-detail.jade:421
+#: views/components/trip-detail.jade:455 views/components/trip-detail.jade:460
+#: views/components/trip-detail.jade:468 views/components/trip-detail.jade:478
+#: views/components/trip-detail.jade:486 views/components/trip-detail.jade:494
 #: views/components/trip-toolbar.jade:17 views/components/warning.jade:9
 #: views/tripshot/mixin.jade:96
 msgid "OK"
@@ -250,8 +250,8 @@ msgstr "Schilderachtig"
 #: views/components/export-dlg.jade:97 views/components/import-dlg.jade:162
 #: views/components/navigation.jade:70
 #: views/components/new-trip-wizard.jade:150
-#: views/components/place-switch.jade:269 views/components/share-dlg.jade:91
-#: views/components/trip-detail.jade:447 views/components/trip-toolbar.jade:43
+#: views/components/place-switch.jade:262 views/components/share-dlg.jade:91
+#: views/components/trip-detail.jade:449 views/components/trip-toolbar.jade:43
 #: views/tripshot/mixin.jade:99 views/tripshot/mixin.jade:130
 msgid "Learn more"
 msgstr "Leer meer"
@@ -1584,7 +1584,7 @@ msgstr ""
 msgid "Furkot guided tour"
 msgstr "Furkot rondleiding"
 
-#: views/components/map.jade:111 views/components/place-switch.jade:90
+#: views/components/map.jade:111 views/components/place-switch.jade:85
 #: views/components/step-switches.jade:89
 msgid "Nothing to display. Internet connection may be down."
 msgstr ""
@@ -1608,7 +1608,7 @@ msgstr "Verberg details van trip"
 msgid "Show trip details"
 msgstr "Toon details van trip"
 
-#. L10n: Label on the handle of the Trip drawer
+#. L10n: Label on the handle of the Trip drawer. Shorter word is better; ideally words for other handles (Plan, Sleep, Eat, Find) will not be longer
 #. L10n: Label for time/distance covered since beginning of the trip
 #: views/components/map.jade:131 views/components/step-detail.jade:521
 msgid "Trip"
@@ -1624,7 +1624,7 @@ msgstr "Verbergen trip route"
 msgid "Show trip itinerary"
 msgstr "Toon reisroute"
 
-#. L10n: Label on the handle of the Plan drawer. 'Plan' can be also translated as 'Itinerary'
+#. L10n: Label on the handle of the Plan drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Plan' can be also translated as 'Itinerary' or 'Schedule'
 #: views/components/map.jade:142
 #, fuzzy
 msgid "Plan"
@@ -1640,7 +1640,7 @@ msgstr "Verbergen nabijgelegen accommodatie onderkomen"
 msgid "Show nearby lodging accommodations"
 msgstr "Toon nabijgelegen accommodatie onderkomen"
 
-#. L10n: Label on the handle of the Sleep drawer. 'Sleep' can be also translated as 'Lodgings'
+#. L10n: Label on the handle of the Sleep drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Sleep' can be also translated as 'Lodgings'
 #: views/components/map.jade:153
 #, fuzzy
 msgid "Sleep"
@@ -1656,7 +1656,7 @@ msgstr "Verberg plaatsen om te eten, drinken en brandstof"
 msgid "Show me where to eat, drink and get fuel"
 msgstr "Toon me waar te eten, drinken en brandstof"
 
-#. L10n: Label on the handle of the Eat drawer. 'Eat' can be also translated as 'Food' or 'Establishments' (as in businesses)
+#. L10n: Label on the handle of the Eat drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Eat' can be also translated as 'Food', 'Establishments' (as in businesses) or 'Services'
 #: views/components/map.jade:164
 #, fuzzy
 msgid "Eat"
@@ -1672,7 +1672,7 @@ msgstr "Verberg bezienswaardigheden"
 msgid "Show points of interest"
 msgstr "Bezienswaardigheid weergeven"
 
-#. L10n: Label on the handle of the Find drawer. 'Find' can be also translated as 'Search', 'Places of Interest', 'Points of Interest' or 'Attractions'
+#. L10n: Label on the handle of the Find drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Find' can be also translated as 'Search', 'Places of Interest', 'Points of Interest' or 'Attractions'
 #: views/components/map.jade:175 views/components/step-detail.jade:787
 #, fuzzy
 msgid "Find"
@@ -2032,7 +2032,7 @@ msgstr "Geen hotels en motels"
 #. L10n: Hint for the option of that configures whether Furkot should suggest this type of lodging
 #. L10n: hint for the button that show/hides chain hotels and motels on the map
 #: views/components/new-trip-wizard.jade:108
-#: views/components/place-switch.jade:101
+#: views/components/place-switch.jade:96
 #, fuzzy
 msgid "Chain hotels and motels"
 msgstr "Keten hotels en motels"
@@ -2046,7 +2046,7 @@ msgstr "Geen hotels en motels"
 #. L10n: Hint for the option of that configures whether Furkot should suggest this type of lodging
 #. L10n: hint for the button that show/hides campgrounds on the map
 #: views/components/new-trip-wizard.jade:111
-#: views/components/place-switch.jade:104 views/components/step-lodging.jade:28
+#: views/components/place-switch.jade:99 views/components/step-lodging.jade:28
 #, fuzzy
 msgid "Campgrounds"
 msgstr "Campings"
@@ -2060,7 +2060,7 @@ msgstr "Geen campings"
 #. L10n: Hint for the option of that configures whether Furkot should suggest this type of lodging
 #. L10n: hint for the button that show/hides apartments and private rooms on the map
 #: views/components/new-trip-wizard.jade:114
-#: views/components/place-switch.jade:107
+#: views/components/place-switch.jade:102
 #, fuzzy
 msgid "Apartments and private rooms"
 msgstr "Appartementen en privékamers"
@@ -2074,7 +2074,7 @@ msgstr "Geen appartementen en privékamers"
 #. L10n: Hint for the option of that configures whether Furkot should suggest this type of lodging
 #. L10n: hint for the button that show/hides hostels on the map
 #: views/components/new-trip-wizard.jade:117
-#: views/components/place-switch.jade:110 views/components/step-lodging.jade:32
+#: views/components/place-switch.jade:105 views/components/step-lodging.jade:32
 #, fuzzy
 msgid "Hostels"
 msgstr "Hostels"
@@ -2088,7 +2088,7 @@ msgstr "Verbergen hostels"
 #. L10n: Hint for the option of that configures whether Furkot should suggest this type of lodging
 #. L10n: hint for the button that show/hides discounted hotels on the map. 'Blind hotel deal' is a discounted hotel that doesn't reveal its name or location until booking is completed
 #: views/components/new-trip-wizard.jade:120
-#: views/components/place-switch.jade:113 views/components/step-lodging.jade:34
+#: views/components/place-switch.jade:108 views/components/step-lodging.jade:34
 #, fuzzy
 msgid "Blind hotel deals"
 msgstr "Blind hotel deals"
@@ -2405,552 +2405,535 @@ msgstr "Op de classificatie (aflopend)"
 msgid "Add all displayed places as skipped stops"
 msgstr "Voeg alle weergegeven plaatsen als overgeslagen stops"
 
-#. L10n: Selection options: 'None' means select nothing (i.e. unselect all), 'All' means select all
-#: views/components/place-switch.jade:84 views/components/place-switch.jade:87
-#: views/components/place-switch.jade:243
-#: views/components/place-switch.jade:245
+#: views/components/place-switch.jade:83 views/components/place-switch.jade:238
 #, fuzzy
-msgid "All"
-msgstr "Alle"
+msgid "Hide all places"
+msgstr "Verberg plaatsen"
 
-#. L10n: Selection options: 'None' means select nothing (i.e. unselect all), 'All' means select all
-#: views/components/place-switch.jade:84 views/components/place-switch.jade:87
-#: views/components/place-switch.jade:243
-#: views/components/place-switch.jade:245
+#: views/components/place-switch.jade:83 views/components/place-switch.jade:238
 #, fuzzy
-msgid "None"
-msgstr "Niets"
-
-#. L10n: 'ALL' means 'Select all options'. 4 letters or less. Doesn't have to be all capital letters, esp. when longer than 3 letters
-#: views/components/place-switch.jade:86 views/components/place-switch.jade:244
-#, fuzzy
-msgid "ALL"
-msgstr "ALL"
-
-#. L10n: 'NONE' means 'Select no options (i.e. unselect all)'. 4 letters or less. Doesn't have to be all capital letters, esp. when longer than 3 letters
-#: views/components/place-switch.jade:89 views/components/place-switch.jade:246
-msgid "NONE"
-msgstr ""
+msgid "Show all places"
+msgstr "Toon plaatsen"
 
 #. L10n: hint for the button that show/hides hotels on the map
-#: views/components/place-switch.jade:98
+#: views/components/place-switch.jade:93
 #, fuzzy
 msgid "Hide hotels"
 msgstr "Verbergen hotels"
 
 #. L10n: hint for the button that show/hides hotels on the map
-#: views/components/place-switch.jade:98 views/components/step-lodging.jade:24
+#: views/components/place-switch.jade:93 views/components/step-lodging.jade:24
 #, fuzzy
 msgid "Hotels"
 msgstr "Hotels"
 
 #. L10n: hint for the button that show/hides chain hotels and motels on the map
-#: views/components/place-switch.jade:101
+#: views/components/place-switch.jade:96
 #, fuzzy
 msgid "Hide chain hotels and motels"
 msgstr "Verbergen keten hotels en motels"
 
 #. L10n: hint for the button that show/hides campgrounds on the map
-#: views/components/place-switch.jade:104
+#: views/components/place-switch.jade:99
 #, fuzzy
 msgid "Hide campgrounds"
 msgstr "Verbergen campings"
 
 #. L10n: hint for the button that show/hides apartments and private rooms on the map
-#: views/components/place-switch.jade:107
+#: views/components/place-switch.jade:102
 #, fuzzy
 msgid "Hide apartments and private rooms"
 msgstr "Appartementen verbergen en privékamers"
 
 #. L10n: hint for the button that show/hides hostels on the map
-#: views/components/place-switch.jade:110
+#: views/components/place-switch.jade:105
 #, fuzzy
 msgid "Hide hostels"
 msgstr "Verbergen hostels"
 
 #. L10n: hint for the button that show/hides discounted hotels on the map. 'Blind hotel deal' is a discounted hotel that doesn't reveal its name or location until booking is completed
-#: views/components/place-switch.jade:113
+#: views/components/place-switch.jade:108
 #, fuzzy
 msgid "Hide blind hotel deals"
 msgstr "Verbergen blind hotel deals"
 
 #. L10n: hint for the button that show/hides LGBT-friendly hotels on the map. LGBT stands for 'lesbian, gay, bisexual, and transgender'
-#: views/components/place-switch.jade:116
+#: views/components/place-switch.jade:111
 #, fuzzy
 msgid "Hide LGBT welcoming hotels"
 msgstr "Verbergen LGBT gastvrije hotels"
 
 #. L10n: hint for the button that show/hides LGBT-friendly hotels on the map. LGBT stands for 'lesbian, gay, bisexual, and transgender'
-#: views/components/place-switch.jade:116 views/components/step-lodging.jade:36
+#: views/components/place-switch.jade:111 views/components/step-lodging.jade:36
 #, fuzzy
 msgid "LGBT welcoming hotels"
 msgstr "LGBT gastvrije hotels"
 
 #. L10n: hint for the button that show/hides restaurants on the map
-#: views/components/place-switch.jade:121
+#: views/components/place-switch.jade:116
 #, fuzzy
 msgid "Hide restaurants"
 msgstr "Verbergen restaurants"
 
 #. L10n: hint for the button that show/hides restaurants on the map
-#: views/components/place-switch.jade:121
+#: views/components/place-switch.jade:116
 #, fuzzy
 msgid "Restaurants"
 msgstr "Restaurants"
 
 #. L10n: hint for the button that show/hides breweries, wineries and bars on the map
-#: views/components/place-switch.jade:124
+#: views/components/place-switch.jade:119
 #, fuzzy
 msgid "Breweries, wineries and bars"
 msgstr "Brouwerijen, wijnhuizen en bars"
 
 #. L10n: hint for the button that show/hides breweries, wineries and bars on the map
-#: views/components/place-switch.jade:124
+#: views/components/place-switch.jade:119
 #, fuzzy
 msgid "Hide breweries, wineries and bars"
 msgstr "Verbergen brouwerijen, wijnhuizen en bars"
 
 #. L10n: hint for the button that show/hides coffee shops on the map
-#: views/components/place-switch.jade:127
+#: views/components/place-switch.jade:122
 #, fuzzy
 msgid "Coffee shops"
 msgstr "Coffeeshops"
 
 #. L10n: hint for the button that show/hides coffee shops on the map
-#: views/components/place-switch.jade:127
+#: views/components/place-switch.jade:122
 #, fuzzy
 msgid "Hide coffee shops"
 msgstr "Verbergen coffeeshops"
 
 #. L10n: hint for the button that show/hides farmers markets and grocery stores on the map
-#: views/components/place-switch.jade:130
+#: views/components/place-switch.jade:125
 #, fuzzy
 msgid "Farmers markets and grocery stores"
 msgstr "Boeren markten en supermarkten"
 
 #. L10n: hint for the button that show/hides farmers markets and grocery stores on the map
-#: views/components/place-switch.jade:130
+#: views/components/place-switch.jade:125
 #, fuzzy
 msgid "Hide farmers markets and grocery stores"
 msgstr "Verbergen boeren markten en supermarkten"
 
 #. L10n: hint for the button that show/hides filling stations (gas and electric stations) on the map
-#: views/components/place-switch.jade:133
+#: views/components/place-switch.jade:128
 #, fuzzy
 msgid "Filling stations"
 msgstr "Tankstations"
 
 #. L10n: hint for the button that show/hides filling stations (gas and electric stations) on the map
-#: views/components/place-switch.jade:133
+#: views/components/place-switch.jade:128
 #, fuzzy
 msgid "Hide filling stations"
 msgstr "Verbergen tankstations"
 
 #. L10n: hint for the button that show/hides museums on the map
-#: views/components/place-switch.jade:138
+#: views/components/place-switch.jade:133
 #, fuzzy
 msgid "Hide museums"
 msgstr "Musea verbergen"
 
 #. L10n: hint for the button that show/hides museums on the map
-#: views/components/place-switch.jade:138
+#: views/components/place-switch.jade:133
 #, fuzzy
 msgid "Museums"
 msgstr "Musea"
 
 #. L10n: hint for the button that show/hides historical sites, monuments and landmarks on the map
-#: views/components/place-switch.jade:141
+#: views/components/place-switch.jade:136
 #, fuzzy
 msgid "Hide historical sites, monuments and landmarks"
 msgstr "Verbergen historische plaatsen, monumenten en bezienswaardigheden"
 
 #. L10n: hint for the button that show/hides historical sites, monuments and landmarks on the map
-#: views/components/place-switch.jade:141
+#: views/components/place-switch.jade:136
 #, fuzzy
 msgid "Historical sites, monuments and landmarks"
 msgstr "Historische bezienswaardigheden, monumenten en bezienswaardigheden"
 
 #. L10n: hint for the button that show/hides national, state and parks and forests on the map
-#: views/components/place-switch.jade:144
+#: views/components/place-switch.jade:139
 #, fuzzy
 msgid "Hide parks"
 msgstr "Verbergen parken"
 
 #. L10n: hint for the button that show/hides national, state and parks and forests on the map
-#: views/components/place-switch.jade:144
+#: views/components/place-switch.jade:139
 #, fuzzy
 msgid "Parks"
 msgstr "Parken"
 
 #. L10n: hint for the button that show/hides mountains on the map
-#: views/components/place-switch.jade:147
+#: views/components/place-switch.jade:142
 #, fuzzy
 msgid "Hide mountains"
 msgstr "Verbergen bergen"
 
 #. L10n: hint for the button that show/hides mountains on the map
 #. L10n: stop type (icon)
-#: views/components/place-switch.jade:147 views/components/step-detail.jade:116
+#: views/components/place-switch.jade:142 views/components/step-detail.jade:116
 #, fuzzy
 msgid "Mountains"
 msgstr "Bergen"
 
 #. L10n: hint for the button that show/hides lakes, rivers and hot springs on the map
-#: views/components/place-switch.jade:150
+#: views/components/place-switch.jade:145
 #, fuzzy
 msgid "Hide lakes, rivers and hot springs"
 msgstr "Verbergen meren, rivieren en warmwaterbronnen"
 
 #. L10n: hint for the button that show/hides lakes, rivers and hot springs on the map
-#: views/components/place-switch.jade:150
+#: views/components/place-switch.jade:145
 #, fuzzy
 msgid "Lakes, rivers and hot springs"
 msgstr "Meren, rivieren en warmwaterbronnen"
 
 #. L10n: hint for the button that show/hides wiled and prescribed fire incidents on the map
-#: views/components/place-switch.jade:153
+#: views/components/place-switch.jade:148
 msgid "Fire incidents"
 msgstr ""
 
 #. L10n: hint for the button that show/hides wiled and prescribed fire incidents on the map
-#: views/components/place-switch.jade:153
+#: views/components/place-switch.jade:148
 #, fuzzy
 msgid "Hide fire incidents"
 msgstr "Verbergen duikplaatsen"
 
 #. L10n: hint for the button that show/hides birdwatching hotspots on the map.
-#: views/components/place-switch.jade:156
+#: views/components/place-switch.jade:151
 msgid "Birdwatching"
 msgstr ""
 
 #. L10n: hint for the button that show/hides birdwatching hotspots on the map.
-#: views/components/place-switch.jade:156
+#: views/components/place-switch.jade:151
 #, fuzzy
 msgid "Hide birdwatching hotspots"
 msgstr "Verbergen keten hotels en motels"
 
 #. L10n: hint for the button that show/hides hiking trails on the map
-#: views/components/place-switch.jade:159
+#: views/components/place-switch.jade:154
 #, fuzzy
 msgid "Hide hiking trails"
 msgstr "Verbergen wandelpaden"
 
 #. L10n: hint for the button that show/hides hiking trails on the map
-#: views/components/place-switch.jade:159
+#: views/components/place-switch.jade:154
 #, fuzzy
 msgid "Hiking trails"
 msgstr "Wandelpaden"
 
 #. L10n: hint for the button that show/hides bike paths and tracks on the map
-#: views/components/place-switch.jade:162
+#: views/components/place-switch.jade:157
 #, fuzzy
 msgid "Bike paths and tracks"
 msgstr "Fietspaden en tracks"
 
 #. L10n: hint for the button that show/hides bike paths and tracks on the map
-#: views/components/place-switch.jade:162
+#: views/components/place-switch.jade:157
 #, fuzzy
 msgid "Hide bike paths and tracks"
 msgstr "Verbergen fietspaden en tracks"
 
 #. L10n: hint for the button that show/hides climbing routes on the map
-#: views/components/place-switch.jade:165
+#: views/components/place-switch.jade:160
 #, fuzzy
 msgid "Climbing routes"
 msgstr "Klimroutes"
 
 #. L10n: hint for the button that show/hides climbing routes on the map
-#: views/components/place-switch.jade:165
+#: views/components/place-switch.jade:160
 #, fuzzy
 msgid "Hide climbing routes"
 msgstr "Verbergen klimroutes"
 
 #. L10n: hint for the button that show/hides snowshoeing trails on the map
-#: views/components/place-switch.jade:168
+#: views/components/place-switch.jade:163
 #, fuzzy
 msgid "Hide snowshoeing trails"
 msgstr "Verbergen sneeuwschoenwandelen paden"
 
 #. L10n: hint for the button that show/hides snowshoeing trails on the map
-#: views/components/place-switch.jade:168
+#: views/components/place-switch.jade:163
 #, fuzzy
 msgid "Snowshoeing trails"
 msgstr "Sneeuwschoen routes"
 
 #. L10n: hint for the button that show/hides ski areas on the map
-#: views/components/place-switch.jade:171
+#: views/components/place-switch.jade:166
 #, fuzzy
 msgid "Hide ski areas"
 msgstr "Verbergen skigebieden"
 
 #. L10n: hint for the button that show/hides ski areas on the map
-#: views/components/place-switch.jade:171
+#: views/components/place-switch.jade:166
 #, fuzzy
 msgid "Ski areas"
 msgstr "Skigebieden"
 
 #. L10n: hint for the button that show/hides dive sites on the map. 'Dive site' is a spot suitable for scuba diving
-#: views/components/place-switch.jade:174
+#: views/components/place-switch.jade:169
 #, fuzzy
 msgid "Dive sites"
 msgstr "Duikplaatsen"
 
 #. L10n: hint for the button that show/hides dive sites on the map. 'Dive site' is a spot suitable for scuba diving
-#: views/components/place-switch.jade:174
+#: views/components/place-switch.jade:169
 #, fuzzy
 msgid "Hide dive sites"
 msgstr "Verbergen duikplaatsen"
 
 #. L10n: hint for the button that show/hides surf spots on the map. 'Surf spot' is a site suitable for surfing (wave riding)
-#: views/components/place-switch.jade:178
+#: views/components/place-switch.jade:173
 #, fuzzy
 msgid "Hide surf spots"
 msgstr "Verbergen surfspots"
 
 #. L10n: hint for the button that show/hides surf spots on the map. 'Surf spot' is a site suitable for surfing (wave riding)
-#: views/components/place-switch.jade:178
+#: views/components/place-switch.jade:173
 #, fuzzy
 msgid "Surf spots"
 msgstr "Surfspots"
 
 #. L10n: hint for the button that show/hides beaches on the map
-#: views/components/place-switch.jade:181
+#: views/components/place-switch.jade:176
 #, fuzzy
 msgid "Beaches"
 msgstr "Stranden"
 
 #. L10n: hint for the button that show/hides beaches on the map
-#: views/components/place-switch.jade:181
+#: views/components/place-switch.jade:176
 #, fuzzy
 msgid "Hide beaches"
 msgstr "Stranden verbergen"
 
 #. L10n: hint for the button that show/hides scenic road accessible to passenger cars on the map. Roads accessible to passenger cars as opposed to roads suitable for jeeping and offroading roads (i.e. roads accessible to SUV's and small trucks)
-#: views/components/place-switch.jade:184
+#: views/components/place-switch.jade:179
 #, fuzzy
 msgid "Driving (passenger cars)"
 msgstr "Rijden (personenauto's)"
 
 #. L10n: hint for the button that show/hides scenic road accessible to passenger cars on the map. Roads accessible to passenger cars as opposed to roads suitable for jeeping and offroading roads (i.e. roads accessible to SUV's and small trucks)
-#: views/components/place-switch.jade:184
+#: views/components/place-switch.jade:179
 #, fuzzy
 msgid "Hide driving"
 msgstr "Verbergen rijden"
 
 #. L10n: hint for the button that show/hides scenic roads suitable for jeeping and offroading on the map. Roads suitable for jeeping and offroading roads (i.e. roads accessible to SUV's and small trucks) as opposed to roads accessible to passenger cars
-#: views/components/place-switch.jade:188
+#: views/components/place-switch.jade:183
 #, fuzzy
 msgid "Hide jeeping and offroading"
 msgstr "Verbergen jeeping en offroading"
 
 #. L10n: hint for the button that show/hides scenic roads suitable for jeeping and offroading on the map. Roads suitable for jeeping and offroading roads (i.e. roads accessible to SUV's and small trucks) as opposed to roads accessible to passenger cars
-#: views/components/place-switch.jade:188
+#: views/components/place-switch.jade:183
 #, fuzzy
 msgid "Jeeping and offroading"
 msgstr "Jeeping en offroading"
 
 #. L10n: hint for the button that show/hides motorcycling routes on the map
-#: views/components/place-switch.jade:191
+#: views/components/place-switch.jade:186
 #, fuzzy
 msgid "Hide motorcycling routes"
 msgstr "Verbergen motorrijden routes"
 
 #. L10n: hint for the button that show/hides motorcycling routes on the map
-#: views/components/place-switch.jade:191
+#: views/components/place-switch.jade:186
 #, fuzzy
 msgid "Motorcycling routes"
 msgstr "Motorrijden routes"
 
 #. L10n: hint for the button that show/hides ATV trails on the map. ATV stands for an all-terrain vehicle, also known as a quad
-#: views/components/place-switch.jade:194
+#: views/components/place-switch.jade:189
 #, fuzzy
 msgid "ATV trails"
 msgstr "ATV paden"
 
 #. L10n: hint for the button that show/hides ATV trails on the map. ATV stands for an all-terrain vehicle, also known as a quad
-#: views/components/place-switch.jade:194
+#: views/components/place-switch.jade:189
 #, fuzzy
 msgid "Hide ATV trails"
 msgstr "Verbergen ATV paden"
 
 #. L10n: hint for the button that show/hides scenic overlooks and vista points on the map
-#: views/components/place-switch.jade:197
+#: views/components/place-switch.jade:192
 #, fuzzy
 msgid "Hide scenic overlooks and vista points"
 msgstr "Verbergen schilderachtige kijkt uit en vista punten"
 
 #. L10n: hint for the button that show/hides scenic overlooks and vista points on the map
-#: views/components/place-switch.jade:197
+#: views/components/place-switch.jade:192
 #, fuzzy
 msgid "Scenic overlooks and vista points"
 msgstr "Schilderachtige kijkt uit en vista punten"
 
 #. L10n: hint for the button that show/hides other places on the map. 'Other places' as in categories of places not listed elsewhere
-#: views/components/place-switch.jade:200
+#: views/components/place-switch.jade:195
 #, fuzzy
 msgid "Hide other places"
 msgstr "Verbergen andere plaatsen"
 
 #. L10n: hint for the button that show/hides other places on the map. 'Other places' as in categories of places not listed elsewhere
-#: views/components/place-switch.jade:200
+#: views/components/place-switch.jade:195
 #, fuzzy
 msgid "Other places"
 msgstr "Andere plaatsen"
 
 #. L10n: hint for the button that show/hides other trips of the user on the map
-#: views/components/place-switch.jade:203
+#: views/components/place-switch.jade:198
 #, fuzzy
 msgid "Hide my other trips"
 msgstr "Verberg mijn andere reizen"
 
 #. L10n: hint for the button that show/hides other trips of the user on the map
-#: views/components/place-switch.jade:203
+#: views/components/place-switch.jade:198
 #, fuzzy
 msgid "My other trips"
 msgstr "Mijn andere reizen"
 
 #. L10n: hint for the button that show/hides stops from user's other trips on the map
-#: views/components/place-switch.jade:206
+#: views/components/place-switch.jade:201
 #, fuzzy
 msgid "Hide stops from my other trips"
 msgstr "Verbergen haltes van mijn andere reizen"
 
 #. L10n: hint for the button that show/hides stops from user's other trips on the map
-#: views/components/place-switch.jade:206
+#: views/components/place-switch.jade:201
 #, fuzzy
 msgid "Stops from my other trips"
 msgstr "Haltes van mijn andere reizen"
 
 #. L10n: hint for the button that show/hides places, routes and tracks from an imported (uploaded) file on the map
 #. L10n: hint for the button that show/hides places, routes and tracks imported (uploaded) from a file on the map
-#: views/components/place-switch.jade:209
-#: views/components/place-switch.jade:250
+#: views/components/place-switch.jade:204
+#: views/components/place-switch.jade:243
 #, fuzzy
 msgid "Hide places, routes and tracks from file"
 msgstr "Verberg plaatsen, routes en tracks uit bestand"
 
 #. L10n: hint for the button that show/hides places, routes and tracks from an imported (uploaded) file on the map
 #. L10n: hint for the button that show/hides places, routes and tracks imported (uploaded) from a file on the map
-#: views/components/place-switch.jade:209
-#: views/components/place-switch.jade:250
+#: views/components/place-switch.jade:204
+#: views/components/place-switch.jade:243
 #, fuzzy
 msgid "Places, routes and tracks from file"
 msgstr "Plaatsen, routes en tracks uit bestand"
 
 #. L10n: hint for the button that show/hides places, routes and tracks imported from a website on the map. User configures which website to import places from
 #. L10n: hint for the button that show/hides places, routes and tracks imported from a website on the map
-#: views/components/place-switch.jade:212
-#: views/components/place-switch.jade:256
+#: views/components/place-switch.jade:207
+#: views/components/place-switch.jade:249
 #, fuzzy
 msgid "Hide places, routes and tracks from website"
 msgstr "Verberg plaatsen, routes en tracks van de website"
 
 #. L10n: hint for the button that show/hides places, routes and tracks imported from a website on the map. User configures which website to import places from
 #. L10n: hint for the button that show/hides places, routes and tracks imported from a website on the map
-#: views/components/place-switch.jade:212
-#: views/components/place-switch.jade:256
+#: views/components/place-switch.jade:207
+#: views/components/place-switch.jade:249
 #, fuzzy
 msgid "Places, routes and tracks from website"
 msgstr "Plaatsen, routes en tracks van de website"
 
 #. L10n: hint for the button that show/hides museums and man-made structures (buildings and monuments) on the map
-#: views/components/place-switch.jade:217
+#: views/components/place-switch.jade:212
 #, fuzzy
 msgid "Hide museums and man-made structures"
 msgstr "Verbergen musea en door de mens gemaakte structuren"
 
 #. L10n: hint for the button that show/hides museums and man-made structures (buildings and monuments) on the map
-#: views/components/place-switch.jade:217
+#: views/components/place-switch.jade:212
 #, fuzzy
 msgid "Museums and man-made structures"
 msgstr "Musea en kunstmatige structuren"
 
 #. L10n: hint for the button that show/hides parks and natural features on the map. 'Natural feature' - anything outdoors that is not man-made
-#: views/components/place-switch.jade:220
+#: views/components/place-switch.jade:215
 #, fuzzy
 msgid "Hide parks and natural features"
 msgstr "Verbergen parken en natuurlijke kenmerken"
 
 #. L10n: hint for the button that show/hides parks and natural features on the map. 'Natural feature' - anything outdoors that is not man-made
-#: views/components/place-switch.jade:220
+#: views/components/place-switch.jade:215
 #, fuzzy
 msgid "Parks and natural features"
 msgstr "Parken en natuurlijke kenmerken"
 
 #. L10n: hint for the button that show/hides outdoor sports and activities on the map
-#: views/components/place-switch.jade:223
+#: views/components/place-switch.jade:218
 #, fuzzy
 msgid "Hide outdoor sports and activities"
 msgstr "Verbergen outdoor sporten en activiteiten"
 
 #. L10n: hint for the button that show/hides outdoor sports and activities on the map
-#: views/components/place-switch.jade:223
+#: views/components/place-switch.jade:218
 #, fuzzy
 msgid "Outdoor sports and activities"
 msgstr "Outdoor sporten en activiteiten"
 
 #. L10n: hint for the button that show/hides beach and water recreation spots on the map
-#: views/components/place-switch.jade:226
+#: views/components/place-switch.jade:221
 #, fuzzy
 msgid "Beach and water recreation"
 msgstr "Strand en waterrecreatie"
 
 #. L10n: hint for the button that show/hides beach and water recreation spots on the map
-#: views/components/place-switch.jade:226
+#: views/components/place-switch.jade:221
 #, fuzzy
 msgid "Hide beach and water recreation"
 msgstr "Verbergen strand en waterrecreatie"
 
 #. L10n: hint for the button that show/hides scenic byways and backroads on the map
-#: views/components/place-switch.jade:229
+#: views/components/place-switch.jade:224
 #, fuzzy
 msgid "Hide scenic byways and backroads"
 msgstr "Verbergen schilderachtige steegjes en weggetjes"
 
 #. L10n: hint for the button that show/hides scenic byways and backroads on the map
-#: views/components/place-switch.jade:229
+#: views/components/place-switch.jade:224
 #, fuzzy
 msgid "Scenic byways and backroads"
 msgstr "Landschappelijke zijwegen en backroads"
 
 #. L10n: hint for the button that show/hides unpaved roads and off-road trails on the map
-#: views/components/place-switch.jade:232
+#: views/components/place-switch.jade:227
 #, fuzzy
 msgid "Hide unpaved roads and off-road trails"
 msgstr "Verbergen onverharde wegen en off-road paden"
 
 #. L10n: hint for the button that show/hides unpaved roads and off-road trails on the map
-#: views/components/place-switch.jade:232
+#: views/components/place-switch.jade:227
 #, fuzzy
 msgid "Unpaved roads and off-road trails"
 msgstr "Onverharde wegen en off-road paden"
 
 #. L10n: hint for the button that show/hides all other categories of places on the map
-#: views/components/place-switch.jade:235
+#: views/components/place-switch.jade:230
 #, fuzzy
 msgid "Everything else"
 msgstr "Al de rest"
 
 #. L10n: hint for the button that show/hides all other categories of places on the map
-#: views/components/place-switch.jade:235
+#: views/components/place-switch.jade:230
 #, fuzzy
 msgid "Hide everything else"
 msgstr "Verberg alles anders"
 
 #. L10n: hint for the button that show/hides user's other trips and imported routes and tracks on the map
-#: views/components/place-switch.jade:238
+#: views/components/place-switch.jade:233
 #, fuzzy
 msgid "Hide my other trips, routes and tracks"
 msgstr "Verberg mijn andere reizen, routes en tracks"
 
 #. L10n: hint for the button that show/hides user's other trips and imported routes and tracks on the map
-#: views/components/place-switch.jade:238
+#: views/components/place-switch.jade:233
 #, fuzzy
 msgid "My other trips, routes and tracks"
 msgstr "Mijn andere reizen, routes en tracks"
 
 #. L10n: Caption of a dialog to provide additional parameters needed to display places in the Find drawer (for instance a name of file to import places from)
-#: views/components/place-switch.jade:262
+#: views/components/place-switch.jade:255
 #, fuzzy
 msgid "Configure Find"
 msgstr "Configureren zoekopties"
@@ -5153,7 +5136,7 @@ msgstr "Klik om geografische coördinaten te wijzigen"
 msgid "Navigate to exact coordinates"
 msgstr "Exacte coördinaten"
 
-#: views/components/step-detail.jade:499 views/components/trip-detail.jade:373
+#: views/components/step-detail.jade:499 views/components/trip-detail.jade:375
 #, fuzzy
 msgid "Click to edit description"
 msgstr "Klik om een ​​beschrijving"
@@ -5206,7 +5189,7 @@ msgid "Change route type"
 msgstr "Verander het type route"
 
 #. L10n: travel mode: travel by car
-#: views/components/step-detail.jade:539 views/components/trip-detail.jade:358
+#: views/components/step-detail.jade:539 views/components/trip-detail.jade:360
 #, fuzzy
 msgid "Driving"
 msgstr "Rijden"
@@ -5224,7 +5207,7 @@ msgid "Bicycle"
 msgstr "Fiets"
 
 #. L10n: travel mode: walk
-#: views/components/step-detail.jade:551 views/components/trip-detail.jade:360
+#: views/components/step-detail.jade:551 views/components/trip-detail.jade:362
 #, fuzzy
 msgid "Walking"
 msgstr "Wandelen"
@@ -6120,7 +6103,7 @@ msgid "pm"
 msgstr ""
 
 #: views/components/trip-config-item.jade:99
-#: views/components/trip-detail.jade:336
+#: views/components/trip-detail.jade:338
 #, fuzzy
 msgid "Rent a Car"
 msgstr "Huur een auto"
@@ -6510,122 +6493,126 @@ msgstr "Ik zal beheren tanken stopt mezelf"
 msgid "Let Furkot schedule refueling stops automatically"
 msgstr "Laat Furkot schema tanken stopt automatisch"
 
-#: views/components/trip-detail.jade:327
+#. L10n: 'fill-up in the morning' means 'let Furkot schedule a refueling stop in the morning after leaving overnight lodging'
+#: views/components/trip-detail.jade:328
 msgid "Click to fill-up when leaving in the morning"
 msgstr ""
 
-#: views/components/trip-detail.jade:327
+#. L10n: 'fill-up in the morning' means 'let Furkot schedule a refueling stop in the morning after leaving overnight lodging'
+#: views/components/trip-detail.jade:328
 msgid "Click to skip filling-up in the morning"
 msgstr ""
 
-#: views/components/trip-detail.jade:330
+#. L10n: 'fill-up at night' means 'let Furkot schedule a refueling stop before arriving at the lodging to spend the night'
+#: views/components/trip-detail.jade:332
 #, fuzzy
 msgid "Click to fill-up before stopping for the night"
 msgstr ""
 "Klik om het tijdstip te wijzigen waarop u begint met het reizen deze dag"
 
-#: views/components/trip-detail.jade:330
+#. L10n: 'fill-up at night' means 'let Furkot schedule a refueling stop before arriving at the lodging to spend the night'
+#: views/components/trip-detail.jade:332
 #, fuzzy
 msgid "Click to skip filling-up at night"
 msgstr "Klik om het aantal nachten wijzigen"
 
-#: views/components/trip-detail.jade:342
+#: views/components/trip-detail.jade:344
 #, fuzzy
 msgid "Book a Flight from"
 msgstr "Boek een vlucht van"
 
-#: views/components/trip-detail.jade:343
+#: views/components/trip-detail.jade:345
 #, fuzzy
 msgid "Airport or City"
 msgstr "Luchthaven of Stad"
 
-#: views/components/trip-detail.jade:343
+#: views/components/trip-detail.jade:345
 #, fuzzy
 msgid "Click to enter airport to fly from"
 msgstr "Klik om de luchthaven te vliegen uit te voeren"
 
-#: views/components/trip-detail.jade:344
+#: views/components/trip-detail.jade:346
 #, fuzzy
 msgid "Fly from home"
 msgstr "Vliegen vanuit huis"
 
 #. L10n: Label for the total distance of the trip
-#: views/components/trip-detail.jade:352
+#: views/components/trip-detail.jade:354
 #, fuzzy
 msgid "Distance "
 msgstr "Afstand"
 
 #. L10n: total time of riding a motorcycle (not horseback riding)
-#: views/components/trip-detail.jade:357
+#: views/components/trip-detail.jade:359
 #, fuzzy
 msgid "Riding"
 msgstr "Paardrijden"
 
-#: views/components/trip-detail.jade:359
+#: views/components/trip-detail.jade:361
 #, fuzzy
 msgid "Biking"
 msgstr "Fietsen"
 
 #. L10n: Label for the average distance per day
-#: views/components/trip-detail.jade:364
+#: views/components/trip-detail.jade:366
 #, fuzzy
 msgid "Per Day"
 msgstr "Per dag"
 
 #. L10n: Label for the average travel time per day
-#: views/components/trip-detail.jade:368
+#: views/components/trip-detail.jade:370
 #, fuzzy
 msgid "Average"
 msgstr "Gemiddelde"
 
-#: views/components/trip-detail.jade:373
+#: views/components/trip-detail.jade:375
 #, fuzzy
 msgid "Description of this trip"
 msgstr "Beschrijving van deze reis"
 
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify trips. If user specifies tags in the Trip drawer, they can then view trips in the My Trips page grouped by those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless proving the second one in parantheses () enhances understanding
-#: views/components/trip-detail.jade:377
+#: views/components/trip-detail.jade:379
 #, fuzzy
 msgid "Click to edit trip tags"
 msgstr "Klik hier voor reis-tags bewerken"
 
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify trips. If user specifies tags in the Trip drawer, they can then view trips in the My Trips page grouped by those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless proving the second one in parantheses () enhances understanding
-#: views/components/trip-detail.jade:377
+#: views/components/trip-detail.jade:379
 #, fuzzy
 msgid "Comma-separated trip tags (labels)"
 msgstr "Komma's gescheiden trip-tags (labels)"
 
-#: views/components/trip-detail.jade:386
+#: views/components/trip-detail.jade:388
 msgid "Access this trip without Internet connection"
 msgstr ""
 
-#: views/components/trip-detail.jade:388
+#: views/components/trip-detail.jade:390
 #, fuzzy
 msgid "No begin date."
 msgstr "Geen begindatum."
 
-#: views/components/trip-detail.jade:388
+#: views/components/trip-detail.jade:390
 #, fuzzy
 msgid "No end date."
 msgstr "Geen einddatum."
 
-#: views/components/trip-detail.jade:388
+#: views/components/trip-detail.jade:390
 #, fuzzy
 msgid "Trip ends before it begins."
 msgstr "Trip eindigt voordat het begint."
 
-#: views/components/trip-detail.jade:395
+#: views/components/trip-detail.jade:397
 #, fuzzy
 msgid "No lodgings to book"
 msgstr "Geen onderdak te boeken"
 
-#: views/components/trip-detail.jade:397
+#: views/components/trip-detail.jade:399
 #, fuzzy
 msgid "This trip has no overnight stops to book lodging accommodations for."
 msgstr ""
 "Deze reis is niet 's nachts stopt de overnachting boeken accommodaties voor."
 
-#: views/components/trip-detail.jade:398
+#: views/components/trip-detail.jade:400
 #, fuzzy
 msgid ""
 "Booking hotels for the trip works best when you plan your itinerary first."
@@ -6634,7 +6621,7 @@ msgstr ""
 "plannen."
 
 #. L10n: square brackets [] denote a button (icon)
-#: views/components/trip-detail.jade:400
+#: views/components/trip-detail.jade:402
 #, fuzzy
 msgid ""
 "Add some overnight stops, pick hotels for them and then use the book [] "
@@ -6643,19 +6630,19 @@ msgstr ""
 "Voeg wat overnachtingen, hotels voor ze op te pakken en vervolgens het boek "
 "[] knop om te laten Furkot u te helpen met reserveringen."
 
-#: views/components/trip-detail.jade:403
+#: views/components/trip-detail.jade:405
 #, fuzzy
 msgid "All lodgings booked"
 msgstr "Alle accommodaties geboekt"
 
-#: views/components/trip-detail.jade:404
+#: views/components/trip-detail.jade:406
 #, fuzzy
 msgid "All future lodging accommodations for this trip are already booked."
 msgstr ""
 "Alle toekomstige accommodatie onderkomen voor deze reis zijn al geboekt."
 
 #. L10n: square brackets [] denote a button (icon)
-#: views/components/trip-detail.jade:406
+#: views/components/trip-detail.jade:408
 #, fuzzy
 msgid ""
 "If you plan more overnight stops, add them to the trip now and use the book "
@@ -6664,23 +6651,23 @@ msgstr ""
 "Als u van plan meer overnachtingen, voeg ze toe aan de reis nu en gebruik "
 "het boek [] knop om te laten Furkot u te helpen met reserveringen."
 
-#: views/components/trip-detail.jade:409
+#: views/components/trip-detail.jade:411
 #, fuzzy
 msgid "Automatically scheduled refueling stop"
 msgstr "Automatisch gepland tankstop"
 
-#: views/components/trip-detail.jade:411
+#: views/components/trip-detail.jade:413
 #, fuzzy
 msgid "This is an automatically scheduled refueling stop."
 msgstr "Dit is een automatisch geplande tankstop."
 
-#: views/components/trip-detail.jade:412
+#: views/components/trip-detail.jade:414
 #, fuzzy
 msgid "It will disappear when you add a filling station before it."
 msgstr ""
 "Het zal verdwijnen wanneer u een tankstation toe te voegen voordat het."
 
-#: views/components/trip-detail.jade:414
+#: views/components/trip-detail.jade:416
 #, fuzzy
 msgid ""
 "You can control frequency of refueling stops by changing the driving range."
@@ -6688,19 +6675,19 @@ msgstr ""
 "U kunt de frequentie van tanken stops controleren door het veranderen van de "
 "driving range."
 
-#: views/components/trip-detail.jade:415
+#: views/components/trip-detail.jade:417
 #, fuzzy
 msgid "You can also disable automatic scheduling of refueling stops."
 msgstr ""
 "U kunt ook de automatische planning van tanken haltes uit te schakelen."
 
 #. L10n: Caption of the message displayed when synchronizing Furkot trip plan with TripIt itinerary
-#: views/components/trip-detail.jade:419 views/components/trip-detail.jade:450
+#: views/components/trip-detail.jade:421 views/components/trip-detail.jade:452
 #, fuzzy
 msgid "Update trip"
 msgstr "Trip-update"
 
-#: views/components/trip-detail.jade:422
+#: views/components/trip-detail.jade:424
 #, fuzzy
 msgid ""
 "Furkot would like to synchronize your trip plan with your TripIt itinerary."
@@ -6708,29 +6695,29 @@ msgstr ""
 "Furkot wil graag uw reis te plannen synchroniseren met uw TripIt reisschema."
 
 #. L10n: Label for the field displaying numner of stops to update when synchronizing Furkot trip plan with TripIt itinerary
-#: views/components/trip-detail.jade:426
+#: views/components/trip-detail.jade:428
 #, fuzzy
 msgid "Stops to update"
 msgstr "Stopt bij te werken"
 
 #. L10n: Label for the field displaying numner of new stops to add when synchronizing Furkot trip plan with TripIt itinerary
-#: views/components/trip-detail.jade:430
+#: views/components/trip-detail.jade:432
 #, fuzzy
 msgid "New stops to add"
 msgstr "Nieuwe stopt om toe te voegen"
 
 #. L10n: Label for the field displaying numner of stops that user will need to review when synchronizing Furkot trip plan with TripIt itinerary
-#: views/components/trip-detail.jade:434
+#: views/components/trip-detail.jade:436
 #, fuzzy
 msgid "Stops to review"
 msgstr "Stopt bij te werken"
 
-#: views/components/trip-detail.jade:437
+#: views/components/trip-detail.jade:439
 #, fuzzy
 msgid "Do you want to proceed?"
 msgstr "Wilt u doorgaan?"
 
-#: views/components/trip-detail.jade:439
+#: views/components/trip-detail.jade:441
 #, fuzzy
 msgid ""
 "If your Furkot trip plan already includes all the stops corresponding to the "
@@ -6744,7 +6731,7 @@ msgstr ""
 "Furkot alvorens opnieuw te synchroniseren."
 
 #. L10n: square brackets [] denote a button (icon) - please keep in the translation
-#: views/components/trip-detail.jade:441
+#: views/components/trip-detail.jade:443
 msgid ""
 "At least one lodging confirmation in your TripIt itinerary cannot "
 "synchronize automatically. You can review and add it to a stop using the "
@@ -6752,94 +6739,94 @@ msgid ""
 msgstr ""
 
 #. L10n: square brackets [] denote a button (icon) - please keep in the translation
-#: views/components/trip-detail.jade:443
+#: views/components/trip-detail.jade:445
 msgid ""
 "If you prefer to review lodging confirmations from your TripIt itinerary "
 "before adding them to stops cancel this operation and use the match [] "
 "button."
 msgstr ""
 
-#: views/components/trip-detail.jade:453
+#: views/components/trip-detail.jade:455
 #, fuzzy
 msgid "Location access denied"
 msgstr "Locatie toegang geweigerd"
 
-#: views/components/trip-detail.jade:455
+#: views/components/trip-detail.jade:457
 #, fuzzy
 msgid ""
 "Furkot needs access to your location to determine the city of departure."
 msgstr "Furkot heeft toegang tot uw locatie om de stad van vertrek te bepalen."
 
 #. L10n: Caption of a message displayed when Furkot cannot obtain user location
-#: views/components/trip-detail.jade:458 views/components/trip-detail.jade:463
+#: views/components/trip-detail.jade:460 views/components/trip-detail.jade:465
 #, fuzzy
 msgid "Location unavailable"
 msgstr "Locatie niet beschikbaar"
 
-#: views/components/trip-detail.jade:460
+#: views/components/trip-detail.jade:462
 #, fuzzy
 msgid "Furkot cannot obtain your location to determine the city of departure."
 msgstr "Furkot kunt uw locatie om de stad van vertrek bepalen niet verkrijgen."
 
-#: views/components/trip-detail.jade:466
+#: views/components/trip-detail.jade:468
 #, fuzzy
 msgid "Offline access enabled"
 msgstr "Locatie toegang geweigerd"
 
-#: views/components/trip-detail.jade:468
+#: views/components/trip-detail.jade:470
 #, fuzzy
 msgid "This trip is now ready for offline access."
 msgstr "Deze reis is eigendom van iemand anders."
 
-#: views/components/trip-detail.jade:471
+#: views/components/trip-detail.jade:473
 msgid ""
 "When you open this trip on any computer, phone or tablet, Furkot will cache "
 "it locally."
 msgstr ""
 
-#: views/components/trip-detail.jade:473
+#: views/components/trip-detail.jade:475
 msgid "You will not need Internet connection to access this trip."
 msgstr ""
 
-#: views/components/trip-detail.jade:476
+#: views/components/trip-detail.jade:478
 #, fuzzy
 msgid "Offline access disabled"
 msgstr "Locatie toegang geweigerd"
 
-#: views/components/trip-detail.jade:478
+#: views/components/trip-detail.jade:480
 #, fuzzy
 msgid "This trip will no longer be cached locally for offline access."
 msgstr "Deze reis zal niet langer op uw mobiele apparaat worden weergegeven."
 
-#: views/components/trip-detail.jade:481
+#: views/components/trip-detail.jade:483
 #, fuzzy
 msgid "You will need Internet connection to access this trip."
 msgstr "zal de nieuwe eigenaar van deze reis geworden."
 
 #. L10n: Caption of the message asking to confirm user intention to delete a trip
-#: views/components/trip-detail.jade:484 views/components/trip-detail.jade:489
-#: views/components/trip-detail.jade:492
+#: views/components/trip-detail.jade:486 views/components/trip-detail.jade:491
+#: views/components/trip-detail.jade:494
 #, fuzzy
 msgid "Delete trip"
 msgstr "Delete trip"
 
-#: views/components/trip-detail.jade:486 views/components/trip-detail.jade:499
+#: views/components/trip-detail.jade:488 views/components/trip-detail.jade:501
 #, fuzzy
 msgid "Are you sure you want to delete this trip?"
 msgstr "Bent u zeker dat u deze reis wilt verwijderen?"
 
-#: views/components/trip-detail.jade:494
+#: views/components/trip-detail.jade:496
 #, fuzzy
 msgid "This trip is shared by other people."
 msgstr "Deze reis wordt gedeeld door andere mensen."
 
-#: views/components/trip-detail.jade:496
+#: views/components/trip-detail.jade:498
 #, fuzzy
 msgid "Once you delete it nobody will be able to access it."
 msgstr ""
 "Zodra u het verwijdert niemand in staat zal zijn om toegang te krijgen."
 
-#: views/components/trip-detail.jade:501
+#: views/components/trip-detail.jade:503
 #, fuzzy
 msgid "Fold this section"
 msgstr "Vouw dit gedeelte"
@@ -7700,26 +7687,52 @@ msgstr ""
 "meer attracties en accommodatie opties."
 
 #, fuzzy
-#~ msgid ""
-#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
-#~ msgstr ""
-#~ "Als u al een [reis], zorg ervoor dat het heeft de optie _Phone_ "
-#~ "ingeschakeld."
+#~ msgid "Hide deals and discounts"
+#~ msgstr "Verbergen aanbiedingen en kortingen"
 
-#~ msgid "Weather"
-#~ msgstr "Weer"
+#, fuzzy
+#~ msgid "Book"
+#~ msgstr "Boek"
 
 #, fuzzy
 #~ msgid "Select KML, GPX or CSV file"
 #~ msgstr "Selecteer KML, GPX of CSV-bestand"
 
 #, fuzzy
-#~ msgid "Sync"
-#~ msgstr "Sync"
+#~ msgid "Furkot assumes it is a walking trip."
+#~ msgstr ""
+#~ "Op basis van tijdsgegevens gaat Furkot ervan uit dat dit een trip te voet "
+#~ "is."
 
 #, fuzzy
-#~ msgid "Deals from Yipit"
-#~ msgstr "Aanbiedingen van Yipit"
+#~ msgid "This trip is now ready to be displayed on your mobile device."
+#~ msgstr "Deze reis is nu klaar om op uw mobiele apparaat wordt weergegeven."
+
+#, fuzzy
+#~ msgid "Furkot assumes it is a driving trip."
+#~ msgstr ""
+#~ "Op basis van tijdsgegevens gaat Furkot ervan uit dat dit een trip met de "
+#~ "auto is."
+
+#, fuzzy
+#~ msgid "None"
+#~ msgstr "Niets"
+
+#, fuzzy
+#~ msgid "Add this deal as a skipped stop"
+#~ msgstr "Voeg deze deal als een overgeslagen stop"
+
+#, fuzzy
+#~ msgid "ALL"
+#~ msgstr "ALL"
+
+#, fuzzy
+#~ msgid "Full Site"
+#~ msgstr "De volledige site"
+
+#, fuzzy
+#~ msgid "Seasonal closures"
+#~ msgstr "Seizoensgebonden sluitingen"
 
 #, fuzzy
 #~ msgid ""
@@ -7730,45 +7743,250 @@ msgstr ""
 #~ "mobiele apparaat."
 
 #, fuzzy
-#~ msgid "Furkot assumes it is a bicycle trip."
-#~ msgstr ""
-#~ "Op basis van tijdsgegevens gaat Furkot ervan uit dat dit een fietstrip is."
-
-#, fuzzy
-#~ msgid "Click to modify the time at which you start driving every day"
-#~ msgstr "Klik om het tijdstip waarop je gaat rijden elke dag te wijzigen"
-
-#, fuzzy
-#~ msgid "Preserve this route when adding new stops"
-#~ msgstr "Behouden deze route bij het toevoegen van nieuwe haltes"
+#~ msgid "Re-route when adding new stops"
+#~ msgstr "Re-route bij het toevoegen van nieuwe haltes"
 
 #, fuzzy
 #~ msgid "Hide museums from Go Historic"
 #~ msgstr "Verbergen musea van Go Historic"
 
 #, fuzzy
-#~ msgid "day"
-#~ msgstr "dag"
+#~ msgid "See user reviews at Go Historic"
+#~ msgstr "Zie gebruikersbeoordelingen bij Go Historic"
+
+#~ msgid "Preserve / allow re-routing"
+#~ msgstr "Behouden / re-routing toestaan"
+
+#~ msgid "Label Roads"
+#~ msgstr "Toon Straatnamen"
 
 #, fuzzy
-#~ msgid "See the business offering this deal"
-#~ msgstr "Zie de business aanbieden van deze deal"
+#~ msgid "Sign Out"
+#~ msgstr "Uitloggen"
 
 #, fuzzy
-#~ msgid "See this deal details at Yipit"
-#~ msgstr "Zie deze deal details op Yipit"
+#~ msgid "Discount"
+#~ msgstr "Korting"
+
+#, fuzzy
+#~ msgid "Remove this trip from phone"
+#~ msgstr "Verwijder deze reis van telefoon"
+
+#, fuzzy
+#~ msgid "The answers don't have to be exact."
+#~ msgstr "De antwoorden hoeven niet precies te zijn."
+
+#, fuzzy
+#~ msgid ""
+#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
+#~ "trip."
+#~ msgstr ""
+#~ "Open Furkot op je telefoon of tablet naar de up-to-date versie van deze "
+#~ "reis te zien."
+
+#, fuzzy
+#~ msgid "Do you remember any names of the trips you planned with Furkot?"
+#~ msgstr "Weet je nog geen namen van de reizen die u gepland met Furkot?"
+
+#, fuzzy
+#~ msgid "Looks like there are no trips to show here."
+#~ msgstr "Lijkt erop dat er geen reizen om hier te laten zien."
+
+#, fuzzy
+#~ msgid "Guidebooks, deals and discounts"
+#~ msgstr "Gidsen, aanbiedingen en kortingen"
+
+#, fuzzy
+#~ msgid "Feedback"
+#~ msgstr "Terugkoppeling"
+
+#, fuzzy
+#~ msgid "Reserve a Lodging"
+#~ msgstr "Reserveer een accommodatie"
+
+#, fuzzy
+#~ msgid "Hide hotel chains"
+#~ msgstr "Verbergen hotelketens"
+
+#~ msgid "Places you want to visit - your Atlas Obscura user name"
+#~ msgstr "Plaatsen die je wilt bezoeken - je Atlas Obscura gebruikersnaam"
+
+#, fuzzy
+#~ msgid "Furkot assumes it is a bicycle trip."
+#~ msgstr ""
+#~ "Op basis van tijdsgegevens gaat Furkot ervan uit dat dit een fietstrip is."
+
+#, fuzzy
+#~ msgid "Guidebook"
+#~ msgstr "Gids"
+
+#, fuzzy
+#~ msgid "Deals from Yipit"
+#~ msgstr "Aanbiedingen van Yipit"
+
+#, fuzzy
+#~ msgid "Looking for trip ideas?"
+#~ msgstr "Op zoek naar een reis ideeën?"
+
+#, fuzzy
+#~ msgid "Click to modify the time by which you end driving every day"
+#~ msgstr "Klik om de tijd waarop je uiteindelijk elke dag rijden wijzigen"
+
+#~ msgid "Analyze"
+#~ msgstr "Analiseer"
+
+#~ msgid "Undo unlock route"
+#~ msgstr "Route ontgrendelen ongedaan maken"
+
+#, fuzzy
+#~ msgid "Feel free to press [Done] at any point."
+#~ msgstr "Voel je vrij om op [Done] op elk punt."
 
 #, fuzzy
 #~ msgid "Deal"
 #~ msgstr "Transactie"
 
 #, fuzzy
-#~ msgid "House"
-#~ msgstr "Huis"
+#~ msgid "Guidebooks and travel guides"
+#~ msgstr "Gidsen en reisgidsen"
+
+#~ msgid "Redo unlock route"
+#~ msgstr "Route ontgrendelen overdoen"
 
 #, fuzzy
-#~ msgid "Mobile"
-#~ msgstr "Mobiel"
+#~ msgid "Visit this museum"
+#~ msgstr "Bezoek dit museum"
+
+#, fuzzy
+#~ msgid ""
+#~ "Take itinerary of your road trip, weekend outing, family vacation with "
+#~ "you while traveling. Use Furkot on your phone or tablet on the go."
+#~ msgstr ""
+#~ "Neem de route van uw reis, weekend uitje, familie vakantie met u tijdens "
+#~ "het reizen. Gebruik Furkot op je telefoon of tablet op de weg."
+
+#, fuzzy
+#~ msgid "Furkot assumes it is a riding trip."
+#~ msgstr ""
+#~ "Op basis van tijdsgegevens gaat Furkot ervan uit dat dit een trip met de "
+#~ "auto is."
+
+#, fuzzy
+#~ msgid "Click to leave suggestions"
+#~ msgstr "Klik om suggesties te verlaten"
+
+#, fuzzy
+#~ msgid "All"
+#~ msgstr "Alle"
+
+#, fuzzy
+#~ msgid "See the business offering this deal"
+#~ msgstr "Zie de business aanbieden van deze deal"
+
+#, fuzzy
+#~ msgid ""
+#~ "Not to worry, open Furkot's [full site], go to the trip and the driving "
+#~ "information will be automatically updated."
+#~ msgstr ""
+#~ "Geen zorgen te maken, opent Furkot's [volledige site], ga dan naar de "
+#~ "reis en de rij-informatie wordt automatisch bijgewerkt."
+
+#, fuzzy
+#~ msgid ""
+#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
+#~ msgstr ""
+#~ "Als u al een [reis], zorg ervoor dat het heeft de optie _Phone_ "
+#~ "ingeschakeld."
+
+#, fuzzy
+#~ msgid ""
+#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
+#~ msgstr ""
+#~ "Geen zorgen te maken, opent Furkot's [volledige site], waar u kunt een "
+#~ "nieuwe reis te plannen."
+
+#, fuzzy
+#~ msgid "Hide apartments, private rooms, B&Bs"
+#~ msgstr "Verbergen appartementen, privé-kamers, B & B"
+
+#, fuzzy
+#~ msgid "Please wait while Furkot is contacting the booking site"
+#~ msgstr "Geduld aub Furkot is contact opnemen met de boeking site"
+
+#, fuzzy
+#~ msgid "See this deal details at Yipit"
+#~ msgstr "Zie deze deal details op Yipit"
+
+#, fuzzy
+#~ msgid "Fold this museum details"
+#~ msgstr "Vouw dit museum informatie"
+
+#, fuzzy
+#~ msgid "day"
+#~ msgstr "dag"
+
+#, fuzzy
+#~ msgid "Send this trip to phone"
+#~ msgstr "Stuur deze reis naar telefoon"
+
+#, fuzzy
+#~ msgid "Stop address"
+#~ msgstr "Stop adres"
+
+#, fuzzy
+#~ msgid "Stop and use this deal"
+#~ msgstr "Stop en gebruik deze deal"
+
+#, fuzzy
+#~ msgid "When did you intend to travel?"
+#~ msgstr "Wanneer ben je van plan om te reizen?"
+
+#, fuzzy
+#~ msgid "Hide guidebooks, deals and discounts"
+#~ msgstr "Verbergen gidsen, aanbiedingen en kortingen"
+
+#, fuzzy
+#~ msgid "Museums from Go Historic"
+#~ msgstr "Musea van Go Historic"
+
+#, fuzzy
+#~ msgid "Which states/countries did you visit on your trips?"
+#~ msgstr "Welke staten / landen heb je te bezoeken op uw reizen?"
+
+#, fuzzy
+#~ msgid "Click to modify the time at which you start driving every day"
+#~ msgstr "Klik om het tijdstip waarop je gaat rijden elke dag te wijzigen"
+
+#, fuzzy
+#~ msgid ""
+#~ "Otherwise you can tell us more and we will try to verify your account."
+#~ msgstr ""
+#~ "Anders kunt u ons meer vertellen en we zullen proberen om uw account te "
+#~ "verifiëren."
+
+#, fuzzy
+#~ msgid "Directions courtesy of"
+#~ msgstr "Routebeschrijving met dank aan"
+
+#, fuzzy
+#~ msgid ""
+#~ "We'll be happy to reset your password, but we need more information to "
+#~ "identify your account."
+#~ msgstr ""
+#~ "We zullen blij zijn om uw wachtwoord opnieuw in te stellen, maar we meer "
+#~ "informatie om uw account te identificeren nodig."
+
+#, fuzzy
+#~ msgid "Hide deals from Yipit"
+#~ msgstr "Verbergen aanbiedingen van Yipit"
+
+#, fuzzy
+#~ msgid "Top"
+#~ msgstr "Top"
+
+#, fuzzy
+#~ msgid "Trips"
+#~ msgstr "Uitstapjes"
 
 #, fuzzy
 #~ msgid ""
@@ -7780,105 +7998,24 @@ msgstr ""
 #~ "produceren."
 
 #, fuzzy
-#~ msgid ""
-#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
-#~ "trip."
-#~ msgstr ""
-#~ "Open Furkot op je telefoon of tablet naar de up-to-date versie van deze "
-#~ "reis te zien."
-
-#, fuzzy
-#~ msgid "Navigate"
-#~ msgstr "Navigeren"
-
-#, fuzzy
-#~ msgid "Click to modify the time by which you end driving every day"
-#~ msgstr "Klik om de tijd waarop je uiteindelijk elke dag rijden wijzigen"
-
-#, fuzzy
-#~ msgid "When did you intend to travel?"
-#~ msgstr "Wanneer ben je van plan om te reizen?"
-
-#, fuzzy
-#~ msgid "Feedback"
-#~ msgstr "Terugkoppeling"
-
-#, fuzzy
-#~ msgid ""
-#~ "We'll be happy to reset your password, but we need more information to "
-#~ "identify your account."
-#~ msgstr ""
-#~ "We zullen blij zijn om uw wachtwoord opnieuw in te stellen, maar we meer "
-#~ "informatie om uw account te identificeren nodig."
-
-#, fuzzy
-#~ msgid ""
-#~ "Take itinerary of your road trip, weekend outing, family vacation with "
-#~ "you while traveling. Use Furkot on your phone or tablet on the go."
-#~ msgstr ""
-#~ "Neem de route van uw reis, weekend uitje, familie vakantie met u tijdens "
-#~ "het reizen. Gebruik Furkot op je telefoon of tablet op de weg."
-
-#, fuzzy
-#~ msgid "See description of this museum at Go Historic"
-#~ msgstr "Zie de beschrijving van dit museum bij Go Historic"
-
-#, fuzzy
-#~ msgid "Sign Out"
-#~ msgstr "Uitloggen"
-
-#~ msgid "If it is not, you can change it later."
-#~ msgstr "Indien niet, kan je dit later wijzigen."
-
-#, fuzzy
-#~ msgid "Hide apartments, private rooms, B&Bs"
-#~ msgstr "Verbergen appartementen, privé-kamers, B & B"
-
-#, fuzzy
-#~ msgid "Add this museum as a skipped stop"
-#~ msgstr "Voeg dit museum als een overgeslagen stop"
-
-#, fuzzy
-#~ msgid "Looks like there are no trips to show here."
-#~ msgstr "Lijkt erop dat er geen reizen om hier te laten zien."
-
-#, fuzzy
-#~ msgid "Stop address"
-#~ msgstr "Stop adres"
-
-#~ msgid "Undo unlock route"
-#~ msgstr "Route ontgrendelen ongedaan maken"
-
-#, fuzzy
-#~ msgid "Museums from Go Historic"
-#~ msgstr "Musea van Go Historic"
-
-#, fuzzy
-#~ msgid "Remove this trip from phone"
-#~ msgstr "Verwijder deze reis van telefoon"
-
-#, fuzzy
-#~ msgid "Directions courtesy of"
-#~ msgstr "Routebeschrijving met dank aan"
-
-#~ msgid "Redo unlock route"
-#~ msgstr "Route ontgrendelen overdoen"
-
-#, fuzzy
-#~ msgid "Top"
-#~ msgstr "Top"
-
-#, fuzzy
-#~ msgid "Hide hotel chains"
-#~ msgstr "Verbergen hotelketens"
+#~ msgid "Persons per room"
+#~ msgstr "Personen per kamer"
 
 #, fuzzy
 #~ msgid "Stops"
 #~ msgstr "Stopt"
 
 #, fuzzy
-#~ msgid "Click to leave suggestions"
-#~ msgstr "Klik om suggesties te verlaten"
+#~ msgid "Looks like driving information is missing from some trips."
+#~ msgstr "Ziet eruit als rij-informatie ontbreekt in sommige reizen."
+
+#, fuzzy
+#~ msgid "See description of this museum at Go Historic"
+#~ msgstr "Zie de beschrijving van dit museum bij Go Historic"
+
+#, fuzzy
+#~ msgid "Are you sure you want to enable it?"
+#~ msgstr "Bent u zeker dat u wilt inschakelen?"
 
 #, fuzzy
 #~ msgid ""
@@ -7890,92 +8027,43 @@ msgstr ""
 #~ "gebruikersnaam) is en, om uw beste herinnering, antwoord op een aantal "
 #~ "vragen over uw geplande reizen."
 
-#~ msgid "Preserve / allow re-routing"
-#~ msgstr "Behouden / re-routing toestaan"
+#, fuzzy
+#~ msgid "Experimental"
+#~ msgstr "Experimenteel"
 
 #, fuzzy
-#~ msgid "Furkot assumes it is a driving trip."
-#~ msgstr ""
-#~ "Op basis van tijdsgegevens gaat Furkot ervan uit dat dit een trip met de "
-#~ "auto is."
+#~ msgid "Mobile"
+#~ msgstr "Mobiel"
 
 #, fuzzy
-#~ msgid "Add this deal as a skipped stop"
-#~ msgstr "Voeg deze deal als een overgeslagen stop"
+#~ msgid "Trip removed from phone"
+#~ msgstr "Trip verwijderd uit de telefoon"
+
+#~ msgid "Weather"
+#~ msgstr "Weer"
 
 #, fuzzy
-#~ msgid "Full Site"
-#~ msgstr "De volledige site"
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "If it is not, you can change it later."
+#~ msgstr "Indien niet, kan je dit later wijzigen."
 
 #, fuzzy
-#~ msgid "Seasonal closures"
-#~ msgstr "Seizoensgebonden sluitingen"
+#~ msgid "Anticipate seasonal closures during trip."
+#~ msgstr "Anticiperen op seizoensgebonden sluitingen tijdens de reis."
 
 #, fuzzy
-#~ msgid "Re-route when adding new stops"
-#~ msgstr "Re-route bij het toevoegen van nieuwe haltes"
+#~ msgid "Sync"
+#~ msgstr "Sync"
 
 #, fuzzy
-#~ msgid "See user reviews at Go Historic"
-#~ msgstr "Zie gebruikersbeoordelingen bij Go Historic"
+#~ msgid "Trip sent to phone"
+#~ msgstr "Trip naar de telefoon"
 
 #, fuzzy
-#~ msgid "Discount"
-#~ msgstr "Korting"
-
-#, fuzzy
-#~ msgid "Send this trip to phone"
-#~ msgstr "Stuur deze reis naar telefoon"
-
-#~ msgid "Analyze"
-#~ msgstr "Analiseer"
-
-#, fuzzy
-#~ msgid "Stop and use this deal"
-#~ msgstr "Stop en gebruik deze deal"
-
-#, fuzzy
-#~ msgid "Guidebooks, deals and discounts"
-#~ msgstr "Gidsen, aanbiedingen en kortingen"
-
-#, fuzzy
-#~ msgid "Hide guidebooks, deals and discounts"
-#~ msgstr "Verbergen gidsen, aanbiedingen en kortingen"
-
-#, fuzzy
-#~ msgid "Feel free to press [Done] at any point."
-#~ msgstr "Voel je vrij om op [Done] op elk punt."
-
-#, fuzzy
-#~ msgid "Which states/countries did you visit on your trips?"
-#~ msgstr "Welke staten / landen heb je te bezoeken op uw reizen?"
-
-#~ msgid "Label Roads"
-#~ msgstr "Toon Straatnamen"
-
-#, fuzzy
-#~ msgid "This trip is now ready to be displayed on your mobile device."
-#~ msgstr "Deze reis is nu klaar om op uw mobiele apparaat wordt weergegeven."
-
-#, fuzzy
-#~ msgid "Fold this museum details"
-#~ msgstr "Vouw dit museum informatie"
-
-#, fuzzy
-#~ msgid "Hide guidebooks and travel guides"
-#~ msgstr "Verbergen gidsen en reisgidsen"
-
-#, fuzzy
-#~ msgid "Looking for trip ideas?"
-#~ msgstr "Op zoek naar een reis ideeën?"
-
-#, fuzzy
-#~ msgid "See this museum own website"
-#~ msgstr "Zie dit museum eigen website"
-
-#, fuzzy
-#~ msgid "Please wait while Furkot is contacting the booking site"
-#~ msgstr "Geduld aub Furkot is contact opnemen met de boeking site"
+#~ msgid "Navigate"
+#~ msgstr "Navigeren"
 
 #, fuzzy
 #~ msgid ""
@@ -7988,114 +8076,25 @@ msgstr ""
 #~ "gebaseerd op het"
 
 #, fuzzy
-#~ msgid "Do you remember any names of the trips you planned with Furkot?"
-#~ msgstr "Weet je nog geen namen van de reizen die u gepland met Furkot?"
+#~ msgid "Preserve this route when adding new stops"
+#~ msgstr "Behouden deze route bij het toevoegen van nieuwe haltes"
 
 #, fuzzy
-#~ msgid "Trip sent to phone"
-#~ msgstr "Trip naar de telefoon"
+#~ msgid "See this museum own website"
+#~ msgstr "Zie dit museum eigen website"
 
 #, fuzzy
-#~ msgid ""
-#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
-#~ msgstr ""
-#~ "Geen zorgen te maken, opent Furkot's [volledige site], waar u kunt een "
-#~ "nieuwe reis te plannen."
+#~ msgid "Add this museum as a skipped stop"
+#~ msgstr "Voeg dit museum als een overgeslagen stop"
 
 #, fuzzy
-#~ msgid "Anticipate seasonal closures during trip."
-#~ msgstr "Anticiperen op seizoensgebonden sluitingen tijdens de reis."
+#~ msgid "Hide guidebooks and travel guides"
+#~ msgstr "Verbergen gidsen en reisgidsen"
 
 #, fuzzy
-#~ msgid "Guidebook"
-#~ msgstr "Gids"
-
-#, fuzzy
-#~ msgid "Info"
-#~ msgstr "Info"
-
-#, fuzzy
-#~ msgid ""
-#~ "Not to worry, open Furkot's [full site], go to the trip and the driving "
-#~ "information will be automatically updated."
-#~ msgstr ""
-#~ "Geen zorgen te maken, opent Furkot's [volledige site], ga dan naar de "
-#~ "reis en de rij-informatie wordt automatisch bijgewerkt."
-
-#, fuzzy
-#~ msgid "Trip removed from phone"
-#~ msgstr "Trip verwijderd uit de telefoon"
+#~ msgid "House"
+#~ msgstr "Huis"
 
 #, fuzzy
 #~ msgid "Do you remember any places/stops that you added?"
 #~ msgstr "Herinner je je alle plaatsen / stops die u hebt toegevoegd?"
-
-#, fuzzy
-#~ msgid "Experimental"
-#~ msgstr "Experimenteel"
-
-#, fuzzy
-#~ msgid "Hide deals and discounts"
-#~ msgstr "Verbergen aanbiedingen en kortingen"
-
-#, fuzzy
-#~ msgid "Are you sure you want to enable it?"
-#~ msgstr "Bent u zeker dat u wilt inschakelen?"
-
-#~ msgid "Places you want to visit - your Atlas Obscura user name"
-#~ msgstr "Plaatsen die je wilt bezoeken - je Atlas Obscura gebruikersnaam"
-
-#, fuzzy
-#~ msgid "Looks like driving information is missing from some trips."
-#~ msgstr "Ziet eruit als rij-informatie ontbreekt in sommige reizen."
-
-#, fuzzy
-#~ msgid "Furkot assumes it is a riding trip."
-#~ msgstr ""
-#~ "Op basis van tijdsgegevens gaat Furkot ervan uit dat dit een trip met de "
-#~ "auto is."
-
-#, fuzzy
-#~ msgid "Persons per room"
-#~ msgstr "Personen per kamer"
-
-#, fuzzy
-#~ msgid "The answers don't have to be exact."
-#~ msgstr "De antwoorden hoeven niet precies te zijn."
-
-#, fuzzy
-#~ msgid "Trips"
-#~ msgstr "Uitstapjes"
-
-#, fuzzy
-#~ msgid "Visit this museum"
-#~ msgstr "Bezoek dit museum"
-
-#, fuzzy
-#~ msgid "Hide deals from Yipit"
-#~ msgstr "Verbergen aanbiedingen van Yipit"
-
-#, fuzzy
-#~ msgid "Reserve a Lodging"
-#~ msgstr "Reserveer een accommodatie"
-
-#, fuzzy
-#~ msgid "Guidebooks and travel guides"
-#~ msgstr "Gidsen en reisgidsen"
-
-#, fuzzy
-#~ msgid ""
-#~ "Otherwise you can tell us more and we will try to verify your account."
-#~ msgstr ""
-#~ "Anders kunt u ons meer vertellen en we zullen proberen om uw account te "
-#~ "verifiëren."
-
-#, fuzzy
-#~ msgid "Furkot assumes it is a walking trip."
-#~ msgstr ""
-#~ "Op basis van tijdsgegevens gaat Furkot ervan uit dat dit een trip te voet "
-#~ "is."
-
-#, fuzzy
-#~ msgid "Book"
-#~ msgstr "Boek"
