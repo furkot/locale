@@ -30,7 +30,7 @@ merge:
 push:
 	git commit -am 'updated to recent changes in UI'
 	git push origin HEAD:weblate
-	curl --silent --show-error https://translate.code42day.com/hooks/update/furkot/trips/ > /dev/null
+	curl --silent --show-error https://translate.furkot.com/hooks/update/furkot/trips/ > /dev/null
 	git reset --hard origin/master
 
 

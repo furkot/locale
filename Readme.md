@@ -125,7 +125,7 @@ German translation by [Jörgen Klein](http://www.klein-bild.de/).
 [.po]: https://www.gnu.org/software/gettext/manual/gettext.html#PO-Files
 [PoEdit]: http://poedit.net
 [PoEditor]: https://localise.biz/free/poeditor
-[Furkot translation website]: https://translate.code42day.com/projects/furkot/trips/
+[Furkot translation website]: https://translate.furkot.com/projects/furkot/trips/
 [translators guide]: http://weblate.readthedocs.org/en/latest/user/translating.html
 [Weblate]: https://weblate.org
-[weblate-furkot-image]: https://translate.code42day.com/widgets/furkot/-/svg-badge.svg
+[weblate-furkot-image]: https://translate.furkot.com/widgets/furkot/-/svg-badge.svg
