@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2017-02-15 21:30-0800\n"
+"POT-Creation-Date: 2017-02-15 21:34-0800\n"
 "PO-Revision-Date: 2016-05-20 01:54-0400\n"
 "Last-Translator: Brian Lee <brianlee7799@yahoo.com>\n"
 "Language-Team: Chinese (Taiwan) <https://translate.code42day.com/projects/"
@@ -51,7 +51,7 @@ msgstr "建議"
 
 #: views/board/board.jade:30 views/components/accounts.jade:81
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:16
-#: views/components/dialog.jade:7 views/components/import-dlg.jade:160
+#: views/components/dialog.jade:7 views/components/import-dlg.jade:158
 #: views/components/navigation.jade:2 views/components/place-switch.jade:391
 #: views/components/plan-msg.jade:2 views/components/share-dlg.jade:94
 #: views/components/share-dlg.jade:105 views/components/share-dlg.jade:117
@@ -249,7 +249,7 @@ msgstr "名勝"
 
 #. L10n: 'Learn more' as in 'Learn more about this feature' - it links to a help article that describes the specific feature
 #: views/components/applications.jade:18 views/components/book-trip.jade:32
-#: views/components/export-dlg.jade:97 views/components/import-dlg.jade:168
+#: views/components/export-dlg.jade:97 views/components/import-dlg.jade:166
 #: views/components/navigation.jade:70
 #: views/components/new-trip-wizard.jade:174
 #: views/components/place-switch.jade:395 views/components/share-dlg.jade:91
@@ -288,7 +288,7 @@ msgid "Booking confirmation"
 msgstr "預約確認"
 
 #: views/components/book-trip.jade:28 views/components/book-trip.jade:35
-#: views/components/import-dlg.jade:162
+#: views/components/import-dlg.jade:160
 #: views/components/new-trip-wizard.jade:169 views/components/tour.jade:42
 msgid "Next"
 msgstr "下一個"
@@ -1065,7 +1065,7 @@ msgid "Unsupported file type."
 msgstr "不支持的文件類型。"
 
 #. L10n: pair of _underscores_ denotes different formatting
-#: views/components/import-dlg.jade:23 views/components/import-dlg.jade:143
+#: views/components/import-dlg.jade:23 views/components/import-dlg.jade:141
 #, fuzzy
 msgid "You can import trips from _KML_, _GPX_, and _CSV_ files."
 msgstr "您可以從_KML_，_GPX_和_CSV_文件導入旅行。"
@@ -1075,7 +1075,7 @@ msgstr "您可以從_KML_，_GPX_和_CSV_文件導入旅行。"
 msgid "The file is too large."
 msgstr "該文件是太大。"
 
-#: views/components/import-dlg.jade:26 views/components/import-dlg.jade:153
+#: views/components/import-dlg.jade:26 views/components/import-dlg.jade:151
 #, fuzzy
 msgid "File size limit for all types is 8MB."
 msgstr "所有類型的文件大小限制為8MB。"
@@ -1109,7 +1109,7 @@ msgstr ""
 "支持的CSV格式的Garmin定制POI文件以及至少一個名稱以及地址或緯度和經度列。"
 
 #. L10n: the curly brackets {} stand for " character
-#: views/components/import-dlg.jade:38 views/components/import-dlg.jade:152
+#: views/components/import-dlg.jade:38 views/components/import-dlg.jade:150
 #, fuzzy
 msgid "Enclose fields with commas in double-quotes {}."
 msgstr "附上用逗號字段雙引號{}。"
@@ -1119,7 +1119,7 @@ msgstr "附上用逗號字段雙引號{}。"
 msgid "Invalid GPX file."
 msgstr "無效的GPX文件。"
 
-#: views/components/import-dlg.jade:41 views/components/import-dlg.jade:147
+#: views/components/import-dlg.jade:41 views/components/import-dlg.jade:145
 #, fuzzy
 msgid "GPX schema 1.1 is supported. Proprietary extensions are ignored."
 msgstr "GPX架構1.1支持。專有的擴展被忽略。"
@@ -1129,7 +1129,7 @@ msgstr "GPX架構1.1支持。專有的擴展被忽略。"
 msgid "Invalid KML file."
 msgstr "無效的KML文件。"
 
-#: views/components/import-dlg.jade:44 views/components/import-dlg.jade:146
+#: views/components/import-dlg.jade:44 views/components/import-dlg.jade:144
 #, fuzzy
 msgid "Supported KML elements are Placemark and LineString."
 msgstr "支持KML元素是標和LineString的。"
@@ -1185,40 +1185,41 @@ msgid "Number of stops to import"
 msgstr "站數進口"
 
 #. L10n: 'Start at' as in 'Start at this index when importing stops'. Label for the field that allows user to specify index of the first stop to import
-#: views/components/import-dlg.jade:77
+#: views/components/import-dlg.jade:75
 #, fuzzy
-msgid "Start at "
+msgctxt "start import at"
+msgid "Start at"
 msgstr "在開始"
 
-#: views/components/import-dlg.jade:82
+#: views/components/import-dlg.jade:80
 #, fuzzy
 msgid "Index of the first stop to import"
 msgstr "第一站的指數導入"
 
 #. L10n: Label for the field that allows user to specify what kind of stops to import from a file
-#: views/components/import-dlg.jade:85
+#: views/components/import-dlg.jade:83
 #, fuzzy
 msgid "Filter"
 msgstr "過濾"
 
 #. L10n: 'Matching phrase' is compared to stops when deciding which ones to import
-#: views/components/import-dlg.jade:88
+#: views/components/import-dlg.jade:86
 #, fuzzy
 msgid "Matching phrase"
 msgstr "短語匹配"
 
 #. L10n: The phrase is compared to stops when deciding which ones to import
-#: views/components/import-dlg.jade:89 views/components/import-dlg.jade:92
+#: views/components/import-dlg.jade:87 views/components/import-dlg.jade:90
 #, fuzzy
 msgid "Optional phrase to match against stop fields"
 msgstr "可選短語來匹配停場"
 
-#: views/components/import-dlg.jade:98
+#: views/components/import-dlg.jade:96
 #, fuzzy
 msgid "Reorder stops for the shortest route"
 msgstr "重新排序停止最短路徑"
 
-#: views/components/import-dlg.jade:101
+#: views/components/import-dlg.jade:99
 #, fuzzy
 msgid ""
 "When not defined in the imported file, Furkot will use the default stop "
@@ -1226,7 +1227,7 @@ msgid ""
 msgstr "當不在導入文件中定義，Furkot將使用默認的停止時間。"
 
 #. L10n: 'Stopover' is a default duration of a stop, i.e. the time spend at a stop
-#: views/components/import-dlg.jade:104
+#: views/components/import-dlg.jade:102
 #: views/components/trip-config-item.jade:31
 #: views/components/trip-detail.jade:110
 #, fuzzy
@@ -1234,55 +1235,55 @@ msgid "Stopover"
 msgstr "中途停留"
 
 #. L10n: "Travel by" car/motorcycle/bicycle/on foot - label for the mode of travel
-#: views/components/import-dlg.jade:110
+#: views/components/import-dlg.jade:108
 #: views/components/new-trip-wizard.jade:86
 #, fuzzy
 msgid "Travel by"
 msgstr "乘坐"
 
-#: views/components/import-dlg.jade:113
+#: views/components/import-dlg.jade:111
 #, fuzzy
 msgid "Let Furkot follow roads unless importing off-road routes/tracks."
 msgstr "讓Furkot遵循的道路，除非進口越野路線/曲目。"
 
 #. L10n: Label for the field that allows user to decide whether routes should follow roads or permit off-road travel (the routes shaped manually)
-#: views/components/import-dlg.jade:116 views/components/step-detail.jade:681
+#: views/components/import-dlg.jade:114 views/components/step-detail.jade:681
 #, fuzzy
 msgid "Routing"
 msgstr "路由"
 
 #. L10n: 'Follow roads' - Furkot will automatically calculate routes that go over public roads - as opposed to 'Travel off-road' - user can shape routes manually without any constraint
-#: views/components/import-dlg.jade:119 views/components/step-detail.jade:683
+#: views/components/import-dlg.jade:117 views/components/step-detail.jade:683
 #, fuzzy
 msgid "Follow roads"
 msgstr "按照道路"
 
 #. L10n: 'Travel off-road' - user can shape routes manually without any constraint - as opposed to 'Follow roads' - Furkot will automatically calculate routes that go over public roads
-#: views/components/import-dlg.jade:119 views/components/import-dlg.jade:122
+#: views/components/import-dlg.jade:117 views/components/import-dlg.jade:120
 #: views/components/step-detail.jade:682
 #, fuzzy
 msgid "Travel off road"
 msgstr "旅行越野"
 
-#: views/components/import-dlg.jade:127
+#: views/components/import-dlg.jade:125
 #, fuzzy
 msgid ""
 "Not all routes/tracks have timing data. Furkot will use an average speed "
 "instead."
 msgstr "並非所有的路由/曲目有定時的數據。 Furkot將使用平均速度來代替。"
 
-#: views/components/import-dlg.jade:128
+#: views/components/import-dlg.jade:126
 #, fuzzy
 msgid "For routes/tracks without timing data Furkot will use an average speed."
 msgstr "對於路線/無定時數據Furkot軌道將使用的平均速度。"
 
-#: views/components/import-dlg.jade:130
+#: views/components/import-dlg.jade:128
 #, fuzzy
 msgid "Average speed"
 msgstr "平均速度"
 
 #. L10n: abbreviation of kilometer
-#: views/components/import-dlg.jade:133 views/components/place-switch.jade:33
+#: views/components/import-dlg.jade:131 views/components/place-switch.jade:33
 #: views/components/step-detail.jade:708
 #: views/components/trip-config-item.jade:40
 #: views/components/trip-config-item.jade:51
@@ -1296,7 +1297,7 @@ msgid "km"
 msgstr "千米"
 
 #. L10n: abbreviation of mile
-#: views/components/import-dlg.jade:134 views/components/place-switch.jade:34
+#: views/components/import-dlg.jade:132 views/components/place-switch.jade:34
 #: views/components/step-detail.jade:709
 #: views/components/trip-config-item.jade:78
 #: views/components/trip-detail.jade:123 views/components/trip-detail.jade:307
@@ -1305,52 +1306,52 @@ msgid "mi"
 msgstr "MI"
 
 #. L10n: square brackets [] denote a button
-#: views/components/import-dlg.jade:137
+#: views/components/import-dlg.jade:135
 #, fuzzy
 msgid ""
 "Press [Import] to add a new trip now or configure more options on the [Next] "
 "page."
 msgstr "按[導入]現在增加一個新的旅行或配置[下一頁]頁面有更多選擇。"
 
-#: views/components/import-dlg.jade:139
+#: views/components/import-dlg.jade:137
 #, fuzzy
 msgid "Please wait while Furkot is analyzing your file"
 msgstr "而Furkot正在分析您的文件，請稍候"
 
-#: views/components/import-dlg.jade:144
+#: views/components/import-dlg.jade:142
 #, fuzzy
 msgid "You can import places from _KML_, _GPX_, and _CSV_ files."
 msgstr "您可以從_KML_，_GPX_和_CSV_文件導入的地方。"
 
-#: views/components/import-dlg.jade:148
+#: views/components/import-dlg.jade:146
 #, fuzzy
 msgid ""
 "If the selected GPX file contains waypoints, routes and tracks, the routes "
 "are ignored."
 msgstr "如果選定的GPX文件包含航點，航線和軌道，路由被忽略。"
 
-#: views/components/import-dlg.jade:150
+#: views/components/import-dlg.jade:148
 #, fuzzy
 msgid ""
 "Supported CSV formats are Garmin Custom POI file and files with at least "
 "name and either address or lat and lon columns."
 msgstr "支持CSV格式的Garmin自定義POI文件和文件至少名稱以及地址或緯度和經度列。"
 
-#: views/components/import-dlg.jade:154
+#: views/components/import-dlg.jade:152
 #, fuzzy
 msgid ""
 "Places without coordinates have been ignored. To retrieve places without "
 "coordinates import the file as a new trip."
 msgstr "沒有坐標的地方都被忽略。要檢索的地方沒有坐標導入文件作為新的旅途。"
 
-#: views/components/import-dlg.jade:161
+#: views/components/import-dlg.jade:159
 #: views/components/new-trip-wizard.jade:168
 #, fuzzy
 msgid "Previous"
 msgstr "以前"
 
 #. L10n: 'Import' can be also translated as 'Upload'
-#: views/components/import-dlg.jade:164
+#: views/components/import-dlg.jade:162
 #, fuzzy
 msgid "Import"
 msgstr "進口"
@@ -5179,7 +5180,8 @@ msgstr "晚"
 #. L10n: Label for the field that displays the average daytime temperature on the day of the stop
 #: views/components/step-detail.jade:483
 #, fuzzy
-msgid "Day "
+msgctxt "daytime temperature"
+msgid "Day"
 msgstr "天"
 
 #. L10n: Label for the field that displays stop elevation (altitude)
@@ -5241,11 +5243,12 @@ msgstr "逗號分隔停止標籤（標籤）"
 msgid "Leg"
 msgstr "腿"
 
-#. L10n: label for time/distance covered since last overnight stop - keep the underscores _
+#. L10n: label for time/distance covered since last overnight stop
 #: views/components/step-detail.jade:523
 #, fuzzy
-msgid "_Day_"
-msgstr "_天_"
+msgctxt "since last lodging"
+msgid "Day"
+msgstr "天"
 
 #: views/components/step-detail.jade:532 views/components/step-detail.jade:702
 #: views/components/trip-config-item.jade:62
@@ -5291,11 +5294,12 @@ msgstr "自行車"
 msgid "Walking"
 msgstr "步行"
 
-#. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking. Keep the underscores _
+#. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking
 #: views/components/step-detail.jade:561
 #, fuzzy
-msgid "_Other_"
-msgstr "_其他_"
+msgctxt "other travel mode"
+msgid "Other"
+msgstr "其他"
 
 #: views/components/step-detail.jade:564
 #, fuzzy
@@ -5472,17 +5476,19 @@ msgstr "復原該變路線"
 msgid "Navigate this route"
 msgstr "瀏覽這條路線"
 
-#. L10n: label for the time needed to cover the route between two stops - keep the underscores _
+#. L10n: label for the time needed to cover the route between two stops
 #: views/components/step-detail.jade:688
 #, fuzzy
-msgid "_Duration_"
-msgstr "_Duration_"
+msgctxt "route between stops"
+msgid "Duration"
+msgstr "為期"
 
-#. L10n: _duration_ is the time needed to cover the route between two stops - keep the underscores _
-#: views/components/step-detail.jade:692
+#. L10n: duration is the time needed to cover the route between two stops
+#: views/components/step-detail.jade:691
 #, fuzzy
-msgid "Click to modify _duration_"
-msgstr "點擊修改_duration_"
+msgctxt "route between stops"
+msgid "Click to modify duration"
+msgstr "點擊修改時間"
 
 #. L10n: Label for the field to display/edit user average speed for the selected route or for the entire trip
 #: views/components/step-detail.jade:697
@@ -6633,7 +6639,8 @@ msgstr "從家飛"
 #. L10n: Label for the total distance of the trip
 #: views/components/trip-detail.jade:360
 #, fuzzy
-msgid "Distance "
+msgctxt "total trip distance"
+msgid "Distance"
 msgstr "距離"
 
 #. L10n: total time of riding a motorcycle (not horseback riding)
@@ -7754,3 +7761,31 @@ msgid ""
 msgstr ""
 "添加完的地方您的行程，請在[Furkot]完成您的旅行行程，在地圖上查看路線，找到更"
 "多的景點和住宿選擇。"
+
+#, fuzzy
+#~ msgid "Start at "
+#~ msgstr "在開始"
+
+#, fuzzy
+#~ msgid "Click to modify _duration_"
+#~ msgstr "點擊修改_duration_"
+
+#, fuzzy
+#~ msgid "_Day_"
+#~ msgstr "_天_"
+
+#, fuzzy
+#~ msgid "_Other_"
+#~ msgstr "_其他_"
+
+#, fuzzy
+#~ msgid "Day "
+#~ msgstr "天"
+
+#, fuzzy
+#~ msgid "_Duration_"
+#~ msgstr "_Duration_"
+
+#, fuzzy
+#~ msgid "Distance "
+#~ msgstr "距離"

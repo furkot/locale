@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2017-02-15 21:30-0800\n"
+"POT-Creation-Date: 2017-02-15 21:34-0800\n"
 "PO-Revision-Date: 2017-01-24 04:19-0400\n"
 "Last-Translator: Natalia Kowalczyk <melitele@furkot.com>\n"
 "Language-Team: Russian <https://translate.code42day.com/projects/furkot/"
@@ -53,7 +53,7 @@ msgstr "Предложить"
 
 #: views/board/board.jade:30 views/components/accounts.jade:81
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:16
-#: views/components/dialog.jade:7 views/components/import-dlg.jade:160
+#: views/components/dialog.jade:7 views/components/import-dlg.jade:158
 #: views/components/navigation.jade:2 views/components/place-switch.jade:391
 #: views/components/plan-msg.jade:2 views/components/share-dlg.jade:94
 #: views/components/share-dlg.jade:105 views/components/share-dlg.jade:117
@@ -248,7 +248,7 @@ msgstr "сценический"
 
 #. L10n: 'Learn more' as in 'Learn more about this feature' - it links to a help article that describes the specific feature
 #: views/components/applications.jade:18 views/components/book-trip.jade:32
-#: views/components/export-dlg.jade:97 views/components/import-dlg.jade:168
+#: views/components/export-dlg.jade:97 views/components/import-dlg.jade:166
 #: views/components/navigation.jade:70
 #: views/components/new-trip-wizard.jade:174
 #: views/components/place-switch.jade:395 views/components/share-dlg.jade:91
@@ -286,7 +286,7 @@ msgid "Booking confirmation"
 msgstr "Подтверждение бронирования"
 
 #: views/components/book-trip.jade:28 views/components/book-trip.jade:35
-#: views/components/import-dlg.jade:162
+#: views/components/import-dlg.jade:160
 #: views/components/new-trip-wizard.jade:169 views/components/tour.jade:42
 msgid "Next"
 msgstr "Следующий"
@@ -1065,7 +1065,7 @@ msgid "Unsupported file type."
 msgstr "Неподдерживаемый тип файла."
 
 #. L10n: pair of _underscores_ denotes different formatting
-#: views/components/import-dlg.jade:23 views/components/import-dlg.jade:143
+#: views/components/import-dlg.jade:23 views/components/import-dlg.jade:141
 #, fuzzy
 msgid "You can import trips from _KML_, _GPX_, and _CSV_ files."
 msgstr "Вы можете импортировать поездки из _KML_, _GPX_ и _CSV_ файлов."
@@ -1075,7 +1075,7 @@ msgstr "Вы можете импортировать поездки из _KML_, 
 msgid "The file is too large."
 msgstr "Файл слишком велик."
 
-#: views/components/import-dlg.jade:26 views/components/import-dlg.jade:153
+#: views/components/import-dlg.jade:26 views/components/import-dlg.jade:151
 #, fuzzy
 msgid "File size limit for all types is 8MB."
 msgstr "Предельный размер файла для всех типов 8MB."
@@ -1110,7 +1110,7 @@ msgstr ""
 "файлы, по крайней мере, имя и любой адрес или широты и Lon столбцов."
 
 #. L10n: the curly brackets {} stand for " character
-#: views/components/import-dlg.jade:38 views/components/import-dlg.jade:152
+#: views/components/import-dlg.jade:38 views/components/import-dlg.jade:150
 #, fuzzy
 msgid "Enclose fields with commas in double-quotes {}."
 msgstr "Заключите поля с запятыми в двойные кавычки {}."
@@ -1120,7 +1120,7 @@ msgstr "Заключите поля с запятыми в двойные кав
 msgid "Invalid GPX file."
 msgstr "Неверный файл GPX."
 
-#: views/components/import-dlg.jade:41 views/components/import-dlg.jade:147
+#: views/components/import-dlg.jade:41 views/components/import-dlg.jade:145
 #, fuzzy
 msgid "GPX schema 1.1 is supported. Proprietary extensions are ignored."
 msgstr "GPX схема 1.1 поддерживается. Собственные расширения игнорируются."
@@ -1130,7 +1130,7 @@ msgstr "GPX схема 1.1 поддерживается. Собственные 
 msgid "Invalid KML file."
 msgstr "Неверный KML-файл."
 
-#: views/components/import-dlg.jade:44 views/components/import-dlg.jade:146
+#: views/components/import-dlg.jade:44 views/components/import-dlg.jade:144
 #, fuzzy
 msgid "Supported KML elements are Placemark and LineString."
 msgstr "Поддерживаемые элементы KML являются Placemark и LineString."
@@ -1187,40 +1187,41 @@ msgid "Number of stops to import"
 msgstr "Количество остановок для импорта"
 
 #. L10n: 'Start at' as in 'Start at this index when importing stops'. Label for the field that allows user to specify index of the first stop to import
-#: views/components/import-dlg.jade:77
+#: views/components/import-dlg.jade:75
 #, fuzzy
-msgid "Start at "
+msgctxt "start import at"
+msgid "Start at"
 msgstr "Начало в"
 
-#: views/components/import-dlg.jade:82
+#: views/components/import-dlg.jade:80
 #, fuzzy
 msgid "Index of the first stop to import"
 msgstr "Индекс первой остановки для импорта"
 
 #. L10n: Label for the field that allows user to specify what kind of stops to import from a file
-#: views/components/import-dlg.jade:85
+#: views/components/import-dlg.jade:83
 #, fuzzy
 msgid "Filter"
 msgstr "Фильтр"
 
 #. L10n: 'Matching phrase' is compared to stops when deciding which ones to import
-#: views/components/import-dlg.jade:88
+#: views/components/import-dlg.jade:86
 #, fuzzy
 msgid "Matching phrase"
 msgstr "Фразовое"
 
 #. L10n: The phrase is compared to stops when deciding which ones to import
-#: views/components/import-dlg.jade:89 views/components/import-dlg.jade:92
+#: views/components/import-dlg.jade:87 views/components/import-dlg.jade:90
 #, fuzzy
 msgid "Optional phrase to match against stop fields"
 msgstr "Необязательно фраза для сопоставления с стоп-полей"
 
-#: views/components/import-dlg.jade:98
+#: views/components/import-dlg.jade:96
 #, fuzzy
 msgid "Reorder stops for the shortest route"
 msgstr "Упорядочивание останавливается на самый короткий маршрут"
 
-#: views/components/import-dlg.jade:101
+#: views/components/import-dlg.jade:99
 #, fuzzy
 msgid ""
 "When not defined in the imported file, Furkot will use the default stop "
@@ -1230,7 +1231,7 @@ msgstr ""
 "длительность стоп по умолчанию."
 
 #. L10n: 'Stopover' is a default duration of a stop, i.e. the time spend at a stop
-#: views/components/import-dlg.jade:104
+#: views/components/import-dlg.jade:102
 #: views/components/trip-config-item.jade:31
 #: views/components/trip-detail.jade:110
 #, fuzzy
@@ -1238,13 +1239,13 @@ msgid "Stopover"
 msgstr "остановка в пути"
 
 #. L10n: "Travel by" car/motorcycle/bicycle/on foot - label for the mode of travel
-#: views/components/import-dlg.jade:110
+#: views/components/import-dlg.jade:108
 #: views/components/new-trip-wizard.jade:86
 #, fuzzy
 msgid "Travel by"
 msgstr "Путешествовать на"
 
-#: views/components/import-dlg.jade:113
+#: views/components/import-dlg.jade:111
 #, fuzzy
 msgid "Let Furkot follow roads unless importing off-road routes/tracks."
 msgstr ""
@@ -1252,25 +1253,25 @@ msgstr ""
 "дорожек."
 
 #. L10n: Label for the field that allows user to decide whether routes should follow roads or permit off-road travel (the routes shaped manually)
-#: views/components/import-dlg.jade:116 views/components/step-detail.jade:681
+#: views/components/import-dlg.jade:114 views/components/step-detail.jade:681
 #, fuzzy
 msgid "Routing"
 msgstr "маршрутизация"
 
 #. L10n: 'Follow roads' - Furkot will automatically calculate routes that go over public roads - as opposed to 'Travel off-road' - user can shape routes manually without any constraint
-#: views/components/import-dlg.jade:119 views/components/step-detail.jade:683
+#: views/components/import-dlg.jade:117 views/components/step-detail.jade:683
 #, fuzzy
 msgid "Follow roads"
 msgstr "Следуйте дороги"
 
 #. L10n: 'Travel off-road' - user can shape routes manually without any constraint - as opposed to 'Follow roads' - Furkot will automatically calculate routes that go over public roads
-#: views/components/import-dlg.jade:119 views/components/import-dlg.jade:122
+#: views/components/import-dlg.jade:117 views/components/import-dlg.jade:120
 #: views/components/step-detail.jade:682
 #, fuzzy
 msgid "Travel off road"
 msgstr "Путешествие по бездорожью"
 
-#: views/components/import-dlg.jade:127
+#: views/components/import-dlg.jade:125
 #, fuzzy
 msgid ""
 "Not all routes/tracks have timing data. Furkot will use an average speed "
@@ -1279,20 +1280,20 @@ msgstr ""
 "Не все маршруты / дорожки имеют данные о времени. Furkot будет использовать "
 "вместо средней скорости."
 
-#: views/components/import-dlg.jade:128
+#: views/components/import-dlg.jade:126
 #, fuzzy
 msgid "For routes/tracks without timing data Furkot will use an average speed."
 msgstr ""
 "Для маршрутов / треков без синхронизации Furkot данных будет использовать "
 "среднюю скорость."
 
-#: views/components/import-dlg.jade:130
+#: views/components/import-dlg.jade:128
 #, fuzzy
 msgid "Average speed"
 msgstr "Средняя скорость"
 
 #. L10n: abbreviation of kilometer
-#: views/components/import-dlg.jade:133 views/components/place-switch.jade:33
+#: views/components/import-dlg.jade:131 views/components/place-switch.jade:33
 #: views/components/step-detail.jade:708
 #: views/components/trip-config-item.jade:40
 #: views/components/trip-config-item.jade:51
@@ -1306,7 +1307,7 @@ msgid "km"
 msgstr "км"
 
 #. L10n: abbreviation of mile
-#: views/components/import-dlg.jade:134 views/components/place-switch.jade:34
+#: views/components/import-dlg.jade:132 views/components/place-switch.jade:34
 #: views/components/step-detail.jade:709
 #: views/components/trip-config-item.jade:78
 #: views/components/trip-detail.jade:123 views/components/trip-detail.jade:307
@@ -1315,7 +1316,7 @@ msgid "mi"
 msgstr "ми"
 
 #. L10n: square brackets [] denote a button
-#: views/components/import-dlg.jade:137
+#: views/components/import-dlg.jade:135
 #, fuzzy
 msgid ""
 "Press [Import] to add a new trip now or configure more options on the [Next] "
@@ -1324,17 +1325,17 @@ msgstr ""
 "Нажмите [Импорт], чтобы добавить новую поездку сейчас или настроить "
 "дополнительные параметры на [Далее] стр."
 
-#: views/components/import-dlg.jade:139
+#: views/components/import-dlg.jade:137
 #, fuzzy
 msgid "Please wait while Furkot is analyzing your file"
 msgstr "Пожалуйста, подождите, пока Furkot анализирует файл"
 
-#: views/components/import-dlg.jade:144
+#: views/components/import-dlg.jade:142
 #, fuzzy
 msgid "You can import places from _KML_, _GPX_, and _CSV_ files."
 msgstr "Вы можете импортировать места из _KML_, _GPX_ и _CSV_ файлов."
 
-#: views/components/import-dlg.jade:148
+#: views/components/import-dlg.jade:146
 #, fuzzy
 msgid ""
 "If the selected GPX file contains waypoints, routes and tracks, the routes "
@@ -1343,7 +1344,7 @@ msgstr ""
 "Если выбранный файл GPX содержит путевые точки, маршруты и треки, маршруты "
 "игнорируются."
 
-#: views/components/import-dlg.jade:150
+#: views/components/import-dlg.jade:148
 #, fuzzy
 msgid ""
 "Supported CSV formats are Garmin Custom POI file and files with at least "
@@ -1352,7 +1353,7 @@ msgstr ""
 "Поддерживаемые форматы CSV являются Garmin Пользовательские POI файлов и "
 "файлов, по крайней мере, имя и адрес или любой широты и Lon столбцов."
 
-#: views/components/import-dlg.jade:154
+#: views/components/import-dlg.jade:152
 #, fuzzy
 msgid ""
 "Places without coordinates have been ignored. To retrieve places without "
@@ -1361,14 +1362,14 @@ msgstr ""
 "Места без координат были проигнорированы. Для того, чтобы получить места без "
 "координат импортировать файл в качестве новой поездки."
 
-#: views/components/import-dlg.jade:161
+#: views/components/import-dlg.jade:159
 #: views/components/new-trip-wizard.jade:168
 #, fuzzy
 msgid "Previous"
 msgstr "предыдущий"
 
 #. L10n: 'Import' can be also translated as 'Upload'
-#: views/components/import-dlg.jade:164
+#: views/components/import-dlg.jade:162
 #, fuzzy
 msgid "Import"
 msgstr "Импортировать"
@@ -5261,8 +5262,9 @@ msgstr "Ночь"
 #. L10n: Label for the field that displays the average daytime temperature on the day of the stop
 #: views/components/step-detail.jade:483
 #, fuzzy
-msgid "Day "
-msgstr "День Время"
+msgctxt "daytime temperature"
+msgid "Day"
+msgstr "День"
 
 #. L10n: Label for the field that displays stop elevation (altitude)
 #: views/components/step-detail.jade:488
@@ -5323,11 +5325,12 @@ msgstr "Разделенный запятыми стоп теги (метки)"
 msgid "Leg"
 msgstr "ножка"
 
-#. L10n: label for time/distance covered since last overnight stop - keep the underscores _
+#. L10n: label for time/distance covered since last overnight stop
 #: views/components/step-detail.jade:523
 #, fuzzy
-msgid "_Day_"
-msgstr "_День_"
+msgctxt "since last lodging"
+msgid "Day"
+msgstr "День"
 
 #: views/components/step-detail.jade:532 views/components/step-detail.jade:702
 #: views/components/trip-config-item.jade:62
@@ -5373,10 +5376,11 @@ msgstr "велосипед"
 msgid "Walking"
 msgstr "Гулять пешком"
 
-#. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking. Keep the underscores _
+#. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking
 #: views/components/step-detail.jade:561
 #, fuzzy
-msgid "_Other_"
+msgctxt "other travel mode"
+msgid "Other"
 msgstr "Другие"
 
 #: views/components/step-detail.jade:564
@@ -5554,17 +5558,19 @@ msgstr "Отменить изменение маршрута"
 msgid "Navigate this route"
 msgstr "Перейдите по этому маршруту"
 
-#. L10n: label for the time needed to cover the route between two stops - keep the underscores _
+#. L10n: label for the time needed to cover the route between two stops
 #: views/components/step-detail.jade:688
 #, fuzzy
-msgid "_Duration_"
-msgstr "_Duration_"
+msgctxt "route between stops"
+msgid "Duration"
+msgstr "продолжительность"
 
-#. L10n: _duration_ is the time needed to cover the route between two stops - keep the underscores _
-#: views/components/step-detail.jade:692
+#. L10n: duration is the time needed to cover the route between two stops
+#: views/components/step-detail.jade:691
 #, fuzzy
-msgid "Click to modify _duration_"
-msgstr "Нажмите, чтобы изменить _duration_"
+msgctxt "route between stops"
+msgid "Click to modify duration"
+msgstr "Нажмите, чтобы изменить длительность"
 
 #. L10n: Label for the field to display/edit user average speed for the selected route or for the entire trip
 #: views/components/step-detail.jade:697
@@ -6750,7 +6756,8 @@ msgstr "Перелет из дома"
 #. L10n: Label for the total distance of the trip
 #: views/components/trip-detail.jade:360
 #, fuzzy
-msgid "Distance "
+msgctxt "total trip distance"
+msgid "Distance"
 msgstr "Расстояние"
 
 #. L10n: total time of riding a motorcycle (not horseback riding)
@@ -7945,6 +7952,34 @@ msgstr ""
 "достопримечательностей и варианты проживания."
 
 #, fuzzy
+#~ msgid "_Day_"
+#~ msgstr "_День_"
+
+#, fuzzy
+#~ msgid "Day "
+#~ msgstr "День Время"
+
+#, fuzzy
+#~ msgid "Start at "
+#~ msgstr "Начало в"
+
+#, fuzzy
+#~ msgid "_Duration_"
+#~ msgstr "_Duration_"
+
+#, fuzzy
+#~ msgid "All"
+#~ msgstr "Все"
+
+#, fuzzy
+#~ msgid "None"
+#~ msgstr "Никто"
+
+#, fuzzy
+#~ msgid "Distance "
+#~ msgstr "Расстояние"
+
+#, fuzzy
 #~ msgid "day"
 #~ msgstr "день"
 
@@ -7953,13 +7988,13 @@ msgstr ""
 #~ msgstr "кликните сюда"
 
 #, fuzzy
-#~ msgid "None"
-#~ msgstr "Никто"
-
-#, fuzzy
-#~ msgid "All"
-#~ msgstr "Все"
-
-#, fuzzy
 #~ msgid "ALL"
 #~ msgstr "ВСЕ"
+
+#, fuzzy
+#~ msgid "Click to modify _duration_"
+#~ msgstr "Нажмите, чтобы изменить _duration_"
+
+#, fuzzy
+#~ msgid "_Other_"
+#~ msgstr "Другие"

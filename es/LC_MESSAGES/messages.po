@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2017-02-15 21:30-0800\n"
+"POT-Creation-Date: 2017-02-15 21:34-0800\n"
 "PO-Revision-Date: 2017-02-09 00:56-0400\n"
 "Last-Translator: Natalia Kowalczyk <melitele@furkot.com>\n"
 "Language-Team: Spanish <https://translate.code42day.com/projects/furkot/"
@@ -52,7 +52,7 @@ msgstr "Sugerir"
 
 #: views/board/board.jade:30 views/components/accounts.jade:81
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:16
-#: views/components/dialog.jade:7 views/components/import-dlg.jade:160
+#: views/components/dialog.jade:7 views/components/import-dlg.jade:158
 #: views/components/navigation.jade:2 views/components/place-switch.jade:391
 #: views/components/plan-msg.jade:2 views/components/share-dlg.jade:94
 #: views/components/share-dlg.jade:105 views/components/share-dlg.jade:117
@@ -252,7 +252,7 @@ msgstr ""
 
 #. L10n: 'Learn more' as in 'Learn more about this feature' - it links to a help article that describes the specific feature
 #: views/components/applications.jade:18 views/components/book-trip.jade:32
-#: views/components/export-dlg.jade:97 views/components/import-dlg.jade:168
+#: views/components/export-dlg.jade:97 views/components/import-dlg.jade:166
 #: views/components/navigation.jade:70
 #: views/components/new-trip-wizard.jade:174
 #: views/components/place-switch.jade:395 views/components/share-dlg.jade:91
@@ -292,7 +292,7 @@ msgid "Booking confirmation"
 msgstr "Confirmación de la reserva"
 
 #: views/components/book-trip.jade:28 views/components/book-trip.jade:35
-#: views/components/import-dlg.jade:162
+#: views/components/import-dlg.jade:160
 #: views/components/new-trip-wizard.jade:169 views/components/tour.jade:42
 #, fuzzy
 msgid "Next"
@@ -1053,7 +1053,7 @@ msgid "Unsupported file type."
 msgstr "Tipo de archivo no soportado."
 
 #. L10n: pair of _underscores_ denotes different formatting
-#: views/components/import-dlg.jade:23 views/components/import-dlg.jade:143
+#: views/components/import-dlg.jade:23 views/components/import-dlg.jade:141
 msgid "You can import trips from _KML_, _GPX_, and _CSV_ files."
 msgstr "Puede importar viajes de _KML_, _GPX_ y archivos _CSV_."
 
@@ -1061,7 +1061,7 @@ msgstr "Puede importar viajes de _KML_, _GPX_ y archivos _CSV_."
 msgid "The file is too large."
 msgstr "El archivo es demasiado grande."
 
-#: views/components/import-dlg.jade:26 views/components/import-dlg.jade:153
+#: views/components/import-dlg.jade:26 views/components/import-dlg.jade:151
 msgid "File size limit for all types is 8MB."
 msgstr "El límite de tamaño de archivo para todos los tipos es de 8 MB."
 
@@ -1091,7 +1091,7 @@ msgstr ""
 "archivos con al menos un nombre y una dirección o columnas de lat y lon."
 
 #. L10n: the curly brackets {} stand for " character
-#: views/components/import-dlg.jade:38 views/components/import-dlg.jade:152
+#: views/components/import-dlg.jade:38 views/components/import-dlg.jade:150
 msgid "Enclose fields with commas in double-quotes {}."
 msgstr "Encerrar los campos con comas entre dobles comillas {}."
 
@@ -1099,7 +1099,7 @@ msgstr "Encerrar los campos con comas entre dobles comillas {}."
 msgid "Invalid GPX file."
 msgstr "Archivo GPX no válido."
 
-#: views/components/import-dlg.jade:41 views/components/import-dlg.jade:147
+#: views/components/import-dlg.jade:41 views/components/import-dlg.jade:145
 msgid "GPX schema 1.1 is supported. Proprietary extensions are ignored."
 msgstr ""
 "Esquema GPX 1.1 es compatible. Las extensiones propietarias se ignoran."
@@ -1108,7 +1108,7 @@ msgstr ""
 msgid "Invalid KML file."
 msgstr "Archivo KML no válido."
 
-#: views/components/import-dlg.jade:44 views/components/import-dlg.jade:146
+#: views/components/import-dlg.jade:44 views/components/import-dlg.jade:144
 msgid "Supported KML elements are Placemark and LineString."
 msgstr "Los elementos KML admitidos son Placemark y LineString."
 
@@ -1156,35 +1156,36 @@ msgid "Number of stops to import"
 msgstr "Número de paradas a importar"
 
 #. L10n: 'Start at' as in 'Start at this index when importing stops'. Label for the field that allows user to specify index of the first stop to import
-#: views/components/import-dlg.jade:77
+#: views/components/import-dlg.jade:75
 #, fuzzy
-msgid "Start at "
+msgctxt "start import at"
+msgid "Start at"
 msgstr "Empieza en"
 
-#: views/components/import-dlg.jade:82
+#: views/components/import-dlg.jade:80
 msgid "Index of the first stop to import"
 msgstr "Indicar la primera parada a importar"
 
 #. L10n: Label for the field that allows user to specify what kind of stops to import from a file
-#: views/components/import-dlg.jade:85
+#: views/components/import-dlg.jade:83
 msgid "Filter"
 msgstr "Filtro"
 
 #. L10n: 'Matching phrase' is compared to stops when deciding which ones to import
-#: views/components/import-dlg.jade:88
+#: views/components/import-dlg.jade:86
 msgid "Matching phrase"
 msgstr "Frase coincidente"
 
 #. L10n: The phrase is compared to stops when deciding which ones to import
-#: views/components/import-dlg.jade:89 views/components/import-dlg.jade:92
+#: views/components/import-dlg.jade:87 views/components/import-dlg.jade:90
 msgid "Optional phrase to match against stop fields"
 msgstr "Frase opcional para coincidir con los campos de parada"
 
-#: views/components/import-dlg.jade:98
+#: views/components/import-dlg.jade:96
 msgid "Reorder stops for the shortest route"
 msgstr "Reordenar las paradas para la ruta más corta"
 
-#: views/components/import-dlg.jade:101
+#: views/components/import-dlg.jade:99
 msgid ""
 "When not defined in the imported file, Furkot will use the default stop "
 "duration."
@@ -1193,41 +1194,41 @@ msgstr ""
 "parada predeterminada."
 
 #. L10n: 'Stopover' is a default duration of a stop, i.e. the time spend at a stop
-#: views/components/import-dlg.jade:104
+#: views/components/import-dlg.jade:102
 #: views/components/trip-config-item.jade:31
 #: views/components/trip-detail.jade:110
 msgid "Stopover"
 msgstr "Escala"
 
 #. L10n: "Travel by" car/motorcycle/bicycle/on foot - label for the mode of travel
-#: views/components/import-dlg.jade:110
+#: views/components/import-dlg.jade:108
 #: views/components/new-trip-wizard.jade:86
 msgid "Travel by"
 msgstr "Viajar por"
 
-#: views/components/import-dlg.jade:113
+#: views/components/import-dlg.jade:111
 msgid "Let Furkot follow roads unless importing off-road routes/tracks."
 msgstr ""
 "Deje a Furkot seguir caminos a menos que importe las rutas / pistas de fuera "
 "de carretera."
 
 #. L10n: Label for the field that allows user to decide whether routes should follow roads or permit off-road travel (the routes shaped manually)
-#: views/components/import-dlg.jade:116 views/components/step-detail.jade:681
+#: views/components/import-dlg.jade:114 views/components/step-detail.jade:681
 msgid "Routing"
 msgstr "Enrutamiento"
 
 #. L10n: 'Follow roads' - Furkot will automatically calculate routes that go over public roads - as opposed to 'Travel off-road' - user can shape routes manually without any constraint
-#: views/components/import-dlg.jade:119 views/components/step-detail.jade:683
+#: views/components/import-dlg.jade:117 views/components/step-detail.jade:683
 msgid "Follow roads"
 msgstr "Carreteras De Peaje"
 
 #. L10n: 'Travel off-road' - user can shape routes manually without any constraint - as opposed to 'Follow roads' - Furkot will automatically calculate routes that go over public roads
-#: views/components/import-dlg.jade:119 views/components/import-dlg.jade:122
+#: views/components/import-dlg.jade:117 views/components/import-dlg.jade:120
 #: views/components/step-detail.jade:682
 msgid "Travel off road"
 msgstr "Viaja esta ruta"
 
-#: views/components/import-dlg.jade:127
+#: views/components/import-dlg.jade:125
 msgid ""
 "Not all routes/tracks have timing data. Furkot will use an average speed "
 "instead."
@@ -1235,18 +1236,18 @@ msgstr ""
 "No todas las rutas / pistas tienen datos de tiempo. Furkot utilizará "
 "velocidad media en su lugar."
 
-#: views/components/import-dlg.jade:128
+#: views/components/import-dlg.jade:126
 msgid "For routes/tracks without timing data Furkot will use an average speed."
 msgstr ""
 "No todas las rutas / pistas tienen datos de tiempo. Furkot utilizará "
 "velocidad media en su lugar."
 
-#: views/components/import-dlg.jade:130
+#: views/components/import-dlg.jade:128
 msgid "Average speed"
 msgstr "Velocidad media"
 
 #. L10n: abbreviation of kilometer
-#: views/components/import-dlg.jade:133 views/components/place-switch.jade:33
+#: views/components/import-dlg.jade:131 views/components/place-switch.jade:33
 #: views/components/step-detail.jade:708
 #: views/components/trip-config-item.jade:40
 #: views/components/trip-config-item.jade:51
@@ -1259,7 +1260,7 @@ msgid "km"
 msgstr "km"
 
 #. L10n: abbreviation of mile
-#: views/components/import-dlg.jade:134 views/components/place-switch.jade:34
+#: views/components/import-dlg.jade:132 views/components/place-switch.jade:34
 #: views/components/step-detail.jade:709
 #: views/components/trip-config-item.jade:78
 #: views/components/trip-detail.jade:123 views/components/trip-detail.jade:307
@@ -1267,7 +1268,7 @@ msgid "mi"
 msgstr "mi"
 
 #. L10n: square brackets [] denote a button
-#: views/components/import-dlg.jade:137
+#: views/components/import-dlg.jade:135
 msgid ""
 "Press [Import] to add a new trip now or configure more options on the [Next] "
 "page."
@@ -1275,17 +1276,17 @@ msgstr ""
 "Pulse [Import] para agregar un nuevo viaje ahora o [Siguiente] para "
 "configurar más opciones de la página."
 
-#: views/components/import-dlg.jade:139
+#: views/components/import-dlg.jade:137
 #, fuzzy
 msgid "Please wait while Furkot is analyzing your file"
 msgstr "Por favor espere mientras Furkot está analizando su archivo"
 
-#: views/components/import-dlg.jade:144
+#: views/components/import-dlg.jade:142
 #, fuzzy
 msgid "You can import places from _KML_, _GPX_, and _CSV_ files."
 msgstr "Puede importar viajes de _KML_, _GPX_ y archivos _CSV_."
 
-#: views/components/import-dlg.jade:148
+#: views/components/import-dlg.jade:146
 #, fuzzy
 msgid ""
 "If the selected GPX file contains waypoints, routes and tracks, the routes "
@@ -1294,26 +1295,26 @@ msgstr ""
 "Si el archivo GPX seleccionado contiene waypoints, rutas y tracks, las rutas "
 "son ignorados."
 
-#: views/components/import-dlg.jade:150
+#: views/components/import-dlg.jade:148
 msgid ""
 "Supported CSV formats are Garmin Custom POI file and files with at least "
 "name and either address or lat and lon columns."
 msgstr ""
 
-#: views/components/import-dlg.jade:154
+#: views/components/import-dlg.jade:152
 msgid ""
 "Places without coordinates have been ignored. To retrieve places without "
 "coordinates import the file as a new trip."
 msgstr ""
 
-#: views/components/import-dlg.jade:161
+#: views/components/import-dlg.jade:159
 #: views/components/new-trip-wizard.jade:168
 #, fuzzy
 msgid "Previous"
 msgstr "Anterior"
 
 #. L10n: 'Import' can be also translated as 'Upload'
-#: views/components/import-dlg.jade:164
+#: views/components/import-dlg.jade:162
 #, fuzzy
 msgid "Import"
 msgstr "Importación"
@@ -5158,8 +5159,9 @@ msgstr "Noche"
 #. L10n: Label for the field that displays the average daytime temperature on the day of the stop
 #: views/components/step-detail.jade:483
 #, fuzzy
-msgid "Day "
-msgstr "Día Hora"
+msgctxt "daytime temperature"
+msgid "Day"
+msgstr "Día"
 
 #. L10n: Label for the field that displays stop elevation (altitude)
 #: views/components/step-detail.jade:488
@@ -5220,11 +5222,12 @@ msgstr "Etiquetas de viaje separados por comas (etiquetas)"
 msgid "Leg"
 msgstr "Pierna"
 
-#. L10n: label for time/distance covered since last overnight stop - keep the underscores _
+#. L10n: label for time/distance covered since last overnight stop
 #: views/components/step-detail.jade:523
 #, fuzzy
-msgid "_Day_"
-msgstr "_Day_"
+msgctxt "since last lodging"
+msgid "Day"
+msgstr "Día"
 
 #: views/components/step-detail.jade:532 views/components/step-detail.jade:702
 #: views/components/trip-config-item.jade:62
@@ -5270,10 +5273,11 @@ msgstr "Bicicleta"
 msgid "Walking"
 msgstr "Para caminar"
 
-#. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking. Keep the underscores _
+#. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking
 #: views/components/step-detail.jade:561
 #, fuzzy
-msgid "_Other_"
+msgctxt "other travel mode"
+msgid "Other"
 msgstr "Otro"
 
 #: views/components/step-detail.jade:564
@@ -5432,17 +5436,19 @@ msgstr "Cambiar tipo de ruta"
 msgid "Navigate this route"
 msgstr "Viaja esta ruta"
 
-#. L10n: label for the time needed to cover the route between two stops - keep the underscores _
+#. L10n: label for the time needed to cover the route between two stops
 #: views/components/step-detail.jade:688
 #, fuzzy
-msgid "_Duration_"
-msgstr "_Duration_"
+msgctxt "route between stops"
+msgid "Duration"
+msgstr "Duración"
 
-#. L10n: _duration_ is the time needed to cover the route between two stops - keep the underscores _
-#: views/components/step-detail.jade:692
+#. L10n: duration is the time needed to cover the route between two stops
+#: views/components/step-detail.jade:691
 #, fuzzy
-msgid "Click to modify _duration_"
-msgstr "Haga clic para modificar _duration_"
+msgctxt "route between stops"
+msgid "Click to modify duration"
+msgstr "Haga clic para modificar la duración"
 
 #. L10n: Label for the field to display/edit user average speed for the selected route or for the entire trip
 #: views/components/step-detail.jade:697
@@ -6612,7 +6618,8 @@ msgstr "Vuela desde casa"
 #. L10n: Label for the total distance of the trip
 #: views/components/trip-detail.jade:360
 #, fuzzy
-msgid "Distance "
+msgctxt "total trip distance"
+msgid "Distance"
 msgstr "Distancia"
 
 #. L10n: total time of riding a motorcycle (not horseback riding)
@@ -7775,193 +7782,24 @@ msgstr ""
 "atracciones y opciones de alojamiento."
 
 #, fuzzy
-#~ msgid ""
-#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
-#~ msgstr ""
-#~ "No hay que preocuparse, [Completo] abierto de Furkot donde usted puede "
-#~ "planear un nuevo viaje."
+#~ msgid "Remove this trip from phone"
+#~ msgstr "Eliminar este viaje desde el teléfono"
 
 #, fuzzy
-#~ msgid "Select KML, GPX or CSV file"
-#~ msgstr "Seleccionar archivo KML, GPX o CSV"
+#~ msgid "Weather"
+#~ msgstr "Clima"
 
 #, fuzzy
-#~ msgid "All"
-#~ msgstr "Todos"
+#~ msgid "Start at "
+#~ msgstr "Empieza en"
 
 #, fuzzy
-#~ msgid "Preserve this route when adding new stops"
-#~ msgstr "Preservar esta ruta al añadir nuevas paradas"
+#~ msgid "Museums from Go Historic"
+#~ msgstr "Museos de Go Histórico"
 
 #, fuzzy
-#~ msgid "Stops"
-#~ msgstr "Detiene"
-
-#, fuzzy
-#~ msgid "Hide hotel chains"
-#~ msgstr "Ocultar cadenas de hoteles"
-
-#, fuzzy
-#~ msgid "See the business offering this deal"
-#~ msgstr "Ver el negocio que tiene este acuerdo"
-
-#, fuzzy
-#~ msgid "Add this museum as a skipped stop"
-#~ msgstr "Añadir este museo como una parada omitida"
-
-#, fuzzy
-#~ msgid ""
-#~ "In reply to this email let us know what your nickname (a.k.a. username) "
-#~ "is and, to your best recollection, answer some questions about your "
-#~ "planned trips."
-#~ msgstr ""
-#~ "Háganos saber lo que tu nick (alias nombre de usuario) y es, a su mejor "
-#~ "recuerdo, responder a algunas preguntas acerca de sus viajes previstos."
-
-#, fuzzy
-#~ msgid "Reserve a Lodging"
-#~ msgstr "Reserve un Alojamiento"
-
-#, fuzzy
-#~ msgid "Hide deals and discounts"
-#~ msgstr "Ocultar ofertas y descuentos"
-
-#, fuzzy
-#~ msgid "Click to modify the time by which you end driving every day"
-#~ msgstr ""
-#~ "Haga clic para modificar el tiempo por el cual se termina la conducción "
-#~ "todos los días"
-
-#, fuzzy
-#~ msgid "Navigate"
-#~ msgstr "Navegar"
-
-#, fuzzy
-#~ msgid "House"
-#~ msgstr "Casa"
-
-#, fuzzy
-#~ msgid "Navigate to"
-#~ msgstr "Navegar a"
-
-#, fuzzy
-#~ msgid ""
-#~ "Press [Sync] to have the up-to-date version of your trips downloaded to "
-#~ "your mobile device."
-#~ msgstr ""
-#~ "Pulse [Sincronizar] para tener la versión actualizada de sus viajes "
-#~ "descargados en el dispositivo móvil."
-
-#, fuzzy
-#~ msgid "Sync"
-#~ msgstr "Sincronización"
-
-#, fuzzy
-#~ msgid "Hide guidebooks and travel guides"
-#~ msgstr "Ocultar guías y guías de viaje"
-
-#, fuzzy
-#~ msgid "Undo unlock route"
-#~ msgstr "Deshacer ruta de desbloqueo"
-
-#, fuzzy
-#~ msgid "Guidebook"
-#~ msgstr "Guía"
-
-#, fuzzy
-#~ msgid "Preserve / allow re-routing"
-#~ msgstr "Preservar / permitirá re-enrutamiento"
-
-#, fuzzy
-#~ msgid "Seasonal closures"
-#~ msgstr "Cierres estacionales"
-
-#, fuzzy
-#~ msgid "Places you want to visit - your Atlas Obscura user name"
-#~ msgstr "Lugares que desea visitar - su nombre de usuario Atlas Obscura"
-
-#, fuzzy
-#~ msgid "Feedback"
-#~ msgstr "Retroalimentación"
-
-#, fuzzy
-#~ msgid ""
-#~ "We'll be happy to reset your password, but we need more information to "
-#~ "identify your account."
-#~ msgstr ""
-#~ "Estaremos encantados de restablecer la contraseña, pero necesitamos más "
-#~ "información para identificar su cuenta."
-
-#, fuzzy
-#~ msgid "Are you sure you want to enable it?"
-#~ msgstr "¿Seguro que desea activarlo?"
-
-#, fuzzy
-#~ msgid "Click to modify the time at which you start driving every day"
-#~ msgstr ""
-#~ "Haga clic para modificar el tiempo en el que empezar a conducir todos los "
-#~ "días"
-
-#, fuzzy
-#~ msgid "This trip is now ready to be displayed on your mobile device."
-#~ msgstr "Este viaje está lista para que se muestre en su dispositivo móvil."
-
-#, fuzzy
-#~ msgid ""
-#~ "This is an experimental feature. When enabled, calculating routes will "
-#~ "take longer and may produce less reliable results."
-#~ msgstr ""
-#~ "Esta es una característica experimental. Cuando se activa, el cálculo de "
-#~ "rutas se tardará más y pueden producir resultados menos fiables."
-
-#, fuzzy
-#~ msgid "See description of this museum at Go Historic"
-#~ msgstr "Véase la descripción de este museo en Go Histórico"
-
-#, fuzzy
-#~ msgid "Hide deals from Yipit"
-#~ msgstr "Ocultar ofertas de Yipit"
-
-#, fuzzy
-#~ msgid "The answers don't have to be exact."
-#~ msgstr "Las respuestas no tienen que ser exactos."
-
-#, fuzzy
-#~ msgid "Redo unlock route"
-#~ msgstr "Rehacer desbloquear ruta"
-
-#, fuzzy
-#~ msgid "Send this trip to phone"
-#~ msgstr "Enviar este viaje a teléfono"
-
-#, fuzzy
-#~ msgid "Book"
-#~ msgstr "Libro"
-
-#, fuzzy
-#~ msgid "Directions courtesy of"
-#~ msgstr "Direcciones cortesía de"
-
-#, fuzzy
-#~ msgid "Mobile"
-#~ msgstr "Móvil"
-
-#, fuzzy
-#~ msgid "Hide guidebooks, deals and discounts"
-#~ msgstr "Ocultar guías, ofertas y descuentos"
-
-#, fuzzy
-#~ msgid "Stop address"
-#~ msgstr "Dirección de la parada"
-
-#, fuzzy
-#~ msgid "Sign Out"
-#~ msgstr "Desconectarse"
-
-#, fuzzy
-#~ msgid "Furkot assumes it is a walking trip."
-#~ msgstr ""
-#~ "Con base en los datos de temporización Furkot asume que es un viaje a pie."
+#~ msgid "Distance "
+#~ msgstr "Distancia"
 
 #, fuzzy
 #~ msgid "Please wait while Furkot is contacting the booking site"
@@ -7976,81 +7814,123 @@ msgstr ""
 #~ "su cuenta."
 
 #, fuzzy
+#~ msgid "Click to modify _duration_"
+#~ msgstr "Haga clic para modificar _duration_"
+
+#, fuzzy
 #~ msgid "Furkot assumes it is a driving trip."
 #~ msgstr ""
 #~ "Con base en los datos de temporización Furkot asume que es un viaje en "
 #~ "coche."
 
 #, fuzzy
+#~ msgid ""
+#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
+#~ msgstr ""
+#~ "No hay que preocuparse, [Completo] abierto de Furkot donde usted puede "
+#~ "planear un nuevo viaje."
+
+#, fuzzy
 #~ msgid "See user reviews at Go Historic"
 #~ msgstr "Ver opiniones de los usuarios en el Go Histórico"
+
+#, fuzzy
+#~ msgid "All"
+#~ msgstr "Todos"
 
 #, fuzzy
 #~ msgid "Guidebooks, deals and discounts"
 #~ msgstr "Guías, ofertas y descuentos"
 
 #, fuzzy
+#~ msgid "_Duration_"
+#~ msgstr "_Duration_"
+
+#, fuzzy
 #~ msgid "day"
 #~ msgstr "día"
 
 #, fuzzy
-#~ msgid "Deals from Yipit"
-#~ msgstr "Ofertas de Yipit"
-
-#, fuzzy
-#~ msgid "Add this deal as a skipped stop"
-#~ msgstr "Añadir este acuerdo como una parada omitida"
-
-#, fuzzy
-#~ msgid "When did you intend to travel?"
-#~ msgstr "Cuándo quieres ir?"
+#~ msgid "Top"
+#~ msgstr "Cima"
 
 #, fuzzy
 #~ msgid "Full Site"
 #~ msgstr "Sitio completo"
 
 #, fuzzy
-#~ msgid "Hide museums from Go Historic"
-#~ msgstr "Ocultar museos de Go Histórico"
+#~ msgid "Book"
+#~ msgstr "Libro"
 
 #, fuzzy
-#~ msgid ""
-#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
-#~ "trip."
-#~ msgstr ""
-#~ "Abra Furkot en su teléfono o tableta para ver la versión actualizada de "
-#~ "este viaje."
+#~ msgid "Experimental"
+#~ msgstr "Experimental"
 
 #, fuzzy
-#~ msgid ""
-#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
-#~ msgstr ""
-#~ "Si usted ya tiene una [viaje], asegúrese de que tiene la opción _Phone_ "
-#~ "habilitado."
+#~ msgid "This trip is now ready to be displayed on your mobile device."
+#~ msgstr "Este viaje está lista para que se muestre en su dispositivo móvil."
 
 #, fuzzy
-#~ msgid "Do you remember any places/stops that you added?"
-#~ msgstr "¿Te acuerdas de cualquier lugar / paradas que agregó?"
+#~ msgid "Re-route when adding new stops"
+#~ msgstr "Re-ruta al añadir nuevas paradas"
 
 #, fuzzy
-#~ msgid "Trips"
-#~ msgstr "Viajes"
+#~ msgid "Guidebook"
+#~ msgstr "Guía"
+
+#, fuzzy
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#, fuzzy
+#~ msgid "Day "
+#~ msgstr "Día Hora"
 
 #, fuzzy
 #~ msgid "Looking for trip ideas?"
 #~ msgstr "Buscando ideas de viaje?"
 
 #, fuzzy
-#~ msgid "Visit this museum"
-#~ msgstr "Visite este museo"
+#~ msgid ""
+#~ "Press [Sync] to have the up-to-date version of your trips downloaded to "
+#~ "your mobile device."
+#~ msgstr ""
+#~ "Pulse [Sincronizar] para tener la versión actualizada de sus viajes "
+#~ "descargados en el dispositivo móvil."
 
 #, fuzzy
-#~ msgid "Trip sent to phone"
-#~ msgstr "Trip enviado a teléfono"
+#~ msgid "Do you remember any places/stops that you added?"
+#~ msgstr "¿Te acuerdas de cualquier lugar / paradas que agregó?"
 
 #, fuzzy
-#~ msgid "ALL"
-#~ msgstr "TODO"
+#~ msgid "Hide deals from Yipit"
+#~ msgstr "Ocultar ofertas de Yipit"
+
+#, fuzzy
+#~ msgid "Furkot assumes it is a bicycle trip."
+#~ msgstr ""
+#~ "Con base en los datos de temporización Furkot asume que es un viaje en "
+#~ "bicicleta."
+
+#, fuzzy
+#~ msgid "Hide deals and discounts"
+#~ msgstr "Ocultar ofertas y descuentos"
+
+#, fuzzy
+#~ msgid "Mobile"
+#~ msgstr "Móvil"
+
+#, fuzzy
+#~ msgid "Stop address"
+#~ msgstr "Dirección de la parada"
+
+#, fuzzy
+#~ msgid "Discount"
+#~ msgstr "Descuento"
+
+#, fuzzy
+#~ msgid "Feedback"
+#~ msgstr "Retroalimentación"
 
 #, fuzzy
 #~ msgid ""
@@ -8063,133 +7943,142 @@ msgstr ""
 #~ "estacionales se basan en el"
 
 #, fuzzy
-#~ msgid "Hide apartments, private rooms, B&Bs"
-#~ msgstr "Ocultar apartamentos, habitaciones privadas, B & B"
+#~ msgid "Hide hotel chains"
+#~ msgstr "Ocultar cadenas de hoteles"
 
 #, fuzzy
-#~ msgid "Exact coordinates"
-#~ msgstr "Coordenadas exactas"
+#~ msgid "Add this deal as a skipped stop"
+#~ msgstr "Añadir este acuerdo como una parada omitida"
 
 #, fuzzy
-#~ msgid "See this museum own website"
-#~ msgstr "Ver este museo propio sitio web"
-
-#, fuzzy
-#~ msgid "Experimental"
-#~ msgstr "Experimental"
-
-#, fuzzy
-#~ msgid "Guidebooks and travel guides"
-#~ msgstr "Guías turísticas y guías de viaje"
-
-#, fuzzy
-#~ msgid "Fold this museum details"
-#~ msgstr "Dobla este museo detalles"
-
-#, fuzzy
-#~ msgid "Click to leave suggestions"
-#~ msgstr "Haz clic aquí para dejar sugerencias"
-
-#, fuzzy
-#~ msgid "Discount"
-#~ msgstr "Descuento"
-
-#, fuzzy
-#~ msgid "Do you remember any names of the trips you planned with Furkot?"
-#~ msgstr "¿Te acuerdas de los nombres de los viajes planificados con Furkot?"
-
-#, fuzzy
-#~ msgid "Persons per room"
-#~ msgstr "Personas por habitación"
-
-#, fuzzy
-#~ msgid "Stop and use this deal"
-#~ msgstr "Detener y utilizar este acuerdo"
-
-#, fuzzy
-#~ msgid "Info"
-#~ msgstr "Info"
-
-#, fuzzy
-#~ msgid "Furkot assumes it is a riding trip."
-#~ msgstr ""
-#~ "Con base en los datos de temporización Furkot asume que es un viaje en "
-#~ "coche."
-
-#, fuzzy
-#~ msgid "Which states/countries did you visit on your trips?"
-#~ msgstr "¿Qué estados / países tenían que visitar en sus viajes?"
+#~ msgid "Add this museum as a skipped stop"
+#~ msgstr "Añadir este museo como una parada omitida"
 
 #, fuzzy
 #~ msgid ""
-#~ "Take itinerary of your road trip, weekend outing, family vacation with "
-#~ "you while traveling. Use Furkot on your phone or tablet on the go."
+#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
+#~ "trip."
 #~ msgstr ""
-#~ "Tome itinerario de su viaje por carretera, excursión de fin de semana, "
-#~ "vacaciones en familia con usted mientras viaja. Utilice Furkot en su "
-#~ "teléfono o tableta sobre la marcha."
+#~ "Abra Furkot en su teléfono o tableta para ver la versión actualizada de "
+#~ "este viaje."
 
 #, fuzzy
-#~ msgid "Remove this trip from phone"
-#~ msgstr "Eliminar este viaje desde el teléfono"
+#~ msgid "See description of this museum at Go Historic"
+#~ msgstr "Véase la descripción de este museo en Go Histórico"
 
 #, fuzzy
-#~ msgid "Anticipate seasonal closures during trip."
-#~ msgstr "Anticipar las vedas estacionales durante su viaje."
+#~ msgid "Analyze"
+#~ msgstr "Analizar"
 
 #, fuzzy
-#~ msgid "Feel free to press [Done] at any point."
-#~ msgstr "Siéntase libre de pulsar [Listo] en cualquier punto."
-
-#, fuzzy
-#~ msgid "Deal"
-#~ msgstr "Acuerdo"
-
-#, fuzzy
-#~ msgid "Top"
-#~ msgstr "Cima"
-
-#, fuzzy
-#~ msgid "Default nav app"
-#~ msgstr "Aplicación de navegación por defecto"
-
-#, fuzzy
-#~ msgid "None"
-#~ msgstr "Ninguno"
-
-#, fuzzy
-#~ msgid "If it is not, you can change it later."
-#~ msgstr "Si no es así, se puede cambiar más adelante."
-
-#, fuzzy
-#~ msgid "Furkot assumes it is a bicycle trip."
-#~ msgstr ""
-#~ "Con base en los datos de temporización Furkot asume que es un viaje en "
-#~ "bicicleta."
-
-#, fuzzy
-#~ msgid "Label Roads"
-#~ msgstr "Carreteras Label"
+#~ msgid "Hide guidebooks and travel guides"
+#~ msgstr "Ocultar guías y guías de viaje"
 
 #, fuzzy
 #~ msgid "Trip removed from phone"
 #~ msgstr "Viaje retirado de teléfono"
 
 #, fuzzy
-#~ msgid "Looks like driving information is missing from some trips."
-#~ msgstr "Parece que conduce la información que falta en algunos viajes."
+#~ msgid "Redo unlock route"
+#~ msgstr "Rehacer desbloquear ruta"
 
 #, fuzzy
-#~ msgid "Re-route when adding new stops"
-#~ msgstr "Re-ruta al añadir nuevas paradas"
+#~ msgid "None"
+#~ msgstr "Ninguno"
 
 #, fuzzy
-#~ msgid "Looks like there are no trips to show here."
-#~ msgstr "Parece que no hay viajes que mostrar aquí."
+#~ msgid "_Other_"
+#~ msgstr "Otro"
 
 #, fuzzy
-#~ msgid "Analyze"
-#~ msgstr "Analizar"
+#~ msgid "Feel free to press [Done] at any point."
+#~ msgstr "Siéntase libre de pulsar [Listo] en cualquier punto."
+
+#, fuzzy
+#~ msgid "Preserve / allow re-routing"
+#~ msgstr "Preservar / permitirá re-enrutamiento"
+
+#, fuzzy
+#~ msgid "Which states/countries did you visit on your trips?"
+#~ msgstr "¿Qué estados / países tenían que visitar en sus viajes?"
+
+#, fuzzy
+#~ msgid "Seasonal closures"
+#~ msgstr "Cierres estacionales"
+
+#, fuzzy
+#~ msgid "Persons per room"
+#~ msgstr "Personas por habitación"
+
+#, fuzzy
+#~ msgid "Furkot assumes it is a walking trip."
+#~ msgstr ""
+#~ "Con base en los datos de temporización Furkot asume que es un viaje a pie."
+
+#, fuzzy
+#~ msgid "Fold this museum details"
+#~ msgstr "Dobla este museo detalles"
+
+#, fuzzy
+#~ msgid "House"
+#~ msgstr "Casa"
+
+#, fuzzy
+#~ msgid "Exact coordinates"
+#~ msgstr "Coordenadas exactas"
+
+#, fuzzy
+#~ msgid "Preserve this route when adding new stops"
+#~ msgstr "Preservar esta ruta al añadir nuevas paradas"
+
+#, fuzzy
+#~ msgid "Trip sent to phone"
+#~ msgstr "Trip enviado a teléfono"
+
+#, fuzzy
+#~ msgid "Are you sure you want to enable it?"
+#~ msgstr "¿Seguro que desea activarlo?"
+
+#, fuzzy
+#~ msgid "Deals from Yipit"
+#~ msgstr "Ofertas de Yipit"
+
+#, fuzzy
+#~ msgid "Click to modify the time at which you start driving every day"
+#~ msgstr ""
+#~ "Haga clic para modificar el tiempo en el que empezar a conducir todos los "
+#~ "días"
+
+#, fuzzy
+#~ msgid "When did you intend to travel?"
+#~ msgstr "Cuándo quieres ir?"
+
+#, fuzzy
+#~ msgid "Reserve a Lodging"
+#~ msgstr "Reserve un Alojamiento"
+
+#, fuzzy
+#~ msgid "Hide museums from Go Historic"
+#~ msgstr "Ocultar museos de Go Histórico"
+
+#, fuzzy
+#~ msgid ""
+#~ "This is an experimental feature. When enabled, calculating routes will "
+#~ "take longer and may produce less reliable results."
+#~ msgstr ""
+#~ "Esta es una característica experimental. Cuando se activa, el cálculo de "
+#~ "rutas se tardará más y pueden producir resultados menos fiables."
+
+#, fuzzy
+#~ msgid ""
+#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
+#~ msgstr ""
+#~ "Si usted ya tiene una [viaje], asegúrese de que tiene la opción _Phone_ "
+#~ "habilitado."
+
+#, fuzzy
+#~ msgid "Sync"
+#~ msgstr "Sincronización"
 
 #, fuzzy
 #~ msgid ""
@@ -8204,9 +8093,155 @@ msgstr ""
 #~ msgstr "Ver detalles de este acuerdo en Yipit"
 
 #, fuzzy
-#~ msgid "Museums from Go Historic"
-#~ msgstr "Museos de Go Histórico"
+#~ msgid "Looks like there are no trips to show here."
+#~ msgstr "Parece que no hay viajes que mostrar aquí."
 
 #, fuzzy
-#~ msgid "Weather"
-#~ msgstr "Clima"
+#~ msgid "Stops"
+#~ msgstr "Detiene"
+
+#, fuzzy
+#~ msgid "Looks like driving information is missing from some trips."
+#~ msgstr "Parece que conduce la información que falta en algunos viajes."
+
+#, fuzzy
+#~ msgid "The answers don't have to be exact."
+#~ msgstr "Las respuestas no tienen que ser exactos."
+
+#, fuzzy
+#~ msgid "Label Roads"
+#~ msgstr "Carreteras Label"
+
+#, fuzzy
+#~ msgid "Undo unlock route"
+#~ msgstr "Deshacer ruta de desbloqueo"
+
+#, fuzzy
+#~ msgid "If it is not, you can change it later."
+#~ msgstr "Si no es así, se puede cambiar más adelante."
+
+#, fuzzy
+#~ msgid "Send this trip to phone"
+#~ msgstr "Enviar este viaje a teléfono"
+
+#, fuzzy
+#~ msgid "Default nav app"
+#~ msgstr "Aplicación de navegación por defecto"
+
+#, fuzzy
+#~ msgid "See the business offering this deal"
+#~ msgstr "Ver el negocio que tiene este acuerdo"
+
+#, fuzzy
+#~ msgid "Deal"
+#~ msgstr "Acuerdo"
+
+#, fuzzy
+#~ msgid "Directions courtesy of"
+#~ msgstr "Direcciones cortesía de"
+
+#, fuzzy
+#~ msgid "Anticipate seasonal closures during trip."
+#~ msgstr "Anticipar las vedas estacionales durante su viaje."
+
+#, fuzzy
+#~ msgid "Click to modify the time by which you end driving every day"
+#~ msgstr ""
+#~ "Haga clic para modificar el tiempo por el cual se termina la conducción "
+#~ "todos los días"
+
+#, fuzzy
+#~ msgid ""
+#~ "Take itinerary of your road trip, weekend outing, family vacation with "
+#~ "you while traveling. Use Furkot on your phone or tablet on the go."
+#~ msgstr ""
+#~ "Tome itinerario de su viaje por carretera, excursión de fin de semana, "
+#~ "vacaciones en familia con usted mientras viaja. Utilice Furkot en su "
+#~ "teléfono o tableta sobre la marcha."
+
+#, fuzzy
+#~ msgid "Hide guidebooks, deals and discounts"
+#~ msgstr "Ocultar guías, ofertas y descuentos"
+
+#, fuzzy
+#~ msgid "Furkot assumes it is a riding trip."
+#~ msgstr ""
+#~ "Con base en los datos de temporización Furkot asume que es un viaje en "
+#~ "coche."
+
+#, fuzzy
+#~ msgid "Navigate"
+#~ msgstr "Navegar"
+
+#, fuzzy
+#~ msgid "Stop and use this deal"
+#~ msgstr "Detener y utilizar este acuerdo"
+
+#, fuzzy
+#~ msgid "Sign Out"
+#~ msgstr "Desconectarse"
+
+#, fuzzy
+#~ msgid "Do you remember any names of the trips you planned with Furkot?"
+#~ msgstr "¿Te acuerdas de los nombres de los viajes planificados con Furkot?"
+
+#, fuzzy
+#~ msgid "Places you want to visit - your Atlas Obscura user name"
+#~ msgstr "Lugares que desea visitar - su nombre de usuario Atlas Obscura"
+
+#, fuzzy
+#~ msgid "Click to leave suggestions"
+#~ msgstr "Haz clic aquí para dejar sugerencias"
+
+#, fuzzy
+#~ msgid "Trips"
+#~ msgstr "Viajes"
+
+#, fuzzy
+#~ msgid "Guidebooks and travel guides"
+#~ msgstr "Guías turísticas y guías de viaje"
+
+#, fuzzy
+#~ msgid ""
+#~ "In reply to this email let us know what your nickname (a.k.a. username) "
+#~ "is and, to your best recollection, answer some questions about your "
+#~ "planned trips."
+#~ msgstr ""
+#~ "Háganos saber lo que tu nick (alias nombre de usuario) y es, a su mejor "
+#~ "recuerdo, responder a algunas preguntas acerca de sus viajes previstos."
+
+#, fuzzy
+#~ msgid "See this museum own website"
+#~ msgstr "Ver este museo propio sitio web"
+
+#, fuzzy
+#~ msgid "Select KML, GPX or CSV file"
+#~ msgstr "Seleccionar archivo KML, GPX o CSV"
+
+#, fuzzy
+#~ msgid "Hide apartments, private rooms, B&Bs"
+#~ msgstr "Ocultar apartamentos, habitaciones privadas, B & B"
+
+#, fuzzy
+#~ msgid ""
+#~ "We'll be happy to reset your password, but we need more information to "
+#~ "identify your account."
+#~ msgstr ""
+#~ "Estaremos encantados de restablecer la contraseña, pero necesitamos más "
+#~ "información para identificar su cuenta."
+
+#, fuzzy
+#~ msgid "ALL"
+#~ msgstr "TODO"
+
+#, fuzzy
+#~ msgid "_Day_"
+#~ msgstr "_Day_"
+
+#, fuzzy
+#~ msgid "Visit this museum"
+#~ msgstr "Visite este museo"
+
+#, fuzzy
+#~ msgid "Navigate to"
+#~ msgstr "Navegar a"
