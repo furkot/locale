@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2017-02-15 21:30-0800\n"
+"POT-Creation-Date: 2017-02-15 21:34-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr ""
 #: views/components/add-stops.jade:2
 #: views/components/add-stops.jade:16
 #: views/components/dialog.jade:7
-#: views/components/import-dlg.jade:160
+#: views/components/import-dlg.jade:158
 #: views/components/navigation.jade:2
 #: views/components/place-switch.jade:391
 #: views/components/plan-msg.jade:2
@@ -275,7 +275,7 @@ msgstr ""
 #: views/components/applications.jade:18
 #: views/components/book-trip.jade:32
 #: views/components/export-dlg.jade:97
-#: views/components/import-dlg.jade:168
+#: views/components/import-dlg.jade:166
 #: views/components/navigation.jade:70
 #: views/components/new-trip-wizard.jade:174
 #: views/components/place-switch.jade:395
@@ -317,7 +317,7 @@ msgstr ""
 
 #: views/components/book-trip.jade:28
 #: views/components/book-trip.jade:35
-#: views/components/import-dlg.jade:162
+#: views/components/import-dlg.jade:160
 #: views/components/new-trip-wizard.jade:169
 #: views/components/tour.jade:42
 msgid "Next"
@@ -1066,7 +1066,7 @@ msgstr ""
 
 #. L10n: pair of _underscores_ denotes different formatting
 #: views/components/import-dlg.jade:23
-#: views/components/import-dlg.jade:143
+#: views/components/import-dlg.jade:141
 msgid "You can import trips from _KML_, _GPX_, and _CSV_ files."
 msgstr ""
 
@@ -1075,7 +1075,7 @@ msgid "The file is too large."
 msgstr ""
 
 #: views/components/import-dlg.jade:26
-#: views/components/import-dlg.jade:153
+#: views/components/import-dlg.jade:151
 msgid "File size limit for all types is 8MB."
 msgstr ""
 
@@ -1104,7 +1104,7 @@ msgstr ""
 
 #. L10n: the curly brackets {} stand for " character
 #: views/components/import-dlg.jade:38
-#: views/components/import-dlg.jade:152
+#: views/components/import-dlg.jade:150
 msgid "Enclose fields with commas in double-quotes {}."
 msgstr ""
 
@@ -1113,7 +1113,7 @@ msgid "Invalid GPX file."
 msgstr ""
 
 #: views/components/import-dlg.jade:41
-#: views/components/import-dlg.jade:147
+#: views/components/import-dlg.jade:145
 msgid "GPX schema 1.1 is supported. Proprietary extensions are ignored."
 msgstr ""
 
@@ -1122,7 +1122,7 @@ msgid "Invalid KML file."
 msgstr ""
 
 #: views/components/import-dlg.jade:44
-#: views/components/import-dlg.jade:146
+#: views/components/import-dlg.jade:144
 msgid "Supported KML elements are Placemark and LineString."
 msgstr ""
 
@@ -1168,93 +1168,94 @@ msgid "Number of stops to import"
 msgstr ""
 
 #. L10n: 'Start at' as in 'Start at this index when importing stops'. Label for the field that allows user to specify index of the first stop to import
-#: views/components/import-dlg.jade:77
-msgid "Start at "
+#: views/components/import-dlg.jade:75
+msgctxt "start import at"
+msgid "Start at"
 msgstr ""
 
-#: views/components/import-dlg.jade:82
+#: views/components/import-dlg.jade:80
 msgid "Index of the first stop to import"
 msgstr ""
 
 #. L10n: Label for the field that allows user to specify what kind of stops to import from a file
-#: views/components/import-dlg.jade:85
+#: views/components/import-dlg.jade:83
 msgid "Filter"
 msgstr ""
 
 #. L10n: 'Matching phrase' is compared to stops when deciding which ones to import
-#: views/components/import-dlg.jade:88
+#: views/components/import-dlg.jade:86
 msgid "Matching phrase"
 msgstr ""
 
 #. L10n: The phrase is compared to stops when deciding which ones to import
-#: views/components/import-dlg.jade:89
-#: views/components/import-dlg.jade:92
+#: views/components/import-dlg.jade:87
+#: views/components/import-dlg.jade:90
 msgid "Optional phrase to match against stop fields"
 msgstr ""
 
-#: views/components/import-dlg.jade:98
+#: views/components/import-dlg.jade:96
 msgid "Reorder stops for the shortest route"
 msgstr ""
 
-#: views/components/import-dlg.jade:101
+#: views/components/import-dlg.jade:99
 msgid ""
 "When not defined in the imported file, Furkot will use the default stop "
 "duration."
 msgstr ""
 
 #. L10n: 'Stopover' is a default duration of a stop, i.e. the time spend at a stop
-#: views/components/import-dlg.jade:104
+#: views/components/import-dlg.jade:102
 #: views/components/trip-config-item.jade:31
 #: views/components/trip-detail.jade:110
 msgid "Stopover"
 msgstr ""
 
 #. L10n: "Travel by" car/motorcycle/bicycle/on foot - label for the mode of travel
-#: views/components/import-dlg.jade:110
+#: views/components/import-dlg.jade:108
 #: views/components/new-trip-wizard.jade:86
 msgid "Travel by"
 msgstr ""
 
-#: views/components/import-dlg.jade:113
+#: views/components/import-dlg.jade:111
 msgid "Let Furkot follow roads unless importing off-road routes/tracks."
 msgstr ""
 
 #. L10n: Label for the field that allows user to decide whether routes should follow roads or permit off-road travel (the routes shaped manually)
-#: views/components/import-dlg.jade:116
+#: views/components/import-dlg.jade:114
 #: views/components/step-detail.jade:681
 msgid "Routing"
 msgstr ""
 
 #. L10n: 'Follow roads' - Furkot will automatically calculate routes that go over public roads - as opposed to 'Travel off-road' - user can shape routes manually without any constraint
-#: views/components/import-dlg.jade:119
+#: views/components/import-dlg.jade:117
 #: views/components/step-detail.jade:683
 msgid "Follow roads"
 msgstr ""
 
 #. L10n: 'Travel off-road' - user can shape routes manually without any constraint - as opposed to 'Follow roads' - Furkot will automatically calculate routes that go over public roads
-#: views/components/import-dlg.jade:119
-#: views/components/import-dlg.jade:122
+#: views/components/import-dlg.jade:117
+#: views/components/import-dlg.jade:120
 #: views/components/step-detail.jade:682
 msgid "Travel off road"
 msgstr ""
 
-#: views/components/import-dlg.jade:127
+#: views/components/import-dlg.jade:125
 msgid ""
 "Not all routes/tracks have timing data. Furkot will use an average speed "
 "instead."
 msgstr ""
 
-#: views/components/import-dlg.jade:128
+#: views/components/import-dlg.jade:126
 msgid ""
 "For routes/tracks without timing data Furkot will use an average speed."
 msgstr ""
 
-#: views/components/import-dlg.jade:130
+#: views/components/import-dlg.jade:128
 msgid "Average speed"
 msgstr ""
 
 #. L10n: abbreviation of kilometer
-#: views/components/import-dlg.jade:133
+#: views/components/import-dlg.jade:131
 #: views/components/place-switch.jade:33
 #: views/components/step-detail.jade:708
 #: views/components/trip-config-item.jade:40
@@ -1270,7 +1271,7 @@ msgid "km"
 msgstr ""
 
 #. L10n: abbreviation of mile
-#: views/components/import-dlg.jade:134
+#: views/components/import-dlg.jade:132
 #: views/components/place-switch.jade:34
 #: views/components/step-detail.jade:709
 #: views/components/trip-config-item.jade:78
@@ -1280,45 +1281,45 @@ msgid "mi"
 msgstr ""
 
 #. L10n: square brackets [] denote a button
-#: views/components/import-dlg.jade:137
+#: views/components/import-dlg.jade:135
 msgid ""
 "Press [Import] to add a new trip now or configure more options on the "
 "[Next] page."
 msgstr ""
 
-#: views/components/import-dlg.jade:139
+#: views/components/import-dlg.jade:137
 msgid "Please wait while Furkot is analyzing your file"
 msgstr ""
 
-#: views/components/import-dlg.jade:144
+#: views/components/import-dlg.jade:142
 msgid "You can import places from _KML_, _GPX_, and _CSV_ files."
 msgstr ""
 
-#: views/components/import-dlg.jade:148
+#: views/components/import-dlg.jade:146
 msgid ""
 "If the selected GPX file contains waypoints, routes and tracks, the routes "
 "are ignored."
 msgstr ""
 
-#: views/components/import-dlg.jade:150
+#: views/components/import-dlg.jade:148
 msgid ""
 "Supported CSV formats are Garmin Custom POI file and files with at least "
 "name and either address or lat and lon columns."
 msgstr ""
 
-#: views/components/import-dlg.jade:154
+#: views/components/import-dlg.jade:152
 msgid ""
 "Places without coordinates have been ignored. To retrieve places without "
 "coordinates import the file as a new trip."
 msgstr ""
 
-#: views/components/import-dlg.jade:161
+#: views/components/import-dlg.jade:159
 #: views/components/new-trip-wizard.jade:168
 msgid "Previous"
 msgstr ""
 
 #. L10n: 'Import' can be also translated as 'Upload'
-#: views/components/import-dlg.jade:164
+#: views/components/import-dlg.jade:162
 msgid "Import"
 msgstr ""
 
@@ -4565,7 +4566,8 @@ msgstr ""
 
 #. L10n: Label for the field that displays the average daytime temperature on the day of the stop
 #: views/components/step-detail.jade:483
-msgid "Day "
+msgctxt "daytime temperature"
+msgid "Day"
 msgstr ""
 
 #. L10n: Label for the field that displays stop elevation (altitude)
@@ -4618,9 +4620,10 @@ msgstr ""
 msgid "Leg"
 msgstr ""
 
-#. L10n: label for time/distance covered since last overnight stop - keep the underscores _
+#. L10n: label for time/distance covered since last overnight stop
 #: views/components/step-detail.jade:523
-msgid "_Day_"
+msgctxt "since last lodging"
+msgid "Day"
 msgstr ""
 
 #: views/components/step-detail.jade:532
@@ -4664,9 +4667,10 @@ msgstr ""
 msgid "Walking"
 msgstr ""
 
-#. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking. Keep the underscores _
+#. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking
 #: views/components/step-detail.jade:561
-msgid "_Other_"
+msgctxt "other travel mode"
+msgid "Other"
 msgstr ""
 
 #: views/components/step-detail.jade:564
@@ -4815,14 +4819,16 @@ msgstr ""
 msgid "Navigate this route"
 msgstr ""
 
-#. L10n: label for the time needed to cover the route between two stops - keep the underscores _
+#. L10n: label for the time needed to cover the route between two stops
 #: views/components/step-detail.jade:688
-msgid "_Duration_"
+msgctxt "route between stops"
+msgid "Duration"
 msgstr ""
 
-#. L10n: _duration_ is the time needed to cover the route between two stops - keep the underscores _
-#: views/components/step-detail.jade:692
-msgid "Click to modify _duration_"
+#. L10n: duration is the time needed to cover the route between two stops
+#: views/components/step-detail.jade:691
+msgctxt "route between stops"
+msgid "Click to modify duration"
 msgstr ""
 
 #. L10n: Label for the field to display/edit user average speed for the selected route or for the entire trip
@@ -5775,7 +5781,8 @@ msgstr ""
 
 #. L10n: Label for the total distance of the trip
 #: views/components/trip-detail.jade:360
-msgid "Distance "
+msgctxt "total trip distance"
+msgid "Distance"
 msgstr ""
 
 #. L10n: total time of riding a motorcycle (not horseback riding)
