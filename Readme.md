@@ -115,9 +115,12 @@ For example for German
 Let us know how you want to be credited: we will list your name here and in Furkot.
 We can also include (or not) your e-mail and/or a link to your website.
 
+Dutch translation by Merijn Peeters
+
 French translation by [Sylvain Francois](https://github.com/syllant).
 
-German translation by [Jörgen Klein](http://www.klein-bild.de/).
+German translation by [Jörgen Klein](http://www.klein-bild.de/), Christian Hansen.
+
 
 [Furkot]: https://trips.furkot.com
 [furkot-email]: mailto:trips@furkot.com
