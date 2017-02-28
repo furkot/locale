@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2017-02-15 21:34-0800\n"
+"POT-Creation-Date: 2017-02-27 20:31-0800\n"
 "PO-Revision-Date: 2015-10-20 01:17-0400\n"
 "Last-Translator: Nilanjan Saha (নীল) <motofarer@gmail.com>\n"
-"Language-Team: Bengali <https://translate.furkot.com/projects/furkot/"
-"trips/bn/>\n"
+"Language-Team: Bengali <https://translate.furkot.com/projects/furkot/trips/"
+"bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +56,7 @@ msgstr "পরামর্শ দিন"
 #: views/board/board.jade:30 views/components/accounts.jade:81
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:16
 #: views/components/dialog.jade:7 views/components/import-dlg.jade:158
-#: views/components/navigation.jade:2 views/components/place-switch.jade:391
+#: views/components/navigation.jade:2 views/components/place-switch.jade:397
 #: views/components/plan-msg.jade:2 views/components/share-dlg.jade:94
 #: views/components/share-dlg.jade:105 views/components/share-dlg.jade:117
 #: views/components/step-detail.jade:813 views/components/step-switches.jade:92
@@ -75,12 +75,44 @@ msgstr "পরামর্শ দিন"
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
-#: views/board/board.jade:31 views/components/applications.jade:21
-#: views/components/share-dlg.jade:129 views/components/tour.jade:41
+#: views/board/board.jade:31 views/board/board.jade:42
+#: views/components/applications.jade:21 views/components/share-dlg.jade:129
+#: views/components/tour.jade:41
 msgid "Close"
 msgstr "বন্ধ করুন"
 
-#: views/board/board.jade:93 views/components/book-trip.jade:35
+#. L10n: curly brackets {} denote a placeholder for the trip name (destination)
+#: views/board/board.jade:37
+msgid ""
+"Hi! I am planning a trip {}. I am hoping you can help me with that. This is "
+"my route so far."
+msgstr ""
+
+#: views/board/board.jade:38
+msgid ""
+"If you know about any interesting places along my route please add them to "
+"this map. You can enter the name in the search box, or - if you know where "
+"the place is located - click on the map and choose from the list of places "
+"nearby. Add as many suggestions as you want."
+msgstr ""
+
+#: views/board/board.jade:39
+msgid "Thanks for your help."
+msgstr ""
+
+#: views/board/board.jade:45
+msgid ""
+"This is the map of your trip that others will see. They will be able to "
+"suggest one or more places for you to visit on your trip."
+msgstr ""
+
+#: views/board/board.jade:46
+msgid ""
+"Copy and paste this URL or use one of the share buttons to ask others to "
+"help you plan this trip."
+msgstr ""
+
+#: views/board/board.jade:83 views/components/book-trip.jade:35
 msgid "Back"
 msgstr "পেছনে যান"
 
@@ -197,7 +229,7 @@ msgstr "সংযুক্ত অ্যাকাউন্টগুলির"
 
 #: views/components/accounts.jade:82 views/components/add-stops.jade:2
 #: views/components/add-stops.jade:16 views/components/navigation.jade:2
-#: views/components/place-switch.jade:392 views/components/plan-msg.jade:2
+#: views/components/place-switch.jade:398 views/components/plan-msg.jade:2
 #: views/components/plan-msg.jade:17 views/components/share-dlg.jade:94
 #: views/components/share-dlg.jade:105 views/components/share-dlg.jade:117
 #: views/components/step-switches.jade:92
@@ -277,7 +309,7 @@ msgstr "নাটুকে"
 #: views/components/export-dlg.jade:97 views/components/import-dlg.jade:166
 #: views/components/navigation.jade:70
 #: views/components/new-trip-wizard.jade:174
-#: views/components/place-switch.jade:395 views/components/share-dlg.jade:91
+#: views/components/place-switch.jade:401 views/components/share-dlg.jade:91
 #: views/components/trip-detail.jade:458 views/components/trip-toolbar.jade:43
 #: views/tripshot/mixin.jade:112 views/tripshot/mixin.jade:143
 #, fuzzy
@@ -2622,12 +2654,12 @@ msgstr "রেটিং দ্বারা (সর্বোচ্চ প্র�
 msgid "Add all displayed places as skipped stops"
 msgstr "সব প্রদর্শিত স্থান যেমন এড়ানো স্টপ যোগ"
 
-#: views/components/place-switch.jade:84 views/components/place-switch.jade:372
+#: views/components/place-switch.jade:84 views/components/place-switch.jade:378
 #, fuzzy
 msgid "Hide all places"
 msgstr "সব জায়গা লুকান"
 
-#: views/components/place-switch.jade:84 views/components/place-switch.jade:372
+#: views/components/place-switch.jade:84 views/components/place-switch.jade:378
 #, fuzzy
 msgid "Show all places"
 msgstr "সব স্থান দেখান"
@@ -2753,442 +2785,455 @@ msgstr "ফিলিং স্টেশন"
 msgid "Hide filling stations"
 msgstr "ফিলিং স্টেশন লুকান"
 
+#. L10n: hint for the button that shows airports on the map
+#: views/components/place-switch.jade:168
+#: views/components/place-switch.jade:171
+#, fuzzy
+msgid "Airports"
+msgstr "বিমানবন্দর"
+
+#. L10n: hint for the button that hides airports on the map
+#: views/components/place-switch.jade:168
+#, fuzzy
+msgid "Hide airports"
+msgstr "সার্ফ দাগ লুকান"
+
 #. L10n: hint for the button that hides museums on the map
-#: views/components/place-switch.jade:170
+#: views/components/place-switch.jade:176
 #, fuzzy
 msgid "Hide museums"
 msgstr "জাদুঘর লুকান"
 
 #. L10n: hint for the button that shows museums on the map
-#: views/components/place-switch.jade:170
-#: views/components/place-switch.jade:173
+#: views/components/place-switch.jade:176
+#: views/components/place-switch.jade:179
 #, fuzzy
 msgid "Museums"
 msgstr "জাদুঘর"
 
 #. L10n: hint for the button that hides historical sites, monuments and landmarks on the map
-#: views/components/place-switch.jade:176
+#: views/components/place-switch.jade:182
 #, fuzzy
 msgid "Hide historical sites, monuments and landmarks"
 msgstr "ঐতিহাসিক সাইট, মিনার এবং দর্শনীয় স্থান লুকান"
 
 #. L10n: hint for the button that shows historical sites, monuments and landmarks on the map
-#: views/components/place-switch.jade:176
-#: views/components/place-switch.jade:179
+#: views/components/place-switch.jade:182
+#: views/components/place-switch.jade:185
 #, fuzzy
 msgid "Historical sites, monuments and landmarks"
 msgstr "ঐতিহাসিক সাইট, মিনার এবং দর্শনীয় স্থান"
 
 #. L10n: hint for the button that hides national and state parks and forests on the map
-#: views/components/place-switch.jade:182
+#: views/components/place-switch.jade:188
 #, fuzzy
 msgid "Hide parks"
 msgstr "পার্ক লুকান"
 
 #. L10n: hint for the button that shows national and state parks and forests on the map
-#: views/components/place-switch.jade:182
-#: views/components/place-switch.jade:185
+#: views/components/place-switch.jade:188
+#: views/components/place-switch.jade:191
 #, fuzzy
 msgid "Parks"
 msgstr "পার্ক"
 
 #. L10n: hint for the button that hides mountains on the map
-#: views/components/place-switch.jade:188
+#: views/components/place-switch.jade:194
 #, fuzzy
 msgid "Hide mountains"
 msgstr "পাহাড়ের লুকান"
 
 #. L10n: hint for the button that shows mountains on the map
 #. L10n: stop type (icon)
-#: views/components/place-switch.jade:188
-#: views/components/place-switch.jade:191 views/components/step-detail.jade:116
+#: views/components/place-switch.jade:194
+#: views/components/place-switch.jade:197 views/components/step-detail.jade:116
 #, fuzzy
 msgid "Mountains"
 msgstr "পর্বতমালা"
 
 #. L10n: hint for the button that hides lakes, rivers and hot springs on the map
-#: views/components/place-switch.jade:194
+#: views/components/place-switch.jade:200
 #, fuzzy
 msgid "Hide lakes, rivers and hot springs"
 msgstr "হ্রদ, নদী এবং গরম স্প্রিংস লুকান"
 
 #. L10n: hint for the button that shows lakes, rivers and hot springs on the map
-#: views/components/place-switch.jade:194
-#: views/components/place-switch.jade:197
+#: views/components/place-switch.jade:200
+#: views/components/place-switch.jade:203
 #, fuzzy
 msgid "Lakes, rivers and hot springs"
 msgstr "হ্রদ, নদী ও উষ্ণ প্রস্রবণ"
 
 #. L10n: hint for the button that shows wild and prescribed fire incidents on the map
-#: views/components/place-switch.jade:200
-#: views/components/place-switch.jade:203
+#: views/components/place-switch.jade:206
+#: views/components/place-switch.jade:209
 #, fuzzy
 msgid "Fire incidents"
 msgstr "ফায়ার ঘটনা"
 
 #. L10n: hint for the button that hides wild and prescribed fire incidents on the map
-#: views/components/place-switch.jade:200
+#: views/components/place-switch.jade:206
 #, fuzzy
 msgid "Hide fire incidents"
 msgstr "অগ্নি লুকান ঘটনা"
 
 #. L10n: hint for the button that shows birdwatching hotspots on the map
-#: views/components/place-switch.jade:206
-#: views/components/place-switch.jade:209
+#: views/components/place-switch.jade:212
+#: views/components/place-switch.jade:215
 #, fuzzy
 msgid "Birdwatching"
 msgstr "পাখি দেখছি"
 
 #. L10n: hint for the button that hides birdwatching hotspots on the map
-#: views/components/place-switch.jade:206
+#: views/components/place-switch.jade:212
 #, fuzzy
 msgid "Hide birdwatching hotspots"
 msgstr "পাখি দেখা হটস্পট লুকান"
 
 #. L10n: hint for the button that hides hiking trails on the map
-#: views/components/place-switch.jade:212
+#: views/components/place-switch.jade:218
 #, fuzzy
 msgid "Hide hiking trails"
 msgstr "পদব্রজে গ্রামাঞ্চলে ভ্রমণ লুকান"
 
 #. L10n: hint for the button that shows hiking trails on the map
-#: views/components/place-switch.jade:212
-#: views/components/place-switch.jade:215
+#: views/components/place-switch.jade:218
+#: views/components/place-switch.jade:221
 #, fuzzy
 msgid "Hiking trails"
 msgstr "পদব্রজে গ্রামাঞ্চলে ভ্রমণ"
 
 #. L10n: hint for the button that shows bike paths and tracks on the map
-#: views/components/place-switch.jade:218
-#: views/components/place-switch.jade:221
+#: views/components/place-switch.jade:224
+#: views/components/place-switch.jade:227
 #, fuzzy
 msgid "Bike paths and tracks"
 msgstr "সাইকেল পাথ এবং ট্র্যাক"
 
 #. L10n: hint for the button that hides bike paths and tracks on the map
-#: views/components/place-switch.jade:218
+#: views/components/place-switch.jade:224
 #, fuzzy
 msgid "Hide bike paths and tracks"
 msgstr "সাইকেল পাথ এবং ট্র্যাক লুকান"
 
 #. L10n: hint for the button that shows climbing routes on the map
-#: views/components/place-switch.jade:224
-#: views/components/place-switch.jade:227
+#: views/components/place-switch.jade:230
+#: views/components/place-switch.jade:233
 #, fuzzy
 msgid "Climbing routes"
 msgstr "ক্লাইম্বিং রুট"
 
 #. L10n: hint for the button that hides climbing routes on the map
-#: views/components/place-switch.jade:224
+#: views/components/place-switch.jade:230
 #, fuzzy
 msgid "Hide climbing routes"
 msgstr "আরোহণ রুট লুকান"
 
 #. L10n: hint for the button that hides snowshoeing trails on the map
-#: views/components/place-switch.jade:230
+#: views/components/place-switch.jade:236
 #, fuzzy
 msgid "Hide snowshoeing trails"
 msgstr "স্নোশোইং গ্রামাঞ্চলে ভ্রমণ লুকান"
 
 #. L10n: hint for the button that shows snowshoeing trails on the map
-#: views/components/place-switch.jade:230
-#: views/components/place-switch.jade:233
+#: views/components/place-switch.jade:236
+#: views/components/place-switch.jade:239
 #, fuzzy
 msgid "Snowshoeing trails"
 msgstr "গ্রামাঞ্চলে ভ্রমণ স্নোশোইং"
 
 #. L10n: hint for the button that hides ski areas on the map
-#: views/components/place-switch.jade:236
+#: views/components/place-switch.jade:242
 #, fuzzy
 msgid "Hide ski areas"
 msgstr "লুকান স্কি এলাকাসমূহ"
 
 #. L10n: hint for the button that shows ski areas on the map
-#: views/components/place-switch.jade:236
-#: views/components/place-switch.jade:239
+#: views/components/place-switch.jade:242
+#: views/components/place-switch.jade:245
 #, fuzzy
 msgid "Ski areas"
 msgstr "স্কি এলাকাসমূহ"
 
 #. L10n: hint for the button that shows dive sites on the map. 'Dive site' is a spot suitable for scuba diving
-#: views/components/place-switch.jade:242
-#: views/components/place-switch.jade:245
+#: views/components/place-switch.jade:248
+#: views/components/place-switch.jade:251
 #, fuzzy
 msgid "Dive sites"
 msgstr "ডুব সাইট"
 
 #. L10n: hint for the button that hides dive sites on the map. 'Dive site' is a spot suitable for scuba diving
-#: views/components/place-switch.jade:242
+#: views/components/place-switch.jade:248
 #, fuzzy
 msgid "Hide dive sites"
 msgstr "লুকান ডুব সাইট"
 
 #. L10n: hint for the button that hides surf spots on the map. 'Surf spot' is a site suitable for surfing (wave riding)
-#: views/components/place-switch.jade:248
+#: views/components/place-switch.jade:254
 #, fuzzy
 msgid "Hide surf spots"
 msgstr "সার্ফ দাগ লুকান"
 
 #. L10n: hint for the button that shows surf spots on the map. 'Surf spot' is a site suitable for surfing (wave riding)
-#: views/components/place-switch.jade:248
-#: views/components/place-switch.jade:251
+#: views/components/place-switch.jade:254
+#: views/components/place-switch.jade:257
 #, fuzzy
 msgid "Surf spots"
 msgstr "সার্ফ দাগ"
 
 #. L10n: hint for the button that shows beaches on the map
-#: views/components/place-switch.jade:254
-#: views/components/place-switch.jade:257
+#: views/components/place-switch.jade:260
+#: views/components/place-switch.jade:263
 #, fuzzy
 msgid "Beaches"
 msgstr "সৈকত"
 
 #. L10n: hint for the button that hides beaches on the map
-#: views/components/place-switch.jade:254
+#: views/components/place-switch.jade:260
 #, fuzzy
 msgid "Hide beaches"
 msgstr "সৈকত লুকান"
 
 #. L10n: hint for the button that shows scenic road accessible to passenger cars on the map. Roads accessible to passenger cars as opposed to roads suitable for jeeping and offroading roads (i.e. roads accessible to SUV's and small trucks)
-#: views/components/place-switch.jade:260
-#: views/components/place-switch.jade:263
+#: views/components/place-switch.jade:266
+#: views/components/place-switch.jade:269
 #, fuzzy
 msgid "Driving (passenger cars)"
 msgstr "ড্রাইভিং (যাত্রী গাড়ির)"
 
 #. L10n: hint for the button that hides scenic road accessible to passenger cars on the map. Roads accessible to passenger cars as opposed to roads suitable for jeeping and offroading roads (i.e. roads accessible to SUV's and small trucks)
-#: views/components/place-switch.jade:260
+#: views/components/place-switch.jade:266
 #, fuzzy
 msgid "Hide driving"
 msgstr "ড্রাইভিং লুকান"
 
 #. L10n: hint for the button that hides scenic roads suitable for jeeping and offroading on the map. Roads suitable for jeeping and offroading roads (i.e. roads accessible to SUV's and small trucks) as opposed to roads accessible to passenger cars
-#: views/components/place-switch.jade:266
+#: views/components/place-switch.jade:272
 #, fuzzy
 msgid "Hide jeeping and offroading"
 msgstr "jeeping এবং offroading লুকান"
 
 #. L10n: hint for the button that shows scenic roads suitable for jeeping and offroading on the map. Roads suitable for jeeping and offroading roads (i.e. roads accessible to SUV's and small trucks) as opposed to roads accessible to passenger cars
-#: views/components/place-switch.jade:266
-#: views/components/place-switch.jade:269
+#: views/components/place-switch.jade:272
+#: views/components/place-switch.jade:275
 #, fuzzy
 msgid "Jeeping and offroading"
 msgstr "Jeeping এবং offroading"
 
 #. L10n: hint for the button that hides motorcycling routes on the map
-#: views/components/place-switch.jade:272
+#: views/components/place-switch.jade:278
 #, fuzzy
 msgid "Hide motorcycling routes"
 msgstr "মোটর বাইক চালানো রুট লুকান"
 
 #. L10n: hint for the button that shows motorcycling routes on the map
-#: views/components/place-switch.jade:272
-#: views/components/place-switch.jade:275
+#: views/components/place-switch.jade:278
+#: views/components/place-switch.jade:281
 #, fuzzy
 msgid "Motorcycling routes"
 msgstr "মোটর বাইক চালানো রুট"
 
 #. L10n: hint for the button that shows ATV trails on the map. ATV stands for an all-terrain vehicle, also known as a quad
-#: views/components/place-switch.jade:278
-#: views/components/place-switch.jade:281
+#: views/components/place-switch.jade:284
+#: views/components/place-switch.jade:287
 #, fuzzy
 msgid "ATV trails"
 msgstr "এটিভি গ্রামাঞ্চলে ভ্রমণ"
 
 #. L10n: hint for the button that hides ATV trails on the map. ATV stands for an all-terrain vehicle, also known as a quad
-#: views/components/place-switch.jade:278
+#: views/components/place-switch.jade:284
 #, fuzzy
 msgid "Hide ATV trails"
 msgstr "এটিভি গ্রামাঞ্চলে ভ্রমণ লুকান"
 
 #. L10n: hint for the button that hides scenic overlooks and vista points on the map
-#: views/components/place-switch.jade:284
+#: views/components/place-switch.jade:290
 #, fuzzy
 msgid "Hide scenic overlooks and vista points"
 msgstr "নাটুকে উপেক্ষা করে যান এবং ভিস্তা পয়েন্ট লুকান"
 
 #. L10n: hint for the button that shows scenic overlooks and vista points on the map
-#: views/components/place-switch.jade:284
-#: views/components/place-switch.jade:287
+#: views/components/place-switch.jade:290
+#: views/components/place-switch.jade:293
 #, fuzzy
 msgid "Scenic overlooks and vista points"
 msgstr "নাটুকে উপেক্ষা করে যান এবং ভিস্তা পয়েন্ট"
 
 #. L10n: hint for the button that hides other places on the map. 'Other places' as in categories of places not listed elsewhere
-#: views/components/place-switch.jade:290
+#: views/components/place-switch.jade:296
 #, fuzzy
 msgid "Hide other places"
 msgstr "অন্যান্য স্থানে লুকান"
 
 #. L10n: hint for the button that shows other places on the map. 'Other places' as in categories of places not listed elsewhere
-#: views/components/place-switch.jade:290
-#: views/components/place-switch.jade:293
+#: views/components/place-switch.jade:296
+#: views/components/place-switch.jade:299
 #, fuzzy
 msgid "Other places"
 msgstr "অন্যান্য জায়গা"
 
 #. L10n: hint for the button that hides other trips of the user on the map
-#: views/components/place-switch.jade:296
+#: views/components/place-switch.jade:302
 #, fuzzy
 msgid "Hide my other trips"
 msgstr "আমার অন্যান্য ভ্রমণের লুকান"
 
 #. L10n: hint for the button that shows other trips of the user on the map
-#: views/components/place-switch.jade:296
-#: views/components/place-switch.jade:299
+#: views/components/place-switch.jade:302
+#: views/components/place-switch.jade:305
 #, fuzzy
 msgid "My other trips"
 msgstr "আমার অন্যান্য ভ্রমণের"
 
 #. L10n: hint for the button that hides stops from user's other trips on the map
-#: views/components/place-switch.jade:302
+#: views/components/place-switch.jade:308
 #, fuzzy
 msgid "Hide stops from my other trips"
 msgstr "লুকান আমার অন্যান্য ভ্রমণের থেকে স্টপ"
 
 #. L10n: hint for the button that shows stops from user's other trips on the map
-#: views/components/place-switch.jade:302
-#: views/components/place-switch.jade:305
+#: views/components/place-switch.jade:308
+#: views/components/place-switch.jade:311
 #, fuzzy
 msgid "Stops from my other trips"
 msgstr "আমার অন্যান্য ভ্রমণের থেকে স্টপ"
 
 #. L10n: hint for the button that hides places, routes and tracks imported (uploaded) from a file on the map
-#: views/components/place-switch.jade:308
-#: views/components/place-switch.jade:377
+#: views/components/place-switch.jade:314
+#: views/components/place-switch.jade:383
 #, fuzzy
 msgid "Hide places, routes and tracks from file"
 msgstr "ফাইল থেকে স্থান, রুট এবং ট্র্যাক লুকান"
 
 #. L10n: hint for the button that shows places, routes and tracks imported (uploaded) from a file on the map
-#: views/components/place-switch.jade:308
-#: views/components/place-switch.jade:311
-#: views/components/place-switch.jade:377
+#: views/components/place-switch.jade:314
+#: views/components/place-switch.jade:317
+#: views/components/place-switch.jade:383
 #, fuzzy
 msgid "Places, routes and tracks from file"
 msgstr "স্থান, রুট এবং ফাইল থেকে গানগুলি"
 
 #. L10n: hint for the button that hides places, routes and tracks imported from a website on the map. User configures which website to import places from
-#: views/components/place-switch.jade:314
-#: views/components/place-switch.jade:382
+#: views/components/place-switch.jade:320
+#: views/components/place-switch.jade:388
 #, fuzzy
 msgid "Hide places, routes and tracks from website"
 msgstr "ওয়েবসাইট থেকে স্থান, রুট এবং ট্র্যাক লুকান"
 
 #. L10n: hint for the button that shows places, routes and tracks imported from a website on the map. User configures which website to import places from
-#: views/components/place-switch.jade:314
-#: views/components/place-switch.jade:317
-#: views/components/place-switch.jade:382
+#: views/components/place-switch.jade:320
+#: views/components/place-switch.jade:323
+#: views/components/place-switch.jade:388
 #, fuzzy
 msgid "Places, routes and tracks from website"
 msgstr "স্থান, রুট এবং ওয়েবসাইট থেকে গানগুলি"
 
 #. L10n: hint for the button that hides museums and man-made structures (buildings and monuments) on the map
-#: views/components/place-switch.jade:322
+#: views/components/place-switch.jade:328
 #, fuzzy
 msgid "Hide museums and man-made structures"
 msgstr "জাদুঘর এবং মনুষ্যসৃষ্ট স্ট্রাকচার লুকান"
 
 #. L10n: hint for the button that shows museums and man-made structures (buildings and monuments) on the map
-#: views/components/place-switch.jade:322
-#: views/components/place-switch.jade:325
+#: views/components/place-switch.jade:328
+#: views/components/place-switch.jade:331
 #, fuzzy
 msgid "Museums and man-made structures"
 msgstr "জাদুঘর এবং মনুষ্যসৃষ্ট স্ট্রাকচার"
 
 #. L10n: hint for the button that hides parks and natural features on the map. 'Natural feature' - anything outdoors that is not man-made
-#: views/components/place-switch.jade:328
+#: views/components/place-switch.jade:334
 #, fuzzy
 msgid "Hide parks and natural features"
 msgstr "পার্ক লুকান এবং প্রাকৃতিক বৈশিষ্ট্য"
 
 #. L10n: hint for the button that shows parks and natural features on the map. 'Natural feature' - anything outdoors that is not man-made
-#: views/components/place-switch.jade:328
-#: views/components/place-switch.jade:331
+#: views/components/place-switch.jade:334
+#: views/components/place-switch.jade:337
 #, fuzzy
 msgid "Parks and natural features"
 msgstr "পার্ক এবং প্রাকৃতিক বৈশিষ্ট্য"
 
 #. L10n: hint for the button that hides outdoor sports and activities on the map
-#: views/components/place-switch.jade:334
+#: views/components/place-switch.jade:340
 #, fuzzy
 msgid "Hide outdoor sports and activities"
 msgstr "বহিরঙ্গন ক্রীড়া এবং ক্রিয়াকলাপ লুকান"
 
 #. L10n: hint for the button that shows outdoor sports and activities on the map
-#: views/components/place-switch.jade:334
-#: views/components/place-switch.jade:337
+#: views/components/place-switch.jade:340
+#: views/components/place-switch.jade:343
 #, fuzzy
 msgid "Outdoor sports and activities"
 msgstr "বহিরঙ্গন ক্রীড়া এবং ক্রিয়াকলাপ"
 
 #. L10n: hint for the button that shows beach and water recreation spots on the map
-#: views/components/place-switch.jade:340
-#: views/components/place-switch.jade:343
+#: views/components/place-switch.jade:346
+#: views/components/place-switch.jade:349
 #, fuzzy
 msgid "Beach and water recreation"
 msgstr "বিচ এবং জল বিনোদন"
 
 #. L10n: hint for the button that hides beach and water recreation spots on the map
-#: views/components/place-switch.jade:340
+#: views/components/place-switch.jade:346
 #, fuzzy
 msgid "Hide beach and water recreation"
 msgstr "সৈকত লুকান এবং জল বিনোদন"
 
 #. L10n: hint for the button that hides scenic byways and backroads on the map
-#: views/components/place-switch.jade:346
+#: views/components/place-switch.jade:352
 #, fuzzy
 msgid "Hide scenic byways and backroads"
 msgstr "নাটুকে byways এবং backroads লুকান"
 
 #. L10n: hint for the button that shows scenic byways and backroads on the map
-#: views/components/place-switch.jade:346
-#: views/components/place-switch.jade:349
+#: views/components/place-switch.jade:352
+#: views/components/place-switch.jade:355
 #, fuzzy
 msgid "Scenic byways and backroads"
 msgstr "নাটুকে byways এবং backroads"
 
 #. L10n: hint for the button that hides unpaved roads and off-road trails on the map
-#: views/components/place-switch.jade:352
+#: views/components/place-switch.jade:358
 #, fuzzy
 msgid "Hide unpaved roads and off-road trails"
 msgstr "কাঁচা সড়ক ও রাস্তা বন্ধ-গ্রামাঞ্চলে ভ্রমণ লুকান"
 
 #. L10n: hint for the button that shows unpaved roads and off-road trails on the map
-#: views/components/place-switch.jade:352
-#: views/components/place-switch.jade:355
+#: views/components/place-switch.jade:358
+#: views/components/place-switch.jade:361
 #, fuzzy
 msgid "Unpaved roads and off-road trails"
 msgstr "বাঁধানো রাস্তা এবং রাস্তা বন্ধ-গ্রামাঞ্চলে ভ্রমণ"
 
 #. L10n: hint for the button that shows all other categories of places on the map
-#: views/components/place-switch.jade:358
-#: views/components/place-switch.jade:361
+#: views/components/place-switch.jade:364
+#: views/components/place-switch.jade:367
 #, fuzzy
 msgid "Everything else"
 msgstr "অন্য সব কিছুর"
 
 #. L10n: hint for the button that hides all other categories of places on the map
-#: views/components/place-switch.jade:358
+#: views/components/place-switch.jade:364
 #, fuzzy
 msgid "Hide everything else"
 msgstr "অন্য সব কিছুর লুকান"
 
 #. L10n: hint for the button that hides user's other trips and imported routes and tracks on the map
-#: views/components/place-switch.jade:364
+#: views/components/place-switch.jade:370
 #, fuzzy
 msgid "Hide my other trips, routes and tracks"
 msgstr "আমার অন্যান্য ভ্রমণের, রুট এবং ট্র্যাক লুকান"
 
 #. L10n: hint for the button that shows user's other trips and imported routes and tracks on the map
-#: views/components/place-switch.jade:364
-#: views/components/place-switch.jade:367
+#: views/components/place-switch.jade:370
+#: views/components/place-switch.jade:373
 #, fuzzy
 msgid "My other trips, routes and tracks"
 msgstr "আমার অন্যান্য ভ্রমণের, রুট এবং ট্র্যাক"
 
 #. L10n: Caption of a dialog to provide additional parameters needed to display places in the Find drawer (for instance a name of file to import places from)
-#: views/components/place-switch.jade:388
+#: views/components/place-switch.jade:394
 #, fuzzy
 msgid "Configure Find"
 msgstr "কনফিগার খুঁজুন"
@@ -3199,20 +3244,20 @@ msgid "See description of this place"
 msgstr "এই জায়গা বিবরণ দেখুন"
 
 #: views/components/places.jade:3 views/components/places.jade:162
-#: views/components/places.jade:176 views/components/places.jade:318
-#: views/components/places.jade:409
+#: views/components/places.jade:176 views/components/places.jade:327
+#: views/components/places.jade:418
 #, fuzzy
 msgid "See this place own website"
 msgstr "এই জায়গা নিজস্ব ওয়েবসাইট দেখুন"
 
-#: views/components/places.jade:4 views/components/places.jade:410
+#: views/components/places.jade:4 views/components/places.jade:419
 #, fuzzy
 msgid "Stop and visit this place"
 msgstr "বন্ধ করুন এবং এই স্থান পরিদর্শন"
 
 #: views/components/places.jade:5 views/components/places.jade:165
-#: views/components/places.jade:179 views/components/places.jade:320
-#: views/components/places.jade:411
+#: views/components/places.jade:179 views/components/places.jade:329
+#: views/components/places.jade:420
 #, fuzzy
 msgid "Add this place as a skipped stop"
 msgstr "এই জায়গা একটি এড়ানো স্টপ হিসেবে যুক্ত করো"
@@ -3228,7 +3273,7 @@ msgid "Reverse this route"
 msgstr "এই রুট বিপরীত"
 
 #: views/components/places.jade:8 views/components/places.jade:166
-#: views/components/places.jade:180 views/components/places.jade:321
+#: views/components/places.jade:180 views/components/places.jade:330
 #, fuzzy
 msgid "Fold this place details"
 msgstr "ভাঁজ এই জায়গা বিস্তারিত"
@@ -3457,17 +3502,17 @@ msgstr "DiveSpots এই ডুব সাইটের বিবরণ দেখ�
 msgid "See user reviews at DiveSpots"
 msgstr "DiveSpots ব্যবহারকারী রিভিউ দেখুন"
 
-#: views/components/places.jade:80 views/components/places.jade:341
+#: views/components/places.jade:80 views/components/places.jade:350
 #, fuzzy
 msgid "Stop and dive at this site"
 msgstr "এই সাইট এ বন্ধ করুন এবং ডুব"
 
-#: views/components/places.jade:81 views/components/places.jade:342
+#: views/components/places.jade:81 views/components/places.jade:351
 #, fuzzy
 msgid "Add this dive site as a skipped stop"
 msgstr "এই ডুব সাইটের একটি এড়ানো স্টপ হিসেবে যুক্ত করো"
 
-#: views/components/places.jade:82 views/components/places.jade:343
+#: views/components/places.jade:82 views/components/places.jade:352
 #, fuzzy
 msgid "Fold this dive site details"
 msgstr "ভাঁজ এই ডুব সাইটের বিস্তারিত"
@@ -3712,7 +3757,7 @@ msgid "See user reviews at Foursquare"
 msgstr "ফোরস্কয়ার ব্যবহারকারী রিভিউ দেখুন"
 
 #: views/components/places.jade:164 views/components/places.jade:178
-#: views/components/places.jade:319
+#: views/components/places.jade:328
 #, fuzzy
 msgid "Stop at this place"
 msgstr "এই স্থানে বন্ধ করুন"
@@ -3947,12 +3992,12 @@ msgstr "এই গ্যাস স্টেশনে নিজের ওয়�
 msgid "Fill up at this gas station"
 msgstr "এই গ্যাস স্টেশনে ফিলাপ"
 
-#: views/components/places.jade:269 views/components/places.jade:300
+#: views/components/places.jade:269 views/components/places.jade:309
 #, fuzzy
 msgid "Add this gas station as a skipped stop"
 msgstr "এই গ্যাস স্টেশনে একটি এড়ানো স্টপ হিসেবে যুক্ত করো"
 
-#: views/components/places.jade:270 views/components/places.jade:301
+#: views/components/places.jade:270 views/components/places.jade:310
 #, fuzzy
 msgid "Fold this gas station details"
 msgstr "ভাঁজ এই গ্যাস স্টেশনে বিস্তারিত"
@@ -4037,343 +4082,373 @@ msgstr "বৈদ্যুতিক গাড়ির চার্জিং স
 msgid "Electric car charging stations"
 msgstr "ইলেকট্রিক গাড়ির চার্জিং স্টেশন"
 
-#. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
+#: views/components/places.jade:297
+#, fuzzy
+msgid "See description of this airport at OurAirports"
+msgstr "DiveSpots এই ডুব সাইটের বিবরণ দেখুন"
+
 #: views/components/places.jade:298
+#, fuzzy
+msgid "Stop at this airport"
+msgstr "এই দর্শনে বন্ধ করুন"
+
+#: views/components/places.jade:299
+#, fuzzy
+msgid "Add this airport as a skipped stop"
+msgstr "এই স্কি রিসোর্ট একটি এড়ানো স্টপ হিসেবে যুক্ত করো"
+
+#: views/components/places.jade:300
+#, fuzzy
+msgid "Fold this airport details"
+msgstr "ভাঁজ এই রুট বিস্তারিত"
+
+#: views/components/places.jade:301
+#, fuzzy
+msgid "Hide airports from OurAirports"
+msgstr "Liftopia থেকে স্কি রিসর্ট লুকান"
+
+#: views/components/places.jade:302
+#, fuzzy
+msgid "Airports from OurAirports"
+msgstr "বিমানবন্দর বা সিটি"
+
+#. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
+#: views/components/places.jade:307
 #, fuzzy
 msgid "See this ethanol-free gas station page on pure-gas.org"
 msgstr "pure-gas.org এই ইথানল মুক্ত গ্যাস স্টেশন পাতা দেখুন"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:299 views/components/places.jade:304
+#: views/components/places.jade:308 views/components/places.jade:313
 #, fuzzy
 msgid "Fill up at this ethanol-free gas station"
 msgstr "এই ইথানল মুক্ত গ্যাস স্টেশনে ফিলাপ"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:306
+#: views/components/places.jade:315
 #, fuzzy
 msgid "Ethanol-free gas stations from pure-gas.org"
 msgstr "pure-gas.org থেকে ইথানল মুক্ত গ্যাস স্টেশন"
 
-#: views/components/places.jade:307
+#: views/components/places.jade:316
 #, fuzzy
 msgid "Hide gas stations from pure-gas.org"
 msgstr "pure-gas.org থেকে গ্যাস স্টেশন লুকান"
 
 #. L10n: square brackets [] denote a link. "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:312
+#: views/components/places.jade:321
 #, fuzzy
 msgid "The list of ethanol-free gas stations by [pure-gas.org]"
 msgstr "দ্বারা ইথানল মুক্ত গ্যাস স্টেশন তালিকা [pure-gas.org]"
 
 #. L10n: square brackets [] denote a link
-#: views/components/places.jade:314
+#: views/components/places.jade:323
 #, fuzzy
 msgid "with [permission]"
 msgstr "অনুমতি নিয়ে]"
 
-#: views/components/places.jade:317
+#: views/components/places.jade:326
 #, fuzzy
 msgid "See description of this place at Recreation.gov"
 msgstr "Recreation.gov এই জায়গা বিবরণ দেখুন"
 
-#: views/components/places.jade:322
+#: views/components/places.jade:331
 #, fuzzy
 msgid "Hide places and activities from Recreation.gov"
 msgstr "Recreation.gov থেকে স্থান ও কার্যক্রম লুকান"
 
-#: views/components/places.jade:323
+#: views/components/places.jade:332
 #, fuzzy
 msgid "Places and activities from Recreation.gov"
 msgstr "স্থান এবং Recreation.gov থেকে কার্যক্রম"
 
-#: views/components/places.jade:328
+#: views/components/places.jade:337
 #, fuzzy
 msgid "See this restaurant page on Roadfood.com"
 msgstr "Roadfood.com এই রেস্টুরেন্টে পৃষ্ঠা দেখুন"
 
-#: views/components/places.jade:329 views/components/places.jade:420
+#: views/components/places.jade:338 views/components/places.jade:429
 #, fuzzy
 msgid "See this restaurant own website"
 msgstr "এই রেস্টুরেন্টে নিজস্ব ওয়েবসাইট দেখুন"
 
-#: views/components/places.jade:330
+#: views/components/places.jade:339
 #, fuzzy
 msgid "See guest reviews at Roadfood.com"
 msgstr "Roadfood.com অতিথি রিভিউ দেখুন"
 
-#: views/components/places.jade:331 views/components/places.jade:422
+#: views/components/places.jade:340 views/components/places.jade:431
 #, fuzzy
 msgid "Stop and eat at this restaurant"
 msgstr "বন্ধ করুন এবং এই রেস্টুরেন্টে খাওয়া"
 
-#: views/components/places.jade:332 views/components/places.jade:423
+#: views/components/places.jade:341 views/components/places.jade:432
 #, fuzzy
 msgid "Add this restaurant as a skipped stop"
 msgstr "এই রেস্তোরাঁয় একটি এড়ানো স্টপ হিসেবে যুক্ত করো"
 
-#: views/components/places.jade:333 views/components/places.jade:424
+#: views/components/places.jade:342 views/components/places.jade:433
 #, fuzzy
 msgid "Fold this restaurant details"
 msgstr "ভাঁজ এই রেস্টুরেন্টে বিস্তারিত"
 
-#: views/components/places.jade:334
+#: views/components/places.jade:343
 #, fuzzy
 msgid "Hide restaurants recommended by Roadfood.com"
 msgstr "লুকান রেস্টুরেন্ট Roadfood.com দ্বারা বাঞ্ছনীয়"
 
-#: views/components/places.jade:335
+#: views/components/places.jade:344
 #, fuzzy
 msgid "Restaurants recommended by Roadfood.com"
 msgstr "Roadfood.com দ্বারা বাঞ্ছনীয়"
 
-#: views/components/places.jade:339
+#: views/components/places.jade:348
 #, fuzzy
 msgid "See description of this dive site at ShoreDiving"
 msgstr "ShoreDiving এই ডুব সাইটের বিবরণ দেখুন"
 
-#: views/components/places.jade:340
+#: views/components/places.jade:349
 #, fuzzy
 msgid "See user reviews at ShoreDiving"
 msgstr "ShoreDiving ব্যবহারকারী রিভিউ দেখুন"
 
-#: views/components/places.jade:344
+#: views/components/places.jade:353
 #, fuzzy
 msgid "Hide dive sites from ShoreDiving"
 msgstr "ShoreDiving থেকে লুকান ডুব সাইট"
 
-#: views/components/places.jade:345
+#: views/components/places.jade:354
 #, fuzzy
 msgid "Dive sites from ShoreDiving"
 msgstr "ShoreDiving থেকে ডাইভ সাইট"
 
-#: views/components/places.jade:349
+#: views/components/places.jade:358
 #, fuzzy
 msgid "See description of this winery at Snooth.com"
 msgstr "Snooth.com এই জৈব বিবরণ দেখুন"
 
-#: views/components/places.jade:350
+#: views/components/places.jade:359
 #, fuzzy
 msgid "See this winery own website"
 msgstr "এই জৈব নিজস্ব ওয়েবসাইট দেখুন"
 
-#: views/components/places.jade:351
+#: views/components/places.jade:360
 #, fuzzy
 msgid "Stop at this winery"
 msgstr "এই জৈব থামবে"
 
-#: views/components/places.jade:352
+#: views/components/places.jade:361
 #, fuzzy
 msgid "Add this winery as a skipped stop"
 msgstr "এই জৈব একটি এড়ানো স্টপ হিসেবে যুক্ত করো"
 
-#: views/components/places.jade:353
+#: views/components/places.jade:362
 #, fuzzy
 msgid "Fold this winery details"
 msgstr "ভাঁজ এই জৈব বিস্তারিত"
 
-#: views/components/places.jade:354
+#: views/components/places.jade:363
 #, fuzzy
 msgid "Hide wineries from Snooth.com"
 msgstr "Snooth.com থেকে wineries লুকান"
 
-#: views/components/places.jade:355
+#: views/components/places.jade:364
 #, fuzzy
 msgid "Wineries from Snooth.com"
 msgstr "Snooth.com থেকে wineries"
 
-#: views/components/places.jade:359
+#: views/components/places.jade:368
 #, fuzzy
 msgid "See more information about this place"
 msgstr "এই স্থান সম্পর্কে আরো তথ্য দেখুন"
 
-#: views/components/places.jade:360
+#: views/components/places.jade:369
 #, fuzzy
 msgid "Copy stop from its trip to this one"
 msgstr "এই এক তার ট্রিপ থেকে স্টপ কপি"
 
-#: views/components/places.jade:361
+#: views/components/places.jade:370
 #, fuzzy
 msgid "Add as a skipped stop"
 msgstr "একটি এড়ানো স্টপ হিসেবে যুক্ত করো"
 
-#: views/components/places.jade:362
+#: views/components/places.jade:371
 #, fuzzy
 msgid "Copy route to the next stop"
 msgstr "পরবর্তী স্টপেজ কপি রুট"
 
-#: views/components/places.jade:363
+#: views/components/places.jade:372
 #, fuzzy
 msgid "Reverse route when copying"
 msgstr "রুট বিপরীত যখন অনুলিপি"
 
-#: views/components/places.jade:364 views/components/places.jade:383
+#: views/components/places.jade:373 views/components/places.jade:392
 #: views/components/step-detail.jade:805
 #, fuzzy
 msgid "Fold this stop details"
 msgstr "ভাঁজ এই স্টপ বিস্তারিত"
 
-#: views/components/places.jade:367
+#: views/components/places.jade:376
 #, fuzzy
 msgid "See description of this summit at SummitPost"
 msgstr "SummitPost এই সম্মেলনের বিবরণ দেখুন"
 
-#: views/components/places.jade:368
+#: views/components/places.jade:377
 #, fuzzy
 msgid "See author's profile at SummitPost"
 msgstr "SummitPost এ লেখকের প্রোফাইল দেখুন"
 
-#: views/components/places.jade:369
+#: views/components/places.jade:378
 #, fuzzy
 msgid "See user reviews at SummitPost"
 msgstr "SummitPost ব্যবহারকারী রিভিউ দেখুন"
 
-#: views/components/places.jade:370
+#: views/components/places.jade:379
 #, fuzzy
 msgid "Stop and climb this summit"
 msgstr "বন্ধ করুন এবং এই শিখর আরোহণ"
 
-#: views/components/places.jade:371
+#: views/components/places.jade:380
 #, fuzzy
 msgid "Add this summit as a skipped stop"
 msgstr "এই সম্মেলনের একটি এড়ানো স্টপ হিসেবে যুক্ত করো"
 
-#: views/components/places.jade:372
+#: views/components/places.jade:381
 #, fuzzy
 msgid "Fold this summit details"
 msgstr "ভাঁজ এই সম্মেলনের বিস্তারিত"
 
-#: views/components/places.jade:373
+#: views/components/places.jade:382
 #, fuzzy
 msgid "Hide summits and routes from SummitPost"
 msgstr "SummitPost থেকে সম্মিলনের এবং রুট লুকান"
 
-#: views/components/places.jade:374
+#: views/components/places.jade:383
 #, fuzzy
 msgid "Summits and climbing routes from SummitPost"
 msgstr "সামিট এবং SummitPost থেকে আরোহণ রুট"
 
-#: views/components/places.jade:378 views/components/places.jade:386
+#: views/components/places.jade:387 views/components/places.jade:395
 #, fuzzy
 msgid "See more information about this trip"
 msgstr "এই ট্রিপ সম্পর্কে আরো তথ্য দেখুন"
 
-#: views/components/places.jade:379 views/components/places.jade:387
+#: views/components/places.jade:388 views/components/places.jade:396
 #, fuzzy
 msgid "Stop at this trip starting point"
 msgstr "এই ট্রিপ আদ্যস্থল এ বন্ধ করুন"
 
-#: views/components/places.jade:380 views/components/places.jade:388
+#: views/components/places.jade:389 views/components/places.jade:397
 #, fuzzy
 msgid "Add this trip starting point as a skipped stop"
 msgstr "এই ট্রিপ আদ্যস্থল একটি এড়ানো স্টপ হিসেবে যুক্ত করো"
 
-#: views/components/places.jade:381
+#: views/components/places.jade:390
 #, fuzzy
 msgid "Copy the entire trip to this one"
 msgstr "এই এক সমগ্র ট্রিপ কপি"
 
-#: views/components/places.jade:382
+#: views/components/places.jade:391
 #, fuzzy
 msgid "Reverse this trip when copying"
 msgstr "এই ট্রিপ বিপরীত যখন অনুলিপি"
 
-#: views/components/places.jade:389
+#: views/components/places.jade:398
 #, fuzzy
 msgid "Add this trip to yours"
 msgstr "পুলিশের এই ট্রিপ যোগ"
 
-#: views/components/places.jade:390
+#: views/components/places.jade:399
 #, fuzzy
 msgid "Reverse this trip when adding"
 msgstr "এই ট্রিপ বিপরীত যখন যোগ"
 
-#: views/components/places.jade:391
+#: views/components/places.jade:400
 #, fuzzy
 msgid "Fold this trip details"
 msgstr "ভাঁজ এই ট্রিপ বিস্তারিত"
 
-#: views/components/places.jade:392
+#: views/components/places.jade:401
 #, fuzzy
 msgid "Hide trips shared by Furkot community"
 msgstr "ভ্রমণের লুকান Furkot সম্প্রদায় দ্বারা ভাগ"
 
-#: views/components/places.jade:393
+#: views/components/places.jade:402
 #, fuzzy
 msgid "Trips shared by Furkot community"
 msgstr "ট্রিপস Furkot সম্প্রদায় দ্বারা ভাগ"
 
-#: views/components/places.jade:398
+#: views/components/places.jade:407
 #, fuzzy
 msgid "See description of this surf spot at WannaSurf"
 msgstr "WannaSurf এই সার্ফ স্পট বিবরণ দেখুন"
 
-#: views/components/places.jade:399
+#: views/components/places.jade:408
 #, fuzzy
 msgid "See user reviews at WannaSurf"
 msgstr "WannaSurf ব্যবহারকারী রিভিউ দেখুন"
 
-#: views/components/places.jade:400
+#: views/components/places.jade:409
 #, fuzzy
 msgid "Stop and surf at this spot"
 msgstr "এই স্থানে বন্ধ করুন এবং সার্ফ"
 
-#: views/components/places.jade:401
+#: views/components/places.jade:410
 #, fuzzy
 msgid "Add this surf spot as a skipped stop"
 msgstr "এই সার্ফ স্পট একটি এড়ানো স্টপ হিসেবে যুক্ত করো"
 
-#: views/components/places.jade:402
+#: views/components/places.jade:411
 #, fuzzy
 msgid "Fold this surf spot details"
 msgstr "ভাঁজ এই সার্ফ স্পট বিস্তারিত"
 
-#: views/components/places.jade:403
+#: views/components/places.jade:412
 #, fuzzy
 msgid "Hide surf spots from WannaSurf"
 msgstr "WannaSurf থেকে সার্ফ দাগ লুকান"
 
-#: views/components/places.jade:404
+#: views/components/places.jade:413
 #, fuzzy
 msgid "Surf spots from WannaSurf"
 msgstr "WannaSurf থেকে সার্ফ দাগ"
 
-#: views/components/places.jade:408
+#: views/components/places.jade:417
 #, fuzzy
 msgid "Read this article on Wikipedia"
 msgstr "উইকিপিডিয়ায় এই নিবন্ধ পড়ুন"
 
-#: views/components/places.jade:412
+#: views/components/places.jade:421
 #, fuzzy
 msgid "Fold this article details"
 msgstr "ভাঁজ এই নিবন্ধটি বিস্তারিত"
 
-#: views/components/places.jade:413
+#: views/components/places.jade:422
 #, fuzzy
 msgid "Hide articles from Wikipedia"
 msgstr "উইকিপিডিয়া থেকে নিবন্ধ লুকান"
 
-#: views/components/places.jade:414
+#: views/components/places.jade:423
 #, fuzzy
 msgid "Articles from Wikipedia, the free encyclopedia"
 msgstr "উইকিপিডিয়া, মুক্ত বিশ্বকোষ থেকে প্রবন্ধ"
 
-#: views/components/places.jade:419
+#: views/components/places.jade:428
 #, fuzzy
 msgid "See this restaurant page on Yelp"
 msgstr "তীক্ষ্ন চিতকার এই রেস্টুরেন্টে পৃষ্ঠা দেখুন"
 
-#: views/components/places.jade:421
+#: views/components/places.jade:430
 #, fuzzy
 msgid "See guest reviews at Yelp"
 msgstr "তীক্ষ্ন চিতকার অতিথি রিভিউ দেখুন"
 
-#: views/components/places.jade:425
+#: views/components/places.jade:434
 #, fuzzy
 msgid "Hide restaurants recommended by Yelp"
 msgstr "লুকান রেস্টুরেন্ট তীক্ষ্ন চিতকার দ্বারা বাঞ্ছনীয়"
 
-#: views/components/places.jade:426
+#: views/components/places.jade:435
 #, fuzzy
 msgid "Restaurants recommended by Yelp"
 msgstr "তীক্ষ্ন চিতকার দ্বারা বাঞ্ছনীয়"
@@ -8012,29 +8087,29 @@ msgstr ""
 "পাবেন."
 
 #, fuzzy
-#~ msgid "Start at "
-#~ msgstr "শুরু হবে "
-
-#, fuzzy
-#~ msgid "Click to modify _duration_"
-#~ msgstr "_duration_ পরিবর্তন করতে ক্লিক করুন"
-
-#, fuzzy
-#~ msgid "_Day_"
-#~ msgstr "_দিন_"
-
-#, fuzzy
-#~ msgid "_Other_"
-#~ msgstr "_Other_"
-
-#, fuzzy
-#~ msgid "Day "
-#~ msgstr "দিন "
+#~ msgid "Distance "
+#~ msgstr "দূরত্ব "
 
 #, fuzzy
 #~ msgid "_Duration_"
 #~ msgstr "_Duration_"
 
 #, fuzzy
-#~ msgid "Distance "
-#~ msgstr "দূরত্ব "
+#~ msgid "Day "
+#~ msgstr "দিন "
+
+#, fuzzy
+#~ msgid "_Other_"
+#~ msgstr "_Other_"
+
+#, fuzzy
+#~ msgid "_Day_"
+#~ msgstr "_দিন_"
+
+#, fuzzy
+#~ msgid "Click to modify _duration_"
+#~ msgstr "_duration_ পরিবর্তন করতে ক্লিক করুন"
+
+#, fuzzy
+#~ msgid "Start at "
+#~ msgstr "শুরু হবে "
