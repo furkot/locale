@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2017-02-27 20:31-0800\n"
+"POT-Creation-Date: 2017-03-28 11:43-0700\n"
 "PO-Revision-Date: 2016-05-20 01:54-0400\n"
 "Last-Translator: Brian Lee <brianlee7799@yahoo.com>\n"
 "Language-Team: Chinese (Taiwan) <https://translate.furkot.com/projects/"
@@ -19,30 +19,29 @@ msgid "My Trips"
 msgstr "我的行程"
 
 #. L10n: square brackets [] denote a link
-#: views/board/board.jade:7 views/tripshot/map.jade:36
-#: views/tripshot/mixin.jade:165 views/tripshot/widget.jade:32
+#: views/board/board.jade:7 views/tripshot/mixin.jade:165
 msgid "Plan with [Furkot]"
 msgstr "用Furkot規劃"
 
-#. L10n: "Place location" (location of the place) is the name or address of a place that the user wants to add to the trip
-#: views/board/board.jade:12
-msgid "Place location"
-msgstr "放置地點"
-
 #. L10n: 'Zoom in' meaning 'Change map scale to show less area but more details'
-#: views/board/board.jade:16 views/components/map.jade:68
+#: views/board/board.jade:11 views/components/map.jade:68
 msgid "Zoom in"
 msgstr "放大"
 
 #. L10n: 'Zoom out' meaning 'Change map scale to show more area but less details'
-#: views/board/board.jade:17 views/components/map.jade:71
+#: views/board/board.jade:12 views/components/map.jade:71
 msgid "Zoom out"
 msgstr "縮小"
 
 #. L10n: 'Show he entire trip' as in 'Show all stops of the trip on the map'
-#: views/board/board.jade:19 views/components/map.jade:75
+#: views/board/board.jade:14 views/components/map.jade:75
 msgid "Show the entire trip"
 msgstr "顯示整個行程"
+
+#. L10n: "Place location" (location of the place) is the name or address of a place that the user wants to add to the trip
+#: views/board/board.jade:18
+msgid "Place location"
+msgstr "放置地點"
 
 #. L10n: 'Suggest' as in 'Suggest a place to visit'
 #: views/board/board.jade:28
@@ -50,12 +49,12 @@ msgid "Suggest"
 msgstr "建議"
 
 #: views/board/board.jade:30 views/components/accounts.jade:81
-#: views/components/add-stops.jade:2 views/components/add-stops.jade:16
+#: views/components/add-stops.jade:2 views/components/add-stops.jade:13
 #: views/components/dialog.jade:7 views/components/import-dlg.jade:158
 #: views/components/navigation.jade:2 views/components/place-switch.jade:397
 #: views/components/plan-msg.jade:2 views/components/share-dlg.jade:94
 #: views/components/share-dlg.jade:105 views/components/share-dlg.jade:117
-#: views/components/step-detail.jade:813 views/components/step-switches.jade:92
+#: views/components/step-detail.jade:812 views/components/step-switches.jade:92
 #: views/components/step-switches.jade:103
 #: views/components/step-switches.jade:114
 #: views/components/step-switches.jade:122
@@ -67,13 +66,12 @@ msgstr "建議"
 #: views/components/trip-detail.jade:464 views/components/trip-detail.jade:469
 #: views/components/trip-detail.jade:477 views/components/trip-detail.jade:487
 #: views/components/trip-detail.jade:495 views/components/trip-detail.jade:503
-#: views/components/trip-toolbar.jade:17 views/tripshot/mixin.jade:106
+#: views/components/trip-toolbar.jade:16 views/tripshot/mixin.jade:106
 msgid "Cancel"
 msgstr "取消"
 
 #: views/board/board.jade:31 views/board/board.jade:42
-#: views/components/applications.jade:21 views/components/share-dlg.jade:129
-#: views/components/tour.jade:41
+#: views/components/applications.jade:21 views/components/tour.jade:41
 msgid "Close"
 msgstr "關閉"
 
@@ -108,7 +106,7 @@ msgid ""
 "help you plan this trip."
 msgstr ""
 
-#: views/board/board.jade:83 views/components/book-trip.jade:35
+#: views/board/board.jade:83
 msgid "Back"
 msgstr "回去"
 
@@ -207,11 +205,11 @@ msgid "Connected Accounts"
 msgstr "連結的帳戶"
 
 #: views/components/accounts.jade:82 views/components/add-stops.jade:2
-#: views/components/add-stops.jade:16 views/components/navigation.jade:2
+#: views/components/add-stops.jade:13 views/components/navigation.jade:2
 #: views/components/place-switch.jade:398 views/components/plan-msg.jade:2
 #: views/components/plan-msg.jade:17 views/components/share-dlg.jade:94
 #: views/components/share-dlg.jade:105 views/components/share-dlg.jade:117
-#: views/components/step-switches.jade:92
+#: views/components/share-dlg.jade:129 views/components/step-switches.jade:92
 #: views/components/step-switches.jade:103
 #: views/components/step-switches.jade:114
 #: views/components/step-switches.jade:122
@@ -223,35 +221,31 @@ msgstr "連結的帳戶"
 #: views/components/trip-detail.jade:464 views/components/trip-detail.jade:469
 #: views/components/trip-detail.jade:477 views/components/trip-detail.jade:487
 #: views/components/trip-detail.jade:495 views/components/trip-detail.jade:503
-#: views/components/trip-toolbar.jade:17 views/components/warning.jade:9
+#: views/components/trip-toolbar.jade:16 views/components/warning.jade:9
 #: views/tripshot/mixin.jade:109
 msgid "OK"
 msgstr "好"
 
 #. L10n: Caption of the message displayed when user clicked the 'Plan with Furkot' button on a partner website and was transfered to Furkot to select a trip to add stops to
-#: views/components/add-stops.jade:2 views/components/add-stops.jade:13
+#: views/components/add-stops.jade:2 views/components/add-stops.jade:10
 #, fuzzy
 msgid "Plan stops"
 msgstr "行程點"
 
-#. L10n: 'Adding:' as in 'Adding the following stops to a trip:' - followed by a list of stops to be added to a trip
-#: views/components/add-stops.jade:5
-msgid "Adding:"
-msgstr "加入:"
-
 #. L10n: 'Select a trip to add to.' as in 'Select a trip to add the stops listed above to.
-#: views/components/add-stops.jade:9
+#: views/components/add-stops.jade:6
 #, fuzzy
 msgid "Select a trip to add to."
 msgstr "選擇一個行程來加入"
 
-#: views/components/add-stops.jade:16 views/components/trips.jade:4
+#: views/components/add-stops.jade:13 views/components/trips.jade:4
 msgid "New trip"
 msgstr "新的行程"
 
-#. L10n: followed by the trip name and a question mark ?
-#: views/components/add-stops.jade:18
-msgid "Do you want to create your own version of a trip"
+#. L10n: the curly brackets {} stand for the language name
+#: views/components/add-stops.jade:15
+#, fuzzy
+msgid "Do you want to create your own version of a trip {}?"
 msgstr "想要建立您自己的行程嗎"
 
 #. L10n: Caption of a dialog listing apps that work with Furkot
@@ -280,12 +274,12 @@ msgid "Scenic"
 msgstr "名勝"
 
 #. L10n: 'Learn more' as in 'Learn more about this feature' - it links to a help article that describes the specific feature
-#: views/components/applications.jade:18 views/components/book-trip.jade:32
+#: views/components/applications.jade:18 views/components/book-wizard.jade:60
 #: views/components/export-dlg.jade:97 views/components/import-dlg.jade:166
 #: views/components/navigation.jade:70
 #: views/components/new-trip-wizard.jade:174
 #: views/components/place-switch.jade:401 views/components/share-dlg.jade:91
-#: views/components/trip-detail.jade:458 views/components/trip-toolbar.jade:43
+#: views/components/trip-detail.jade:458 views/components/trip-toolbar.jade:42
 #: views/tripshot/mixin.jade:112 views/tripshot/mixin.jade:143
 msgid "Learn more"
 msgstr "預知詳情"
@@ -296,47 +290,67 @@ msgstr "預知詳情"
 msgid "Remove"
 msgstr "去掉"
 
-#: views/components/book-trip.jade:12
+#: views/components/book-wizard.jade:2
+#, fuzzy
+msgid "Book trip"
+msgstr "預約於"
+
+#: views/components/book-wizard.jade:6
+msgid ""
+"Congratulations! You have booked lodging accommodations for every overnight "
+"stop on this trip."
+msgstr "恭喜!您已經預約這次旅程每晚所有住宿."
+
+#. L10n: square brackets [] denote a button
+#: views/components/book-wizard.jade:9
+#, fuzzy
+msgid "Press [Done] to continue trip planning."
+msgstr "按[下一頁]現在繼續。"
+
+#: views/components/book-wizard.jade:17
+msgid ""
+"Make sure the hotel name and address in Furkot match the one that you booked."
+msgstr "請確認Furkot上的旅館名稱和地址符合您預定的名稱和地址."
+
+#: views/components/book-wizard.jade:19
 msgid "Hotel name"
 msgstr "旅館名稱"
 
-#: views/components/book-trip.jade:13
+#: views/components/book-wizard.jade:21
 msgid "Hotel address"
 msgstr "旅館地址"
 
 #. L10n: label for the hotel check-in date; can be also translated as 'Arrival' or 'From' / 'From date'
-#: views/components/book-trip.jade:18
+#: views/components/book-wizard.jade:25
 msgid "Check in"
 msgstr "入住登記"
 
 #. L10n: label for the hotel check-out date; can be also translated as 'Departure' or 'To' / 'To date'
-#: views/components/book-trip.jade:22
+#: views/components/book-wizard.jade:29
 msgid "Check out"
 msgstr "結帳退房"
 
-#. L10n: 'Booking confirmation' as a number or link to a page that confirms that a reservation of a lodging
-#: views/components/book-trip.jade:25 views/components/book-trip.jade:35
-msgid "Booking confirmation"
-msgstr "預約確認"
-
-#: views/components/book-trip.jade:28 views/components/book-trip.jade:35
-#: views/components/import-dlg.jade:160
-#: views/components/new-trip-wizard.jade:169 views/components/tour.jade:42
-msgid "Next"
-msgstr "下一個"
-
-#: views/components/book-trip.jade:29 views/components/book-trip.jade:35
-#: views/components/new-trip-wizard.jade:170
-msgid "Done"
-msgstr "完成"
-
-#: views/components/book-trip.jade:36
+#: views/components/book-wizard.jade:34
 msgid ""
 "Looks like you started hotel booking process, but did not enter any booking "
 "confirmation."
 msgstr "您似乎已經開始旅館預定過程, 但尚未輸入任何預約確認."
 
-#: views/components/book-trip.jade:37
+#. L10n: square brackets [] denote a button
+#: views/components/book-wizard.jade:37
+msgid ""
+"Press [Next] if you intend to enter the booking confirmation later, or if "
+"you don't want to complete the booking at this time."
+msgstr "如欲稍後輸入預約確認或不想現在完成預約, 請按[下一頁]."
+
+#. L10n: square brackets [] denote a button
+#: views/components/book-wizard.jade:39
+msgid ""
+"Press [Done] if you intend to enter the booking confirmation later, or if "
+"you don't want to complete the booking at this time."
+msgstr "如欲稍後輸入預約確認或不想現在完成預約,請按[完成]."
+
+#: views/components/book-wizard.jade:40
 #, fuzzy
 msgid ""
 "Entering your booking confirmation (number or URL) in Furkot does not change "
@@ -346,61 +360,50 @@ msgstr ""
 "在Furkot輸入您的預約確認(名稱或URL地址)並不會改變您的預約狀態, 但會允許Furkot"
 "幫您紀錄您的預約."
 
+#. L10n: 'Booking confirmation' as a number or link to a page that confirms that a reservation of a lodging
+#: views/components/book-wizard.jade:43
+msgid "Booking confirmation"
+msgstr "預約確認"
+
+#: views/components/book-wizard.jade:43
+msgid "Enter booking confirmation if you made a reservation"
+msgstr ""
+
+#. L10n: followed by links to websites that user can make lodging reservations at
+#: views/components/book-wizard.jade:48
+#, fuzzy
+msgid "Available to book at"
+msgstr "可供預訂的價格顯示"
+
+#. L10n: Followed by the buttons that link to websites that provide reservations of lodging accommodations
+#: views/components/book-wizard.jade:53 views/components/step-lodging.jade:16
+#, fuzzy
+msgid "Want more options? Try these services"
+msgstr "想要更多的選擇嗎？試試這些服務"
+
 #. L10n: square brackets [] denote a button
-#: views/components/book-trip.jade:39
-msgid "Press [Back] to return to the hotel page."
-msgstr "按[上一頁]回到旅館頁面."
+#: views/components/book-wizard.jade:64
+msgid "Press this button to continue booking or press [Done] again"
+msgstr ""
 
-#: views/components/book-trip.jade:40
-msgid ""
-"You'll have a chance to copy and paste booking confirmation before "
-"proceeding to the next lodging."
-msgstr "再繼續到下一個住宿之前, 您需要複製貼上預約確認."
-
-#: views/components/book-trip.jade:41
-msgid ""
-"You'll have a chance to copy and paste booking confirmation before Furkot "
-"takes you back to the trip planning."
-msgstr "您將可以在Furkot帶您回到行程規劃之前, 複製貼上預約確認."
-
-#. L10n: square brackets [] denote a button
-#: views/components/book-trip.jade:44
-msgid ""
-"Press [Next] if you intend to enter the booking confirmation later, or if "
-"you don't want to complete the booking at this time."
-msgstr "如欲稍後輸入預約確認或不想現在完成預約, 請按[下一頁]."
-
-#: views/components/book-trip.jade:45
+#: views/components/book-wizard.jade:65
 #, fuzzy
 msgid "Furkot will take you to the next lodging to book."
 msgstr "Furkot將帶您到下一個住宿處去預約."
 
-#. L10n: square brackets [] denote a button
-#: views/components/book-trip.jade:47
-msgid ""
-"Press [Done] if you intend to enter the booking confirmation later, or if "
-"you don't want to complete the booking at this time."
-msgstr "如欲稍後輸入預約確認或不想現在完成預約,請按[完成]."
+#: views/components/book-wizard.jade:66 views/components/import-dlg.jade:160
+#: views/components/new-trip-wizard.jade:169 views/components/tour.jade:42
+msgid "Next"
+msgstr "下一個"
 
-#: views/components/book-trip.jade:48
+#: views/components/book-wizard.jade:67
+#: views/components/new-trip-wizard.jade:170
+msgid "Done"
+msgstr "完成"
+
+#: views/components/book-wizard.jade:67
 msgid "Furkot will take you back to the trip planning."
 msgstr "Furkot將帶您回到行程規劃."
-
-#: views/components/book-trip.jade:49
-msgid ""
-"Make sure the hotel name and address in Furkot match the one that you booked."
-msgstr "請確認Furkot上的旅館名稱和地址符合您預定的名稱和地址."
-
-#. L10n: 'Booking complete' is the title of the message that tells users when they made all reservations for their trip
-#: views/components/book-trip.jade:53
-msgid "Booking complete"
-msgstr "預定完畢"
-
-#: views/components/book-trip.jade:53
-msgid ""
-"Congratulations! You have booked lodging accommodations for every overnight "
-"stop on this trip."
-msgstr "恭喜!您已經預約這次旅程每晚所有住宿."
 
 #. L10n: 'Book at' as in 'Click this button to book at the following website' followed by the name of the website that takes lodging reservations
 #: views/components/bookable.jade:4
@@ -417,10 +420,10 @@ msgid "See this hotel own website"
 msgstr "參見旅館的網頁"
 
 #. L10n: 'at' is followed by the name of the website providing reviews
-#: views/components/bookable.jade:23 views/components/bookable.jade:30
-#: views/components/bookable.jade:46 views/components/bookable.jade:79
-#: views/components/bookable.jade:99 views/components/bookable.jade:123
-#: views/components/bookable.jade:143
+#: views/components/bookable.jade:23 views/components/bookable.jade:31
+#: views/components/bookable.jade:47 views/components/bookable.jade:81
+#: views/components/bookable.jade:101 views/components/bookable.jade:126
+#: views/components/bookable.jade:147
 msgid "See guest reviews at"
 msgstr "參考房客評價於"
 
@@ -428,205 +431,225 @@ msgstr "參考房客評價於"
 msgid "Add this hotel as a new stop"
 msgstr "加這個旅館為新的行程點"
 
-#: views/components/bookable.jade:25 views/components/bookable.jade:81
+#: views/components/bookable.jade:25 views/components/bookable.jade:83
 msgid "Replace selected stop with this hotel"
 msgstr "以這個旅館取代所選的旅程點"
 
 #: views/components/bookable.jade:26
+#, fuzzy
+msgid "Save this hotel as a backup"
+msgstr "拋開這條路線作為備用計劃"
+
+#: views/components/bookable.jade:27
 msgid "Add this hotel as a skipped stop"
 msgstr "加入這個旅館為跳過的行程點"
 
-#: views/components/bookable.jade:27
+#: views/components/bookable.jade:28
 msgid "Fold this hotel details"
 msgstr "摺疊旅館詳細資訊"
 
 #. L10n: 'from' is followed by the name of the website providing hotels
-#: views/components/bookable.jade:32
+#: views/components/bookable.jade:33
 #, fuzzy
 msgid "Hide hotels from"
 msgstr "隱藏旅館從"
 
 #. L10n: 'from' is followed by the name of the website providing hotels
-#: views/components/bookable.jade:33 views/components/bookable.jade:36
+#: views/components/bookable.jade:34 views/components/bookable.jade:37
 msgid "Show hotels from"
 msgstr "顯示旅館從"
 
 #. L10n: 'at' is followed by the name of the website providing campgrounds
-#: views/components/bookable.jade:44
+#: views/components/bookable.jade:45
 msgid "See this campground page at"
 msgstr "參見此營地網頁於"
 
-#: views/components/bookable.jade:45
+#: views/components/bookable.jade:46
 msgid "See this campground own website"
 msgstr "參見營地的網站"
 
-#: views/components/bookable.jade:47
+#: views/components/bookable.jade:48
 msgid "Add this campground as a new stop"
 msgstr "加入此營地為新的行程點"
 
-#: views/components/bookable.jade:48
+#: views/components/bookable.jade:49
 msgid "Replace selected stop with this campground"
 msgstr "以此營地取代所選的停留點"
 
-#: views/components/bookable.jade:49
+#: views/components/bookable.jade:50
+#, fuzzy
+msgid "Save this campground as a backup"
+msgstr "參見此營地網頁於"
+
+#: views/components/bookable.jade:51
 msgid "Add this campground as a skipped stop"
 msgstr "加入這個營地為略過的行程點"
 
-#: views/components/bookable.jade:50
+#: views/components/bookable.jade:52
 msgid "Fold this campground details"
 msgstr "摺疊營地詳情"
 
 #. L10n: 'from' is followed by the name of the website providing campgrounds
-#: views/components/bookable.jade:52
+#: views/components/bookable.jade:54
 msgid "Hide campgrounds from"
 msgstr "隱藏營地從"
 
 #. L10n: 'from' is followed by the name of the website providing campgrounds
-#: views/components/bookable.jade:53 views/components/bookable.jade:56
+#: views/components/bookable.jade:55 views/components/bookable.jade:58
 msgid "Show campgrounds from"
 msgstr "顯示營地從"
 
 #. L10n: 'at' is followed by the name of the website providing car rentals
-#: views/components/bookable.jade:65
+#: views/components/bookable.jade:67
 msgid "Rent a car at"
 msgstr "租車於"
 
 #. L10n: 'at' is followed by the name of the website handling flight reservations
-#: views/components/bookable.jade:72
+#: views/components/bookable.jade:74
 msgid "Book a flight at"
 msgstr "訂機票於"
 
 #. L10n: 'at' is followed by the name of the website providing lodging deals
-#: views/components/bookable.jade:78
+#: views/components/bookable.jade:80
 msgid "See this deal page at"
 msgstr "參見這筆交易頁面於"
 
-#: views/components/bookable.jade:80
+#: views/components/bookable.jade:82
 msgid "Add hotel in this neighborhood as a new stop"
 msgstr "加入這區域附近的旅館為新的行程點"
 
-#: views/components/bookable.jade:82
+#: views/components/bookable.jade:84
 msgid "Add hotel in this neighborhood as a skipped stop"
 msgstr "加入這區域附近的旅館為略過的行程點"
 
-#: views/components/bookable.jade:83
+#: views/components/bookable.jade:85
 #, fuzzy
 msgid "Fold this deal details"
 msgstr "摺疊這交易的細節"
 
 #. L10n: 'from' is followed by the name of the website providing lodging deals
-#: views/components/bookable.jade:85
+#: views/components/bookable.jade:87
 #, fuzzy
 msgid "Hide deals from"
 msgstr "隱藏好康交易從"
 
 #. L10n: 'from' is followed by the name of the website providing lodging deals
-#: views/components/bookable.jade:86 views/components/bookable.jade:89
+#: views/components/bookable.jade:88 views/components/bookable.jade:91
 msgid "Show deals from"
 msgstr "顯示好康交易從"
 
 #. L10n: 'at' is followed by the name of the website providing lodgings
-#: views/components/bookable.jade:97 views/components/bookable.jade:141
+#: views/components/bookable.jade:99 views/components/bookable.jade:145
 msgid "See this lodging page at"
 msgstr "參見住宿網頁於"
 
 #. L10n: 'host profile' as in 'the profile page of lodging host or owner' - displayed for services that provide booking of apartments and rooms
-#: views/components/bookable.jade:98 views/components/bookable.jade:116
+#: views/components/bookable.jade:100 views/components/bookable.jade:119
 msgid "See this lodging host profile"
 msgstr "參見住宿主人簡介"
 
-#: views/components/bookable.jade:100 views/components/bookable.jade:144
+#: views/components/bookable.jade:102 views/components/bookable.jade:148
 msgid "Add this lodging as a new stop"
 msgstr "加入此住宿為新的行程點"
 
-#: views/components/bookable.jade:101 views/components/bookable.jade:145
+#: views/components/bookable.jade:103 views/components/bookable.jade:149
 msgid "Replace selected stop with this lodging"
 msgstr "以此住宿取代所選的行程點"
 
-#: views/components/bookable.jade:102 views/components/bookable.jade:146
+#: views/components/bookable.jade:104 views/components/bookable.jade:150
+#, fuzzy
+msgid "Save this lodging as a backup"
+msgstr "參見住宿網頁於"
+
+#: views/components/bookable.jade:105 views/components/bookable.jade:151
 msgid "Add this lodging as a skipped stop"
 msgstr "加入此住宿為略過的行程點"
 
-#: views/components/bookable.jade:103 views/components/bookable.jade:147
+#: views/components/bookable.jade:106 views/components/bookable.jade:152
 msgid "Fold this lodging details"
 msgstr "摺疊住宿詳情"
 
 #. L10n: 'from' is followed by the name of the website providing apartments and rooms
-#: views/components/bookable.jade:105
+#: views/components/bookable.jade:108
 msgid "Hide apartments and rooms from"
 msgstr "隱藏公寓及房間從"
 
 #. L10n: 'from' is followed by the name of the website providing apartments and rooms
-#: views/components/bookable.jade:106 views/components/bookable.jade:109
+#: views/components/bookable.jade:109 views/components/bookable.jade:112
 msgid "Show apartments and rooms from"
 msgstr "顯示公寓及房間從"
 
 #. L10n: 'at' is followed by the name of the website providing hostels
-#: views/components/bookable.jade:121
+#: views/components/bookable.jade:124
 #, fuzzy
 msgid "See this hostel page at"
 msgstr "參見旅館網頁於"
 
-#: views/components/bookable.jade:122
+#: views/components/bookable.jade:125
 #, fuzzy
 msgid "See this hostel own website"
 msgstr "參見旅館的網頁"
 
-#: views/components/bookable.jade:124
+#: views/components/bookable.jade:127
 #, fuzzy
 msgid "Add this hostel as a new stop"
 msgstr "加這個旅館為新的行程點"
 
-#: views/components/bookable.jade:125
+#: views/components/bookable.jade:128
 #, fuzzy
 msgid "Replace selected stop with this hostel"
 msgstr "以這個旅館取代所選的旅程點"
 
-#: views/components/bookable.jade:126
+#: views/components/bookable.jade:129
+#, fuzzy
+msgid "Save this hostel as a backup"
+msgstr "拋開這條路線作為備用計劃"
+
+#: views/components/bookable.jade:130
 #, fuzzy
 msgid "Add this hostel as a skipped stop"
 msgstr "加入這個旅館為跳過的行程點"
 
-#: views/components/bookable.jade:127
+#: views/components/bookable.jade:131
 #, fuzzy
 msgid "Fold this hostel details"
 msgstr "摺疊旅館詳細資訊"
 
 #. L10n: 'from' is followed by the name of the website providing hostels
-#: views/components/bookable.jade:129
+#: views/components/bookable.jade:133
 #, fuzzy
 msgid "Hide hostels from"
 msgstr "隱藏旅館從"
 
 #. L10n: 'from' is followed by the name of the website providing hostels
-#: views/components/bookable.jade:130 views/components/bookable.jade:133
+#: views/components/bookable.jade:134 views/components/bookable.jade:137
 #, fuzzy
 msgid "Show hostels from"
 msgstr "顯示旅館從"
 
-#: views/components/bookable.jade:142
+#: views/components/bookable.jade:146
 msgid "See this lodging own website"
 msgstr "參見住宿的網頁"
 
 #. L10n: 'from' is followed by the name of the website providing lodgings
-#: views/components/bookable.jade:149
+#: views/components/bookable.jade:154
 msgid "Hide lodgings from"
 msgstr "隱藏住宿從"
 
 #. L10n: 'from' is followed by the name of the website providing lodgings
-#: views/components/bookable.jade:150 views/components/bookable.jade:153
+#: views/components/bookable.jade:155 views/components/bookable.jade:158
 msgid "Show lodgings from"
 msgstr "顯示住宿從"
 
 #. L10n: 'Hot Rate' is Hotwire registered trademark. It's better left in its original form, untranslated.
-#: views/components/bookable.jade:178
+#: views/components/bookable.jade:183
 #, fuzzy
 msgid ""
 "The Hot Rate hotel is located in the highlighted area. Once you book, you'll "
 "learn the location."
 msgstr "炎熱的房價酒店位於高亮區域。一旦你的書，你將學到的位置。"
 
-#: views/components/bookable.jade:179
+#: views/components/bookable.jade:184
 #, fuzzy
 msgid ""
 "When brand-name hotels use Hotwire to fill rooms that would otherwise go "
@@ -647,17 +670,17 @@ msgstr "您使用的是過時的網頁瀏覽器."
 msgid "Please [upgrade your browser] to improve your experience."
 msgstr "請[升級您的網頁瀏覽器]以增進體驗品質."
 
-#: views/components/dialog.jade:5 views/components/step-detail.jade:811
+#: views/components/dialog.jade:5 views/components/step-detail.jade:810
 #: views/tripshot/mixin.jade:104
 msgid "Cancel changes"
 msgstr "取些改變"
 
-#: views/components/dialog.jade:8 views/components/step-detail.jade:814
+#: views/components/dialog.jade:8 views/components/step-detail.jade:813
 #: views/tripshot/mixin.jade:107
 msgid "Accept changes"
 msgstr "確認改變"
 
-#: views/components/dialog.jade:10 views/components/step-detail.jade:816
+#: views/components/dialog.jade:10 views/components/step-detail.jade:815
 msgid "Save"
 msgstr "儲存"
 
@@ -872,156 +895,166 @@ msgid "Undo stay in lodging"
 msgstr "復原留宿"
 
 #: views/components/furkot-data.jade:29
+#, fuzzy
+msgid "Undo backup lodging"
+msgstr "復原留宿"
+
+#: views/components/furkot-data.jade:30
 msgid "Undo change route type"
 msgstr "復原改變路線類型"
 
-#: views/components/furkot-data.jade:30
+#: views/components/furkot-data.jade:31
 msgid "Undo travel off road"
 msgstr "復原越野旅行"
 
-#: views/components/furkot-data.jade:31
+#: views/components/furkot-data.jade:32
 msgid "Undo follow roads"
 msgstr "復原依循道路"
 
-#: views/components/furkot-data.jade:32
+#: views/components/furkot-data.jade:33
 msgid "Undo keep stop"
 msgstr "復原保留行程點"
 
-#: views/components/furkot-data.jade:33
+#: views/components/furkot-data.jade:34
 msgid "Undo move day"
 msgstr "復原移動日期"
 
-#: views/components/furkot-data.jade:34
+#: views/components/furkot-data.jade:35
 msgid "Undo plan B"
 msgstr "復原B計畫"
 
-#: views/components/furkot-data.jade:35
+#: views/components/furkot-data.jade:36
 msgid "Undo delete route"
 msgstr "復原刪除路線"
 
-#: views/components/furkot-data.jade:38
+#: views/components/furkot-data.jade:39
 msgid "Redo delete stop"
 msgstr "復原刪行程點"
 
-#: views/components/furkot-data.jade:39
+#: views/components/furkot-data.jade:40
 msgid "Redo add place"
 msgstr "復原加入地點"
 
-#: views/components/furkot-data.jade:40
+#: views/components/furkot-data.jade:41
 #, fuzzy
 msgid "Redo add route"
 msgstr "恢復添加路線"
 
-#: views/components/furkot-data.jade:41
+#: views/components/furkot-data.jade:42
 #, fuzzy
 msgid "Redo add stop"
 msgstr "恢復添加站"
 
-#: views/components/furkot-data.jade:42
+#: views/components/furkot-data.jade:43
 #, fuzzy
 msgid "Redo drag route"
 msgstr "重做拖動路線"
 
-#: views/components/furkot-data.jade:43
+#: views/components/furkot-data.jade:44
 #, fuzzy
 msgid "Redo skip stop"
 msgstr "重做隔站停靠"
 
-#: views/components/furkot-data.jade:44
+#: views/components/furkot-data.jade:45
 #, fuzzy
 msgid "Redo visit stop"
 msgstr "重做參觀停止"
 
-#: views/components/furkot-data.jade:45
+#: views/components/furkot-data.jade:46
 #, fuzzy
 msgid "Redo reorder stop"
 msgstr "重做停止重新排序"
 
-#: views/components/furkot-data.jade:46
+#: views/components/furkot-data.jade:47
 #, fuzzy
 msgid "Redo change route"
 msgstr "重做改變航線"
 
-#: views/components/furkot-data.jade:47
+#: views/components/furkot-data.jade:48
 #, fuzzy
 msgid "Redo reset route"
 msgstr "重做復位路線"
 
-#: views/components/furkot-data.jade:48
+#: views/components/furkot-data.jade:49
 #, fuzzy
 msgid "Redo move stop"
 msgstr "重做移動止損"
 
-#: views/components/furkot-data.jade:49
+#: views/components/furkot-data.jade:50
 #, fuzzy
 msgid "Redo reverse itinerary"
 msgstr "重做反向行程"
 
-#: views/components/furkot-data.jade:50
+#: views/components/furkot-data.jade:51
 #, fuzzy
 msgid "Redo edit route"
 msgstr "重做編輯路線"
 
-#: views/components/furkot-data.jade:51
+#: views/components/furkot-data.jade:52
 #, fuzzy
 msgid "Redo stay in lodging"
 msgstr "重做留在住宿"
 
-#: views/components/furkot-data.jade:52
+#: views/components/furkot-data.jade:53
+#, fuzzy
+msgid "Redo backup lodging"
+msgstr "重做留在住宿"
+
+#: views/components/furkot-data.jade:54
 #, fuzzy
 msgid "Redo change route type"
 msgstr "重做改變路由類型"
 
-#: views/components/furkot-data.jade:53
+#: views/components/furkot-data.jade:55
 #, fuzzy
 msgid "Redo travel off road"
 msgstr "重做旅行越野"
 
-#: views/components/furkot-data.jade:54
+#: views/components/furkot-data.jade:56
 #, fuzzy
 msgid "Redo follow roads"
 msgstr "重做遵循的道路"
 
-#: views/components/furkot-data.jade:55
+#: views/components/furkot-data.jade:57
 #, fuzzy
 msgid "Redo keep stop"
 msgstr "重做保持停止"
 
-#: views/components/furkot-data.jade:56
+#: views/components/furkot-data.jade:58
 #, fuzzy
 msgid "Redo move day"
 msgstr "重做移動一天"
 
-#: views/components/furkot-data.jade:57
+#: views/components/furkot-data.jade:59
 #, fuzzy
 msgid "Redo plan B"
 msgstr "重做B計劃"
 
-#: views/components/furkot-data.jade:58
+#: views/components/furkot-data.jade:60
 #, fuzzy
 msgid "Redo delete route"
 msgstr "重做刪除路線"
 
 #. L10n: Time picker caption: 'Hours' for the hours part. Time picker is displayed wherever user can edit time or duration.
-#: views/components/furkot-data.jade:65
+#: views/components/furkot-data.jade:67
 #, fuzzy
 msgid "Hours"
 msgstr "小時"
 
 #. L10n: Time picker caption: 'Minutes' for the minutes part. Time picker is displayed wherever user can edit time or duration.
-#: views/components/furkot-data.jade:66 views/components/furkot-data.jade:72
+#: views/components/furkot-data.jade:68 views/components/furkot-data.jade:74
 #, fuzzy
 msgid "Minutes"
 msgstr "路線"
 
 #. L10n: Used for 12-hours clock, 'AM' is the abbreviation of 'ante meridiem', meaning 'before midday'; maximum 4 letters including punctuation
-#: views/components/furkot-data.jade:67 views/components/furkot-data.jade:74
+#: views/components/furkot-data.jade:69 views/components/furkot-data.jade:76
 #, fuzzy
 msgid "AM"
 msgstr "上午"
 
 #. L10n: Used for 12-hours clock, 'PM' is the abbreviation of 'post meridiem', meaning 'after midday'; maximum 4 letters including punctuation
-#: views/components/furkot-data.jade:68 views/components/furkot-data.jade:76
+#: views/components/furkot-data.jade:70 views/components/furkot-data.jade:78
 #, fuzzy
 msgid "PM"
 msgstr "下午"
@@ -1279,20 +1312,20 @@ msgid "Let Furkot follow roads unless importing off-road routes/tracks."
 msgstr "讓Furkot遵循的道路，除非進口越野路線/曲目。"
 
 #. L10n: Label for the field that allows user to decide whether routes should follow roads or permit off-road travel (the routes shaped manually)
-#: views/components/import-dlg.jade:114 views/components/step-detail.jade:681
+#: views/components/import-dlg.jade:114 views/components/step-detail.jade:687
 #, fuzzy
 msgid "Routing"
 msgstr "路由"
 
 #. L10n: 'Follow roads' - Furkot will automatically calculate routes that go over public roads - as opposed to 'Travel off-road' - user can shape routes manually without any constraint
-#: views/components/import-dlg.jade:117 views/components/step-detail.jade:683
+#: views/components/import-dlg.jade:117 views/components/step-detail.jade:689
 #, fuzzy
 msgid "Follow roads"
 msgstr "按照道路"
 
 #. L10n: 'Travel off-road' - user can shape routes manually without any constraint - as opposed to 'Follow roads' - Furkot will automatically calculate routes that go over public roads
 #: views/components/import-dlg.jade:117 views/components/import-dlg.jade:120
-#: views/components/step-detail.jade:682
+#: views/components/step-detail.jade:688
 #, fuzzy
 msgid "Travel off road"
 msgstr "旅行越野"
@@ -1316,21 +1349,19 @@ msgstr "平均速度"
 
 #. L10n: abbreviation of kilometer
 #: views/components/import-dlg.jade:131 views/components/place-switch.jade:33
-#: views/components/step-detail.jade:708
 #: views/components/trip-config-item.jade:40
 #: views/components/trip-config-item.jade:51
 #: views/components/trip-config-item.jade:77
 #: views/components/trip-detail.jade:107 views/components/trip-detail.jade:121
 #: views/components/trip-detail.jade:306 views/components/trip-detail.jade:317
-#: views/tripshot/map.jade:23 views/tripshot/tripshot.jade:20
-#: views/tripshot/tripshot.jade:46 views/tripshot/widget.jade:25
+#: views/tripshot/mixin.jade:186 views/tripshot/tripshot.jade:20
+#: views/tripshot/tripshot.jade:46
 #, fuzzy
 msgid "km"
 msgstr "千米"
 
 #. L10n: abbreviation of mile
 #: views/components/import-dlg.jade:132 views/components/place-switch.jade:34
-#: views/components/step-detail.jade:709
 #: views/components/trip-config-item.jade:78
 #: views/components/trip-detail.jade:123 views/components/trip-detail.jade:307
 #, fuzzy
@@ -1483,13 +1514,17 @@ msgstr "去吃飯抽屜"
 msgid "go to Find drawer"
 msgstr "去尋找抽屜"
 
-#: views/components/language.jade:27
+#: views/components/language.jade:25
+msgid "Choose your language"
+msgstr ""
+
+#: views/components/language.jade:28
 #, fuzzy
 msgid "Languages partially translated"
 msgstr "語言部分翻譯"
 
 #. L10n: square brackets [] denote a link
-#: views/components/language.jade:31
+#: views/components/language.jade:32
 #, fuzzy
 msgid "If you want to help [click here]"
 msgstr "如果您想幫助[點擊這裡]"
@@ -1679,7 +1714,7 @@ msgstr "顯示行程的詳細信息"
 
 #. L10n: Label on the handle of the Trip drawer. Shorter word is better; ideally words for other handles (Plan, Sleep, Eat, Find) will not be longer
 #. L10n: Label for time/distance covered since beginning of the trip
-#: views/components/map.jade:133 views/components/step-detail.jade:527
+#: views/components/map.jade:133 views/components/step-detail.jade:529
 #, fuzzy
 msgid "Trip"
 msgstr "旅"
@@ -1743,7 +1778,7 @@ msgid "Show points of interest"
 msgstr "興趣點顯示"
 
 #. L10n: Label on the handle of the Find drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Find' can be also translated as 'Search', 'Places of Interest', 'Points of Interest' or 'Attractions'
-#: views/components/map.jade:177 views/components/step-detail.jade:802
+#: views/components/map.jade:177 views/components/step-detail.jade:801
 #, fuzzy
 msgid "Find"
 msgstr "找"
@@ -2034,19 +2069,19 @@ msgstr ""
 
 #. L10n: Label for the option to avoid or prefer highways
 #: views/components/new-trip-wizard.jade:90
-#: views/components/step-detail.jade:713 views/components/trip-detail.jade:34
+#: views/components/step-detail.jade:712 views/components/trip-detail.jade:34
 #, fuzzy
 msgid "Highways"
 msgstr "公路"
 
 #: views/components/new-trip-wizard.jade:91
-#: views/components/step-detail.jade:714 views/components/trip-detail.jade:35
+#: views/components/step-detail.jade:713 views/components/trip-detail.jade:35
 #, fuzzy
 msgid "Avoid highways where possible"
 msgstr "盡可能避開高速公路"
 
 #: views/components/new-trip-wizard.jade:92
-#: views/components/step-detail.jade:715 views/components/trip-detail.jade:36
+#: views/components/step-detail.jade:714 views/components/trip-detail.jade:36
 #, fuzzy
 msgid "Prefer highways where available"
 msgstr "身高：公路上可用"
@@ -2218,7 +2253,7 @@ msgid "Stop"
 msgstr "停止"
 
 #. L10n: 'Stop' meaning 'Add the place to the trip as a skipped Stop'
-#: views/components/place-detail.jade:13 views/components/place-detail.jade:39
+#: views/components/place-detail.jade:13 views/components/place-detail.jade:43
 #, fuzzy
 msgid "Maybe"
 msgstr "也許"
@@ -2253,89 +2288,96 @@ msgid "New"
 msgstr "新"
 
 #. L10n: 'Stay' meaning 'Replace the selected overnight stop by the Stay in this lodging'
-#: views/components/place-detail.jade:36 views/components/step-lodging.jade:48
+#: views/components/place-detail.jade:36 views/components/step-detail.jade:334
+#: views/components/step-lodging.jade:48
 #, fuzzy
 msgid "Stay"
 msgstr "留"
 
+#. L10n: 'Backup' meaning 'Add this lodging as a backup to the selected lodging for an overnight stop'
+#: views/components/place-detail.jade:40
+#, fuzzy
+msgid "Backup"
+msgstr "回去"
+
 #. L10n: Displayed for lodgings that allow pets
-#: views/components/place-detail.jade:58
+#: views/components/place-detail.jade:62
 #, fuzzy
 msgid "Pets allowed"
 msgstr "可帶寵物"
 
 #. L10n: Number of bedrooms in the lodging. Followed by number
-#: views/components/place-detail.jade:59 views/components/place-detail.jade:67
+#: views/components/place-detail.jade:63 views/components/place-detail.jade:71
 #, fuzzy
 msgid "Bedrooms"
 msgstr "臥室"
 
 #. L10n: Displayed for lodgings that are studio apartments
-#: views/components/place-detail.jade:60 views/components/place-detail.jade:69
+#: views/components/place-detail.jade:64 views/components/place-detail.jade:73
 #, fuzzy
 msgid "Studio apartment"
 msgstr "一室公寓"
 
 #. L10n: Number of bathrooms in the lodging. Followed by number
-#: views/components/place-detail.jade:61 views/components/place-detail.jade:71
+#: views/components/place-detail.jade:65 views/components/place-detail.jade:75
 #, fuzzy
 msgid "Bathrooms"
 msgstr "浴室"
 
 #. L10n: Number of beds in the lodging. Followed by number
-#: views/components/place-detail.jade:62 views/components/place-detail.jade:73
+#: views/components/place-detail.jade:66 views/components/place-detail.jade:77
 #, fuzzy
 msgid "Number of beds"
 msgstr "床位數"
 
 #. L10n: Minimum number of nights required by the lodging. Followed by number
-#: views/components/place-detail.jade:63 views/components/place-detail.jade:75
+#: views/components/place-detail.jade:67 views/components/place-detail.jade:79
 #, fuzzy
 msgid "Minimum nights"
 msgstr "最小的夜晚"
 
 #. L10n: Maximum number of guests allowed in the lodging. Followed by number
-#: views/components/place-detail.jade:64 views/components/place-detail.jade:77
+#: views/components/place-detail.jade:68 views/components/place-detail.jade:81
 #, fuzzy
 msgid "Maximum guests"
 msgstr "最大客人"
 
 #. L10n: Caption to a message asking for confirmation to add a stop to a trip
-#: views/components/place-detail.jade:101
-#: views/components/place-detail.jade:115
+#: views/components/place-detail.jade:105
+#: views/components/place-detail.jade:119
 #, fuzzy
 msgid "Add stop"
 msgstr "加入終止"
 
-#: views/components/place-detail.jade:102
+#: views/components/place-detail.jade:106
 #, fuzzy
 msgid "Yes"
 msgstr "是"
 
-#: views/components/place-detail.jade:103
+#: views/components/place-detail.jade:107
 #, fuzzy
 msgid "No"
 msgstr "沒有"
 
 #. L10n: 'starting point' meaning 'the first stop of the trip'
-#: views/components/place-detail.jade:105
+#: views/components/place-detail.jade:109
 #: views/components/step-switches.jade:93
 #: views/components/step-switches.jade:104
 #, fuzzy
 msgid "Do you want to change the starting point?"
 msgstr "你想改變的起點？"
 
-#: views/components/place-detail.jade:106
+#: views/components/place-detail.jade:110
 #, fuzzy
 msgid "Click Yes to make this stop a new starting point."
 msgstr "單擊Yes，使這個停止一個新的起點。"
 
-#: views/components/place-detail.jade:107
+#: views/components/place-detail.jade:111
 #, fuzzy
 msgid "Click No to add this stop after the starting point."
 msgstr "單擊否起點後添加此站。"
 
-#: views/components/place-detail.jade:108
+#: views/components/place-detail.jade:112
 #: views/components/step-switches.jade:94
 #: views/components/step-switches.jade:105
 #, fuzzy
@@ -2345,7 +2387,7 @@ msgid ""
 msgstr "您還可以允許起點的後續變化，如果你不希望再次看到此消息。"
 
 #. L10n: Label for an option to hold a stop as a first (or last) stop of the trip or to allow Furkot to reposition it when necessary
-#: views/components/place-detail.jade:111 views/components/step-switches.jade:5
+#: views/components/place-detail.jade:115 views/components/step-switches.jade:5
 #: views/components/step-switches.jade:96
 #: views/components/step-switches.jade:107
 #: views/components/step-switches.jade:118
@@ -2355,34 +2397,34 @@ msgid "Position"
 msgstr "位置"
 
 #. L10n: Followed by the number of rooms that are available at displayed price
-#: views/components/place-detail.jade:125
+#: views/components/place-detail.jade:129
 #, fuzzy
 msgid "Rooms available at this price"
 msgstr "可在這個價位的房間"
 
 #. L10n: followed by the name of the service weather data (OpenWeatherMap)
-#: views/components/place-detail.jade:148
+#: views/components/place-detail.jade:152
 #, fuzzy
 msgid "Weather data"
 msgstr "氣象數據"
 
 #. L10n: a word, very short phrase or abbreviation displayed after the net price (price that doesn't include fees, taxes or surcharges)
-#: views/components/place-detail.jade:153
+#: views/components/place-detail.jade:157
 #, fuzzy
 msgid "+tax"
 msgstr "+稅"
 
 #. L10n: a word, very short phrase or abbreviation displayed before the total price (price that includes all fees, taxes and surcharges)
-#: views/components/place-detail.jade:157
+#: views/components/place-detail.jade:161
 msgid "total"
 msgstr "總共"
 
 #. L10n: a word, very short phrase or abbreviation displayed before the minimal price (when actual price may be higher than displayed)
-#: views/components/place-detail.jade:159
+#: views/components/place-detail.jade:163
 msgid "from"
 msgstr "從"
 
-#: views/components/place-switch.jade:6
+#: views/components/place-switch.jade:6 views/components/tour-lodging.jade:13
 #, fuzzy
 msgid "Configure search options"
 msgstr "配置搜索選項"
@@ -2394,19 +2436,19 @@ msgid "Show Places"
 msgstr "展會地點"
 
 #. L10n: 'Over the map' as in 'show places of interest anywhere on the map'
-#: views/components/place-switch.jade:17
+#: views/components/place-switch.jade:17 views/components/tour-lodging.jade:16
 #, fuzzy
 msgid "Over the map"
 msgstr "在地圖"
 
 #. L10n: 'Around the selected stop' as in 'Show places of interest in a circle Around the selected stop'
-#: views/components/place-switch.jade:21
+#: views/components/place-switch.jade:21 views/components/tour-lodging.jade:15
 #, fuzzy
 msgid "Around the selected stop"
 msgstr "圍繞選定停止"
 
 #. L10n: 'Along the route' as in 'Show places of interest in a band Along the route'
-#: views/components/place-switch.jade:25
+#: views/components/place-switch.jade:25 views/components/tour-lodging.jade:17
 #, fuzzy
 msgid "Along the route"
 msgstr "沿線"
@@ -3064,20 +3106,20 @@ msgid "See description of this place"
 msgstr "看到這個地方的描述"
 
 #: views/components/places.jade:3 views/components/places.jade:162
-#: views/components/places.jade:176 views/components/places.jade:327
-#: views/components/places.jade:418
+#: views/components/places.jade:176 views/components/places.jade:314
+#: views/components/places.jade:405
 #, fuzzy
 msgid "See this place own website"
 msgstr "看到這個地方自己的網站"
 
-#: views/components/places.jade:4 views/components/places.jade:419
+#: views/components/places.jade:4 views/components/places.jade:406
 #, fuzzy
 msgid "Stop and visit this place"
 msgstr "停止並參觀這個地方"
 
 #: views/components/places.jade:5 views/components/places.jade:165
-#: views/components/places.jade:179 views/components/places.jade:329
-#: views/components/places.jade:420
+#: views/components/places.jade:179 views/components/places.jade:316
+#: views/components/places.jade:407
 #, fuzzy
 msgid "Add this place as a skipped stop"
 msgstr "加入這個地方作為跳躍停止"
@@ -3093,7 +3135,7 @@ msgid "Reverse this route"
 msgstr "扭轉這一路線"
 
 #: views/components/places.jade:8 views/components/places.jade:166
-#: views/components/places.jade:180 views/components/places.jade:330
+#: views/components/places.jade:180 views/components/places.jade:317
 #, fuzzy
 msgid "Fold this place details"
 msgstr "折這個地點的詳細信息"
@@ -3192,32 +3234,32 @@ msgstr "見撰稿人的個人資料在BestBikingRoads.com"
 msgid "See riders' rating at BestBikingRoads.com"
 msgstr "見車手評級為BestBikingRoads.com"
 
-#: views/components/places.jade:44 views/components/places.jade:242
-#: views/components/places.jade:256
+#: views/components/places.jade:44 views/components/places.jade:229
+#: views/components/places.jade:243
 #, fuzzy
 msgid "Stop at this motorcycle road"
 msgstr "停在該摩托車道路"
 
-#: views/components/places.jade:45 views/components/places.jade:243
-#: views/components/places.jade:257
+#: views/components/places.jade:45 views/components/places.jade:230
+#: views/components/places.jade:244
 #, fuzzy
 msgid "Add this motorcycle road as a skipped stop"
 msgstr "收藏此摩托車道路作為跳躍停止"
 
-#: views/components/places.jade:46 views/components/places.jade:244
-#: views/components/places.jade:258
+#: views/components/places.jade:46 views/components/places.jade:231
+#: views/components/places.jade:245
 #, fuzzy
 msgid "Ride this motorcycle road"
 msgstr "騎這輛摩托車道路"
 
-#: views/components/places.jade:47 views/components/places.jade:245
-#: views/components/places.jade:259
+#: views/components/places.jade:47 views/components/places.jade:232
+#: views/components/places.jade:246
 #, fuzzy
 msgid "Reverse this motorcycle road"
 msgstr "扭轉這種摩托車道路"
 
-#: views/components/places.jade:48 views/components/places.jade:246
-#: views/components/places.jade:260
+#: views/components/places.jade:48 views/components/places.jade:233
+#: views/components/places.jade:247
 #, fuzzy
 msgid "Fold this motorcycle road details"
 msgstr "折這個摩托車道路細節"
@@ -3322,17 +3364,17 @@ msgstr "參見本DiveSpots潛點介紹"
 msgid "See user reviews at DiveSpots"
 msgstr "參見DiveSpots用戶評論"
 
-#: views/components/places.jade:80 views/components/places.jade:350
+#: views/components/places.jade:80 views/components/places.jade:337
 #, fuzzy
 msgid "Stop and dive at this site"
 msgstr "停止和潛水在這個網站"
 
-#: views/components/places.jade:81 views/components/places.jade:351
+#: views/components/places.jade:81 views/components/places.jade:338
 #, fuzzy
 msgid "Add this dive site as a skipped stop"
 msgstr "增加這個潛點作為跳躍停止"
 
-#: views/components/places.jade:82 views/components/places.jade:352
+#: views/components/places.jade:82 views/components/places.jade:339
 #, fuzzy
 msgid "Fold this dive site details"
 msgstr "折這個潛點的細節"
@@ -3444,19 +3486,16 @@ msgid "Stop and take this trail"
 msgstr "停下來這條小道"
 
 #: views/components/places.jade:116 views/components/places.jade:130
-#: views/components/places.jade:217
 #, fuzzy
 msgid "Add this trail as a skipped stop"
 msgstr "添加這條古道作為跳躍停止"
 
 #: views/components/places.jade:117 views/components/places.jade:131
-#: views/components/places.jade:218
 #, fuzzy
 msgid "Take this trail"
 msgstr "就拿這條小道"
 
 #: views/components/places.jade:118 views/components/places.jade:132
-#: views/components/places.jade:219
 #, fuzzy
 msgid "Reverse this trail"
 msgstr "扭轉這一線索"
@@ -3577,7 +3616,7 @@ msgid "See user reviews at Foursquare"
 msgstr "看到Foursquare的用戶評論"
 
 #: views/components/places.jade:164 views/components/places.jade:178
-#: views/components/places.jade:328
+#: views/components/places.jade:315
 #, fuzzy
 msgid "Stop at this place"
 msgstr "停在這個地方"
@@ -3664,611 +3703,580 @@ msgstr "從Liftopia滑雪勝地"
 
 #: views/components/places.jade:213
 #, fuzzy
-msgid "See description of this hike at LocalHikes"
-msgstr "參見本LocalHikes加息的說明"
-
-#: views/components/places.jade:214
-#, fuzzy
-msgid "See author's profile at LocalHikes"
-msgstr "見筆者在LocalHikes簡介"
-
-#: views/components/places.jade:215
-#, fuzzy
-msgid "See user reviews at LocalHikes"
-msgstr "參見LocalHikes用戶評論"
-
-#: views/components/places.jade:216
-#, fuzzy
-msgid "Stop and hike this trail"
-msgstr "停止並加息這條小道"
-
-#: views/components/places.jade:220
-#, fuzzy
-msgid "Fold this hike details"
-msgstr "折這個加息的細節"
-
-#: views/components/places.jade:221
-#, fuzzy
-msgid "Hide hikes from LocalHikes"
-msgstr "從LocalHikes隱藏上漲"
-
-#: views/components/places.jade:222
-#, fuzzy
-msgid "Hiking trails from LocalHikes"
-msgstr "從登山步道LocalHikes"
-
-#: views/components/places.jade:226
-#, fuzzy
 msgid "See description of this bike track at MBPost"
 msgstr "看到這個自行車賽道的描述在MBPost"
 
-#: views/components/places.jade:227
+#: views/components/places.jade:214
 #, fuzzy
 msgid "See author's profile at MBPost"
 msgstr "見筆者在MBPost簡介"
 
-#: views/components/places.jade:228
+#: views/components/places.jade:215
 #, fuzzy
 msgid "See user reviews at MBPost"
 msgstr "參見MBPost用戶評論"
 
-#: views/components/places.jade:229
+#: views/components/places.jade:216
 #, fuzzy
 msgid "Stop and ride this bike track"
 msgstr "停止和騎這輛自行車賽道"
 
-#: views/components/places.jade:230
+#: views/components/places.jade:217
 #, fuzzy
 msgid "Add this bike track as a skipped stop"
 msgstr "添加這個自行車賽道作為跳躍停止"
 
-#: views/components/places.jade:231
+#: views/components/places.jade:218
 #, fuzzy
 msgid "Ride this bike track"
 msgstr "騎這種自行車賽道"
 
-#: views/components/places.jade:232
+#: views/components/places.jade:219
 #, fuzzy
 msgid "Reverse this bike track"
 msgstr "扭轉這種自行車賽道"
 
-#: views/components/places.jade:233
+#: views/components/places.jade:220
 #, fuzzy
 msgid "Fold this bike track details"
 msgstr "這個折疊自行車賽道的細節"
 
-#: views/components/places.jade:234
+#: views/components/places.jade:221
 #, fuzzy
 msgid "Hide bike tracks from MBPost"
 msgstr "隱藏MBPost自行車道"
 
-#: views/components/places.jade:235
+#: views/components/places.jade:222
 #, fuzzy
 msgid "Bike tracks from MBPost"
 msgstr "從MBPost自行車道"
 
-#: views/components/places.jade:239
+#: views/components/places.jade:226
 #, fuzzy
 msgid "See description of this road at MotorcycleRoads.com"
 msgstr "見這條道路的描述在MotorcycleRoads.com"
 
-#: views/components/places.jade:240
+#: views/components/places.jade:227
 #, fuzzy
 msgid "See contributor's profile at MotorcycleRoads.com"
 msgstr "見撰稿人的個人資料在MotorcycleRoads.com"
 
-#: views/components/places.jade:241
+#: views/components/places.jade:228
 #, fuzzy
 msgid "See riders' rating at MotorcycleRoads.com"
 msgstr "見車手評級為MotorcycleRoads.com"
 
-#: views/components/places.jade:247
+#: views/components/places.jade:234
 #, fuzzy
 msgid "Hide roads and rides from MotorcycleRoads.com"
 msgstr "隱藏MotorcycleRoads.com道路和遊樂設施"
 
-#: views/components/places.jade:248
+#: views/components/places.jade:235
 #, fuzzy
 msgid "Roads and rides from MotorcycleRoads.com"
 msgstr "從MotorcycleRoads.com道路和遊樂設施"
 
-#: views/components/places.jade:253
+#: views/components/places.jade:240
 #, fuzzy
 msgid "See description of this road at MotorcycleRoads.us"
 msgstr "見這條道路的描述在MotorcycleRoads.us"
 
-#: views/components/places.jade:254
+#: views/components/places.jade:241
 #, fuzzy
 msgid "See contributor's profile at MotorcycleRoads.us"
 msgstr "見出資人在MotorcycleRoads.us簡介"
 
-#: views/components/places.jade:255
+#: views/components/places.jade:242
 #, fuzzy
 msgid "See riders' rating at MotorcycleRoads.us"
 msgstr "見車手在MotorcycleRoads.us評級"
 
-#: views/components/places.jade:261
+#: views/components/places.jade:248
 #, fuzzy
 msgid "Hide roads and rides from MotorcycleRoads.us"
 msgstr "隱藏MotorcycleRoads.us道路和遊樂設施"
 
-#: views/components/places.jade:262
+#: views/components/places.jade:249
 #, fuzzy
 msgid "Roads and rides from MotorcycleRoads.us"
 msgstr "從MotorcycleRoads.us道路和遊樂設施"
 
-#: views/components/places.jade:266
+#: views/components/places.jade:253
 #, fuzzy
 msgid "See this gas station page on myGasFeed"
 msgstr "查看myGasFeed這個加油站頁面"
 
-#: views/components/places.jade:267
+#: views/components/places.jade:254
 #, fuzzy
 msgid "See this gas station own website"
 msgstr "看到這個加油站自己的網站"
 
-#: views/components/places.jade:268
+#: views/components/places.jade:255
 #, fuzzy
 msgid "Fill up at this gas station"
 msgstr "在這個加油站填補"
 
-#: views/components/places.jade:269 views/components/places.jade:309
+#: views/components/places.jade:256 views/components/places.jade:296
 #, fuzzy
 msgid "Add this gas station as a skipped stop"
 msgstr "加入這個加油站作為跳躍停止"
 
-#: views/components/places.jade:270 views/components/places.jade:310
+#: views/components/places.jade:257 views/components/places.jade:297
 #, fuzzy
 msgid "Fold this gas station details"
 msgstr "折這個加油站的細節"
 
-#: views/components/places.jade:271
+#: views/components/places.jade:258
 #, fuzzy
 msgid "Hide gas stations from myGasFeed"
 msgstr "隱藏myGasFeed加油站"
 
-#: views/components/places.jade:272
+#: views/components/places.jade:259
 #, fuzzy
 msgid "Gas stations from myGasFeed"
 msgstr "從myGasFeed加油站"
 
-#: views/components/places.jade:276
+#: views/components/places.jade:263
 #, fuzzy
 msgid "See Motor Vehicle Use Maps at U.S. Forest Service"
 msgstr "參見美國林務局機動車使用地圖"
 
-#: views/components/places.jade:277
+#: views/components/places.jade:264
 #, fuzzy
 msgid "Stop at this road or trail"
 msgstr "停在這條路上或線索"
 
-#: views/components/places.jade:278
+#: views/components/places.jade:265
 #, fuzzy
 msgid "Add this road or trail as a skipped stop"
 msgstr "添加這條道路或線索作為跳躍停止"
 
-#: views/components/places.jade:279
+#: views/components/places.jade:266
 #, fuzzy
 msgid "Travel this road or trail"
 msgstr "該旅遊公路或小道"
 
-#: views/components/places.jade:280
+#: views/components/places.jade:267
 #, fuzzy
 msgid "Reverse this road or trail"
 msgstr "扭轉這種公路或小道"
 
-#: views/components/places.jade:281
+#: views/components/places.jade:268
 #, fuzzy
 msgid "Fold this road or trail details"
 msgstr "折疊這條路或線索的細節"
 
-#: views/components/places.jade:282
+#: views/components/places.jade:269
 #, fuzzy
 msgid "Hide U.S. Forest Service Motor Vehicle Use Maps"
 msgstr "隱藏美國林務局機動車使用地圖"
 
-#: views/components/places.jade:283
+#: views/components/places.jade:270
 #, fuzzy
 msgid "U.S. Forest Service Motor Vehicle Use Maps"
 msgstr "美國林務局機動車使用地圖"
 
-#: views/components/places.jade:288
+#: views/components/places.jade:275
 #, fuzzy
 msgid "See charging station network"
 msgstr "請參閱充電站網絡"
 
-#: views/components/places.jade:289
+#: views/components/places.jade:276
 #, fuzzy
 msgid "Add this charging station to your trip"
 msgstr "這個充電站添加到您的旅程"
 
-#: views/components/places.jade:290
+#: views/components/places.jade:277
 #, fuzzy
 msgid "Add this charging station as a skipped stop"
 msgstr "增加這個充電站作為跳躍停止"
 
-#: views/components/places.jade:291
+#: views/components/places.jade:278
 #, fuzzy
 msgid "Fold this charging station details"
 msgstr "折這個充電站的詳細信息"
 
-#: views/components/places.jade:292
+#: views/components/places.jade:279
 #, fuzzy
 msgid "Hide electric car charging stations"
 msgstr "隱藏電動汽車充電站"
 
-#: views/components/places.jade:293
+#: views/components/places.jade:280
 #, fuzzy
 msgid "Electric car charging stations"
 msgstr "電動汽車充電站"
 
-#: views/components/places.jade:297
+#: views/components/places.jade:284
 #, fuzzy
 msgid "See description of this airport at OurAirports"
 msgstr "參見本DiveSpots潛點介紹"
 
-#: views/components/places.jade:298
+#: views/components/places.jade:285
 #, fuzzy
 msgid "Stop at this airport"
 msgstr "停在這個景象"
 
-#: views/components/places.jade:299
+#: views/components/places.jade:286
 #, fuzzy
 msgid "Add this airport as a skipped stop"
 msgstr "增加這個滑雪勝地作為跳躍停止"
 
-#: views/components/places.jade:300
+#: views/components/places.jade:287
 #, fuzzy
 msgid "Fold this airport details"
 msgstr "折這個路線詳情"
 
-#: views/components/places.jade:301
+#: views/components/places.jade:288
 #, fuzzy
 msgid "Hide airports from OurAirports"
 msgstr "隱藏Liftopia滑雪勝地"
 
-#: views/components/places.jade:302
+#: views/components/places.jade:289
 #, fuzzy
 msgid "Airports from OurAirports"
 msgstr "機場或城市"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:307
+#: views/components/places.jade:294
 #, fuzzy
 msgid "See this ethanol-free gas station page on pure-gas.org"
 msgstr "查看pure-gas.org這個免費的乙醇加油站頁"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:308 views/components/places.jade:313
+#: views/components/places.jade:295 views/components/places.jade:300
 #, fuzzy
 msgid "Fill up at this ethanol-free gas station"
 msgstr "在這個免費的乙醇加油站填補"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:315
+#: views/components/places.jade:302
 #, fuzzy
 msgid "Ethanol-free gas stations from pure-gas.org"
 msgstr "從pure-gas.org不含乙醇的加油站"
 
-#: views/components/places.jade:316
+#: views/components/places.jade:303
 #, fuzzy
 msgid "Hide gas stations from pure-gas.org"
 msgstr "隱藏pure-gas.org加油站"
 
 #. L10n: square brackets [] denote a link. "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:321
+#: views/components/places.jade:308
 #, fuzzy
 msgid "The list of ethanol-free gas stations by [pure-gas.org]"
 msgstr "無乙醇的加油站由列表[pure-gas.org]"
 
 #. L10n: square brackets [] denote a link
-#: views/components/places.jade:323
+#: views/components/places.jade:310
 #, fuzzy
 msgid "with [permission]"
 msgstr "與[權限]"
 
-#: views/components/places.jade:326
+#: views/components/places.jade:313
 #, fuzzy
 msgid "See description of this place at Recreation.gov"
 msgstr "看到這個地方的描述在Recreation.gov"
 
-#: views/components/places.jade:331
+#: views/components/places.jade:318
 #, fuzzy
 msgid "Hide places and activities from Recreation.gov"
 msgstr "隱藏Recreation.gov場所和活動"
 
-#: views/components/places.jade:332
+#: views/components/places.jade:319
 #, fuzzy
 msgid "Places and activities from Recreation.gov"
 msgstr "地方和活動從Recreation.gov"
 
-#: views/components/places.jade:337
+#: views/components/places.jade:324
 #, fuzzy
 msgid "See this restaurant page on Roadfood.com"
 msgstr "查看Roadfood.com這家餐廳頁"
 
-#: views/components/places.jade:338 views/components/places.jade:429
+#: views/components/places.jade:325 views/components/places.jade:416
 #, fuzzy
 msgid "See this restaurant own website"
 msgstr "見這家餐廳自己的網站"
 
-#: views/components/places.jade:339
+#: views/components/places.jade:326
 #, fuzzy
 msgid "See guest reviews at Roadfood.com"
 msgstr "見客人評論在Roadfood.com"
 
-#: views/components/places.jade:340 views/components/places.jade:431
+#: views/components/places.jade:327 views/components/places.jade:418
 #, fuzzy
 msgid "Stop and eat at this restaurant"
 msgstr "停止並在這家餐廳吃飯"
 
-#: views/components/places.jade:341 views/components/places.jade:432
+#: views/components/places.jade:328 views/components/places.jade:419
 #, fuzzy
 msgid "Add this restaurant as a skipped stop"
 msgstr "加入這家餐廳作為跳躍停止"
 
-#: views/components/places.jade:342 views/components/places.jade:433
+#: views/components/places.jade:329 views/components/places.jade:420
 #, fuzzy
 msgid "Fold this restaurant details"
 msgstr "折疊這家餐廳的詳細信息"
 
-#: views/components/places.jade:343
+#: views/components/places.jade:330
 #, fuzzy
 msgid "Hide restaurants recommended by Roadfood.com"
 msgstr "隱藏餐廳推薦Roadfood.com"
 
-#: views/components/places.jade:344
+#: views/components/places.jade:331
 #, fuzzy
 msgid "Restaurants recommended by Roadfood.com"
 msgstr "餐廳推薦Roadfood.com"
 
-#: views/components/places.jade:348
+#: views/components/places.jade:335
 #, fuzzy
 msgid "See description of this dive site at ShoreDiving"
 msgstr "看到這個潛點的描述在ShoreDiving"
 
-#: views/components/places.jade:349
+#: views/components/places.jade:336
 #, fuzzy
 msgid "See user reviews at ShoreDiving"
 msgstr "參見ShoreDiving用戶評論"
 
-#: views/components/places.jade:353
+#: views/components/places.jade:340
 #, fuzzy
 msgid "Hide dive sites from ShoreDiving"
 msgstr "從ShoreDiving隱藏的潛點"
 
-#: views/components/places.jade:354
+#: views/components/places.jade:341
 #, fuzzy
 msgid "Dive sites from ShoreDiving"
 msgstr "從ShoreDiving潛水地點"
 
-#: views/components/places.jade:358
+#: views/components/places.jade:345
 #, fuzzy
 msgid "See description of this winery at Snooth.com"
 msgstr "見這家酒廠的描述在Snooth.com"
 
-#: views/components/places.jade:359
+#: views/components/places.jade:346
 #, fuzzy
 msgid "See this winery own website"
 msgstr "見這家酒廠自己的網站"
 
-#: views/components/places.jade:360
+#: views/components/places.jade:347
 #, fuzzy
 msgid "Stop at this winery"
 msgstr "停在這家酒廠"
 
-#: views/components/places.jade:361
+#: views/components/places.jade:348
 #, fuzzy
 msgid "Add this winery as a skipped stop"
 msgstr "加入這家酒廠作為跳躍停止"
 
-#: views/components/places.jade:362
+#: views/components/places.jade:349
 #, fuzzy
 msgid "Fold this winery details"
 msgstr "折疊這家酒廠的細節"
 
-#: views/components/places.jade:363
+#: views/components/places.jade:350
 #, fuzzy
 msgid "Hide wineries from Snooth.com"
 msgstr "隱藏Snooth.com酒廠"
 
-#: views/components/places.jade:364
+#: views/components/places.jade:351
 #, fuzzy
 msgid "Wineries from Snooth.com"
 msgstr "從Snooth.com酒廠"
 
-#: views/components/places.jade:368
+#: views/components/places.jade:355
 #, fuzzy
 msgid "See more information about this place"
 msgstr "查看有關這個地方的詳細信息"
 
-#: views/components/places.jade:369
+#: views/components/places.jade:356
 #, fuzzy
 msgid "Copy stop from its trip to this one"
 msgstr "從其啟動複製停止這一"
 
-#: views/components/places.jade:370
+#: views/components/places.jade:357
 #, fuzzy
 msgid "Add as a skipped stop"
 msgstr "添加為跳過停止"
 
-#: views/components/places.jade:371
+#: views/components/places.jade:358
 #, fuzzy
 msgid "Copy route to the next stop"
 msgstr "拷貝路由到下一站"
 
-#: views/components/places.jade:372
+#: views/components/places.jade:359
 #, fuzzy
 msgid "Reverse route when copying"
 msgstr "複印時，反向路由"
 
-#: views/components/places.jade:373 views/components/places.jade:392
-#: views/components/step-detail.jade:805
+#: views/components/places.jade:360 views/components/step-detail.jade:804
 #, fuzzy
 msgid "Fold this stop details"
 msgstr "折這個站的詳細信息"
 
-#: views/components/places.jade:376
+#: views/components/places.jade:363
 #, fuzzy
 msgid "See description of this summit at SummitPost"
 msgstr "請參見本次峰會的描述在SummitPost"
 
-#: views/components/places.jade:377
+#: views/components/places.jade:364
 #, fuzzy
 msgid "See author's profile at SummitPost"
 msgstr "見筆者在SummitPost簡介"
 
-#: views/components/places.jade:378
+#: views/components/places.jade:365
 #, fuzzy
 msgid "See user reviews at SummitPost"
 msgstr "參見SummitPost用戶評論"
 
-#: views/components/places.jade:379
+#: views/components/places.jade:366
 #, fuzzy
 msgid "Stop and climb this summit"
 msgstr "停止並爬上本次峰會"
 
-#: views/components/places.jade:380
+#: views/components/places.jade:367
 #, fuzzy
 msgid "Add this summit as a skipped stop"
 msgstr "加入本次峰會作為跳躍停止"
 
-#: views/components/places.jade:381
+#: views/components/places.jade:368
 #, fuzzy
 msgid "Fold this summit details"
 msgstr "折疊本次峰會的細節"
 
-#: views/components/places.jade:382
+#: views/components/places.jade:369
 #, fuzzy
 msgid "Hide summits and routes from SummitPost"
 msgstr "隱藏SummitPost首腦會議和路線"
 
-#: views/components/places.jade:383
+#: views/components/places.jade:370
 #, fuzzy
 msgid "Summits and climbing routes from SummitPost"
 msgstr "峰會從SummitPost攀登路線"
 
-#: views/components/places.jade:387 views/components/places.jade:395
+#: views/components/places.jade:374
 #, fuzzy
-msgid "See more information about this trip"
-msgstr "查看有關此行的更多信息"
+msgid "Open this trip"
+msgstr "打印此行"
 
-#: views/components/places.jade:388 views/components/places.jade:396
+#: views/components/places.jade:375 views/components/places.jade:383
 #, fuzzy
 msgid "Stop at this trip starting point"
 msgstr "停在此行的起點"
 
-#: views/components/places.jade:389 views/components/places.jade:397
+#: views/components/places.jade:376 views/components/places.jade:384
 #, fuzzy
 msgid "Add this trip starting point as a skipped stop"
 msgstr "加入此行的起點作為跳躍停止"
 
-#: views/components/places.jade:390
+#: views/components/places.jade:377
 #, fuzzy
 msgid "Copy the entire trip to this one"
 msgstr "整個行程複製到這一個"
 
-#: views/components/places.jade:391
+#: views/components/places.jade:378
 #, fuzzy
 msgid "Reverse this trip when copying"
 msgstr "複印時反轉此行"
 
-#: views/components/places.jade:398
-#, fuzzy
-msgid "Add this trip to yours"
-msgstr "加入此行到你"
-
-#: views/components/places.jade:399
-#, fuzzy
-msgid "Reverse this trip when adding"
-msgstr "當添加反向此行"
-
-#: views/components/places.jade:400
+#: views/components/places.jade:379 views/components/places.jade:387
 #, fuzzy
 msgid "Fold this trip details"
 msgstr "倍此行的細節"
 
-#: views/components/places.jade:401
+#: views/components/places.jade:382
+#, fuzzy
+msgid "See more information about this trip"
+msgstr "查看有關此行的更多信息"
+
+#: views/components/places.jade:385
+#, fuzzy
+msgid "Add this trip to yours"
+msgstr "加入此行到你"
+
+#: views/components/places.jade:386
+#, fuzzy
+msgid "Reverse this trip when adding"
+msgstr "當添加反向此行"
+
+#: views/components/places.jade:388
 #, fuzzy
 msgid "Hide trips shared by Furkot community"
 msgstr "通過Furkot社區共享隱藏人次"
 
-#: views/components/places.jade:402
+#: views/components/places.jade:389
 #, fuzzy
 msgid "Trips shared by Furkot community"
 msgstr "通過Furkot社區分享旅程"
 
-#: views/components/places.jade:407
+#: views/components/places.jade:394
 #, fuzzy
 msgid "See description of this surf spot at WannaSurf"
 msgstr "看到這個衝浪點的描述在WannaSurf"
 
-#: views/components/places.jade:408
+#: views/components/places.jade:395
 #, fuzzy
 msgid "See user reviews at WannaSurf"
 msgstr "參見WannaSurf用戶評論"
 
-#: views/components/places.jade:409
+#: views/components/places.jade:396
 #, fuzzy
 msgid "Stop and surf at this spot"
 msgstr "停止和衝浪在這個位置"
 
-#: views/components/places.jade:410
+#: views/components/places.jade:397
 #, fuzzy
 msgid "Add this surf spot as a skipped stop"
 msgstr "收藏此衝浪點作為跳躍停止"
 
-#: views/components/places.jade:411
+#: views/components/places.jade:398
 #, fuzzy
 msgid "Fold this surf spot details"
 msgstr "折這個衝浪點的詳細信息"
 
-#: views/components/places.jade:412
+#: views/components/places.jade:399
 #, fuzzy
 msgid "Hide surf spots from WannaSurf"
 msgstr "隱藏WannaSurf的衝浪點"
 
-#: views/components/places.jade:413
+#: views/components/places.jade:400
 #, fuzzy
 msgid "Surf spots from WannaSurf"
 msgstr "從WannaSurf衝浪點"
 
-#: views/components/places.jade:417
+#: views/components/places.jade:404
 #, fuzzy
 msgid "Read this article on Wikipedia"
 msgstr "閱讀這篇文章，在維基百科"
 
-#: views/components/places.jade:421
+#: views/components/places.jade:408
 #, fuzzy
 msgid "Fold this article details"
 msgstr "折疊這篇文章的詳細信息"
 
-#: views/components/places.jade:422
+#: views/components/places.jade:409
 #, fuzzy
 msgid "Hide articles from Wikipedia"
 msgstr "隱藏維基百科的文章"
 
-#: views/components/places.jade:423
+#: views/components/places.jade:410
 #, fuzzy
 msgid "Articles from Wikipedia, the free encyclopedia"
 msgstr "文章從維基百科，自由的百科全書"
 
-#: views/components/places.jade:428
+#: views/components/places.jade:415
 #, fuzzy
 msgid "See this restaurant page on Yelp"
 msgstr "查看Yelp的這家餐廳頁"
 
-#: views/components/places.jade:430
+#: views/components/places.jade:417
 #, fuzzy
 msgid "See guest reviews at Yelp"
 msgstr "看到Yelp的評論"
 
-#: views/components/places.jade:434
+#: views/components/places.jade:421
 #, fuzzy
 msgid "Hide restaurants recommended by Yelp"
 msgstr "隱藏餐廳推薦Yelp的"
 
-#: views/components/places.jade:435
+#: views/components/places.jade:422
 #, fuzzy
 msgid "Restaurants recommended by Yelp"
 msgstr "餐廳推薦Yelp的"
@@ -4298,7 +4306,7 @@ msgid "View only"
 msgstr "只讀"
 
 #. L10n: Displayed to label a subsequent day of the trip followed by the number
-#: views/components/print.jade:16 views/components/step-detail.jade:773
+#: views/components/print.jade:16 views/components/step-detail.jade:772
 #: views/tripshot/tripshot.jade:35
 #, fuzzy
 msgid "Day"
@@ -4532,6 +4540,56 @@ msgstr "貌似這個邀請是不再有效。"
 #, fuzzy
 msgid "You may want to e-mail your friend to send you a new invitation."
 msgstr "您可能要發郵件給你的朋友向您發送新的邀請。"
+
+#. L10n: caption of the message showing off Furkot feature. It doesn't have to be a question. In some languages a phrase like 'Do you know that..." may be more appropriate
+#: views/components/share-dlg.jade:139 views/components/share-dlg.jade:147
+#: views/components/tour-lodging.jade:2
+#, fuzzy
+msgid "Do you know?"
+msgstr "是你自己"
+
+#. L10n: label of a button that confirms that a user understands the feature
+#: views/components/share-dlg.jade:139 views/components/share-dlg.jade:149
+#: views/components/tour-lodging.jade:2
+msgid "Got it"
+msgstr ""
+
+#. L10n: label of a button that launches demo of a feature
+#: views/components/share-dlg.jade:139 views/components/share-dlg.jade:151
+#: views/components/tour-lodging.jade:2 views/components/tour.jade:50
+#: views/components/tour.jade:54 views/components/tour.jade:58
+#, fuzzy
+msgid "Show me"
+msgstr "顯示地圖"
+
+#: views/components/share-dlg.jade:140
+#, fuzzy
+msgid "You can share your trip with others."
+msgstr "分享此行與他人"
+
+#: views/components/share-dlg.jade:142 views/components/share-dlg.jade:159
+#, fuzzy
+msgid "Invite friends and fellow travelers to help planning your trip."
+msgstr "尋求幫助的朋友在規劃行程。"
+
+#: views/components/share-dlg.jade:143 views/components/share-dlg.jade:157
+msgid "Ask for advice and let people inspire you."
+msgstr ""
+
+#: views/components/share-dlg.jade:144 views/components/share-dlg.jade:161
+#, fuzzy
+msgid "Show off your trip to friends or share with Furkot community."
+msgstr "分享Furkot社區您的行程"
+
+#: views/components/share-dlg.jade:155
+#, fuzzy
+msgid "Click the share button and choose how you want to share your trip."
+msgstr "要啟程城市，地標或地址。"
+
+#. L10n: meaning: 'Use the button above to see the demonstration of Furkot feature(s) again'
+#: views/components/share-dlg.jade:164 views/components/tour-lodging.jade:24
+msgid "If you want Furkot to guide you again use the button above"
+msgstr ""
 
 #. L10n: Hint for the button that display a list of available stop types (icons)
 #: views/components/step-detail.jade:5
@@ -4983,7 +5041,7 @@ msgid "Delete this stop"
 msgstr "刪除此站"
 
 #. L10n: Label for a button to delete (stop, trip or route)
-#: views/components/step-detail.jade:319 views/components/step-detail.jade:566
+#: views/components/step-detail.jade:319 views/components/step-detail.jade:572
 #: views/components/trip-detail.jade:23
 #, fuzzy
 msgid "Delete"
@@ -5013,326 +5071,331 @@ msgstr "參觀這個地方"
 msgid "Visit"
 msgstr "訪問"
 
-#. L10n: 'Keep' means to change an automatically scheduled stop into permanent part of itinerary
 #: views/components/step-detail.jade:331
 #, fuzzy
 msgid "Keep this automatically scheduled stop"
 msgstr "保持這個計劃自動停機"
 
+#. L10n: 'Keep' means to change an automatically scheduled stop into permanent part of itinerary
+#: views/components/step-detail.jade:331 views/components/step-lodging.jade:46
+#, fuzzy
+msgid "Stay in this lodging"
+msgstr "留在這個住宿"
+
 #. L10n: Label for a button that takes an automatically scheduled stop and makes it permanent part of itinerary
-#: views/components/step-detail.jade:334
+#: views/components/step-detail.jade:336
 #, fuzzy
 msgid "Keep"
 msgstr "保持"
 
 #. L10n: can be also translated "Move this stop after its successor"
-#: views/components/step-detail.jade:336
+#: views/components/step-detail.jade:338
 #, fuzzy
 msgid "Move this stop down"
 msgstr "移動此停歇下來"
 
 #. L10n: Label for a button that moves the stop or day after its successor. Can also be translated as 'After'
-#: views/components/step-detail.jade:339 views/components/step-detail.jade:763
+#: views/components/step-detail.jade:341 views/components/step-detail.jade:762
 #, fuzzy
 msgid "Down"
 msgstr "下"
 
 #. L10n: can be translated "Move this stop before its predecessor"
-#: views/components/step-detail.jade:341
+#: views/components/step-detail.jade:343
 #, fuzzy
 msgid "Move this stop up"
 msgstr "移動此堵"
 
 #. L10n: Label for a button that moves the stop or day before its predecessor. Can also be translated as 'Before'
-#: views/components/step-detail.jade:344 views/components/step-detail.jade:767
+#: views/components/step-detail.jade:346 views/components/step-detail.jade:766
 #, fuzzy
 msgid "Up"
 msgstr "向上"
 
 #. L10n: Hint for the "In" button - changing the stop to be visited on the return leg (inbound) instead of when traveling outward (loop trips only). Inbound means 'when returning'.
-#: views/components/step-detail.jade:346
+#: views/components/step-detail.jade:348
 #, fuzzy
 msgid "Visit this place traveling inbound"
 msgstr "參觀這個地方入境旅遊"
 
 #. L10n: Label for a button to change the stop to be visited on the return leg (inbound) instead of when traveling outward (loop trips only). Translation of "From (somewhere)" may be a good approximation
-#: views/components/step-detail.jade:349
+#: views/components/step-detail.jade:351
 #, fuzzy
 msgid "In"
 msgstr "在"
 
 #. L10n: Hint for the "Out" button - changing the stop to be visited traveling outward (outbound) instead of on the return leg (loop trips only)
-#: views/components/step-detail.jade:351
+#: views/components/step-detail.jade:353
 #, fuzzy
 msgid "Visit this place traveling outbound"
 msgstr "參觀這個地方出境旅遊"
 
 #. L10n: Label for a button to change the stop to be visited traveling outward (outbound) instead of on the return leg (loop trips only). Translation of "To (somewhere)" may be a good approximation
-#: views/components/step-detail.jade:354
+#: views/components/step-detail.jade:356
 #, fuzzy
 msgid "Out"
 msgstr "出"
 
 #. L10n: Hint to specify a good name when adding a stop by clicking on the map
-#: views/components/step-detail.jade:356 views/components/step-detail.jade:372
+#: views/components/step-detail.jade:358 views/components/step-detail.jade:374
 #, fuzzy
 msgid "Specify a descriptive name"
 msgstr "指定一個描述性的名稱"
 
 #. L10n: Hint to provide place location when adding a new stop by name
-#: views/components/step-detail.jade:357 views/components/step-detail.jade:374
+#: views/components/step-detail.jade:359 views/components/step-detail.jade:376
 #, fuzzy
 msgid "Specify place location"
 msgstr "指定地點的位置"
 
 #. L10n: 'place' means name of the stop location
-#: views/components/step-detail.jade:360 views/components/step-detail.jade:361
-#: views/components/step-detail.jade:364
+#: views/components/step-detail.jade:362 views/components/step-detail.jade:363
+#: views/components/step-detail.jade:366
 #, fuzzy
 msgid "Click to modify place"
 msgstr "點擊要修改的地方"
 
 #. L10n: 'place' means name of the stop location
-#: views/components/step-detail.jade:360 views/components/step-detail.jade:361
+#: views/components/step-detail.jade:362 views/components/step-detail.jade:363
 #, fuzzy
 msgid "Place"
 msgstr "地點"
 
 #. L10n: TripIt is a service that Furkot works with synchronizing trip itinerary from TripIt with Furkot trip plan
-#: views/components/step-detail.jade:367
+#: views/components/step-detail.jade:369
 #, fuzzy
 msgid "Match TripIt itinerary item"
 msgstr "比賽TripIt的行程項目"
 
 #. L10n: 'confirmation' as in 'confirmation of a hotel reservation'
-#: views/components/step-detail.jade:377
+#: views/components/step-detail.jade:379
 #, fuzzy
 msgid "No confirmation"
 msgstr "沒有確認"
 
 #. L10n: 'Address' is a field to edit stop address
-#: views/components/step-detail.jade:388
+#: views/components/step-detail.jade:390
 #, fuzzy
 msgid "Address"
 msgstr "地址"
 
-#: views/components/step-detail.jade:388
+#: views/components/step-detail.jade:390
 #, fuzzy
 msgid "Click to modify address"
 msgstr "點擊要修改地址"
 
-#: views/components/step-detail.jade:389
+#: views/components/step-detail.jade:391
 #, fuzzy
 msgid "Navigate to stop address"
 msgstr "導航停止地址"
 
 #. L10n: Label for the field to edit phone number
-#: views/components/step-detail.jade:393
+#: views/components/step-detail.jade:395
 #, fuzzy
 msgid "Phone"
 msgstr "電話"
 
-#: views/components/step-detail.jade:394
+#: views/components/step-detail.jade:396
 #, fuzzy
 msgid "Click to modify phone number"
 msgstr "點擊修改電話號碼"
 
 #. L10n: label for the number of nights at a lodging
-#: views/components/step-detail.jade:401
+#: views/components/step-detail.jade:403
 #, fuzzy
 msgid "Nights"
 msgstr "夜"
 
 #. L10n: the number of nights at a lodging
-#: views/components/step-detail.jade:404
+#: views/components/step-detail.jade:406
 #, fuzzy
 msgid "Click to modify number of nights"
 msgstr "點擊要修改的夜晚數"
 
 #. L10n: label for the time needed to visit a place - duration of the stop
-#: views/components/step-detail.jade:412
+#: views/components/step-detail.jade:414
 #, fuzzy
 msgid "Duration"
 msgstr "為期"
 
 #. L10n: duration of the stop - the time needed to visit a place
-#: views/components/step-detail.jade:416
+#: views/components/step-detail.jade:418
 #, fuzzy
 msgid "Click to modify duration"
 msgstr "點擊修改時間"
 
-#: views/components/step-detail.jade:419
+#: views/components/step-detail.jade:421
 #, fuzzy
 msgid "Stay the night here"
 msgstr "入住當晚在這裡"
 
-#: views/components/step-detail.jade:420
+#: views/components/step-detail.jade:422
 #, fuzzy
 msgid "Visit and go to the next stop"
 msgstr "參觀並轉至下一站"
 
-#: views/components/step-detail.jade:424
+#: views/components/step-detail.jade:426
 #, fuzzy
 msgid "View booking confirmation"
 msgstr "查看預訂確認"
 
 #. L10n: Label for displaying and editing date and time of arrival at a stop
-#: views/components/step-detail.jade:432 views/components/step-detail.jade:737
+#: views/components/step-detail.jade:434 views/components/step-detail.jade:736
 #, fuzzy
 msgid "Arrival"
 msgstr "到達"
 
 #. L10n: arrival at a stop
-#: views/components/step-detail.jade:434
+#: views/components/step-detail.jade:436
 #, fuzzy
 msgid "Click to modify arrival date"
 msgstr "點擊修改抵達日期"
 
 #. L10n: arrival at a stop
-#: views/components/step-detail.jade:436
+#: views/components/step-detail.jade:438
 #, fuzzy
 msgid "Click to modify arrival time"
 msgstr "點擊要修改的到達時間"
 
 #. L10n: 'automatic changes' to the arrival date and time of a stop whenever Furkot recalculates trip itinerary
-#: views/components/step-detail.jade:440
+#: views/components/step-detail.jade:442
 #, fuzzy
 msgid "Prevent automatic changes"
 msgstr "防止自動變化"
 
 #. L10n: 'automatic changes' to the arrival date and time of a stop whenever Furkot recalculates trip itinerary
-#: views/components/step-detail.jade:441 views/components/step-detail.jade:444
+#: views/components/step-detail.jade:443 views/components/step-detail.jade:446
 #, fuzzy
 msgid "Allow automatic changes"
 msgstr "允許自動變化"
 
 #. L10n: Label for displaying and editing date and time of departure from a stop
-#: views/components/step-detail.jade:452 views/components/step-detail.jade:745
+#: views/components/step-detail.jade:454 views/components/step-detail.jade:744
 #, fuzzy
 msgid "Departure"
 msgstr "離開"
 
 #. L10n: departure from a stop
-#: views/components/step-detail.jade:454
+#: views/components/step-detail.jade:456
 #, fuzzy
 msgid "Click to modify departure date"
 msgstr "點擊修改日期，"
 
 #. L10n: departure from a stop
-#: views/components/step-detail.jade:456
+#: views/components/step-detail.jade:458
 #, fuzzy
 msgid "Click to modify departure time"
 msgstr "點擊修改發車時間"
 
-#: views/components/step-detail.jade:464 views/components/trip-detail.jade:68
+#: views/components/step-detail.jade:466 views/components/trip-detail.jade:68
 #, fuzzy
 msgid "More Info"
 msgstr "更多信息"
 
-#: views/components/step-detail.jade:465
+#: views/components/step-detail.jade:467
 #, fuzzy
 msgid "View webpage for this stop"
 msgstr "查看網頁，該站"
 
 #. L10n: Label for the field that displays the time of the sunrise on the day of the stop
-#: views/components/step-detail.jade:470
+#: views/components/step-detail.jade:472
 #, fuzzy
 msgid "Sunrise"
 msgstr "日出"
 
 #. L10n: Label for the field that displays the time of the sunset on the day of the stop
-#: views/components/step-detail.jade:474
+#: views/components/step-detail.jade:476
 #, fuzzy
 msgid "Sunset"
 msgstr "日落"
 
 #. L10n: Label for the field that displays the average nighttime temperature on the day of the stop
-#: views/components/step-detail.jade:479
+#: views/components/step-detail.jade:481
 #, fuzzy
 msgid "Night"
 msgstr "晚"
 
 #. L10n: Label for the field that displays the average daytime temperature on the day of the stop
-#: views/components/step-detail.jade:483
+#: views/components/step-detail.jade:485
 #, fuzzy
 msgctxt "daytime temperature"
 msgid "Day"
 msgstr "天"
 
 #. L10n: Label for the field that displays stop elevation (altitude)
-#: views/components/step-detail.jade:488
+#: views/components/step-detail.jade:490
 #, fuzzy
 msgid "Elevation"
 msgstr "海拔"
 
 #. L10n: Label for the field that links to the weather forecast for the stop
-#: views/components/step-detail.jade:492
+#: views/components/step-detail.jade:494
 #, fuzzy
 msgid "Forecast"
 msgstr "預測"
 
-#: views/components/step-detail.jade:493
+#: views/components/step-detail.jade:495
 #, fuzzy
 msgid "View current weather forecast"
 msgstr "查看當前氣象預報"
 
 #. L10n: Label for the field with stop geographical coordinates (latitude and longitude)
-#: views/components/step-detail.jade:497
+#: views/components/step-detail.jade:499
 #, fuzzy
 msgid "Coordinates"
 msgstr "坐標"
 
-#: views/components/step-detail.jade:499
+#: views/components/step-detail.jade:501
 #, fuzzy
 msgid "Click to modify geographical coordinates"
 msgstr "點擊修改地理坐標"
 
-#: views/components/step-detail.jade:500
+#: views/components/step-detail.jade:502
 #, fuzzy
 msgid "Navigate to exact coordinates"
 msgstr "導航到精確坐標"
 
-#: views/components/step-detail.jade:505 views/components/trip-detail.jade:381
+#: views/components/step-detail.jade:507 views/components/trip-detail.jade:381
 #, fuzzy
 msgid "Click to edit description"
 msgstr "點擊編輯說明"
 
-#: views/components/step-detail.jade:505
+#: views/components/step-detail.jade:507
 #, fuzzy
 msgid "Description of this stop"
 msgstr "這站的說明"
 
-#: views/components/step-detail.jade:509
+#: views/components/step-detail.jade:511
 #, fuzzy
 msgid "Click to edit stop tags"
 msgstr "點擊編輯停止標籤"
 
-#: views/components/step-detail.jade:510 views/components/step-switches.jade:84
+#: views/components/step-detail.jade:512 views/components/step-switches.jade:84
 #, fuzzy
 msgid "Comma-separated stop tags (labels)"
 msgstr "逗號分隔停止標籤（標籤）"
 
 #. L10n: label for time/distance covered since last stop
-#: views/components/step-detail.jade:519
+#: views/components/step-detail.jade:521
 #, fuzzy
 msgid "Leg"
 msgstr "腿"
 
 #. L10n: label for time/distance covered since last overnight stop
-#: views/components/step-detail.jade:523
+#: views/components/step-detail.jade:525
 #, fuzzy
 msgctxt "since last lodging"
 msgid "Day"
 msgstr "天"
 
-#: views/components/step-detail.jade:532 views/components/step-detail.jade:702
+#: views/components/step-detail.jade:534 views/components/step-detail.jade:708
 #: views/components/trip-config-item.jade:62
 #: views/components/trip-detail.jade:300
 #, fuzzy
 msgid "km/h"
 msgstr "公里/小時"
 
-#: views/components/step-detail.jade:533 views/components/step-detail.jade:703
+#: views/components/step-detail.jade:535 views/components/step-detail.jade:709
 #: views/components/trip-config-item.jade:63
 #: views/components/trip-detail.jade:301
 #, fuzzy
@@ -5340,460 +5403,456 @@ msgid "mph"
 msgstr "英里"
 
 #. L10n: Hint for the button to change route travel mode
-#: views/components/step-detail.jade:540
+#: views/components/step-detail.jade:542
 #, fuzzy
 msgid "Change route type"
 msgstr "更改路由類型"
 
 #. L10n: travel mode: travel by car
-#: views/components/step-detail.jade:545 views/components/trip-detail.jade:366
+#: views/components/step-detail.jade:547 views/components/trip-detail.jade:366
 #, fuzzy
 msgid "Driving"
 msgstr "駕駛"
 
 #. L10n: travel mode: ride a motorcycle
-#: views/components/step-detail.jade:549
+#: views/components/step-detail.jade:551
 #, fuzzy
 msgid "Motorcycle"
 msgstr "摩托車"
 
 #. L10n: travel mode: ride a bicycle
-#: views/components/step-detail.jade:553
+#: views/components/step-detail.jade:555
 #, fuzzy
 msgid "Bicycle"
 msgstr "自行車"
 
 #. L10n: travel mode: walk
-#: views/components/step-detail.jade:557 views/components/trip-detail.jade:368
+#: views/components/step-detail.jade:559 views/components/trip-detail.jade:368
 #, fuzzy
 msgid "Walking"
 msgstr "步行"
 
-#. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking
-#: views/components/step-detail.jade:561
+#. L10n: travel mode: flight
+#: views/components/step-detail.jade:563
+#, fuzzy
+msgid "Flight"
+msgstr "晚"
+
+#. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking, flight
+#: views/components/step-detail.jade:567
 #, fuzzy
 msgctxt "other travel mode"
 msgid "Other"
 msgstr "其他"
 
-#: views/components/step-detail.jade:564
+#: views/components/step-detail.jade:570
 #, fuzzy
 msgid "Delete this route"
 msgstr "刪除這條航線"
 
 #. L10n: when resetting routes following roads are calculated anew and off-road routes are reset to a straight line
-#: views/components/step-detail.jade:568
+#: views/components/step-detail.jade:574
 #, fuzzy
 msgid "Reset this route"
 msgstr "復位這條路線"
 
 #. L10n: Button that resets the route: routes following roads are calculated anew while off-road routes are reset to a straight line
-#: views/components/step-detail.jade:571
+#: views/components/step-detail.jade:577
 #, fuzzy
 msgid "Reset"
 msgstr "重啟"
 
 #. L10n: Hint to switch between regular and alternative routes
-#: views/components/step-detail.jade:573
+#: views/components/step-detail.jade:579
 #, fuzzy
 msgid "Alternative to this route"
 msgstr "替代這條路線"
 
 #. L10n: Hint to switch between regular and alternative routes
-#: views/components/step-detail.jade:573 views/components/step-detail.jade:576
+#: views/components/step-detail.jade:579 views/components/step-detail.jade:582
 #, fuzzy
 msgid "Regular route"
 msgstr "定期航線"
 
 #. L10n: Regular is a button that recalculates a route using a standard algorithm. It shows up on off road routes. "Regular" can be translated as "Straight"
-#: views/components/step-detail.jade:580
+#: views/components/step-detail.jade:586
 #, fuzzy
 msgid "Regular"
 msgstr "定期"
 
 #. L10n: Alternate is a button that calculates an alternative - usually the shortest - route between stops. It shows up on routes that follow roads. "Alternate" route can be translated as "Detour" unless detour has a negative flavor, i.e. means that something is wrong with the normal road
-#: views/components/step-detail.jade:582
+#: views/components/step-detail.jade:588
 #, fuzzy
 msgid "Alternate"
 msgstr "備用"
 
-#: views/components/step-detail.jade:583
+#: views/components/step-detail.jade:589
 #, fuzzy
 msgid "Bring this route out as primary plan"
 msgstr "帶上這條路出來作為主要的計劃"
 
-#: views/components/step-detail.jade:583
+#: views/components/step-detail.jade:589
 #, fuzzy
 msgid "Set this route aside as backup plan"
 msgstr "拋開這條路線作為備用計劃"
 
 #. L10n: Plan B is a button that designates a route as a backup
-#: views/components/step-detail.jade:586
+#: views/components/step-detail.jade:592
 #, fuzzy
 msgid "Plan B"
 msgstr "B計劃"
 
 #. L10n: route color
-#: views/components/step-detail.jade:593
+#: views/components/step-detail.jade:599
 #, fuzzy
 msgid "Black"
 msgstr "黑色"
 
 #. L10n: route color
-#: views/components/step-detail.jade:597
+#: views/components/step-detail.jade:603
 #, fuzzy
 msgid "Dark Red"
 msgstr "深紅"
 
 #. L10n: route color
-#: views/components/step-detail.jade:601
+#: views/components/step-detail.jade:607
 #, fuzzy
 msgid "Dark Green"
 msgstr "深綠色"
 
 #. L10n: route color
-#: views/components/step-detail.jade:605
+#: views/components/step-detail.jade:611
 #, fuzzy
 msgid "Dark Yellow"
 msgstr "深黃"
 
 #. L10n: route color
-#: views/components/step-detail.jade:609
+#: views/components/step-detail.jade:615
 #, fuzzy
 msgid "Dark Blue"
 msgstr "深藍"
 
 #. L10n: route color
-#: views/components/step-detail.jade:613
+#: views/components/step-detail.jade:619
 #, fuzzy
 msgid "Dark Magenta"
 msgstr "深洋紅色"
 
 #. L10n: route color
-#: views/components/step-detail.jade:617
+#: views/components/step-detail.jade:623
 #, fuzzy
 msgid "Dark Cyan"
 msgstr "暗青色"
 
 #. L10n: route color
-#: views/components/step-detail.jade:621
+#: views/components/step-detail.jade:627
 #, fuzzy
 msgid "Light Gray"
 msgstr "淺灰"
 
 #. L10n: route color
-#: views/components/step-detail.jade:625
+#: views/components/step-detail.jade:631
 #, fuzzy
 msgid "Dark Gray"
 msgstr "深灰色"
 
 #. L10n: route color
-#: views/components/step-detail.jade:629
+#: views/components/step-detail.jade:635
 #, fuzzy
 msgid "Red"
 msgstr "紅"
 
 #. L10n: route color
-#: views/components/step-detail.jade:633
+#: views/components/step-detail.jade:639
 #, fuzzy
 msgid "Green"
 msgstr "綠色"
 
 #. L10n: route color
-#: views/components/step-detail.jade:637
+#: views/components/step-detail.jade:643
 #, fuzzy
 msgid "Yellow"
 msgstr "黃色"
 
 #. L10n: route color
-#: views/components/step-detail.jade:641
+#: views/components/step-detail.jade:647
 #, fuzzy
 msgid "Blue"
 msgstr "藍色"
 
 #. L10n: route color
-#: views/components/step-detail.jade:645
+#: views/components/step-detail.jade:651
 #, fuzzy
 msgid "Magenta"
 msgstr "品紅"
 
 #. L10n: route color
-#: views/components/step-detail.jade:649
+#: views/components/step-detail.jade:655
 #, fuzzy
 msgid "Cyan"
 msgstr "青色"
 
 #. L10n: route color
-#: views/components/step-detail.jade:653
+#: views/components/step-detail.jade:659
 #, fuzzy
 msgid "White"
 msgstr "白色"
 
 #. L10n: Label for a checkbox to display route in default color
-#: views/components/step-detail.jade:660
+#: views/components/step-detail.jade:666
 #, fuzzy
 msgid "Default color"
 msgstr "默認顏色"
 
 #. L10n: Label for a checkbox to display route as transparent (i.e. to avoid obscuring map details)
-#: views/components/step-detail.jade:666
+#: views/components/step-detail.jade:672
 #, fuzzy
 msgid "Transparent"
 msgstr "透明"
 
-#: views/components/step-detail.jade:673
+#: views/components/step-detail.jade:679
 #, fuzzy
 msgid "Change route color"
 msgstr "復原該變路線"
 
-#: views/components/step-detail.jade:676
+#: views/components/step-detail.jade:682
 #, fuzzy
 msgid "Navigate this route"
 msgstr "瀏覽這條路線"
 
 #. L10n: label for the time needed to cover the route between two stops
-#: views/components/step-detail.jade:688
+#: views/components/step-detail.jade:694
 #, fuzzy
 msgctxt "route between stops"
 msgid "Duration"
 msgstr "為期"
 
 #. L10n: duration is the time needed to cover the route between two stops
-#: views/components/step-detail.jade:691
+#: views/components/step-detail.jade:697
 #, fuzzy
 msgctxt "route between stops"
 msgid "Click to modify duration"
 msgstr "點擊修改時間"
 
 #. L10n: Label for the field to display/edit user average speed for the selected route or for the entire trip
-#: views/components/step-detail.jade:697
+#: views/components/step-detail.jade:703
 #: views/components/trip-config-item.jade:58
 #: views/components/trip-detail.jade:295
 #, fuzzy
 msgid "My Speed"
 msgstr "我的速度"
 
-#: views/components/step-detail.jade:698 views/components/trip-detail.jade:296
+#: views/components/step-detail.jade:704 views/components/trip-detail.jade:296
 #, fuzzy
 msgid "Click to adjust your average speed for more accurate travel times"
 msgstr "點擊調整平均速度更準確的旅行時間"
 
-#: views/components/step-detail.jade:705 views/components/trip-detail.jade:303
-#, fuzzy
-msgid "Constant average speed"
-msgstr "恆平均速度"
-
-#: views/components/step-detail.jade:706 views/components/trip-detail.jade:304
-#, fuzzy
-msgid "Slower/faster than standard travel time"
-msgstr "慢/比標準行程時間快"
-
 #. L10n: Label for the option to avoid or prefer toll roads
-#: views/components/step-detail.jade:720 views/components/trip-detail.jade:42
+#: views/components/step-detail.jade:719 views/components/trip-detail.jade:42
 #, fuzzy
 msgid "Toll Roads"
 msgstr "收費公路"
 
-#: views/components/step-detail.jade:721 views/components/trip-detail.jade:43
+#: views/components/step-detail.jade:720 views/components/trip-detail.jade:43
 #, fuzzy
 msgid "Avoid toll roads where possible"
 msgstr "避開收費公路在可能的情況"
 
-#: views/components/step-detail.jade:722 views/components/trip-detail.jade:44
+#: views/components/step-detail.jade:721 views/components/trip-detail.jade:44
 #, fuzzy
 msgid "Prefer toll roads where available"
 msgstr "身高：收費公路提供"
 
 #. L10n: 'route theme (label)' is a phrase that labels or describes a route
-#: views/components/step-detail.jade:728
+#: views/components/step-detail.jade:727
 #, fuzzy
 msgid "Click to edit this route theme"
 msgstr "點擊編輯這條路線主題"
 
 #. L10n: 'route theme (label)' is a phrase that labels or describes a route
-#: views/components/step-detail.jade:729 views/components/step-detail.jade:733
+#: views/components/step-detail.jade:728 views/components/step-detail.jade:732
 #, fuzzy
 msgid "Route theme (label)"
 msgstr "路線主題（標籤）"
 
 #. L10n: can be translated "Move this day after its successor"
-#: views/components/step-detail.jade:761
+#: views/components/step-detail.jade:760
 #, fuzzy
 msgid "Move this day down"
 msgstr "移動此一天下來"
 
 #. L10n: can be translated "Move this day before its predecessor"
-#: views/components/step-detail.jade:765
+#: views/components/step-detail.jade:764
 #, fuzzy
 msgid "Move this day up"
 msgstr "移動此日上漲"
 
-#: views/components/step-detail.jade:779
+#: views/components/step-detail.jade:778
 #, fuzzy
 msgid "Change day color"
 msgstr "更改日期顏色"
 
 #. L10n: 'day theme (label)' is a phrase that labels or shortly describes a day
-#: views/components/step-detail.jade:784
+#: views/components/step-detail.jade:783
 #, fuzzy
 msgid "Click to edit this day theme"
 msgstr "點擊編輯這一天的主題"
 
 #. L10n: 'day theme (label)' is a phrase that labels or shortly describes a day
-#: views/components/step-detail.jade:785 views/components/step-detail.jade:789
+#: views/components/step-detail.jade:784 views/components/step-detail.jade:788
 #, fuzzy
 msgid "Day theme (label)"
 msgstr "日的主題（標籤）"
 
-#: views/components/step-detail.jade:791
+#: views/components/step-detail.jade:790
 #, fuzzy
 msgid "Click to edit this day description"
 msgstr "點擊編輯今天介紹"
 
-#: views/components/step-detail.jade:792
+#: views/components/step-detail.jade:791
 #, fuzzy
 msgid "Description of this day"
 msgstr "這一天的說明"
 
-#: views/components/step-detail.jade:796
+#: views/components/step-detail.jade:795
 #, fuzzy
 msgid ""
 "Click anywhere on the map to drop a pin representing the start of your trip."
 msgstr "點擊地圖上的任意位置砸代表您的旅行開始的引腳。"
 
 #. L10n: square brackets [] denote a button (icon)
-#: views/components/step-detail.jade:798
+#: views/components/step-detail.jade:797
 #, fuzzy
 msgid "Use the new stop [] button above to type-in the address."
 msgstr "使用上述新的停止[]按鈕輸入，在地址。"
 
 #. L10n: followed by the FIND drawer trigger and period .
-#: views/components/step-detail.jade:800
+#: views/components/step-detail.jade:799
 #, fuzzy
 msgid "Search for places to visit using"
 msgstr "搜索用的地方參觀"
 
-#: views/components/step-detail.jade:805
+#: views/components/step-detail.jade:804
 #, fuzzy
 msgid "Fold this route details"
 msgstr "折這個路線詳情"
 
 #. L10n: Hint to add the place as the last stop of the trip (one but last for loop trips)
-#: views/components/step-detail.jade:818
+#: views/components/step-detail.jade:817
 #, fuzzy
 msgid "Visit this place at the end"
 msgstr "在結束參觀這個地方"
 
 #. L10n: add stop at the end of the trip (as opposed to 'Save' that positions the stop to minimize driving)
-#: views/components/step-detail.jade:821
+#: views/components/step-detail.jade:820
 #, fuzzy
 msgid "Append"
 msgstr "附加"
 
-#: views/components/step-detail.jade:824
+#: views/components/step-detail.jade:823
 #, fuzzy
 msgid "Stop cannot be located."
 msgstr "止不能定位。"
 
-#: views/components/step-detail.jade:825
+#: views/components/step-detail.jade:824
 #, fuzzy
 msgid "No hotels around."
 msgstr "周圍沒有飯店。"
 
-#: views/components/step-detail.jade:826
+#: views/components/step-detail.jade:825
 #, fuzzy
 msgid "This is Saturday."
 msgstr "這是星期六。"
 
-#: views/components/step-detail.jade:827
+#: views/components/step-detail.jade:826
 #, fuzzy
 msgid "Lodging on weekend not reserved yet."
 msgstr "週末住宿沒有保留。"
 
-#: views/components/step-detail.jade:828
+#: views/components/step-detail.jade:827
 #, fuzzy
 msgid "No gas station nearby."
 msgstr "附近沒有加油站。"
 
-#: views/components/step-detail.jade:829
+#: views/components/step-detail.jade:828
 #, fuzzy
 msgid "The trip begins earlier on {} at {}."
 msgstr "此行較早開始於{}在{}。"
 
-#: views/components/step-detail.jade:830
+#: views/components/step-detail.jade:829
 #, fuzzy
 msgid "The trip begins later on {} at {}."
 msgstr "這次旅行在{}開始以後{}。"
 
-#: views/components/step-detail.jade:831
+#: views/components/step-detail.jade:830
 #, fuzzy
 msgid "The trip ends earlier on {} at {}."
 msgstr "在早些時候結束的行程上{} {}。"
 
-#: views/components/step-detail.jade:832
+#: views/components/step-detail.jade:831
 #, fuzzy
 msgid "The trip ends later on {} at {}."
 msgstr "這次旅行結束以後{}在{}。"
 
-#: views/components/step-detail.jade:833
+#: views/components/step-detail.jade:832
 #, fuzzy
 msgid "Visit duration exceeds time between this day start and end."
 msgstr "訪問持續時間超過了這一天的開始和結束之間的時間。"
 
-#: views/components/step-detail.jade:834
+#: views/components/step-detail.jade:833
 #, fuzzy
 msgid "Actual arrival on {} at {} is later than planned."
 msgstr "在實際到貨{}在{}就是後來的比計劃。"
 
-#: views/components/step-detail.jade:835
+#: views/components/step-detail.jade:834
 #, fuzzy
 msgid "Actual arrival on {} at {} is earlier than planned."
 msgstr "在實際到貨{}在{}是比原計劃提前。"
 
-#: views/components/step-detail.jade:836
+#: views/components/step-detail.jade:835
 #, fuzzy
 msgid "Actual departure on {} at {} is later than planned."
 msgstr "實際出發{}在{}就是後來的比計劃。"
 
-#: views/components/step-detail.jade:837
+#: views/components/step-detail.jade:836
 #, fuzzy
 msgid "Actual departure on {} at {} is earlier than planned."
 msgstr "實際出發{}在{}是比原計劃提前。"
 
-#: views/components/step-detail.jade:838
+#: views/components/step-detail.jade:837
 #, fuzzy
 msgid "No arrival date."
 msgstr "沒有抵達日期。"
 
-#: views/components/step-detail.jade:839
+#: views/components/step-detail.jade:838
 #, fuzzy
 msgid ""
 "No route available (stops too far from roads or a road is seasonally closed)."
 msgstr "沒有可用的路線（從公路站太遠或道路是季節性關閉）。"
 
-#: views/components/step-detail.jade:840
+#: views/components/step-detail.jade:839
 #, fuzzy
 msgid "The road may be seasonally closed. Check its status before departure."
 msgstr "道路可能會季節性關閉。出發前檢查其狀態。"
 
-#: views/components/step-detail.jade:841
+#: views/components/step-detail.jade:840
 #, fuzzy
 msgid "No departure date."
 msgstr "沒有離開日期。"
 
-#: views/components/step-detail.jade:842
+#: views/components/step-detail.jade:841
 #, fuzzy
 msgid "Very little time to rest at the lodging."
 msgstr "很少有時間休息的住宿。"
 
-#: views/components/step-detail.jade:843
+#: views/components/step-detail.jade:842
 #, fuzzy
 msgid ""
 "Split this lodging stop to avoid booking for {} nights in order to stay {} "
 "nights."
 msgstr "拆分，以保持{}晚住宿這一停，以避免預定{}夜。"
 
-#: views/components/step-detail.jade:844
+#: views/components/step-detail.jade:843
 #, fuzzy
 msgid ""
 "Stop position is uncertain. Click the VISIT button above for the best guess."
@@ -5832,12 +5891,6 @@ msgstr "更多的房間可能提供"
 msgid "This is an average price. The actual booking price may differ."
 msgstr "這是一個平均價格。實際預訂價格可能會有所不同。"
 
-#. L10n: Followed by the buttons that link to websites that provide reservations of lodging accommodations
-#: views/components/step-lodging.jade:16
-#, fuzzy
-msgid "Want more options? Try these services"
-msgstr "想要更多的選擇嗎？試試這些服務"
-
 #: views/components/step-lodging.jade:26
 #, fuzzy
 msgid "Hotel chains"
@@ -5847,11 +5900,6 @@ msgstr "連鎖酒店"
 #, fuzzy
 msgid "Apartments, private rooms, B&Bs"
 msgstr "公寓，私人房間，含早民宿"
-
-#: views/components/step-lodging.jade:46
-#, fuzzy
-msgid "Stay in this lodging"
-msgstr "留在這個住宿"
 
 #: views/components/step-lodging.jade:53
 #, fuzzy
@@ -6062,6 +6110,60 @@ msgstr ""
 "如果你不想Furkot安排在一夜之間停止為您的旅行，在旅行紙盒中結束一天的同一時間"
 "為開始新的一天。"
 
+#. L10n: square brackets [] denote a link
+#: views/components/tour-lodging.jade:3 views/welcome/blurbs.jade:75
+#, fuzzy
+msgid ""
+"Whatever your lodging preference is &mdash; hotel, campground, apartment "
+"&mdash; Furkot will show you scores of [accommodations] on the map and will "
+"help you find the perfect place for every night of your trip."
+msgstr ""
+"無論您的住宿偏好為＆MDASH;酒店，露營地，公寓＆MDASH; Furkot會告訴你在地圖上"
+"[住宿]的得分，將幫助您找到的每個夜晚，你的旅行的理想場所。"
+
+#: views/components/tour-lodging.jade:4 views/welcome/blurbs.jade:80
+#, fuzzy
+msgid ""
+"When you are ready to book, Furkot will take you directly to your favorite "
+"booking site and pre-fill the check-in and check-out dates so that you don't "
+"have to worry about reserving that hard found lodging on the wrong night."
+msgstr ""
+"當您準備預訂，Furkot將直接帶您到您最喜愛預約上門和預填寫入住和退房日期，這樣"
+"你就不必擔心保留了錯誤的夜晚難發現倒伏。"
+
+#. L10n: square brackets [] denote a button
+#: views/components/tour-lodging.jade:9 views/components/tour.jade:21
+#, fuzzy
+msgid ""
+"Open the [Sleep] drawer to find the best place to spend the night. Choose "
+"from over 1 million hotels, motels, B&Bs, and campgrounds around the world."
+msgstr ""
+"打開[睡眠]抽屜裡找到過夜的最佳場所。選擇超過70萬的酒店，汽車旅館，家庭旅館，"
+"露營地及世界各地。"
+
+#: views/components/tour-lodging.jade:11
+#, fuzzy
+msgid "Select types of lodging accommodations that you prefer."
+msgstr "此行今後所有住宿住宿已經預訂。"
+
+#. L10n: square brackets [] denote a link
+#: views/components/tour-lodging.jade:19 views/welcome/blurbs.jade:83
+#, fuzzy
+msgid ""
+"Booking [all hotels] for your trip can be a daunting experience: multiple "
+"cities, multiple booking sites and many dates and details to mistype? Let "
+"Furkot help with that. We will take you through the whole process page by "
+"page and hotel by hotel."
+msgstr ""
+"預定您的旅行[所有酒店]可以是一項艱鉅的經歷：多個城市，多個訂票網站和許多日期"
+"和細節打錯？讓Furkot與幫助。我們將帶您在整個過程中逐頁和酒店由酒店。"
+
+#: views/components/tour-lodging.jade:21
+msgid ""
+"Pick your preferred booking service or try out as many as you like to find "
+"the best price."
+msgstr ""
+
 #: views/components/tour.jade:3
 #, fuzzy
 msgid ""
@@ -6129,16 +6231,6 @@ msgstr ""
 "您也可以選擇從Furkot龐大有趣的地方，景點，住宿一夜住宿，餐飲和飲酒場所，甚至"
 "天然氣和電力加氣站收集站。"
 
-#. L10n: square brackets [] denote a button
-#: views/components/tour.jade:21
-#, fuzzy
-msgid ""
-"Open the [Sleep] drawer to find the best place to spend the night. Choose "
-"from over 700000 hotels, motels, B&Bs, and campgrounds around the world."
-msgstr ""
-"打開[睡眠]抽屜裡找到過夜的最佳場所。選擇超過70萬的酒店，汽車旅館，家庭旅館，"
-"露營地及世界各地。"
-
 #: views/components/tour.jade:24
 #, fuzzy
 msgid ""
@@ -6190,6 +6282,20 @@ msgstr "這結束Furkot的功能導遊。您可以在我們的[幫助]更多信�
 msgid "Press [Close] to end the tour now."
 msgstr "按[關閉]現在就結束遊覽。"
 
+#: views/components/tour.jade:49
+msgid "Step-by-step introduction"
+msgstr ""
+
+#: views/components/tour.jade:53
+#, fuzzy
+msgid "Find and book lodging"
+msgstr "復原留宿"
+
+#: views/components/tour.jade:57
+#, fuzzy
+msgid "How to share a trip"
+msgstr "分享之旅"
+
 #: views/components/translate.jade:2
 #, fuzzy
 msgid "Help translate Furkot"
@@ -6232,8 +6338,8 @@ msgstr "每天行駛"
 #: views/components/trip-config-item.jade:41
 #: views/components/trip-config-item.jade:52
 #: views/components/trip-detail.jade:108 views/components/trip-detail.jade:318
-#: views/tripshot/map.jade:23 views/tripshot/tripshot.jade:20
-#: views/tripshot/tripshot.jade:46 views/tripshot/widget.jade:25
+#: views/tripshot/mixin.jade:186 views/tripshot/tripshot.jade:20
+#: views/tripshot/tripshot.jade:46
 #, fuzzy
 msgid "miles"
 msgstr "英里"
@@ -6652,6 +6758,16 @@ msgstr "按此修改房間的數目（1＆NBSP;至＆NBSP; 6）"
 msgid "Click to modify the number of persons per room (1&nbsp;to&nbsp;4)"
 msgstr "按此修改每室的人數（1＆NBSP;至＆NBSP; 4）"
 
+#: views/components/trip-detail.jade:303
+#, fuzzy
+msgid "Constant average speed"
+msgstr "恆平均速度"
+
+#: views/components/trip-detail.jade:304
+#, fuzzy
+msgid "Slower/faster than standard travel time"
+msgstr "慢/比標準行程時間快"
+
 #: views/components/trip-detail.jade:314
 #, fuzzy
 msgid "Click to modify your vehicle range between refills"
@@ -7028,43 +7144,43 @@ msgstr "同步與TripIt的行程"
 msgid "Book hotels for this trip"
 msgstr "此行預定酒店"
 
-#: views/components/trip-toolbar.jade:13
+#: views/components/trip-toolbar.jade:12
 #, fuzzy
 msgid "Print this trip"
 msgstr "打印此行"
 
 #. L10n: Caption of the print trip configuration dialog
-#: views/components/trip-toolbar.jade:17 views/components/trip-toolbar.jade:46
+#: views/components/trip-toolbar.jade:16 views/components/trip-toolbar.jade:45
 #, fuzzy
 msgid "Print trip"
 msgstr "打印行程"
 
 #. L10n: 'Include:' as in 'Include the following information in the printout of the trip:'
-#: views/components/trip-toolbar.jade:20
+#: views/components/trip-toolbar.jade:19
 #, fuzzy
 msgid "Include:"
 msgstr "包括："
 
 #. L10n: information to include in the printout of the trip
-#: views/components/trip-toolbar.jade:25
+#: views/components/trip-toolbar.jade:24
 #, fuzzy
 msgid "overnight stops only"
 msgstr "只有在一夜之間停止"
 
 #. L10n: information to include in the printout of the trip. Pass-through stop is a point anchoring route in place - displayed as a small circle on the map and as a stop of zero duration in the itinerary
-#: views/components/trip-toolbar.jade:30
+#: views/components/trip-toolbar.jade:29
 #, fuzzy
 msgid "pass-through stops"
 msgstr "直通站"
 
 #. L10n: information to include in the printout of the trip
-#: views/components/trip-toolbar.jade:35
+#: views/components/trip-toolbar.jade:34
 #, fuzzy
 msgid "turn-by-turn directions"
 msgstr "轉由轉動方向"
 
 #. L10n: information to include in the printout of the trip
-#: views/components/trip-toolbar.jade:40
+#: views/components/trip-toolbar.jade:39
 #, fuzzy
 msgid "map"
 msgstr "地圖"
@@ -7259,22 +7375,28 @@ msgstr "博客"
 msgid "Affiliates"
 msgstr "關聯公司"
 
-#: views/footer.jade:27
+#. L10n: Label for a link to Furkot translation website (this website)
+#: views/footer.jade:28
+#, fuzzy
+msgid "Translate"
+msgstr "透明"
+
+#: views/footer.jade:30
 #, fuzzy
 msgid "Questions or suggestions?"
 msgstr "問題或建議？"
 
-#: views/footer.jade:28
+#: views/footer.jade:31
 #, fuzzy
 msgid "E-mail Furkot"
 msgstr "電子郵件Furkot"
 
-#: views/footer.jade:30 views/welcome/index.jade:25
+#: views/footer.jade:33 views/welcome/index.jade:25
 #, fuzzy
 msgid "Follow Furkot"
 msgstr "按照Furkot"
 
-#: views/footer.jade:32 views/welcome/index.jade:27
+#: views/footer.jade:35 views/welcome/index.jade:27
 #, fuzzy
 msgid "Like Furkot"
 msgstr "像Furkot"
@@ -7448,12 +7570,12 @@ msgstr "編輯快照之旅"
 msgid "Embed in website"
 msgstr "在嵌入網站"
 
-#: views/tripshot/mixin.jade:193
+#: views/tripshot/mixin.jade:205
 #, fuzzy
 msgid "Insert your own trip photo here"
 msgstr "這裡插入自己的旅行照片"
 
-#: views/tripshot/mixin.jade:195
+#: views/tripshot/mixin.jade:207
 #, fuzzy
 msgid "Change a photo"
 msgstr "更改照片"
@@ -7625,17 +7747,6 @@ msgid "Campgrounds? Motels? Hotels? Staying with friends?"
 msgstr "露營地？汽車旅館？酒店？跟朋友住在一起？"
 
 #. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:75
-#, fuzzy
-msgid ""
-"Whatever your lodging preference is &mdash; hotel, campground, apartment "
-"&mdash; Furkot will show you scores of [accommodations] on the map and will "
-"help you find the perfect place for every night of your trip."
-msgstr ""
-"無論您的住宿偏好為＆MDASH;酒店，露營地，公寓＆MDASH; Furkot會告訴你在地圖上"
-"[住宿]的得分，將幫助您找到的每個夜晚，你的旅行的理想場所。"
-
-#. L10n: square brackets [] denote a link
 #: views/welcome/blurbs.jade:78
 #, fuzzy
 msgid ""
@@ -7646,28 +7757,6 @@ msgid ""
 msgstr ""
 "Furkot可以很容易地決定哪些酒店的成本，設施和便利的位置的最佳組合。無論何時可"
 "用，Furkot顯示究竟[你要支付（包括稅收和服務費）。你是負責他們收取什麼。"
-
-#: views/welcome/blurbs.jade:80
-#, fuzzy
-msgid ""
-"When you are ready to book, Furkot will take you directly to your favorite "
-"booking site and pre-fill the check-in and check-out dates so that you don't "
-"have to worry about reserving that hard found lodging on the wrong night."
-msgstr ""
-"當您準備預訂，Furkot將直接帶您到您最喜愛預約上門和預填寫入住和退房日期，這樣"
-"你就不必擔心保留了錯誤的夜晚難發現倒伏。"
-
-#. L10n: square brackets [] denote a link
-#: views/welcome/blurbs.jade:83
-#, fuzzy
-msgid ""
-"Booking [all hotels] for your trip can be a daunting experience: multiple "
-"cities, multiple booking sites and many dates and details to mistype? Let "
-"Furkot help with that. We will take you through the whole process page by "
-"page and hotel by hotel."
-msgstr ""
-"預定您的旅行[所有酒店]可以是一項艱鉅的經歷：多個城市，多個訂票網站和許多日期"
-"和細節打錯？讓Furkot與幫助。我們將帶您在整個過程中逐頁和酒店由酒店。"
 
 #. L10n: square brackets [] denote buttons. This is a bit of word play meaning that Furkot makes booking hotels as easy as pressing Next button repeatedly until the only thing left to do is to press "Done". If translation cannot reflect this word play, a sentence meaning that booking is easy is acceptable. Either button or both can be dropped.
 #: views/welcome/blurbs.jade:86
@@ -7838,29 +7927,76 @@ msgstr ""
 "多的景點和住宿選擇。"
 
 #, fuzzy
-#~ msgid "Distance "
-#~ msgstr "距離"
-
-#, fuzzy
-#~ msgid "_Duration_"
-#~ msgstr "_Duration_"
-
-#, fuzzy
-#~ msgid "Day "
-#~ msgstr "天"
-
-#, fuzzy
-#~ msgid "_Other_"
-#~ msgstr "_其他_"
-
-#, fuzzy
-#~ msgid "_Day_"
-#~ msgstr "_天_"
+#~ msgid "Start at "
+#~ msgstr "在開始"
 
 #, fuzzy
 #~ msgid "Click to modify _duration_"
 #~ msgstr "點擊修改_duration_"
 
 #, fuzzy
-#~ msgid "Start at "
-#~ msgstr "在開始"
+#~ msgid "_Day_"
+#~ msgstr "_天_"
+
+#, fuzzy
+#~ msgid "_Other_"
+#~ msgstr "_其他_"
+
+#, fuzzy
+#~ msgid "Day "
+#~ msgstr "天"
+
+#, fuzzy
+#~ msgid "_Duration_"
+#~ msgstr "_Duration_"
+
+#, fuzzy
+#~ msgid "Distance "
+#~ msgstr "距離"
+
+#, fuzzy
+#~ msgid "Hiking trails from LocalHikes"
+#~ msgstr "從登山步道LocalHikes"
+
+#, fuzzy
+#~ msgid "Hide hikes from LocalHikes"
+#~ msgstr "從LocalHikes隱藏上漲"
+
+#, fuzzy
+#~ msgid "Fold this hike details"
+#~ msgstr "折這個加息的細節"
+
+#, fuzzy
+#~ msgid "Stop and hike this trail"
+#~ msgstr "停止並加息這條小道"
+
+#, fuzzy
+#~ msgid "See user reviews at LocalHikes"
+#~ msgstr "參見LocalHikes用戶評論"
+
+#, fuzzy
+#~ msgid "See author's profile at LocalHikes"
+#~ msgstr "見筆者在LocalHikes簡介"
+
+#, fuzzy
+#~ msgid "See description of this hike at LocalHikes"
+#~ msgstr "參見本LocalHikes加息的說明"
+
+#~ msgid "Booking complete"
+#~ msgstr "預定完畢"
+
+#~ msgid ""
+#~ "You'll have a chance to copy and paste booking confirmation before Furkot "
+#~ "takes you back to the trip planning."
+#~ msgstr "您將可以在Furkot帶您回到行程規劃之前, 複製貼上預約確認."
+
+#~ msgid ""
+#~ "You'll have a chance to copy and paste booking confirmation before "
+#~ "proceeding to the next lodging."
+#~ msgstr "再繼續到下一個住宿之前, 您需要複製貼上預約確認."
+
+#~ msgid "Press [Back] to return to the hotel page."
+#~ msgstr "按[上一頁]回到旅館頁面."
+
+#~ msgid "Adding:"
+#~ msgstr "加入:"
