@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2017-03-28 11:43-0700\n"
-"PO-Revision-Date: 2017-03-27 08:15+0000\n"
-"Last-Translator: Christian Hansen <christian@familiehansen.at>\n"
-"Language-Team: German <https://translate.furkot.com/projects/furkot/trips/de/"
-">\n"
+"PO-Revision-Date: 2017-03-29 09:17+0000\n"
+"Last-Translator: Natalia Kowalczyk <melitele@furkot.com>\n"
+"Language-Team: German "
+"<https://translate.furkot.com/projects/furkot/trips/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -265,7 +265,7 @@ msgstr "Neue Tour"
 #: views/components/add-stops.jade:15
 #, fuzzy
 msgid "Do you want to create your own version of a trip {}?"
-msgstr "Möchten Sie eine eigene Version der Tour erstellen"
+msgstr "Möchten Sie eine eigene Version der Tour {} erstellen?"
 
 #. L10n: Caption of a dialog listing apps that work with Furkot
 #. L10n: Menu option that opens the panel listing apps that work with Furkot
@@ -307,7 +307,7 @@ msgstr "Entfernen"
 #: views/components/book-wizard.jade:2
 #, fuzzy
 msgid "Book trip"
-msgstr "Buchen bei"
+msgstr "Buchen Tour"
 
 #: views/components/book-wizard.jade:6
 msgid ""
@@ -321,7 +321,7 @@ msgstr ""
 #: views/components/book-wizard.jade:9
 #, fuzzy
 msgid "Press [Done] to continue trip planning."
-msgstr "Drücken Sie [Weiter], um jetzt fortzufahren."
+msgstr "Drücken Sie [Fertig], um jetzt fortzufahren Tourplanung."
 
 #: views/components/book-wizard.jade:17
 msgid ""
@@ -392,14 +392,17 @@ msgid "Booking confirmation"
 msgstr "Buchungsbestätigung"
 
 #: views/components/book-wizard.jade:43
+#, fuzzy
 msgid "Enter booking confirmation if you made a reservation"
 msgstr ""
+"Geben Sie die Buchungsbestätigung ein, wenn Sie eine Reservierung gemacht "
+"haben"
 
 #. L10n: followed by links to websites that user can make lodging reservations at
 #: views/components/book-wizard.jade:48
 #, fuzzy
 msgid "Available to book at"
-msgstr "Zu diesem Preis zur Buchung verfügbar"
+msgstr "Erhältlich zum buchen bei"
 
 #. L10n: Followed by the buttons that link to websites that provide reservations of lodging accommodations
 #: views/components/book-wizard.jade:53 views/components/step-lodging.jade:16
@@ -408,8 +411,11 @@ msgstr "Möchten Sie weitere Optionen? Probieren Sie diese Dienstleistungen"
 
 #. L10n: square brackets [] denote a button
 #: views/components/book-wizard.jade:64
+#, fuzzy
 msgid "Press this button to continue booking or press [Done] again"
 msgstr ""
+"Drücken Sie diese Taste, um die Buchung fortzusetzen, oder drücken Sie "
+"erneut [Fertig]"
 
 #: views/components/book-wizard.jade:65
 msgid "Furkot will take you to the next lodging to book."
@@ -462,7 +468,7 @@ msgstr "Ersetzen Sie das ausgewählte Hotel mit diesem Hotel"
 #: views/components/bookable.jade:26
 #, fuzzy
 msgid "Save this hotel as a backup"
-msgstr "Diese Route als Backup-Planung merken"
+msgstr "Sparen Sie dieses Hotel als Backup"
 
 #: views/components/bookable.jade:27
 msgid "Add this hotel as a skipped stop"
@@ -502,7 +508,7 @@ msgstr "Ersetzen Sie den ausgewählten Campingplatz durch diesem Campingplatz"
 #: views/components/bookable.jade:50
 #, fuzzy
 msgid "Save this campground as a backup"
-msgstr "Diese Campingplatzseite anzeigen auf"
+msgstr "Sparen Sie diese Campingplatzseite als Backup"
 
 #: views/components/bookable.jade:51
 msgid "Add this campground as a skipped stop"
@@ -585,7 +591,7 @@ msgstr "Ersetzen Sie die ausgewählte Unterkunft durch dieser Unterkunft"
 #: views/components/bookable.jade:104 views/components/bookable.jade:150
 #, fuzzy
 msgid "Save this lodging as a backup"
-msgstr "Sehen Sie die Seite der Unterkunft bei"
+msgstr "Sparen Sie diese Unterkunft als Backup"
 
 #: views/components/bookable.jade:105 views/components/bookable.jade:151
 msgid "Add this lodging as a skipped stop"
@@ -625,7 +631,7 @@ msgstr "Ersetzen Sie die ausgewählte Station mit dieser Jugendherberge"
 #: views/components/bookable.jade:129
 #, fuzzy
 msgid "Save this hostel as a backup"
-msgstr "Diese Route als Backup-Planung merken"
+msgstr "Sparen Sie diese Jugendherberge als Backup"
 
 #: views/components/bookable.jade:130
 msgid "Add this hostel as a skipped stop"
@@ -917,7 +923,7 @@ msgstr "Aufenthalt in Unterkünften - rückgängig machen"
 #: views/components/furkot-data.jade:29
 #, fuzzy
 msgid "Undo backup lodging"
-msgstr "Aufenthalt in Unterkünften - rückgängig machen"
+msgstr "Backup Unterkünften - rückgängig machen"
 
 #: views/components/furkot-data.jade:30
 msgid "Undo change route type"
@@ -1006,7 +1012,7 @@ msgstr "Aufenthalt in einer Unterkunft - wiederherstellen"
 #: views/components/furkot-data.jade:53
 #, fuzzy
 msgid "Redo backup lodging"
-msgstr "Aufenthalt in einer Unterkunft - wiederherstellen"
+msgstr "Backup Unterkunft - wiederherstellen"
 
 #: views/components/furkot-data.jade:54
 msgid "Redo change route type"
@@ -1462,8 +1468,9 @@ msgid "go to Find drawer"
 msgstr "gehen Sie zu Reiter \"Suche\""
 
 #: views/components/language.jade:25
+#, fuzzy
 msgid "Choose your language"
-msgstr ""
+msgstr "Wähle deine Sprache"
 
 #: views/components/language.jade:28
 msgid "Languages partially translated"
@@ -2154,7 +2161,7 @@ msgstr "Bleiben"
 #: views/components/place-detail.jade:40
 #, fuzzy
 msgid "Backup"
-msgstr "Zurück"
+msgstr "Backup"
 
 #. L10n: Displayed for lodgings that allow pets
 #: views/components/place-detail.jade:62
@@ -3691,7 +3698,7 @@ msgstr "Bergspitzen und Kletterrouten von SummitPost"
 #: views/components/places.jade:374
 #, fuzzy
 msgid "Open this trip"
-msgstr "Drucken Sie diese Tour"
+msgstr "Öffnen Sie diese Tour"
 
 #: views/components/places.jade:375 views/components/places.jade:383
 msgid "Stop at this trip starting point"
@@ -4039,13 +4046,14 @@ msgstr ""
 #: views/components/tour-lodging.jade:2
 #, fuzzy
 msgid "Do you know?"
-msgstr "Reisen Sie alleine"
+msgstr "Wissen Sie?"
 
 #. L10n: label of a button that confirms that a user understands the feature
 #: views/components/share-dlg.jade:139 views/components/share-dlg.jade:149
 #: views/components/tour-lodging.jade:2
+#, fuzzy
 msgid "Got it"
-msgstr ""
+msgstr "Kenne"
 
 #. L10n: label of a button that launches demo of a feature
 #: views/components/share-dlg.jade:139 views/components/share-dlg.jade:151
@@ -4053,21 +4061,22 @@ msgstr ""
 #: views/components/tour.jade:54 views/components/tour.jade:58
 #, fuzzy
 msgid "Show me"
-msgstr "Karte anzeigen"
+msgstr "Zeig es mir"
 
 #: views/components/share-dlg.jade:140
 #, fuzzy
 msgid "You can share your trip with others."
-msgstr "Teilen Sie diese Tour mit anderen"
+msgstr "Teilen Sie diese Tour mit anderen."
 
 #: views/components/share-dlg.jade:142 views/components/share-dlg.jade:159
 #, fuzzy
 msgid "Invite friends and fellow travelers to help planning your trip."
-msgstr "Fragen Sie Freunde um Hilfe bei der Planung der Reise."
+msgstr "Fragen Sie Freunde um Hilfe bei der Planung der Tour."
 
 #: views/components/share-dlg.jade:143 views/components/share-dlg.jade:157
+#, fuzzy
 msgid "Ask for advice and let people inspire you."
-msgstr ""
+msgstr "Fragen Sie nach Rat und lassen Sie Menschen inspirieren Sie."
 
 #: views/components/share-dlg.jade:144 views/components/share-dlg.jade:161
 #, fuzzy
@@ -4078,12 +4087,15 @@ msgstr "Teilen Sie Ihre Tour mit der Furkot Community"
 #, fuzzy
 msgid "Click the share button and choose how you want to share your trip."
 msgstr ""
-"Stadt, Sehenswürdigkeit oder Adresse, wo Sie Ihre Tour beginnen möchten."
+"Klicken Sie auf die Schaltfläche Freigeben und wählen Sie, wie Sie Ihre Tour "
+"freigeben möchten."
 
 #. L10n: meaning: 'Use the button above to see the demonstration of Furkot feature(s) again'
 #: views/components/share-dlg.jade:164 views/components/tour-lodging.jade:24
+#, fuzzy
 msgid "If you want Furkot to guide you again use the button above"
 msgstr ""
+"Wenn du willst, dass Furkot dich wieder anfasst, benutzt du den Taste oben"
 
 #. L10n: Hint for the button that display a list of available stop types (icons)
 #: views/components/step-detail.jade:5
@@ -4808,7 +4820,7 @@ msgstr "Gehen"
 #: views/components/step-detail.jade:563
 #, fuzzy
 msgid "Flight"
-msgstr "Nacht"
+msgstr "Flug"
 
 #. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking, flight
 #: views/components/step-detail.jade:567
@@ -5427,13 +5439,13 @@ msgid ""
 "from over 1 million hotels, motels, B&Bs, and campgrounds around the world."
 msgstr ""
 "Öffnen Sie das [Schlaf] Menü, um den besten Ort für eine Übernachtung zu "
-"finden. Wählen Sie aus über 700.000 Hotels, Motels, Pensionen und "
+"finden. Wählen Sie aus über Million Hotels, Motels, Pensionen und "
 "Campingplätzen rund um den Globus."
 
 #: views/components/tour-lodging.jade:11
 #, fuzzy
 msgid "Select types of lodging accommodations that you prefer."
-msgstr "Alle zukünftigen Unterkünfte für diese Tour sind bereits gebucht."
+msgstr "Wählen Sie Unterkunftsarten, die Sie bevorzugen."
 
 #. L10n: square brackets [] denote a link
 #: views/components/tour-lodging.jade:19 views/welcome/blurbs.jade:83
@@ -5449,10 +5461,13 @@ msgstr ""
 "durch den gesamten Prozess, Seite für Seite und Hotel für Hotel."
 
 #: views/components/tour-lodging.jade:21
+#, fuzzy
 msgid ""
 "Pick your preferred booking service or try out as many as you like to find "
 "the best price."
 msgstr ""
+"Wählen Sie Ihren bevorzugten Buchungsservice aus oder probieren Sie so viele "
+"aus, wie Sie den besten Preis finden möchten."
 
 #: views/components/tour.jade:3
 msgid ""
@@ -5574,13 +5589,14 @@ msgid "Press [Close] to end the tour now."
 msgstr "Drücken Sie [Schließen], um die Tour jetzt zu beenden."
 
 #: views/components/tour.jade:49
+#, fuzzy
 msgid "Step-by-step introduction"
-msgstr ""
+msgstr "Erste Schritte"
 
 #: views/components/tour.jade:53
 #, fuzzy
 msgid "Find and book lodging"
-msgstr "Aufenthalt in Unterkünften - rückgängig machen"
+msgstr "Unterkunft finden und buchen"
 
 #: views/components/tour.jade:57
 #, fuzzy
@@ -6551,7 +6567,7 @@ msgstr "Partner"
 #: views/footer.jade:28
 #, fuzzy
 msgid "Translate"
-msgstr "Transparent"
+msgstr "Übersetzung"
 
 #: views/footer.jade:30
 msgid "Questions or suggestions?"
