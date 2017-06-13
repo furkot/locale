@@ -33,5 +33,9 @@ push:
 	curl --silent --show-error https://translate.furkot.com/hooks/update/furkot/trips/ > /dev/null
 	git reset --hard origin/master
 
+%.po.check: %.po
+	msgfmt --check $<
 
-.PHONY: all merge push
+check: $(PO_FILES:%=%.check)
+
+.PHONY: all merge push check
