@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2017-06-12 18:44-0700\n"
-"PO-Revision-Date: 2017-03-31 05:20+0000\n"
+"PO-Revision-Date: 2017-06-16 22:21+0000\n"
 "Last-Translator: Sylvain Francois <syllant@gmail.com>\n"
-"Language-Team: French <https://translate.furkot.com/projects/furkot/trips/fr/"
-">\n"
+"Language-Team: French "
+"<https://translate.furkot.com/projects/furkot/trips/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1492,9 +1492,8 @@ msgid "Show terrain features (topo map)"
 msgstr "Montrer les caractéristiques de terrain (carte topo)"
 
 #: views/components/map.jade:29
-#, fuzzy
 msgid "Show alternative road map"
-msgstr "Voir la carte routière classique"
+msgstr "Voir la carte routière alternative"
 
 #. L10n: Label for additional layers to be displayed over the map like: road contours and names or current weather
 #: views/components/map.jade:35
@@ -1559,9 +1558,8 @@ msgid "Show places"
 msgstr "Voir les lieux"
 
 #: views/components/map.jade:95
-#, fuzzy
 msgid "Find a place"
-msgstr "Annuler l’ajout du lieu"
+msgstr "Trouver un lieu"
 
 #: views/components/map.jade:97 views/components/trips.jade:7
 msgid "Import trip"
@@ -1585,12 +1583,11 @@ msgstr ""
 "veuillez contacter son propriétaire"
 
 #: views/components/map.jade:107
-#, fuzzy
 msgid ""
 "Furkot is using cached data only. Click the button above to refresh this trip"
 msgstr ""
-"Ce voyage est en mode consultation. Cliquez sur le bouton ci-dessus pour "
-"modifier le voyage"
+"Furkot utilise uniquement les données en cache. Cliquez sur le bouton ci-"
+"dessus pour réactualiser le voyage"
 
 #: views/components/map.jade:109
 msgid ""
@@ -1750,7 +1747,7 @@ msgstr ""
 #. L10n: Menu option that opens panel with the options that control how Furkot works when offline
 #: views/components/network.jade:2 views/header.jade:23
 msgid "Data Saver"
-msgstr ""
+msgstr "Sauvegarde des données"
 
 #. L10n: displayed when user tries to refresh trip while the 'use cached data only' option is on
 #: views/components/network.jade:5
@@ -1758,14 +1755,16 @@ msgid ""
 "Furkot is using cached data only. You need to uncheck the option below to "
 "refresh this trip."
 msgstr ""
+"Furkot utilise seulement les données en cache. Vous devez désélectionner "
+"l'option ci-dessous pour réactualiser le voyage."
 
 #: views/components/network.jade:11
 msgid "Use cached data only"
-msgstr ""
+msgstr "Seulement utiliser les données en cache"
 
 #: views/components/network.jade:16
 msgid "Cache OSM maps for offline use"
-msgstr ""
+msgstr "Mettre les cartes OSM en cache pour un usage hors-connexion"
 
 #: views/components/new-trip-wizard.jade:2
 msgid "Plan new trip"
@@ -5131,6 +5130,8 @@ msgid ""
 "Stop has been moved from the linked place. Verify that its location is "
 "correct."
 msgstr ""
+"L'arrêt a été déplacé par rapport au lieu d'origine. Vérifiez que sa "
+"location est toujours correcte."
 
 #: views/components/step-detail.jade:849
 #: views/components/trip-config-item.jade:100
@@ -5355,26 +5356,25 @@ msgstr ""
 "dans le tiroir de voyage."
 
 #: views/components/step-switches.jade:152
-#, fuzzy
 msgid "Automatically scheduled airport"
-msgstr "Planifier automatiquement les étapes de nuit"
+msgstr "Aéroport automatiquement planifié"
 
 #: views/components/step-switches.jade:154
-#, fuzzy
 msgid "This is an automatically scheduled airport."
-msgstr ""
-"Cette étape a été planifiée automatiquement pour faire le plein d’essence."
+msgstr "Cet aéroport a été planifié automatiquement."
 
 #: views/components/step-switches.jade:155
-#, fuzzy
 msgid "It will disappear when you add an airport before or after it."
-msgstr "Elle disparaîtra lorsque vous ajouterez une station-service avant."
+msgstr ""
+"Il disparaîtra lorsque vous ajouterez vous-même un aéroport avant ou après."
 
 #: views/components/step-switches.jade:157
 msgid ""
 "Alternatively you can change the travel mode for this route if you don't "
 "want Furkot to schedule airports."
 msgstr ""
+"Vous pouvez sinon modifier le mode de voyage pour cet itinéraire si vous ne "
+"souhaitez pas laisser Furkot planifier les aéroports."
 
 #. L10n: square brackets [] denote a link
 #: views/components/tour-lodging.jade:3 views/welcome/blurbs.jade:75
@@ -5663,7 +5663,7 @@ msgstr "Personnes par chambre"
 #: views/components/trip-config-item.jade:136
 #: views/components/trip-detail.jade:408
 msgid "Offline Map"
-msgstr ""
+msgstr "Carte hors-connexion"
 
 #: views/components/trip-config-item.jade:141
 #: views/components/trip-detail.jade:496
@@ -5695,21 +5695,20 @@ msgstr "Dupliquer"
 
 #: views/components/trip-detail.jade:35
 msgid "Download map for offline use"
-msgstr ""
+msgstr "Télécharger la carte pour un usage hors-connexion"
 
 #: views/components/trip-detail.jade:37
-#, fuzzy
 msgid "Sync Map"
-msgstr "Synchroniser"
+msgstr "Synchroniser la carte"
 
 #: views/components/trip-detail.jade:38
 msgid "Pause downloading map for offline use"
 msgstr ""
+"Mettre en pause le téléchargement de la carte pour un usage hors-connexion"
 
 #: views/components/trip-detail.jade:40
-#, fuzzy
 msgid "Stop Sync"
-msgstr "Etape"
+msgstr "Arrêter la synchronisation"
 
 #: views/components/trip-detail.jade:66
 msgid "Name your trip"
@@ -6295,32 +6294,37 @@ msgid "Once you delete it nobody will be able to access it."
 msgstr "Si vous le supprimez, personne ne pourra y accéder."
 
 #: views/components/trip-detail.jade:532
-#, fuzzy
 msgid "Experimental Feature"
-msgstr "Expérimental"
+msgstr "Fonctionnalité expérimentale"
 
 #: views/components/trip-detail.jade:533
 msgid "Downolading map for offline use is an experimental feature."
 msgstr ""
+"Le téléchargement de carte pour un usage hors-connexion est une "
+"fonctionnalité expérimentale."
 
 #: views/components/trip-detail.jade:534
 msgid ""
 "We are actively working to improve it. If you experience problems please "
 "contact us."
 msgstr ""
+"Nous travaillons activement pour l'améliorer. Si vous rencontrez des "
+"problèmes, merci de nous contacter."
 
 #: views/components/trip-detail.jade:535
 msgid "This feature may be discontinued without notice."
-msgstr ""
+msgstr "Cette fonctionnalité peut être abandonnée sans préavis."
 
 #: views/components/trip-detail.jade:536
 msgid ""
 "We reserve the right to introduce use limits or establish a fee-based access."
 msgstr ""
+"Nous nous réservons le droit d'introduire des limitations ou des frais "
+"d'accès."
 
 #: views/components/trip-detail.jade:543
 msgid "Update the cache while viewing the OSM map"
-msgstr ""
+msgstr "Mettre à jour le cache lors de la consultation de la carte OSM"
 
 #: views/components/trip-detail.jade:545
 msgid "Fold this section"
