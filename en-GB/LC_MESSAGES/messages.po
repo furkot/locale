@@ -11,9 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: views/components/bookable.jade:49
+#: views/components/bookable.jade:82
 msgid "Add hotel in this neighborhood as a new stop"
 msgstr "Add hotel in this neighbourhood as a new stop"
+
+#: views/components/bookable.jade:84
+msgid "Add hotel in this neighborhood as a skipped stop"
+msgstr "Add hotel in this neighbourhood as a skipped stop"
 
 #: views/components/import-dlg.jade:14
 msgid "Analyze"
@@ -44,10 +48,33 @@ msgstr "Authorise friends to modify the trip"
 msgid "Favorite"
 msgstr "Favourite"
 
+#: views/components/step-detail.jade:518
+msgid "Fill up at this refueling station"
+msgstr "Fill up at this refuelling station"
+
+#: views/components/step-detail.jade:526
+msgid "Nearby Refueling Stations"
+msgstr "Nearby Refuelling Stations"
+
 #: views/components/step-switches.jade:6
 #: views/components/step-switches.jade:11
 msgid "Move this stop if necessary to minimize driving"
 msgstr "Move this stop if necessary to minimise driving"
+
+#. L10n: Tooltip for the button that allows user to filter out fuel stations planned for the trip
+#: views/components/step-switches.jade:33
+msgid "Refueling stops"
+msgstr "Refuelling stops"
+
+#. L10n: Hint for the option to display distance from the previous fuel station
+#: views/components/step-switches.jade:72
+msgid "From previous refueling stop"
+msgstr "From previous refuelling stop"
+
+#. L10n: Label for configuring for what Furkot should optimize the Plan drawer
+#: views/components/step-switches.jade:86
+msgid "Optimize for"
+msgstr "Optimise for"
 
 #: views/components/tour.jade:19
 msgid ""
@@ -91,7 +118,7 @@ msgstr "You can also disable automatic scheduling of refuelling stops."
 msgid "Furkot would like to synchronize your trip plan with your TripIt itinerary."
 msgstr "Furkot would like to synchronise your trip plan with your TripIt itinerary."
  
-#: views/components/trip-detail.jade:355
+#: views/components/trip-detail.jade:488
 msgid ""
 "If your Furkot trip plan already includes all the stops corresponding to "
 "the lodging confirmations in your TripIt itinerary, cancel this operation "
@@ -102,11 +129,63 @@ msgstr ""
 "the lodging confirmations in your TripIt itinerary, cancel this operation "
 "and ensure that the dates and addresses of your stops are the same in "
 "TripIt and Furkot before synchronising again."
+
+#. L10n: square brackets [] denote a button (icon) - please keep in the translation
+#: views/components/trip-detail.jade:490
+msgid ""
+"At least one lodging confirmation in your TripIt itinerary cannot "
+"synchronize automatically. You can review and add it to a stop using the "
+"match [] button."
+msgstr ""
+"At least one lodging confirmation in your TripIt itinerary cannot "
+"synchronise automatically. You can review and add it to a stop using the "
+"match [] button."
  
+#. L10n: Caption of a message displayed when Furkot asks user to confirm deleting all planned refueling stops
+#: views/components/trip-detail.jade:551
+#: views/components/trip-detail.jade:555
+msgid "Clear refueling stops"
+msgstr "Clear refuelling stops"
+
+#: views/components/trip-detail.jade:552
+msgid "Do you want to delete all planned refueling stops?"
+msgstr "Do you want to delete all planned refuelling stops?"
+
+#: views/components/trip-detail.jade:558
+#: views/components/trip-detail.jade:566
+#: views/components/trip-detail.jade:570
+msgid "Plan refueling stations"
+msgstr "Plan refuelling stations"
+
+#. L10n: notice displayed when refueling stations are successfully planned for all automatically scheduled refueling stops
+#: views/components/trip-detail.jade:560
+msgid "All refueling stations for this trip are now planned."
+msgstr "All refuelling stations for this trip are now planned."
+
+#: views/components/trip-detail.jade:567
+msgid ""
+"Refueling stations not found near one or more automatically scheduled "
+"refueling stops."
+msgstr ""
+"Refuelling stations not found near one or more automatically scheduled "
+"refuelling stops."
+
+#: views/components/trip-detail.jade:571
+msgid ""
+"Review newly scheduled overnight lodging stops before trying to plan "
+"refueling stations again."
+msgstr ""
+"Review newly scheduled overnight lodging stops before trying to plan "
+"refuelling stations again."
+
 #: views/components/trip-toolbar.jade:8
 msgid "Synchronize the trip with TripIt"
 msgstr "Synchronise the trip with TripIt"
- 
+
+#: views/components/trip-toolbar.jade:12
+msgid "Plan refueling stations for this trip"
+msgstr "Plan refuelling stations for this trip"
+
 #: views/welcome/blurbs.jade:64
 msgid ""
 "When you are ready to book, Furkot will take you directly to your favorite "
