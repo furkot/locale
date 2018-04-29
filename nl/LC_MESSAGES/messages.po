@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2018-02-17 18:43-0700\n"
-"PO-Revision-Date: 2018-02-17 23:46+0000\n"
-"Last-Translator: Natalia Kowalczyk <melitele@furkot.com>\n"
-"Language-Team: Dutch <https://translate.furkot.com/projects/furkot/trips/nl/"
-">\n"
+"PO-Revision-Date: 2018-04-29 20:50+0000\n"
+"Last-Translator: Bart Smits <bartsmits99@gmail.com>\n"
+"Language-Team: Dutch <https://translate.furkot.com/projects/furkot/trips/nl/>"
+"\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: views/app.jade:4
 msgid "My Trips"
-msgstr "Mijn reizen"
+msgstr "Mijn Reizen"
 
 #. L10n: square brackets [] denote a link
 #: views/board/board.jade:7 views/tripshot/mixin.jade:225
@@ -1002,9 +1002,8 @@ msgid "Redo change route type"
 msgstr "Soort route wijzigen overdoen"
 
 #: views/components/furkot-data.jade:55
-#, fuzzy
 msgid "Redo travel off road"
-msgstr "Redo reizen off-road"
+msgstr "Off-road reizen overdoen"
 
 #: views/components/furkot-data.jade:56
 #, fuzzy
@@ -1016,23 +1015,19 @@ msgid "Redo keep stop"
 msgstr "Stopplaats behouden overdoen"
 
 #: views/components/furkot-data.jade:58
-#, fuzzy
 msgid "Redo move day"
 msgstr "Dag verplaatsen overdoen"
 
 #: views/components/furkot-data.jade:59
-#, fuzzy
 msgid "Redo plan B"
-msgstr "Plaats toevoegen overdoen"
+msgstr "Plan B overdoen"
 
 #: views/components/furkot-data.jade:60
-#, fuzzy
 msgid "Redo delete route"
-msgstr "Route resetten overdoen"
+msgstr "Route verwijderen overdoen"
 
 #. L10n: Time picker caption: 'Hours' for the hours part. Time picker is displayed wherever user can edit time or duration.
 #: views/components/furkot-data.jade:67
-#, fuzzy
 msgid "Hours"
 msgstr "uren"
 
@@ -1087,7 +1082,6 @@ msgid "Import Trip"
 msgstr "Importeer Reis"
 
 #: views/components/import-dlg.jade:6
-#, fuzzy
 msgid "Select a file to import"
 msgstr "Selecteer een bestand om te importeren"
 
@@ -1144,13 +1138,12 @@ msgid "Invalid CSV file."
 msgstr "Ongeldige CSV-bestand."
 
 #: views/components/import-dlg.jade:34
-#, fuzzy
 msgid ""
 "Supported CSV formats are Garmin Custom POI files and files with at least a "
 "name and either an address or lat and lon columns."
 msgstr ""
-"Ondersteunde formaten zijn CSV Garmin Custom POI-bestanden en bestanden met "
-"ten minste een naam en ofwel een adres of lat en lon columns."
+"Ondersteunde CSV formaten zijn Garmin Custom POI-bestanden en bestanden met "
+"ten minste een naam en ofwel een adres of latiutude en lontitude kolommen."
 
 #. L10n: the curly brackets {} stand for " character
 #: views/components/import-dlg.jade:38 views/components/import-dlg.jade:150
@@ -1159,7 +1152,6 @@ msgid "Enclose fields with commas in double-quotes {}."
 msgstr "Omsluiten velden met komma's in dubbele aanhalingstekens {}."
 
 #: views/components/import-dlg.jade:40
-#, fuzzy
 msgid "Invalid GPX file."
 msgstr "Ongeldig GPX-bestand."
 
@@ -1169,9 +1161,8 @@ msgstr ""
 "GPX schema 1.1 wordt ondersteund. Proprietary extensions worden genegeerd."
 
 #: views/components/import-dlg.jade:43
-#, fuzzy
 msgid "Invalid KML file."
-msgstr "Ongeldige KML-bestand."
+msgstr "Ongeldig KML-bestand."
 
 #: views/components/import-dlg.jade:44 views/components/import-dlg.jade:144
 msgid "Supported KML elements are Placemark and LineString."
@@ -1184,15 +1175,12 @@ msgstr "Ongeldig KMZ-bestand."
 
 #. L10n: pair of _underscores_ denotes different formatting
 #: views/components/import-dlg.jade:49
-#, fuzzy
 msgid ""
 "The URL doesn't serve _KML_, _GPX_, or _CSV_ data or requires a sign on."
 msgstr ""
-"De URL serveert geen _KML_, _GPX_ of _CSV_ gegevens of vraagt ​​om een ​​teken "
-"op."
+"De URL serveert geen _KML_, _GPX_ of _CSV_ gegevens of vraagt om een log in."
 
 #: views/components/import-dlg.jade:50
-#, fuzzy
 msgid ""
 "Try opening the URL directly in the browser and import the downloaded file."
 msgstr ""
@@ -1208,9 +1196,8 @@ msgid "File analyzed successfully."
 msgstr "Bestand met succes geanaliseerd."
 
 #: views/components/import-dlg.jade:57
-#, fuzzy
 msgid "You can select which stops to import."
-msgstr "U kunt kiezen welke stopt om te importeren."
+msgstr "U kunt kiezen welke stoppen om te importeren."
 
 #. L10n: Label for the field that contains the number of stops found in the imported file
 #: views/components/import-dlg.jade:61
@@ -1223,93 +1210,81 @@ msgid "Import stops"
 msgstr "Importeer reis"
 
 #: views/components/import-dlg.jade:71
-#, fuzzy
 msgid "Number of stops to import"
-msgstr "Aantal stops om te importeren"
+msgstr "Aantal stoppen om te importeren"
 
 #. L10n: 'Start at' as in 'Start at this index when importing stops'. Label for the field that allows user to specify index of the first stop to import
 #: views/components/import-dlg.jade:75
-#, fuzzy
 msgctxt "start import at"
 msgid "Start at"
 msgstr "Begin bij"
 
 #: views/components/import-dlg.jade:80
-#, fuzzy
 msgid "Index of the first stop to import"
 msgstr "Index van de eerste stop om te importeren"
 
 #. L10n: Label for the field that allows user to specify what kind of stops to import from a file
 #: views/components/import-dlg.jade:83
-#, fuzzy
 msgid "Filter"
 msgstr "Filter"
 
 #. L10n: 'Matching phrase' is compared to stops when deciding which ones to import
 #: views/components/import-dlg.jade:86
-#, fuzzy
 msgid "Matching phrase"
-msgstr "matching zin"
+msgstr "Zin om te vergelijken"
 
 #. L10n: The phrase is compared to stops when deciding which ones to import
 #: views/components/import-dlg.jade:87 views/components/import-dlg.jade:90
-#, fuzzy
 msgid "Optional phrase to match against stop fields"
-msgstr "Optional phrase aan te passen tegen de aanslag velden"
+msgstr "Optionele zin om te vergelijken met stop velden"
 
 #: views/components/import-dlg.jade:96
 msgid "Reorder stops for the shortest route"
 msgstr "Stopplaatsen herschikken voor de kortste route"
 
 #: views/components/import-dlg.jade:99
-#, fuzzy
 msgid ""
 "When not defined in the imported file, Furkot will use the default stop "
 "duration."
 msgstr ""
-"Als hij niet in het geïmporteerde bestand gedefinieerd, wordt Furkot de "
-"standaard stop duur te gebruiken."
+"Wanneer niet in het geïmporteerde bestand gedefinieerd, gebruikt Furkot de "
+"standaard stop duur."
 
 #. L10n: 'Stopover' is a default duration of a stop, i.e. the time spend at a stop
 #: views/components/import-dlg.jade:102
 #: views/components/trip-config-item.jade:50
 #: views/components/trip-detail.jade:123
-#, fuzzy
 msgid "Stopover"
-msgstr "Halte"
+msgstr "Stopduur"
 
 #. L10n: "Travel by" car/motorcycle/bicycle/on foot - label for the mode of travel
 #: views/components/import-dlg.jade:108
 #: views/components/new-trip-wizard.jade:86
 #: views/components/step-switches.jade:189
-#, fuzzy
 msgid "Travel by"
 msgstr "Reizen per"
 
 #: views/components/import-dlg.jade:111
-#, fuzzy
 msgid "Let Furkot follow roads unless importing off-road routes/tracks."
 msgstr ""
-"Laat Furkot volgen wegen, tenzij het importeren van off-road routes / tracks."
+"Laat Furkot wegen volgen, behalve bij het importeren van off-road routes / "
+"tracks."
 
 #. L10n: Label for the field that allows user to decide whether routes should follow roads or permit off-road travel (the routes shaped manually)
 #: views/components/import-dlg.jade:114 views/components/step-detail.jade:707
-#, fuzzy
 msgid "Routing"
-msgstr "Routing"
+msgstr "Wegvolging"
 
 #. L10n: 'Follow roads' - Furkot will automatically calculate routes that go over public roads - as opposed to 'Travel off-road' - user can shape routes manually without any constraint
 #: views/components/import-dlg.jade:117 views/components/step-detail.jade:709
-#, fuzzy
 msgid "Follow roads"
-msgstr "Tolwegen"
+msgstr "Volg wegen"
 
 #. L10n: 'Travel off-road' - user can shape routes manually without any constraint - as opposed to 'Follow roads' - Furkot will automatically calculate routes that go over public roads
 #: views/components/import-dlg.jade:117 views/components/import-dlg.jade:120
 #: views/components/step-detail.jade:708
-#, fuzzy
 msgid "Travel off road"
-msgstr "Reizen deze route"
+msgstr "Reis off-road"
 
 #: views/components/import-dlg.jade:125
 #, fuzzy
@@ -1317,15 +1292,14 @@ msgid ""
 "Not all routes/tracks have timing data. Furkot will use an average speed "
 "instead."
 msgstr ""
-"Niet alle routes/tracks hebben tijdsgegevens. Furkot gebruikt in de plaats "
-"de gemiddelde snelheid."
+"Niet alle routes/tracks hebben tijdsgegevens. Furkot gebruikt de gemiddelde "
+"snelheid."
 
 #: views/components/import-dlg.jade:126
-#, fuzzy
 msgid "For routes/tracks without timing data Furkot will use an average speed."
 msgstr ""
-"Niet alle routes/tracks hebben tijdsgegevens. Furkot gebruikt in de plaats "
-"de gemiddelde snelheid."
+"Niet alle routes/tracks hebben tijdsgegevens. Furkot gebruikt de gemiddelde "
+"snelheid."
 
 #: views/components/import-dlg.jade:128
 msgid "Average speed"
@@ -1376,13 +1350,12 @@ msgstr ""
 "worden de routes genegeerd."
 
 #: views/components/import-dlg.jade:148
-#, fuzzy
 msgid ""
 "Supported CSV formats are Garmin Custom POI file and files with at least "
 "name and either address or lat and lon columns."
 msgstr ""
-"Ondersteunde formaten zijn CSV Garmin Custom POI-bestand en bestanden met "
-"tenminste naam en ofwel adres of lat en lon columns."
+"Ondersteunde CSV formaten zijn Garmin Custom POI-bestanden en bestanden met "
+"tenminste een naam en ofwel adres of latitude en longitude kolommen."
 
 #: views/components/import-dlg.jade:152
 msgid ""
@@ -1404,13 +1377,11 @@ msgstr "Importeer"
 
 #. L10n: 'zoom in' meaning 'change map scale to show less area but more details'
 #: views/components/keyboard-shortcuts.jade:14
-#, fuzzy
 msgid "zoom in"
 msgstr "Inzoomen"
 
 #. L10n: 'zoom out' meaning 'change map scale to show more area but less details'
 #: views/components/keyboard-shortcuts.jade:16
-#, fuzzy
 msgid "zoom out"
 msgstr "Uitzoomen"
 
@@ -1421,15 +1392,13 @@ msgstr "toon volledige reis"
 
 #. L10n: 'center active stop' as in 'center the map on the active stop'. 'Active' stop is the one selected in the Plan drawer
 #: views/components/keyboard-shortcuts.jade:20
-#, fuzzy
 msgid "center active stop"
-msgstr "Verwijder dit stop"
+msgstr "Zet centrum kaart op actieve stop"
 
 #. L10n: 'next stop' meaning the stop following the one currently selected as displayed in the Plan drawer
 #: views/components/keyboard-shortcuts.jade:22
-#, fuzzy
 msgid "select next stop"
-msgstr "Verwijderen stop"
+msgstr "Selecteer volgende stop"
 
 #. L10n: 'previous stop' meaning the stop preceding the one currently selected as displayed in the Plan drawer
 #: views/components/keyboard-shortcuts.jade:24
