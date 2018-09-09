@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2018-09-05 11:25-0600\n"
+"POT-Creation-Date: 2018-09-09 08:51-0600\n"
 "PO-Revision-Date: 2018-01-30 09:16+0000\n"
 "Last-Translator: Juha Hytonen <juhahytonen@me.com>\n"
 "Language-Team: Finnish <https://translate.furkot.com/projects/furkot/trips/"
@@ -25,17 +25,17 @@ msgid "Plan with [Furkot]"
 msgstr "Suunnitelma [Furkot]"
 
 #. L10n: 'Zoom in' meaning 'Change map scale to show less area but more details'
-#: views/board/board.jade:14 views/components/map.jade:37
+#: views/board/board.jade:14 views/components/map.jade:56
 msgid "Zoom in"
 msgstr "Lähennä"
 
 #. L10n: 'Zoom out' meaning 'Change map scale to show more area but less details'
-#: views/board/board.jade:15 views/components/map.jade:40
+#: views/board/board.jade:15 views/components/map.jade:59
 msgid "Zoom out"
 msgstr "Loitonna"
 
 #. L10n: 'Show he entire trip' as in 'Show all stops of the trip on the map'
-#: views/board/board.jade:17 views/components/map.jade:44
+#: views/board/board.jade:17 views/components/map.jade:63
 msgid "Show the entire trip"
 msgstr "Näytä koko matka"
 
@@ -52,10 +52,11 @@ msgstr "Ehdota"
 #: views/board/board.jade:32 views/components/accounts.jade:82
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:13
 #: views/components/dialog.jade:7 views/components/import-dlg.jade:158
-#: views/components/navigation.jade:2 views/components/network.jade:2
-#: views/components/place-switch.jade:447 views/components/plan-msg.jade:2
-#: views/components/share-dlg.jade:101 views/components/share-dlg.jade:112
-#: views/components/share-dlg.jade:124 views/components/step-detail.jade:822
+#: views/components/map.jade:229 views/components/navigation.jade:2
+#: views/components/network.jade:2 views/components/place-switch.jade:447
+#: views/components/plan-msg.jade:2 views/components/share-dlg.jade:101
+#: views/components/share-dlg.jade:112 views/components/share-dlg.jade:124
+#: views/components/step-detail.jade:822
 #: views/components/step-switches.jade:118
 #: views/components/step-switches.jade:129
 #: views/components/step-switches.jade:140
@@ -69,7 +70,7 @@ msgstr "Ehdota"
 #: views/components/trip-detail.jade:502 views/components/trip-detail.jade:507
 #: views/components/trip-detail.jade:515 views/components/trip-detail.jade:525
 #: views/components/trip-detail.jade:533 views/components/trip-detail.jade:541
-#: views/components/trip-detail.jade:551 views/components/trip-detail.jade:574
+#: views/components/trip-detail.jade:551 views/components/trip-detail.jade:575
 #: views/components/trip-toolbar.jade:18 views/tripshot/mixin.jade:113
 msgid "Cancel"
 msgstr "Peruuta"
@@ -236,12 +237,12 @@ msgid "Connected Accounts"
 msgstr "yhdistettyjä tilejä"
 
 #: views/components/accounts.jade:83 views/components/add-stops.jade:2
-#: views/components/add-stops.jade:13 views/components/navigation.jade:2
-#: views/components/network.jade:2 views/components/place-switch.jade:448
-#: views/components/plan-msg.jade:2 views/components/plan-msg.jade:17
-#: views/components/share-dlg.jade:101 views/components/share-dlg.jade:112
-#: views/components/share-dlg.jade:124 views/components/share-dlg.jade:136
-#: views/components/step-switches.jade:118
+#: views/components/add-stops.jade:13 views/components/map.jade:229
+#: views/components/navigation.jade:2 views/components/network.jade:2
+#: views/components/place-switch.jade:448 views/components/plan-msg.jade:2
+#: views/components/plan-msg.jade:17 views/components/share-dlg.jade:101
+#: views/components/share-dlg.jade:112 views/components/share-dlg.jade:124
+#: views/components/share-dlg.jade:136 views/components/step-switches.jade:118
 #: views/components/step-switches.jade:129
 #: views/components/step-switches.jade:140
 #: views/components/step-switches.jade:148
@@ -256,7 +257,7 @@ msgstr "yhdistettyjä tilejä"
 #: views/components/trip-detail.jade:533 views/components/trip-detail.jade:541
 #: views/components/trip-detail.jade:551 views/components/trip-detail.jade:558
 #: views/components/trip-detail.jade:566 views/components/trip-detail.jade:570
-#: views/components/trip-detail.jade:574 views/components/trip-toolbar.jade:18
+#: views/components/trip-detail.jade:575 views/components/trip-toolbar.jade:18
 #: views/components/warning.jade:9 views/tripshot/mixin.jade:116
 #, fuzzy
 msgid "OK"
@@ -276,8 +277,8 @@ msgstr "kunnossa"
 #: views/components/trip-detail.jade:165 views/components/trip-detail.jade:313
 #: views/components/trip-detail.jade:380 views/components/trip-detail.jade:432
 #: views/components/trip-detail.jade:465 views/components/trip-detail.jade:496
-#: views/components/trip-detail.jade:588 views/components/trip-detail.jade:596
-#: views/components/trip-detail.jade:602 views/components/trip-toolbar.jade:44
+#: views/components/trip-detail.jade:589 views/components/trip-detail.jade:597
+#: views/components/trip-detail.jade:603 views/components/trip-toolbar.jade:44
 #: views/tripshot/mixin.jade:119 views/tripshot/mixin.jade:150
 #, fuzzy
 msgid "Learn more"
@@ -1770,70 +1771,100 @@ msgstr "Omat matkat"
 msgid "Change map view"
 msgstr "Muuta karttanäkymä"
 
-#. L10n: Label for the option to select how routes displayed on the map are colored
+#. L10n: Label for additional layers to be displayed over the map like terrain shapes, elevation contours
 #: views/components/map.jade:18
+#, fuzzy
+msgid "Map Overlays"
+msgstr "kartta Päällekkäiskuvat"
+
+#: views/components/map.jade:21
+#, fuzzy
+msgid "Hide terrain features"
+msgstr "Piilota puistojen ja luonnon erityispiirteet"
+
+#: views/components/map.jade:22
+#, fuzzy
+msgid "Show terrain features (topo map)"
+msgstr "Näytä maasto ominaisuuksia (Topo kartta)"
+
+#. L10n: Label for the option to select how routes displayed on the map are colored
+#: views/components/map.jade:28
 #, fuzzy
 msgid "Color Routes"
 msgstr "väri Reitit"
 
 #. L10n: 'Travel off road / follow roads' as in 'Use different colors to distinguish between routes set to Travel off road vs follow roads'
-#: views/components/map.jade:21
+#: views/components/map.jade:31
 #, fuzzy
 msgid "Travel off road / follow roads"
 msgstr "Matkustaa off road / seurata tiet"
 
 #. L10n: 'Alternate days' as in 'Alternate colors to differentiate between subsequent days of the trip'
-#: views/components/map.jade:25
+#: views/components/map.jade:35
 #, fuzzy
 msgid "Alternate days"
 msgstr "toinen päivä"
 
 #. L10n: 'Outbound / inbound leg' as in 'Use different colors to distinguish between Outbound vs inbound leg of the trip'. Outbound leg is going out to the mid point, while the inbound leg means returning to the starting point. Outbound and inbound legs have meaning for loop trips only
-#: views/components/map.jade:29
+#: views/components/map.jade:39
 #, fuzzy
 msgid "Outbound / inbound leg"
 msgstr "Lähtevän / tulevan jalka"
 
 #. L10n: 'Individual route colors' as in 'Display routes on the map in their Individual route colors as assigned in the Plan drawer'
-#: views/components/map.jade:33
+#: views/components/map.jade:43
 #, fuzzy
 msgid "Individual route colors"
 msgstr "Reitin yksittäisten värit"
 
-#: views/components/map.jade:47
+#. L10n: Label for a link to Furkot translation website (this website)
+#: views/components/map.jade:48 views/footer.jade:28
+#, fuzzy
+msgid "Translate"
+msgstr "Kääntää"
+
+#: views/components/map.jade:51
+msgid "Translate map names to user language"
+msgstr ""
+
+#: views/components/map.jade:52
+msgid "Display map names in local language"
+msgstr ""
+
+#: views/components/map.jade:66
 #, fuzzy
 msgid "Center map on the selected stop"
 msgstr "Keskitä kartta valitusta seis"
 
-#: views/components/map.jade:49
+#: views/components/map.jade:68
 #, fuzzy
 msgid "Center map on the current location"
 msgstr "Keskitä kartta valitusta seis"
 
 #. L10n: 'places' means 'places displayed on the map'
-#: views/components/map.jade:58
+#: views/components/map.jade:77
 #, fuzzy
 msgid "Hide places"
 msgstr "Piilota paikkoja"
 
 #. L10n: 'places' means 'places displayed on the map'
-#: views/components/map.jade:58 views/components/map.jade:61
+#: views/components/map.jade:77 views/components/map.jade:80
 #, fuzzy
 msgid "Show places"
 msgstr "Näytä paikkoja"
 
-#: views/components/map.jade:64
+#: views/components/map.jade:83
 #, fuzzy
 msgid "Find a place"
 msgstr "Kumoa lisätä paikka"
 
-#: views/components/map.jade:66 views/components/trips.jade:7
+#: views/components/map.jade:85 views/components/trips.jade:7
 #, fuzzy
 msgid "Import trip"
 msgstr "tuonti matka"
 
 #. L10n: curly brackets {} denote a placeholder for the user name
-#: views/components/map.jade:68
+#: views/components/map.jade:87
 #, fuzzy
 msgid ""
 "This trip has been modified by {}. If you want to see changes, click the "
@@ -1842,7 +1873,7 @@ msgstr ""
 "Tämä matka on muutettu {}. Jos haluat nähdä muutokset painiketta yllä "
 "päivittää tätä matkaa"
 
-#: views/components/map.jade:72 views/components/plan-msg.jade:18
+#: views/components/map.jade:91 views/components/plan-msg.jade:18
 #, fuzzy
 msgid ""
 "You can only view this trip. If you want to modify it, contact this trip "
@@ -1851,7 +1882,7 @@ msgstr ""
 "Voit vain katsella tätä matkaa. Jos haluat muuttaa sitä, ota tämä matka "
 "omistajaan"
 
-#: views/components/map.jade:76
+#: views/components/map.jade:95
 #, fuzzy
 msgid ""
 "Furkot is using cached data only. Click the button above to refresh this trip"
@@ -1859,7 +1890,7 @@ msgstr ""
 "Tämä matka on vain luku -tilassa. Klikkaamalla yllä olevaa painiketta "
 "muokata tätä matkaa"
 
-#: views/components/map.jade:78
+#: views/components/map.jade:97
 #, fuzzy
 msgid ""
 "Furkot has been inactive for a while and switched your trip to view-only "
@@ -1869,12 +1900,12 @@ msgstr ""
 "katseltavissa vain tilassa estää tietojen häviämisen. Klikkaamalla yllä "
 "olevaa painiketta päivittää tätä matkaa"
 
-#: views/components/map.jade:80
+#: views/components/map.jade:99
 #, fuzzy
 msgid "Done editing trip"
 msgstr "Muokkaus valmis matka"
 
-#: views/components/map.jade:80
+#: views/components/map.jade:99
 #, fuzzy
 msgid ""
 "This trip is in view-only mode. Click the button above to edit this trip"
@@ -1882,124 +1913,147 @@ msgstr ""
 "Tämä matka on vain luku -tilassa. Klikkaamalla yllä olevaa painiketta "
 "muokata tätä matkaa"
 
-#: views/components/map.jade:83
+#: views/components/map.jade:102
 #, fuzzy
 msgid "Furkot guided tour"
 msgstr "Furkot opastettu kierros"
 
-#: views/components/map.jade:88 views/components/step-switches.jade:109
+#: views/components/map.jade:107 views/components/step-switches.jade:109
 #, fuzzy
 msgid "Nothing to display. Internet connection may be down."
 msgstr "Mitään näytettävää. Internet-yhteys ei toimi."
 
-#: views/components/map.jade:92
+#: views/components/map.jade:111
 #, fuzzy
 msgid "Show map"
 msgstr "Näytä kartta"
 
 #. L10n: Label on the button that shows map (visible only on phone/tablet screen)
-#: views/components/map.jade:97
+#: views/components/map.jade:116
 #, fuzzy
 msgid "Map"
 msgstr "Kartta"
 
-#: views/components/map.jade:102
+#: views/components/map.jade:121
 #, fuzzy
 msgid "Hide trip details"
 msgstr "Piilota matkan tiedot"
 
-#: views/components/map.jade:103
+#: views/components/map.jade:122
 #, fuzzy
 msgid "Show trip details"
 msgstr "Näytä matkan yksityiskohdat"
 
 #. L10n: Label on the handle of the Trip drawer. Shorter word is better; ideally words for other handles (Plan, Sleep, Eat, Find) will not be longer
 #. L10n: Label for time/distance covered since beginning of the trip
-#: views/components/map.jade:108 views/components/step-detail.jade:546
+#: views/components/map.jade:127 views/components/step-detail.jade:546
 #, fuzzy
 msgid "Trip"
 msgstr "Matka"
 
-#: views/components/map.jade:113
+#: views/components/map.jade:132
 #, fuzzy
 msgid "Hide trip itinerary"
 msgstr "Piilota matkareitti"
 
-#: views/components/map.jade:114
+#: views/components/map.jade:133
 #, fuzzy
 msgid "Show trip itinerary"
 msgstr "Näytä matkareitti"
 
 #. L10n: Label on the handle of the Plan drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Plan' can be also translated as 'Itinerary' or 'Schedule'
-#: views/components/map.jade:119
+#: views/components/map.jade:138
 #, fuzzy
 msgid "Plan"
 msgstr "Suunnitelma"
 
-#: views/components/map.jade:124
+#: views/components/map.jade:143
 #, fuzzy
 msgid "Hide nearby lodging accommodations"
 msgstr "Piilota lähellä majapaikkavaihtoehdon"
 
-#: views/components/map.jade:125
+#: views/components/map.jade:144
 #, fuzzy
 msgid "Show nearby lodging accommodations"
 msgstr "Näytä lähistön majapaikkavaihtoehdon"
 
 #. L10n: Label on the handle of the Sleep drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Sleep' can be also translated as 'Lodgings'
-#: views/components/map.jade:130
+#: views/components/map.jade:149
 #, fuzzy
 msgid "Sleep"
 msgstr "Nukkua"
 
-#: views/components/map.jade:135
+#: views/components/map.jade:154
 #, fuzzy
 msgid "Hide places to eat, drink and get fuel"
 msgstr "Piilota paikkoja syödä, juoda ja saada polttoainetta"
 
-#: views/components/map.jade:136
+#: views/components/map.jade:155
 #, fuzzy
 msgid "Show me where to eat, drink and get fuel"
 msgstr "Näytä minulle missä syödä, juoda ja saada polttoainetta"
 
 #. L10n: Label on the handle of the Eat drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Eat' can be also translated as 'Food', 'Establishments' (as in businesses) or 'Services'
-#: views/components/map.jade:141
+#: views/components/map.jade:160
 #, fuzzy
 msgid "Eat"
 msgstr "Syödä"
 
-#: views/components/map.jade:146
+#: views/components/map.jade:165
 #, fuzzy
 msgid "Hide points of interest"
 msgstr "Piilota kiinnostaviin"
 
-#: views/components/map.jade:147 views/components/step-switches.jade:115
+#: views/components/map.jade:166 views/components/step-switches.jade:115
 #, fuzzy
 msgid "Show points of interest"
 msgstr "Näytä kiinnostaviin"
 
 #. L10n: Label on the handle of the Find drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Find' can be also translated as 'Search', 'Places of Interest', 'Points of Interest' or 'Attractions'
-#: views/components/map.jade:152
+#: views/components/map.jade:171
 #, fuzzy
 msgid "Find"
 msgstr "löytö"
 
-#: views/components/map.jade:178
+#: views/components/map.jade:197
 #, fuzzy
 msgid "Drag to change route"
 msgstr "Muuta reittiä vetämällä"
 
 #. L10n: 'Click to select' as in 'Click on the route to select it'
-#: views/components/map.jade:180
+#: views/components/map.jade:199
 #, fuzzy
 msgid "Click to select"
 msgstr "Valitse"
 
 #. L10n: hint displayed when user hover over map
-#: views/components/map.jade:182
+#: views/components/map.jade:201
 #, fuzzy
 msgid "Click to add a new stop here"
 msgstr "Klikkaa ja lisää uuden lopettaa tähän"
+
+#: views/components/map.jade:229 views/components/trip-detail.jade:575
+msgid "Experimental Feature"
+msgstr ""
+
+#: views/components/map.jade:230
+msgid "Topo map is an experimental feature."
+msgstr ""
+
+#: views/components/map.jade:231 views/components/trip-detail.jade:577
+msgid ""
+"We are actively working to improve it. If you experience problems please "
+"contact us."
+msgstr ""
+
+#: views/components/map.jade:232 views/components/trip-detail.jade:578
+msgid "This feature may be discontinued without notice."
+msgstr ""
+
+#: views/components/map.jade:233 views/components/trip-detail.jade:579
+msgid ""
+"We reserve the right to introduce use limits or establish a fee-based access."
+msgstr ""
 
 #: views/components/navigation.jade:2
 #, fuzzy
@@ -7910,40 +7964,22 @@ msgid ""
 "refueling stops."
 msgstr "Tämä on automaattisesti ajoitettu tankkauspysähdyksen."
 
-#: views/components/trip-detail.jade:571
+#. L10n: Displayed when planning refuelin stations (assigning stations to refueling stops) was terminated prematurely because additional overnight lodging stops have been added in the process of planning refueling stations
+#: views/components/trip-detail.jade:572
 msgid ""
 "Review newly scheduled overnight lodging stops before trying to plan "
 "refueling stations again."
 msgstr ""
 
-#: views/components/trip-detail.jade:574
-msgid "Experimental Feature"
-msgstr ""
-
-#: views/components/trip-detail.jade:575
+#: views/components/trip-detail.jade:576
 msgid "Downolading map for offline use is an experimental feature."
 msgstr ""
 
-#: views/components/trip-detail.jade:576
-msgid ""
-"We are actively working to improve it. If you experience problems please "
-"contact us."
-msgstr ""
-
-#: views/components/trip-detail.jade:577
-msgid "This feature may be discontinued without notice."
-msgstr ""
-
-#: views/components/trip-detail.jade:578
-msgid ""
-"We reserve the right to introduce use limits or establish a fee-based access."
-msgstr ""
-
-#: views/components/trip-detail.jade:585
+#: views/components/trip-detail.jade:586
 msgid "Update the cache while viewing the OSM map"
 msgstr ""
 
-#: views/components/trip-detail.jade:590
+#: views/components/trip-detail.jade:591
 #, fuzzy
 msgid "Fold this section"
 msgstr "Kertainen tässä osiossa"
@@ -8210,12 +8246,6 @@ msgstr "blogi"
 #, fuzzy
 msgid "Affiliates"
 msgstr "Kumppanit"
-
-#. L10n: Label for a link to Furkot translation website (this website)
-#: views/footer.jade:28
-#, fuzzy
-msgid "Translate"
-msgstr "Kääntää"
 
 #: views/footer.jade:31 views/footer.jade:35 views/welcome/index.jade:25
 #: views/welcome/index.jade:29
@@ -8772,100 +8802,44 @@ msgstr ""
 "vaihtoehtoja."
 
 #, fuzzy
-#~ msgid "Map Type"
-#~ msgstr "kartta Tyyppi"
+#~ msgid "See description of this ski resort at EpicSki"
+#~ msgstr "Katso kuvaus tästä hiihtokeskuksen EpicSki"
 
 #, fuzzy
-#~ msgid "Show normal road map"
-#~ msgstr "Näytä normaali tiekartta"
+#~ msgid "See user reviews at Fodor's Travel"
+#~ msgstr "See user tarkasteluihin YTJ: n Travel"
 
 #, fuzzy
-#~ msgid "Show satellite imagery"
-#~ msgstr "Näytä satelliittikuvat"
+#~ msgid "Keep this automatically scheduled stop"
+#~ msgstr "Pidä tämä automaattisesti ajastettu pysäytys"
 
 #, fuzzy
-#~ msgid "Show terrain features (topo map)"
-#~ msgstr "Näytä maasto ominaisuuksia (Topo kartta)"
+#~ msgid "view only"
+#~ msgstr "näkymä vain"
 
 #, fuzzy
-#~ msgid "Show alternative road map"
-#~ msgstr "Näytä normaali tiekartta"
+#~ msgid "See user reviews at EpicSki"
+#~ msgstr "See user tarkasteluihin EpicSki"
 
 #, fuzzy
-#~ msgid "Map Overlays"
-#~ msgstr "kartta Päällekkäiskuvat"
+#~ msgid "See this ski resort own website"
+#~ msgstr "Katso tästä hiihtokeskus oma verkkosivusto"
 
 #, fuzzy
-#~ msgid "Hide road overlay"
-#~ msgstr "Piilota tien overlay"
+#~ msgid "Hide ski resorts from EpicSki"
+#~ msgstr "Piilota hiihtokeskuksissa EpicSki"
 
 #, fuzzy
-#~ msgid "Show major roads over satellite imagery"
-#~ msgstr "Näytä pääväyliä yli satelliittikuvista"
+#~ msgid "Ski resorts from EpicSki"
+#~ msgstr "Hiihtokeskuksissa EpicSki"
 
 #, fuzzy
-#~ msgid "Hide current weather overlay"
-#~ msgstr "Piilota säätiedot overlay"
+#~ msgid "Keep"
+#~ msgstr "Pitää"
 
 #, fuzzy
-#~ msgid "Show current weather on map"
-#~ msgstr "Näytä nykyinen sää kartalla"
-
-#, fuzzy
-#~ msgid "Directions"
-#~ msgstr "ohjeet"
-
-#, fuzzy
-#~ msgid "See this place page at Google"
-#~ msgstr "Katso tämä paikka sivua Googlen"
-
-#, fuzzy
-#~ msgid "See guest reviews at Google"
-#~ msgstr "Katso arviota Googlella"
-
-#, fuzzy
-#~ msgid "Places to visit and overnight lodgings"
-#~ msgstr "Käyntikohteista ja yön yli majoitusta"
-
-#, fuzzy
-#~ msgid "Gas stations from myGasFeed"
-#~ msgstr "Huoltoasemat alkaen myGasFeed"
-
-#, fuzzy
-#~ msgid "See author's profile at EveryTrail"
-#~ msgstr "Katso kirjoittajan profiili Everytrail"
-
-#, fuzzy
-#~ msgid "Let Furkot guide you"
-#~ msgstr "Let Furkot opastaa"
-
-#, fuzzy
-#~ msgid "All stops including pass-through points"
-#~ msgstr "Kaikki pysähtyy lukien pass-through pisteiden"
-
-#, fuzzy
-#~ msgid "Hide gas stations from myGasFeed"
-#~ msgstr "Piilota huoltoasemat maasta myGasFeed"
-
-#, fuzzy
-#~ msgid "Plan refueling station"
-#~ msgstr "Huoltoasemat"
-
-#, fuzzy
-#~ msgid "Be on your own"
-#~ msgstr "Omillasi"
-
-#, fuzzy
-#~ msgid "Comments"
-#~ msgstr "Kommentit"
-
-#, fuzzy
-#~ msgid "Guided Tour"
-#~ msgstr "Opastettu kiertoajelu"
-
-#, fuzzy
-#~ msgid "No hotels around."
-#~ msgstr "Ole hotelleja ympärillä."
+#~ msgid "Add new stop"
+#~ msgstr "Lisää pysäkkilista"
 
 #, fuzzy
 #~ msgid ""
@@ -8876,41 +8850,89 @@ msgstr ""
 #~ "ominaisuuksia."
 
 #, fuzzy
-#~ msgid "Add new stop"
-#~ msgstr "Lisää pysäkkilista"
+#~ msgid "No hotels around."
+#~ msgstr "Ole hotelleja ympärillä."
 
 #, fuzzy
-#~ msgid "Keep"
-#~ msgstr "Pitää"
+#~ msgid "Guided Tour"
+#~ msgstr "Opastettu kiertoajelu"
 
 #, fuzzy
-#~ msgid "Ski resorts from EpicSki"
-#~ msgstr "Hiihtokeskuksissa EpicSki"
+#~ msgid "Comments"
+#~ msgstr "Kommentit"
 
 #, fuzzy
-#~ msgid "Hide ski resorts from EpicSki"
-#~ msgstr "Piilota hiihtokeskuksissa EpicSki"
+#~ msgid "Be on your own"
+#~ msgstr "Omillasi"
 
 #, fuzzy
-#~ msgid "See this ski resort own website"
-#~ msgstr "Katso tästä hiihtokeskus oma verkkosivusto"
+#~ msgid "Plan refueling station"
+#~ msgstr "Huoltoasemat"
 
 #, fuzzy
-#~ msgid "See user reviews at EpicSki"
-#~ msgstr "See user tarkasteluihin EpicSki"
+#~ msgid "Hide gas stations from myGasFeed"
+#~ msgstr "Piilota huoltoasemat maasta myGasFeed"
 
 #, fuzzy
-#~ msgid "view only"
-#~ msgstr "näkymä vain"
+#~ msgid "All stops including pass-through points"
+#~ msgstr "Kaikki pysähtyy lukien pass-through pisteiden"
 
 #, fuzzy
-#~ msgid "Keep this automatically scheduled stop"
-#~ msgstr "Pidä tämä automaattisesti ajastettu pysäytys"
+#~ msgid "Let Furkot guide you"
+#~ msgstr "Let Furkot opastaa"
 
 #, fuzzy
-#~ msgid "See user reviews at Fodor's Travel"
-#~ msgstr "See user tarkasteluihin YTJ: n Travel"
+#~ msgid "See author's profile at EveryTrail"
+#~ msgstr "Katso kirjoittajan profiili Everytrail"
 
 #, fuzzy
-#~ msgid "See description of this ski resort at EpicSki"
-#~ msgstr "Katso kuvaus tästä hiihtokeskuksen EpicSki"
+#~ msgid "Gas stations from myGasFeed"
+#~ msgstr "Huoltoasemat alkaen myGasFeed"
+
+#, fuzzy
+#~ msgid "Places to visit and overnight lodgings"
+#~ msgstr "Käyntikohteista ja yön yli majoitusta"
+
+#, fuzzy
+#~ msgid "See guest reviews at Google"
+#~ msgstr "Katso arviota Googlella"
+
+#, fuzzy
+#~ msgid "See this place page at Google"
+#~ msgstr "Katso tämä paikka sivua Googlen"
+
+#, fuzzy
+#~ msgid "Directions"
+#~ msgstr "ohjeet"
+
+#, fuzzy
+#~ msgid "Show current weather on map"
+#~ msgstr "Näytä nykyinen sää kartalla"
+
+#, fuzzy
+#~ msgid "Hide current weather overlay"
+#~ msgstr "Piilota säätiedot overlay"
+
+#, fuzzy
+#~ msgid "Show major roads over satellite imagery"
+#~ msgstr "Näytä pääväyliä yli satelliittikuvista"
+
+#, fuzzy
+#~ msgid "Hide road overlay"
+#~ msgstr "Piilota tien overlay"
+
+#, fuzzy
+#~ msgid "Show alternative road map"
+#~ msgstr "Näytä normaali tiekartta"
+
+#, fuzzy
+#~ msgid "Show satellite imagery"
+#~ msgstr "Näytä satelliittikuvat"
+
+#, fuzzy
+#~ msgid "Show normal road map"
+#~ msgstr "Näytä normaali tiekartta"
+
+#, fuzzy
+#~ msgid "Map Type"
+#~ msgstr "kartta Tyyppi"

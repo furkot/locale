@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2018-09-05 11:25-0600\n"
+"POT-Creation-Date: 2018-09-09 08:51-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,17 +21,17 @@ msgid "Plan with [Furkot]"
 msgstr ""
 
 #. L10n: 'Zoom in' meaning 'Change map scale to show less area but more details'
-#: views/board/board.jade:14 views/components/map.jade:37
+#: views/board/board.jade:14 views/components/map.jade:56
 msgid "Zoom in"
 msgstr ""
 
 #. L10n: 'Zoom out' meaning 'Change map scale to show more area but less details'
-#: views/board/board.jade:15 views/components/map.jade:40
+#: views/board/board.jade:15 views/components/map.jade:59
 msgid "Zoom out"
 msgstr ""
 
 #. L10n: 'Show he entire trip' as in 'Show all stops of the trip on the map'
-#: views/board/board.jade:17 views/components/map.jade:44
+#: views/board/board.jade:17 views/components/map.jade:63
 msgid "Show the entire trip"
 msgstr ""
 
@@ -50,6 +50,7 @@ msgstr ""
 #: views/components/add-stops.jade:13
 #: views/components/dialog.jade:7
 #: views/components/import-dlg.jade:158
+#: views/components/map.jade:229
 #: views/components/navigation.jade:2
 #: views/components/network.jade:2
 #: views/components/place-switch.jade:447
@@ -77,7 +78,7 @@ msgstr ""
 #: views/components/trip-detail.jade:533
 #: views/components/trip-detail.jade:541
 #: views/components/trip-detail.jade:551
-#: views/components/trip-detail.jade:574
+#: views/components/trip-detail.jade:575
 #: views/components/trip-toolbar.jade:18
 #: views/tripshot/mixin.jade:113
 msgid "Cancel"
@@ -236,6 +237,7 @@ msgstr ""
 #: views/components/accounts.jade:83
 #: views/components/add-stops.jade:2
 #: views/components/add-stops.jade:13
+#: views/components/map.jade:229
 #: views/components/navigation.jade:2
 #: views/components/network.jade:2
 #: views/components/place-switch.jade:448
@@ -268,7 +270,7 @@ msgstr ""
 #: views/components/trip-detail.jade:558
 #: views/components/trip-detail.jade:566
 #: views/components/trip-detail.jade:570
-#: views/components/trip-detail.jade:574
+#: views/components/trip-detail.jade:575
 #: views/components/trip-toolbar.jade:18
 #: views/components/warning.jade:9 views/tripshot/mixin.jade:116
 msgid "OK"
@@ -299,9 +301,9 @@ msgstr ""
 #: views/components/trip-detail.jade:432
 #: views/components/trip-detail.jade:465
 #: views/components/trip-detail.jade:496
-#: views/components/trip-detail.jade:588
-#: views/components/trip-detail.jade:596
-#: views/components/trip-detail.jade:602
+#: views/components/trip-detail.jade:589
+#: views/components/trip-detail.jade:597
+#: views/components/trip-detail.jade:603
 #: views/components/trip-toolbar.jade:44
 #: views/tripshot/mixin.jade:119 views/tripshot/mixin.jade:150
 msgid "Learn more"
@@ -1556,190 +1558,244 @@ msgstr ""
 msgid "Change map view"
 msgstr ""
 
-#. L10n: Label for the option to select how routes displayed on the map are colored
+#. L10n: Label for additional layers to be displayed over the map like terrain shapes, elevation contours
 #: views/components/map.jade:18
+msgid "Map Overlays"
+msgstr ""
+
+#: views/components/map.jade:21
+msgid "Hide terrain features"
+msgstr ""
+
+#: views/components/map.jade:22
+msgid "Show terrain features (topo map)"
+msgstr ""
+
+#. L10n: Label for the option to select how routes displayed on the map are colored
+#: views/components/map.jade:28
 msgid "Color Routes"
 msgstr ""
 
 #. L10n: 'Travel off road / follow roads' as in 'Use different colors to distinguish between routes set to Travel off road vs follow roads'
-#: views/components/map.jade:21
+#: views/components/map.jade:31
 msgid "Travel off road / follow roads"
 msgstr ""
 
 #. L10n: 'Alternate days' as in 'Alternate colors to differentiate between subsequent days of the trip'
-#: views/components/map.jade:25
+#: views/components/map.jade:35
 msgid "Alternate days"
 msgstr ""
 
 #. L10n: 'Outbound / inbound leg' as in 'Use different colors to distinguish between Outbound vs inbound leg of the trip'. Outbound leg is going out to the mid point, while the inbound leg means returning to the starting point. Outbound and inbound legs have meaning for loop trips only
-#: views/components/map.jade:29
+#: views/components/map.jade:39
 msgid "Outbound / inbound leg"
 msgstr ""
 
 #. L10n: 'Individual route colors' as in 'Display routes on the map in their Individual route colors as assigned in the Plan drawer'
-#: views/components/map.jade:33
+#: views/components/map.jade:43
 msgid "Individual route colors"
 msgstr ""
 
-#: views/components/map.jade:47
+#. L10n: Label for a link to Furkot translation website (this website)
+#: views/components/map.jade:48 views/footer.jade:28
+msgid "Translate"
+msgstr ""
+
+#: views/components/map.jade:51
+msgid "Translate map names to user language"
+msgstr ""
+
+#: views/components/map.jade:52
+msgid "Display map names in local language"
+msgstr ""
+
+#: views/components/map.jade:66
 msgid "Center map on the selected stop"
 msgstr ""
 
-#: views/components/map.jade:49
+#: views/components/map.jade:68
 msgid "Center map on the current location"
 msgstr ""
 
 #. L10n: 'places' means 'places displayed on the map'
-#: views/components/map.jade:58
+#: views/components/map.jade:77
 msgid "Hide places"
 msgstr ""
 
 #. L10n: 'places' means 'places displayed on the map'
-#: views/components/map.jade:58 views/components/map.jade:61
+#: views/components/map.jade:77 views/components/map.jade:80
 msgid "Show places"
 msgstr ""
 
-#: views/components/map.jade:64
+#: views/components/map.jade:83
 msgid "Find a place"
 msgstr ""
 
-#: views/components/map.jade:66 views/components/trips.jade:7
+#: views/components/map.jade:85 views/components/trips.jade:7
 msgid "Import trip"
 msgstr ""
 
 #. L10n: curly brackets {} denote a placeholder for the user name
-#: views/components/map.jade:68
+#: views/components/map.jade:87
 msgid ""
 "This trip has been modified by {}. If you want to see changes, click the "
 "button above to refresh this trip"
 msgstr ""
 
-#: views/components/map.jade:72
+#: views/components/map.jade:91
 #: views/components/plan-msg.jade:18
 msgid ""
 "You can only view this trip. If you want to modify it, contact this trip "
 "owner"
 msgstr ""
 
-#: views/components/map.jade:76
+#: views/components/map.jade:95
 msgid ""
 "Furkot is using cached data only. Click the button above to refresh this "
 "trip"
 msgstr ""
 
-#: views/components/map.jade:78
+#: views/components/map.jade:97
 msgid ""
 "Furkot has been inactive for a while and switched your trip to view-only "
 "mode to prevent data loss. Click the button above to refresh this trip"
 msgstr ""
 
-#: views/components/map.jade:80
+#: views/components/map.jade:99
 msgid "Done editing trip"
 msgstr ""
 
-#: views/components/map.jade:80
+#: views/components/map.jade:99
 msgid ""
 "This trip is in view-only mode. Click the button above to edit this trip"
 msgstr ""
 
-#: views/components/map.jade:83
+#: views/components/map.jade:102
 msgid "Furkot guided tour"
 msgstr ""
 
-#: views/components/map.jade:88
+#: views/components/map.jade:107
 #: views/components/step-switches.jade:109
 msgid "Nothing to display. Internet connection may be down."
 msgstr ""
 
-#: views/components/map.jade:92
+#: views/components/map.jade:111
 msgid "Show map"
 msgstr ""
 
 #. L10n: Label on the button that shows map (visible only on phone/tablet screen)
-#: views/components/map.jade:97
+#: views/components/map.jade:116
 msgid "Map"
 msgstr ""
 
-#: views/components/map.jade:102
+#: views/components/map.jade:121
 msgid "Hide trip details"
 msgstr ""
 
-#: views/components/map.jade:103
+#: views/components/map.jade:122
 msgid "Show trip details"
 msgstr ""
 
 #. L10n: Label on the handle of the Trip drawer. Shorter word is better; ideally words for other handles (Plan, Sleep, Eat, Find) will not be longer
 #. L10n: Label for time/distance covered since beginning of the trip
-#: views/components/map.jade:108
+#: views/components/map.jade:127
 #: views/components/step-detail.jade:546
 msgid "Trip"
 msgstr ""
 
-#: views/components/map.jade:113
+#: views/components/map.jade:132
 msgid "Hide trip itinerary"
 msgstr ""
 
-#: views/components/map.jade:114
+#: views/components/map.jade:133
 msgid "Show trip itinerary"
 msgstr ""
 
 #. L10n: Label on the handle of the Plan drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Plan' can be also translated as 'Itinerary' or 'Schedule'
-#: views/components/map.jade:119
+#: views/components/map.jade:138
 msgid "Plan"
 msgstr ""
 
-#: views/components/map.jade:124
+#: views/components/map.jade:143
 msgid "Hide nearby lodging accommodations"
 msgstr ""
 
-#: views/components/map.jade:125
+#: views/components/map.jade:144
 msgid "Show nearby lodging accommodations"
 msgstr ""
 
 #. L10n: Label on the handle of the Sleep drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Sleep' can be also translated as 'Lodgings'
-#: views/components/map.jade:130
+#: views/components/map.jade:149
 msgid "Sleep"
 msgstr ""
 
-#: views/components/map.jade:135
+#: views/components/map.jade:154
 msgid "Hide places to eat, drink and get fuel"
 msgstr ""
 
-#: views/components/map.jade:136
+#: views/components/map.jade:155
 msgid "Show me where to eat, drink and get fuel"
 msgstr ""
 
 #. L10n: Label on the handle of the Eat drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Eat' can be also translated as 'Food', 'Establishments' (as in businesses) or 'Services'
-#: views/components/map.jade:141
+#: views/components/map.jade:160
 msgid "Eat"
 msgstr ""
 
-#: views/components/map.jade:146
+#: views/components/map.jade:165
 msgid "Hide points of interest"
 msgstr ""
 
-#: views/components/map.jade:147
+#: views/components/map.jade:166
 #: views/components/step-switches.jade:115
 msgid "Show points of interest"
 msgstr ""
 
 #. L10n: Label on the handle of the Find drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Find' can be also translated as 'Search', 'Places of Interest', 'Points of Interest' or 'Attractions'
-#: views/components/map.jade:152
+#: views/components/map.jade:171
 msgid "Find"
 msgstr ""
 
-#: views/components/map.jade:178
+#: views/components/map.jade:197
 msgid "Drag to change route"
 msgstr ""
 
 #. L10n: 'Click to select' as in 'Click on the route to select it'
-#: views/components/map.jade:180
+#: views/components/map.jade:199
 msgid "Click to select"
 msgstr ""
 
 #. L10n: hint displayed when user hover over map
-#: views/components/map.jade:182
+#: views/components/map.jade:201
 msgid "Click to add a new stop here"
+msgstr ""
+
+#: views/components/map.jade:229
+#: views/components/trip-detail.jade:575
+msgid "Experimental Feature"
+msgstr ""
+
+#: views/components/map.jade:230
+msgid "Topo map is an experimental feature."
+msgstr ""
+
+#: views/components/map.jade:231
+#: views/components/trip-detail.jade:577
+msgid ""
+"We are actively working to improve it. If you experience problems please "
+"contact us."
+msgstr ""
+
+#: views/components/map.jade:232
+#: views/components/trip-detail.jade:578
+msgid "This feature may be discontinued without notice."
+msgstr ""
+
+#: views/components/map.jade:233
+#: views/components/trip-detail.jade:579
+msgid ""
+"We reserve the right to introduce use limits or establish a fee-based "
+"access."
 msgstr ""
 
 #: views/components/navigation.jade:2
@@ -6723,41 +6779,22 @@ msgid ""
 "refueling stops."
 msgstr ""
 
-#: views/components/trip-detail.jade:571
+#. L10n: Displayed when planning refuelin stations (assigning stations to refueling stops) was terminated prematurely because additional overnight lodging stops have been added in the process of planning refueling stations
+#: views/components/trip-detail.jade:572
 msgid ""
 "Review newly scheduled overnight lodging stops before trying to plan "
 "refueling stations again."
 msgstr ""
 
-#: views/components/trip-detail.jade:574
-msgid "Experimental Feature"
-msgstr ""
-
-#: views/components/trip-detail.jade:575
+#: views/components/trip-detail.jade:576
 msgid "Downolading map for offline use is an experimental feature."
 msgstr ""
 
-#: views/components/trip-detail.jade:576
-msgid ""
-"We are actively working to improve it. If you experience problems please "
-"contact us."
-msgstr ""
-
-#: views/components/trip-detail.jade:577
-msgid "This feature may be discontinued without notice."
-msgstr ""
-
-#: views/components/trip-detail.jade:578
-msgid ""
-"We reserve the right to introduce use limits or establish a fee-based "
-"access."
-msgstr ""
-
-#: views/components/trip-detail.jade:585
+#: views/components/trip-detail.jade:586
 msgid "Update the cache while viewing the OSM map"
 msgstr ""
 
-#: views/components/trip-detail.jade:590
+#: views/components/trip-detail.jade:591
 msgid "Fold this section"
 msgstr ""
 
@@ -6968,11 +7005,6 @@ msgstr ""
 
 #: views/footer.jade:25
 msgid "Affiliates"
-msgstr ""
-
-#. L10n: Label for a link to Furkot translation website (this website)
-#: views/footer.jade:28
-msgid "Translate"
 msgstr ""
 
 #: views/footer.jade:31 views/footer.jade:35

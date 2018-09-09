@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2018-09-05 11:25-0600\n"
+"POT-Creation-Date: 2018-09-09 08:51-0600\n"
 "PO-Revision-Date: 2017-03-08 04:35+0000\n"
 "Last-Translator: Natalia Kowalczyk <melitele@furkot.com>\n"
 "Language-Team: Hebrew <https://translate.furkot.com/projects/furkot/trips/he/"
@@ -26,19 +26,19 @@ msgid "Plan with [Furkot]"
 msgstr "לתכנן עם [Furkot]"
 
 #. L10n: 'Zoom in' meaning 'Change map scale to show less area but more details'
-#: views/board/board.jade:14 views/components/map.jade:37
+#: views/board/board.jade:14 views/components/map.jade:56
 #, fuzzy
 msgid "Zoom in"
 msgstr "לְהִתְמַקֵד"
 
 #. L10n: 'Zoom out' meaning 'Change map scale to show more area but less details'
-#: views/board/board.jade:15 views/components/map.jade:40
+#: views/board/board.jade:15 views/components/map.jade:59
 #, fuzzy
 msgid "Zoom out"
 msgstr "להקטין את התצוגה"
 
 #. L10n: 'Show he entire trip' as in 'Show all stops of the trip on the map'
-#: views/board/board.jade:17 views/components/map.jade:44
+#: views/board/board.jade:17 views/components/map.jade:63
 #, fuzzy
 msgid "Show the entire trip"
 msgstr "הראה את הטיול כולו"
@@ -58,10 +58,11 @@ msgstr "לְהַצִיעַ"
 #: views/board/board.jade:32 views/components/accounts.jade:82
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:13
 #: views/components/dialog.jade:7 views/components/import-dlg.jade:158
-#: views/components/navigation.jade:2 views/components/network.jade:2
-#: views/components/place-switch.jade:447 views/components/plan-msg.jade:2
-#: views/components/share-dlg.jade:101 views/components/share-dlg.jade:112
-#: views/components/share-dlg.jade:124 views/components/step-detail.jade:822
+#: views/components/map.jade:229 views/components/navigation.jade:2
+#: views/components/network.jade:2 views/components/place-switch.jade:447
+#: views/components/plan-msg.jade:2 views/components/share-dlg.jade:101
+#: views/components/share-dlg.jade:112 views/components/share-dlg.jade:124
+#: views/components/step-detail.jade:822
 #: views/components/step-switches.jade:118
 #: views/components/step-switches.jade:129
 #: views/components/step-switches.jade:140
@@ -75,7 +76,7 @@ msgstr "לְהַצִיעַ"
 #: views/components/trip-detail.jade:502 views/components/trip-detail.jade:507
 #: views/components/trip-detail.jade:515 views/components/trip-detail.jade:525
 #: views/components/trip-detail.jade:533 views/components/trip-detail.jade:541
-#: views/components/trip-detail.jade:551 views/components/trip-detail.jade:574
+#: views/components/trip-detail.jade:551 views/components/trip-detail.jade:575
 #: views/components/trip-toolbar.jade:18 views/tripshot/mixin.jade:113
 #, fuzzy
 msgid "Cancel"
@@ -262,12 +263,12 @@ msgid "Connected Accounts"
 msgstr "חשבונות מחוברים"
 
 #: views/components/accounts.jade:83 views/components/add-stops.jade:2
-#: views/components/add-stops.jade:13 views/components/navigation.jade:2
-#: views/components/network.jade:2 views/components/place-switch.jade:448
-#: views/components/plan-msg.jade:2 views/components/plan-msg.jade:17
-#: views/components/share-dlg.jade:101 views/components/share-dlg.jade:112
-#: views/components/share-dlg.jade:124 views/components/share-dlg.jade:136
-#: views/components/step-switches.jade:118
+#: views/components/add-stops.jade:13 views/components/map.jade:229
+#: views/components/navigation.jade:2 views/components/network.jade:2
+#: views/components/place-switch.jade:448 views/components/plan-msg.jade:2
+#: views/components/plan-msg.jade:17 views/components/share-dlg.jade:101
+#: views/components/share-dlg.jade:112 views/components/share-dlg.jade:124
+#: views/components/share-dlg.jade:136 views/components/step-switches.jade:118
 #: views/components/step-switches.jade:129
 #: views/components/step-switches.jade:140
 #: views/components/step-switches.jade:148
@@ -282,7 +283,7 @@ msgstr "חשבונות מחוברים"
 #: views/components/trip-detail.jade:533 views/components/trip-detail.jade:541
 #: views/components/trip-detail.jade:551 views/components/trip-detail.jade:558
 #: views/components/trip-detail.jade:566 views/components/trip-detail.jade:570
-#: views/components/trip-detail.jade:574 views/components/trip-toolbar.jade:18
+#: views/components/trip-detail.jade:575 views/components/trip-toolbar.jade:18
 #: views/components/warning.jade:9 views/tripshot/mixin.jade:116
 #, fuzzy
 msgid "OK"
@@ -302,8 +303,8 @@ msgstr "בסדר"
 #: views/components/trip-detail.jade:165 views/components/trip-detail.jade:313
 #: views/components/trip-detail.jade:380 views/components/trip-detail.jade:432
 #: views/components/trip-detail.jade:465 views/components/trip-detail.jade:496
-#: views/components/trip-detail.jade:588 views/components/trip-detail.jade:596
-#: views/components/trip-detail.jade:602 views/components/trip-toolbar.jade:44
+#: views/components/trip-detail.jade:589 views/components/trip-detail.jade:597
+#: views/components/trip-detail.jade:603 views/components/trip-toolbar.jade:44
 #: views/tripshot/mixin.jade:119 views/tripshot/mixin.jade:150
 #, fuzzy
 msgid "Learn more"
@@ -1775,70 +1776,100 @@ msgstr "הטיולים שלי"
 msgid "Change map view"
 msgstr "תצוגת מפת השינוי"
 
-#. L10n: Label for the option to select how routes displayed on the map are colored
+#. L10n: Label for additional layers to be displayed over the map like terrain shapes, elevation contours
 #: views/components/map.jade:18
+#, fuzzy
+msgid "Map Overlays"
+msgstr "שכבות מפה"
+
+#: views/components/map.jade:21
+#, fuzzy
+msgid "Hide terrain features"
+msgstr "פרקי הסתר ותופעות טבע"
+
+#: views/components/map.jade:22
+#, fuzzy
+msgid "Show terrain features (topo map)"
+msgstr "הצג תכונות פני השטח (מפה טופוגרפית)"
+
+#. L10n: Label for the option to select how routes displayed on the map are colored
+#: views/components/map.jade:28
 #, fuzzy
 msgid "Color Routes"
 msgstr "מסלולי צבע"
 
 #. L10n: 'Travel off road / follow roads' as in 'Use different colors to distinguish between routes set to Travel off road vs follow roads'
-#: views/components/map.jade:21
+#: views/components/map.jade:31
 #, fuzzy
 msgid "Travel off road / follow roads"
 msgstr "מסעות מכביש / לעקוב כבישים"
 
 #. L10n: 'Alternate days' as in 'Alternate colors to differentiate between subsequent days of the trip'
-#: views/components/map.jade:25
+#: views/components/map.jade:35
 #, fuzzy
 msgid "Alternate days"
 msgstr "ימים חלופיים"
 
 #. L10n: 'Outbound / inbound leg' as in 'Use different colors to distinguish between Outbound vs inbound leg of the trip'. Outbound leg is going out to the mid point, while the inbound leg means returning to the starting point. Outbound and inbound legs have meaning for loop trips only
-#: views/components/map.jade:29
+#: views/components/map.jade:39
 #, fuzzy
 msgid "Outbound / inbound leg"
 msgstr "חוץ / רגל נכנסת"
 
 #. L10n: 'Individual route colors' as in 'Display routes on the map in their Individual route colors as assigned in the Plan drawer'
-#: views/components/map.jade:33
+#: views/components/map.jade:43
 #, fuzzy
 msgid "Individual route colors"
 msgstr "צבעי מסלול בודדים"
 
-#: views/components/map.jade:47
+#. L10n: Label for a link to Furkot translation website (this website)
+#: views/components/map.jade:48 views/footer.jade:28
+#, fuzzy
+msgid "Translate"
+msgstr "שָׁקוּף"
+
+#: views/components/map.jade:51
+msgid "Translate map names to user language"
+msgstr ""
+
+#: views/components/map.jade:52
+msgid "Display map names in local language"
+msgstr ""
+
+#: views/components/map.jade:66
 #, fuzzy
 msgid "Center map on the selected stop"
 msgstr "מרכז מפה על התחנה שנבחרה"
 
-#: views/components/map.jade:49
+#: views/components/map.jade:68
 #, fuzzy
 msgid "Center map on the current location"
 msgstr "מרכז מפה על התחנה שנבחרה"
 
 #. L10n: 'places' means 'places displayed on the map'
-#: views/components/map.jade:58
+#: views/components/map.jade:77
 #, fuzzy
 msgid "Hide places"
 msgstr "מקומות סתר"
 
 #. L10n: 'places' means 'places displayed on the map'
-#: views/components/map.jade:58 views/components/map.jade:61
+#: views/components/map.jade:77 views/components/map.jade:80
 #, fuzzy
 msgid "Show places"
 msgstr "במקומות הצג"
 
-#: views/components/map.jade:64
+#: views/components/map.jade:83
 #, fuzzy
 msgid "Find a place"
 msgstr "בטל להוסיף מקום"
 
-#: views/components/map.jade:66 views/components/trips.jade:7
+#: views/components/map.jade:85 views/components/trips.jade:7
 #, fuzzy
 msgid "Import trip"
 msgstr "טיול יבוא"
 
 #. L10n: curly brackets {} denote a placeholder for the user name
-#: views/components/map.jade:68
+#: views/components/map.jade:87
 #, fuzzy
 msgid ""
 "This trip has been modified by {}. If you want to see changes, click the "
@@ -1847,7 +1878,7 @@ msgstr ""
 "הטיול הזה שונה על ידי {}. אם אתה רוצה לראות את השינויים, לחץ על הלחצן למעלה "
 "כדי לרענן את המסע הזה"
 
-#: views/components/map.jade:72 views/components/plan-msg.jade:18
+#: views/components/map.jade:91 views/components/plan-msg.jade:18
 #, fuzzy
 msgid ""
 "You can only view this trip. If you want to modify it, contact this trip "
@@ -1856,14 +1887,14 @@ msgstr ""
 "אתה יכול רק להציג את הטיול הזה. אם אתה רוצה לשנות את זה, צור קשר עם בעל "
 "הטיול הזה"
 
-#: views/components/map.jade:76
+#: views/components/map.jade:95
 #, fuzzy
 msgid ""
 "Furkot is using cached data only. Click the button above to refresh this trip"
 msgstr ""
 "הטיול הזה נמצא במצב תצוגה בלבד. לחץ על הלחצן למעלה כדי לערוך את המסע הזה"
 
-#: views/components/map.jade:78
+#: views/components/map.jade:97
 #, fuzzy
 msgid ""
 "Furkot has been inactive for a while and switched your trip to view-only "
@@ -1872,136 +1903,159 @@ msgstr ""
 "Furkot אינו פעיל למשך זמן מה עבר הטיול שלך להציג בלבד מצב כדי למנוע אובדן "
 "נתונים. לחץ על הלחצן למעלה כדי לרענן את המסע הזה"
 
-#: views/components/map.jade:80
+#: views/components/map.jade:99
 #, fuzzy
 msgid "Done editing trip"
 msgstr "טיול סיום עריכה"
 
-#: views/components/map.jade:80
+#: views/components/map.jade:99
 #, fuzzy
 msgid ""
 "This trip is in view-only mode. Click the button above to edit this trip"
 msgstr ""
 "הטיול הזה נמצא במצב תצוגה בלבד. לחץ על הלחצן למעלה כדי לערוך את המסע הזה"
 
-#: views/components/map.jade:83
+#: views/components/map.jade:102
 #, fuzzy
 msgid "Furkot guided tour"
 msgstr "Furkot סיור מודרך"
 
-#: views/components/map.jade:88 views/components/step-switches.jade:109
+#: views/components/map.jade:107 views/components/step-switches.jade:109
 #, fuzzy
 msgid "Nothing to display. Internet connection may be down."
 msgstr "אין מה להציג. חיבור האינטרנט עשוי להיות מושבת."
 
-#: views/components/map.jade:92
+#: views/components/map.jade:111
 #, fuzzy
 msgid "Show map"
 msgstr "תראה מפה"
 
 #. L10n: Label on the button that shows map (visible only on phone/tablet screen)
-#: views/components/map.jade:97
+#: views/components/map.jade:116
 #, fuzzy
 msgid "Map"
 msgstr "מַפָּה"
 
-#: views/components/map.jade:102
+#: views/components/map.jade:121
 #, fuzzy
 msgid "Hide trip details"
 msgstr "פרטי הנסיעה הסתר"
 
-#: views/components/map.jade:103
+#: views/components/map.jade:122
 #, fuzzy
 msgid "Show trip details"
 msgstr "פרטי נסיעת צג"
 
 #. L10n: Label on the handle of the Trip drawer. Shorter word is better; ideally words for other handles (Plan, Sleep, Eat, Find) will not be longer
 #. L10n: Label for time/distance covered since beginning of the trip
-#: views/components/map.jade:108 views/components/step-detail.jade:546
+#: views/components/map.jade:127 views/components/step-detail.jade:546
 #, fuzzy
 msgid "Trip"
 msgstr "טיול"
 
-#: views/components/map.jade:113
+#: views/components/map.jade:132
 #, fuzzy
 msgid "Hide trip itinerary"
 msgstr "מסלול טיול סתר"
 
-#: views/components/map.jade:114
+#: views/components/map.jade:133
 #, fuzzy
 msgid "Show trip itinerary"
 msgstr "מסלול טיול צג"
 
 #. L10n: Label on the handle of the Plan drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Plan' can be also translated as 'Itinerary' or 'Schedule'
-#: views/components/map.jade:119
+#: views/components/map.jade:138
 #, fuzzy
 msgid "Plan"
 msgstr "לְתַכְנֵן"
 
-#: views/components/map.jade:124
+#: views/components/map.jade:143
 #, fuzzy
 msgid "Hide nearby lodging accommodations"
 msgstr "סתר אירוח ולינה סמוך"
 
-#: views/components/map.jade:125
+#: views/components/map.jade:144
 #, fuzzy
 msgid "Show nearby lodging accommodations"
 msgstr "צג אירוח ולינה סמוך"
 
 #. L10n: Label on the handle of the Sleep drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Sleep' can be also translated as 'Lodgings'
-#: views/components/map.jade:130
+#: views/components/map.jade:149
 #, fuzzy
 msgid "Sleep"
 msgstr "לִישׁוֹן"
 
-#: views/components/map.jade:135
+#: views/components/map.jade:154
 #, fuzzy
 msgid "Hide places to eat, drink and get fuel"
 msgstr "הסתר מקומות לאכול, לשתות ולקבל דלק"
 
-#: views/components/map.jade:136
+#: views/components/map.jade:155
 #, fuzzy
 msgid "Show me where to eat, drink and get fuel"
 msgstr "הראה לי איפה לאכול, לשתות ולקבל דלק"
 
 #. L10n: Label on the handle of the Eat drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Eat' can be also translated as 'Food', 'Establishments' (as in businesses) or 'Services'
-#: views/components/map.jade:141
+#: views/components/map.jade:160
 #, fuzzy
 msgid "Eat"
 msgstr "לאכול"
 
-#: views/components/map.jade:146
+#: views/components/map.jade:165
 #, fuzzy
 msgid "Hide points of interest"
 msgstr "הסתר נקודות עניין"
 
-#: views/components/map.jade:147 views/components/step-switches.jade:115
+#: views/components/map.jade:166 views/components/step-switches.jade:115
 #, fuzzy
 msgid "Show points of interest"
 msgstr "נקודות ירכזו עניין"
 
 #. L10n: Label on the handle of the Find drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Find' can be also translated as 'Search', 'Places of Interest', 'Points of Interest' or 'Attractions'
-#: views/components/map.jade:152
+#: views/components/map.jade:171
 #, fuzzy
 msgid "Find"
 msgstr "למצוא"
 
-#: views/components/map.jade:178
+#: views/components/map.jade:197
 #, fuzzy
 msgid "Drag to change route"
 msgstr "גרור כדי לשנות נתיב"
 
 #. L10n: 'Click to select' as in 'Click on the route to select it'
-#: views/components/map.jade:180
+#: views/components/map.jade:199
 #, fuzzy
 msgid "Click to select"
 msgstr "לחץ כדי לבחור"
 
 #. L10n: hint displayed when user hover over map
-#: views/components/map.jade:182
+#: views/components/map.jade:201
 #, fuzzy
 msgid "Click to add a new stop here"
 msgstr "לחץ כדי להוסיף תחנה חדשה כאן"
+
+#: views/components/map.jade:229 views/components/trip-detail.jade:575
+msgid "Experimental Feature"
+msgstr ""
+
+#: views/components/map.jade:230
+msgid "Topo map is an experimental feature."
+msgstr ""
+
+#: views/components/map.jade:231 views/components/trip-detail.jade:577
+msgid ""
+"We are actively working to improve it. If you experience problems please "
+"contact us."
+msgstr ""
+
+#: views/components/map.jade:232 views/components/trip-detail.jade:578
+msgid "This feature may be discontinued without notice."
+msgstr ""
+
+#: views/components/map.jade:233 views/components/trip-detail.jade:579
+msgid ""
+"We reserve the right to introduce use limits or establish a fee-based access."
+msgstr ""
 
 #: views/components/navigation.jade:2
 #, fuzzy
@@ -7871,40 +7925,22 @@ msgid ""
 "refueling stops."
 msgstr "זוהי תחנת תדלוק מתוזמן באופן אוטומטי."
 
-#: views/components/trip-detail.jade:571
+#. L10n: Displayed when planning refuelin stations (assigning stations to refueling stops) was terminated prematurely because additional overnight lodging stops have been added in the process of planning refueling stations
+#: views/components/trip-detail.jade:572
 msgid ""
 "Review newly scheduled overnight lodging stops before trying to plan "
 "refueling stations again."
 msgstr ""
 
-#: views/components/trip-detail.jade:574
-msgid "Experimental Feature"
-msgstr ""
-
-#: views/components/trip-detail.jade:575
+#: views/components/trip-detail.jade:576
 msgid "Downolading map for offline use is an experimental feature."
 msgstr ""
 
-#: views/components/trip-detail.jade:576
-msgid ""
-"We are actively working to improve it. If you experience problems please "
-"contact us."
-msgstr ""
-
-#: views/components/trip-detail.jade:577
-msgid "This feature may be discontinued without notice."
-msgstr ""
-
-#: views/components/trip-detail.jade:578
-msgid ""
-"We reserve the right to introduce use limits or establish a fee-based access."
-msgstr ""
-
-#: views/components/trip-detail.jade:585
+#: views/components/trip-detail.jade:586
 msgid "Update the cache while viewing the OSM map"
 msgstr ""
 
-#: views/components/trip-detail.jade:590
+#: views/components/trip-detail.jade:591
 #, fuzzy
 msgid "Fold this section"
 msgstr "מקפלים את החלק הזה"
@@ -8162,12 +8198,6 @@ msgstr "בלוג"
 #, fuzzy
 msgid "Affiliates"
 msgstr "שותפים"
-
-#. L10n: Label for a link to Furkot translation website (this website)
-#: views/footer.jade:28
-#, fuzzy
-msgid "Translate"
-msgstr "שָׁקוּף"
 
 #: views/footer.jade:31 views/footer.jade:35 views/welcome/index.jade:25
 #: views/welcome/index.jade:29
@@ -8708,118 +8738,68 @@ msgstr ""
 "שלכם, תוכלו להציג את המסלול במפה, למצוא עוד אטרקציות ואפשרויות לינה."
 
 #, fuzzy
-#~ msgid "Map Type"
-#~ msgstr "סוג מפה"
+#~ msgid "Plan refueling station"
+#~ msgstr "תחנות תדלוק"
 
 #, fuzzy
-#~ msgid "Show normal road map"
-#~ msgstr "צג מפת הדרכים נורמלית"
+#~ msgid "Keep this automatically scheduled stop"
+#~ msgstr "שמור באופן אוטומטי זה להפסיק מתוזמנת"
 
 #, fuzzy
-#~ msgid "Show satellite imagery"
-#~ msgstr "הצג תמונות לווין"
+#~ msgid "view only"
+#~ msgstr "לצפייה בלבד"
 
 #, fuzzy
-#~ msgid "Show terrain features (topo map)"
-#~ msgstr "הצג תכונות פני השטח (מפה טופוגרפית)"
+#~ msgid "See description of this ski resort at EpicSki"
+#~ msgstr "ראה תיאור של אתר הסקי הזה EpicSki"
 
 #, fuzzy
-#~ msgid "Show alternative road map"
-#~ msgstr "צג מפת הדרכים נורמלית"
+#~ msgid "See this ski resort own website"
+#~ msgstr "ראה הסקי הזה האתר עצמו"
 
 #, fuzzy
-#~ msgid "Map Overlays"
-#~ msgstr "שכבות מפה"
+#~ msgid "See user reviews at EpicSki"
+#~ msgstr "ראה ביקורות משתמשים ב EpicSki"
 
 #, fuzzy
-#~ msgid "Hide road overlay"
-#~ msgstr "כיסוי כביש סתר"
+#~ msgid "Hide ski resorts from EpicSki"
+#~ msgstr "סתר אתרי סקי מ EpicSki"
 
 #, fuzzy
-#~ msgid "Show major roads over satellite imagery"
-#~ msgstr "צג כבישים ראשיים על צילומי לווין"
+#~ msgid "Ski resorts from EpicSki"
+#~ msgstr "אתרי סקי מ EpicSki"
 
 #, fuzzy
-#~ msgid "Hide current weather overlay"
-#~ msgstr "סתר כיסוי מזג אוויר נוכחי"
+#~ msgid "See author's profile at EveryTrail"
+#~ msgstr "לראות את הפרופיל של המחבר בכתובת Everytrail"
 
 #, fuzzy
-#~ msgid "Show current weather on map"
-#~ msgstr "צג מזג אוויר נוכחי על המפה"
+#~ msgid "Hide gas stations from myGasFeed"
+#~ msgstr "סתר תחנות גז myGasFeed"
 
 #, fuzzy
-#~ msgid "Directions"
-#~ msgstr "כיווני"
+#~ msgid "Gas stations from myGasFeed"
+#~ msgstr "תחנות גז מן myGasFeed"
 
 #, fuzzy
-#~ msgid "See this place page at Google"
-#~ msgstr "ראה עמוד המקום הזה בגוגל"
+#~ msgid "Be on your own"
+#~ msgstr "להיות לבד"
 
 #, fuzzy
-#~ msgid "See guest reviews at Google"
-#~ msgstr "ראה ביקורות אורחים בגוגל"
+#~ msgid "See user reviews at Fodor's Travel"
+#~ msgstr "ראה ביקורות משתמשים ב המסעות של פודור"
 
 #, fuzzy
-#~ msgid "Booking complete"
-#~ msgstr "הזמנה מלאה"
+#~ msgid "Adding:"
+#~ msgstr "מוֹסִיף:"
 
 #, fuzzy
-#~ msgid "Let Furkot guide you"
-#~ msgstr "בואו Furkot להדריך אותך"
+#~ msgid "Places to visit and overnight lodgings"
+#~ msgstr "מקומות לבקר ואפשרויות לינה לילה"
 
 #, fuzzy
-#~ msgid "Press [Back] to return to the hotel page."
-#~ msgstr "לחץ [חזרה] כדי לחזור לדף המלון."
-
-#, fuzzy
-#~ msgid "Hiking trails from LocalHikes"
-#~ msgstr "מסלולי הליכה מן LocalHikes"
-
-#, fuzzy
-#~ msgid "Hide hikes from LocalHikes"
-#~ msgstr "העלאות הסתר מן LocalHikes"
-
-#, fuzzy
-#~ msgid "Fold this hike details"
-#~ msgstr "מקפלי פרטי טיול זה"
-
-#, fuzzy
-#~ msgid "Guided Tour"
-#~ msgstr "סיור מודרך"
-
-#, fuzzy
-#~ msgid "Add new stop"
-#~ msgstr "הוסף תחנה חדשה"
-
-#, fuzzy
-#~ msgid ""
-#~ "You'll have a chance to copy and paste booking confirmation before "
-#~ "proceeding to the next lodging."
-#~ msgstr "יהיה לך הזדמנות להעתיק אישור רסק הזמנה לפני שתמשיך הלינה הבאה."
-
-#, fuzzy
-#~ msgid "Keep"
-#~ msgstr "לִשְׁמוֹר"
-
-#, fuzzy
-#~ msgid "Comments"
-#~ msgstr "תגובות"
-
-#, fuzzy
-#~ msgid ""
-#~ "As you are planning your trip Furkot can give you a guided tour of its "
-#~ "features."
-#~ msgstr ""
-#~ "כפי שאתם מתכננים את הטיול שלך Furkot יכול לתת לך סיור של התכונות שלו "
-#~ "מודרך."
-
-#, fuzzy
-#~ msgid "Stop and hike this trail"
-#~ msgstr "עצור לטייל השביל הזה"
-
-#, fuzzy
-#~ msgid "All stops including pass-through points"
-#~ msgstr "כל התחנות כולל נקודות התמסורת"
+#~ msgid "No hotels around."
+#~ msgstr "מלונות לא בסביבה."
 
 #, fuzzy
 #~ msgid ""
@@ -8830,65 +8810,107 @@ msgstr ""
 #~ "בתכנון הטיול."
 
 #, fuzzy
-#~ msgid "No hotels around."
-#~ msgstr "מלונות לא בסביבה."
+#~ msgid "All stops including pass-through points"
+#~ msgstr "כל התחנות כולל נקודות התמסורת"
 
 #, fuzzy
-#~ msgid "Places to visit and overnight lodgings"
-#~ msgstr "מקומות לבקר ואפשרויות לינה לילה"
+#~ msgid "Stop and hike this trail"
+#~ msgstr "עצור לטייל השביל הזה"
 
 #, fuzzy
-#~ msgid "Adding:"
-#~ msgstr "מוֹסִיף:"
+#~ msgid ""
+#~ "As you are planning your trip Furkot can give you a guided tour of its "
+#~ "features."
+#~ msgstr ""
+#~ "כפי שאתם מתכננים את הטיול שלך Furkot יכול לתת לך סיור של התכונות שלו "
+#~ "מודרך."
 
 #, fuzzy
-#~ msgid "See user reviews at Fodor's Travel"
-#~ msgstr "ראה ביקורות משתמשים ב המסעות של פודור"
+#~ msgid "Comments"
+#~ msgstr "תגובות"
 
 #, fuzzy
-#~ msgid "Be on your own"
-#~ msgstr "להיות לבד"
+#~ msgid "Keep"
+#~ msgstr "לִשְׁמוֹר"
 
 #, fuzzy
-#~ msgid "Gas stations from myGasFeed"
-#~ msgstr "תחנות גז מן myGasFeed"
+#~ msgid ""
+#~ "You'll have a chance to copy and paste booking confirmation before "
+#~ "proceeding to the next lodging."
+#~ msgstr "יהיה לך הזדמנות להעתיק אישור רסק הזמנה לפני שתמשיך הלינה הבאה."
 
 #, fuzzy
-#~ msgid "Hide gas stations from myGasFeed"
-#~ msgstr "סתר תחנות גז myGasFeed"
+#~ msgid "Add new stop"
+#~ msgstr "הוסף תחנה חדשה"
 
 #, fuzzy
-#~ msgid "See author's profile at EveryTrail"
-#~ msgstr "לראות את הפרופיל של המחבר בכתובת Everytrail"
+#~ msgid "Guided Tour"
+#~ msgstr "סיור מודרך"
 
 #, fuzzy
-#~ msgid "Ski resorts from EpicSki"
-#~ msgstr "אתרי סקי מ EpicSki"
+#~ msgid "Fold this hike details"
+#~ msgstr "מקפלי פרטי טיול זה"
 
 #, fuzzy
-#~ msgid "Hide ski resorts from EpicSki"
-#~ msgstr "סתר אתרי סקי מ EpicSki"
+#~ msgid "Hide hikes from LocalHikes"
+#~ msgstr "העלאות הסתר מן LocalHikes"
 
 #, fuzzy
-#~ msgid "See user reviews at EpicSki"
-#~ msgstr "ראה ביקורות משתמשים ב EpicSki"
+#~ msgid "Hiking trails from LocalHikes"
+#~ msgstr "מסלולי הליכה מן LocalHikes"
 
 #, fuzzy
-#~ msgid "See this ski resort own website"
-#~ msgstr "ראה הסקי הזה האתר עצמו"
+#~ msgid "Press [Back] to return to the hotel page."
+#~ msgstr "לחץ [חזרה] כדי לחזור לדף המלון."
 
 #, fuzzy
-#~ msgid "See description of this ski resort at EpicSki"
-#~ msgstr "ראה תיאור של אתר הסקי הזה EpicSki"
+#~ msgid "Let Furkot guide you"
+#~ msgstr "בואו Furkot להדריך אותך"
 
 #, fuzzy
-#~ msgid "view only"
-#~ msgstr "לצפייה בלבד"
+#~ msgid "Booking complete"
+#~ msgstr "הזמנה מלאה"
 
 #, fuzzy
-#~ msgid "Keep this automatically scheduled stop"
-#~ msgstr "שמור באופן אוטומטי זה להפסיק מתוזמנת"
+#~ msgid "See guest reviews at Google"
+#~ msgstr "ראה ביקורות אורחים בגוגל"
 
 #, fuzzy
-#~ msgid "Plan refueling station"
-#~ msgstr "תחנות תדלוק"
+#~ msgid "See this place page at Google"
+#~ msgstr "ראה עמוד המקום הזה בגוגל"
+
+#, fuzzy
+#~ msgid "Directions"
+#~ msgstr "כיווני"
+
+#, fuzzy
+#~ msgid "Show current weather on map"
+#~ msgstr "צג מזג אוויר נוכחי על המפה"
+
+#, fuzzy
+#~ msgid "Hide current weather overlay"
+#~ msgstr "סתר כיסוי מזג אוויר נוכחי"
+
+#, fuzzy
+#~ msgid "Show major roads over satellite imagery"
+#~ msgstr "צג כבישים ראשיים על צילומי לווין"
+
+#, fuzzy
+#~ msgid "Hide road overlay"
+#~ msgstr "כיסוי כביש סתר"
+
+#, fuzzy
+#~ msgid "Show alternative road map"
+#~ msgstr "צג מפת הדרכים נורמלית"
+
+#, fuzzy
+#~ msgid "Show satellite imagery"
+#~ msgstr "הצג תמונות לווין"
+
+#, fuzzy
+#~ msgid "Show normal road map"
+#~ msgstr "צג מפת הדרכים נורמלית"
+
+#, fuzzy
+#~ msgid "Map Type"
+#~ msgstr "סוג מפה"

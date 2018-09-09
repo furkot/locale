@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2018-09-05 11:25-0600\n"
+"POT-Creation-Date: 2018-09-09 08:51-0600\n"
 "PO-Revision-Date: 2016-05-20 01:54-0400\n"
 "Last-Translator: Brian Lee <brianlee7799@yahoo.com>\n"
 "Language-Team: Chinese (Taiwan) <https://translate.furkot.com/projects/"
@@ -24,17 +24,17 @@ msgid "Plan with [Furkot]"
 msgstr "用Furkot規劃"
 
 #. L10n: 'Zoom in' meaning 'Change map scale to show less area but more details'
-#: views/board/board.jade:14 views/components/map.jade:37
+#: views/board/board.jade:14 views/components/map.jade:56
 msgid "Zoom in"
 msgstr "放大"
 
 #. L10n: 'Zoom out' meaning 'Change map scale to show more area but less details'
-#: views/board/board.jade:15 views/components/map.jade:40
+#: views/board/board.jade:15 views/components/map.jade:59
 msgid "Zoom out"
 msgstr "縮小"
 
 #. L10n: 'Show he entire trip' as in 'Show all stops of the trip on the map'
-#: views/board/board.jade:17 views/components/map.jade:44
+#: views/board/board.jade:17 views/components/map.jade:63
 msgid "Show the entire trip"
 msgstr "顯示整個行程"
 
@@ -51,10 +51,11 @@ msgstr "建議"
 #: views/board/board.jade:32 views/components/accounts.jade:82
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:13
 #: views/components/dialog.jade:7 views/components/import-dlg.jade:158
-#: views/components/navigation.jade:2 views/components/network.jade:2
-#: views/components/place-switch.jade:447 views/components/plan-msg.jade:2
-#: views/components/share-dlg.jade:101 views/components/share-dlg.jade:112
-#: views/components/share-dlg.jade:124 views/components/step-detail.jade:822
+#: views/components/map.jade:229 views/components/navigation.jade:2
+#: views/components/network.jade:2 views/components/place-switch.jade:447
+#: views/components/plan-msg.jade:2 views/components/share-dlg.jade:101
+#: views/components/share-dlg.jade:112 views/components/share-dlg.jade:124
+#: views/components/step-detail.jade:822
 #: views/components/step-switches.jade:118
 #: views/components/step-switches.jade:129
 #: views/components/step-switches.jade:140
@@ -68,7 +69,7 @@ msgstr "建議"
 #: views/components/trip-detail.jade:502 views/components/trip-detail.jade:507
 #: views/components/trip-detail.jade:515 views/components/trip-detail.jade:525
 #: views/components/trip-detail.jade:533 views/components/trip-detail.jade:541
-#: views/components/trip-detail.jade:551 views/components/trip-detail.jade:574
+#: views/components/trip-detail.jade:551 views/components/trip-detail.jade:575
 #: views/components/trip-toolbar.jade:18 views/tripshot/mixin.jade:113
 msgid "Cancel"
 msgstr "取消"
@@ -218,12 +219,12 @@ msgid "Connected Accounts"
 msgstr "連結的帳戶"
 
 #: views/components/accounts.jade:83 views/components/add-stops.jade:2
-#: views/components/add-stops.jade:13 views/components/navigation.jade:2
-#: views/components/network.jade:2 views/components/place-switch.jade:448
-#: views/components/plan-msg.jade:2 views/components/plan-msg.jade:17
-#: views/components/share-dlg.jade:101 views/components/share-dlg.jade:112
-#: views/components/share-dlg.jade:124 views/components/share-dlg.jade:136
-#: views/components/step-switches.jade:118
+#: views/components/add-stops.jade:13 views/components/map.jade:229
+#: views/components/navigation.jade:2 views/components/network.jade:2
+#: views/components/place-switch.jade:448 views/components/plan-msg.jade:2
+#: views/components/plan-msg.jade:17 views/components/share-dlg.jade:101
+#: views/components/share-dlg.jade:112 views/components/share-dlg.jade:124
+#: views/components/share-dlg.jade:136 views/components/step-switches.jade:118
 #: views/components/step-switches.jade:129
 #: views/components/step-switches.jade:140
 #: views/components/step-switches.jade:148
@@ -238,7 +239,7 @@ msgstr "連結的帳戶"
 #: views/components/trip-detail.jade:533 views/components/trip-detail.jade:541
 #: views/components/trip-detail.jade:551 views/components/trip-detail.jade:558
 #: views/components/trip-detail.jade:566 views/components/trip-detail.jade:570
-#: views/components/trip-detail.jade:574 views/components/trip-toolbar.jade:18
+#: views/components/trip-detail.jade:575 views/components/trip-toolbar.jade:18
 #: views/components/warning.jade:9 views/tripshot/mixin.jade:116
 msgid "OK"
 msgstr "好"
@@ -257,8 +258,8 @@ msgstr "好"
 #: views/components/trip-detail.jade:165 views/components/trip-detail.jade:313
 #: views/components/trip-detail.jade:380 views/components/trip-detail.jade:432
 #: views/components/trip-detail.jade:465 views/components/trip-detail.jade:496
-#: views/components/trip-detail.jade:588 views/components/trip-detail.jade:596
-#: views/components/trip-detail.jade:602 views/components/trip-toolbar.jade:44
+#: views/components/trip-detail.jade:589 views/components/trip-detail.jade:597
+#: views/components/trip-detail.jade:603 views/components/trip-toolbar.jade:44
 #: views/tripshot/mixin.jade:119 views/tripshot/mixin.jade:150
 msgid "Learn more"
 msgstr "預知詳情"
@@ -1612,90 +1613,120 @@ msgstr "我的旅行"
 msgid "Change map view"
 msgstr "更改地圖視圖"
 
-#. L10n: Label for the option to select how routes displayed on the map are colored
+#. L10n: Label for additional layers to be displayed over the map like terrain shapes, elevation contours
 #: views/components/map.jade:18
+#, fuzzy
+msgid "Map Overlays"
+msgstr "地圖覆蓋"
+
+#: views/components/map.jade:21
+#, fuzzy
+msgid "Hide terrain features"
+msgstr "隱藏公園和自然景觀"
+
+#: views/components/map.jade:22
+#, fuzzy
+msgid "Show terrain features (topo map)"
+msgstr "顯示地形特徵（地形圖）"
+
+#. L10n: Label for the option to select how routes displayed on the map are colored
+#: views/components/map.jade:28
 #, fuzzy
 msgid "Color Routes"
 msgstr "色彩路線"
 
 #. L10n: 'Travel off road / follow roads' as in 'Use different colors to distinguish between routes set to Travel off road vs follow roads'
-#: views/components/map.jade:21
+#: views/components/map.jade:31
 #, fuzzy
 msgid "Travel off road / follow roads"
 msgstr "旅行越野/遵循的道路"
 
 #. L10n: 'Alternate days' as in 'Alternate colors to differentiate between subsequent days of the trip'
-#: views/components/map.jade:25
+#: views/components/map.jade:35
 #, fuzzy
 msgid "Alternate days"
 msgstr "隔日"
 
 #. L10n: 'Outbound / inbound leg' as in 'Use different colors to distinguish between Outbound vs inbound leg of the trip'. Outbound leg is going out to the mid point, while the inbound leg means returning to the starting point. Outbound and inbound legs have meaning for loop trips only
-#: views/components/map.jade:29
+#: views/components/map.jade:39
 #, fuzzy
 msgid "Outbound / inbound leg"
 msgstr "出境/入境腿"
 
 #. L10n: 'Individual route colors' as in 'Display routes on the map in their Individual route colors as assigned in the Plan drawer'
-#: views/components/map.jade:33
+#: views/components/map.jade:43
 #, fuzzy
 msgid "Individual route colors"
 msgstr "個別路線的顏色"
 
-#: views/components/map.jade:47
+#. L10n: Label for a link to Furkot translation website (this website)
+#: views/components/map.jade:48 views/footer.jade:28
+#, fuzzy
+msgid "Translate"
+msgstr "透明"
+
+#: views/components/map.jade:51
+msgid "Translate map names to user language"
+msgstr ""
+
+#: views/components/map.jade:52
+msgid "Display map names in local language"
+msgstr ""
+
+#: views/components/map.jade:66
 #, fuzzy
 msgid "Center map on the selected stop"
 msgstr "在選定的一站式服務中心的地圖"
 
-#: views/components/map.jade:49
+#: views/components/map.jade:68
 #, fuzzy
 msgid "Center map on the current location"
 msgstr "在選定的一站式服務中心的地圖"
 
 #. L10n: 'places' means 'places displayed on the map'
-#: views/components/map.jade:58
+#: views/components/map.jade:77
 #, fuzzy
 msgid "Hide places"
 msgstr "隱藏的地方"
 
 #. L10n: 'places' means 'places displayed on the map'
-#: views/components/map.jade:58 views/components/map.jade:61
+#: views/components/map.jade:77 views/components/map.jade:80
 #, fuzzy
 msgid "Show places"
 msgstr "展會地點"
 
-#: views/components/map.jade:64
+#: views/components/map.jade:83
 #, fuzzy
 msgid "Find a place"
 msgstr "復原加入地點"
 
-#: views/components/map.jade:66 views/components/trips.jade:7
+#: views/components/map.jade:85 views/components/trips.jade:7
 #, fuzzy
 msgid "Import trip"
 msgstr "導入行程"
 
 #. L10n: curly brackets {} denote a placeholder for the user name
-#: views/components/map.jade:68
+#: views/components/map.jade:87
 #, fuzzy
 msgid ""
 "This trip has been modified by {}. If you want to see changes, click the "
 "button above to refresh this trip"
 msgstr "此行已被{}修改。如果你想看到的變化，點擊上面的按鈕刷新此行"
 
-#: views/components/map.jade:72 views/components/plan-msg.jade:18
+#: views/components/map.jade:91 views/components/plan-msg.jade:18
 #, fuzzy
 msgid ""
 "You can only view this trip. If you want to modify it, contact this trip "
 "owner"
 msgstr "您只能查看此行。如果你想修改它，請聯繫此行老闆"
 
-#: views/components/map.jade:76
+#: views/components/map.jade:95
 #, fuzzy
 msgid ""
 "Furkot is using cached data only. Click the button above to refresh this trip"
 msgstr "此行是在僅查看模式。點擊上面的按鈕來編輯此行"
 
-#: views/components/map.jade:78
+#: views/components/map.jade:97
 #, fuzzy
 msgid ""
 "Furkot has been inactive for a while and switched your trip to view-only "
@@ -1704,135 +1735,158 @@ msgstr ""
 "Furkot已經停用一段時間，並切換您的行程僅查看模式，以防止數據丟失。點擊上面的"
 "按鈕刷新此行"
 
-#: views/components/map.jade:80
+#: views/components/map.jade:99
 #, fuzzy
 msgid "Done editing trip"
 msgstr "編輯完成行程"
 
-#: views/components/map.jade:80
+#: views/components/map.jade:99
 #, fuzzy
 msgid ""
 "This trip is in view-only mode. Click the button above to edit this trip"
 msgstr "此行是在僅查看模式。點擊上面的按鈕來編輯此行"
 
-#: views/components/map.jade:83
+#: views/components/map.jade:102
 #, fuzzy
 msgid "Furkot guided tour"
 msgstr "Furkot導遊"
 
-#: views/components/map.jade:88 views/components/step-switches.jade:109
+#: views/components/map.jade:107 views/components/step-switches.jade:109
 #, fuzzy
 msgid "Nothing to display. Internet connection may be down."
 msgstr "無內容顯示。互聯網連接可能會下降。"
 
-#: views/components/map.jade:92
+#: views/components/map.jade:111
 #, fuzzy
 msgid "Show map"
 msgstr "顯示地圖"
 
 #. L10n: Label on the button that shows map (visible only on phone/tablet screen)
-#: views/components/map.jade:97
+#: views/components/map.jade:116
 #, fuzzy
 msgid "Map"
 msgstr "地圖"
 
-#: views/components/map.jade:102
+#: views/components/map.jade:121
 #, fuzzy
 msgid "Hide trip details"
 msgstr "隱藏細節之旅"
 
-#: views/components/map.jade:103
+#: views/components/map.jade:122
 #, fuzzy
 msgid "Show trip details"
 msgstr "顯示行程的詳細信息"
 
 #. L10n: Label on the handle of the Trip drawer. Shorter word is better; ideally words for other handles (Plan, Sleep, Eat, Find) will not be longer
 #. L10n: Label for time/distance covered since beginning of the trip
-#: views/components/map.jade:108 views/components/step-detail.jade:546
+#: views/components/map.jade:127 views/components/step-detail.jade:546
 #, fuzzy
 msgid "Trip"
 msgstr "旅"
 
-#: views/components/map.jade:113
+#: views/components/map.jade:132
 #, fuzzy
 msgid "Hide trip itinerary"
 msgstr "隱藏旅行行程"
 
-#: views/components/map.jade:114
+#: views/components/map.jade:133
 #, fuzzy
 msgid "Show trip itinerary"
 msgstr "顯示旅行行程"
 
 #. L10n: Label on the handle of the Plan drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Plan' can be also translated as 'Itinerary' or 'Schedule'
-#: views/components/map.jade:119
+#: views/components/map.jade:138
 #, fuzzy
 msgid "Plan"
 msgstr "計劃"
 
-#: views/components/map.jade:124
+#: views/components/map.jade:143
 #, fuzzy
 msgid "Hide nearby lodging accommodations"
 msgstr "隱藏附近的住宿住宿"
 
-#: views/components/map.jade:125
+#: views/components/map.jade:144
 #, fuzzy
 msgid "Show nearby lodging accommodations"
 msgstr "顯示附近的住宿設施"
 
 #. L10n: Label on the handle of the Sleep drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Sleep' can be also translated as 'Lodgings'
-#: views/components/map.jade:130
+#: views/components/map.jade:149
 #, fuzzy
 msgid "Sleep"
 msgstr "睡覺"
 
-#: views/components/map.jade:135
+#: views/components/map.jade:154
 #, fuzzy
 msgid "Hide places to eat, drink and get fuel"
 msgstr "隱藏的地方吃，喝，並得到燃料"
 
-#: views/components/map.jade:136
+#: views/components/map.jade:155
 #, fuzzy
 msgid "Show me where to eat, drink and get fuel"
 msgstr "告訴我在哪裡吃的，喝的，並得到燃料"
 
 #. L10n: Label on the handle of the Eat drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Eat' can be also translated as 'Food', 'Establishments' (as in businesses) or 'Services'
-#: views/components/map.jade:141
+#: views/components/map.jade:160
 #, fuzzy
 msgid "Eat"
 msgstr "吃"
 
-#: views/components/map.jade:146
+#: views/components/map.jade:165
 #, fuzzy
 msgid "Hide points of interest"
 msgstr "隱藏興趣點"
 
-#: views/components/map.jade:147 views/components/step-switches.jade:115
+#: views/components/map.jade:166 views/components/step-switches.jade:115
 #, fuzzy
 msgid "Show points of interest"
 msgstr "興趣點顯示"
 
 #. L10n: Label on the handle of the Find drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Find' can be also translated as 'Search', 'Places of Interest', 'Points of Interest' or 'Attractions'
-#: views/components/map.jade:152
+#: views/components/map.jade:171
 #, fuzzy
 msgid "Find"
 msgstr "找"
 
-#: views/components/map.jade:178
+#: views/components/map.jade:197
 #, fuzzy
 msgid "Drag to change route"
 msgstr "拖動改變航線"
 
 #. L10n: 'Click to select' as in 'Click on the route to select it'
-#: views/components/map.jade:180
+#: views/components/map.jade:199
 #, fuzzy
 msgid "Click to select"
 msgstr "單擊選擇"
 
 #. L10n: hint displayed when user hover over map
-#: views/components/map.jade:182
+#: views/components/map.jade:201
 #, fuzzy
 msgid "Click to add a new stop here"
 msgstr "點擊此處添加新站"
+
+#: views/components/map.jade:229 views/components/trip-detail.jade:575
+msgid "Experimental Feature"
+msgstr ""
+
+#: views/components/map.jade:230
+msgid "Topo map is an experimental feature."
+msgstr ""
+
+#: views/components/map.jade:231 views/components/trip-detail.jade:577
+msgid ""
+"We are actively working to improve it. If you experience problems please "
+"contact us."
+msgstr ""
+
+#: views/components/map.jade:232 views/components/trip-detail.jade:578
+msgid "This feature may be discontinued without notice."
+msgstr ""
+
+#: views/components/map.jade:233 views/components/trip-detail.jade:579
+msgid ""
+"We reserve the right to introduce use limits or establish a fee-based access."
+msgstr ""
 
 #: views/components/navigation.jade:2
 #, fuzzy
@@ -7663,40 +7717,22 @@ msgid ""
 "refueling stops."
 msgstr "這是一個自動安排加油站。"
 
-#: views/components/trip-detail.jade:571
+#. L10n: Displayed when planning refuelin stations (assigning stations to refueling stops) was terminated prematurely because additional overnight lodging stops have been added in the process of planning refueling stations
+#: views/components/trip-detail.jade:572
 msgid ""
 "Review newly scheduled overnight lodging stops before trying to plan "
 "refueling stations again."
 msgstr ""
 
-#: views/components/trip-detail.jade:574
-msgid "Experimental Feature"
-msgstr ""
-
-#: views/components/trip-detail.jade:575
+#: views/components/trip-detail.jade:576
 msgid "Downolading map for offline use is an experimental feature."
 msgstr ""
 
-#: views/components/trip-detail.jade:576
-msgid ""
-"We are actively working to improve it. If you experience problems please "
-"contact us."
-msgstr ""
-
-#: views/components/trip-detail.jade:577
-msgid "This feature may be discontinued without notice."
-msgstr ""
-
-#: views/components/trip-detail.jade:578
-msgid ""
-"We reserve the right to introduce use limits or establish a fee-based access."
-msgstr ""
-
-#: views/components/trip-detail.jade:585
+#: views/components/trip-detail.jade:586
 msgid "Update the cache while viewing the OSM map"
 msgstr ""
 
-#: views/components/trip-detail.jade:590
+#: views/components/trip-detail.jade:591
 #, fuzzy
 msgid "Fold this section"
 msgstr "折疊本節"
@@ -7953,12 +7989,6 @@ msgstr "博客"
 #, fuzzy
 msgid "Affiliates"
 msgstr "關聯公司"
-
-#. L10n: Label for a link to Furkot translation website (this website)
-#: views/footer.jade:28
-#, fuzzy
-msgid "Translate"
-msgstr "透明"
 
 #: views/footer.jade:31 views/footer.jade:35 views/welcome/index.jade:25
 #: views/welcome/index.jade:29
@@ -8491,80 +8521,127 @@ msgstr ""
 "多的景點和住宿選擇。"
 
 #, fuzzy
-#~ msgid "Map Type"
-#~ msgstr "地圖類型"
+#~ msgid "See this ski resort own website"
+#~ msgstr "看到這個滑雪勝地自己的網站"
 
 #, fuzzy
-#~ msgid "Show normal road map"
-#~ msgstr "顯示正常路線圖"
+#~ msgid "See user reviews at Fodor's Travel"
+#~ msgstr "參見Fodor的旅遊用戶評論"
 
 #, fuzzy
-#~ msgid "Show satellite imagery"
-#~ msgstr "顯示衛星圖像"
+#~ msgid "Places to visit and overnight lodgings"
+#~ msgstr "景點和住宿一夜"
 
 #, fuzzy
-#~ msgid "Show terrain features (topo map)"
-#~ msgstr "顯示地形特徵（地形圖）"
+#~ msgid "Hide ski resorts from EpicSki"
+#~ msgstr "隱藏EpicSki滑雪勝地"
 
 #, fuzzy
-#~ msgid "Show alternative road map"
-#~ msgstr "顯示正常路線圖"
+#~ msgid "See author's profile at EveryTrail"
+#~ msgstr "見筆者在EveryTrail簡介"
+
+#~ msgid ""
+#~ "You'll have a chance to copy and paste booking confirmation before Furkot "
+#~ "takes you back to the trip planning."
+#~ msgstr "您將可以在Furkot帶您回到行程規劃之前, 複製貼上預約確認."
 
 #, fuzzy
-#~ msgid "Map Overlays"
-#~ msgstr "地圖覆蓋"
+#~ msgid "Gas stations from myGasFeed"
+#~ msgstr "從myGasFeed加油站"
 
 #, fuzzy
-#~ msgid "Hide road overlay"
-#~ msgstr "隱藏的道路覆蓋"
+#~ msgid "Hide hikes from LocalHikes"
+#~ msgstr "從LocalHikes隱藏上漲"
 
 #, fuzzy
-#~ msgid "Show major roads over satellite imagery"
-#~ msgstr "在顯示衛星圖像主要道路"
+#~ msgid "Click to modify _duration_"
+#~ msgstr "點擊修改_duration_"
+
+#~ msgid ""
+#~ "You'll have a chance to copy and paste booking confirmation before "
+#~ "proceeding to the next lodging."
+#~ msgstr "再繼續到下一個住宿之前, 您需要複製貼上預約確認."
 
 #, fuzzy
-#~ msgid "Hide current weather overlay"
-#~ msgstr "隱藏當前的天氣覆蓋"
+#~ msgid "_Other_"
+#~ msgstr "_其他_"
 
 #, fuzzy
-#~ msgid "Show current weather on map"
-#~ msgstr "在地圖上顯示當前天氣"
+#~ msgid "Stop and hike this trail"
+#~ msgstr "停止並加息這條小道"
 
 #, fuzzy
-#~ msgid "Directions"
-#~ msgstr "說明"
+#~ msgid "See user reviews at EpicSki"
+#~ msgstr "參見EpicSki用戶評論"
 
 #, fuzzy
-#~ msgid "See this place page at Google"
-#~ msgstr "見在谷歌這個地方頁"
+#~ msgid "view only"
+#~ msgstr "只讀"
 
 #, fuzzy
-#~ msgid "See guest reviews at Google"
-#~ msgstr "看到谷歌評論"
+#~ msgid "Ski resorts from EpicSki"
+#~ msgstr "從EpicSki滑雪勝地"
 
 #, fuzzy
-#~ msgid "No hotels around."
-#~ msgstr "周圍沒有飯店。"
+#~ msgid "Add new stop"
+#~ msgstr "添加新站"
 
 #, fuzzy
-#~ msgid "Plan refueling station"
-#~ msgstr "加油站"
+#~ msgid "Start at "
+#~ msgstr "在開始"
+
+#~ msgid "Adding:"
+#~ msgstr "加入:"
 
 #, fuzzy
-#~ msgid "All stops including pass-through points"
-#~ msgstr "所有站包括直通點"
+#~ msgid "Day "
+#~ msgstr "天"
+
+#~ msgid "Booking complete"
+#~ msgstr "預定完畢"
 
 #, fuzzy
-#~ msgid "Keep this automatically scheduled stop"
-#~ msgstr "保持這個計劃自動停機"
+#~ msgid "Hide gas stations from myGasFeed"
+#~ msgstr "隱藏myGasFeed加油站"
 
 #, fuzzy
-#~ msgid "Keep"
-#~ msgstr "保持"
+#~ msgid "Fold this hike details"
+#~ msgstr "折這個加息的細節"
+
+#~ msgid "Press [Back] to return to the hotel page."
+#~ msgstr "按[上一頁]回到旅館頁面."
 
 #, fuzzy
-#~ msgid "See description of this ski resort at EpicSki"
-#~ msgstr "看到這個滑雪勝地的描述在EpicSki"
+#~ msgid "_Day_"
+#~ msgstr "_天_"
+
+#, fuzzy
+#~ msgid "_Duration_"
+#~ msgstr "_Duration_"
+
+#, fuzzy
+#~ msgid "Comments"
+#~ msgstr "註釋"
+
+#, fuzzy
+#~ msgid "Let Furkot guide you"
+#~ msgstr "讓Furkot引導你"
+
+#, fuzzy
+#~ msgid "Hiking trails from LocalHikes"
+#~ msgstr "從登山步道LocalHikes"
+
+#, fuzzy
+#~ msgid "Distance "
+#~ msgstr "距離"
+
+#, fuzzy
+#~ msgid "Be on your own"
+#~ msgstr "是你自己"
+
+#, fuzzy
+#~ msgid "Guided Tour"
+#~ msgstr "導遊"
 
 #, fuzzy
 #~ msgid ""
@@ -8573,124 +8650,69 @@ msgstr ""
 #~ msgstr "當你計劃你的旅行Furkot可以給你它的特點導遊。"
 
 #, fuzzy
-#~ msgid "Guided Tour"
-#~ msgstr "導遊"
+#~ msgid "See description of this ski resort at EpicSki"
+#~ msgstr "看到這個滑雪勝地的描述在EpicSki"
 
 #, fuzzy
-#~ msgid "Be on your own"
-#~ msgstr "是你自己"
+#~ msgid "Keep"
+#~ msgstr "保持"
 
 #, fuzzy
-#~ msgid "Distance "
-#~ msgstr "距離"
+#~ msgid "Keep this automatically scheduled stop"
+#~ msgstr "保持這個計劃自動停機"
 
 #, fuzzy
-#~ msgid "Hiking trails from LocalHikes"
-#~ msgstr "從登山步道LocalHikes"
+#~ msgid "All stops including pass-through points"
+#~ msgstr "所有站包括直通點"
 
 #, fuzzy
-#~ msgid "Let Furkot guide you"
-#~ msgstr "讓Furkot引導你"
+#~ msgid "Plan refueling station"
+#~ msgstr "加油站"
 
 #, fuzzy
-#~ msgid "Comments"
-#~ msgstr "註釋"
+#~ msgid "No hotels around."
+#~ msgstr "周圍沒有飯店。"
 
 #, fuzzy
-#~ msgid "_Duration_"
-#~ msgstr "_Duration_"
+#~ msgid "See guest reviews at Google"
+#~ msgstr "看到谷歌評論"
 
 #, fuzzy
-#~ msgid "_Day_"
-#~ msgstr "_天_"
-
-#~ msgid "Press [Back] to return to the hotel page."
-#~ msgstr "按[上一頁]回到旅館頁面."
+#~ msgid "See this place page at Google"
+#~ msgstr "見在谷歌這個地方頁"
 
 #, fuzzy
-#~ msgid "Fold this hike details"
-#~ msgstr "折這個加息的細節"
+#~ msgid "Directions"
+#~ msgstr "說明"
 
 #, fuzzy
-#~ msgid "Hide gas stations from myGasFeed"
-#~ msgstr "隱藏myGasFeed加油站"
-
-#~ msgid "Booking complete"
-#~ msgstr "預定完畢"
+#~ msgid "Show current weather on map"
+#~ msgstr "在地圖上顯示當前天氣"
 
 #, fuzzy
-#~ msgid "Day "
-#~ msgstr "天"
-
-#~ msgid "Adding:"
-#~ msgstr "加入:"
+#~ msgid "Hide current weather overlay"
+#~ msgstr "隱藏當前的天氣覆蓋"
 
 #, fuzzy
-#~ msgid "Start at "
-#~ msgstr "在開始"
+#~ msgid "Show major roads over satellite imagery"
+#~ msgstr "在顯示衛星圖像主要道路"
 
 #, fuzzy
-#~ msgid "Add new stop"
-#~ msgstr "添加新站"
+#~ msgid "Hide road overlay"
+#~ msgstr "隱藏的道路覆蓋"
 
 #, fuzzy
-#~ msgid "Ski resorts from EpicSki"
-#~ msgstr "從EpicSki滑雪勝地"
+#~ msgid "Show alternative road map"
+#~ msgstr "顯示正常路線圖"
 
 #, fuzzy
-#~ msgid "view only"
-#~ msgstr "只讀"
+#~ msgid "Show satellite imagery"
+#~ msgstr "顯示衛星圖像"
 
 #, fuzzy
-#~ msgid "See user reviews at EpicSki"
-#~ msgstr "參見EpicSki用戶評論"
+#~ msgid "Show normal road map"
+#~ msgstr "顯示正常路線圖"
 
 #, fuzzy
-#~ msgid "Stop and hike this trail"
-#~ msgstr "停止並加息這條小道"
-
-#, fuzzy
-#~ msgid "_Other_"
-#~ msgstr "_其他_"
-
-#~ msgid ""
-#~ "You'll have a chance to copy and paste booking confirmation before "
-#~ "proceeding to the next lodging."
-#~ msgstr "再繼續到下一個住宿之前, 您需要複製貼上預約確認."
-
-#, fuzzy
-#~ msgid "Click to modify _duration_"
-#~ msgstr "點擊修改_duration_"
-
-#, fuzzy
-#~ msgid "Hide hikes from LocalHikes"
-#~ msgstr "從LocalHikes隱藏上漲"
-
-#, fuzzy
-#~ msgid "Gas stations from myGasFeed"
-#~ msgstr "從myGasFeed加油站"
-
-#~ msgid ""
-#~ "You'll have a chance to copy and paste booking confirmation before Furkot "
-#~ "takes you back to the trip planning."
-#~ msgstr "您將可以在Furkot帶您回到行程規劃之前, 複製貼上預約確認."
-
-#, fuzzy
-#~ msgid "See author's profile at EveryTrail"
-#~ msgstr "見筆者在EveryTrail簡介"
-
-#, fuzzy
-#~ msgid "Hide ski resorts from EpicSki"
-#~ msgstr "隱藏EpicSki滑雪勝地"
-
-#, fuzzy
-#~ msgid "Places to visit and overnight lodgings"
-#~ msgstr "景點和住宿一夜"
-
-#, fuzzy
-#~ msgid "See user reviews at Fodor's Travel"
-#~ msgstr "參見Fodor的旅遊用戶評論"
-
-#, fuzzy
-#~ msgid "See this ski resort own website"
-#~ msgstr "看到這個滑雪勝地自己的網站"
+#~ msgid "Map Type"
+#~ msgstr "地圖類型"

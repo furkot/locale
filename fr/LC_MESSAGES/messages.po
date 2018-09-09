@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2018-09-05 11:25-0600\n"
+"POT-Creation-Date: 2018-09-09 08:51-0600\n"
 "PO-Revision-Date: 2018-09-05 15:32+0000\n"
 "Last-Translator: Sylvain Francois <syllant@gmail.com>\n"
 "Language-Team: French <https://translate.furkot.com/projects/furkot/trips/fr/"
@@ -24,17 +24,17 @@ msgid "Plan with [Furkot]"
 msgstr "Planifiez avec [Furkot]"
 
 #. L10n: 'Zoom in' meaning 'Change map scale to show less area but more details'
-#: views/board/board.jade:14 views/components/map.jade:37
+#: views/board/board.jade:14 views/components/map.jade:56
 msgid "Zoom in"
 msgstr "Zoom avant"
 
 #. L10n: 'Zoom out' meaning 'Change map scale to show more area but less details'
-#: views/board/board.jade:15 views/components/map.jade:40
+#: views/board/board.jade:15 views/components/map.jade:59
 msgid "Zoom out"
 msgstr "Zoom arrière"
 
 #. L10n: 'Show he entire trip' as in 'Show all stops of the trip on the map'
-#: views/board/board.jade:17 views/components/map.jade:44
+#: views/board/board.jade:17 views/components/map.jade:63
 msgid "Show the entire trip"
 msgstr "Afficher le voyage complet"
 
@@ -51,10 +51,11 @@ msgstr "Suggérer"
 #: views/board/board.jade:32 views/components/accounts.jade:82
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:13
 #: views/components/dialog.jade:7 views/components/import-dlg.jade:158
-#: views/components/navigation.jade:2 views/components/network.jade:2
-#: views/components/place-switch.jade:447 views/components/plan-msg.jade:2
-#: views/components/share-dlg.jade:101 views/components/share-dlg.jade:112
-#: views/components/share-dlg.jade:124 views/components/step-detail.jade:822
+#: views/components/map.jade:229 views/components/navigation.jade:2
+#: views/components/network.jade:2 views/components/place-switch.jade:447
+#: views/components/plan-msg.jade:2 views/components/share-dlg.jade:101
+#: views/components/share-dlg.jade:112 views/components/share-dlg.jade:124
+#: views/components/step-detail.jade:822
 #: views/components/step-switches.jade:118
 #: views/components/step-switches.jade:129
 #: views/components/step-switches.jade:140
@@ -68,7 +69,7 @@ msgstr "Suggérer"
 #: views/components/trip-detail.jade:502 views/components/trip-detail.jade:507
 #: views/components/trip-detail.jade:515 views/components/trip-detail.jade:525
 #: views/components/trip-detail.jade:533 views/components/trip-detail.jade:541
-#: views/components/trip-detail.jade:551 views/components/trip-detail.jade:574
+#: views/components/trip-detail.jade:551 views/components/trip-detail.jade:575
 #: views/components/trip-toolbar.jade:18 views/tripshot/mixin.jade:113
 msgid "Cancel"
 msgstr "Annuler"
@@ -231,12 +232,12 @@ msgid "Connected Accounts"
 msgstr "Comptes connectés"
 
 #: views/components/accounts.jade:83 views/components/add-stops.jade:2
-#: views/components/add-stops.jade:13 views/components/navigation.jade:2
-#: views/components/network.jade:2 views/components/place-switch.jade:448
-#: views/components/plan-msg.jade:2 views/components/plan-msg.jade:17
-#: views/components/share-dlg.jade:101 views/components/share-dlg.jade:112
-#: views/components/share-dlg.jade:124 views/components/share-dlg.jade:136
-#: views/components/step-switches.jade:118
+#: views/components/add-stops.jade:13 views/components/map.jade:229
+#: views/components/navigation.jade:2 views/components/network.jade:2
+#: views/components/place-switch.jade:448 views/components/plan-msg.jade:2
+#: views/components/plan-msg.jade:17 views/components/share-dlg.jade:101
+#: views/components/share-dlg.jade:112 views/components/share-dlg.jade:124
+#: views/components/share-dlg.jade:136 views/components/step-switches.jade:118
 #: views/components/step-switches.jade:129
 #: views/components/step-switches.jade:140
 #: views/components/step-switches.jade:148
@@ -251,7 +252,7 @@ msgstr "Comptes connectés"
 #: views/components/trip-detail.jade:533 views/components/trip-detail.jade:541
 #: views/components/trip-detail.jade:551 views/components/trip-detail.jade:558
 #: views/components/trip-detail.jade:566 views/components/trip-detail.jade:570
-#: views/components/trip-detail.jade:574 views/components/trip-toolbar.jade:18
+#: views/components/trip-detail.jade:575 views/components/trip-toolbar.jade:18
 #: views/components/warning.jade:9 views/tripshot/mixin.jade:116
 msgid "OK"
 msgstr "OK"
@@ -270,8 +271,8 @@ msgstr "OK"
 #: views/components/trip-detail.jade:165 views/components/trip-detail.jade:313
 #: views/components/trip-detail.jade:380 views/components/trip-detail.jade:432
 #: views/components/trip-detail.jade:465 views/components/trip-detail.jade:496
-#: views/components/trip-detail.jade:588 views/components/trip-detail.jade:596
-#: views/components/trip-detail.jade:602 views/components/trip-toolbar.jade:44
+#: views/components/trip-detail.jade:589 views/components/trip-detail.jade:597
+#: views/components/trip-detail.jade:603 views/components/trip-toolbar.jade:44
 #: views/tripshot/mixin.jade:119 views/tripshot/mixin.jade:150
 msgid "Learn more"
 msgstr "En savoir plus"
@@ -1538,59 +1539,86 @@ msgstr "Mes voyages"
 msgid "Change map view"
 msgstr "Changer la vue de la carte"
 
-#. L10n: Label for the option to select how routes displayed on the map are colored
+#. L10n: Label for additional layers to be displayed over the map like terrain shapes, elevation contours
 #: views/components/map.jade:18
+msgid "Map Overlays"
+msgstr "Couches de la carte"
+
+#: views/components/map.jade:21
+#, fuzzy
+msgid "Hide terrain features"
+msgstr "Cacher le terrain"
+
+#: views/components/map.jade:22
+msgid "Show terrain features (topo map)"
+msgstr "Montrer les caractéristiques de terrain (carte topo)"
+
+#. L10n: Label for the option to select how routes displayed on the map are colored
+#: views/components/map.jade:28
 msgid "Color Routes"
 msgstr "Couleur des routes"
 
 #. L10n: 'Travel off road / follow roads' as in 'Use different colors to distinguish between routes set to Travel off road vs follow roads'
-#: views/components/map.jade:21
+#: views/components/map.jade:31
 msgid "Travel off road / follow roads"
 msgstr "Voyager hors route / suivre les routes"
 
 #. L10n: 'Alternate days' as in 'Alternate colors to differentiate between subsequent days of the trip'
-#: views/components/map.jade:25
+#: views/components/map.jade:35
 msgid "Alternate days"
 msgstr "Jours alternés"
 
 #. L10n: 'Outbound / inbound leg' as in 'Use different colors to distinguish between Outbound vs inbound leg of the trip'. Outbound leg is going out to the mid point, while the inbound leg means returning to the starting point. Outbound and inbound legs have meaning for loop trips only
-#: views/components/map.jade:29
+#: views/components/map.jade:39
 msgid "Outbound / inbound leg"
 msgstr "Trajet aller / retour"
 
 #. L10n: 'Individual route colors' as in 'Display routes on the map in their Individual route colors as assigned in the Plan drawer'
-#: views/components/map.jade:33
+#: views/components/map.jade:43
 msgid "Individual route colors"
 msgstr "Couleurs de route"
 
-#: views/components/map.jade:47
+#. L10n: Label for a link to Furkot translation website (this website)
+#: views/components/map.jade:48 views/footer.jade:28
+msgid "Translate"
+msgstr "Traduire"
+
+#: views/components/map.jade:51
+msgid "Translate map names to user language"
+msgstr ""
+
+#: views/components/map.jade:52
+msgid "Display map names in local language"
+msgstr ""
+
+#: views/components/map.jade:66
 msgid "Center map on the selected stop"
 msgstr "Centrer la carte sur l'étape sélectionnée"
 
-#: views/components/map.jade:49
+#: views/components/map.jade:68
 msgid "Center map on the current location"
 msgstr "Centrer la carte sur le lieu en cours"
 
 #. L10n: 'places' means 'places displayed on the map'
-#: views/components/map.jade:58
+#: views/components/map.jade:77
 msgid "Hide places"
 msgstr "Cacher les lieux"
 
 #. L10n: 'places' means 'places displayed on the map'
-#: views/components/map.jade:58 views/components/map.jade:61
+#: views/components/map.jade:77 views/components/map.jade:80
 msgid "Show places"
 msgstr "Voir les lieux"
 
-#: views/components/map.jade:64
+#: views/components/map.jade:83
 msgid "Find a place"
 msgstr "Trouver un lieu"
 
-#: views/components/map.jade:66 views/components/trips.jade:7
+#: views/components/map.jade:85 views/components/trips.jade:7
 msgid "Import trip"
 msgstr "Importer un voyage"
 
 #. L10n: curly brackets {} denote a placeholder for the user name
-#: views/components/map.jade:68
+#: views/components/map.jade:87
 msgid ""
 "This trip has been modified by {}. If you want to see changes, click the "
 "button above to refresh this trip"
@@ -1598,7 +1626,7 @@ msgstr ""
 "Ce voyage a été modifié par {}. Si vous souhaitez voir les changements, "
 "cliquez sur le bouton ci-dessus pour réactualiser le voyage"
 
-#: views/components/map.jade:72 views/components/plan-msg.jade:18
+#: views/components/map.jade:91 views/components/plan-msg.jade:18
 msgid ""
 "You can only view this trip. If you want to modify it, contact this trip "
 "owner"
@@ -1606,14 +1634,14 @@ msgstr ""
 "Vous pouvez seulement consulter ce voyage. Si vous souhaitez le modifier, "
 "veuillez contacter son propriétaire"
 
-#: views/components/map.jade:76
+#: views/components/map.jade:95
 msgid ""
 "Furkot is using cached data only. Click the button above to refresh this trip"
 msgstr ""
 "Furkot utilise uniquement les données en cache. Cliquez sur le bouton ci-"
 "dessus pour réactualiser le voyage"
 
-#: views/components/map.jade:78
+#: views/components/map.jade:97
 msgid ""
 "Furkot has been inactive for a while and switched your trip to view-only "
 "mode to prevent data loss. Click the button above to refresh this trip"
@@ -1622,113 +1650,143 @@ msgstr ""
 "votre voyage en mode consultation. Cliquez sur le bouton ci-dessus pour "
 "réactualiser ce voyage"
 
-#: views/components/map.jade:80
+#: views/components/map.jade:99
 msgid "Done editing trip"
 msgstr "Modification du voyage terminée"
 
-#: views/components/map.jade:80
+#: views/components/map.jade:99
 msgid ""
 "This trip is in view-only mode. Click the button above to edit this trip"
 msgstr ""
 "Ce voyage est en mode consultation. Cliquez sur le bouton ci-dessus pour "
 "modifier le voyage"
 
-#: views/components/map.jade:83
+#: views/components/map.jade:102
 msgid "Furkot guided tour"
 msgstr "Visite guidée de Furkot"
 
-#: views/components/map.jade:88 views/components/step-switches.jade:109
+#: views/components/map.jade:107 views/components/step-switches.jade:109
 msgid "Nothing to display. Internet connection may be down."
 msgstr "Rien à afficher. La connexion Internet peut être inactive."
 
-#: views/components/map.jade:92
+#: views/components/map.jade:111
 msgid "Show map"
 msgstr "Voir la carte"
 
 #. L10n: Label on the button that shows map (visible only on phone/tablet screen)
-#: views/components/map.jade:97
+#: views/components/map.jade:116
 msgid "Map"
 msgstr "Carte"
 
-#: views/components/map.jade:102
+#: views/components/map.jade:121
 msgid "Hide trip details"
 msgstr "Cacher les détails du voyage"
 
-#: views/components/map.jade:103
+#: views/components/map.jade:122
 msgid "Show trip details"
 msgstr "Afficher les détails du voyage"
 
 #. L10n: Label on the handle of the Trip drawer. Shorter word is better; ideally words for other handles (Plan, Sleep, Eat, Find) will not be longer
 #. L10n: Label for time/distance covered since beginning of the trip
-#: views/components/map.jade:108 views/components/step-detail.jade:546
+#: views/components/map.jade:127 views/components/step-detail.jade:546
 msgid "Trip"
 msgstr "Voyage"
 
-#: views/components/map.jade:113
+#: views/components/map.jade:132
 msgid "Hide trip itinerary"
 msgstr "Cacher itinéraire de voyage"
 
-#: views/components/map.jade:114
+#: views/components/map.jade:133
 msgid "Show trip itinerary"
 msgstr "Voir l’itinéraire"
 
 #. L10n: Label on the handle of the Plan drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Plan' can be also translated as 'Itinerary' or 'Schedule'
-#: views/components/map.jade:119
+#: views/components/map.jade:138
 msgid "Plan"
 msgstr "Itinéraire"
 
-#: views/components/map.jade:124
+#: views/components/map.jade:143
 msgid "Hide nearby lodging accommodations"
 msgstr "Cacher les hébergements à proximité"
 
-#: views/components/map.jade:125
+#: views/components/map.jade:144
 msgid "Show nearby lodging accommodations"
 msgstr "Voir les hébergements à proximité"
 
 #. L10n: Label on the handle of the Sleep drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Sleep' can be also translated as 'Lodgings'
-#: views/components/map.jade:130
+#: views/components/map.jade:149
 msgid "Sleep"
 msgstr "Dormir"
 
-#: views/components/map.jade:135
+#: views/components/map.jade:154
 msgid "Hide places to eat, drink and get fuel"
 msgstr "Cacher les endroits pour manger, boire et se procurer du carburant"
 
-#: views/components/map.jade:136
+#: views/components/map.jade:155
 msgid "Show me where to eat, drink and get fuel"
 msgstr "Voir où manger, boire et se procurer du carburant"
 
 #. L10n: Label on the handle of the Eat drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Eat' can be also translated as 'Food', 'Establishments' (as in businesses) or 'Services'
-#: views/components/map.jade:141
+#: views/components/map.jade:160
 msgid "Eat"
 msgstr "Manger"
 
-#: views/components/map.jade:146
+#: views/components/map.jade:165
 msgid "Hide points of interest"
 msgstr "Cacher les points d'intérêt"
 
-#: views/components/map.jade:147 views/components/step-switches.jade:115
+#: views/components/map.jade:166 views/components/step-switches.jade:115
 msgid "Show points of interest"
 msgstr "Montrer les points d'intérêt"
 
 #. L10n: Label on the handle of the Find drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Find' can be also translated as 'Search', 'Places of Interest', 'Points of Interest' or 'Attractions'
-#: views/components/map.jade:152
+#: views/components/map.jade:171
 msgid "Find"
 msgstr "Chercher"
 
-#: views/components/map.jade:178
+#: views/components/map.jade:197
 msgid "Drag to change route"
 msgstr "Faire glisser pour changer l’itinéraire"
 
 #. L10n: 'Click to select' as in 'Click on the route to select it'
-#: views/components/map.jade:180
+#: views/components/map.jade:199
 msgid "Click to select"
 msgstr "Cliquez pour sélectionner"
 
 #. L10n: hint displayed when user hover over map
-#: views/components/map.jade:182
+#: views/components/map.jade:201
 msgid "Click to add a new stop here"
 msgstr "Cliquez pour ajouter une nouvelle étape ici"
+
+#: views/components/map.jade:229 views/components/trip-detail.jade:575
+msgid "Experimental Feature"
+msgstr "Fonctionnalité expérimentale"
+
+#: views/components/map.jade:230
+#, fuzzy
+msgid "Topo map is an experimental feature."
+msgstr ""
+"Le téléchargement de carte pour un usage hors-connexion est une "
+"fonctionnalité expérimentale."
+
+#: views/components/map.jade:231 views/components/trip-detail.jade:577
+msgid ""
+"We are actively working to improve it. If you experience problems please "
+"contact us."
+msgstr ""
+"Nous travaillons activement pour l'améliorer. Si vous rencontrez des "
+"problèmes, merci de nous contacter."
+
+#: views/components/map.jade:232 views/components/trip-detail.jade:578
+msgid "This feature may be discontinued without notice."
+msgstr "Cette fonctionnalité peut être abandonnée sans préavis."
+
+#: views/components/map.jade:233 views/components/trip-detail.jade:579
+msgid ""
+"We reserve the right to introduce use limits or establish a fee-based access."
+msgstr ""
+"Nous nous réservons le droit d'introduire des limitations ou des frais "
+"d'accès."
 
 #: views/components/navigation.jade:2
 msgid "Navigation Apps"
@@ -6735,7 +6793,8 @@ msgstr ""
 "Stations-service non trouvées près d'une ou de plusieurs étapes stations-"
 "service planifiées automatiquement."
 
-#: views/components/trip-detail.jade:571
+#. L10n: Displayed when planning refuelin stations (assigning stations to refueling stops) was terminated prematurely because additional overnight lodging stops have been added in the process of planning refueling stations
+#: views/components/trip-detail.jade:572
 msgid ""
 "Review newly scheduled overnight lodging stops before trying to plan "
 "refueling stations again."
@@ -6743,40 +6802,17 @@ msgstr ""
 "Passez en revue les nouvelles étapes d'hébergement d'une nuit avant "
 "d'essayer de planifier les stations-service."
 
-#: views/components/trip-detail.jade:574
-msgid "Experimental Feature"
-msgstr "Fonctionnalité expérimentale"
-
-#: views/components/trip-detail.jade:575
+#: views/components/trip-detail.jade:576
 msgid "Downolading map for offline use is an experimental feature."
 msgstr ""
 "Le téléchargement de carte pour un usage hors-connexion est une "
 "fonctionnalité expérimentale."
 
-#: views/components/trip-detail.jade:576
-msgid ""
-"We are actively working to improve it. If you experience problems please "
-"contact us."
-msgstr ""
-"Nous travaillons activement pour l'améliorer. Si vous rencontrez des "
-"problèmes, merci de nous contacter."
-
-#: views/components/trip-detail.jade:577
-msgid "This feature may be discontinued without notice."
-msgstr "Cette fonctionnalité peut être abandonnée sans préavis."
-
-#: views/components/trip-detail.jade:578
-msgid ""
-"We reserve the right to introduce use limits or establish a fee-based access."
-msgstr ""
-"Nous nous réservons le droit d'introduire des limitations ou des frais "
-"d'accès."
-
-#: views/components/trip-detail.jade:585
+#: views/components/trip-detail.jade:586
 msgid "Update the cache while viewing the OSM map"
 msgstr "Mettre à jour le cache lors de la consultation de la carte OSM"
 
-#: views/components/trip-detail.jade:590
+#: views/components/trip-detail.jade:591
 msgid "Fold this section"
 msgstr "Cacher les détails de cette section"
 
@@ -7003,11 +7039,6 @@ msgstr "Blog"
 #: views/footer.jade:25
 msgid "Affiliates"
 msgstr "Affiliations"
-
-#. L10n: Label for a link to Furkot translation website (this website)
-#: views/footer.jade:28
-msgid "Translate"
-msgstr "Traduire"
 
 #: views/footer.jade:31 views/footer.jade:35 views/welcome/index.jade:25
 #: views/welcome/index.jade:29
@@ -7490,88 +7521,488 @@ msgstr ""
 "[Furkot] pour compléter votre itinéraire, voir la carte, trouver plus "
 "d’attractions et d’options d'hébergement."
 
-#~ msgid "Map Type"
-#~ msgstr "Type de carte"
-
-#~ msgid "Show normal road map"
-#~ msgstr "Voir la carte routière classique"
-
-#~ msgid "Show satellite imagery"
-#~ msgstr "Voir l'image satellite"
-
-#~ msgid "Show terrain features (topo map)"
-#~ msgstr "Montrer les caractéristiques de terrain (carte topo)"
-
-#~ msgid "Show alternative road map"
-#~ msgstr "Voir la carte routière alternative"
-
-#~ msgid "Map Overlays"
-#~ msgstr "Couches de la carte"
-
-#~ msgid "Hide road overlay"
-#~ msgstr "Cacher la couche de routes"
-
-#~ msgid "Show major roads over satellite imagery"
-#~ msgstr "Montrer les routes principales sur l’image satellite"
-
-#~ msgid "Hide current weather overlay"
-#~ msgstr "Cacher la couche de météo actuelle"
-
-#~ msgid "Show current weather on map"
-#~ msgstr "Afficher la météo actuelle sur la carte"
-
-#~ msgid "Directions"
-#~ msgstr "Directions"
-
-#~ msgid "See this place page at Google"
-#~ msgstr "Voir la page de de lieu sur Google"
-
-#~ msgid "See guest reviews at Google"
-#~ msgstr "Consultez les avis des utilisateurs sur Google"
-
-#~ msgid ""
-#~ "We'll be happy to reset your password, but we need more information to "
-#~ "identify your account."
-#~ msgstr ""
-#~ "Nous serons heureux de réinitialiser votre mot de passe, mais nous avons "
-#~ "besoin de plus d’informations pour identifier votre compte."
-
-#~ msgid "Museums from Go Historic"
-#~ msgstr "Musées de Go Historic"
-
-#~ msgid "See user reviews at EpicSki"
-#~ msgstr "Consultez les avis des utilisateurs sur EpicSki"
-
-#~ msgid "Navigate to"
-#~ msgstr "Naviguer vers"
+#~ msgid "Day "
+#~ msgstr "Journée "
 
 #, fuzzy
-#~ msgid "private identifier"
-#~ msgstr "identifiant privée"
+#~ msgid "Plan refueling station"
+#~ msgstr "Stations-service"
 
-#~ msgid "Hide apartments, private rooms, B&Bs"
-#~ msgstr "Cacher les appartements, chambres privées, B&Bs"
+#~ msgid "Furkot assumes it is a riding trip."
+#~ msgstr "Furkot suppose qu'il s’agit d'un voyage à moto."
 
-#~ msgid "Forgot password"
-#~ msgstr "Mot de passe oublié"
+#~ msgid "Keep this automatically scheduled stop"
+#~ msgstr "Conserver cette étape planifiée automatiquement"
 
-#~ msgid "Remove this trip from phone"
-#~ msgstr "Supprimer ce voyage du téléphone"
+#~ msgid "_Day_"
+#~ msgstr "_Journée_"
 
-#~ msgid "Gas stations from myGasFeed"
-#~ msgstr "Stations-service de myGasFeed"
+#~ msgid "Keep"
+#~ msgstr "Conserver"
 
-#~ msgid "Distance "
-#~ msgstr "Distance "
+#~ msgid "No hotels around."
+#~ msgstr "Aucun hôtel à proximité."
 
-#~ msgid "View More"
-#~ msgstr "Voir plus"
+#~ msgid "All stops including pass-through points"
+#~ msgstr "Toutes les étapes y compris les étapes de transition"
 
-#~ msgid "_Duration_"
-#~ msgstr "_Durée_"
+#~ msgid "Ski resorts from EpicSki"
+#~ msgstr "Stations de ski de EpicSki"
 
-#~ msgid "See user reviews at Go Historic"
-#~ msgstr "Consultez les avis des utilisateurs sur Go Historic"
+#~ msgid "Hide deals from Yipit"
+#~ msgstr "Cacher les offres de Yipit"
+
+#~ msgid "Missing password"
+#~ msgstr "Mot de passe requis"
+
+#~ msgid "None"
+#~ msgstr "Aucun"
+
+#~ msgid "Vertical_drop"
+#~ msgstr "Dénivelé"
+
+#~ msgid "Confirm"
+#~ msgstr "Confirmer"
+
+#~ msgid "See author's profile at EveryTrail"
+#~ msgstr "Voir le profil de l'auteur sur EveryTrail"
+
+#~ msgid "Furkot assumes it is a driving trip."
+#~ msgstr "Furkot suppose qu'il s’agit d'un voyage en voiture."
+
+#~ msgid "All"
+#~ msgstr "Tous"
+
+#~ msgid "Welcome"
+#~ msgstr "Bienvenue"
+
+#~ msgid "Hide museums from Go Historic"
+#~ msgstr "Cacher les musées de Go Historic"
+
+#~ msgid "Trip removed from phone"
+#~ msgstr "Voyage supprimé du téléphone"
+
+#~ msgid ""
+#~ "If this is your first time and you would like to sign up, please go to "
+#~ "Furkot's [full site]."
+#~ msgstr ""
+#~ "Si c’est votre première visite et que vous souhaitez vous inscrire, merci "
+#~ "de vous rendre sur le [site complet] de Furkot."
+
+#~ msgid ""
+#~ "You'll have a chance to copy and paste booking confirmation before "
+#~ "proceeding to the next lodging."
+#~ msgstr ""
+#~ "Vous pourrez copier-coller la confirmation de réservation avant de passer "
+#~ "au prochain hébergement."
+
+#~ msgid "Info"
+#~ msgstr "Information"
+
+#~ msgid ""
+#~ "Not to worry, open Furkot's [full site], go to the trip and the driving "
+#~ "information will be automatically updated."
+#~ msgstr ""
+#~ "Pas de soucis, ouvrez le [site complet] de Furkot, allez sur le voyage et "
+#~ "les informations de conduite seront automatiquement mises à jour."
+
+#~ msgid ""
+#~ "In reply to this email let us know what your nickname (a.k.a. username) "
+#~ "is and, to your best recollection, answer some questions about your "
+#~ "planned trips."
+#~ msgstr ""
+#~ "En réponse, indiquez-nous votre pseudo (nom d'utilisateur) et répondez à "
+#~ "quelques questions au sujet de vos voyages prévus."
+
+#~ msgid "When did you intend to travel?"
+#~ msgstr "Quand souhaitez-vous partir ?"
+
+#~ msgid "Guidebook"
+#~ msgstr "Guide"
+
+#~ msgid ""
+#~ "As you are planning your trip Furkot can give you a guided tour of its "
+#~ "features."
+#~ msgstr ""
+#~ "Lors de la planification de votre voyage, Furkot peut vous proposer une "
+#~ "visite guidée de ses fonctionnalités."
+
+#~ msgid "Click on the [plus] sign to add a new trip."
+#~ msgstr "Cliquez sur le signe [plus] pour ajouter un nouveau voyage."
+
+#~ msgid "Navigate"
+#~ msgstr "Naviguer"
+
+#~ msgid "Click to leave suggestions"
+#~ msgstr "Cliquez pour laisser des suggestions"
+
+#~ msgid "NONE"
+#~ msgstr "Aucun"
+
+#~ msgid "Stops"
+#~ msgstr "Etapes"
+
+#~ msgid "Which states/countries did you visit on your trips?"
+#~ msgstr ""
+#~ "Quels sont les états / pays que vous avez visités lors de vos voyages?"
+
+#~ msgid "Book"
+#~ msgstr "Réserver"
+
+#~ msgid "Guidebooks and travel guides"
+#~ msgstr "Guides de voyage"
+
+#~ msgid "See this museum own website"
+#~ msgstr "Voir le site web de ce musée"
+
+#~ msgid "Type trip name"
+#~ msgstr "Saisissez le nom de voyage"
+
+#~ msgid "Looks like driving information is missing from some trips."
+#~ msgstr ""
+#~ "Il semble que les informations de conduites manquent pour certains "
+#~ "voyages."
+
+#~ msgid "ALL"
+#~ msgstr "TOUS"
+
+#~ msgid "Undo unlock route"
+#~ msgstr "Annuler le verrouillage de la route"
+
+#~ msgid "Deal"
+#~ msgstr "Offre"
+
+#~ msgid "Comments"
+#~ msgstr "Commentaires"
+
+#~ msgid "Hide gas stations from myGasFeed"
+#~ msgstr "Cacher les stations-service de myGasFeed"
+
+#~ msgid "_Other_"
+#~ msgstr "_Autre_"
+
+#~ msgid "Press [Back] to return to the hotel page."
+#~ msgstr "Cliquez sur [Retour] pour revenir à la page de l’hôtel."
+
+#~ msgid "Do you remember any names of the trips you planned with Furkot?"
+#~ msgstr ""
+#~ "Vous souvenez-vous de noms de voyages que vous auriez planifiés avec "
+#~ "Furkot ?"
+
+#~ msgid "Adding:"
+#~ msgstr "Ajout:"
+
+#~ msgid "Add this museum as a skipped stop"
+#~ msgstr "Ajouter ce musée comme une étape ignorée"
+
+#~ msgid "Please wait while Furkot is contacting the booking site"
+#~ msgstr ""
+#~ "Merci de patienter pendant que Furkot contacte le site de réservation"
+
+#~ msgid "Re-route when adding new stops"
+#~ msgstr "Re-router lors de l'ajout de nouvelles étapes"
+
+#~ msgid ""
+#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
+#~ "trip."
+#~ msgstr ""
+#~ "Ouvrez Furkot sur votre téléphone ou tablette pour voir la version à jour "
+#~ "de ce voyage."
+
+#~ msgid "Redo unlock route"
+#~ msgstr "Refaire le déverrouillage de la route"
+
+#~ msgid "Stop and hike this trail"
+#~ msgstr "S'arrêter et prendre ce sentier"
+
+#~ msgid "Preserve this route when adding new stops"
+#~ msgstr "Préserver cette route lors de l'ajout de nouvelles étapes"
+
+#~ msgid "Anticipate seasonal closures during trip."
+#~ msgstr "Anticiper les fermetures saisonnières pendant le voyage."
+
+#~ msgid "Change"
+#~ msgstr "Modifier"
+
+#~ msgid " | Free Road Trip Planner | Map Your Route"
+#~ msgstr " | Planificateur Gratuit De Voyage | Planifiez Votre Itinéraire"
+
+#~ msgid "Click to modify the time by which you end driving every day"
+#~ msgstr ""
+#~ "Cliquez pour modifier l'heure à laquelle vous terminez de conduire chaque "
+#~ "jour"
+
+#~ msgid "Analyze"
+#~ msgstr "Analyser"
+
+# Could be “j” also
+#~ msgid "day"
+#~ msgstr "jour"
+
+#~ msgid "Hide hikes from LocalHikes"
+#~ msgstr "Cacher les randonnées de LocalHikes"
+
+#~ msgid "Full Site"
+#~ msgstr "Site complet"
+
+#~ msgid "Hide guidebooks, deals and discounts"
+#~ msgstr "Cacher les guides de voyages, offres et promotions"
+
+#~ msgid "Select KML, GPX or CSV file"
+#~ msgstr "Sélectionnez un fichier KML, GPX ou CSV"
+
+#~ msgid "Current password"
+#~ msgstr "Mot de passe actuel"
+
+#~ msgid "Are you sure you want to enable it?"
+#~ msgstr "Etes-vous sûr que vous voulez l'activer ?"
+
+#~ msgid "Looks like there are no trips to show here."
+#~ msgstr "Aucun voyage à afficher."
+
+#~ msgid "Click to modify the time at which you start driving every day"
+#~ msgstr ""
+#~ "Cliquez pour modifier l'heure à laquelle vous commencez à conduire chaque "
+#~ "jour"
+
+#~ msgid "Exact coordinates"
+#~ msgstr "Coordonnées exactes"
+
+#~ msgid "Be on your own"
+#~ msgstr "Je suis autonome"
+
+#~ msgid "Confirm Password"
+#~ msgstr "Confirmez le mot de passe"
+
+#~ msgid "Start at "
+#~ msgstr "Commencer à "
+
+#~ msgid "See user reviews at Fodor's Travel"
+#~ msgstr "Consultez les avis des utilisateurs sur Fodor’s Travel"
+
+#~ msgid "Discount"
+#~ msgstr "Promotion"
+
+#~ msgid "Looking for trip ideas?"
+#~ msgstr "Vous cherchez des idées de voyage ?"
+
+#~ msgid "Click to modify _duration_"
+#~ msgstr "Cliquez pour modifier la _durée_"
+
+#~ msgid "view only"
+#~ msgstr "consultation seulement"
+
+#~ msgid ""
+#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
+#~ msgstr ""
+#~ "Si vous avez déjà un [voyage], assurez-vous qu’il a l’option _Téléphone_ "
+#~ "activée."
+
+#~ msgid "Hide ski resorts from EpicSki"
+#~ msgstr "Cacher les stations de ski de EpicSki"
+
+#, fuzzy
+#~ msgid "Your password is necessary to save your email address for future use"
+#~ msgstr ""
+#~ "Votre mot de passe est nécessaire pour sauver votre adresse e-mail pour "
+#~ "une utilisation future"
+
+#~ msgid "Feedback"
+#~ msgstr "Votre avis"
+
+#~ msgid "Feel free to press [Done] at any point."
+#~ msgstr "N’hésitez pas à cliquer sur [Terminé] à tout moment."
+
+#~ msgid "Visit this museum"
+#~ msgstr "Visitez ce musée"
+
+#~ msgid "Sign Out"
+#~ msgstr "Se déconnecter"
+
+#~ msgid "Booking complete"
+#~ msgstr "Réservation complète"
+
+#~ msgid "Deals from Yipit"
+#~ msgstr "Offres de Yipit"
+
+#~ msgid "Do you remember any places/stops that you added?"
+#~ msgstr "Vous souvenez-vous de lieux / étapes que vous auriez ajoutés ?"
+
+#~ msgid "If it is not, you can change it later."
+#~ msgstr "Si ce n’est pas le cas, vous pourrez changer plus tard."
+
+#~ msgid "Stop address"
+#~ msgstr "Adresse d'étape"
+
+#~ msgid ""
+#~ "Otherwise you can tell us more and we will try to verify your account."
+#~ msgstr ""
+#~ "Sinon, vous pouvez nous en dire plus et nous allons essayer de vérifier "
+#~ "votre compte."
+
+#~ msgid "Furkot assumes it is a walking trip."
+#~ msgstr "Furkot suppose qu'il s’agit d'un voyage à pied."
+
+#~ msgid "Type to modify place"
+#~ msgstr "Ecrire pour modifier le lieu"
+
+#~ msgid "See description of this ski resort at EpicSki"
+#~ msgstr "Voir la description de cette station de ski sur EpicSki"
+
+#, fuzzy
+#~ msgid "Your password"
+#~ msgstr "Votre mot de passe"
+
+#~ msgid "Mobile"
+#~ msgstr "Mobile"
+
+#~ msgid "Fold this museum details"
+#~ msgstr "Cacher les détails de ce musée"
+
+#~ msgid ""
+#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
+#~ msgstr ""
+#~ "Pas de soucis, ouvrez le [site complet] de Furkot pour planifier un "
+#~ "nouveau voyage."
+
+#~ msgid "Places to visit and overnight lodgings"
+#~ msgstr "Lieux à visiter et hébergements d’une nuit"
+
+#~ msgid "Hide hotel chains"
+#~ msgstr "Cacher les chaînes hôtelières"
+
+#~ msgid "This trip is now ready to be displayed on your mobile device."
+#~ msgstr ""
+#~ "Ce voyage est maintenant prêt à être affiché sur votre appareil mobile."
+
+#~ msgid "Fold this hike details"
+#~ msgstr "Cacher les détails de cette randonnée"
+
+#~ msgid "Reserve a Lodging"
+#~ msgstr "Réservez un hébergement"
+
+#~ msgid "Top"
+#~ msgstr "Haut"
+
+#~ msgid "Label Roads"
+#~ msgstr "Noms des Routes"
+
+#~ msgid "See the business offering this deal"
+#~ msgstr "Voir le commerce proposant cette offre"
+
+#~ msgid "See description of this museum at Go Historic"
+#~ msgstr "Voir la description de ce musée sur Go Historic"
+
+#~ msgid "Default nav app"
+#~ msgstr "App de navigation par défaut"
+
+#~ msgid "Hide satellite imagery"
+#~ msgstr "Cacher l’image satellite"
+
+#~ msgid "See this ski resort own website"
+#~ msgstr "Voir le site web de cette station de ski"
+
+#~ msgid "Trip sent to phone"
+#~ msgstr "Voyage envoyé au téléphone"
+
+#~ msgid "Confirm password"
+#~ msgstr "Confirmez le mot de passe"
+
+#~ msgid "Send this trip to phone"
+#~ msgstr "Envoyer ce voyage sur le téléphone"
+
+#~ msgid "Hide guidebooks and travel guides"
+#~ msgstr "Cacher les guides de voyage"
+
+#~ msgid "Weather"
+#~ msgstr "Météo"
+
+#~ msgid "See this deal details at Yipit"
+#~ msgstr "Voir les détails de cette offre sur Yipit"
+
+#~ msgid "Furkot assumes it is a bicycle trip."
+#~ msgstr "Furkot suppose qu'il s’agit d'un voyage en vélo."
+
+#~ msgid "Hiking trails from LocalHikes"
+#~ msgstr "Sentiers de randonnée de LocalHikes"
+
+#~ msgid ""
+#~ "This is a road trip planning application. Please sign in to view your "
+#~ "trips."
+#~ msgstr ""
+#~ "Ceci est une application de planification d’itinéraires de voyage. Merci "
+#~ "de vous connecter pour voir vos voyages."
+
+#~ msgid "Password and confirmation do not match"
+#~ msgstr "Les mots de passe ne correspondent pas"
+
+#~ msgid ""
+#~ "This is an experimental feature. When enabled, calculating routes will "
+#~ "take longer and may produce less reliable results."
+#~ msgstr ""
+#~ "Ceci est une fonctionnalité expérimentale. Lorsqu'elle est activée, le "
+#~ "calcul d’itinéraire prendra plus de temps et peut produire des résultats "
+#~ "moins fiables."
+
+#~ msgid "Preserve / allow re-routing"
+#~ msgstr "Préserver / activer le re-routage"
+
+#~ msgid "click here"
+#~ msgstr "cliquez ici"
+
+#~ msgid "Trips"
+#~ msgstr "Voyages"
+
+#~ msgid "Add new stop"
+#~ msgstr "Ajouter une étape"
+
+#~ msgid "Places you want to visit - your Atlas Obscura user name"
+#~ msgstr ""
+#~ "Endroits que vous souhaitez visiter - votre nom d'utilisateur Atlas "
+#~ "Obscura"
+
+#~ msgid "Guided Tour"
+#~ msgstr "Visite Guidée"
+
+#~ msgid ""
+#~ "Take itinerary of your road trip, weekend outing, family vacation with "
+#~ "you while traveling. Use Furkot on your phone or tablet on the go."
+#~ msgstr ""
+#~ "Gardez à portée de main l’itinéraire détaillé de votre voyage, de votre "
+#~ "escapade en week-end ou de vos vacances en famille. Utilisez Furkot sur "
+#~ "votre téléphone ou votre tablette de partout."
+
+#~ msgid "Let Furkot guide you"
+#~ msgstr "Laissez Furkot vous guider"
+
+#~ msgid ""
+#~ "Press [Sync] to have the up-to-date version of your trips downloaded to "
+#~ "your mobile device."
+#~ msgstr ""
+#~ "Cliquez sur [Synchroniser] pour mettre à jour vos voyages sur votre "
+#~ "appareil mobile."
+
+#~ msgid "Persons per room"
+#~ msgstr "Personnes par chambre"
+
+#~ msgid "House"
+#~ msgstr "Maison"
+
+#~ msgid "Guidebooks, deals and discounts"
+#~ msgstr "Guides de voyages, offres et promotions"
+
+#~ msgid ""
+#~ "You'll have a chance to copy and paste booking confirmation before Furkot "
+#~ "takes you back to the trip planning."
+#~ msgstr ""
+#~ "Vous pourrez copier-coller la confirmation de réservation avant que "
+#~ "Furkot ne vous ramène à la planification du voyage."
+
+#~ msgid "The answers don't have to be exact."
+#~ msgstr "Les réponses peuvent être approximatives."
+
+#~ msgid "Directions courtesy of"
+#~ msgstr "Indications fournies gracieusement par"
 
 #~ msgid ""
 #~ "Depending on your trip dates Furkot will include or exclude seasonally "
@@ -7582,488 +8013,79 @@ msgstr ""
 #~ "saisonnières fermées lors du calcul des itinéraires. Les fermetures "
 #~ "saisonnières sont basés sur le"
 
-#~ msgid "Directions courtesy of"
-#~ msgstr "Indications fournies gracieusement par"
+#~ msgid "See user reviews at Go Historic"
+#~ msgstr "Consultez les avis des utilisateurs sur Go Historic"
 
-#~ msgid "The answers don't have to be exact."
-#~ msgstr "Les réponses peuvent être approximatives."
+#~ msgid "_Duration_"
+#~ msgstr "_Durée_"
 
-#~ msgid ""
-#~ "You'll have a chance to copy and paste booking confirmation before Furkot "
-#~ "takes you back to the trip planning."
-#~ msgstr ""
-#~ "Vous pourrez copier-coller la confirmation de réservation avant que "
-#~ "Furkot ne vous ramène à la planification du voyage."
+#~ msgid "View More"
+#~ msgstr "Voir plus"
 
-#~ msgid "Guidebooks, deals and discounts"
-#~ msgstr "Guides de voyages, offres et promotions"
+#~ msgid "Distance "
+#~ msgstr "Distance "
 
-#~ msgid "House"
-#~ msgstr "Maison"
+#~ msgid "Gas stations from myGasFeed"
+#~ msgstr "Stations-service de myGasFeed"
 
-#~ msgid "Persons per room"
-#~ msgstr "Personnes par chambre"
+#~ msgid "Remove this trip from phone"
+#~ msgstr "Supprimer ce voyage du téléphone"
 
-#~ msgid ""
-#~ "Press [Sync] to have the up-to-date version of your trips downloaded to "
-#~ "your mobile device."
-#~ msgstr ""
-#~ "Cliquez sur [Synchroniser] pour mettre à jour vos voyages sur votre "
-#~ "appareil mobile."
+#~ msgid "Forgot password"
+#~ msgstr "Mot de passe oublié"
 
-#~ msgid "Let Furkot guide you"
-#~ msgstr "Laissez Furkot vous guider"
-
-#~ msgid ""
-#~ "Take itinerary of your road trip, weekend outing, family vacation with "
-#~ "you while traveling. Use Furkot on your phone or tablet on the go."
-#~ msgstr ""
-#~ "Gardez à portée de main l’itinéraire détaillé de votre voyage, de votre "
-#~ "escapade en week-end ou de vos vacances en famille. Utilisez Furkot sur "
-#~ "votre téléphone ou votre tablette de partout."
-
-#~ msgid "Guided Tour"
-#~ msgstr "Visite Guidée"
-
-#~ msgid "Places you want to visit - your Atlas Obscura user name"
-#~ msgstr ""
-#~ "Endroits que vous souhaitez visiter - votre nom d'utilisateur Atlas "
-#~ "Obscura"
-
-#~ msgid "Add new stop"
-#~ msgstr "Ajouter une étape"
-
-#~ msgid "Trips"
-#~ msgstr "Voyages"
-
-#~ msgid "click here"
-#~ msgstr "cliquez ici"
-
-#~ msgid "Preserve / allow re-routing"
-#~ msgstr "Préserver / activer le re-routage"
-
-#~ msgid ""
-#~ "This is an experimental feature. When enabled, calculating routes will "
-#~ "take longer and may produce less reliable results."
-#~ msgstr ""
-#~ "Ceci est une fonctionnalité expérimentale. Lorsqu'elle est activée, le "
-#~ "calcul d’itinéraire prendra plus de temps et peut produire des résultats "
-#~ "moins fiables."
-
-#~ msgid "Password and confirmation do not match"
-#~ msgstr "Les mots de passe ne correspondent pas"
-
-#~ msgid ""
-#~ "This is a road trip planning application. Please sign in to view your "
-#~ "trips."
-#~ msgstr ""
-#~ "Ceci est une application de planification d’itinéraires de voyage. Merci "
-#~ "de vous connecter pour voir vos voyages."
-
-#~ msgid "Hiking trails from LocalHikes"
-#~ msgstr "Sentiers de randonnée de LocalHikes"
-
-#~ msgid "Furkot assumes it is a bicycle trip."
-#~ msgstr "Furkot suppose qu'il s’agit d'un voyage en vélo."
-
-#~ msgid "See this deal details at Yipit"
-#~ msgstr "Voir les détails de cette offre sur Yipit"
-
-#~ msgid "Weather"
-#~ msgstr "Météo"
-
-#~ msgid "Hide guidebooks and travel guides"
-#~ msgstr "Cacher les guides de voyage"
-
-#~ msgid "Send this trip to phone"
-#~ msgstr "Envoyer ce voyage sur le téléphone"
-
-#~ msgid "Confirm password"
-#~ msgstr "Confirmez le mot de passe"
-
-#~ msgid "Trip sent to phone"
-#~ msgstr "Voyage envoyé au téléphone"
-
-#~ msgid "See this ski resort own website"
-#~ msgstr "Voir le site web de cette station de ski"
-
-#~ msgid "Hide satellite imagery"
-#~ msgstr "Cacher l’image satellite"
-
-#~ msgid "Default nav app"
-#~ msgstr "App de navigation par défaut"
-
-#~ msgid "See description of this museum at Go Historic"
-#~ msgstr "Voir la description de ce musée sur Go Historic"
-
-#~ msgid "See the business offering this deal"
-#~ msgstr "Voir le commerce proposant cette offre"
-
-#~ msgid "Label Roads"
-#~ msgstr "Noms des Routes"
-
-#~ msgid "Top"
-#~ msgstr "Haut"
-
-#~ msgid "Reserve a Lodging"
-#~ msgstr "Réservez un hébergement"
-
-#~ msgid "Fold this hike details"
-#~ msgstr "Cacher les détails de cette randonnée"
-
-#~ msgid "This trip is now ready to be displayed on your mobile device."
-#~ msgstr ""
-#~ "Ce voyage est maintenant prêt à être affiché sur votre appareil mobile."
-
-#~ msgid "Hide hotel chains"
-#~ msgstr "Cacher les chaînes hôtelières"
-
-#~ msgid "Places to visit and overnight lodgings"
-#~ msgstr "Lieux à visiter et hébergements d’une nuit"
-
-#~ msgid ""
-#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
-#~ msgstr ""
-#~ "Pas de soucis, ouvrez le [site complet] de Furkot pour planifier un "
-#~ "nouveau voyage."
-
-#~ msgid "Fold this museum details"
-#~ msgstr "Cacher les détails de ce musée"
-
-#~ msgid "Mobile"
-#~ msgstr "Mobile"
+#~ msgid "Hide apartments, private rooms, B&Bs"
+#~ msgstr "Cacher les appartements, chambres privées, B&Bs"
 
 #, fuzzy
-#~ msgid "Your password"
-#~ msgstr "Votre mot de passe"
+#~ msgid "private identifier"
+#~ msgstr "identifiant privée"
 
-#~ msgid "See description of this ski resort at EpicSki"
-#~ msgstr "Voir la description de cette station de ski sur EpicSki"
+#~ msgid "Navigate to"
+#~ msgstr "Naviguer vers"
 
-#~ msgid "Type to modify place"
-#~ msgstr "Ecrire pour modifier le lieu"
+#~ msgid "See user reviews at EpicSki"
+#~ msgstr "Consultez les avis des utilisateurs sur EpicSki"
 
-#~ msgid "Furkot assumes it is a walking trip."
-#~ msgstr "Furkot suppose qu'il s’agit d'un voyage à pied."
-
-#~ msgid ""
-#~ "Otherwise you can tell us more and we will try to verify your account."
-#~ msgstr ""
-#~ "Sinon, vous pouvez nous en dire plus et nous allons essayer de vérifier "
-#~ "votre compte."
-
-#~ msgid "Stop address"
-#~ msgstr "Adresse d'étape"
-
-#~ msgid "If it is not, you can change it later."
-#~ msgstr "Si ce n’est pas le cas, vous pourrez changer plus tard."
-
-#~ msgid "Do you remember any places/stops that you added?"
-#~ msgstr "Vous souvenez-vous de lieux / étapes que vous auriez ajoutés ?"
-
-#~ msgid "Deals from Yipit"
-#~ msgstr "Offres de Yipit"
-
-#~ msgid "Booking complete"
-#~ msgstr "Réservation complète"
-
-#~ msgid "Sign Out"
-#~ msgstr "Se déconnecter"
-
-#~ msgid "Visit this museum"
-#~ msgstr "Visitez ce musée"
-
-#~ msgid "Feel free to press [Done] at any point."
-#~ msgstr "N’hésitez pas à cliquer sur [Terminé] à tout moment."
-
-#~ msgid "Feedback"
-#~ msgstr "Votre avis"
-
-#, fuzzy
-#~ msgid "Your password is necessary to save your email address for future use"
-#~ msgstr ""
-#~ "Votre mot de passe est nécessaire pour sauver votre adresse e-mail pour "
-#~ "une utilisation future"
-
-#~ msgid "Hide ski resorts from EpicSki"
-#~ msgstr "Cacher les stations de ski de EpicSki"
+#~ msgid "Museums from Go Historic"
+#~ msgstr "Musées de Go Historic"
 
 #~ msgid ""
-#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
+#~ "We'll be happy to reset your password, but we need more information to "
+#~ "identify your account."
 #~ msgstr ""
-#~ "Si vous avez déjà un [voyage], assurez-vous qu’il a l’option _Téléphone_ "
-#~ "activée."
+#~ "Nous serons heureux de réinitialiser votre mot de passe, mais nous avons "
+#~ "besoin de plus d’informations pour identifier votre compte."
 
-#~ msgid "view only"
-#~ msgstr "consultation seulement"
+#~ msgid "See guest reviews at Google"
+#~ msgstr "Consultez les avis des utilisateurs sur Google"
 
-#~ msgid "Click to modify _duration_"
-#~ msgstr "Cliquez pour modifier la _durée_"
+#~ msgid "See this place page at Google"
+#~ msgstr "Voir la page de de lieu sur Google"
 
-#~ msgid "Looking for trip ideas?"
-#~ msgstr "Vous cherchez des idées de voyage ?"
+#~ msgid "Directions"
+#~ msgstr "Directions"
 
-#~ msgid "Discount"
-#~ msgstr "Promotion"
+#~ msgid "Show current weather on map"
+#~ msgstr "Afficher la météo actuelle sur la carte"
 
-#~ msgid "See user reviews at Fodor's Travel"
-#~ msgstr "Consultez les avis des utilisateurs sur Fodor’s Travel"
+#~ msgid "Hide current weather overlay"
+#~ msgstr "Cacher la couche de météo actuelle"
 
-#~ msgid "Start at "
-#~ msgstr "Commencer à "
+#~ msgid "Show major roads over satellite imagery"
+#~ msgstr "Montrer les routes principales sur l’image satellite"
 
-#~ msgid "Confirm Password"
-#~ msgstr "Confirmez le mot de passe"
+#~ msgid "Hide road overlay"
+#~ msgstr "Cacher la couche de routes"
 
-#~ msgid "Be on your own"
-#~ msgstr "Je suis autonome"
+#~ msgid "Show alternative road map"
+#~ msgstr "Voir la carte routière alternative"
 
-#~ msgid "Exact coordinates"
-#~ msgstr "Coordonnées exactes"
+#~ msgid "Show satellite imagery"
+#~ msgstr "Voir l'image satellite"
 
-#~ msgid "Click to modify the time at which you start driving every day"
-#~ msgstr ""
-#~ "Cliquez pour modifier l'heure à laquelle vous commencez à conduire chaque "
-#~ "jour"
+#~ msgid "Show normal road map"
+#~ msgstr "Voir la carte routière classique"
 
-#~ msgid "Looks like there are no trips to show here."
-#~ msgstr "Aucun voyage à afficher."
-
-#~ msgid "Are you sure you want to enable it?"
-#~ msgstr "Etes-vous sûr que vous voulez l'activer ?"
-
-#~ msgid "Current password"
-#~ msgstr "Mot de passe actuel"
-
-#~ msgid "Select KML, GPX or CSV file"
-#~ msgstr "Sélectionnez un fichier KML, GPX ou CSV"
-
-#~ msgid "Hide guidebooks, deals and discounts"
-#~ msgstr "Cacher les guides de voyages, offres et promotions"
-
-#~ msgid "Full Site"
-#~ msgstr "Site complet"
-
-#~ msgid "Hide hikes from LocalHikes"
-#~ msgstr "Cacher les randonnées de LocalHikes"
-
-# Could be “j” also
-#~ msgid "day"
-#~ msgstr "jour"
-
-#~ msgid "Analyze"
-#~ msgstr "Analyser"
-
-#~ msgid "Click to modify the time by which you end driving every day"
-#~ msgstr ""
-#~ "Cliquez pour modifier l'heure à laquelle vous terminez de conduire chaque "
-#~ "jour"
-
-#~ msgid " | Free Road Trip Planner | Map Your Route"
-#~ msgstr " | Planificateur Gratuit De Voyage | Planifiez Votre Itinéraire"
-
-#~ msgid "Change"
-#~ msgstr "Modifier"
-
-#~ msgid "Anticipate seasonal closures during trip."
-#~ msgstr "Anticiper les fermetures saisonnières pendant le voyage."
-
-#~ msgid "Preserve this route when adding new stops"
-#~ msgstr "Préserver cette route lors de l'ajout de nouvelles étapes"
-
-#~ msgid "Stop and hike this trail"
-#~ msgstr "S'arrêter et prendre ce sentier"
-
-#~ msgid "Redo unlock route"
-#~ msgstr "Refaire le déverrouillage de la route"
-
-#~ msgid ""
-#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
-#~ "trip."
-#~ msgstr ""
-#~ "Ouvrez Furkot sur votre téléphone ou tablette pour voir la version à jour "
-#~ "de ce voyage."
-
-#~ msgid "Re-route when adding new stops"
-#~ msgstr "Re-router lors de l'ajout de nouvelles étapes"
-
-#~ msgid "Please wait while Furkot is contacting the booking site"
-#~ msgstr ""
-#~ "Merci de patienter pendant que Furkot contacte le site de réservation"
-
-#~ msgid "Add this museum as a skipped stop"
-#~ msgstr "Ajouter ce musée comme une étape ignorée"
-
-#~ msgid "Adding:"
-#~ msgstr "Ajout:"
-
-#~ msgid "Do you remember any names of the trips you planned with Furkot?"
-#~ msgstr ""
-#~ "Vous souvenez-vous de noms de voyages que vous auriez planifiés avec "
-#~ "Furkot ?"
-
-#~ msgid "Press [Back] to return to the hotel page."
-#~ msgstr "Cliquez sur [Retour] pour revenir à la page de l’hôtel."
-
-#~ msgid "_Other_"
-#~ msgstr "_Autre_"
-
-#~ msgid "Hide gas stations from myGasFeed"
-#~ msgstr "Cacher les stations-service de myGasFeed"
-
-#~ msgid "Comments"
-#~ msgstr "Commentaires"
-
-#~ msgid "Deal"
-#~ msgstr "Offre"
-
-#~ msgid "Undo unlock route"
-#~ msgstr "Annuler le verrouillage de la route"
-
-#~ msgid "ALL"
-#~ msgstr "TOUS"
-
-#~ msgid "Looks like driving information is missing from some trips."
-#~ msgstr ""
-#~ "Il semble que les informations de conduites manquent pour certains "
-#~ "voyages."
-
-#~ msgid "Type trip name"
-#~ msgstr "Saisissez le nom de voyage"
-
-#~ msgid "See this museum own website"
-#~ msgstr "Voir le site web de ce musée"
-
-#~ msgid "Guidebooks and travel guides"
-#~ msgstr "Guides de voyage"
-
-#~ msgid "Book"
-#~ msgstr "Réserver"
-
-#~ msgid "Which states/countries did you visit on your trips?"
-#~ msgstr ""
-#~ "Quels sont les états / pays que vous avez visités lors de vos voyages?"
-
-#~ msgid "Stops"
-#~ msgstr "Etapes"
-
-#~ msgid "NONE"
-#~ msgstr "Aucun"
-
-#~ msgid "Click to leave suggestions"
-#~ msgstr "Cliquez pour laisser des suggestions"
-
-#~ msgid "Navigate"
-#~ msgstr "Naviguer"
-
-#~ msgid "Click on the [plus] sign to add a new trip."
-#~ msgstr "Cliquez sur le signe [plus] pour ajouter un nouveau voyage."
-
-#~ msgid ""
-#~ "As you are planning your trip Furkot can give you a guided tour of its "
-#~ "features."
-#~ msgstr ""
-#~ "Lors de la planification de votre voyage, Furkot peut vous proposer une "
-#~ "visite guidée de ses fonctionnalités."
-
-#~ msgid "Guidebook"
-#~ msgstr "Guide"
-
-#~ msgid "When did you intend to travel?"
-#~ msgstr "Quand souhaitez-vous partir ?"
-
-#~ msgid "Hide terrain"
-#~ msgstr "Cacher le terrain"
-
-#~ msgid ""
-#~ "In reply to this email let us know what your nickname (a.k.a. username) "
-#~ "is and, to your best recollection, answer some questions about your "
-#~ "planned trips."
-#~ msgstr ""
-#~ "En réponse, indiquez-nous votre pseudo (nom d'utilisateur) et répondez à "
-#~ "quelques questions au sujet de vos voyages prévus."
-
-#~ msgid ""
-#~ "Not to worry, open Furkot's [full site], go to the trip and the driving "
-#~ "information will be automatically updated."
-#~ msgstr ""
-#~ "Pas de soucis, ouvrez le [site complet] de Furkot, allez sur le voyage et "
-#~ "les informations de conduite seront automatiquement mises à jour."
-
-#~ msgid "Info"
-#~ msgstr "Information"
-
-#~ msgid ""
-#~ "You'll have a chance to copy and paste booking confirmation before "
-#~ "proceeding to the next lodging."
-#~ msgstr ""
-#~ "Vous pourrez copier-coller la confirmation de réservation avant de passer "
-#~ "au prochain hébergement."
-
-#~ msgid ""
-#~ "If this is your first time and you would like to sign up, please go to "
-#~ "Furkot's [full site]."
-#~ msgstr ""
-#~ "Si c’est votre première visite et que vous souhaitez vous inscrire, merci "
-#~ "de vous rendre sur le [site complet] de Furkot."
-
-#~ msgid "Trip removed from phone"
-#~ msgstr "Voyage supprimé du téléphone"
-
-#~ msgid "Hide museums from Go Historic"
-#~ msgstr "Cacher les musées de Go Historic"
-
-#~ msgid "Welcome"
-#~ msgstr "Bienvenue"
-
-#~ msgid "All"
-#~ msgstr "Tous"
-
-#~ msgid "Furkot assumes it is a driving trip."
-#~ msgstr "Furkot suppose qu'il s’agit d'un voyage en voiture."
-
-#~ msgid "See author's profile at EveryTrail"
-#~ msgstr "Voir le profil de l'auteur sur EveryTrail"
-
-#~ msgid "Confirm"
-#~ msgstr "Confirmer"
-
-#~ msgid "Vertical_drop"
-#~ msgstr "Dénivelé"
-
-#~ msgid "None"
-#~ msgstr "Aucun"
-
-#~ msgid "Missing password"
-#~ msgstr "Mot de passe requis"
-
-#~ msgid "Hide deals from Yipit"
-#~ msgstr "Cacher les offres de Yipit"
-
-#~ msgid "Ski resorts from EpicSki"
-#~ msgstr "Stations de ski de EpicSki"
-
-#~ msgid "All stops including pass-through points"
-#~ msgstr "Toutes les étapes y compris les étapes de transition"
-
-#~ msgid "No hotels around."
-#~ msgstr "Aucun hôtel à proximité."
-
-#~ msgid "Keep"
-#~ msgstr "Conserver"
-
-#~ msgid "_Day_"
-#~ msgstr "_Journée_"
-
-#~ msgid "Keep this automatically scheduled stop"
-#~ msgstr "Conserver cette étape planifiée automatiquement"
-
-#~ msgid "Furkot assumes it is a riding trip."
-#~ msgstr "Furkot suppose qu'il s’agit d'un voyage à moto."
-
-#, fuzzy
-#~ msgid "Plan refueling station"
-#~ msgstr "Stations-service"
-
-#~ msgid "Day "
-#~ msgstr "Journée "
+#~ msgid "Map Type"
+#~ msgstr "Type de carte"
