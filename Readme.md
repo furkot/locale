@@ -96,7 +96,7 @@ and then run.
 
 To update a `.po` file you run:
 
-    make hu/LC_MESSAGES/messages.po  # only updates Hungarian location
+    make hu/LC_MESSAGES/messages.po  # only updates Hungarian locale
 
 ## Generating _translated-only_ version
 
