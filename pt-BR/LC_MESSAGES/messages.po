@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2019-04-25 18:44-0600\n"
-"PO-Revision-Date: 2019-04-25 03:47+0000\n"
+"PO-Revision-Date: 2019-04-26 18:40+0000\n"
 "Last-Translator: Ivan F. Martinez <ivanfmartinez@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://translate.furkot.com/projects/"
-"furkot/trips/pt_BR/>\n"
+"Language-Team: Portuguese (Brazil) "
+"<https://translate.furkot.com/projects/furkot/trips/pt_BR/>\n"
 "Language: pt-BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -669,9 +669,8 @@ msgstr "Motocicleta"
 
 #. L10n: travel mode: travel in RV (recreational vehicle) or camper
 #: views/components/common-mixins.jade:12
-#, fuzzy
 msgid "Recreational Vehicle"
-msgstr "Autocaravana"
+msgstr "Motorhome/Trailer"
 
 #. L10n: travel mode: ride a bicycle
 #: views/components/common-mixins.jade:16
@@ -695,10 +694,9 @@ msgid "Other"
 msgstr "Outros"
 
 #: views/components/common-mixins.jade:34
-#, fuzzy
 msgid ""
 "Your trip has stops with warnings or automatically scheduled placeholders."
-msgstr "Sua viagem é interrompida por avisos ou espaços reservados automaticamente programados."
+msgstr "Sua viagem tem paradas com avisos ou automaticamente programadas."
 
 #: views/components/dialog.jade:5 views/components/step-detail.jade:853
 #: views/tripshot/mixin.jade:119
@@ -749,9 +747,8 @@ msgid "Motorcycle trip"
 msgstr "Viagem de motocicleta"
 
 #: views/components/dialog.jade:55 views/components/trip-detail.jade:15
-#, fuzzy
 msgid "RV trip"
-msgstr "Viagem de motorhome"
+msgstr "Viagem de motorhome/trailer"
 
 #: views/components/dialog.jade:57 views/components/trip-detail.jade:18
 msgid "Bicycle trip"
@@ -811,13 +808,11 @@ msgstr "incluir rotas descartadas"
 
 #. L10n: 'high-resolution tracks' is an export option that includes in the exported file all track points faithfully reflecting the trip course shape
 #: views/components/export-dlg.jade:46
-#, fuzzy
 msgid "high-resolution tracks"
-msgstr "percursos de alta resolução"
+msgstr "Percursos em alta resolução"
 
 #. L10n: Explanation for the 'high-resolution tracks' option. Means that Furkot will put all points it has in the exported daily tracks.
 #: views/components/export-dlg.jade:48
-#, fuzzy
 msgid "include all available track points"
 msgstr "incluir todos os pontos de percurso disponíveis"
 
@@ -929,37 +924,36 @@ msgid "Export"
 msgstr "Exportar"
 
 #: views/components/export-dlg.jade:128
-#, fuzzy
 msgid "Furkot Terms and Conditions of Use"
-msgstr "Termos e Condições de Uso da Furkot"
+msgstr "Termos e Condições de Uso de Furkot"
 
 #. L10n: "I Agree" is a button that user has to click to confirm that they agree to Furkot Terms of Service
 #: views/components/export-dlg.jade:128 views/components/export-dlg.jade:131
-#, fuzzy
 msgid "I Agree"
-msgstr "Concordo"
+msgstr "Eu Concordo"
 
 #. L10n: square brackets [] denote a link
 #: views/components/export-dlg.jade:133
-#, fuzzy
 msgid ""
 "To continue you must consent to [Furkot Terms and Conditions of Use] and "
 "agree to accept any responsibility or liability for your use of the "
 "information provided by Furkot."
-msgstr "Para continuar, você deve concordar com os [Termos e Condições de Uso da Furkot] e "
-"concordar em aceitar qualquer responsabilidade pelo uso das informações fornecidas pela Furkot."
+msgstr ""
+"Para continuar, você deve concordar com os [Termos e Condições de Uso Furkot]"
+" e concordar em aceitar qualquer responsabilidade pelo uso das informações "
+"fornecidas por Furkot."
 
 #. L10n: Label for the button that copies to clipboard a link to the exported trip
 #: views/components/export-dlg.jade:136 views/components/export-dlg.jade:139
-#, fuzzy
 msgid "Copy"
 msgstr "Copiar"
 
 #. L10n: message displayed when exporting trip requires launching Safari (default browser on Mac and iOS)
 #: views/components/export-dlg.jade:141
-#, fuzzy
 msgid "To complete exporting your trip, copy the link below and open it in Safari."
-msgstr "Para concluir a exportação da sua viagem, copie o link abaixo e abra-o no Safari."
+msgstr ""
+"Para concluir a exportação da sua viagem, copie o link abaixo e abra-o no "
+"Safari."
 
 #: views/components/furkot-data.jade:5
 msgid "Undo delete stop"
@@ -1587,7 +1581,7 @@ msgstr "ir para a aba Viagem"
 #. L10n: 'go to' can be also translated as 'open' or 'draw out'
 #: views/components/keyboard-shortcuts.jade:38
 msgid "go to Plan drawer"
-msgstr "Ir para a aba Planejamento"
+msgstr "abrir aba Itinerário"
 
 #. L10n: 'go to' can be also translated as 'open' or 'draw out'
 #: views/components/keyboard-shortcuts.jade:40
@@ -1811,7 +1805,7 @@ msgstr "Mostrar itinerário da viagem"
 #. L10n: Label on the handle of the Plan drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Plan' can be also translated as 'Itinerary' or 'Schedule'
 #: views/components/map.jade:152
 msgid "Plan"
-msgstr "Planejamento"
+msgstr "Itinerário"
 
 #: views/components/map.jade:157
 msgid "Hide nearby lodging accommodations"
@@ -1902,14 +1896,14 @@ msgstr "Navegação"
 #. L10n: Warning displayed for automatically scheduled stops that are not associated with real places but are just placeholders
 #: views/components/navigation.jade:74 views/components/step-detail.jade:869
 #: views/components/step-detail.jade:896 views/export/warning.jade:1
-#, fuzzy
 msgid "This stop is an automatically scheduled placeholder, not a real place."
-msgstr "Essa parada é um marcador de posição agendado automaticamente, não um lugar real."
+msgstr ""
+"Essa parada é um marcador de posição agendado automaticamente, não é um "
+"lugar real."
 
 #: views/components/navigation.jade:75
-#, fuzzy
 msgid "Are you sure you want to navigate there?"
-msgstr "Tem certeza de que queres navegar lá?"
+msgstr "Tem certeza de que deseja navegar aqui?"
 
 #. L10n: Menu option that opens panel with the options that control how Furkot works when offline
 #: views/components/network.jade:2 views/header.jade:24
@@ -2133,9 +2127,10 @@ msgstr ""
 
 #. L10n: Displayed in the second step of creating a new trip (after selecting RV as a travel mode)
 #: views/components/new-trip-wizard.jade:100
-#, fuzzy
 msgid "You can configure dimensions and weight of your RV later."
-msgstr "Você pode configurar as dimensões e o peso do seu trailer mais tarde."
+msgstr ""
+"Você pode configurar as dimensões e o peso do seu motorhome/trailer mais "
+"tarde."
 
 #. L10n: Label for the option to avoid or prefer highways
 #: views/components/new-trip-wizard.jade:108
@@ -2431,7 +2426,6 @@ msgstr ""
 
 #. L10n: Displayed when a road is accessible to high clearance vehicles only (some unpaved roads in the Find drawer under category "Unpaved roads and off-road trails")
 #: views/components/place-detail.jade:97 views/components/place-detail.jade:139
-#, fuzzy
 msgid "High clearance vehicles only"
 msgstr "Somente veículos com grande distancia do solo"
 
@@ -4392,7 +4386,7 @@ msgstr "Camping"
 #. L10n: stop type (icon)
 #: views/components/step-detail.jade:23
 msgid "RV park"
-msgstr "Estacionamento de Trailer"
+msgstr "Estacionamento de motorhome/trailer"
 
 #. L10n: stop type (icon)
 #: views/components/step-detail.jade:27
@@ -4491,7 +4485,6 @@ msgstr "Teatro"
 
 #. L10n: stop type (icon). Movie theater or cinema
 #: views/components/step-detail.jade:104
-#, fuzzy
 msgid "Movie"
 msgstr "Cinema"
 
@@ -5005,9 +4998,8 @@ msgstr "Descrição dessa parada"
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify trips. If user specifies tags in the Trip drawer, they can then view trips in the My Trips page grouped by those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parantheses () enhances understanding
 #: views/components/step-detail.jade:533 views/components/trip-detail.jade:596
 #: views/components/trips.jade:39
-#, fuzzy
 msgid "Click to edit tags (labels)"
-msgstr "Clique para editar as tags"
+msgstr "Clique para editar as tags (etiquetas)"
 
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify stops. If user assigns tags to stops, they can then use filter to display only stops with those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parantheses () enhances understanding
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify trips. If user specifies tags in the Trip drawer, they can then view trips in the My Trips page grouped by those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parantheses () enhances understanding
@@ -5015,7 +5007,6 @@ msgstr "Clique para editar as tags"
 #: views/components/step-switches.jade:119
 #: views/components/trip-detail.jade:597 views/components/trip-detail.jade:600
 #: views/components/trips.jade:33
-#, fuzzy
 msgid "Tags (labels)"
 msgstr "Tags (etiquetas)"
 
@@ -5553,7 +5544,6 @@ msgstr "Paradas para reabastecimento"
 
 #. L10n: Hint for the button that allows user to filter out overnight stops planned for the trip. The button is available under the Filter button in the Plan drawer
 #: views/components/step-switches.jade:45
-#, fuzzy
 msgid "Overnight lodgings"
 msgstr "Alojamento de pernoite"
 
@@ -5715,7 +5705,7 @@ msgid ""
 "time or mileage limits."
 msgstr ""
 "Se você quiser viajar mais neste dia você pode mudar os horários de viagem "
-"do dia ou limites de quilometragem."
+"do dia ou limites de distancia."
 
 #: views/components/step-switches.jade:208
 msgid ""
@@ -5723,7 +5713,7 @@ msgid ""
 "daily travel time and mileage limits in the Trip drawer."
 msgstr ""
 "Se você não quer que Furkot agende paradas de pernoite durante a sua viagem, "
-"limpe limites de tempo e quilometragem na aba Viagem."
+"limpe limites de tempo e distancia na aba Viagem."
 
 #: views/components/step-switches.jade:214
 msgid "Automatically scheduled airport"
@@ -5985,7 +5975,7 @@ msgstr "Tempo de viagem"
 #: views/components/trip-config-item.jade:58
 #: views/components/trip-detail.jade:166
 msgid "Daily Mileage"
-msgstr "Quilometragem diária"
+msgstr "Distancia diária"
 
 #: views/components/trip-config-item.jade:62
 #: views/components/trip-config-item.jade:122
@@ -6034,42 +6024,36 @@ msgstr "Avisos"
 #. L10n: Label for the field to edit RV (motorhome) height
 #: views/components/trip-config-item.jade:150
 #: views/components/trip-detail.jade:401
-#, fuzzy
 msgid "Height"
 msgstr "Altura"
 
 #. L10n: Label for the field to edit RV (motorhome) length
 #: views/components/trip-config-item.jade:157
 #: views/components/trip-detail.jade:423
-#, fuzzy
 msgid "Length"
 msgstr "Comprimento"
 
 #. L10n: Label for the field to edit RV (motorhome) weight
 #: views/components/trip-config-item.jade:164
 #: views/components/trip-detail.jade:440
-#, fuzzy
 msgid "Weight"
 msgstr "Peso"
 
 #. L10n: 't' is an abbreviation for metric ton (tonne)
 #: views/components/trip-config-item.jade:168
 #: views/components/trip-detail.jade:448 views/components/trip-detail.jade:461
-#, fuzzy
 msgid "t"
 msgstr "t"
 
 #. L10n: 'lb' is an abbreviation for pound as imperial unit of weight
 #: views/components/trip-config-item.jade:170
 #: views/components/trip-detail.jade:450 views/components/trip-detail.jade:463
-#, fuzzy
 msgid "lb"
 msgstr "lb"
 
 #. L10n: Label for checkbox to let user specify if RV carries hazardous material like propane
 #: views/components/trip-config-item.jade:172
 #: views/components/trip-detail.jade:437
-#, fuzzy
 msgid "Hazardous Materials"
 msgstr "Materiais perigosos"
 
@@ -6231,7 +6215,6 @@ msgstr "Temperatura"
 
 #. L10n: Label for a field to select clock type (24-hour or 12-hour). The field is in the Trip drawer in the section for units
 #: views/components/trip-detail.jade:203
-#, fuzzy
 msgid "Clock"
 msgstr "Relógio"
 
@@ -6417,41 +6400,34 @@ msgid "Slower/faster than standard travel time"
 msgstr "Mais lento / rápido do que o tempo de viagem padronizado"
 
 #: views/components/trip-detail.jade:403
-#, fuzzy
 msgid "Click to modify RV height"
-msgstr "Clique para modificar a altura do autocaravana"
+msgstr "Clique para modificar a altura do motorhome/trailer"
 
 #. L10n: Label for the field to edit RV (motorhome) width
 #: views/components/trip-detail.jade:412
-#, fuzzy
 msgid "Width"
 msgstr "Largura"
 
 #: views/components/trip-detail.jade:414
-#, fuzzy
 msgid "Click to modify RV width"
-msgstr "Clique para modificar a largura do autocaravana"
+msgstr "Clique para modificar a largura do motorhome/trailer"
 
 #: views/components/trip-detail.jade:425
-#, fuzzy
 msgid "Click to modify RV length"
-msgstr "Clique para modificar a comprimento do autocaravana"
+msgstr "Clique para modificar o comprimento do motorhome/trailer"
 
 #: views/components/trip-detail.jade:442
-#, fuzzy
 msgid "Click to modify RV weight"
-msgstr "Clique para modificar a peso do autocaravana"
+msgstr "Clique para modificar o peso do motorhome/trailer"
 
 #. L10n: Label for the field to edit RV (motorhome) axle load
 #: views/components/trip-detail.jade:453
-#, fuzzy
 msgid "Axle Load"
-msgstr "Carga do eixo"
+msgstr "Carga por eixo"
 
 #: views/components/trip-detail.jade:455
-#, fuzzy
 msgid "Click to modify RV axle load"
-msgstr "Clique para modificar a carga do eixo do autocaravana"
+msgstr "Clique para modificar a carga por eixo do motorhome/trailer"
 
 #. L10n: 'vehicle range between refills' means distance that user's vehicle can go on a full tank
 #: views/components/trip-detail.jade:489
@@ -6906,9 +6882,8 @@ msgstr "Viagens excluídas"
 
 #. L10n: "Restore" meaning "Undelete"
 #: views/components/trips.jade:44
-#, fuzzy
 msgid "Restore this trip"
-msgstr "Restaure esta viagem"
+msgstr "Restaurar esta viagem"
 
 #: views/components/trips.jade:48
 msgid "Display ready-made trips"
@@ -7080,10 +7055,10 @@ msgid ""
 "all roads"
 msgstr ""
 "Agende paradas, encontre atrações, reserve hotéis, compartilhe itinerários "
-"de viagem, rotas no mapa. Planeje de seu passeio de moto, viagem de Trailer, "
-"rota para carro, trilha de bicicleta, caminhada com mochila, férias da "
-"família, excursão de fim de semana. Um planeta, 6 continentes, todas as "
-"estradas"
+"de viagem, rotas no mapa. Planeje de seu passeio de moto, viagem de "
+"motorhome/trailer, rota para carro, trilha de bicicleta, caminhada com "
+"mochila, férias da família, excursão de fim de semana. Um planeta, 6 "
+"continentes, todas as estradas"
 
 #. L10n: Nickname is a private identifier used to sign in. Email in a sense of the "email address"
 #: views/login-form.jade:8
@@ -7388,14 +7363,12 @@ msgstr ""
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: views/welcome/blurbs.jade:59
-#, fuzzy
 msgid ""
 "Are you after fresh powder? Or maybe shredding corduroy is your thing? Trees "
 "or bowls? Skis or snowboard? Regardless of the answer, you can use Furkot to "
 "find ski resorts &mdash; courtesy of [Liftopia]."
 msgstr ""
-"É você após pó fresco? Ou talvez a destruição de veludo é o seu lugar? "
-"Árvores ou taças? Esquis ou snowboard? Independentemente da resposta, você "
+"Campo ou Praia ?  Esquis ou snowboard? Independentemente da resposta, você "
 "pode usar Furkot para encontrar estâncias de esqui &mdash; cortesia de "
 "[Liftopia]."
 
@@ -7442,7 +7415,6 @@ msgstr ""
 "tenha [Concluído]."
 
 #: views/welcome/blurbs.jade:95
-#, fuzzy
 msgid "Lodging search"
 msgstr "Procurar Alojamento"
 
@@ -7470,15 +7442,13 @@ msgstr "Planejador de viagem gratuito"
 
 #. L10n: Part of browser window title of Furkot furkot page (when user is not signed in)
 #: views/welcome/index.jade:5 views/welcome/index.jade:8
-#, fuzzy
 msgid "Map Your Route"
-msgstr "Mapear sua rota"
+msgstr "Planejar seu roteiro"
 
 #. L10n: This is a motto displayed on Furkot front page (when user is not signed in). Come up with a phrase that sounds natural in your language, aim for playful reference to planning and/or traveling. Check how it is translated to other languages for inspiration. If nothing comes to mind, use a phrase wishing a good trip in your language, equivalent of "Have a nice trip!"
 #: views/welcome/index.jade:18
-#, fuzzy
 msgid "Miss the turns on your terms!"
-msgstr "Se perda em seus termos!"
+msgstr "Tenha uma ótima viagem !"
 
 #. L10n: displayed on Furkot front page (when user is not signed in).
 #: views/welcome/index.jade:20
@@ -7491,7 +7461,7 @@ msgstr ""
 #: views/welcome/index.jade:37
 #, fuzzy
 msgid "Subscribe to Furkot"
-msgstr "Inscrever-se para Furkot"
+msgstr "Assinar o feed Furkot"
 
 #: views/welcome/login-page.jade:6
 msgid "Sign in to Road Trip Planner"
