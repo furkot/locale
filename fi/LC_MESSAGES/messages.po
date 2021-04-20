@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2021-04-19 10:40+0200\n"
+"POT-Creation-Date: 2021-04-20 06:46+0200\n"
 "PO-Revision-Date: 2019-03-01 22:30+0000\n"
 "Last-Translator: Natalia Kowalczyk <melitele@furkot.com>\n"
 "Language-Team: Finnish <https://translate.furkot.com/projects/furkot/trips/"
@@ -2868,6 +2868,12 @@ msgstr "Ajo"
 msgid "Drinking water"
 msgstr "Juomavesi"
 
+#. L10n: displayed for place like campgrounds that can only be accessed during dry weather. Less than 25 characters if possible
+#: views/components/place-detail.jade:119
+#: views/components/place-detail.jade:264
+msgid "Dry weather access"
+msgstr ""
+
 #. L10n: Displayed for dump stations for RV / campers / motorhomes and campgrounds with such. Less than 25 characters if possible
 #: views/components/place-detail.jade:120
 #: views/components/place-detail.jade:268
@@ -2875,7 +2881,6 @@ msgstr "Juomavesi"
 msgid "Dump station"
 msgstr "Kesto"
 
-#. L10n: displayed for place like campgrounds that can only be accessed during dry weather. Less than 25 characters if possible
 #. L10n: Fees required by the attraction. Followed by fee description. Less than 25 characters if possible
 #: views/components/place-detail.jade:121
 #: views/components/place-detail.jade:266
@@ -2921,6 +2926,11 @@ msgid "Generators permitted"
 msgstr ""
 
 #. L10n: Displayed when there is a restaurant, bar, grocery store or food stand at the campground. Less than 25 characters if possible
+#: views/components/place-detail.jade:129
+#: views/components/place-detail.jade:284
+msgid "Food service"
+msgstr ""
+
 #. L10n: Displayed when a road is accessible to high clearance vehicles only (some unpaved roads in the Find drawer under category "Unpaved roads and off-road trails"). Also when access to a place like campground requires such vehicles. Less than 25 characters if possible
 #: views/components/place-detail.jade:130
 #: views/components/place-detail.jade:286
@@ -3151,6 +3161,11 @@ msgid "Rest area"
 msgstr "Ravintola"
 
 #. L10n: Displayed for backroads that are closed to all traffic except for authorized maintenance. Less than 25 characters if possible
+#: views/components/place-detail.jade:167
+#: views/components/place-detail.jade:354
+msgid "Closed for traffic"
+msgstr ""
+
 #. L10n: Displayed when campground has sites for RV / campers / motorhomes. Less than 25 characters if possible
 #: views/components/place-detail.jade:168
 #: views/components/place-detail.jade:356
@@ -9351,761 +9366,36 @@ msgstr ""
 "vaihtoehtoja."
 
 #, fuzzy
-#~ msgid "Peaks and climbing routes from Peakbagger"
-#~ msgstr "Huippukokouksissa ja kiipeily reitit SummitPost"
-
-#, fuzzy
-#~ msgid "Hide surf spots from WannaSurf"
-#~ msgstr "Piilota surffauspaikat maasta WannaSurf"
-
-#, fuzzy
-#~ msgid "Show apartments and rooms from"
-#~ msgstr "Näytä asuntoja ja huoneet alkaen"
-
-#, fuzzy
-#~ msgid "Hide ski resorts from Liftopia"
-#~ msgstr "Piilota hiihtokeskuksissa Liftopia"
-
-#, fuzzy
-#~ msgid "Hide roads and rides from MotorcycleRoads.com"
-#~ msgstr "Piilota tiet ja ratsastaa MotorcycleRoads.com"
-
-#, fuzzy
-#~ msgid "See description of this winery at Snooth.com"
-#~ msgstr "Katso kuvaus tästä viinitilalla Snooth.com"
-
-#, fuzzy
-#~ msgid "Hide hotels from"
-#~ msgstr "Piilota hotellit alkaen"
-
-#, fuzzy
-#~ msgid "See description of this trail at HikingProject.com"
-#~ msgstr "Katso kuvaus tämän tien BestBikingRoads.com"
-
-#, fuzzy
-#~ msgid "Airports from OurAirports"
-#~ msgstr "Lentokentille OurAirports"
-
-#, fuzzy
-#~ msgid "See guest reviews at Google"
-#~ msgstr "Katso arviota Googlella"
-
-#, fuzzy
-#~ msgid "Show hotels from"
-#~ msgstr "Näytä hotellit alkaen"
-
-#, fuzzy
-#~ msgid "Map Type"
-#~ msgstr "kartta Tyyppi"
-
-#, fuzzy
-#~ msgid "Add new stop"
-#~ msgstr "Lisää pysäkkilista"
-
-#, fuzzy
-#~ msgid "Comma-separated stop tags (labels)"
-#~ msgstr "Pilkulla erotettu stop-tunnisteet (leimat)"
-
-#, fuzzy
-#~ msgid "Hide roads from Gravelmap"
-#~ msgstr "Piilota teitä Gravelmapista"
-
-#, fuzzy
-#~ msgid "Click to let Furkot suggest campgrounds"
-#~ msgstr "Klikkaa anna Furkot ehdottaa leirintäalueiden"
-
-#, fuzzy
-#~ msgid "Guided Tour"
-#~ msgstr "Opastettu kiertoajelu"
-
-#, fuzzy
-#~ msgid "Click to let Furkot suggest chain hotels and motels"
-#~ msgstr "Klikkaa anna Furkot ehdottaa ketjun hotellit ja"
-
-#, fuzzy
-#~ msgid "See user reviews at WannaSurf"
-#~ msgstr "See user tarkasteluihin WannaSurf"
-
-#, fuzzy
-#~ msgid "Hide blind hotel deals"
-#~ msgstr "Piilota sokea hotellitarjoukset"
-
-#, fuzzy
-#~ msgid "Hide bike tracks from MBPost"
-#~ msgstr "Piilota pyörä kappaleita MBPost"
-
-#, fuzzy
-#~ msgid "No hotels or motels"
-#~ msgstr "Ei hotellissa tai motellissa"
-
-#, fuzzy
-#~ msgid "Hide hotels"
-#~ msgstr "Piilota hotellit"
-
-#, fuzzy
-#~ msgid "Show campgrounds from"
-#~ msgstr "Näytä leirintäalueiden alkaen"
-
-#, fuzzy
-#~ msgid "See user reviews at Liftopia"
-#~ msgstr "See user tarkasteluihin Liftopia"
-
-#, fuzzy
-#~ msgid "Ski resorts from Liftopia"
-#~ msgstr "Hiihtokeskuksissa Liftopia"
-
-#, fuzzy
-#~ msgid "Hide roads and rides from MotorcycleRoads.us"
-#~ msgstr "Piilota tiet ja ratsastaa MotorcycleRoads.us"
-
-#, fuzzy
-#~ msgid "See this brewery own website"
-#~ msgstr "Katso tästä panimo oma verkkosivusto"
-
-#, fuzzy
-#~ msgid "See description of this airport at OurAirports"
-#~ msgstr "Katso kuvaus tästä lentoaseman OurAirports"
-
-#, fuzzy
-#~ msgid "See description of this place at Recreation.gov"
-#~ msgstr "Katso kuvaus tästä paikassa Recreation.gov"
-
-#, fuzzy
-#~ msgid "See description of this place at Foursquare"
-#~ msgstr "Katso kuvaus tästä paikassa Foursquare"
-
-#, fuzzy
-#~ msgid "Rent a car at"
-#~ msgstr "Vuokrata auton"
-
-#, fuzzy
-#~ msgid "Hide deals"
-#~ msgstr "Piilota maasta"
-
-#, fuzzy
-#~ msgid "Hide hostels from"
-#~ msgstr "Piilota hostellit alkaen"
-
-#, fuzzy
-#~ msgid "No blind hotel deals"
-#~ msgstr "Ei sokea hotellitarjoukset"
-
-#, fuzzy
-#~ msgid "Show deals from"
-#~ msgstr "Näytä hinnat maasta"
-
-#, fuzzy
-#~ msgid "Hide dive sites from ShoreDiving"
-#~ msgstr "Piilota sukelluskohteita alkaen ShoreDiving"
-
-#, fuzzy
-#~ msgid "See user reviews at MBPost"
-#~ msgstr "See user tarkasteluihin MBPost"
-
-#, fuzzy
-#~ msgid "See user reviews at ShoreDiving"
-#~ msgstr "See user tarkasteluihin ShoreDiving"
-
-#, fuzzy
-#~ msgid "Fold this summit details"
-#~ msgstr "Kertainen huippukokouksen yksityiskohtia"
-
-#, fuzzy
-#~ msgid "Coupon code"
-#~ msgstr "Kuponkikoodi"
-
-#, fuzzy
-#~ msgid "See this place page at Google"
-#~ msgstr "Katso tämä paikka sivua Googlen"
-
-#, fuzzy
-#~ msgid "Hide places and activities from Recreation.gov"
-#~ msgstr "Piilota paikkoja ja toimintaa Recreation.gov"
-
-#, fuzzy
-#~ msgid "See this trail description at Gaia GPS"
-#~ msgstr "Katso tämä polku kuvaus osoitteessa Everytrail"
-
-#, fuzzy
-#~ msgid "Book a flight at"
-#~ msgstr "Varaa lennolle"
-
-#, fuzzy
-#~ msgid "Books from Amazon"
-#~ msgstr "Kirjoja Amazon"
-
-#, fuzzy
-#~ msgid "Show current weather on map"
-#~ msgstr "Näytä nykyinen sää kartalla"
-
-#, fuzzy
-#~ msgid "See description of this road at MotorcycleRoads.us"
-#~ msgstr "Katso kuvaus tämän tien MotorcycleRoads.us"
-
-#, fuzzy
-#~ msgid "Sights from Lonely Planet"
-#~ msgstr "Nähtävyyksiä YTJ: n matka"
-
-#, fuzzy
-#~ msgid "Comments"
-#~ msgstr "Kommentit"
-
-#, fuzzy
-#~ msgid "Trails from MountainProject.com"
-#~ msgstr "Jäljet palvelusta MountainProject.com"
-
-#, fuzzy
-#~ msgid "See user reviews at EpicSki"
-#~ msgstr "See user tarkasteluihin EpicSki"
-
-#, fuzzy
-#~ msgid "See description of this summit at SummitPost"
-#~ msgstr "Katso kuvaus tämän huippukokouksen SummitPost"
-
-#, fuzzy
-#~ msgid "See description of this trail at MtbProject.com"
-#~ msgstr "Katso kuvaus tämän tien MotorcycleRoads.com"
-
-#, fuzzy
-#~ msgid "Birdwatching hotspots from ebird.org"
-#~ msgstr "Lintujen kuormittajat alkaen ebird.org"
-
-#, fuzzy
-#~ msgid "Comma-separated trip tags (labels)"
-#~ msgstr "Pilkulla erotettu matkan tunnisteet (leimat)"
-
-#, fuzzy
-#~ msgid "Hide articles from Wikipedia"
-#~ msgstr "Piilota artikkeleita Wikipediasta"
-
-#, fuzzy
-#~ msgid "Roads and rides from BestBikingRoads.com"
-#~ msgstr "Tiet ja ratsastaa BestBikingRoads.com"
-
-#, fuzzy
-#~ msgid "Dive sites from ShoreDiving"
-#~ msgstr "Sukelluskohteita alkaen ShoreDiving"
-
-#, fuzzy
-#~ msgid "See user reviews at SummitPost"
-#~ msgstr "See user tarkasteluihin SummitPost"
-
-#, fuzzy
-#~ msgid "See description of this road at MotorcycleRoads.com"
-#~ msgstr "Katso kuvaus tämän tien MotorcycleRoads.com"
-
-#, fuzzy
-#~ msgid "See description of this ski resort at EpicSki"
-#~ msgstr "Katso kuvaus tästä hiihtokeskuksen EpicSki"
-
-#, fuzzy
-#~ msgid "Hide gas stations from myGasFeed"
-#~ msgstr "Piilota huoltoasemat maasta myGasFeed"
-
-#, fuzzy
-#~ msgid "See contributor's profile at BestBikingRoads.com"
-#~ msgstr "Katso Avustajan profiili BestBikingRoads.com"
-
-#, fuzzy
-#~ msgid "Curiosities from Atlas Obscura"
-#~ msgstr "Mielenkiintoiset Atlas Obscura"
-
-#, fuzzy
-#~ msgid "Hide guides from AllTrails"
-#~ msgstr "Piilota oppaita Everytrail"
-
-#, fuzzy
-#~ msgid "Hide campgrounds from"
-#~ msgstr "Piilota leirintäalueiden alkaen"
-
-#, fuzzy
-#~ msgid "Hide breweries from BreweryDB"
-#~ msgstr "Piilota panimoiden BreweryDB"
-
-#, fuzzy
-#~ msgid "Hide lodgings"
-#~ msgstr "Piilota majoitusta alkaen"
-
-#, fuzzy
-#~ msgid "See user reviews at Fodor's Travel"
-#~ msgstr "See user tarkasteluihin YTJ: n Travel"
-
-#, fuzzy
-#~ msgid "No apartments and private rooms"
-#~ msgstr "Ei asuntoja ja kabinettia"
-
-#, fuzzy
-#~ msgid "Guides from AllTrails"
-#~ msgstr "Oppaita Everytrail"
-
-#, fuzzy
-#~ msgid "No pets"
-#~ msgstr "Ei lemmikkejä"
-
-#, fuzzy
-#~ msgid "Hide trails from Gaia GPS"
-#~ msgstr "Piilota polkuja Everytrail"
-
-#, fuzzy
-#~ msgid "Hotel chains"
-#~ msgstr "hotelliketjut"
-
-#, fuzzy
-#~ msgid "Restaurants recommended by Yelp"
-#~ msgstr "Ravintolat suosittelema Yelp"
-
-#, fuzzy
-#~ msgid "Click to let Furkot suggest hotels and motels"
-#~ msgstr "Klikkaa anna Furkot ehdottaa hotellit ja"
-
-#, fuzzy
-#~ msgid "Roads and rides from MotorcycleRoads.com"
-#~ msgstr "Tiet ja ratsastaa MotorcycleRoads.com"
-
-#, fuzzy
-#~ msgid "Click to let Furkot suggest apartments and private rooms"
-#~ msgstr "Klikkaa anna Furkot ehdottaa asuntoja ja kabinettia"
-
-#, fuzzy
-#~ msgid "Show normal road map"
-#~ msgstr "Näytä normaali tiekartta"
-
-#, fuzzy
-#~ msgid "Click to let Furkot suggest blind hotel deals"
-#~ msgstr "Klikkaa anna Furkot ehdottaa sokea hotellitarjoukset"
-
-#, fuzzy
-#~ msgid "Hide sights from Lonely Planet"
-#~ msgstr "Piilota nähtävyyksiä YTJ: n matka"
-
-#, fuzzy
-#~ msgid "Click if you are traveling with pets"
-#~ msgstr "Klikkaa jos lemmikkieläinten kanssa matkustaville"
-
-#, fuzzy
-#~ msgid "Hide ski resorts from EpicSki"
-#~ msgstr "Piilota hiihtokeskuksissa EpicSki"
-
-#, fuzzy
-#~ msgid "Click to edit stop tags"
-#~ msgstr "Muokkaa klikkaamalla pysähtyy tunnisteita"
-
-#, fuzzy
-#~ msgid "See description of this road at BestBikingRoads.com"
-#~ msgstr "Katso kuvaus tämän tien BestBikingRoads.com"
-
-#, fuzzy
-#~ msgid ""
-#~ "Click the button above and select the application that can open the "
-#~ "exported file."
-#~ msgstr ""
-#~ "Klikkaamalla yllä olevaa painiketta ja valitse sovellus, joka voi avata "
-#~ "viedyn tiedoston."
-
-#, fuzzy
-#~ msgid "Click if you are not traveling with pets"
-#~ msgstr "Klikkaa jos et ole lemmikkieläinten kanssa matkustaville"
-
-#, fuzzy
-#~ msgid "See description of this road at Gravelmap"
-#~ msgstr "Katso kuvaus tämän tien MotorcycleRoads.us"
-
-#, fuzzy
-#~ msgid "Hide America's Scenic Byways"
-#~ msgstr "Piilota Amerikan Scenic Byways"
-
-#, fuzzy
-#~ msgid "See user reviews at AllTrails"
-#~ msgstr "See user tarkasteluihin Everytrail"
-
-#, fuzzy
-#~ msgid "No campgrounds"
-#~ msgstr "ei leirintäalueiden"
-
-#, fuzzy
-#~ msgid "Hide peaks and routes from Peakbagger"
-#~ msgstr "Piilottaa huippukokousten ja reitit SummitPost"
-
-#, fuzzy
-#~ msgid "Lodging Preferences"
-#~ msgstr "majoitus asetukset"
-
-#, fuzzy
-#~ msgid "Hide incidents from InciWeb"
-#~ msgstr "Piilota tapausten InciWeb"
-
-#, fuzzy
-#~ msgid "Show lodgings from"
-#~ msgstr "Näytä majoitusta alkaen"
-
-#, fuzzy
-#~ msgid "See user reviews at Foursquare"
-#~ msgstr "See user tarkasteluihin Foursquare"
-
-#, fuzzy
-#~ msgid "Hide road overlay"
-#~ msgstr "Piilota tien overlay"
-
-#, fuzzy
-#~ msgid "Hide places from Google"
-#~ msgstr "Piilota paikkoja Google"
-
-#, fuzzy
-#~ msgid "Hide filling stations"
-#~ msgstr "Piilota huoltoasemilla"
-
-#, fuzzy
-#~ msgid "See description of this trail at MountainProject.com"
-#~ msgstr "Katso kuvaus tämän tien MotorcycleRoads.com"
-
-#, fuzzy
-#~ msgid "No hotels around."
-#~ msgstr "Ole hotelleja ympärillä."
-
-#, fuzzy
-#~ msgid "Hide summits and routes from SummitPost"
-#~ msgstr "Piilottaa huippukokousten ja reitit SummitPost"
-
-#, fuzzy
-#~ msgid "Add this brewery as a skipped stop"
-#~ msgstr "Lisää tämä panimo että kyseessä on ohitettava seis"
-
-#, fuzzy
-#~ msgid "Show hostels from"
-#~ msgstr "Näytä hostellit alkaen"
-
-#, fuzzy
-#~ msgid "Surf spots from WannaSurf"
-#~ msgstr "Surffauspaikat alkaen WannaSurf"
-
-#, fuzzy
-#~ msgid "Plan refueling station"
-#~ msgstr "Huoltoasemat"
-
-#, fuzzy
-#~ msgid "Click to exclude hotels and motels from lodging suggestions"
-#~ msgstr "Klikkaa sulkea hotellit ja jättämästä ehdotuksia"
-
-#, fuzzy
-#~ msgid "Stop at this brewery"
-#~ msgstr "Lopettaa tähän panimon"
-
-#, fuzzy
-#~ msgid "See description of this peak at Peakbagger"
+#~ msgid "See description of this activity"
 #~ msgstr "Katso kuvaus tämän paikan"
 
 #, fuzzy
-#~ msgid "Hide wineries from Snooth.com"
-#~ msgstr "Piilota viinitilat Snooth.com"
+#~ msgid "Experience this activity"
+#~ msgstr "Koe tämä toiminta"
 
 #, fuzzy
-#~ msgid "Breweries from BreweryDB"
-#~ msgstr "Panimoiden BreweryDB"
+#~ msgid "Add this activity as a skipped stop"
+#~ msgstr "Lisää tämä toiminto ohitettuun pysäytykseen"
 
 #, fuzzy
-#~ msgid "See description of this curiosity at Atlas Obscura"
-#~ msgstr "Katso kuvaus tästä uteliaisuus Atlas Obscura"
+#~ msgid "Fold this activity details"
+#~ msgstr "Taita tämä aktiviteettitiedot"
 
 #, fuzzy
-#~ msgid "See author's profile at EveryTrail"
-#~ msgstr "Katso kirjoittajan profiili Everytrail"
+#~ msgid "Hide travel activities"
+#~ msgstr "Piilota matkatoiminnot Trip Republicilta"
 
 #, fuzzy
-#~ msgid "Trails from HikingProject.com"
-#~ msgstr "Viinitilat Snooth.com"
+#~ msgid "Travel activities"
+#~ msgstr "Matkustaa tätä reittiä"
 
 #, fuzzy
-#~ msgid ""
-#~ "Click to exclude apartments and private rooms from lodging suggestions"
-#~ msgstr "Klikkaa jättää asuntoja ja kabinettia jättämästä ehdotuksia"
+#~ msgid "Click to let Furkot suggest hostels"
+#~ msgstr "Klikkaa anna Furkot ehdottaa hostellit"
 
 #, fuzzy
-#~ msgid "See description of this dive site at ShoreDiving"
-#~ msgstr "Katso kuvaus tästä sukelluskohde osoitteessa ShoreDiving"
-
-#, fuzzy
-#~ msgid "See guest reviews at Roadfood.com"
-#~ msgstr "Katso vieraana tarkasteluihin Roadfood.com"
-
-#, fuzzy
-#~ msgid "Hide dive sites from DiveSpots"
-#~ msgstr "Piilota sukelluskohteita alkaen DiveSpots"
-
-#, fuzzy
-#~ msgid "Bike tracks from MBPost"
-#~ msgstr "Pyörä kappaleita MBPost"
-
-#, fuzzy
-#~ msgid "Trails from PowderProject.com"
-#~ msgstr "Viinitilat Snooth.com"
-
-#, fuzzy
-#~ msgid "See description of this byway at America's Scenic Byways"
-#~ msgstr "Katso kuvaus tästä sivutielle America Scenic Byways"
-
-#, fuzzy
-#~ msgid "All stops including pass-through points"
-#~ msgstr "Kaikki pysähtyy lukien pass-through pisteiden"
-
-#, fuzzy
-#~ msgid "Click to exclude blind hotel deals from lodging suggestions"
-#~ msgstr "Klikkaa sulkea sokea hotelli tarjoukset majoitus ehdotuksia"
-
-#, fuzzy
-#~ msgid "Hide trails from PowderProject.com"
-#~ msgstr "Piilota viinitilat Snooth.com"
-
-#, fuzzy
-#~ msgid "Hide apartments and rooms"
-#~ msgstr "Piilota asuntoja ja huoneet alkaen"
-
-#, fuzzy
-#~ msgid "Change email or signature"
-#~ msgstr "Muuta sähköposti tai allekirjoitus"
-
-#, fuzzy
-#~ msgid "Hide roads and rides from BestBikingRoads.com"
-#~ msgstr "Piilota tiet ja ratsastaa BestBikingRoads.com"
-
-#, fuzzy
-#~ msgid "Hide gas stations from pure-gas.org"
-#~ msgstr "Piilota huoltoasemat maasta pure-gas.org"
-
-#, fuzzy
-#~ msgid "No chain hotels or motels"
-#~ msgstr "Ei ketju hotellissa tai motellissa"
-
-#, fuzzy
-#~ msgid "See user reviews at Lonely Planet"
-#~ msgstr "See user tarkasteluihin Liftopia"
-
-#, fuzzy
-#~ msgid "No hostels"
-#~ msgstr "ei hostelleja"
-
-#, fuzzy
-#~ msgid "See this guide at AllTrails"
-#~ msgstr "Katso tämän oppaan osoitteessa Everytrail"
-
-#, fuzzy
-#~ msgid "Directions"
-#~ msgstr "ohjeet"
-
-#, fuzzy
-#~ msgid "Dive sites from DiveSpots"
-#~ msgstr "Sukelluskohteita alkaen DiveSpots"
-
-#, fuzzy
-#~ msgid "Places to visit and overnight lodgings"
-#~ msgstr "Käyntikohteista ja yön yli majoitusta"
-
-#, fuzzy
-#~ msgid "Hide places recommended by Foursquare"
-#~ msgstr "Piilota paikoissa suosittelemia Foursquare"
-
-#, fuzzy
-#~ msgid "Hide trails from MountainProject.com"
-#~ msgstr "Piilota viinitilat Snooth.com"
-
-#, fuzzy
-#~ msgid "Hide restaurants recommended by Roadfood.com"
-#~ msgstr "Piilota ravintolat suosittelemia Roadfood.com"
-
-#, fuzzy
-#~ msgid "Apartments, private rooms, B&Bs"
-#~ msgstr "Huoneistot, kabinettia, B & B"
-
-#, fuzzy
-#~ msgid "Wineries from Snooth.com"
-#~ msgstr "Viinitilat Snooth.com"
-
-#, fuzzy
-#~ msgid "Hide curiosities from Atlas Obscura"
-#~ msgstr "Piilota Mielenkiintoiset Atlas Obscura"
-
-#, fuzzy
-#~ msgid "Trails from Gaia GPS"
-#~ msgstr "Polkuja Everytrail"
-
-#, fuzzy
-#~ msgid "Let Furkot guide you"
-#~ msgstr "Let Furkot opastaa"
-
-#, fuzzy
-#~ msgid "Hide birdwatching hotspots from ebird.org"
-#~ msgstr "Piilota lintujen kuormittajat alkaen ebird.org"
-
-#, fuzzy
-#~ msgid "See contributor's profile at MotorcycleRoads.com"
-#~ msgstr "Katso Avustajan profiili MotorcycleRoads.com"
-
-#, fuzzy
-#~ msgid "Fold this brewery details"
-#~ msgstr "Kertainen tämä panimo tiedot"
-
-#, fuzzy
-#~ msgid "Click to exclude hostels from lodging suggestions"
-#~ msgstr "Klikkaa sulkea hostellit jättämästä ehdotuksia"
-
-#, fuzzy
-#~ msgid "See author's profile at Gaia GPS"
-#~ msgstr "Katso kirjoittajan profiili MBPost"
-
-#, fuzzy
-#~ msgid "Hide books from Amazon"
-#~ msgstr "Piilota kirjoja Amazonin"
-
-#, fuzzy
-#~ msgid "Hide trails from MtbProject.com"
-#~ msgstr "Piilota viinitilat Snooth.com"
-
-#, fuzzy
-#~ msgid "Restaurants recommended by Roadfood.com"
-#~ msgstr "Ravintolat suosittelema Roadfood.com"
-
-#, fuzzy
-#~ msgid "view only"
-#~ msgstr "näkymä vain"
-
-#, fuzzy
-#~ msgid "Add this summit as a skipped stop"
-#~ msgstr "Lisää tämän huippukokouksen kyseessä on ohitettava seis"
-
-#, fuzzy
-#~ msgid "Hide current weather overlay"
-#~ msgstr "Piilota säätiedot overlay"
-
-#, fuzzy
-#~ msgid "With pets"
-#~ msgstr "lemmikkien"
-
-#, fuzzy
-#~ msgid "Be on your own"
-#~ msgstr "Omillasi"
-
-#, fuzzy
-#~ msgid "See description of this trail at PowderProject.com"
-#~ msgstr "Katso kuvaus tästä viinitilalla Snooth.com"
-
-#, fuzzy
-#~ msgid "See author's profile at SummitPost"
-#~ msgstr "Katso kirjoittajan profiili SummitPost"
-
-#, fuzzy
-#~ msgid "See user reviews at DiveSpots"
-#~ msgstr "See user tarkasteluihin DiveSpots"
-
-#, fuzzy
-#~ msgid "Summits and climbing routes from SummitPost"
-#~ msgstr "Huippukokouksissa ja kiipeily reitit SummitPost"
-
-#, fuzzy
-#~ msgid "Places recommended by Foursquare"
-#~ msgstr "Paikat suosittelemia Foursquare"
-
-#, fuzzy
-#~ msgid "Incidents from InciWeb"
-#~ msgstr "Vaaratilanteiden InciWeb"
-
-#, fuzzy
-#~ msgid "Click to exclude campgrounds from lodging suggestions"
-#~ msgstr "Klikkaa sulkea leirintäalueilla jättämästä ehdotuksia"
-
-#, fuzzy
-#~ msgid "Roads and rides from MotorcycleRoads.us"
-#~ msgstr "Tiet ja ratsastaa MotorcycleRoads.us"
-
-#, fuzzy
-#~ msgid "Travel activities from Trip Republic"
-#~ msgstr "Matkailutoiminta Trip Republicilta"
-
-#, fuzzy
-#~ msgid "Stop and climb this summit"
-#~ msgstr "Pysähtyä ja kiivetä huippukokouksen"
-
-#, fuzzy
-#~ msgid "See this ski resort own website"
-#~ msgstr "Katso tästä hiihtokeskus oma verkkosivusto"
-
-#, fuzzy
-#~ msgid "Keep"
-#~ msgstr "Pitää"
-
-#, fuzzy
-#~ msgid ""
-#~ "Places without coordinates have been ignored. To retrieve places without "
-#~ "coordinates import the file as a new trip."
-#~ msgstr ""
-#~ "Paikoissa ilman koordinaatit on jätetty huomiotta. Noutamaan paikoissa "
-#~ "ilman koordinaatteja tuo tiedosto uuden matkan."
-
-#, fuzzy
-#~ msgid "See this restaurant page on Roadfood.com"
-#~ msgstr "Katso tämä ravintola sivu Roadfood.com"
-
-#, fuzzy
-#~ msgid "Click to exclude chain hotels and motels from lodging suggestions"
-#~ msgstr "Klikkaa sulkea ketjuun hotellit ja jättämästä ehdotuksia"
-
-#, fuzzy
-#~ msgid "No gas station nearby."
-#~ msgstr "Ei huoltoasema lähellä."
-
-#, fuzzy
-#~ msgid "See description of this brewery at BreweryDB"
-#~ msgstr "Katso kuvaus tästä panimon BreweryDB"
-
-#, fuzzy
-#~ msgid "Ski resorts from EpicSki"
-#~ msgstr "Hiihtokeskuksissa EpicSki"
-
-#, fuzzy
-#~ msgid "Hide restaurants recommended by Yelp"
-#~ msgstr "Piilota ravintolat suosittelemia Yelp"
-
-#, fuzzy
-#~ msgid "See riders' rating at MotorcycleRoads.com"
-#~ msgstr "Katso ajajien luokituksen MotorcycleRoads.com"
-
-#, fuzzy
-#~ msgid "Hide airports from OurAirports"
-#~ msgstr "Piilota lentokentille OurAirports"
-
-#, fuzzy
-#~ msgid "Hide trails from HikingProject.com"
-#~ msgstr "Piilota viinitilat Snooth.com"
-
-#, fuzzy
-#~ msgid "Show major roads over satellite imagery"
-#~ msgstr "Näytä pääväyliä yli satelliittikuvista"
-
-#, fuzzy
-#~ msgid "Roads from Gravelmap"
-#~ msgstr "Tien päässä Gravelmapista"
-
-#, fuzzy
-#~ msgid "See guest reviews at Yelp"
-#~ msgstr "Katso vieraana tarkasteluihin Yelp"
-
-#, fuzzy
-#~ msgid "Show alternative road map"
-#~ msgstr "Näytä normaali tiekartta"
-
-#, fuzzy
-#~ msgid "Trails from MtbProject.com"
-#~ msgstr "Viinitilat Snooth.com"
-
-#, fuzzy
-#~ msgid "Keep this automatically scheduled stop"
-#~ msgstr "Pidä tämä automaattisesti ajastettu pysäytys"
-
-#, fuzzy
-#~ msgid "To sign up with email and password [click here]"
-#~ msgstr "Kirjautua sisään sähköpostiosoite ja salasana [klikkaa tästä]"
-
-#, fuzzy
-#~ msgid "See description of this activity at Trip Republic"
-#~ msgstr "Katso kuvaus tästä tapauksesta on InciWeb"
+#~ msgid "See riders' rating at BestBikingRoads.com"
+#~ msgstr "Katso ajajien luokituksen BestBikingRoads.com"
 
 #, fuzzy
 #~ msgid ""
@@ -10116,33 +9406,758 @@ msgstr ""
 #~ "ominaisuuksia."
 
 #, fuzzy
-#~ msgid "See riders' rating at BestBikingRoads.com"
-#~ msgstr "Katso ajajien luokituksen BestBikingRoads.com"
+#~ msgid "See description of this activity at Trip Republic"
+#~ msgstr "Katso kuvaus tästä tapauksesta on InciWeb"
 
 #, fuzzy
-#~ msgid "Click to let Furkot suggest hostels"
-#~ msgstr "Klikkaa anna Furkot ehdottaa hostellit"
+#~ msgid "To sign up with email and password [click here]"
+#~ msgstr "Kirjautua sisään sähköpostiosoite ja salasana [klikkaa tästä]"
 
 #, fuzzy
-#~ msgid "Travel activities"
-#~ msgstr "Matkustaa tätä reittiä"
+#~ msgid "Keep this automatically scheduled stop"
+#~ msgstr "Pidä tämä automaattisesti ajastettu pysäytys"
 
 #, fuzzy
-#~ msgid "Hide travel activities"
-#~ msgstr "Piilota matkatoiminnot Trip Republicilta"
+#~ msgid "Trails from MtbProject.com"
+#~ msgstr "Viinitilat Snooth.com"
 
 #, fuzzy
-#~ msgid "Fold this activity details"
-#~ msgstr "Taita tämä aktiviteettitiedot"
+#~ msgid "Show alternative road map"
+#~ msgstr "Näytä normaali tiekartta"
 
 #, fuzzy
-#~ msgid "Add this activity as a skipped stop"
-#~ msgstr "Lisää tämä toiminto ohitettuun pysäytykseen"
+#~ msgid "See guest reviews at Yelp"
+#~ msgstr "Katso vieraana tarkasteluihin Yelp"
 
 #, fuzzy
-#~ msgid "Experience this activity"
-#~ msgstr "Koe tämä toiminta"
+#~ msgid "Roads from Gravelmap"
+#~ msgstr "Tien päässä Gravelmapista"
 
 #, fuzzy
-#~ msgid "See description of this activity"
+#~ msgid "Show major roads over satellite imagery"
+#~ msgstr "Näytä pääväyliä yli satelliittikuvista"
+
+#, fuzzy
+#~ msgid "Hide trails from HikingProject.com"
+#~ msgstr "Piilota viinitilat Snooth.com"
+
+#, fuzzy
+#~ msgid "Hide airports from OurAirports"
+#~ msgstr "Piilota lentokentille OurAirports"
+
+#, fuzzy
+#~ msgid "See riders' rating at MotorcycleRoads.com"
+#~ msgstr "Katso ajajien luokituksen MotorcycleRoads.com"
+
+#, fuzzy
+#~ msgid "Hide restaurants recommended by Yelp"
+#~ msgstr "Piilota ravintolat suosittelemia Yelp"
+
+#, fuzzy
+#~ msgid "Ski resorts from EpicSki"
+#~ msgstr "Hiihtokeskuksissa EpicSki"
+
+#, fuzzy
+#~ msgid "See description of this brewery at BreweryDB"
+#~ msgstr "Katso kuvaus tästä panimon BreweryDB"
+
+#, fuzzy
+#~ msgid "No gas station nearby."
+#~ msgstr "Ei huoltoasema lähellä."
+
+#, fuzzy
+#~ msgid "Click to exclude chain hotels and motels from lodging suggestions"
+#~ msgstr "Klikkaa sulkea ketjuun hotellit ja jättämästä ehdotuksia"
+
+#, fuzzy
+#~ msgid "See this restaurant page on Roadfood.com"
+#~ msgstr "Katso tämä ravintola sivu Roadfood.com"
+
+#, fuzzy
+#~ msgid ""
+#~ "Places without coordinates have been ignored. To retrieve places without "
+#~ "coordinates import the file as a new trip."
+#~ msgstr ""
+#~ "Paikoissa ilman koordinaatit on jätetty huomiotta. Noutamaan paikoissa "
+#~ "ilman koordinaatteja tuo tiedosto uuden matkan."
+
+#, fuzzy
+#~ msgid "Keep"
+#~ msgstr "Pitää"
+
+#, fuzzy
+#~ msgid "See this ski resort own website"
+#~ msgstr "Katso tästä hiihtokeskus oma verkkosivusto"
+
+#, fuzzy
+#~ msgid "Stop and climb this summit"
+#~ msgstr "Pysähtyä ja kiivetä huippukokouksen"
+
+#, fuzzy
+#~ msgid "Travel activities from Trip Republic"
+#~ msgstr "Matkailutoiminta Trip Republicilta"
+
+#, fuzzy
+#~ msgid "Roads and rides from MotorcycleRoads.us"
+#~ msgstr "Tiet ja ratsastaa MotorcycleRoads.us"
+
+#, fuzzy
+#~ msgid "Click to exclude campgrounds from lodging suggestions"
+#~ msgstr "Klikkaa sulkea leirintäalueilla jättämästä ehdotuksia"
+
+#, fuzzy
+#~ msgid "Incidents from InciWeb"
+#~ msgstr "Vaaratilanteiden InciWeb"
+
+#, fuzzy
+#~ msgid "Places recommended by Foursquare"
+#~ msgstr "Paikat suosittelemia Foursquare"
+
+#, fuzzy
+#~ msgid "Summits and climbing routes from SummitPost"
+#~ msgstr "Huippukokouksissa ja kiipeily reitit SummitPost"
+
+#, fuzzy
+#~ msgid "See user reviews at DiveSpots"
+#~ msgstr "See user tarkasteluihin DiveSpots"
+
+#, fuzzy
+#~ msgid "See author's profile at SummitPost"
+#~ msgstr "Katso kirjoittajan profiili SummitPost"
+
+#, fuzzy
+#~ msgid "See description of this trail at PowderProject.com"
+#~ msgstr "Katso kuvaus tästä viinitilalla Snooth.com"
+
+#, fuzzy
+#~ msgid "Be on your own"
+#~ msgstr "Omillasi"
+
+#, fuzzy
+#~ msgid "With pets"
+#~ msgstr "lemmikkien"
+
+#, fuzzy
+#~ msgid "Hide current weather overlay"
+#~ msgstr "Piilota säätiedot overlay"
+
+#, fuzzy
+#~ msgid "Add this summit as a skipped stop"
+#~ msgstr "Lisää tämän huippukokouksen kyseessä on ohitettava seis"
+
+#, fuzzy
+#~ msgid "view only"
+#~ msgstr "näkymä vain"
+
+#, fuzzy
+#~ msgid "Restaurants recommended by Roadfood.com"
+#~ msgstr "Ravintolat suosittelema Roadfood.com"
+
+#, fuzzy
+#~ msgid "Hide trails from MtbProject.com"
+#~ msgstr "Piilota viinitilat Snooth.com"
+
+#, fuzzy
+#~ msgid "Hide books from Amazon"
+#~ msgstr "Piilota kirjoja Amazonin"
+
+#, fuzzy
+#~ msgid "See author's profile at Gaia GPS"
+#~ msgstr "Katso kirjoittajan profiili MBPost"
+
+#, fuzzy
+#~ msgid "Click to exclude hostels from lodging suggestions"
+#~ msgstr "Klikkaa sulkea hostellit jättämästä ehdotuksia"
+
+#, fuzzy
+#~ msgid "Fold this brewery details"
+#~ msgstr "Kertainen tämä panimo tiedot"
+
+#, fuzzy
+#~ msgid "See contributor's profile at MotorcycleRoads.com"
+#~ msgstr "Katso Avustajan profiili MotorcycleRoads.com"
+
+#, fuzzy
+#~ msgid "Hide birdwatching hotspots from ebird.org"
+#~ msgstr "Piilota lintujen kuormittajat alkaen ebird.org"
+
+#, fuzzy
+#~ msgid "Let Furkot guide you"
+#~ msgstr "Let Furkot opastaa"
+
+#, fuzzy
+#~ msgid "Trails from Gaia GPS"
+#~ msgstr "Polkuja Everytrail"
+
+#, fuzzy
+#~ msgid "Hide curiosities from Atlas Obscura"
+#~ msgstr "Piilota Mielenkiintoiset Atlas Obscura"
+
+#, fuzzy
+#~ msgid "Wineries from Snooth.com"
+#~ msgstr "Viinitilat Snooth.com"
+
+#, fuzzy
+#~ msgid "Apartments, private rooms, B&Bs"
+#~ msgstr "Huoneistot, kabinettia, B & B"
+
+#, fuzzy
+#~ msgid "Hide restaurants recommended by Roadfood.com"
+#~ msgstr "Piilota ravintolat suosittelemia Roadfood.com"
+
+#, fuzzy
+#~ msgid "Hide trails from MountainProject.com"
+#~ msgstr "Piilota viinitilat Snooth.com"
+
+#, fuzzy
+#~ msgid "Hide places recommended by Foursquare"
+#~ msgstr "Piilota paikoissa suosittelemia Foursquare"
+
+#, fuzzy
+#~ msgid "Places to visit and overnight lodgings"
+#~ msgstr "Käyntikohteista ja yön yli majoitusta"
+
+#, fuzzy
+#~ msgid "Dive sites from DiveSpots"
+#~ msgstr "Sukelluskohteita alkaen DiveSpots"
+
+#, fuzzy
+#~ msgid "Directions"
+#~ msgstr "ohjeet"
+
+#, fuzzy
+#~ msgid "See this guide at AllTrails"
+#~ msgstr "Katso tämän oppaan osoitteessa Everytrail"
+
+#, fuzzy
+#~ msgid "No hostels"
+#~ msgstr "ei hostelleja"
+
+#, fuzzy
+#~ msgid "See user reviews at Lonely Planet"
+#~ msgstr "See user tarkasteluihin Liftopia"
+
+#, fuzzy
+#~ msgid "No chain hotels or motels"
+#~ msgstr "Ei ketju hotellissa tai motellissa"
+
+#, fuzzy
+#~ msgid "Hide gas stations from pure-gas.org"
+#~ msgstr "Piilota huoltoasemat maasta pure-gas.org"
+
+#, fuzzy
+#~ msgid "Hide roads and rides from BestBikingRoads.com"
+#~ msgstr "Piilota tiet ja ratsastaa BestBikingRoads.com"
+
+#, fuzzy
+#~ msgid "Change email or signature"
+#~ msgstr "Muuta sähköposti tai allekirjoitus"
+
+#, fuzzy
+#~ msgid "Hide apartments and rooms"
+#~ msgstr "Piilota asuntoja ja huoneet alkaen"
+
+#, fuzzy
+#~ msgid "Hide trails from PowderProject.com"
+#~ msgstr "Piilota viinitilat Snooth.com"
+
+#, fuzzy
+#~ msgid "Click to exclude blind hotel deals from lodging suggestions"
+#~ msgstr "Klikkaa sulkea sokea hotelli tarjoukset majoitus ehdotuksia"
+
+#, fuzzy
+#~ msgid "All stops including pass-through points"
+#~ msgstr "Kaikki pysähtyy lukien pass-through pisteiden"
+
+#, fuzzy
+#~ msgid "See description of this byway at America's Scenic Byways"
+#~ msgstr "Katso kuvaus tästä sivutielle America Scenic Byways"
+
+#, fuzzy
+#~ msgid "Trails from PowderProject.com"
+#~ msgstr "Viinitilat Snooth.com"
+
+#, fuzzy
+#~ msgid "Bike tracks from MBPost"
+#~ msgstr "Pyörä kappaleita MBPost"
+
+#, fuzzy
+#~ msgid "Hide dive sites from DiveSpots"
+#~ msgstr "Piilota sukelluskohteita alkaen DiveSpots"
+
+#, fuzzy
+#~ msgid "See guest reviews at Roadfood.com"
+#~ msgstr "Katso vieraana tarkasteluihin Roadfood.com"
+
+#, fuzzy
+#~ msgid "See description of this dive site at ShoreDiving"
+#~ msgstr "Katso kuvaus tästä sukelluskohde osoitteessa ShoreDiving"
+
+#, fuzzy
+#~ msgid ""
+#~ "Click to exclude apartments and private rooms from lodging suggestions"
+#~ msgstr "Klikkaa jättää asuntoja ja kabinettia jättämästä ehdotuksia"
+
+#, fuzzy
+#~ msgid "Trails from HikingProject.com"
+#~ msgstr "Viinitilat Snooth.com"
+
+#, fuzzy
+#~ msgid "See author's profile at EveryTrail"
+#~ msgstr "Katso kirjoittajan profiili Everytrail"
+
+#, fuzzy
+#~ msgid "See description of this curiosity at Atlas Obscura"
+#~ msgstr "Katso kuvaus tästä uteliaisuus Atlas Obscura"
+
+#, fuzzy
+#~ msgid "Breweries from BreweryDB"
+#~ msgstr "Panimoiden BreweryDB"
+
+#, fuzzy
+#~ msgid "Hide wineries from Snooth.com"
+#~ msgstr "Piilota viinitilat Snooth.com"
+
+#, fuzzy
+#~ msgid "See description of this peak at Peakbagger"
 #~ msgstr "Katso kuvaus tämän paikan"
+
+#, fuzzy
+#~ msgid "Stop at this brewery"
+#~ msgstr "Lopettaa tähän panimon"
+
+#, fuzzy
+#~ msgid "Click to exclude hotels and motels from lodging suggestions"
+#~ msgstr "Klikkaa sulkea hotellit ja jättämästä ehdotuksia"
+
+#, fuzzy
+#~ msgid "Plan refueling station"
+#~ msgstr "Huoltoasemat"
+
+#, fuzzy
+#~ msgid "Surf spots from WannaSurf"
+#~ msgstr "Surffauspaikat alkaen WannaSurf"
+
+#, fuzzy
+#~ msgid "Show hostels from"
+#~ msgstr "Näytä hostellit alkaen"
+
+#, fuzzy
+#~ msgid "Add this brewery as a skipped stop"
+#~ msgstr "Lisää tämä panimo että kyseessä on ohitettava seis"
+
+#, fuzzy
+#~ msgid "Hide summits and routes from SummitPost"
+#~ msgstr "Piilottaa huippukokousten ja reitit SummitPost"
+
+#, fuzzy
+#~ msgid "No hotels around."
+#~ msgstr "Ole hotelleja ympärillä."
+
+#, fuzzy
+#~ msgid "See description of this trail at MountainProject.com"
+#~ msgstr "Katso kuvaus tämän tien MotorcycleRoads.com"
+
+#, fuzzy
+#~ msgid "Hide filling stations"
+#~ msgstr "Piilota huoltoasemilla"
+
+#, fuzzy
+#~ msgid "Hide places from Google"
+#~ msgstr "Piilota paikkoja Google"
+
+#, fuzzy
+#~ msgid "Hide road overlay"
+#~ msgstr "Piilota tien overlay"
+
+#, fuzzy
+#~ msgid "See user reviews at Foursquare"
+#~ msgstr "See user tarkasteluihin Foursquare"
+
+#, fuzzy
+#~ msgid "Show lodgings from"
+#~ msgstr "Näytä majoitusta alkaen"
+
+#, fuzzy
+#~ msgid "Hide incidents from InciWeb"
+#~ msgstr "Piilota tapausten InciWeb"
+
+#, fuzzy
+#~ msgid "Lodging Preferences"
+#~ msgstr "majoitus asetukset"
+
+#, fuzzy
+#~ msgid "Hide peaks and routes from Peakbagger"
+#~ msgstr "Piilottaa huippukokousten ja reitit SummitPost"
+
+#, fuzzy
+#~ msgid "No campgrounds"
+#~ msgstr "ei leirintäalueiden"
+
+#, fuzzy
+#~ msgid "See user reviews at AllTrails"
+#~ msgstr "See user tarkasteluihin Everytrail"
+
+#, fuzzy
+#~ msgid "Hide America's Scenic Byways"
+#~ msgstr "Piilota Amerikan Scenic Byways"
+
+#, fuzzy
+#~ msgid "See description of this road at Gravelmap"
+#~ msgstr "Katso kuvaus tämän tien MotorcycleRoads.us"
+
+#, fuzzy
+#~ msgid "Click if you are not traveling with pets"
+#~ msgstr "Klikkaa jos et ole lemmikkieläinten kanssa matkustaville"
+
+#, fuzzy
+#~ msgid ""
+#~ "Click the button above and select the application that can open the "
+#~ "exported file."
+#~ msgstr ""
+#~ "Klikkaamalla yllä olevaa painiketta ja valitse sovellus, joka voi avata "
+#~ "viedyn tiedoston."
+
+#, fuzzy
+#~ msgid "See description of this road at BestBikingRoads.com"
+#~ msgstr "Katso kuvaus tämän tien BestBikingRoads.com"
+
+#, fuzzy
+#~ msgid "Click to edit stop tags"
+#~ msgstr "Muokkaa klikkaamalla pysähtyy tunnisteita"
+
+#, fuzzy
+#~ msgid "Hide ski resorts from EpicSki"
+#~ msgstr "Piilota hiihtokeskuksissa EpicSki"
+
+#, fuzzy
+#~ msgid "Click if you are traveling with pets"
+#~ msgstr "Klikkaa jos lemmikkieläinten kanssa matkustaville"
+
+#, fuzzy
+#~ msgid "Hide sights from Lonely Planet"
+#~ msgstr "Piilota nähtävyyksiä YTJ: n matka"
+
+#, fuzzy
+#~ msgid "Click to let Furkot suggest blind hotel deals"
+#~ msgstr "Klikkaa anna Furkot ehdottaa sokea hotellitarjoukset"
+
+#, fuzzy
+#~ msgid "Show normal road map"
+#~ msgstr "Näytä normaali tiekartta"
+
+#, fuzzy
+#~ msgid "Click to let Furkot suggest apartments and private rooms"
+#~ msgstr "Klikkaa anna Furkot ehdottaa asuntoja ja kabinettia"
+
+#, fuzzy
+#~ msgid "Roads and rides from MotorcycleRoads.com"
+#~ msgstr "Tiet ja ratsastaa MotorcycleRoads.com"
+
+#, fuzzy
+#~ msgid "Click to let Furkot suggest hotels and motels"
+#~ msgstr "Klikkaa anna Furkot ehdottaa hotellit ja"
+
+#, fuzzy
+#~ msgid "Restaurants recommended by Yelp"
+#~ msgstr "Ravintolat suosittelema Yelp"
+
+#, fuzzy
+#~ msgid "Hotel chains"
+#~ msgstr "hotelliketjut"
+
+#, fuzzy
+#~ msgid "Hide trails from Gaia GPS"
+#~ msgstr "Piilota polkuja Everytrail"
+
+#, fuzzy
+#~ msgid "No pets"
+#~ msgstr "Ei lemmikkejä"
+
+#, fuzzy
+#~ msgid "Guides from AllTrails"
+#~ msgstr "Oppaita Everytrail"
+
+#, fuzzy
+#~ msgid "No apartments and private rooms"
+#~ msgstr "Ei asuntoja ja kabinettia"
+
+#, fuzzy
+#~ msgid "See user reviews at Fodor's Travel"
+#~ msgstr "See user tarkasteluihin YTJ: n Travel"
+
+#, fuzzy
+#~ msgid "Hide lodgings"
+#~ msgstr "Piilota majoitusta alkaen"
+
+#, fuzzy
+#~ msgid "Hide breweries from BreweryDB"
+#~ msgstr "Piilota panimoiden BreweryDB"
+
+#, fuzzy
+#~ msgid "Hide campgrounds from"
+#~ msgstr "Piilota leirintäalueiden alkaen"
+
+#, fuzzy
+#~ msgid "Hide guides from AllTrails"
+#~ msgstr "Piilota oppaita Everytrail"
+
+#, fuzzy
+#~ msgid "Curiosities from Atlas Obscura"
+#~ msgstr "Mielenkiintoiset Atlas Obscura"
+
+#, fuzzy
+#~ msgid "See contributor's profile at BestBikingRoads.com"
+#~ msgstr "Katso Avustajan profiili BestBikingRoads.com"
+
+#, fuzzy
+#~ msgid "Hide gas stations from myGasFeed"
+#~ msgstr "Piilota huoltoasemat maasta myGasFeed"
+
+#, fuzzy
+#~ msgid "See description of this ski resort at EpicSki"
+#~ msgstr "Katso kuvaus tästä hiihtokeskuksen EpicSki"
+
+#, fuzzy
+#~ msgid "See description of this road at MotorcycleRoads.com"
+#~ msgstr "Katso kuvaus tämän tien MotorcycleRoads.com"
+
+#, fuzzy
+#~ msgid "See user reviews at SummitPost"
+#~ msgstr "See user tarkasteluihin SummitPost"
+
+#, fuzzy
+#~ msgid "Dive sites from ShoreDiving"
+#~ msgstr "Sukelluskohteita alkaen ShoreDiving"
+
+#, fuzzy
+#~ msgid "Roads and rides from BestBikingRoads.com"
+#~ msgstr "Tiet ja ratsastaa BestBikingRoads.com"
+
+#, fuzzy
+#~ msgid "Hide articles from Wikipedia"
+#~ msgstr "Piilota artikkeleita Wikipediasta"
+
+#, fuzzy
+#~ msgid "Comma-separated trip tags (labels)"
+#~ msgstr "Pilkulla erotettu matkan tunnisteet (leimat)"
+
+#, fuzzy
+#~ msgid "Birdwatching hotspots from ebird.org"
+#~ msgstr "Lintujen kuormittajat alkaen ebird.org"
+
+#, fuzzy
+#~ msgid "See description of this trail at MtbProject.com"
+#~ msgstr "Katso kuvaus tämän tien MotorcycleRoads.com"
+
+#, fuzzy
+#~ msgid "See description of this summit at SummitPost"
+#~ msgstr "Katso kuvaus tämän huippukokouksen SummitPost"
+
+#, fuzzy
+#~ msgid "See user reviews at EpicSki"
+#~ msgstr "See user tarkasteluihin EpicSki"
+
+#, fuzzy
+#~ msgid "Trails from MountainProject.com"
+#~ msgstr "Jäljet palvelusta MountainProject.com"
+
+#, fuzzy
+#~ msgid "Comments"
+#~ msgstr "Kommentit"
+
+#, fuzzy
+#~ msgid "Sights from Lonely Planet"
+#~ msgstr "Nähtävyyksiä YTJ: n matka"
+
+#, fuzzy
+#~ msgid "See description of this road at MotorcycleRoads.us"
+#~ msgstr "Katso kuvaus tämän tien MotorcycleRoads.us"
+
+#, fuzzy
+#~ msgid "Show current weather on map"
+#~ msgstr "Näytä nykyinen sää kartalla"
+
+#, fuzzy
+#~ msgid "Books from Amazon"
+#~ msgstr "Kirjoja Amazon"
+
+#, fuzzy
+#~ msgid "Book a flight at"
+#~ msgstr "Varaa lennolle"
+
+#, fuzzy
+#~ msgid "See this trail description at Gaia GPS"
+#~ msgstr "Katso tämä polku kuvaus osoitteessa Everytrail"
+
+#, fuzzy
+#~ msgid "Hide places and activities from Recreation.gov"
+#~ msgstr "Piilota paikkoja ja toimintaa Recreation.gov"
+
+#, fuzzy
+#~ msgid "See this place page at Google"
+#~ msgstr "Katso tämä paikka sivua Googlen"
+
+#, fuzzy
+#~ msgid "Coupon code"
+#~ msgstr "Kuponkikoodi"
+
+#, fuzzy
+#~ msgid "Fold this summit details"
+#~ msgstr "Kertainen huippukokouksen yksityiskohtia"
+
+#, fuzzy
+#~ msgid "See user reviews at ShoreDiving"
+#~ msgstr "See user tarkasteluihin ShoreDiving"
+
+#, fuzzy
+#~ msgid "See user reviews at MBPost"
+#~ msgstr "See user tarkasteluihin MBPost"
+
+#, fuzzy
+#~ msgid "Hide dive sites from ShoreDiving"
+#~ msgstr "Piilota sukelluskohteita alkaen ShoreDiving"
+
+#, fuzzy
+#~ msgid "Show deals from"
+#~ msgstr "Näytä hinnat maasta"
+
+#, fuzzy
+#~ msgid "No blind hotel deals"
+#~ msgstr "Ei sokea hotellitarjoukset"
+
+#, fuzzy
+#~ msgid "Hide hostels from"
+#~ msgstr "Piilota hostellit alkaen"
+
+#, fuzzy
+#~ msgid "Hide deals"
+#~ msgstr "Piilota maasta"
+
+#, fuzzy
+#~ msgid "Rent a car at"
+#~ msgstr "Vuokrata auton"
+
+#, fuzzy
+#~ msgid "See description of this place at Foursquare"
+#~ msgstr "Katso kuvaus tästä paikassa Foursquare"
+
+#, fuzzy
+#~ msgid "See description of this place at Recreation.gov"
+#~ msgstr "Katso kuvaus tästä paikassa Recreation.gov"
+
+#, fuzzy
+#~ msgid "See description of this airport at OurAirports"
+#~ msgstr "Katso kuvaus tästä lentoaseman OurAirports"
+
+#, fuzzy
+#~ msgid "See this brewery own website"
+#~ msgstr "Katso tästä panimo oma verkkosivusto"
+
+#, fuzzy
+#~ msgid "Hide roads and rides from MotorcycleRoads.us"
+#~ msgstr "Piilota tiet ja ratsastaa MotorcycleRoads.us"
+
+#, fuzzy
+#~ msgid "Ski resorts from Liftopia"
+#~ msgstr "Hiihtokeskuksissa Liftopia"
+
+#, fuzzy
+#~ msgid "See user reviews at Liftopia"
+#~ msgstr "See user tarkasteluihin Liftopia"
+
+#, fuzzy
+#~ msgid "Show campgrounds from"
+#~ msgstr "Näytä leirintäalueiden alkaen"
+
+#, fuzzy
+#~ msgid "Hide hotels"
+#~ msgstr "Piilota hotellit"
+
+#, fuzzy
+#~ msgid "No hotels or motels"
+#~ msgstr "Ei hotellissa tai motellissa"
+
+#, fuzzy
+#~ msgid "Hide bike tracks from MBPost"
+#~ msgstr "Piilota pyörä kappaleita MBPost"
+
+#, fuzzy
+#~ msgid "Hide blind hotel deals"
+#~ msgstr "Piilota sokea hotellitarjoukset"
+
+#, fuzzy
+#~ msgid "See user reviews at WannaSurf"
+#~ msgstr "See user tarkasteluihin WannaSurf"
+
+#, fuzzy
+#~ msgid "Click to let Furkot suggest chain hotels and motels"
+#~ msgstr "Klikkaa anna Furkot ehdottaa ketjun hotellit ja"
+
+#, fuzzy
+#~ msgid "Guided Tour"
+#~ msgstr "Opastettu kiertoajelu"
+
+#, fuzzy
+#~ msgid "Click to let Furkot suggest campgrounds"
+#~ msgstr "Klikkaa anna Furkot ehdottaa leirintäalueiden"
+
+#, fuzzy
+#~ msgid "Hide roads from Gravelmap"
+#~ msgstr "Piilota teitä Gravelmapista"
+
+#, fuzzy
+#~ msgid "Comma-separated stop tags (labels)"
+#~ msgstr "Pilkulla erotettu stop-tunnisteet (leimat)"
+
+#, fuzzy
+#~ msgid "Add new stop"
+#~ msgstr "Lisää pysäkkilista"
+
+#, fuzzy
+#~ msgid "Map Type"
+#~ msgstr "kartta Tyyppi"
+
+#, fuzzy
+#~ msgid "Show hotels from"
+#~ msgstr "Näytä hotellit alkaen"
+
+#, fuzzy
+#~ msgid "See guest reviews at Google"
+#~ msgstr "Katso arviota Googlella"
+
+#, fuzzy
+#~ msgid "Airports from OurAirports"
+#~ msgstr "Lentokentille OurAirports"
+
+#, fuzzy
+#~ msgid "See description of this trail at HikingProject.com"
+#~ msgstr "Katso kuvaus tämän tien BestBikingRoads.com"
+
+#, fuzzy
+#~ msgid "Hide hotels from"
+#~ msgstr "Piilota hotellit alkaen"
+
+#, fuzzy
+#~ msgid "See description of this winery at Snooth.com"
+#~ msgstr "Katso kuvaus tästä viinitilalla Snooth.com"
+
+#, fuzzy
+#~ msgid "Hide roads and rides from MotorcycleRoads.com"
+#~ msgstr "Piilota tiet ja ratsastaa MotorcycleRoads.com"
+
+#, fuzzy
+#~ msgid "Hide ski resorts from Liftopia"
+#~ msgstr "Piilota hiihtokeskuksissa Liftopia"
+
+#, fuzzy
+#~ msgid "Show apartments and rooms from"
+#~ msgstr "Näytä asuntoja ja huoneet alkaen"
+
+#, fuzzy
+#~ msgid "Hide surf spots from WannaSurf"
+#~ msgstr "Piilota surffauspaikat maasta WannaSurf"
+
+#, fuzzy
+#~ msgid "Peaks and climbing routes from Peakbagger"
+#~ msgstr "Huippukokouksissa ja kiipeily reitit SummitPost"

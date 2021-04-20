@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2021-04-19 10:40+0200\n"
+"POT-Creation-Date: 2021-04-20 06:46+0200\n"
 "PO-Revision-Date: 2021-04-19 21:37+0000\n"
 "Last-Translator: Natalia Kowalczyk <melitele@furkot.com>\n"
-"Language-Team: Polish "
-"<https://translate.furkot.com/projects/furkot/trips/pl/>\n"
+"Language-Team: Polish <https://translate.furkot.com/projects/furkot/trips/pl/"
+">\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2483,13 +2483,18 @@ msgstr "Nurkowanie"
 msgid "Drinking water"
 msgstr "Woda pitna"
 
+#. L10n: displayed for place like campgrounds that can only be accessed during dry weather. Less than 25 characters if possible
+#: views/components/place-detail.jade:119
+#: views/components/place-detail.jade:264
+msgid "Dry weather access"
+msgstr ""
+
 #. L10n: Displayed for dump stations for RV / campers / motorhomes and campgrounds with such. Less than 25 characters if possible
 #: views/components/place-detail.jade:120
 #: views/components/place-detail.jade:268
 msgid "Dump station"
 msgstr "Zlewnia ścieków"
 
-#. L10n: displayed for place like campgrounds that can only be accessed during dry weather. Less than 25 characters if possible
 #. L10n: Fees required by the attraction. Followed by fee description. Less than 25 characters if possible
 #: views/components/place-detail.jade:121
 #: views/components/place-detail.jade:266
@@ -2533,6 +2538,11 @@ msgid "Generators permitted"
 msgstr "Agregaty dozwolone"
 
 #. L10n: Displayed when there is a restaurant, bar, grocery store or food stand at the campground. Less than 25 characters if possible
+#: views/components/place-detail.jade:129
+#: views/components/place-detail.jade:284
+msgid "Food service"
+msgstr ""
+
 #. L10n: Displayed when a road is accessible to high clearance vehicles only (some unpaved roads in the Find drawer under category "Unpaved roads and off-road trails"). Also when access to a place like campground requires such vehicles. Less than 25 characters if possible
 #: views/components/place-detail.jade:130
 #: views/components/place-detail.jade:286
@@ -2740,6 +2750,11 @@ msgid "Rest area"
 msgstr "Miejsce obsługi podróżnych"
 
 #. L10n: Displayed for backroads that are closed to all traffic except for authorized maintenance. Less than 25 characters if possible
+#: views/components/place-detail.jade:167
+#: views/components/place-detail.jade:354
+msgid "Closed for traffic"
+msgstr ""
+
 #. L10n: Displayed when campground has sites for RV / campers / motorhomes. Less than 25 characters if possible
 #: views/components/place-detail.jade:168
 #: views/components/place-detail.jade:356
@@ -7516,8 +7531,8 @@ msgid ""
 "By clicking Sign Up below, you agree to [Furkot Terms and Conditions of Use] "
 "including [Privacy Policy]"
 msgstr ""
-"Klikając na Załóż Konto poniżej wyrażasz zgodę na [Regulamin Furkota] oraz ["
-"Regulaminem Prywatności]"
+"Klikając na Załóż Konto poniżej wyrażasz zgodę na [Regulamin Furkota] oraz "
+"[Regulaminem Prywatności]"
 
 #. L10n: Curly braces {} denote the amount to be paid - for example $10
 #: views/pass/index.jade:3
@@ -7987,179 +8002,894 @@ msgstr ""
 "zakończyć swój plan podróży, zobaczyć trasę na mapie, znaleźć więcej "
 "atrakcji i opcje zakwaterowania."
 
-#~ msgid "Hide sights from Lonely Planet"
-#~ msgstr "Ukryj atrakcje z Lonely Planet"
+#~ msgid "See description of this activity"
+#~ msgstr "Zobacz opis rozrywki"
 
-#~ msgid "See description of this road at BestBikingRoads.com"
-#~ msgstr "Zobacz opis drogi na BestBikingRoads.com"
+#~ msgid "Experience this activity"
+#~ msgstr "Dodaj rozrywkę"
 
-#~ msgid "All"
+#~ msgid "Add this activity as a skipped stop"
+#~ msgstr "Dodaj rozrywkę jako omijany postój"
+
+#~ msgid "Fold this activity details"
+#~ msgstr "Zwiń opis rozrywki"
+
+#~ msgid "Hide travel activities"
+#~ msgstr "Ukryj rozywki"
+
+#~ msgid "Travel activities"
+#~ msgstr "Rozrywki i atrakcje turystyczne"
+
+#~ msgid "Distance "
+#~ msgstr "Odległość "
+
+#~ msgid "View More"
+#~ msgstr "Zobacz więcej"
+
+#~ msgid ""
+#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
+#~ msgstr ""
+#~ "Nie przejmuj się, otwórz [standardową] stronę Furkota aby zaplanować nową "
+#~ "podróż."
+
+#~ msgid "Click to let Furkot suggest apartments and private rooms"
+#~ msgstr "Kliknij aby Furkot sugerował apartamenty i pokoje gościnne"
+
+#~ msgid "Day "
+#~ msgstr "W dzień "
+
+#~ msgid "With pets"
+#~ msgstr "Z czworonogami"
+
+#~ msgid "See guest reviews at Google"
+#~ msgstr "Zobacz opinie gości na Google"
+
+#~ msgid "Your password"
+#~ msgstr "Twoje hasło"
+
+#~ msgid "No hostels"
+#~ msgstr "Ukryj schroniska"
+
+#~ msgid "Restaurants recommended by Yelp"
+#~ msgstr "Restauracje polecane przez Yelp"
+
+#~ msgid "Vertical_drop"
+#~ msgstr "Różnica wysokości"
+
+#~ msgid "See description of this road at Gravelmap"
+#~ msgstr "Zobacz opis drogi na Gravelmap"
+
+#~ msgid "See description of this brewery at BreweryDB"
+#~ msgstr "Zobacz opis browaru na BreweryDB"
+
+#~ msgid "Click to let Furkot suggest hotels and motels"
+#~ msgstr "Kliknij aby Furkot sugerował hotele i motele"
+
+#~ msgid ""
+#~ "Otherwise you can tell us more and we will try to verify your account."
+#~ msgstr ""
+#~ "W przeciwnym razie udziel nam dodatkowych informacji potrzebnych do "
+#~ "zweryfikowania konta."
+
+#~ msgid "Navigate to"
+#~ msgstr "Nawiguj do"
+
+#~ msgid "Hide airports from OurAirports"
+#~ msgstr "Ukryj lotniska z OurAirports"
+
+#~ msgid "Click to let Furkot suggest hostels"
+#~ msgstr "Kliknij aby Furkot sugerował schroniska"
+
+#~ msgid "_Duration_"
+#~ msgstr "_Czas Trasy_"
+
+#~ msgid "Lodging Preferences"
+#~ msgstr "Preferencje Noclegowe"
+
+#~ msgid "To sign up with email and password [click here]"
+#~ msgstr "[Kliknij tutaj] aby założyć konto podając adress e-mail i hasło"
+
+#~ msgid "No hotels or motels"
+#~ msgstr "Bez hoteli i moteli"
+
+#~ msgid "Hide trails from PowderProject.com"
+#~ msgstr "Ukryj trasy z PowderProject.com"
+
+#~ msgid "No apartments and private rooms"
+#~ msgstr "Bez apartamentów i pokoi gościnnych"
+
+#~ msgid "Surf spots from WannaSurf"
+#~ msgstr "Miejsca do surfowania z WannaSurf"
+
+#~ msgid "Click to exclude chain hotels and motels from lodging suggestions"
+#~ msgstr ""
+#~ "Kliknij, aby wykluczyć hotele i motele sieciowe z proponowanych noclegów"
+
+#~ msgid "Feel free to press [Done] at any point."
+#~ msgstr "Możesz nacisnąć [Koniec] w dowolnym momencie."
+
+#~ msgid "Click to exclude campgrounds from lodging suggestions"
+#~ msgstr "Kliknij, aby wykluczyć pola namiotowe z proponowanych noclegów"
+
+#~ msgid "See description of this trail at PowderProject.com"
+#~ msgstr "Zobacz opis trasy na PowderProject.com"
+
+#~ msgid "Click to let Furkot suggest campgrounds"
+#~ msgstr "Kliknij aby Furkot sugerował pola namiotowe"
+
+#~ msgid "Show campgrounds from"
+#~ msgstr "Pokaż pola namiotowe z"
+
+#~ msgid "Click if you are traveling with pets"
+#~ msgstr "Kliknij, jeśli podróżujesz ze zwierzętami"
+
+#~ msgid "See user reviews at WannaSurf"
+#~ msgstr "Zobacz opinie użytkowników na WannaSurf"
+
+#~ msgid "Confirm password"
+#~ msgstr "Potwierdzenie Hasła"
+
+#~ msgid "Ski resorts from Liftopia"
+#~ msgstr "Ośrodki narciarskie z Liftopii"
+
+#~ msgid "Travel activities from Trip Republic"
+#~ msgstr "Rozrywki z Trip Republic"
+
+#~ msgid "See user reviews at Fodor's Travel"
+#~ msgstr "Zobacz opinie użytkowników na Fodor's Travel"
+
+#~ msgid "Sights from Lonely Planet"
+#~ msgstr "Atrakcje z Lonely Planet"
+
+#~ msgid "Hide hikes from LocalHikes"
+#~ msgstr "Ukryj szlaki z LocalHikes"
+
+#~ msgid "See description of this place at Foursquare"
+#~ msgstr "Zobacz opis miejsca na Foursquare"
+
+#~ msgid "Press [Back] to return to the hotel page."
+#~ msgstr "Naciśnij [Powrót], aby powrócić do strony hotelu."
+
+#~ msgid "Hide places from Google"
+#~ msgstr "Ukryj miejsca z Google"
+
+#~ msgid "Hide surf spots from WannaSurf"
+#~ msgstr "Ukryj miejsca do surfowania z WannaSurf"
+
+#~ msgid "Hide wineries from Snooth.com"
+#~ msgstr "Ukryj winnice ze Snooth.com"
+
+#~ msgid "Places recommended by Foursquare"
+#~ msgstr "Miejsca polecane przez Foursquare"
+
+#~ msgid "Hide trails from MtbProject.com"
+#~ msgstr "Ukryj szlaki z MtbProject.com"
+
+#~ msgid "Select KML, GPX or CSV file"
+#~ msgstr "Wybierz plik KML, GPX lub CSV"
+
+#~ msgid "Hide apartments and rooms"
+#~ msgstr "Ukryj apartamenty i pokoje"
+
+#~ msgid "Birdwatching hotspots from ebird.org"
+#~ msgstr "Miejsca obserwacji ptaków z ebird.org"
+
+#~ msgid ""
+#~ "In reply to this email let us know what your nickname (a.k.a. username) "
+#~ "is and, to your best recollection, answer some questions about your "
+#~ "planned trips."
+#~ msgstr ""
+#~ "W odpowiedzi napisz nam jakiego pseudonimu (nazwy użytkownika) używałeś i "
+#~ "- w miarę możliwości - spróbuj odpowiedzieć na poniższe pytania."
+
+#~ msgid "Hide places and activities from Recreation.gov"
+#~ msgstr "Ukryj miejsca z Recreation.gov"
+
+#~ msgid "Hide restaurants recommended by Roadfood.com"
+#~ msgstr "Ukryj restauracje polecane przez Roadfood.com"
+
+#~ msgid "Hide peaks and routes from Peakbagger"
+#~ msgstr "Ukryj szczyty i szlaki z Peakbagger"
+
+#~ msgid "Show apartments and rooms from"
+#~ msgstr "Pokaż apartamenty i pokoje z"
+
+#~ msgid "Preserve this route when adding new stops"
+#~ msgstr "Zachowaj tę trasę podczas dodawania nowych postojów"
+
+#~ msgid ""
+#~ "Take itinerary of your road trip, weekend outing, family vacation with "
+#~ "you while traveling. Use Furkot on your phone or tablet on the go."
+#~ msgstr ""
+#~ "Zabierz plan ze sobą w podróż. Użyj Furkota na telefonie lub tablecie w "
+#~ "podróży."
+
+#~ msgid "Hide guides from AllTrails"
+#~ msgstr "Ukryj przewodniki z AllTrails"
+
+#~ msgid "Navigate"
+#~ msgstr "Nawiguj"
+
+#~ msgid "Let Furkot guide you"
+#~ msgstr "Z przewodnikiem"
+
+#~ msgid ""
+#~ "As you are planning your trip Furkot can give you a guided tour of its "
+#~ "features."
+#~ msgstr ""
+#~ "W trakcie planowania podróży Furkot może oprowadzić Cię po swoich "
+#~ "funkcjach."
+
+#~ msgid "See author's profile at SummitPost"
+#~ msgstr "Zobacz profil autora na SummitPost"
+
+#~ msgid "Hide deals from Yipit"
+#~ msgstr "Ukryj promocje z Yipit"
+
+#~ msgid "See description of this trail at MountainProject.com"
+#~ msgstr "Zobacz opis szlaku na  MountainProject.com"
+
+#~ msgid "Guidebooks, deals and discounts"
+#~ msgstr "Przewodniki, promocje i zniżki"
+
+#~ msgid "Hide trails from HikingProject.com"
+#~ msgstr "Ukryj szlaki z HikingProject.com"
+
+#~ msgid ""
+#~ "We are actively working to improve it. If you experience problems please "
+#~ "contact us."
+#~ msgstr ""
+#~ "Ciągle jeszcze staramy się ją udoskonalać. W razie problemów prosimy o "
+#~ "kontakt."
+
+#~ msgid "See description of this byway at America's Scenic Byways"
+#~ msgstr "Zobacz opis drogi na America's Scenic Byways"
+
+#~ msgid "Anticipate seasonal closures during trip."
+#~ msgstr "Sezonowe zamknięcia dróg podczas podróży."
+
+#~ msgid "See user reviews at Liftopia"
+#~ msgstr "Zobacz opinie użytkowników na Liftopii"
+
+#~ msgid "Which states/countries did you visit on your trips?"
+#~ msgstr "Jakie kraje odwiedziłeś, bądź zamierzałeś odwiedzić?"
+
+#~ msgid "See this restaurant page on Roadfood.com"
+#~ msgstr "Zobacz opis restauracji na Roadfood.com"
+
+#~ msgid "Fold this hike details"
+#~ msgstr "Zwiń opis szlaku"
+
+#~ msgid "See contributor's profile at MotorcycleRoads.com"
+#~ msgstr "Zobacz profil współtwórcy na MotorcycleRoads.com"
+
+#~ msgid "Guidebook"
+#~ msgstr "Przewodnik"
+
+#~ msgid "See description of this airport at OurAirports"
+#~ msgstr "Zobacz opis lotniska na OurAirports"
+
+#~ msgid "See the business offering this deal"
+#~ msgstr "Zobacz stronę internetową firmy oferującej promocję"
+
+#~ msgid "Show hostels from"
+#~ msgstr "Pokaż schroniska z"
+
+#~ msgid "Click to modify _duration_"
+#~ msgstr "Kliknij, aby zmienić _czas trasy_"
+
+#~ msgid "Hide roads and rides from BestBikingRoads.com"
+#~ msgstr "Ukryj trasy z BestBikingRoads.com"
+
+#~ msgid "See description of this activity at Trip Republic"
+#~ msgstr "Zobacz opis  rozrywki na Trip Republic"
+
+#~ msgid "Hide hotels"
+#~ msgstr "Ukryj hotele"
+
+#~ msgid "See user reviews at Lonely Planet"
+#~ msgstr "Zobacz opinie użytkowników na Lonely Planet"
+
+#~ msgid ""
+#~ "You'll have a chance to copy and paste booking confirmation before Furkot "
+#~ "takes you back to the trip planning."
+#~ msgstr ""
+#~ "Będziesz miał okazję do skopiowania potwierdzenia rezerwacji przed "
+#~ "powrotem do planowania podróży."
+
+#~ msgid "Click to leave suggestions"
+#~ msgstr "Zgłoś problem, zaproponuj nową funkcjonalność"
+
+#~ msgid ""
+#~ "You'll have a chance to copy and paste booking confirmation before "
+#~ "proceeding to the next lodging."
+#~ msgstr ""
+#~ "Będziesz miał okazję do skopiowania potwierdzenia przed następną "
+#~ "rezerwacją."
+
+#~ msgid "Museums from Go Historic"
+#~ msgstr "Muzea z Go Historic"
+
+#~ msgid "Dive sites from DiveSpots"
+#~ msgstr "Miejsca do nurkowania z DiveSpots"
+
+#~ msgid "Hide apartments, private rooms, B&Bs"
+#~ msgstr "Ukryj apartamenty, pokoje gościnne, pensjonaty"
+
+#~ msgid "No gas station nearby."
+#~ msgstr "Brak stacji benzynowych w okolicy."
+
+#~ msgid "Weather"
+#~ msgstr "Pogoda"
+
+#~ msgid "See guest reviews at Roadfood.com"
+#~ msgstr "Zobacz opinie na Roadfood.com"
+
+#~ msgid "Fold this summit details"
+#~ msgstr "Zwiń opis szczytu"
+
+#~ msgid "Book a flight at"
+#~ msgstr "Zarezerwuj lot na"
+
+#~ msgid "Hiking trails from LocalHikes"
+#~ msgstr "Szlaki piesze z LocalHikes"
+
+#~ msgid "Hide incidents from InciWeb"
+#~ msgstr "Ukryj zdarzenia z InciWeb"
+
+#~ msgid ""
+#~ "We'll be happy to reset your password, but we need more information to "
+#~ "identify your account."
+#~ msgstr ""
+#~ "Chętnie pomożemy w odzyskaniu hasła, ale potrzebujemy dodatkowych "
+#~ "informacji aby zidentyfikować konto."
+
+#~ msgid "Click to modify the time at which you start driving every day"
+#~ msgstr "Kliknij, aby zmienić godzinę, o której rozpoczynasz dzień"
+
+#~ msgid ""
+#~ "We reserve the right to introduce use limits or establish a fee-based "
+#~ "access."
+#~ msgstr "Zastrzegamy prawo do wprowadzenia ograniczeń lub pobierania opłat."
+
+#~ msgid "Exact coordinates"
+#~ msgstr "Dokładne współrzędne"
+
+#~ msgid "Click on the [plus] sign to add a new trip."
+#~ msgstr "Kliknij znak [Plus], aby dodać nową podróż."
+
+#~ msgid "_Day_"
+#~ msgstr "_Dzień_"
+
+#~ msgid "Show major roads over satellite imagery"
+#~ msgstr "Pokaż główne drogi na zdjęciu satelitarnym"
+
+#~ msgid "Curiosities from Atlas Obscura"
+#~ msgstr "Kurioza z Atlasu Obscura"
+
+#~ msgid "Stops"
+#~ msgstr "Postoje"
+
+#~ msgid "Dive sites from ShoreDiving"
+#~ msgstr "Miejsca do nurkowania z ShoreDiving"
+
+#~ msgid "Show deals from"
+#~ msgstr "Pokaż promocje z"
+
+#~ msgid "Fold this museum details"
+#~ msgstr "Zwiń opis muzeum"
+
+#~ msgid "See guest reviews at Yelp"
+#~ msgstr "Zobacz opinie na Yelp"
+
+#~ msgid "Roads and rides from BestBikingRoads.com"
+#~ msgstr "Trasy z BestBikingRoads.com"
+
+#~ msgid ""
+#~ "If this is your first time and you would like to sign up, please go to "
+#~ "Furkot's [full site]."
+#~ msgstr ""
+#~ "Jeśli jest to Twój pierwszy raz i chcesz się zarejestrować, otwórz "
+#~ "[standardową] stronę Furkota."
+
+#~ msgid "Bike tracks from MBPost"
+#~ msgstr "Ścieżki rowerowe z MBPost"
+
+#~ msgid "Hide deals"
+#~ msgstr "Ukryj promocje"
+
+#~ msgid "Update the cache while viewing the OSM map"
+#~ msgstr "Uaktualniaj lokalną kopię podczas oglądania mapy OSM"
+
+#~ msgid "See description of this trail at HikingProject.com"
+#~ msgstr "Zobacz opis szlaku na HikingProject.com"
+
+#~ msgid "Guides from AllTrails"
+#~ msgstr "Przewodniki z AllTrails"
+
+#~ msgid "Hide trails from MountainProject.com"
+#~ msgstr "Ukryj szlaki z MountainProject.com"
+
+#~ msgid "Hide gas stations from myGasFeed"
+#~ msgstr "Ukryj stacje benzynowe z myGasFeed"
+
+#~ msgid "Remove this trip from phone"
+#~ msgstr "Usuń tę podróż z telefonu"
+
+#~ msgid "Discount"
+#~ msgstr "Zniżka"
+
+#~ msgid "Stop and climb this summit"
+#~ msgstr "Zdobądź ten szczyt"
+
+#~ msgid "See description of this dive site at ShoreDiving"
+#~ msgstr "Zobacz opis miejsca do nurkowania w ShoreDiving"
+
+#~ msgid "Password and confirmation do not match"
+#~ msgstr "Hasło nie zgadza się z potwierdzeniem"
+
+#~ msgid "click here"
+#~ msgstr "kliknij tutaj"
+
+#~ msgid "Type to modify place"
+#~ msgstr "Zmień miejsce"
+
+#~ msgid "Trails from HikingProject.com"
+#~ msgstr "Szlaki z HikingProject.com"
+
+#~ msgid "Restaurants recommended by Roadfood.com"
+#~ msgstr "Restauracje polecane przez Roadfood.com"
+
+#~ msgid "Trails from PowderProject.com"
+#~ msgstr "Trasy z PowderProject.com"
+
+#~ msgid "See user reviews at ShoreDiving"
+#~ msgstr "Zobacz opinie użytkowników na ShoreDiving"
+
+#~ msgid "Top"
+#~ msgstr "Góra"
+
+#~ msgid "Looks like there are no trips to show here."
+#~ msgstr "Wygląda na to, nie masz podróży."
+
+#~ msgid "See this brewery own website"
+#~ msgstr "Zobacz własną stronę internetową browaru"
+
+#~ msgid "Deal"
+#~ msgstr "Promocja"
+
+#~ msgid "Guidebooks and travel guides on Amazon"
+#~ msgstr "Przewodniki turystyczne na Amazon"
+
+#~ msgid "Keep this automatically scheduled stop"
+#~ msgstr "Zachowaj automatycznie zaplanowany postój"
+
+#~ msgid "See user reviews at DiveSpots"
+#~ msgstr "Zobacz opinie użytkowników na DiveSpots"
+
+#~ msgid "Default nav app"
+#~ msgstr "Domyślnia aplikacja do nawigacji"
+
+#~ msgid "Hide articles from Wikipedia"
+#~ msgstr "Ukryj artykuły z Wikipedii"
+
+#~ msgid "Hide gas stations from pure-gas.org"
+#~ msgstr "Ukryj stacje benzynowe z pure-gas.org"
+
+#~ msgid "Hide roads from Gravelmap"
+#~ msgstr "Ukryj drogi z Gravelmap"
+
+#~ msgid "Add this museum as a skipped stop"
+#~ msgstr "Dodaj muzeum jako omijany postój"
+
+#~ msgid "Hide books from Amazon"
+#~ msgstr "Ukryj książki z Amazon"
+
+#~ msgid "Roads from Gravelmap"
+#~ msgstr "Drogi z Gravelmap"
+
+#~ msgid "See author's profile at Gaia GPS"
+#~ msgstr "Zobacz profil autora na Gaia GPS"
+
+#~ msgid "No hotels around."
+#~ msgstr "Bez hoteli w okolicy."
+
+#~ msgid "Hide restaurants recommended by Yelp"
+#~ msgstr "Ukryj restauracje polecane przez Yelp"
+
+#~ msgid "See description of this ski resort at EpicSki"
+#~ msgstr "Zobacz opis ośrodka narciarskiego na EpicSki"
+
+#~ msgid "See user reviews at MBPost"
+#~ msgstr "Zobacz opinie użytkowników na MBPost"
+
+#~ msgid "Hide dive sites from DiveSpots"
+#~ msgstr "Ukryj miejsc do nurkowania z DiveSpots"
+
+#~ msgid "See user reviews at Foursquare"
+#~ msgstr "Zobacz opinie użytkowników na Foursquare"
+
+#~ msgid "Trails from MtbProject.com"
+#~ msgstr "Szlaki z MtbProject.com"
+
+#~ msgid ""
+#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
+#~ "trip."
+#~ msgstr ""
+#~ "Otwórz Furkot na telefonie lub tablecie, aby zobaczyć aktualną wersję tej "
+#~ "podróży."
+
+#~ msgid "Hide breweries from BreweryDB"
+#~ msgstr "Ukryj browary z BreweryDB"
+
+#~ msgid "Summits and climbing routes from SummitPost"
+#~ msgstr "Szczyty i szlaki z SummitPost"
+
+#~ msgid "Hide current weather overlay"
+#~ msgstr "Ukryj aktualną pogodę"
+
+#~ msgid "Trails from MountainProject.com"
+#~ msgstr "Szlaki z MountainProject.com"
+
+#~ msgid "Hide birdwatching hotspots from ebird.org"
+#~ msgstr "Schowaj miejsca obserwacji ptaków z ebird.org"
+
+#~ msgid "Hide curiosities from Atlas Obscura"
+#~ msgstr "Ukryj kurioza z Atlasu Obscura"
+
+#~ msgid "Hide trails from Gaia GPS"
+#~ msgstr "Ukryj szlaki z Gaia GPS"
+
+#~ msgid "Change"
+#~ msgstr "Zmień"
+
+#~ msgid "See contributor's profile at BestBikingRoads.com"
+#~ msgstr "Zobacz profil współtwórcy na BestBikingRoads.com"
+
+#~ msgid "Missing password"
+#~ msgstr "Nie wprowadzono hasła"
+
+#~ msgid "No campgrounds"
+#~ msgstr "Bez pól namiotowych"
+
+#~ msgid "Wineries from Snooth.com"
+#~ msgstr "Winnice ze Snooth.com"
+
+#~ msgid "Your password is necessary to save your email address for future use"
+#~ msgstr ""
+#~ "Twoje hasło jest konieczne do zachowania adresu e-mail na przyszłość"
+
+#~ msgid "See user reviews at AllTrails"
+#~ msgstr "Zobacz opinie użytkowników na AllTrails"
+
+#~ msgid "Click to exclude hotels and motels from lodging suggestions"
+#~ msgstr "Kliknij, aby wykluczyć hotele i motele z proponowanych noclegów"
+
+#~ msgid "Trails from Gaia GPS"
+#~ msgstr "Szlaki z Gaia GPS"
+
+#~ msgid "Furkot assumes it is a walking trip."
+#~ msgstr "Furkot zakłada, że jest to podróż pieszo."
+
+#~ msgid "Click to exclude blind hotel deals from lodging suggestions"
+#~ msgstr ""
+#~ "Kliknij, aby wykluczyć zastrzeżone promocje z proponowanych noclegów"
+
+#~ msgid "See description of this curiosity at Atlas Obscura"
+#~ msgstr "Zobacz opis kuriozum w Atlasie Obscura"
+
+#~ msgid "See this guide at AllTrails"
+#~ msgstr "Zobacz przewodnik na AllTrails"
+
+#~ msgid "Feedback"
+#~ msgstr "Uwagi"
+
+#~ msgid "See description of this road at MotorcycleRoads.com"
+#~ msgstr "Zobacz opis drogi na MotorcycleRoads.com"
+
+#~ msgid "Hotel chains"
+#~ msgstr "Sieci hotelowe"
+
+#~ msgid "Hide blind hotel deals"
+#~ msgstr "Ukryj zastrzeżone promocje hoteli"
+
+#~ msgid "Hide ski resorts from EpicSki"
+#~ msgstr "Ukryj ośrodki narciarskie z EpicSki"
+
+#~ msgid "Be on your own"
+#~ msgstr "Na własną rękę"
+
+#~ msgid "Deals from Yipit"
+#~ msgstr "Promocje z Yipit"
+
+#~ msgid "Add this brewery as a skipped stop"
+#~ msgstr "Dodaj browar jako omijany postój"
+
+#~ msgid "NONE"
+#~ msgstr "NIC"
+
+#~ msgid "Label Roads"
+#~ msgstr "Oznaczenia Dróg"
+
+#~ msgid "None"
+#~ msgstr "Nic"
+
+#~ msgid "Search guidebooks and travel guides on Amazon"
+#~ msgstr "Szukaj przewodników turystycznych na Amazon"
+
+#~ msgid "Type trip name"
+#~ msgstr "Wpisz nazwę podróży"
+
+#~ msgid " | Free Road Trip Planner | Map Your Route"
+#~ msgstr " | Planowanie podróży | Wytycz Swój Szlak"
+
+#~ msgid "Send this trip to phone"
+#~ msgstr "Wyślij tę podróż do telefonu"
+
+#~ msgid "Show lodgings from"
+#~ msgstr "Pokaż kwatery z"
+
+#~ msgid "Sign Out"
+#~ msgstr "Wyloguj się"
+
+#~ msgid "Forgot password"
+#~ msgstr "Odzyskiwanie hasła"
+
+#~ msgid "Comments"
+#~ msgstr "Komentarze"
+
+#~ msgid "Click to exclude hostels from lodging suggestions"
+#~ msgstr "Kliknij, aby wykluczyć schroniska z proponowanych noclegów"
+
+#~ msgid "Incidents from InciWeb"
+#~ msgstr "Zdarzenia z InciWeb"
+
+#~ msgid "Fold this brewery details"
+#~ msgstr "Zwiń opis browaru"
+
+#~ msgid "Show hotels from"
+#~ msgstr "Pokaż hotele z"
+
+#~ msgid "Preserve / allow re-routing"
+#~ msgstr "Zachowywane / przeliczane trasy"
+
+#~ msgid "Places to visit and overnight lodgings"
+#~ msgstr "Miejsca do odwiedzenia i noclegi"
+
+#~ msgid "See this deal details at Yipit"
+#~ msgstr "Zobacz opis promocji na Yipit"
+
+#~ msgid "Hide hostels from"
+#~ msgstr "Ukryj schroniska"
+
+#~ msgid "Coupon code"
+#~ msgstr "Kod kuponu"
+
+#~ msgid ""
+#~ "This is an experimental feature. When enabled, calculating routes will "
+#~ "take longer and may produce less reliable results."
+#~ msgstr ""
+#~ "Jest to opcja eksperymentalna. Po włączeniu wyznaczanie trasy może trwać "
+#~ "dłużej i dawać mniej wiarygodny wynik."
+
+#~ msgid "Stop address"
+#~ msgstr "Adres postoju"
+
+#~ msgid "Stop at this brewery"
+#~ msgstr "Wypij się w tym browarze"
+
+#~ msgid "This feature may be discontinued without notice."
+#~ msgstr "Opcja może zostać usunięta bez ostrzeżenia."
+
+#~ msgid "Show alternative road map"
+#~ msgstr "Pokaż inną mapę drogową"
+
+#~ msgid ""
+#~ "Not to worry, open Furkot's [full site], go to the trip and the driving "
+#~ "information will be automatically updated."
+#~ msgstr ""
+#~ "Nie przejmuj się, otwórz [standardową] stronę Furkota, wybierz podróż i "
+#~ "informacja o trasie zostanie automatycznie zaktualizowana."
+
+#~ msgid "Hide roads and rides from MotorcycleRoads.com"
+#~ msgstr "Ukryj trasy z MotorcycleRoads.com"
+
+#~ msgid "Click to let Furkot suggest chain hotels and motels"
+#~ msgstr "Kliknij aby Furkot sugerował hotele i motele sieciowe"
+
+#~ msgid "day"
+#~ msgstr "dn."
+
+#~ msgid "Map Type"
+#~ msgstr "Rodzaj Mapy"
+
+#~ msgid "Furkot assumes it is a bicycle trip."
+#~ msgstr "Furkot zakłada, że jest to podróż rowerem."
+
+#~ msgid "Airports from OurAirports"
+#~ msgstr "Lotniska z OurAirports"
+
+#~ msgid "Current password"
+#~ msgstr "Bieżące Hasło"
+
+#~ msgid "Trip sent to phone"
+#~ msgstr "Podróż wysłana na telefon komórkowy"
+
+#~ msgid "private identifier"
+#~ msgstr "prywatny identifikator"
+
+#~ msgid "Keep"
+#~ msgstr "Użyj"
+
+#~ msgid "Redo unlock route"
+#~ msgstr "Ponów odblokowanie trasy"
+
+#~ msgid ""
+#~ "Press [Sync] to have the up-to-date version of your trips downloaded to "
+#~ "your mobile device."
+#~ msgstr ""
+#~ "Naciśnij [Sync] aby pobrać na urządzenie mobilne aktualne wersje swoich "
+#~ "podróży."
+
+#~ msgid "Confirm"
+#~ msgstr "Potwierdzenie Hasła"
+
+#~ msgid "See author's profile at EveryTrail"
+#~ msgstr "Zobacz profil autora na EveryTrail"
+
+#~ msgid "Please wait while Furkot is contacting the booking site"
+#~ msgstr ""
+#~ "Poczekaj aż Furkot otworzy stronę internetową serwisu rezerwacyjnego"
+
+#~ msgid "Info"
+#~ msgstr "Informacje"
+
+#~ msgid "Reserve a Lodging"
+#~ msgstr "Zarezerwuj Nocleg"
+
+#~ msgid "Click to modify the time by which you end driving every day"
+#~ msgstr "Kliknij, aby zmienić godzinę, w której kończysz dzień"
+
+#~ msgid "See description of this museum at Go Historic"
+#~ msgstr "Zobacz opis muzeum na Go Historic"
+
+#~ msgid ""
+#~ "Click to exclude apartments and private rooms from lodging suggestions"
+#~ msgstr ""
+#~ "Kliknij, aby wykluczyć apartamenty i pokoje gościnne z proponowanych "
+#~ "noclegów"
+
+#~ msgid "Add this summit as a skipped stop"
+#~ msgstr "Dodaj szczyt jako omijany postój"
+
+#~ msgid "Hide summits and routes from SummitPost"
+#~ msgstr "Ukryj szczyty i szlaki z SummitPost"
+
+#~ msgid "Rent a car at"
+#~ msgstr "Wynajmij samochód na"
+
+#~ msgid "Hide filling stations"
+#~ msgstr "Ukryj stacje benzynowe"
+
+#~ msgid "Hide guidebooks, deals and discounts"
+#~ msgstr "Ukryj przewodniki, promocje i zniżki"
+
+#~ msgid "Visit this museum"
+#~ msgstr "Zwiedź to muzeum"
+
+#~ msgid "Hide campgrounds from"
+#~ msgstr "Ukryj pola namiotowe z"
+
+#~ msgid "No blind hotel deals"
+#~ msgstr "Ukryj zastrzeżone promocje hoteli"
+
+#~ msgid "Show normal road map"
+#~ msgstr "Pokaż mapę drogową"
+
+#~ msgid "Hide roads and rides from MotorcycleRoads.us"
+#~ msgstr "Ukryj trasy z MotorcycleRoads.us"
+
+#~ msgid "Hide bike tracks from MBPost"
+#~ msgstr "Ukryj ścieżki rowerowe z MBPost"
+
+#~ msgid "No pets"
+#~ msgstr "Bez czworonogów"
+
+#~ msgid "Stop and hike this trail"
+#~ msgstr "Powędruj tym szlakiem"
+
+#~ msgid "See this place page at Google"
+#~ msgstr "Zobacz to miejsce na Google"
+
+#~ msgid "Book"
+#~ msgstr "Rezerwacja"
+
+#~ msgid "Looks like driving information is missing from some trips."
+#~ msgstr ""
+#~ "Wygląda na to, że niektóre podróże mają niekompletną informację o trasie."
+
+#~ msgid "See this trail description at Gaia GPS"
+#~ msgstr "Zobacz opis szlaku na Gaia GPS"
+
+#~ msgid "Apartments, private rooms, B&Bs"
+#~ msgstr "Apartamenty, pokoje gościnne, pensjonaty"
+
+#~ msgid "Start at "
+#~ msgstr "Zacznij od "
+
+#~ msgid "See description of this place at Recreation.gov"
+#~ msgstr "Zobacz opis miejsca na Recreation.gov"
+
+#~ msgid "Hide hotels from"
+#~ msgstr "Ukryj hotele z"
+
+#~ msgid "Show current weather on map"
+#~ msgstr "Pokaż aktualną pogodę na mapie"
+
+#~ msgid "Confirm Password"
+#~ msgstr "Potwierdzenie Hasła"
+
+#~ msgid "Hide America's Scenic Byways"
+#~ msgstr "Ukryj drogi z America's Scenic Byways"
+
+#~ msgid "Places you want to visit - your Atlas Obscura user name"
+#~ msgstr "Miejsca, które chcesz odwiedzić - nazwę użytkownika Atlas Obscura"
+
+#~ msgid "Downolading map for offline use is an experimental feature."
+#~ msgstr ""
+#~ "Ściąganie mapy na wypadek utraty połączenia jest opcją eksperymentalną."
+
+#~ msgid "See this museum own website"
+#~ msgstr "Zobacz własną stronę internetową muzeum"
+
+#~ msgid "Peaks and climbing routes from Peakbagger"
+#~ msgstr "Szczyty i szlaki z Peakbagger"
+
+#~ msgid "Books from Amazon"
+#~ msgstr "Książki z Amazon"
+
+#~ msgid "Adding:"
+#~ msgstr "Dodawanie:"
+
+#~ msgid "When did you intend to travel?"
+#~ msgstr "W jakim terminie miała się odbyć planowana podróż?"
+
+#~ msgid "See description of this trail at MtbProject.com"
+#~ msgstr "Zobacz opis szlaku na MtbProject.com"
+
+#~ msgid "See this ski resort own website"
+#~ msgstr "Zobacz własną stronę internetową ośrodka narciarskiego"
+
+#~ msgid "House"
+#~ msgstr "Dom"
+
+#~ msgid "Add new stop"
+#~ msgstr "Dodaj nowy postój"
+
+#~ msgid "See description of this peak at Peakbagger"
+#~ msgstr "Zobacz opis tego szczytu na Peakbagger"
+
+#~ msgid ""
+#~ "Click the button above and select the application that can open the "
+#~ "exported file."
+#~ msgstr ""
+#~ "Naciśnij przycisk powyżej aby wybrać aplikację, która otworzy "
+#~ "wyeksportowany plik."
+
+#~ msgid "to sign in."
+#~ msgstr "aby się zalogować."
+
+#~ msgid "ALL"
 #~ msgstr "Wszystko"
 
-#~ msgid "Welcome"
-#~ msgstr "Witamy"
+#~ msgid "See riders' rating at BestBikingRoads.com"
+#~ msgstr "Zobacz oceny na BestBikingRoads.com"
 
-#~ msgid ""
-#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
-#~ msgstr ""
-#~ "Jeśli masz już zaplanowaną podróż, upewnij się, że wybrałeś dla niej "
-#~ "opcję _Telefon_."
-
-#, fuzzy
-#~ msgid "Plan refueling station"
-#~ msgstr "Stacje benzynowe"
-
-#~ msgid "The answers don't have to be exact."
-#~ msgstr "Odpowiedzi nie muszą być dokładne."
-
-#~ msgid "See description of this winery at Snooth.com"
-#~ msgstr "Zobacz opis tej winnicy w Snooth.com"
-
-#~ msgid "Directions courtesy of"
-#~ msgstr "Trasy za zgodą"
-
-#~ msgid "See user reviews at Go Historic"
-#~ msgstr "Zobacz opinie użytkowników na Go Historic"
-
-#~ msgid "_Other_"
-#~ msgstr "_Inaczej_"
-
-#~ msgid "Hide lodgings"
-#~ msgstr "Ukryj kwatery"
-
-#~ msgid "Mobile"
-#~ msgstr "Mobilny"
-
-#~ msgid "Analyze"
-#~ msgstr "Analizuj"
-
-#~ msgid "Directions"
-#~ msgstr "Trasy"
-
-#~ msgid ""
-#~ "Places without coordinates have been ignored. To retrieve places without "
-#~ "coordinates import the file as a new trip."
-#~ msgstr ""
-#~ "Miejsca bez współrzędnych geograficznych zostały pominięte. Można je "
-#~ "zaimportować jako nową podróż."
-
-#~ msgid "No chain hotels or motels"
-#~ msgstr "Ukryj hotele i motele sieciowe"
-
-#~ msgid "Trips"
-#~ msgstr "Plany podróży"
-
-#~ msgid "If it is not, you can change it later."
-#~ msgstr "Jeśli nie to możesz dokonać zmian później."
-
-#~ msgid "This trip is now ready to be displayed on your mobile device."
-#~ msgstr "Podróż jest gotowa do wyświetlenia na telefonie komórkowym."
-
-#~ msgid "Guided Tour"
-#~ msgstr "Przewodnik po Furkocie"
-
-#~ msgid "See user reviews at SummitPost"
-#~ msgstr "Zobacz opinie użytkowników na SummitPost"
-
-#~ msgid "Topo map is an experimental feature."
-#~ msgstr "Mapa topograficzna jest opcją eksperymentalną."
-
-#~ msgid "Trip removed from phone"
-#~ msgstr "Podróż usunięta z telefonu"
-
-#~ msgid "Click to edit stop tags"
-#~ msgstr "Kliknij, aby zmienić etykiety"
-
-#~ msgid "Hide hotel chains"
-#~ msgstr "Ukryj sieci hotelowe"
-
-#~ msgid "Hide museums from Go Historic"
-#~ msgstr "Ukryj muzea z Go Historic"
-
-#~ msgid "Change email or signature"
-#~ msgstr "Zmień adres e-mail lub podpis"
-
-#~ msgid "See user reviews at EpicSki"
-#~ msgstr "Zobacz opinie użytkowników na EpicSki"
-
-#~ msgid "Hide dive sites from ShoreDiving"
-#~ msgstr "Ukryj miejsca do nurkowania z ShoreDiving"
-
-#~ msgid "All stops including pass-through points"
-#~ msgstr "Wszystkie postoje, w tym punkty przelotowe"
-
-#~ msgid "Hide ski resorts from Liftopia"
-#~ msgstr "Ukryj ośrodki narciarski z Liftopii"
-
-#~ msgid "Click if you are not traveling with pets"
-#~ msgstr "Kliknij, jeśli nie podróżujesz ze zwierzętami"
-
-#~ msgid "See description of this summit at SummitPost"
-#~ msgstr "Zobacz opis szczytu na SummitPost"
-
-#~ msgid "Do you remember any places/stops that you added?"
-#~ msgstr "Czy pamiętasz nazwy miejsc dodanych do podróży?"
-
-#~ msgid ""
-#~ "This is a road trip planning application. Please sign in to view your "
-#~ "trips."
-#~ msgstr ""
-#~ "To jest aplikacja do planowania podróży. Zaloguj się, aby zobaczyć swoje "
-#~ "podróże."
-
-#~ msgid "Roads and rides from MotorcycleRoads.us"
-#~ msgstr "Trasy z MotorcycleRoads.us"
-
-#~ msgid "See riders' rating at MotorcycleRoads.com"
-#~ msgstr "Zobacz oceny na MotorcycleRoads.com"
-
-#~ msgid "Persons per room"
-#~ msgstr "Liczba Osób w Pokoju"
-
-#~ msgid "Looking for trip ideas?"
-#~ msgstr "Szukasz inspiracji?"
-
-#~ msgid "Comma-separated stop tags (labels)"
+#~ msgid "Comma-separated trip tags (labels)"
 #~ msgstr "Etykiety oddzielone przecinkami"
 
-#~ msgid "Breweries from BreweryDB"
-#~ msgstr "Browary z BreweryDB"
-
-#~ msgid "Do you remember any names of the trips you planned with Furkot?"
-#~ msgstr "Czy pamiętasz nazwy podróży zaplanowanych z Furkotem?"
-
-#~ msgid "Full Site"
-#~ msgstr "Standardowy"
-
-#~ msgid "Experimental Feature"
-#~ msgstr "Opcja Eksperymentalna"
-
-#~ msgid "Roads and rides from MotorcycleRoads.com"
-#~ msgstr "Trasy z MotorcycleRoads.com"
-
-#~ msgid "Undo unlock route"
-#~ msgstr "Cofnij odblokowanie trasy"
-
-#~ msgid "Re-route when adding new stops"
-#~ msgstr "Przelicz trasę przy dodawaniu nowych postojów"
-
-#~ msgid "Click to let Furkot suggest blind hotel deals"
-#~ msgstr "Kliknij, aby Furkot sugerował zastrzeżone promocje"
-
-#~ msgid "Hide places recommended by Foursquare"
-#~ msgstr "Ukryj miejsca polecane przez Foursquare"
-
-#~ msgid "Furkot assumes it is a driving trip."
-#~ msgstr "Furkot zakłada, że jest to podróż samochodem."
-
-#~ msgid "Ski resorts from EpicSki"
-#~ msgstr "Ośrodki narciarskie z EpicSki"
-
-#~ msgid "See description of this road at MotorcycleRoads.us"
-#~ msgstr "Zobacz opis drogi na MotorcycleRoads.us"
-
-#~ msgid "view only"
-#~ msgstr "tylko podgląd"
+#~ msgid "Hide road overlay"
+#~ msgstr "Ukryj drogi"
 
 #~ msgid ""
 #~ "Depending on your trip dates Furkot will include or exclude seasonally "
@@ -8170,891 +8900,176 @@ msgstr ""
 #~ "zamknięte sezonowo przy wytyczaniu trasy. Dane o sezonowo zamkniętych "
 #~ "drogach pochodzą z"
 
-#~ msgid "Hide road overlay"
-#~ msgstr "Ukryj drogi"
+#~ msgid "view only"
+#~ msgstr "tylko podgląd"
 
-#~ msgid "Comma-separated trip tags (labels)"
+#~ msgid "See description of this road at MotorcycleRoads.us"
+#~ msgstr "Zobacz opis drogi na MotorcycleRoads.us"
+
+#~ msgid "Ski resorts from EpicSki"
+#~ msgstr "Ośrodki narciarskie z EpicSki"
+
+#~ msgid "Furkot assumes it is a driving trip."
+#~ msgstr "Furkot zakłada, że jest to podróż samochodem."
+
+#~ msgid "Hide places recommended by Foursquare"
+#~ msgstr "Ukryj miejsca polecane przez Foursquare"
+
+#~ msgid "Click to let Furkot suggest blind hotel deals"
+#~ msgstr "Kliknij, aby Furkot sugerował zastrzeżone promocje"
+
+#~ msgid "Re-route when adding new stops"
+#~ msgstr "Przelicz trasę przy dodawaniu nowych postojów"
+
+#~ msgid "Undo unlock route"
+#~ msgstr "Cofnij odblokowanie trasy"
+
+#~ msgid "Roads and rides from MotorcycleRoads.com"
+#~ msgstr "Trasy z MotorcycleRoads.com"
+
+#~ msgid "Experimental Feature"
+#~ msgstr "Opcja Eksperymentalna"
+
+#~ msgid "Full Site"
+#~ msgstr "Standardowy"
+
+#~ msgid "Do you remember any names of the trips you planned with Furkot?"
+#~ msgstr "Czy pamiętasz nazwy podróży zaplanowanych z Furkotem?"
+
+#~ msgid "Breweries from BreweryDB"
+#~ msgstr "Browary z BreweryDB"
+
+#~ msgid "Comma-separated stop tags (labels)"
 #~ msgstr "Etykiety oddzielone przecinkami"
 
-#~ msgid "See riders' rating at BestBikingRoads.com"
-#~ msgstr "Zobacz oceny na BestBikingRoads.com"
+#~ msgid "Looking for trip ideas?"
+#~ msgstr "Szukasz inspiracji?"
 
-#~ msgid "ALL"
+#~ msgid "Persons per room"
+#~ msgstr "Liczba Osób w Pokoju"
+
+#~ msgid "See riders' rating at MotorcycleRoads.com"
+#~ msgstr "Zobacz oceny na MotorcycleRoads.com"
+
+#~ msgid "Roads and rides from MotorcycleRoads.us"
+#~ msgstr "Trasy z MotorcycleRoads.us"
+
+#~ msgid ""
+#~ "This is a road trip planning application. Please sign in to view your "
+#~ "trips."
+#~ msgstr ""
+#~ "To jest aplikacja do planowania podróży. Zaloguj się, aby zobaczyć swoje "
+#~ "podróże."
+
+#~ msgid "Do you remember any places/stops that you added?"
+#~ msgstr "Czy pamiętasz nazwy miejsc dodanych do podróży?"
+
+#~ msgid "See description of this summit at SummitPost"
+#~ msgstr "Zobacz opis szczytu na SummitPost"
+
+#~ msgid "Click if you are not traveling with pets"
+#~ msgstr "Kliknij, jeśli nie podróżujesz ze zwierzętami"
+
+#~ msgid "Hide ski resorts from Liftopia"
+#~ msgstr "Ukryj ośrodki narciarski z Liftopii"
+
+#~ msgid "All stops including pass-through points"
+#~ msgstr "Wszystkie postoje, w tym punkty przelotowe"
+
+#~ msgid "Hide dive sites from ShoreDiving"
+#~ msgstr "Ukryj miejsca do nurkowania z ShoreDiving"
+
+#~ msgid "See user reviews at EpicSki"
+#~ msgstr "Zobacz opinie użytkowników na EpicSki"
+
+#~ msgid "Change email or signature"
+#~ msgstr "Zmień adres e-mail lub podpis"
+
+#~ msgid "Hide museums from Go Historic"
+#~ msgstr "Ukryj muzea z Go Historic"
+
+#~ msgid "Hide hotel chains"
+#~ msgstr "Ukryj sieci hotelowe"
+
+#~ msgid "Click to edit stop tags"
+#~ msgstr "Kliknij, aby zmienić etykiety"
+
+#~ msgid "Trip removed from phone"
+#~ msgstr "Podróż usunięta z telefonu"
+
+#~ msgid "Topo map is an experimental feature."
+#~ msgstr "Mapa topograficzna jest opcją eksperymentalną."
+
+#~ msgid "See user reviews at SummitPost"
+#~ msgstr "Zobacz opinie użytkowników na SummitPost"
+
+#~ msgid "Guided Tour"
+#~ msgstr "Przewodnik po Furkocie"
+
+#~ msgid "This trip is now ready to be displayed on your mobile device."
+#~ msgstr "Podróż jest gotowa do wyświetlenia na telefonie komórkowym."
+
+#~ msgid "If it is not, you can change it later."
+#~ msgstr "Jeśli nie to możesz dokonać zmian później."
+
+#~ msgid "Trips"
+#~ msgstr "Plany podróży"
+
+#~ msgid "No chain hotels or motels"
+#~ msgstr "Ukryj hotele i motele sieciowe"
+
+#~ msgid ""
+#~ "Places without coordinates have been ignored. To retrieve places without "
+#~ "coordinates import the file as a new trip."
+#~ msgstr ""
+#~ "Miejsca bez współrzędnych geograficznych zostały pominięte. Można je "
+#~ "zaimportować jako nową podróż."
+
+#~ msgid "Directions"
+#~ msgstr "Trasy"
+
+#~ msgid "Analyze"
+#~ msgstr "Analizuj"
+
+#~ msgid "Mobile"
+#~ msgstr "Mobilny"
+
+#~ msgid "Hide lodgings"
+#~ msgstr "Ukryj kwatery"
+
+#~ msgid "_Other_"
+#~ msgstr "_Inaczej_"
+
+#~ msgid "See user reviews at Go Historic"
+#~ msgstr "Zobacz opinie użytkowników na Go Historic"
+
+#~ msgid "Directions courtesy of"
+#~ msgstr "Trasy za zgodą"
+
+#~ msgid "See description of this winery at Snooth.com"
+#~ msgstr "Zobacz opis tej winnicy w Snooth.com"
+
+#~ msgid "The answers don't have to be exact."
+#~ msgstr "Odpowiedzi nie muszą być dokładne."
+
+#, fuzzy
+#~ msgid "Plan refueling station"
+#~ msgstr "Stacje benzynowe"
+
+#~ msgid ""
+#~ "If you already have a [trip], make sure it has the _Phone_ option enabled."
+#~ msgstr ""
+#~ "Jeśli masz już zaplanowaną podróż, upewnij się, że wybrałeś dla niej "
+#~ "opcję _Telefon_."
+
+#~ msgid "Welcome"
+#~ msgstr "Witamy"
+
+#~ msgid "All"
 #~ msgstr "Wszystko"
 
-#~ msgid "to sign in."
-#~ msgstr "aby się zalogować."
-
-#~ msgid ""
-#~ "Click the button above and select the application that can open the "
-#~ "exported file."
-#~ msgstr ""
-#~ "Naciśnij przycisk powyżej aby wybrać aplikację, która otworzy "
-#~ "wyeksportowany plik."
-
-#~ msgid "See description of this peak at Peakbagger"
-#~ msgstr "Zobacz opis tego szczytu na Peakbagger"
-
-#~ msgid "Add new stop"
-#~ msgstr "Dodaj nowy postój"
-
-#~ msgid "House"
-#~ msgstr "Dom"
-
-#~ msgid "See this ski resort own website"
-#~ msgstr "Zobacz własną stronę internetową ośrodka narciarskiego"
-
-#~ msgid "See description of this trail at MtbProject.com"
-#~ msgstr "Zobacz opis szlaku na MtbProject.com"
-
-#~ msgid "When did you intend to travel?"
-#~ msgstr "W jakim terminie miała się odbyć planowana podróż?"
-
-#~ msgid "Adding:"
-#~ msgstr "Dodawanie:"
-
-#~ msgid "Books from Amazon"
-#~ msgstr "Książki z Amazon"
-
-#~ msgid "Peaks and climbing routes from Peakbagger"
-#~ msgstr "Szczyty i szlaki z Peakbagger"
-
-#~ msgid "See this museum own website"
-#~ msgstr "Zobacz własną stronę internetową muzeum"
-
-#~ msgid "Downolading map for offline use is an experimental feature."
-#~ msgstr ""
-#~ "Ściąganie mapy na wypadek utraty połączenia jest opcją eksperymentalną."
-
-#~ msgid "Places you want to visit - your Atlas Obscura user name"
-#~ msgstr "Miejsca, które chcesz odwiedzić - nazwę użytkownika Atlas Obscura"
-
-#~ msgid "Hide America's Scenic Byways"
-#~ msgstr "Ukryj drogi z America's Scenic Byways"
-
-#~ msgid "Confirm Password"
-#~ msgstr "Potwierdzenie Hasła"
-
-#~ msgid "Show current weather on map"
-#~ msgstr "Pokaż aktualną pogodę na mapie"
-
-#~ msgid "Hide hotels from"
-#~ msgstr "Ukryj hotele z"
-
-#~ msgid "See description of this place at Recreation.gov"
-#~ msgstr "Zobacz opis miejsca na Recreation.gov"
-
-#~ msgid "Start at "
-#~ msgstr "Zacznij od "
-
-#~ msgid "Apartments, private rooms, B&Bs"
-#~ msgstr "Apartamenty, pokoje gościnne, pensjonaty"
-
-#~ msgid "See this trail description at Gaia GPS"
-#~ msgstr "Zobacz opis szlaku na Gaia GPS"
-
-#~ msgid "Looks like driving information is missing from some trips."
-#~ msgstr ""
-#~ "Wygląda na to, że niektóre podróże mają niekompletną informację o trasie."
-
-#~ msgid "Book"
-#~ msgstr "Rezerwacja"
-
-#~ msgid "See this place page at Google"
-#~ msgstr "Zobacz to miejsce na Google"
-
-#~ msgid "Stop and hike this trail"
-#~ msgstr "Powędruj tym szlakiem"
-
-#~ msgid "No pets"
-#~ msgstr "Bez czworonogów"
-
-#~ msgid "Hide bike tracks from MBPost"
-#~ msgstr "Ukryj ścieżki rowerowe z MBPost"
-
-#~ msgid "Hide roads and rides from MotorcycleRoads.us"
-#~ msgstr "Ukryj trasy z MotorcycleRoads.us"
-
-#~ msgid "Show normal road map"
-#~ msgstr "Pokaż mapę drogową"
-
-#~ msgid "No blind hotel deals"
-#~ msgstr "Ukryj zastrzeżone promocje hoteli"
-
-#~ msgid "Hide campgrounds from"
-#~ msgstr "Ukryj pola namiotowe z"
-
-#~ msgid "Visit this museum"
-#~ msgstr "Zwiedź to muzeum"
-
-#~ msgid "Hide guidebooks, deals and discounts"
-#~ msgstr "Ukryj przewodniki, promocje i zniżki"
-
-#~ msgid "Hide filling stations"
-#~ msgstr "Ukryj stacje benzynowe"
-
-#~ msgid "Rent a car at"
-#~ msgstr "Wynajmij samochód na"
-
-#~ msgid "Hide summits and routes from SummitPost"
-#~ msgstr "Ukryj szczyty i szlaki z SummitPost"
-
-#~ msgid "Add this summit as a skipped stop"
-#~ msgstr "Dodaj szczyt jako omijany postój"
-
-#~ msgid ""
-#~ "Click to exclude apartments and private rooms from lodging suggestions"
-#~ msgstr ""
-#~ "Kliknij, aby wykluczyć apartamenty i pokoje gościnne z proponowanych "
-#~ "noclegów"
-
-#~ msgid "See description of this museum at Go Historic"
-#~ msgstr "Zobacz opis muzeum na Go Historic"
-
-#~ msgid "Click to modify the time by which you end driving every day"
-#~ msgstr "Kliknij, aby zmienić godzinę, w której kończysz dzień"
-
-#~ msgid "Reserve a Lodging"
-#~ msgstr "Zarezerwuj Nocleg"
-
-#~ msgid "Info"
-#~ msgstr "Informacje"
-
-#~ msgid "Please wait while Furkot is contacting the booking site"
-#~ msgstr ""
-#~ "Poczekaj aż Furkot otworzy stronę internetową serwisu rezerwacyjnego"
-
-#~ msgid "See author's profile at EveryTrail"
-#~ msgstr "Zobacz profil autora na EveryTrail"
-
-#~ msgid "Confirm"
-#~ msgstr "Potwierdzenie Hasła"
-
-#~ msgid ""
-#~ "Press [Sync] to have the up-to-date version of your trips downloaded to "
-#~ "your mobile device."
-#~ msgstr ""
-#~ "Naciśnij [Sync] aby pobrać na urządzenie mobilne aktualne wersje swoich "
-#~ "podróży."
-
-#~ msgid "Redo unlock route"
-#~ msgstr "Ponów odblokowanie trasy"
-
-#~ msgid "Keep"
-#~ msgstr "Użyj"
-
-#~ msgid "private identifier"
-#~ msgstr "prywatny identifikator"
-
-#~ msgid "Trip sent to phone"
-#~ msgstr "Podróż wysłana na telefon komórkowy"
-
-#~ msgid "Current password"
-#~ msgstr "Bieżące Hasło"
-
-#~ msgid "Airports from OurAirports"
-#~ msgstr "Lotniska z OurAirports"
-
-#~ msgid "Furkot assumes it is a bicycle trip."
-#~ msgstr "Furkot zakłada, że jest to podróż rowerem."
-
-#~ msgid "Map Type"
-#~ msgstr "Rodzaj Mapy"
-
-#~ msgid "day"
-#~ msgstr "dn."
-
-#~ msgid "Click to let Furkot suggest chain hotels and motels"
-#~ msgstr "Kliknij aby Furkot sugerował hotele i motele sieciowe"
-
-#~ msgid "Hide roads and rides from MotorcycleRoads.com"
-#~ msgstr "Ukryj trasy z MotorcycleRoads.com"
-
-#~ msgid ""
-#~ "Not to worry, open Furkot's [full site], go to the trip and the driving "
-#~ "information will be automatically updated."
-#~ msgstr ""
-#~ "Nie przejmuj się, otwórz [standardową] stronę Furkota, wybierz podróż i "
-#~ "informacja o trasie zostanie automatycznie zaktualizowana."
-
-#~ msgid "Show alternative road map"
-#~ msgstr "Pokaż inną mapę drogową"
-
-#~ msgid "This feature may be discontinued without notice."
-#~ msgstr "Opcja może zostać usunięta bez ostrzeżenia."
-
-#~ msgid "Stop at this brewery"
-#~ msgstr "Wypij się w tym browarze"
-
-#~ msgid "Stop address"
-#~ msgstr "Adres postoju"
-
-#~ msgid ""
-#~ "This is an experimental feature. When enabled, calculating routes will "
-#~ "take longer and may produce less reliable results."
-#~ msgstr ""
-#~ "Jest to opcja eksperymentalna. Po włączeniu wyznaczanie trasy może trwać "
-#~ "dłużej i dawać mniej wiarygodny wynik."
-
-#~ msgid "Coupon code"
-#~ msgstr "Kod kuponu"
-
-#~ msgid "Hide hostels from"
-#~ msgstr "Ukryj schroniska"
-
-#~ msgid "See this deal details at Yipit"
-#~ msgstr "Zobacz opis promocji na Yipit"
-
-#~ msgid "Places to visit and overnight lodgings"
-#~ msgstr "Miejsca do odwiedzenia i noclegi"
-
-#~ msgid "Preserve / allow re-routing"
-#~ msgstr "Zachowywane / przeliczane trasy"
-
-#~ msgid "Show hotels from"
-#~ msgstr "Pokaż hotele z"
-
-#~ msgid "Fold this brewery details"
-#~ msgstr "Zwiń opis browaru"
-
-#~ msgid "Incidents from InciWeb"
-#~ msgstr "Zdarzenia z InciWeb"
-
-#~ msgid "Click to exclude hostels from lodging suggestions"
-#~ msgstr "Kliknij, aby wykluczyć schroniska z proponowanych noclegów"
-
-#~ msgid "Comments"
-#~ msgstr "Komentarze"
-
-#~ msgid "Forgot password"
-#~ msgstr "Odzyskiwanie hasła"
-
-#~ msgid "Sign Out"
-#~ msgstr "Wyloguj się"
-
-#~ msgid "Show lodgings from"
-#~ msgstr "Pokaż kwatery z"
-
-#~ msgid "Send this trip to phone"
-#~ msgstr "Wyślij tę podróż do telefonu"
-
-#~ msgid " | Free Road Trip Planner | Map Your Route"
-#~ msgstr " | Planowanie podróży | Wytycz Swój Szlak"
-
-#~ msgid "Type trip name"
-#~ msgstr "Wpisz nazwę podróży"
-
-#~ msgid "Search guidebooks and travel guides on Amazon"
-#~ msgstr "Szukaj przewodników turystycznych na Amazon"
-
-#~ msgid "None"
-#~ msgstr "Nic"
-
-#~ msgid "Label Roads"
-#~ msgstr "Oznaczenia Dróg"
-
-#~ msgid "NONE"
-#~ msgstr "NIC"
-
-#~ msgid "Add this brewery as a skipped stop"
-#~ msgstr "Dodaj browar jako omijany postój"
-
-#~ msgid "Deals from Yipit"
-#~ msgstr "Promocje z Yipit"
-
-#~ msgid "Be on your own"
-#~ msgstr "Na własną rękę"
-
-#~ msgid "Hide ski resorts from EpicSki"
-#~ msgstr "Ukryj ośrodki narciarskie z EpicSki"
-
-#~ msgid "Hide blind hotel deals"
-#~ msgstr "Ukryj zastrzeżone promocje hoteli"
-
-#~ msgid "Hotel chains"
-#~ msgstr "Sieci hotelowe"
-
-#~ msgid "See description of this road at MotorcycleRoads.com"
-#~ msgstr "Zobacz opis drogi na MotorcycleRoads.com"
-
-#~ msgid "Feedback"
-#~ msgstr "Uwagi"
-
-#~ msgid "See this guide at AllTrails"
-#~ msgstr "Zobacz przewodnik na AllTrails"
-
-#~ msgid "See description of this curiosity at Atlas Obscura"
-#~ msgstr "Zobacz opis kuriozum w Atlasie Obscura"
-
-#~ msgid "Click to exclude blind hotel deals from lodging suggestions"
-#~ msgstr ""
-#~ "Kliknij, aby wykluczyć zastrzeżone promocje z proponowanych noclegów"
-
-#~ msgid "Furkot assumes it is a walking trip."
-#~ msgstr "Furkot zakłada, że jest to podróż pieszo."
-
-#~ msgid "Trails from Gaia GPS"
-#~ msgstr "Szlaki z Gaia GPS"
-
-#~ msgid "Click to exclude hotels and motels from lodging suggestions"
-#~ msgstr "Kliknij, aby wykluczyć hotele i motele z proponowanych noclegów"
-
-#~ msgid "See user reviews at AllTrails"
-#~ msgstr "Zobacz opinie użytkowników na AllTrails"
-
-#~ msgid "Your password is necessary to save your email address for future use"
-#~ msgstr ""
-#~ "Twoje hasło jest konieczne do zachowania adresu e-mail na przyszłość"
-
-#~ msgid "Wineries from Snooth.com"
-#~ msgstr "Winnice ze Snooth.com"
-
-#~ msgid "No campgrounds"
-#~ msgstr "Bez pól namiotowych"
-
-#~ msgid "Missing password"
-#~ msgstr "Nie wprowadzono hasła"
-
-#~ msgid "See contributor's profile at BestBikingRoads.com"
-#~ msgstr "Zobacz profil współtwórcy na BestBikingRoads.com"
-
-#~ msgid "Change"
-#~ msgstr "Zmień"
-
-#~ msgid "Hide trails from Gaia GPS"
-#~ msgstr "Ukryj szlaki z Gaia GPS"
-
-#~ msgid "Hide curiosities from Atlas Obscura"
-#~ msgstr "Ukryj kurioza z Atlasu Obscura"
-
-#~ msgid "Hide birdwatching hotspots from ebird.org"
-#~ msgstr "Schowaj miejsca obserwacji ptaków z ebird.org"
-
-#~ msgid "Trails from MountainProject.com"
-#~ msgstr "Szlaki z MountainProject.com"
-
-#~ msgid "Hide current weather overlay"
-#~ msgstr "Ukryj aktualną pogodę"
-
-#~ msgid "Summits and climbing routes from SummitPost"
-#~ msgstr "Szczyty i szlaki z SummitPost"
-
-#~ msgid "Hide breweries from BreweryDB"
-#~ msgstr "Ukryj browary z BreweryDB"
-
-#~ msgid ""
-#~ "Open Furkot on your phone or tablet to see the up-to-date version of this "
-#~ "trip."
-#~ msgstr ""
-#~ "Otwórz Furkot na telefonie lub tablecie, aby zobaczyć aktualną wersję tej "
-#~ "podróży."
-
-#~ msgid "Trails from MtbProject.com"
-#~ msgstr "Szlaki z MtbProject.com"
-
-#~ msgid "See user reviews at Foursquare"
-#~ msgstr "Zobacz opinie użytkowników na Foursquare"
-
-#~ msgid "Hide dive sites from DiveSpots"
-#~ msgstr "Ukryj miejsc do nurkowania z DiveSpots"
-
-#~ msgid "See user reviews at MBPost"
-#~ msgstr "Zobacz opinie użytkowników na MBPost"
-
-#~ msgid "See description of this ski resort at EpicSki"
-#~ msgstr "Zobacz opis ośrodka narciarskiego na EpicSki"
-
-#~ msgid "Hide restaurants recommended by Yelp"
-#~ msgstr "Ukryj restauracje polecane przez Yelp"
-
-#~ msgid "No hotels around."
-#~ msgstr "Bez hoteli w okolicy."
-
-#~ msgid "See author's profile at Gaia GPS"
-#~ msgstr "Zobacz profil autora na Gaia GPS"
-
-#~ msgid "Roads from Gravelmap"
-#~ msgstr "Drogi z Gravelmap"
-
-#~ msgid "Hide books from Amazon"
-#~ msgstr "Ukryj książki z Amazon"
-
-#~ msgid "Add this museum as a skipped stop"
-#~ msgstr "Dodaj muzeum jako omijany postój"
-
-#~ msgid "Hide roads from Gravelmap"
-#~ msgstr "Ukryj drogi z Gravelmap"
-
-#~ msgid "Hide gas stations from pure-gas.org"
-#~ msgstr "Ukryj stacje benzynowe z pure-gas.org"
-
-#~ msgid "Hide articles from Wikipedia"
-#~ msgstr "Ukryj artykuły z Wikipedii"
-
-#~ msgid "Default nav app"
-#~ msgstr "Domyślnia aplikacja do nawigacji"
-
-#~ msgid "See user reviews at DiveSpots"
-#~ msgstr "Zobacz opinie użytkowników na DiveSpots"
-
-#~ msgid "Keep this automatically scheduled stop"
-#~ msgstr "Zachowaj automatycznie zaplanowany postój"
-
-#~ msgid "Guidebooks and travel guides on Amazon"
-#~ msgstr "Przewodniki turystyczne na Amazon"
-
-#~ msgid "Deal"
-#~ msgstr "Promocja"
-
-#~ msgid "See this brewery own website"
-#~ msgstr "Zobacz własną stronę internetową browaru"
-
-#~ msgid "Looks like there are no trips to show here."
-#~ msgstr "Wygląda na to, nie masz podróży."
-
-#~ msgid "Top"
-#~ msgstr "Góra"
-
-#~ msgid "See user reviews at ShoreDiving"
-#~ msgstr "Zobacz opinie użytkowników na ShoreDiving"
-
-#~ msgid "Trails from PowderProject.com"
-#~ msgstr "Trasy z PowderProject.com"
-
-#~ msgid "Restaurants recommended by Roadfood.com"
-#~ msgstr "Restauracje polecane przez Roadfood.com"
-
-#~ msgid "Trails from HikingProject.com"
-#~ msgstr "Szlaki z HikingProject.com"
-
-#~ msgid "Type to modify place"
-#~ msgstr "Zmień miejsce"
-
-#~ msgid "click here"
-#~ msgstr "kliknij tutaj"
-
-#~ msgid "Password and confirmation do not match"
-#~ msgstr "Hasło nie zgadza się z potwierdzeniem"
-
-#~ msgid "See description of this dive site at ShoreDiving"
-#~ msgstr "Zobacz opis miejsca do nurkowania w ShoreDiving"
-
-#~ msgid "Stop and climb this summit"
-#~ msgstr "Zdobądź ten szczyt"
-
-#~ msgid "Discount"
-#~ msgstr "Zniżka"
-
-#~ msgid "Remove this trip from phone"
-#~ msgstr "Usuń tę podróż z telefonu"
-
-#~ msgid "Hide gas stations from myGasFeed"
-#~ msgstr "Ukryj stacje benzynowe z myGasFeed"
-
-#~ msgid "Hide trails from MountainProject.com"
-#~ msgstr "Ukryj szlaki z MountainProject.com"
-
-#~ msgid "Guides from AllTrails"
-#~ msgstr "Przewodniki z AllTrails"
-
-#~ msgid "See description of this trail at HikingProject.com"
-#~ msgstr "Zobacz opis szlaku na HikingProject.com"
-
-#~ msgid "Update the cache while viewing the OSM map"
-#~ msgstr "Uaktualniaj lokalną kopię podczas oglądania mapy OSM"
-
-#~ msgid "Hide deals"
-#~ msgstr "Ukryj promocje"
-
-#~ msgid "Bike tracks from MBPost"
-#~ msgstr "Ścieżki rowerowe z MBPost"
-
-#~ msgid ""
-#~ "If this is your first time and you would like to sign up, please go to "
-#~ "Furkot's [full site]."
-#~ msgstr ""
-#~ "Jeśli jest to Twój pierwszy raz i chcesz się zarejestrować, otwórz "
-#~ "[standardową] stronę Furkota."
-
-#~ msgid "Roads and rides from BestBikingRoads.com"
-#~ msgstr "Trasy z BestBikingRoads.com"
-
-#~ msgid "See guest reviews at Yelp"
-#~ msgstr "Zobacz opinie na Yelp"
-
-#~ msgid "Fold this museum details"
-#~ msgstr "Zwiń opis muzeum"
-
-#~ msgid "Show deals from"
-#~ msgstr "Pokaż promocje z"
-
-#~ msgid "Dive sites from ShoreDiving"
-#~ msgstr "Miejsca do nurkowania z ShoreDiving"
-
-#~ msgid "Stops"
-#~ msgstr "Postoje"
-
-#~ msgid "Curiosities from Atlas Obscura"
-#~ msgstr "Kurioza z Atlasu Obscura"
-
-#~ msgid "Show major roads over satellite imagery"
-#~ msgstr "Pokaż główne drogi na zdjęciu satelitarnym"
-
-#~ msgid "_Day_"
-#~ msgstr "_Dzień_"
-
-#~ msgid "Click on the [plus] sign to add a new trip."
-#~ msgstr "Kliknij znak [Plus], aby dodać nową podróż."
-
-#~ msgid "Exact coordinates"
-#~ msgstr "Dokładne współrzędne"
-
-#~ msgid ""
-#~ "We reserve the right to introduce use limits or establish a fee-based "
-#~ "access."
-#~ msgstr "Zastrzegamy prawo do wprowadzenia ograniczeń lub pobierania opłat."
-
-#~ msgid "Click to modify the time at which you start driving every day"
-#~ msgstr "Kliknij, aby zmienić godzinę, o której rozpoczynasz dzień"
-
-#~ msgid ""
-#~ "We'll be happy to reset your password, but we need more information to "
-#~ "identify your account."
-#~ msgstr ""
-#~ "Chętnie pomożemy w odzyskaniu hasła, ale potrzebujemy dodatkowych "
-#~ "informacji aby zidentyfikować konto."
-
-#~ msgid "Hide incidents from InciWeb"
-#~ msgstr "Ukryj zdarzenia z InciWeb"
-
-#~ msgid "Hiking trails from LocalHikes"
-#~ msgstr "Szlaki piesze z LocalHikes"
-
-#~ msgid "Book a flight at"
-#~ msgstr "Zarezerwuj lot na"
-
-#~ msgid "Fold this summit details"
-#~ msgstr "Zwiń opis szczytu"
-
-#~ msgid "See guest reviews at Roadfood.com"
-#~ msgstr "Zobacz opinie na Roadfood.com"
-
-#~ msgid "Weather"
-#~ msgstr "Pogoda"
-
-#~ msgid "No gas station nearby."
-#~ msgstr "Brak stacji benzynowych w okolicy."
-
-#~ msgid "Hide apartments, private rooms, B&Bs"
-#~ msgstr "Ukryj apartamenty, pokoje gościnne, pensjonaty"
-
-#~ msgid "Dive sites from DiveSpots"
-#~ msgstr "Miejsca do nurkowania z DiveSpots"
-
-#~ msgid "Museums from Go Historic"
-#~ msgstr "Muzea z Go Historic"
-
-#~ msgid ""
-#~ "You'll have a chance to copy and paste booking confirmation before "
-#~ "proceeding to the next lodging."
-#~ msgstr ""
-#~ "Będziesz miał okazję do skopiowania potwierdzenia przed następną "
-#~ "rezerwacją."
-
-#~ msgid "Click to leave suggestions"
-#~ msgstr "Zgłoś problem, zaproponuj nową funkcjonalność"
-
-#~ msgid ""
-#~ "You'll have a chance to copy and paste booking confirmation before Furkot "
-#~ "takes you back to the trip planning."
-#~ msgstr ""
-#~ "Będziesz miał okazję do skopiowania potwierdzenia rezerwacji przed "
-#~ "powrotem do planowania podróży."
-
-#~ msgid "See user reviews at Lonely Planet"
-#~ msgstr "Zobacz opinie użytkowników na Lonely Planet"
-
-#~ msgid "Hide hotels"
-#~ msgstr "Ukryj hotele"
-
-#~ msgid "See description of this activity at Trip Republic"
-#~ msgstr "Zobacz opis  rozrywki na Trip Republic"
-
-#~ msgid "Hide roads and rides from BestBikingRoads.com"
-#~ msgstr "Ukryj trasy z BestBikingRoads.com"
-
-#~ msgid "Click to modify _duration_"
-#~ msgstr "Kliknij, aby zmienić _czas trasy_"
-
-#~ msgid "Show hostels from"
-#~ msgstr "Pokaż schroniska z"
-
-#~ msgid "See the business offering this deal"
-#~ msgstr "Zobacz stronę internetową firmy oferującej promocję"
-
-#~ msgid "See description of this airport at OurAirports"
-#~ msgstr "Zobacz opis lotniska na OurAirports"
-
-#~ msgid "Guidebook"
-#~ msgstr "Przewodnik"
-
-#~ msgid "See contributor's profile at MotorcycleRoads.com"
-#~ msgstr "Zobacz profil współtwórcy na MotorcycleRoads.com"
-
-#~ msgid "Fold this hike details"
-#~ msgstr "Zwiń opis szlaku"
-
-#~ msgid "See this restaurant page on Roadfood.com"
-#~ msgstr "Zobacz opis restauracji na Roadfood.com"
-
-#~ msgid "Which states/countries did you visit on your trips?"
-#~ msgstr "Jakie kraje odwiedziłeś, bądź zamierzałeś odwiedzić?"
-
-#~ msgid "See user reviews at Liftopia"
-#~ msgstr "Zobacz opinie użytkowników na Liftopii"
-
-#~ msgid "Anticipate seasonal closures during trip."
-#~ msgstr "Sezonowe zamknięcia dróg podczas podróży."
-
-#~ msgid "See description of this byway at America's Scenic Byways"
-#~ msgstr "Zobacz opis drogi na America's Scenic Byways"
-
-#~ msgid ""
-#~ "We are actively working to improve it. If you experience problems please "
-#~ "contact us."
-#~ msgstr ""
-#~ "Ciągle jeszcze staramy się ją udoskonalać. W razie problemów prosimy o "
-#~ "kontakt."
-
-#~ msgid "Hide trails from HikingProject.com"
-#~ msgstr "Ukryj szlaki z HikingProject.com"
-
-#~ msgid "Guidebooks, deals and discounts"
-#~ msgstr "Przewodniki, promocje i zniżki"
-
-#~ msgid "See description of this trail at MountainProject.com"
-#~ msgstr "Zobacz opis szlaku na  MountainProject.com"
-
-#~ msgid "Hide deals from Yipit"
-#~ msgstr "Ukryj promocje z Yipit"
-
-#~ msgid "See author's profile at SummitPost"
-#~ msgstr "Zobacz profil autora na SummitPost"
-
-#~ msgid ""
-#~ "As you are planning your trip Furkot can give you a guided tour of its "
-#~ "features."
-#~ msgstr ""
-#~ "W trakcie planowania podróży Furkot może oprowadzić Cię po swoich "
-#~ "funkcjach."
-
-#~ msgid "Let Furkot guide you"
-#~ msgstr "Z przewodnikiem"
-
-#~ msgid "Navigate"
-#~ msgstr "Nawiguj"
-
-#~ msgid "Hide guides from AllTrails"
-#~ msgstr "Ukryj przewodniki z AllTrails"
-
-#~ msgid ""
-#~ "Take itinerary of your road trip, weekend outing, family vacation with "
-#~ "you while traveling. Use Furkot on your phone or tablet on the go."
-#~ msgstr ""
-#~ "Zabierz plan ze sobą w podróż. Użyj Furkota na telefonie lub tablecie w "
-#~ "podróży."
-
-#~ msgid "Preserve this route when adding new stops"
-#~ msgstr "Zachowaj tę trasę podczas dodawania nowych postojów"
-
-#~ msgid "Show apartments and rooms from"
-#~ msgstr "Pokaż apartamenty i pokoje z"
-
-#~ msgid "Hide peaks and routes from Peakbagger"
-#~ msgstr "Ukryj szczyty i szlaki z Peakbagger"
-
-#~ msgid "Hide restaurants recommended by Roadfood.com"
-#~ msgstr "Ukryj restauracje polecane przez Roadfood.com"
-
-#~ msgid "Hide places and activities from Recreation.gov"
-#~ msgstr "Ukryj miejsca z Recreation.gov"
-
-#~ msgid ""
-#~ "In reply to this email let us know what your nickname (a.k.a. username) "
-#~ "is and, to your best recollection, answer some questions about your "
-#~ "planned trips."
-#~ msgstr ""
-#~ "W odpowiedzi napisz nam jakiego pseudonimu (nazwy użytkownika) używałeś i "
-#~ "- w miarę możliwości - spróbuj odpowiedzieć na poniższe pytania."
-
-#~ msgid "Birdwatching hotspots from ebird.org"
-#~ msgstr "Miejsca obserwacji ptaków z ebird.org"
-
-#~ msgid "Hide apartments and rooms"
-#~ msgstr "Ukryj apartamenty i pokoje"
-
-#~ msgid "Select KML, GPX or CSV file"
-#~ msgstr "Wybierz plik KML, GPX lub CSV"
-
-#~ msgid "Hide trails from MtbProject.com"
-#~ msgstr "Ukryj szlaki z MtbProject.com"
-
-#~ msgid "Places recommended by Foursquare"
-#~ msgstr "Miejsca polecane przez Foursquare"
-
-#~ msgid "Hide wineries from Snooth.com"
-#~ msgstr "Ukryj winnice ze Snooth.com"
-
-#~ msgid "Hide surf spots from WannaSurf"
-#~ msgstr "Ukryj miejsca do surfowania z WannaSurf"
-
-#~ msgid "Hide places from Google"
-#~ msgstr "Ukryj miejsca z Google"
-
-#~ msgid "Press [Back] to return to the hotel page."
-#~ msgstr "Naciśnij [Powrót], aby powrócić do strony hotelu."
-
-#~ msgid "See description of this place at Foursquare"
-#~ msgstr "Zobacz opis miejsca na Foursquare"
-
-#~ msgid "Hide hikes from LocalHikes"
-#~ msgstr "Ukryj szlaki z LocalHikes"
-
-#~ msgid "Sights from Lonely Planet"
-#~ msgstr "Atrakcje z Lonely Planet"
-
-#~ msgid "See user reviews at Fodor's Travel"
-#~ msgstr "Zobacz opinie użytkowników na Fodor's Travel"
-
-#~ msgid "Travel activities from Trip Republic"
-#~ msgstr "Rozrywki z Trip Republic"
-
-#~ msgid "Ski resorts from Liftopia"
-#~ msgstr "Ośrodki narciarskie z Liftopii"
-
-#~ msgid "Confirm password"
-#~ msgstr "Potwierdzenie Hasła"
-
-#~ msgid "See user reviews at WannaSurf"
-#~ msgstr "Zobacz opinie użytkowników na WannaSurf"
-
-#~ msgid "Click if you are traveling with pets"
-#~ msgstr "Kliknij, jeśli podróżujesz ze zwierzętami"
-
-#~ msgid "Show campgrounds from"
-#~ msgstr "Pokaż pola namiotowe z"
-
-#~ msgid "Click to let Furkot suggest campgrounds"
-#~ msgstr "Kliknij aby Furkot sugerował pola namiotowe"
-
-#~ msgid "See description of this trail at PowderProject.com"
-#~ msgstr "Zobacz opis trasy na PowderProject.com"
-
-#~ msgid "Click to exclude campgrounds from lodging suggestions"
-#~ msgstr "Kliknij, aby wykluczyć pola namiotowe z proponowanych noclegów"
-
-#~ msgid "Feel free to press [Done] at any point."
-#~ msgstr "Możesz nacisnąć [Koniec] w dowolnym momencie."
-
-#~ msgid "Click to exclude chain hotels and motels from lodging suggestions"
-#~ msgstr ""
-#~ "Kliknij, aby wykluczyć hotele i motele sieciowe z proponowanych noclegów"
-
-#~ msgid "Surf spots from WannaSurf"
-#~ msgstr "Miejsca do surfowania z WannaSurf"
-
-#~ msgid "No apartments and private rooms"
-#~ msgstr "Bez apartamentów i pokoi gościnnych"
-
-#~ msgid "Hide trails from PowderProject.com"
-#~ msgstr "Ukryj trasy z PowderProject.com"
-
-#~ msgid "No hotels or motels"
-#~ msgstr "Bez hoteli i moteli"
-
-#~ msgid "To sign up with email and password [click here]"
-#~ msgstr "[Kliknij tutaj] aby założyć konto podając adress e-mail i hasło"
-
-#~ msgid "Lodging Preferences"
-#~ msgstr "Preferencje Noclegowe"
-
-#~ msgid "_Duration_"
-#~ msgstr "_Czas Trasy_"
-
-#~ msgid "Click to let Furkot suggest hostels"
-#~ msgstr "Kliknij aby Furkot sugerował schroniska"
-
-#~ msgid "Hide airports from OurAirports"
-#~ msgstr "Ukryj lotniska z OurAirports"
-
-#~ msgid "Navigate to"
-#~ msgstr "Nawiguj do"
-
-#~ msgid ""
-#~ "Otherwise you can tell us more and we will try to verify your account."
-#~ msgstr ""
-#~ "W przeciwnym razie udziel nam dodatkowych informacji potrzebnych do "
-#~ "zweryfikowania konta."
-
-#~ msgid "Click to let Furkot suggest hotels and motels"
-#~ msgstr "Kliknij aby Furkot sugerował hotele i motele"
-
-#~ msgid "See description of this brewery at BreweryDB"
-#~ msgstr "Zobacz opis browaru na BreweryDB"
-
-#~ msgid "See description of this road at Gravelmap"
-#~ msgstr "Zobacz opis drogi na Gravelmap"
-
-#~ msgid "Vertical_drop"
-#~ msgstr "Różnica wysokości"
-
-#~ msgid "Restaurants recommended by Yelp"
-#~ msgstr "Restauracje polecane przez Yelp"
-
-#~ msgid "No hostels"
-#~ msgstr "Ukryj schroniska"
-
-#~ msgid "Your password"
-#~ msgstr "Twoje hasło"
-
-#~ msgid "See guest reviews at Google"
-#~ msgstr "Zobacz opinie gości na Google"
-
-#~ msgid "With pets"
-#~ msgstr "Z czworonogami"
-
-#~ msgid "Day "
-#~ msgstr "W dzień "
-
-#~ msgid "Click to let Furkot suggest apartments and private rooms"
-#~ msgstr "Kliknij aby Furkot sugerował apartamenty i pokoje gościnne"
-
-#~ msgid ""
-#~ "Not to worry, open Furkot's [full site] where you can plan a new trip."
-#~ msgstr ""
-#~ "Nie przejmuj się, otwórz [standardową] stronę Furkota aby zaplanować nową "
-#~ "podróż."
-
-#~ msgid "View More"
-#~ msgstr "Zobacz więcej"
-
-#~ msgid "Distance "
-#~ msgstr "Odległość "
-
-#~ msgid "Travel activities"
-#~ msgstr "Rozrywki i atrakcje turystyczne"
-
-#~ msgid "Hide travel activities"
-#~ msgstr "Ukryj rozywki"
-
-#~ msgid "Fold this activity details"
-#~ msgstr "Zwiń opis rozrywki"
-
-#~ msgid "Add this activity as a skipped stop"
-#~ msgstr "Dodaj rozrywkę jako omijany postój"
-
-#~ msgid "Experience this activity"
-#~ msgstr "Dodaj rozrywkę"
-
-#~ msgid "See description of this activity"
-#~ msgstr "Zobacz opis rozrywki"
+#~ msgid "See description of this road at BestBikingRoads.com"
+#~ msgstr "Zobacz opis drogi na BestBikingRoads.com"
+
+#~ msgid "Hide sights from Lonely Planet"
+#~ msgstr "Ukryj atrakcje z Lonely Planet"
