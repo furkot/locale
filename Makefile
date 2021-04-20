@@ -5,8 +5,8 @@ LANGUAGES = ar bn de el es fi fr he hu it nb nl pl pt pt-BR ru uk zh-TW
 
 PO_FILES = $(LANGUAGES:%=%/LC_MESSAGES/messages.po)
 
-MSGMERGE = msgmerge --sort-by-file --update
-MSGINIT = msginit --no-translator
+MSGMERGE := msgmerge --sort-by-file --update --no-fuzzy-matching
+MSGINIT := msginit --no-translator
 
 all: $(PO_FILES)
 
