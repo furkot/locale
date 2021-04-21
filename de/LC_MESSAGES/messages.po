@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2021-04-20 06:46+0200\n"
-"PO-Revision-Date: 2021-04-20 06:10+0000\n"
+"PO-Revision-Date: 2021-04-21 10:01+0000\n"
 "Last-Translator: Manuel Sailer <furkot.com@manuel-sailer.de>\n"
 "Language-Team: German "
 "<https://translate.furkot.com/projects/furkot/trips/de/>\n"
@@ -748,23 +748,23 @@ msgstr ""
 
 #: views/components/dialog.jade:53 views/components/trip-detail.jade:9
 msgid "Driving trip"
-msgstr "Reise mit einem Fahrzeug"
+msgstr "Auto / PKW"
 
 #: views/components/dialog.jade:55 views/components/trip-detail.jade:12
 msgid "Motorcycle trip"
-msgstr "Motorradreise"
+msgstr "Motorrad"
 
 #: views/components/dialog.jade:57 views/components/trip-detail.jade:15
 msgid "RV trip"
-msgstr "Wohnmobiltour"
+msgstr "Wohnmobil"
 
 #: views/components/dialog.jade:59 views/components/trip-detail.jade:18
 msgid "Bicycle trip"
-msgstr "Fahrradreise"
+msgstr "Fahrrad"
 
 #: views/components/dialog.jade:61 views/components/trip-detail.jade:21
 msgid "Walking trip"
-msgstr "Wanderreise"
+msgstr "zu Fuß"
 
 #. L10n: 'track' is a point-by-point representation of trip course; 'track' is more detailed than 'route'
 #: views/components/export-dlg.jade:10 views/components/export-dlg.jade:137
@@ -1655,7 +1655,7 @@ msgstr "Bedingungen"
 #. L10n: square brackets [] denote a name of the service that provided search results
 #: views/components/map-attrib.jade:13 views/components/map-attrib.jade:41
 msgid "Search by []"
-msgstr "Suchen mit []"
+msgstr "Suchergebnisse von []"
 
 #. L10n: square brackets [] denote a name of the service that provided search results
 #: views/components/map-attrib.jade:25 views/components/map-attrib.jade:53
@@ -2037,7 +2037,7 @@ msgstr "Reiseverlauf"
 #: views/components/new-trip-wizard.jade:25
 #: views/components/trip-detail.jade:125
 msgid "Loop back to the starting point"
-msgstr "Schleife zurück zum Ausgangspunkt"
+msgstr "Rundreise (Start und Ziel gleich)"
 
 #: views/components/new-trip-wizard.jade:26
 #: views/components/trip-detail.jade:124
@@ -2098,13 +2098,13 @@ msgstr "Vorgeplante Reisen anzeigen"
 
 #: views/components/new-trip-wizard.jade:50
 msgid "Give your trip a name."
-msgstr "Geben Sie Ihrer Reise einen Namen."
+msgstr "Geben Sie Ihrer Reise einen Titel."
 
 #: views/components/new-trip-wizard.jade:53
 #: views/components/new-trip-wizard.jade:54
 #: views/components/trip-detail.jade:118 views/components/trip-detail.jade:119
 msgid "Trip name"
-msgstr "Namen der Reise"
+msgstr "Titel der Reise"
 
 #. L10n: square brackets [] denote a button
 #: views/components/new-trip-wizard.jade:57
@@ -5809,7 +5809,7 @@ msgstr "Synchronisierung beenden"
 #. L10n: hint for Export button that exports a single day of the trip
 #: views/components/step-detail.jade:868
 msgid "Export this day in a variety of formats"
-msgstr "Diesen Tag in unterschiedlichen Formaten exportieren"
+msgstr "Tag exportieren"
 
 #. L10n: can be translated "Move this day after its successor"
 #: views/components/step-detail.jade:872
@@ -6090,7 +6090,7 @@ msgstr "nur Stationen mit ausgewählten Schlüsselworten"
 
 #: views/components/step-switches.jade:55
 msgid "Add a new stop"
-msgstr "Eine neue Station hinzufügen"
+msgstr "Neue Station hinzufügen"
 
 #: views/components/step-switches.jade:57
 msgid "Reverse itinerary"
@@ -6148,20 +6148,17 @@ msgstr "Nach eingegebenen Schlüsselworten filtern"
 #: views/components/step-switches.jade:131
 msgid ""
 "Click anywhere on the map to drop a pin representing the start of your trip."
-msgstr ""
-"Klicken Sie an der Stelle auf die Karte, an der Sie Ihrer Reise beginnen "
-"möchten."
+msgstr "An der Stelle auf die Karte klicken, an der die Reise beginnen soll."
 
 #. L10n: square brackets [] denote a button (icon)
 #: views/components/step-switches.jade:133
 msgid "Use the new stop [] button above to type-in the address."
-msgstr ""
-"Verwenden Sie den neuen Stopp []-Button oben, um die Adresse einzugeben."
+msgstr "Den Station hinzufügen []-Button verwenden, um die Adresse einzugeben."
 
 #. L10n: L10n: square brackets [] denote a button
 #: views/components/step-switches.jade:135
 msgid "Search for places to visit in the [Find] drawer."
-msgstr "Suchen Sie im Reiter [Suche] nach Orten, die Sie besuchen möchten."
+msgstr "Im Reiter [Suche] nach Orten suchen, die Sie besuchen möchten."
 
 #. L10n: Caption for the message displayed when user moving a stop will change trip starting or ending point
 #: views/components/step-switches.jade:138
@@ -6716,12 +6713,12 @@ msgstr "Benennen Sie Ihre Reise"
 #: views/components/trip-detail.jade:114
 msgid "Name your trip. Furkot will use it to orient the map"
 msgstr ""
-"Geben Sie den Namen Ihrer Reise an. Furkot verwendet ihn, um die Karte "
+"Geben Sie den Titel Ihrer Reise an. Furkot verwendet ihn, um die Karte "
 "auszurichten"
 
 #: views/components/trip-detail.jade:118 views/components/trip-detail.jade:119
 msgid "Click to modify trip name"
-msgstr "Klicken, um den Namen der Reise zu ändern"
+msgstr "Klicken, um den Titel der Reise zu ändern"
 
 #: views/components/trip-detail.jade:130
 msgid "View more information about this trip"
@@ -7337,15 +7334,15 @@ msgstr "Öffnen Sie diesen Reiseverlauf"
 
 #: views/components/trip-toolbar.jade:4
 msgid "Share this trip with others"
-msgstr "Diese Reise mit anderen teilen"
+msgstr "Reise mit anderen teilen"
 
 #: views/components/trip-toolbar.jade:6
 msgid "Export trip in a variety of formats"
-msgstr "Reise in unterschiedlichen Formaten exportieren"
+msgstr "Reise exportieren"
 
 #: views/components/trip-toolbar.jade:8
 msgid "Synchronize the trip with TripIt"
-msgstr "Diese Reise mit TripIt synchronisieren"
+msgstr "Reise mit TripIt synchronisieren"
 
 #: views/components/trip-toolbar.jade:10
 msgid "Book hotels for this trip"
@@ -7357,7 +7354,7 @@ msgstr "Tankstopps planen"
 
 #: views/components/trip-toolbar.jade:18
 msgid "Print this trip"
-msgstr "Diese Reise ausdrucken"
+msgstr "Reise ausdrucken"
 
 #. L10n: Caption of the print trip configuration dialog
 #: views/components/trip-toolbar.jade:22 views/components/trip-toolbar.jade:52
@@ -7623,7 +7620,7 @@ msgstr "Passwort"
 #. L10n: Checkbox label
 #: views/login-form.jade:39
 msgid "Keep me signed in"
-msgstr "Bleiben Sie angemeldet"
+msgstr "Angemeldet bleiben"
 
 #. L10n: square brackets [] denote a link
 #: views/login-form.jade:42
