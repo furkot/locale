@@ -40,12 +40,12 @@ messages: $(PO_FILES)
 # merge existing po files with new template
 merge: glossary messages
 
-# commit latest changes, push to weblate branch, notify weblate server and reset to master
+# commit latest changes, push to weblate branch, notify weblate server and reset to main
 push:
 	git commit -am 'updated to recent changes in UI'
 	git push origin HEAD:weblate
 	curl --silent --show-error https://translate.furkot.com/hooks/update/furkot/trips/ > /dev/null
-	git reset --hard origin/master
+	git reset --hard origin/main
 
 %.po.check: %.po
 	msgfmt --check $<
