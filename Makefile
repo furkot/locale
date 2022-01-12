@@ -1,6 +1,6 @@
 POT = templates/LC_MESSAGES/messages.pot
 
-LANGUAGES = ar bn de el es fi fr he hu it nb nl pl pt pt-BR ru uk zh-TW
+LANGUAGES = ar bn de el es fi fr he hu it nb nl pl pt pt-BR ro ru uk zh-TW
 
 PO_FILES = $(LANGUAGES:%=%/LC_MESSAGES/messages.po)
 PO_GLOSS = $(LANGUAGES:%=%/glossary.po)
