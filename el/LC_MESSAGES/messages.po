@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2022-04-23 10:50+0200\n"
+"POT-Creation-Date: 2022-04-23 16:20+0200\n"
 "PO-Revision-Date: 2022-02-01 03:10+0000\n"
 "Last-Translator: Marina <mpenoumarina@gmail.com>\n"
 "Language-Team: Greek <https://translate.furkot.com/projects/furkot/trips/el/"
@@ -544,7 +544,7 @@ msgstr "Διπλώστε αυτό λεπτομέρειες χώρος κατασ
 #. L10n: stop type (icon)
 #: views/components/bookable.jade:58 views/components/bookable.jade:61
 #: views/components/places.jade:9 views/components/places.jade:10
-#: views/components/places.jade:13 views/components/step-detail.jade:19
+#: views/components/places.jade:14 views/components/step-detail.jade:19
 msgid "Campground"
 msgstr "Χώρος κατασκήνωσης"
 
@@ -1891,8 +1891,8 @@ msgid "Center map on the current location"
 msgstr "Κέντρο χάρτη για την επιλεγμένη στάση"
 
 #. L10n: 'places' means 'places displayed on the map'
-#: views/components/map.jade:82 views/components/places.jade:143
-#: views/components/places.jade:534
+#: views/components/map.jade:82 views/components/places.jade:144
+#: views/components/places.jade:529
 #, fuzzy
 msgid "Hide places"
 msgstr "Απόκρυψη θέσεις"
@@ -2713,7 +2713,7 @@ msgstr "ράμπα βάρκα"
 
 #. L10n: Displayed also when there are scenic byways near a place (for instance a campground). Less than 25 characters if possible
 #: views/components/place-detail.jade:99 views/components/place-detail.jade:237
-#: views/components/places.jade:79
+#: views/components/places.jade:80
 #, fuzzy
 msgid "Scenic byways"
 msgstr "Γραφική Byways της Αμερικής"
@@ -2855,7 +2855,7 @@ msgstr "πρατήρια υγρών καυσίμων"
 
 #. L10n: Displayed when there is a restaurant, bar or food stand at the campground or other facility. Less than 25 characters if possible
 #: views/components/place-detail.jade:126
-#: views/components/place-detail.jade:279 views/components/places.jade:169
+#: views/components/place-detail.jade:279 views/components/places.jade:164
 msgid "Food service"
 msgstr ""
 
@@ -3626,7 +3626,7 @@ msgstr "λαϊκές αγορές και τα μανάβικα"
 msgid "Hide farmers markets and grocery stores"
 msgstr "Απόκρυψη λαϊκές αγορές και τα μανάβικα"
 
-#: views/components/place-switch.jade:184 views/components/places.jade:207
+#: views/components/place-switch.jade:184 views/components/places.jade:202
 #, fuzzy
 msgid "Gas stations"
 msgstr "ΒΕΝΖΙΝΑΔΙΚΟ"
@@ -3634,8 +3634,8 @@ msgstr "ΒΕΝΖΙΝΑΔΙΚΟ"
 #. L10n: hint for the button that hides gas stations on the map
 #: views/components/place-switch.jade:184
 #: views/components/place-switch.jade:189
-#: views/components/place-switch.jade:194 views/components/places.jade:90
-#: views/components/places.jade:206 views/components/places.jade:372
+#: views/components/place-switch.jade:194 views/components/places.jade:91
+#: views/components/places.jade:201 views/components/places.jade:367
 #, fuzzy
 msgid "Hide gas stations"
 msgstr "Απόκρυψη πρατήρια καυσίμων"
@@ -3648,7 +3648,7 @@ msgstr "πρατήρια υγρών καυσίμων"
 
 #. L10n: hint for the button that shows diesel stations on the map
 #: views/components/place-switch.jade:189
-#: views/components/place-switch.jade:192 views/components/places.jade:91
+#: views/components/place-switch.jade:192 views/components/places.jade:92
 #, fuzzy
 msgid "Gas stations with diesel fuel"
 msgstr "Βενζινάδικα από myGasFeed"
@@ -3656,22 +3656,22 @@ msgstr "Βενζινάδικα από myGasFeed"
 #. L10n: hint for the button that shows ethanol-free gas stations on the map
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
 #: views/components/place-switch.jade:194
-#: views/components/place-switch.jade:197 views/components/places.jade:371
+#: views/components/place-switch.jade:197 views/components/places.jade:366
 #, fuzzy
 msgid "Ethanol-free gas stations"
 msgstr "Η αιθανόλη χωρίς βενζινάδικα από pure-gas.org"
 
 #. L10n: hint for the button that shows electric car charging stations on the map
 #: views/components/place-switch.jade:200
-#: views/components/place-switch.jade:203 views/components/places.jade:329
-#: views/components/places.jade:338
+#: views/components/place-switch.jade:203 views/components/places.jade:324
+#: views/components/places.jade:333
 #, fuzzy
 msgid "Electric car charging stations"
 msgstr "Ηλεκτρικό σταθμούς φόρτισης αυτοκινήτου"
 
 #. L10n: hint for the button that hides electric car charging stations on the map
-#: views/components/place-switch.jade:200 views/components/places.jade:328
-#: views/components/places.jade:337
+#: views/components/place-switch.jade:200 views/components/places.jade:323
+#: views/components/places.jade:332
 #, fuzzy
 msgid "Hide electric car charging stations"
 msgstr "Απόκρυψη ηλεκτρικό σταθμούς φόρτισης αυτοκινήτου"
@@ -3684,19 +3684,19 @@ msgid "Airports"
 msgstr "αεροδρόμια"
 
 #. L10n: hint for the button that hides airports on the map
-#: views/components/place-switch.jade:206 views/components/places.jade:346
+#: views/components/place-switch.jade:206 views/components/places.jade:341
 #, fuzzy
 msgid "Hide airports"
 msgstr "Απόκρυψη αεροδρόμια"
 
 #. L10n: hint for the button that shows ferry terminals on the map
 #: views/components/place-switch.jade:212
-#: views/components/place-switch.jade:215 views/components/places.jade:159
+#: views/components/place-switch.jade:215 views/components/places.jade:154
 msgid "Ferry terminals"
 msgstr ""
 
 #. L10n: hint for the button that hides ferry terminals on the map
-#: views/components/place-switch.jade:212 views/components/places.jade:158
+#: views/components/place-switch.jade:212 views/components/places.jade:153
 msgid "Hide ferry terminals"
 msgstr ""
 
@@ -3771,8 +3771,8 @@ msgstr "Λίμνες, ποτάμια και ιαματικές πηγές"
 #. L10n: hint for the button that shows wild and prescribed fire incidents on the map
 #. L10n: 'incident' means 'a wild or prescribed fire incident'
 #: views/components/place-switch.jade:250
-#: views/components/place-switch.jade:253 views/components/places.jade:247
-#: views/components/places.jade:254
+#: views/components/place-switch.jade:253 views/components/places.jade:242
+#: views/components/places.jade:249
 #, fuzzy
 msgid "Fire incidents"
 msgstr "περιστατικά Πυρκαγιών"
@@ -3791,7 +3791,7 @@ msgid "Birdwatching"
 msgstr "Παρατήρηση πουλιών"
 
 #. L10n: hint for the button that hides birdwatching hotspots on the map
-#: views/components/place-switch.jade:256 views/components/places.jade:110
+#: views/components/place-switch.jade:256 views/components/places.jade:111
 #, fuzzy
 msgid "Hide birdwatching hotspots"
 msgstr "Απόκρυψη hotspots παρατήρηση πουλιών"
@@ -3803,15 +3803,15 @@ msgid "Hide wildlife viewing spots"
 msgstr "Απόκρυψη hotspots παρατήρηση πουλιών"
 
 #. L10n: hint for the button that hides hiking trails on the map
-#: views/components/place-switch.jade:268 views/components/places.jade:235
+#: views/components/place-switch.jade:268 views/components/places.jade:230
 #, fuzzy
 msgid "Hide hiking trails"
 msgstr "Απόκρυψη μονοπάτια πεζοπορίας"
 
 #. L10n: hint for the button that shows hiking trails on the map
 #: views/components/place-switch.jade:268
-#: views/components/place-switch.jade:271 views/components/places.jade:236
-#: views/components/places.jade:415
+#: views/components/place-switch.jade:271 views/components/places.jade:231
+#: views/components/places.jade:410
 #, fuzzy
 msgid "Hiking trails"
 msgstr "διαδρομές για πεζοπορία"
@@ -3870,28 +3870,28 @@ msgstr "Τα χιονοδρομικά κέντρα"
 
 #. L10n: hint for the button that shows dive sites on the map. 'Dive site' is a spot suitable for scuba diving
 #: views/components/place-switch.jade:298
-#: views/components/place-switch.jade:301 views/components/places.jade:101
-#: views/components/places.jade:459
+#: views/components/place-switch.jade:301 views/components/places.jade:102
+#: views/components/places.jade:454
 #, fuzzy
 msgid "Dive sites"
 msgstr "περιοχές κατάδυσης"
 
 #. L10n: hint for the button that hides dive sites on the map. 'Dive site' is a spot suitable for scuba diving
-#: views/components/place-switch.jade:298 views/components/places.jade:100
-#: views/components/places.jade:458
+#: views/components/place-switch.jade:298 views/components/places.jade:101
+#: views/components/places.jade:453
 #, fuzzy
 msgid "Hide dive sites"
 msgstr "sites Απόκρυψη κατάδυσης"
 
 #. L10n: hint for the button that hides surf spots on the map. 'Surf spot' is a site suitable for surfing (wave riding)
-#: views/components/place-switch.jade:304 views/components/places.jade:509
+#: views/components/place-switch.jade:304 views/components/places.jade:504
 #, fuzzy
 msgid "Hide surf spots"
 msgstr "Απόκρυψη κηλίδες surf"
 
 #. L10n: hint for the button that shows surf spots on the map. 'Surf spot' is a site suitable for surfing (wave riding)
 #: views/components/place-switch.jade:304
-#: views/components/place-switch.jade:307 views/components/places.jade:510
+#: views/components/place-switch.jade:307 views/components/places.jade:505
 #, fuzzy
 msgid "Surf spots"
 msgstr "σημεία surf"
@@ -4060,14 +4060,14 @@ msgstr "Απόκρυψη σταματά από άλλα ταξίδια μου"
 
 #. L10n: hint for the button that shows guidebooks and travel guides on the map
 #: views/components/place-switch.jade:388
-#: views/components/place-switch.jade:391 views/components/places.jade:27
-#: views/components/places.jade:29
+#: views/components/place-switch.jade:391 views/components/places.jade:28
+#: views/components/places.jade:30
 #, fuzzy
 msgid "Guidebooks and travel guides"
 msgstr "Οδηγοί και ταξιδιωτικούς οδηγούς για την Amazon"
 
 #. L10n: hint for the button that hides guidebooks and travel guides displayed on the map
-#: views/components/place-switch.jade:388 views/components/places.jade:28
+#: views/components/place-switch.jade:388 views/components/places.jade:29
 #, fuzzy
 msgid "Hide guidebooks"
 msgstr "Οδηγοί"
@@ -4264,28 +4264,28 @@ msgstr "άλλα ταξίδια, διαδρομές και ίχνη μου"
 msgid "Configure Find"
 msgstr "Διαμόρφωση Αναζήτηση"
 
-#: views/components/places.jade:2 views/components/places.jade:137
-#: views/components/places.jade:164 views/components/places.jade:386
-#: views/components/places.jade:527
+#: views/components/places.jade:2 views/components/places.jade:138
+#: views/components/places.jade:159 views/components/places.jade:381
+#: views/components/places.jade:522
 #, fuzzy
 msgid "See description of this place"
 msgstr "Δείτε την περιγραφή αυτού του τόπου"
 
-#: views/components/places.jade:3 views/components/places.jade:138
-#: views/components/places.jade:165 views/components/places.jade:387
-#: views/components/places.jade:516 views/components/places.jade:528
+#: views/components/places.jade:3 views/components/places.jade:139
+#: views/components/places.jade:160 views/components/places.jade:382
+#: views/components/places.jade:511 views/components/places.jade:523
 #, fuzzy
 msgid "See this place own website"
 msgstr "Δείτε αυτό το μέρος δική του ιστοσελίδα"
 
-#: views/components/places.jade:4 views/components/places.jade:517
+#: views/components/places.jade:4 views/components/places.jade:512
 #, fuzzy
 msgid "Stop and visit this place"
 msgstr "Σταματήστε και να επισκεφθείτε αυτό το μέρος"
 
-#: views/components/places.jade:5 views/components/places.jade:141
-#: views/components/places.jade:167 views/components/places.jade:389
-#: views/components/places.jade:518 views/components/places.jade:531
+#: views/components/places.jade:5 views/components/places.jade:142
+#: views/components/places.jade:162 views/components/places.jade:384
+#: views/components/places.jade:513 views/components/places.jade:526
 #: views/components/step-detail.jade:940
 #, fuzzy
 msgid "Add this place as a skipped stop"
@@ -4301,41 +4301,45 @@ msgstr "Ταξίδι αυτή τη διαδρομή"
 msgid "Reverse this route"
 msgstr "Αντίστροφη αυτή τη διαδρομή"
 
-#: views/components/places.jade:8 views/components/places.jade:142
-#: views/components/places.jade:168 views/components/places.jade:390
-#: views/components/places.jade:532
+#: views/components/places.jade:8 views/components/places.jade:143
+#: views/components/places.jade:163 views/components/places.jade:385
+#: views/components/places.jade:527
 #, fuzzy
 msgid "Fold this place details"
 msgstr "Διπλώστε αυτό το μέρος λεπτομέρειες"
 
-#: views/components/places.jade:22
+#: views/components/places.jade:11
+msgid "Ferry terminal"
+msgstr ""
+
+#: views/components/places.jade:23
 #, fuzzy
 msgid "Search guidebooks and travel guides"
 msgstr "Αναζήτηση οδηγούς και ταξιδιωτικούς οδηγούς για την Amazon"
 
-#: views/components/places.jade:23
+#: views/components/places.jade:24
 #, fuzzy
 msgid "Buy this book"
 msgstr "Αγοράστε αυτό το βιβλίο για την Amazon"
 
 #. L10n: Means 'Add a stop that is in the center of the region'. Shown when guidebook for a region is displayed
-#: views/components/places.jade:24 views/components/places.jade:38
+#: views/components/places.jade:25 views/components/places.jade:39
 #, fuzzy
 msgid "Add region center to your trip"
 msgstr "Νέο κέντρο περιοχή για το ταξίδι σας"
 
 #. L10n: Means 'Add a skipped stop that is in the center of the region'. Shown when guidebook for a region is displayed
-#: views/components/places.jade:25 views/components/places.jade:40
+#: views/components/places.jade:26 views/components/places.jade:41
 #, fuzzy
 msgid "Add region center to your trip as a skipped stop"
 msgstr "Νέο κέντρο περιοχή για το ταξίδι σας ως παραλειφθεί στάση"
 
-#: views/components/places.jade:26
+#: views/components/places.jade:27
 #, fuzzy
 msgid "Fold this search details"
 msgstr "Διπλώστε αυτό λεπτομέρειες αναζήτησης"
 
-#: views/components/places.jade:34
+#: views/components/places.jade:35
 #, fuzzy
 msgid ""
 "Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its "
@@ -4344,827 +4348,803 @@ msgstr ""
 "Amazon και το λογότυπο του Αμαζονίου είναι εμπορικά σήματα της Amazon.com, "
 "Inc ή των θυγατρικών της"
 
-#: views/components/places.jade:43
+#: views/components/places.jade:44
 #, fuzzy
 msgid "See description of this curiosity"
 msgstr "Δείτε την περιγραφή αυτού του τόπου"
 
-#: views/components/places.jade:44
+#: views/components/places.jade:45
 #, fuzzy
 msgid "Stop at this curiosity"
 msgstr "Σταματήστε αυτή την περιέργεια"
 
-#: views/components/places.jade:45
+#: views/components/places.jade:46
 #, fuzzy
 msgid "Add this curiosity as a skipped stop"
 msgstr "Προσθέστε αυτή η περιέργεια ως παραλειφθεί στάση"
 
-#: views/components/places.jade:46
+#: views/components/places.jade:47
 #, fuzzy
 msgid "Fold this curiosity details"
 msgstr "Διπλώστε αυτό λεπτομέρειες περιέργεια"
 
-#: views/components/places.jade:47
+#: views/components/places.jade:48
 #, fuzzy
 msgid "Hide curiosities"
 msgstr "Απόκρυψη ξενώνες"
 
-#: views/components/places.jade:48
+#: views/components/places.jade:49
 msgid "Curiosities"
 msgstr ""
 
-#: views/components/places.jade:53 views/components/places.jade:211
-#: views/components/places.jade:298 views/components/places.jade:397
+#: views/components/places.jade:54 views/components/places.jade:206
+#: views/components/places.jade:293 views/components/places.jade:392
 #, fuzzy
 msgid "See description of this road"
 msgstr "Δείτε την περιγραφή αυτού του τόπου"
 
-#: views/components/places.jade:54 views/components/places.jade:299
+#: views/components/places.jade:55 views/components/places.jade:294
 #, fuzzy
 msgid "See contributor's profile"
 msgstr "Δείτε το προφίλ συμβολή του στην MotorcycleRoads.us"
 
-#: views/components/places.jade:55 views/components/places.jade:300
+#: views/components/places.jade:56 views/components/places.jade:295
 #, fuzzy
 msgid "See riders' rating"
 msgstr "Δείτε αξιολόγηση των αναβατών σε MotorcycleRoads.us"
 
-#: views/components/places.jade:56 views/components/places.jade:301
+#: views/components/places.jade:57 views/components/places.jade:296
 #, fuzzy
 msgid "Stop at this motorcycle road"
 msgstr "Σταματήστε αυτή τη μοτοσικλέτα δρόμου"
 
-#: views/components/places.jade:57 views/components/places.jade:302
+#: views/components/places.jade:58 views/components/places.jade:297
 #, fuzzy
 msgid "Add this motorcycle road as a skipped stop"
 msgstr "Προσθέστε αυτό το δρόμο μοτοσικλέτα ως παραλειφθεί στάση"
 
-#: views/components/places.jade:58 views/components/places.jade:303
+#: views/components/places.jade:59 views/components/places.jade:298
 #, fuzzy
 msgid "Ride this motorcycle road"
 msgstr "Βόλτα αυτή μοτοσικλέτα δρόμου"
 
-#: views/components/places.jade:59 views/components/places.jade:304
+#: views/components/places.jade:60 views/components/places.jade:299
 #, fuzzy
 msgid "Reverse this motorcycle road"
 msgstr "Αντίστροφη αυτό το δρόμο μοτοσικλετών"
 
-#: views/components/places.jade:60 views/components/places.jade:305
+#: views/components/places.jade:61 views/components/places.jade:300
 #, fuzzy
 msgid "Fold this motorcycle road details"
 msgstr "Διπλώστε αυτό μοτοσικλέτα λεπτομέρειες δρόμου"
 
 #. L10n: 'roads' meaning 'roads good for riding motorcycle on' and 'rides' meaning 'motorcycle rides'
-#: views/components/places.jade:62 views/components/places.jade:306
+#: views/components/places.jade:63 views/components/places.jade:301
 #, fuzzy
 msgid "Hide roads and rides"
 msgstr "Απόκρυψη σταματά από άλλα ταξίδια μου"
 
 #. L10n: 'roads' meaning 'roads good for riding motorcycle on' and 'rides' meaning 'motorcycle rides'
-#: views/components/places.jade:63 views/components/places.jade:67
-#: views/components/places.jade:307
+#: views/components/places.jade:64 views/components/places.jade:68
+#: views/components/places.jade:302
 msgid "Roads and rides"
 msgstr ""
 
-#: views/components/places.jade:71
+#: views/components/places.jade:72
 #, fuzzy
 msgid "See description of this byway"
 msgstr "Δείτε την περιγραφή αυτού του τόπου"
 
-#: views/components/places.jade:72
+#: views/components/places.jade:73
 #, fuzzy
 msgid "See this byway own website"
 msgstr "Δείτε αυτό το πάροδος δική του ιστοσελίδα"
 
-#: views/components/places.jade:73
+#: views/components/places.jade:74
 #, fuzzy
 msgid "Stop at this byway"
 msgstr "Σταματήστε αυτή τη πάροδο"
 
-#: views/components/places.jade:74
+#: views/components/places.jade:75
 #, fuzzy
 msgid "Add this byway as a skipped stop"
 msgstr "Προσθέστε αυτή τη πάροδο ως παραλειφθεί στάση"
 
-#: views/components/places.jade:75
+#: views/components/places.jade:76
 #, fuzzy
 msgid "Travel this byway"
 msgstr "Ταξίδι αυτή πάροδος"
 
-#: views/components/places.jade:76
+#: views/components/places.jade:77
 #, fuzzy
 msgid "Reverse this byway"
 msgstr "Αντίστροφη αυτή πάροδος"
 
-#: views/components/places.jade:77
+#: views/components/places.jade:78
 #, fuzzy
 msgid "Fold this byway details"
 msgstr "Διπλώστε αυτό λεπτομέρειες πάροδο"
 
-#: views/components/places.jade:78
+#: views/components/places.jade:79
 #, fuzzy
 msgid "Hide byways"
 msgstr "Απόκρυψη παραλίες"
 
 #. L10n: Hint displayed for gas stations. Means "See this gas station page at the website of the service that provided the list of gas stations". For instance for stations from Texaco, the link to this station page on Texaco website will have this hint
-#: views/components/places.jade:84 views/components/places.jade:193
-#: views/components/places.jade:201
+#: views/components/places.jade:85 views/components/places.jade:188
+#: views/components/places.jade:196
 #, fuzzy
 msgid "See this gas station page"
 msgstr "Δείτε αυτή τη σελίδα βενζινάδικο στο myGasFeed"
 
 #. L10n: means "See the website that is maintained by this gas station owner". We rarely have a link to gas station own website that is different than gas station page maintained by the network but if we have it is displayed with this hint
-#: views/components/places.jade:85 views/components/places.jade:194
-#: views/components/places.jade:203
+#: views/components/places.jade:86 views/components/places.jade:189
+#: views/components/places.jade:198
 #, fuzzy
 msgid "See this gas station own website"
 msgstr "Δείτε αυτό το βενζινάδικο δική του ιστοσελίδα"
 
-#: views/components/places.jade:86 views/components/places.jade:195
+#: views/components/places.jade:87 views/components/places.jade:190
 #, fuzzy
 msgid "Fill up at this gas station"
 msgstr "Γεμίστε σε αυτό το βενζινάδικο"
 
-#: views/components/places.jade:87 views/components/places.jade:196
-#: views/components/places.jade:365
+#: views/components/places.jade:88 views/components/places.jade:191
+#: views/components/places.jade:360
 #, fuzzy
 msgid "Add this gas station as a skipped stop"
 msgstr "Προσθέστε αυτό το βενζινάδικο ως παραλειφθεί στάση"
 
-#: views/components/places.jade:88 views/components/places.jade:197
-#: views/components/places.jade:366
+#: views/components/places.jade:89 views/components/places.jade:192
+#: views/components/places.jade:361
 #, fuzzy
 msgid "Fold this gas station details"
 msgstr "Διπλώστε αυτό τα στοιχεία του σταθμού φυσικού αερίου"
 
 #. L10n: generic name for a gas (fuel) station, displayed when we don't know the brand name
-#: views/components/places.jade:89 views/components/places.jade:198
-#: views/components/places.jade:205
+#: views/components/places.jade:90 views/components/places.jade:193
+#: views/components/places.jade:200
 #, fuzzy
 msgid "Gas Station"
 msgstr "ΒΕΝΖΙΝΑΔΙΚΟ"
 
-#: views/components/places.jade:95 views/components/places.jade:453
+#: views/components/places.jade:96 views/components/places.jade:448
 #, fuzzy
 msgid "See description of this dive site"
 msgstr "Δείτε την περιγραφή αυτού του site κατάδυσης στο DiveSpots"
 
-#: views/components/places.jade:96 views/components/places.jade:123
-#: views/components/places.jade:139 views/components/places.jade:261
-#: views/components/places.jade:274 views/components/places.jade:286
-#: views/components/places.jade:454 views/components/places.jade:474
-#: views/components/places.jade:505 views/components/places.jade:529
+#: views/components/places.jade:97 views/components/places.jade:124
+#: views/components/places.jade:140 views/components/places.jade:256
+#: views/components/places.jade:269 views/components/places.jade:281
+#: views/components/places.jade:449 views/components/places.jade:469
+#: views/components/places.jade:500 views/components/places.jade:524
 #, fuzzy
 msgid "See user reviews"
 msgstr "Δείτε κριτικές πελατών στο"
 
-#: views/components/places.jade:97 views/components/places.jade:455
+#: views/components/places.jade:98 views/components/places.jade:450
 #, fuzzy
 msgid "Stop and dive at this site"
 msgstr "Σταματήστε και να βουτήξει σε αυτό το site"
 
-#: views/components/places.jade:98 views/components/places.jade:456
+#: views/components/places.jade:99 views/components/places.jade:451
 #, fuzzy
 msgid "Add this dive site as a skipped stop"
 msgstr "Προσθέστε αυτό το site κατάδυσης ως παραλειφθεί στάση"
 
-#: views/components/places.jade:99 views/components/places.jade:457
+#: views/components/places.jade:100 views/components/places.jade:452
 #, fuzzy
 msgid "Fold this dive site details"
 msgstr "Διπλώστε αυτό λεπτομέρειες περιοχής κατάδυσης"
 
-#: views/components/places.jade:106
+#: views/components/places.jade:107
 #, fuzzy
 msgid "See description of this birdwatching hotspot"
 msgstr "Δείτε την περιγραφή αυτής της παρατήρησης πουλιών hotspot σε ebird.org"
 
-#: views/components/places.jade:107
+#: views/components/places.jade:108
 #, fuzzy
 msgid "Stop at this birdwatching hotspot"
 msgstr "Σταματήστε αυτή την παρατήρηση πουλιών hotspot"
 
-#: views/components/places.jade:108
+#: views/components/places.jade:109
 #, fuzzy
 msgid "Add this birdwatching hotspot as a skipped stop"
 msgstr "Προσθέστε αυτή παρατήρηση πουλιών hotspot ως παραλειφθεί στάση"
 
-#: views/components/places.jade:109
+#: views/components/places.jade:110
 #, fuzzy
 msgid "Fold this birdwatching hotspot details"
 msgstr "Διπλώστε αυτή παρατήρηση πουλιών λεπτομέρειες hotspot"
 
-#: views/components/places.jade:111
+#: views/components/places.jade:112
 #, fuzzy
 msgid "Birdwatching hotspots"
 msgstr "Απόκρυψη hotspots παρατήρηση πουλιών"
 
 #. L10n: square brackets [] denote a link
-#: views/components/places.jade:117
+#: views/components/places.jade:118
 #, fuzzy
 msgid "The bird sightings provided by [eBird.org]"
 msgstr "Οι αναγνωρίσεις πουλί που παρέχονται από [eBird.org]"
 
-#: views/components/places.jade:119
+#: views/components/places.jade:120
 #, fuzzy
 msgid "No recent bird sightings"
 msgstr "Δεν υπάρχουν πρόσφατες εμφανίσεις πουλιών"
 
-#: views/components/places.jade:122
+#: views/components/places.jade:123
 #, fuzzy
 msgid "See this trail guide"
 msgstr "Διπλώστε αυτό το μονοπάτι λεπτομέρειες"
 
-#: views/components/places.jade:124 views/components/places.jade:178
-#: views/components/places.jade:229 views/components/places.jade:410
+#: views/components/places.jade:125 views/components/places.jade:173
+#: views/components/places.jade:224 views/components/places.jade:405
 #, fuzzy
 msgid "Stop and take this trail"
 msgstr "Σταματήστε και πάρτε τον χάρτη"
 
-#: views/components/places.jade:125 views/components/places.jade:179
-#: views/components/places.jade:230 views/components/places.jade:411
-#: views/components/places.jade:422
+#: views/components/places.jade:126 views/components/places.jade:174
+#: views/components/places.jade:225 views/components/places.jade:406
+#: views/components/places.jade:417
 #, fuzzy
 msgid "Add this trail as a skipped stop"
 msgstr "Προσθέστε αυτό το μονοπάτι ως παραλειφθεί στάση"
 
-#: views/components/places.jade:126 views/components/places.jade:180
-#: views/components/places.jade:231
+#: views/components/places.jade:127 views/components/places.jade:175
+#: views/components/places.jade:226
 #, fuzzy
 msgid "Take this trail"
 msgstr "Πάρτε αυτό το μονοπάτι"
 
-#: views/components/places.jade:127 views/components/places.jade:181
-#: views/components/places.jade:232
+#: views/components/places.jade:128 views/components/places.jade:176
+#: views/components/places.jade:227
 #, fuzzy
 msgid "Reverse this trail"
 msgstr "Αντίστροφη τον χάρτη"
 
-#: views/components/places.jade:128
+#: views/components/places.jade:129
 #, fuzzy
 msgid "Fold this guide details"
 msgstr "Διπλώστε αυτό λεπτομέρειες οδηγό"
 
-#: views/components/places.jade:129 views/components/places.jade:183
-#: views/components/places.jade:234
+#: views/components/places.jade:130 views/components/places.jade:178
+#: views/components/places.jade:229
 #, fuzzy
 msgid "Trail"
 msgstr "μονοπάτια ATV"
 
-#: views/components/places.jade:130
+#: views/components/places.jade:131
 #, fuzzy
 msgid "Hide guides"
 msgstr "Απόκρυψη μουσεία"
 
-#: views/components/places.jade:131
+#: views/components/places.jade:132
 #, fuzzy
 msgid "Trail guides"
 msgstr "μονοπάτια ATV"
 
-#: views/components/places.jade:140 views/components/places.jade:388
-#: views/components/places.jade:530
+#: views/components/places.jade:141 views/components/places.jade:383
+#: views/components/places.jade:525
 #, fuzzy
 msgid "Stop at this place"
 msgstr "Σταματήστε σε αυτό τον τόπο"
 
-#: views/components/places.jade:144 views/components/places.jade:535
+#: views/components/places.jade:145 views/components/places.jade:530
 #, fuzzy
 msgid "Recommended places"
 msgstr "Επανάληψη Προσθήκη τόπου"
 
-#: views/components/places.jade:152
-msgid "See description of this ferry terminal"
-msgstr ""
-
-#: views/components/places.jade:153
-msgid "See this ferry terminal own website"
-msgstr ""
-
-#: views/components/places.jade:154
-msgid "Stop and get food at this ferry terminal"
-msgstr ""
-
-#: views/components/places.jade:155
-msgid "Add this ferry terminal as a skipped stop"
-msgstr ""
-
-#: views/components/places.jade:156
-msgid "Fold this ferry terminal details"
-msgstr ""
-
-#: views/components/places.jade:157
-msgid "Ferry terminal"
-msgstr ""
-
-#: views/components/places.jade:166
+#: views/components/places.jade:161
 msgid "Stop and get food at this place"
 msgstr ""
 
-#: views/components/places.jade:170
+#: views/components/places.jade:165
 msgid "Hide establishments"
 msgstr ""
 
-#: views/components/places.jade:171
+#: views/components/places.jade:166
 msgid "Establishments"
 msgstr ""
 
-#: views/components/places.jade:176 views/components/places.jade:226
+#: views/components/places.jade:171 views/components/places.jade:221
 #, fuzzy
 msgid "See this trail description"
 msgstr "Δείτε αυτή την περιγραφή διαδρομή σε EveryTrail"
 
-#: views/components/places.jade:177 views/components/places.jade:285
-#: views/components/places.jade:473
+#: views/components/places.jade:172 views/components/places.jade:280
+#: views/components/places.jade:468
 #, fuzzy
 msgid "See author's profile"
 msgstr "Δείτε το προφίλ του συντάκτη σε MBPost"
 
-#: views/components/places.jade:182 views/components/places.jade:233
-#: views/components/places.jade:412 views/components/places.jade:423
+#: views/components/places.jade:177 views/components/places.jade:228
+#: views/components/places.jade:407 views/components/places.jade:418
 #, fuzzy
 msgid "Fold this trail details"
 msgstr "Διπλώστε αυτό το μονοπάτι λεπτομέρειες"
 
-#: views/components/places.jade:184 views/components/places.jade:414
-#: views/components/places.jade:425
+#: views/components/places.jade:179 views/components/places.jade:409
+#: views/components/places.jade:420
 #, fuzzy
 msgid "Hide trails"
 msgstr "Απόκρυψη ATV μονοπάτια"
 
 #. L10n: 'trail recording' - recording of a trail made with a GPS tracking app or device
-#: views/components/places.jade:185 views/components/places.jade:189
+#: views/components/places.jade:180 views/components/places.jade:184
 msgid "Trail recordings"
 msgstr ""
 
-#: views/components/places.jade:212 views/components/places.jade:398
+#: views/components/places.jade:207 views/components/places.jade:393
 #, fuzzy
 msgid "Stop at this road"
 msgstr "Σταματήστε σε αυτό το αεροδρόμιο"
 
-#: views/components/places.jade:213 views/components/places.jade:399
+#: views/components/places.jade:208 views/components/places.jade:394
 #, fuzzy
 msgid "Add this road as a skipped stop"
 msgstr "Προσθέστε αυτό το μονοπάτι ως παραλειφθεί στάση"
 
-#: views/components/places.jade:214 views/components/places.jade:400
+#: views/components/places.jade:209 views/components/places.jade:395
 #, fuzzy
 msgid "Ride this road"
 msgstr "Βόλτα αυτή μοτοσικλέτα δρόμου"
 
-#: views/components/places.jade:215 views/components/places.jade:401
+#: views/components/places.jade:210 views/components/places.jade:396
 #, fuzzy
 msgid "Reverse this road"
 msgstr "Αντίστροφη αυτή τη διαδρομή"
 
-#: views/components/places.jade:216 views/components/places.jade:402
+#: views/components/places.jade:211 views/components/places.jade:397
 #, fuzzy
 msgid "Fold this road details"
 msgstr "Διπλώστε αυτό λεπτομέρειες διαδρομής"
 
-#: views/components/places.jade:217
+#: views/components/places.jade:212
 #, fuzzy
 msgid "Hide roads"
 msgstr "Απόκρυψη πάρκα"
 
 #. L10n: 'gravel road' meaning unpaved or dirt road
-#: views/components/places.jade:218 views/components/places.jade:222
+#: views/components/places.jade:213 views/components/places.jade:217
 #, fuzzy
 msgid "Gravel roads"
 msgstr "Ταξίδι εκτός δρόμου"
 
-#: views/components/places.jade:227
+#: views/components/places.jade:222
 #, fuzzy
 msgid "See this trail maintainer"
 msgstr "Ανοίξτε αυτό το δρομολόγιο ταξίδι"
 
-#: views/components/places.jade:228
+#: views/components/places.jade:223
 #, fuzzy
 msgid "See this trail reviews"
 msgstr "Διπλώστε αυτό το μονοπάτι λεπτομέρειες"
 
 #. L10n: 'incident' means 'a wild or prescribed fire incident'
-#: views/components/places.jade:242
+#: views/components/places.jade:237
 #, fuzzy
 msgid "See description of this incident"
 msgstr "Δείτε την περιγραφή αυτού του περιστατικού σε InciWeb"
 
 #. L10n: 'incident' means 'a wild or prescribed fire incident'
-#: views/components/places.jade:243 views/components/places.jade:249
+#: views/components/places.jade:238 views/components/places.jade:244
 #, fuzzy
 msgid "Add this incident as a skipped stop"
 msgstr "Προσθέστε αυτό το περιστατικό ως παραλειφθεί στάση"
 
 #. L10n: 'incident' means 'a wild or prescribed fire incident'
-#: views/components/places.jade:244 views/components/places.jade:251
+#: views/components/places.jade:239 views/components/places.jade:246
 #, fuzzy
 msgid "Fold this incident details"
 msgstr "Διπλώστε αυτό το περιστατικό λεπτομέρειες"
 
 #. L10n: 'incident' means 'a wild or prescribed fire incident'
-#: views/components/places.jade:253
+#: views/components/places.jade:248
 #, fuzzy
 msgid "Hide incidents"
 msgstr "περιστατικά Πυρκαγιών"
 
-#: views/components/places.jade:260
+#: views/components/places.jade:255
 #, fuzzy
 msgid "Check out lift ticket deals"
 msgstr "Ελέγξτε τις τιμές των εισιτηρίων των λιφτ, στο Liftopia"
 
-#: views/components/places.jade:262
+#: views/components/places.jade:257
 #, fuzzy
 msgid "Stop and ski at this resort"
 msgstr "Σταματήστε και σκι στο θέρετρο"
 
-#: views/components/places.jade:263
+#: views/components/places.jade:258
 #, fuzzy
 msgid "Add this ski resort as a skipped stop"
 msgstr "Προσθέστε αυτό το χιονοδρομικό κέντρο ως παραλειφθεί στάση"
 
-#: views/components/places.jade:264
+#: views/components/places.jade:259
 #, fuzzy
 msgid "Fold this ski resort details"
 msgstr "Διπλώστε αυτό χιονοδρομικό θέρετρο λεπτομέρειες"
 
-#: views/components/places.jade:265
+#: views/components/places.jade:260
 #, fuzzy
 msgid "Hide ski resorts"
 msgstr "περιοχές Απόκρυψη σκι"
 
-#: views/components/places.jade:266
+#: views/components/places.jade:261
 #, fuzzy
 msgid "Ski resorts"
 msgstr "Τα χιονοδρομικά κέντρα"
 
-#: views/components/places.jade:272
+#: views/components/places.jade:267
 #, fuzzy
 msgid "See review of this sight"
 msgstr "Δείτε επανεξέταση Fodor γι 'αυτή θέαμα"
 
-#: views/components/places.jade:273
+#: views/components/places.jade:268
 #, fuzzy
 msgid "See this sight own website"
 msgstr "Δείτε αυτό το θέαμα δική του ιστοσελίδα"
 
-#: views/components/places.jade:275
+#: views/components/places.jade:270
 #, fuzzy
 msgid "Stop at this sight"
 msgstr "Σταματήστε σε αυτό το θέαμα"
 
-#: views/components/places.jade:276
+#: views/components/places.jade:271
 #, fuzzy
 msgid "Add this sight as a skipped stop"
 msgstr "Προσθέστε αυτό το θέαμα ως παραλειφθεί στάση"
 
-#: views/components/places.jade:277
+#: views/components/places.jade:272
 #, fuzzy
 msgid "Fold this sight details"
 msgstr "Διπλώστε αυτό το θέαμα λεπτομέρειες"
 
-#: views/components/places.jade:278
+#: views/components/places.jade:273
 #, fuzzy
 msgid "Hide sights"
 msgstr "Απόκρυψη ξενοδοχεία"
 
-#: views/components/places.jade:279
+#: views/components/places.jade:274
 #, fuzzy
 msgid "Sights and attractions"
 msgstr "ποδηλατόδρομοι και τα κομμάτια"
 
-#: views/components/places.jade:284 views/components/places.jade:431
+#: views/components/places.jade:279 views/components/places.jade:426
 #, fuzzy
 msgid "See description of this bike track"
 msgstr "Δείτε την περιγραφή αυτής της διαδρομής ποδήλατο σε MBPost"
 
-#: views/components/places.jade:287 views/components/places.jade:432
+#: views/components/places.jade:282 views/components/places.jade:427
 #, fuzzy
 msgid "Stop and ride this bike track"
 msgstr "Σταματήστε και βόλτα αυτό το κομμάτι ποδήλατο"
 
-#: views/components/places.jade:288 views/components/places.jade:433
+#: views/components/places.jade:283 views/components/places.jade:428
 #, fuzzy
 msgid "Add this bike track as a skipped stop"
 msgstr "Προσθέστε αυτό το κομμάτι το ποδήλατο ως παραλειφθεί στάση"
 
-#: views/components/places.jade:289
+#: views/components/places.jade:284
 #, fuzzy
 msgid "Ride this bike track"
 msgstr "Βόλτα αυτό το κομμάτι ποδήλατο"
 
-#: views/components/places.jade:290
+#: views/components/places.jade:285
 #, fuzzy
 msgid "Reverse this bike track"
 msgstr "Αντίστροφη αυτό το κομμάτι ποδήλατο"
 
-#: views/components/places.jade:291 views/components/places.jade:434
+#: views/components/places.jade:286 views/components/places.jade:429
 #, fuzzy
 msgid "Fold this bike track details"
 msgstr "Διπλώστε αυτό το ποδήλατο λεπτομέρειες πίστα"
 
-#: views/components/places.jade:292 views/components/places.jade:436
+#: views/components/places.jade:287 views/components/places.jade:431
 #, fuzzy
 msgid "Hide bike tracks"
 msgstr "Βόλτα αυτό το κομμάτι ποδήλατο"
 
-#: views/components/places.jade:293 views/components/places.jade:437
+#: views/components/places.jade:288 views/components/places.jade:432
 #, fuzzy
 msgid "Bike tracks"
 msgstr "διαδρομές"
 
-#: views/components/places.jade:312
+#: views/components/places.jade:307
 #, fuzzy
 msgid "See Motor Vehicle Use Maps at U.S. Forest Service"
 msgstr "Δείτε Οχημάτων Χάρτες Χρήση σε Δασικής Υπηρεσίας των ΗΠΑ"
 
-#: views/components/places.jade:313
+#: views/components/places.jade:308
 #, fuzzy
 msgid "Stop at this road or trail"
 msgstr "Σταματήστε σε αυτό το δρόμο ή μονοπάτι"
 
-#: views/components/places.jade:314
+#: views/components/places.jade:309
 #, fuzzy
 msgid "Add this road or trail as a skipped stop"
 msgstr "Προσθέστε αυτό το δρόμο ή μονοπάτι ως παραλειφθεί στάση"
 
-#: views/components/places.jade:315
+#: views/components/places.jade:310
 #, fuzzy
 msgid "Travel this road or trail"
 msgstr "Ταξιδέψτε αυτό το δρόμο ή μονοπάτι"
 
-#: views/components/places.jade:316
+#: views/components/places.jade:311
 #, fuzzy
 msgid "Reverse this road or trail"
 msgstr "Αντίστροφη αυτό το δρόμο ή μονοπάτι"
 
-#: views/components/places.jade:317
+#: views/components/places.jade:312
 #, fuzzy
 msgid "Fold this road or trail details"
 msgstr "Διπλώστε το δρόμο ή μονοπάτι λεπτομέρειες"
 
-#: views/components/places.jade:318
+#: views/components/places.jade:313
 #, fuzzy
 msgid "Hide Motor Vehicle Use Maps"
 msgstr "Απόκρυψη των ΗΠΑ Δασική Υπηρεσία Οχημάτων Χάρτες Χρήση"
 
-#: views/components/places.jade:319
+#: views/components/places.jade:314
 #, fuzzy
 msgid "U.S. Forest Service Motor Vehicle Use Maps"
 msgstr "US Forest Service Αυτοκινήτου Χάρτες Χρήση Οχημάτων"
 
-#: views/components/places.jade:324 views/components/places.jade:333
+#: views/components/places.jade:319 views/components/places.jade:328
 #, fuzzy
 msgid "See charging station network"
 msgstr "Δείτε τη φόρτιση του δικτύου σταθμών"
 
-#: views/components/places.jade:325 views/components/places.jade:334
+#: views/components/places.jade:320 views/components/places.jade:329
 #, fuzzy
 msgid "Add this charging station to your trip"
 msgstr "Προσθέστε αυτό το σταθμό φόρτισης για το ταξίδι σας"
 
-#: views/components/places.jade:326 views/components/places.jade:335
+#: views/components/places.jade:321 views/components/places.jade:330
 #, fuzzy
 msgid "Add this charging station as a skipped stop"
 msgstr "Προσθέστε αυτό το σταθμό φόρτισης ως παραλειφθεί στάση"
 
-#: views/components/places.jade:327 views/components/places.jade:336
+#: views/components/places.jade:322 views/components/places.jade:331
 #, fuzzy
 msgid "Fold this charging station details"
 msgstr "Διπλώστε αυτό τα στοιχεία του σταθμού φόρτισης"
 
-#: views/components/places.jade:342
+#: views/components/places.jade:337
 #, fuzzy
 msgid "See description of this airport"
 msgstr "Δείτε την περιγραφή αυτού του τόπου"
 
-#: views/components/places.jade:343
+#: views/components/places.jade:338
 #, fuzzy
 msgid "Stop at this airport"
 msgstr "Σταματήστε σε αυτό το αεροδρόμιο"
 
-#: views/components/places.jade:344
+#: views/components/places.jade:339
 #, fuzzy
 msgid "Add this airport as a skipped stop"
 msgstr "Πρόσθεσε το αεροδρόμιο ως παραλειφθεί στάση"
 
-#: views/components/places.jade:345
+#: views/components/places.jade:340
 #, fuzzy
 msgid "Fold this airport details"
 msgstr "Διπλώστε αυτό στοιχεία αεροδρομίου"
 
-#: views/components/places.jade:347
+#: views/components/places.jade:342
 #, fuzzy
 msgid "Airports and airfields"
 msgstr "Υπαίθρια αθλήματα και δραστηριότητες"
 
-#: views/components/places.jade:351 views/components/places.jade:442
-#: views/components/places.jade:472
+#: views/components/places.jade:346 views/components/places.jade:437
+#: views/components/places.jade:467
 #, fuzzy
 msgid "See description of this peak"
 msgstr "Δείτε την περιγραφή αυτού του τόπου"
 
-#: views/components/places.jade:352
+#: views/components/places.jade:347
 #, fuzzy
 msgid "See climber's profile"
 msgstr "Δείτε το προφίλ του συντάκτη σε MBPost"
 
-#: views/components/places.jade:353 views/components/places.jade:443
-#: views/components/places.jade:475
+#: views/components/places.jade:348 views/components/places.jade:438
+#: views/components/places.jade:470
 #, fuzzy
 msgid "Stop and climb this peak"
 msgstr "Σταματήστε και πάρτε τον χάρτη"
 
-#: views/components/places.jade:354 views/components/places.jade:444
-#: views/components/places.jade:476
+#: views/components/places.jade:349 views/components/places.jade:439
+#: views/components/places.jade:471
 #, fuzzy
 msgid "Add this peak as a skipped stop"
 msgstr "Προσθέστε αυτό το μέρος ως παραλειφθεί στάση"
 
-#: views/components/places.jade:355 views/components/places.jade:445
-#: views/components/places.jade:477
+#: views/components/places.jade:350 views/components/places.jade:440
+#: views/components/places.jade:472
 #, fuzzy
 msgid "Fold this peak details"
 msgstr "Διπλώστε αυτό στοιχεία της συμφωνίας"
 
-#: views/components/places.jade:356 views/components/places.jade:403
-#: views/components/places.jade:447 views/components/places.jade:478
+#: views/components/places.jade:351 views/components/places.jade:398
+#: views/components/places.jade:442 views/components/places.jade:473
 #, fuzzy
 msgid "Hide peaks and routes"
 msgstr "Απόκρυψη πάρκα και τα φυσικά χαρακτηριστικά"
 
-#: views/components/places.jade:357 views/components/places.jade:404
-#: views/components/places.jade:448 views/components/places.jade:479
+#: views/components/places.jade:352 views/components/places.jade:399
+#: views/components/places.jade:443 views/components/places.jade:474
 #, fuzzy
 msgid "Peaks and routes"
 msgstr "Επανάληψη προσθέσετε διαδρομή"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:363
+#: views/components/places.jade:358
 #, fuzzy
 msgid "See this ethanol-free gas station page"
 msgstr "Δείτε αυτό το αιθανόλη-free σελίδα βενζινάδικο στο pure-gas.org"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:364 views/components/places.jade:369
+#: views/components/places.jade:359 views/components/places.jade:364
 #, fuzzy
 msgid "Fill up at this ethanol-free gas station"
 msgstr "Γεμίστε σε αυτό το βενζινάδικο χωρίς αιθανόλη"
 
 #. L10n: square brackets [] denote a link. "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: views/components/places.jade:378
+#: views/components/places.jade:373
 #, fuzzy
 msgid "The list of ethanol-free gas stations by [pure-gas.org]"
 msgstr "Ο κατάλογος των βενζινάδικα αιθανόλης ατελώς από [pure-gas.org]"
 
 #. L10n: square brackets [] denote a link
-#: views/components/places.jade:380
+#: views/components/places.jade:375
 #, fuzzy
 msgid "with [permission]"
 msgstr "με την [άδεια]"
 
-#: views/components/places.jade:391
+#: views/components/places.jade:386
 #, fuzzy
 msgid "Hide places and activities"
 msgstr "Απόκρυψη πάρκα και τα φυσικά χαρακτηριστικά"
 
-#: views/components/places.jade:392
+#: views/components/places.jade:387
 #, fuzzy
 msgid "Places and activities"
 msgstr "Μέρη και δραστηριότητες από Recreation.gov"
 
-#: views/components/places.jade:409 views/components/places.jade:420
+#: views/components/places.jade:404 views/components/places.jade:415
 #, fuzzy
 msgid "See description of this trail"
 msgstr "Δείτε την περιγραφή αυτού του τόπου"
 
-#: views/components/places.jade:421
+#: views/components/places.jade:416
 #, fuzzy
 msgid "Stop and ski this trail"
 msgstr "Σταματήστε και πάρτε τον χάρτη"
 
-#: views/components/places.jade:426
+#: views/components/places.jade:421
 msgid "Backcountry ski trails"
 msgstr ""
 
-#: views/components/places.jade:464
+#: views/components/places.jade:459
 #, fuzzy
 msgid "See more information about this place"
 msgstr "Δείτε περισσότερες πληροφορίες σχετικά με αυτό το μέρος"
 
-#: views/components/places.jade:465
+#: views/components/places.jade:460
 #, fuzzy
 msgid "Copy stop from its trip to this one"
 msgstr "Αντιγράψτε στάση από το ταξίδι του προς αυτό"
 
-#: views/components/places.jade:466
+#: views/components/places.jade:461
 #, fuzzy
 msgid "Add as a skipped stop"
 msgstr "Προσθήκη ως παραλειφθεί στάση"
 
-#: views/components/places.jade:467
+#: views/components/places.jade:462
 #, fuzzy
 msgid "Copy route to the next stop"
 msgstr "Αντιγραφή διαδρομή προς την επόμενη στάση"
 
-#: views/components/places.jade:468
+#: views/components/places.jade:463
 #, fuzzy
 msgid "Reverse route when copying"
 msgstr "Αντίστροφη διαδρομή κατά την αντιγραφή"
 
-#: views/components/places.jade:469 views/components/step-detail.jade:923
+#: views/components/places.jade:464 views/components/step-detail.jade:923
 #, fuzzy
 msgid "Fold this stop details"
 msgstr "Διπλώστε αυτό λεπτομέρειες στάση"
 
-#: views/components/places.jade:484
+#: views/components/places.jade:479
 #, fuzzy
 msgid "Open this trip"
 msgstr "Ανοίξτε αυτό το ταξίδι"
 
-#: views/components/places.jade:485 views/components/places.jade:493
+#: views/components/places.jade:480 views/components/places.jade:488
 #, fuzzy
 msgid "Stop at this trip starting point"
 msgstr "Σταματήστε σε αυτό το σημείο εκκίνησης ταξίδι"
 
-#: views/components/places.jade:486 views/components/places.jade:494
+#: views/components/places.jade:481 views/components/places.jade:489
 #, fuzzy
 msgid "Add this trip starting point as a skipped stop"
 msgstr "Προσθέστε αυτό το σημείο εκκίνησης ταξίδι ως παραλειφθεί στάση"
 
-#: views/components/places.jade:487
+#: views/components/places.jade:482
 #, fuzzy
 msgid "Copy the entire trip to this one"
 msgstr "Αντιγράψτε ολόκληρο το ταξίδι με αυτό"
 
-#: views/components/places.jade:488
+#: views/components/places.jade:483
 #, fuzzy
 msgid "Reverse this trip when copying"
 msgstr "Αντίστροφη αυτό το ταξίδι κατά την αντιγραφή"
 
-#: views/components/places.jade:489 views/components/places.jade:497
+#: views/components/places.jade:484 views/components/places.jade:492
 #, fuzzy
 msgid "Fold this trip details"
 msgstr "Διπλώστε αυτό λεπτομέρειες του ταξιδιού"
 
-#: views/components/places.jade:492
+#: views/components/places.jade:487
 #, fuzzy
 msgid "See more information about this trip"
 msgstr "Δείτε περισσότερες πληροφορίες σχετικά με αυτό το ταξίδι"
 
-#: views/components/places.jade:495
+#: views/components/places.jade:490
 #, fuzzy
 msgid "Add this trip to yours"
 msgstr "Προσθέστε αυτό το ταξίδι με τη δική σας"
 
-#: views/components/places.jade:496
+#: views/components/places.jade:491
 #, fuzzy
 msgid "Reverse this trip when adding"
 msgstr "Αντίστροφη αυτό το ταξίδι, όταν η προσθήκη"
 
-#: views/components/places.jade:498
+#: views/components/places.jade:493
 #, fuzzy
 msgid "Hide trips shared by Furkot community"
 msgstr "Απόκρυψη ταξίδια μοιράζονται Furkot κοινότητα"
 
-#: views/components/places.jade:499
+#: views/components/places.jade:494
 #, fuzzy
 msgid "Trips shared by Furkot community"
 msgstr "Ταξίδια μοιράζονται Furkot κοινότητα"
 
-#: views/components/places.jade:504
+#: views/components/places.jade:499
 #, fuzzy
 msgid "See description of this surf spot"
 msgstr "Δείτε την περιγραφή αυτού του τόπου σερφάρετε στο WannaSurf"
 
-#: views/components/places.jade:506
+#: views/components/places.jade:501
 #, fuzzy
 msgid "Stop and surf at this spot"
 msgstr "Σταματήστε και να σερφάρετε σε αυτό το σημείο"
 
-#: views/components/places.jade:507
+#: views/components/places.jade:502
 #, fuzzy
 msgid "Add this surf spot as a skipped stop"
 msgstr "Προσθέστε αυτό το σημείο surf ως παραλειφθεί στάση"
 
-#: views/components/places.jade:508
+#: views/components/places.jade:503
 #, fuzzy
 msgid "Fold this surf spot details"
 msgstr "Διπλώστε αυτό το surf λεπτομέρειες spot"
 
-#: views/components/places.jade:515
+#: views/components/places.jade:510
 #, fuzzy
 msgid "Read this article"
 msgstr "Διαβάστε αυτό το άρθρο στη Wikipedia"
 
-#: views/components/places.jade:519
+#: views/components/places.jade:514
 #, fuzzy
 msgid "Fold this article details"
 msgstr "Διπλώστε αυτό το άρθρο λεπτομέρειες"
 
-#: views/components/places.jade:520
+#: views/components/places.jade:515
 #, fuzzy
 msgid "Hide articles"
 msgstr "Απόκρυψη θέσεις"
 
-#: views/components/places.jade:521
+#: views/components/places.jade:516
 #, fuzzy
 msgid "Articles from Wikipedia, the free encyclopedia"
 msgstr "Άρθρα από τη Βικιπαίδεια, την ελεύθερη εγκυκλοπαίδεια"
@@ -9390,81 +9370,81 @@ msgstr ""
 "χάρτη, μάθετε περισσότερα αξιοθέατα και διαμονή επιλογές."
 
 #, fuzzy
-#~ msgid "Regular"
-#~ msgstr "Τακτικός"
-
-#, fuzzy
-#~ msgid "Wineries and vineyards"
-#~ msgstr "Breweries, οινοποιεία και μπαρ"
-
-#, fuzzy
-#~ msgid "Hide wineries"
-#~ msgstr "περιστατικά Πυρκαγιών"
-
-#, fuzzy
-#~ msgid "Fold this winery details"
-#~ msgstr "Διπλώστε αυτό λεπτομέρειες οινοποιείο"
-
-#, fuzzy
-#~ msgid "Add this winery as a skipped stop"
-#~ msgstr "Προσθέστε αυτό το οινοποιείο ως παραλειφθεί στάση"
-
-#, fuzzy
-#~ msgid "Stop at this winery"
-#~ msgstr "Σταματήστε σε αυτό το οινοποιείο"
-
-#, fuzzy
-#~ msgid "See this winery own website"
-#~ msgstr "Δείτε αυτό το οινοποιείο δική του ιστοσελίδα"
-
-#, fuzzy
-#~ msgid "See description of this winery"
-#~ msgstr "Δείτε την περιγραφή αυτού του τόπου"
-
-#, fuzzy
-#~ msgid "Recommended restaurants"
-#~ msgstr "Απόκρυψη εστιατόρια"
-
-#, fuzzy
-#~ msgid "Fold this restaurant details"
-#~ msgstr "Διπλώστε αυτό στοιχεία εστιατορίου"
-
-#, fuzzy
-#~ msgid "Add this restaurant as a skipped stop"
-#~ msgstr "Προσθέστε αυτό το εστιατόριο ως παραλειφθεί στάση"
-
-#, fuzzy
-#~ msgid "Stop and eat at this restaurant"
-#~ msgstr "Σταματήστε και να φάτε σε αυτό το εστιατόριο"
-
-#, fuzzy
-#~ msgid "See this restaurant own website"
-#~ msgstr "Δείτε αυτό το εστιατόριο δική του ιστοσελίδα"
-
-#, fuzzy
-#~ msgid "See this restaurant page"
-#~ msgstr "Δείτε αυτή τη σελίδα εστιατόριο στο Yelp"
-
-#, fuzzy
-#~ msgid "Farmers markets"
-#~ msgstr "λαϊκές αγορές"
-
-#, fuzzy
-#~ msgid "Hide farmers markets"
-#~ msgstr "Απόκρυψη αγορές αγροτών"
-
-#, fuzzy
-#~ msgid "Fold this farmers market details"
-#~ msgstr "Διπλώστε αυτό λεπτομέρειες αγρότες της αγοράς"
-
-#, fuzzy
-#~ msgid "Add this farmers market as a skipped stop"
-#~ msgstr "Προσθέστε αυτή την αγορά αγροτών ως παραλειφθεί στάση"
+#~ msgid "See this farmers market own website"
+#~ msgstr "Δείτε αυτό οι αγρότες αγορά τη δική του ιστοσελίδα"
 
 #, fuzzy
 #~ msgid "Stop at this farmers market"
 #~ msgstr "Σταματήστε σε αυτή την αγορά αγροτών"
 
 #, fuzzy
-#~ msgid "See this farmers market own website"
-#~ msgstr "Δείτε αυτό οι αγρότες αγορά τη δική του ιστοσελίδα"
+#~ msgid "Add this farmers market as a skipped stop"
+#~ msgstr "Προσθέστε αυτή την αγορά αγροτών ως παραλειφθεί στάση"
+
+#, fuzzy
+#~ msgid "Fold this farmers market details"
+#~ msgstr "Διπλώστε αυτό λεπτομέρειες αγρότες της αγοράς"
+
+#, fuzzy
+#~ msgid "Hide farmers markets"
+#~ msgstr "Απόκρυψη αγορές αγροτών"
+
+#, fuzzy
+#~ msgid "Farmers markets"
+#~ msgstr "λαϊκές αγορές"
+
+#, fuzzy
+#~ msgid "See this restaurant page"
+#~ msgstr "Δείτε αυτή τη σελίδα εστιατόριο στο Yelp"
+
+#, fuzzy
+#~ msgid "See this restaurant own website"
+#~ msgstr "Δείτε αυτό το εστιατόριο δική του ιστοσελίδα"
+
+#, fuzzy
+#~ msgid "Stop and eat at this restaurant"
+#~ msgstr "Σταματήστε και να φάτε σε αυτό το εστιατόριο"
+
+#, fuzzy
+#~ msgid "Add this restaurant as a skipped stop"
+#~ msgstr "Προσθέστε αυτό το εστιατόριο ως παραλειφθεί στάση"
+
+#, fuzzy
+#~ msgid "Fold this restaurant details"
+#~ msgstr "Διπλώστε αυτό στοιχεία εστιατορίου"
+
+#, fuzzy
+#~ msgid "Recommended restaurants"
+#~ msgstr "Απόκρυψη εστιατόρια"
+
+#, fuzzy
+#~ msgid "See description of this winery"
+#~ msgstr "Δείτε την περιγραφή αυτού του τόπου"
+
+#, fuzzy
+#~ msgid "See this winery own website"
+#~ msgstr "Δείτε αυτό το οινοποιείο δική του ιστοσελίδα"
+
+#, fuzzy
+#~ msgid "Stop at this winery"
+#~ msgstr "Σταματήστε σε αυτό το οινοποιείο"
+
+#, fuzzy
+#~ msgid "Add this winery as a skipped stop"
+#~ msgstr "Προσθέστε αυτό το οινοποιείο ως παραλειφθεί στάση"
+
+#, fuzzy
+#~ msgid "Fold this winery details"
+#~ msgstr "Διπλώστε αυτό λεπτομέρειες οινοποιείο"
+
+#, fuzzy
+#~ msgid "Hide wineries"
+#~ msgstr "περιστατικά Πυρκαγιών"
+
+#, fuzzy
+#~ msgid "Wineries and vineyards"
+#~ msgstr "Breweries, οινοποιεία και μπαρ"
+
+#, fuzzy
+#~ msgid "Regular"
+#~ msgstr "Τακτικός"
