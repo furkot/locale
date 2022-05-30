@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2022-04-23 16:20+0200\n"
-"PO-Revision-Date: 2021-05-26 14:08+0000\n"
-"Last-Translator: Damian Krzeminski <pirxpilot@code42day.com>\n"
+"PO-Revision-Date: 2022-05-30 15:39+0000\n"
+"Last-Translator: Sayed Husain Khalaf <hussainkhalaf@gmail.com>\n"
 "Language-Team: Arabic <https://translate.furkot.com/projects/furkot/trips/ar/"
 ">\n"
 "Language: ar\n"
@@ -13,48 +13,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: views/app.jade:4
-#, fuzzy
 msgid "My Trips"
 msgstr "رحلاتي"
 
 #. L10n: square brackets [] denote a link
 #: views/board/board.jade:10 views/tripshot/mixin.jade:180
-#, fuzzy
 msgid "Plan with [Furkot]"
-msgstr "خطة مع [Furkot]"
+msgstr "خطط مع [Furkot]"
 
 #. L10n: 'Zoom in' meaning 'Change map scale to show less area but more details'
 #: views/board/board.jade:14 views/components/map.jade:61
-#, fuzzy
 msgid "Zoom in"
 msgstr "تكبير"
 
 #. L10n: 'Zoom out' meaning 'Change map scale to show more area but less details'
 #: views/board/board.jade:15 views/components/map.jade:64
-#, fuzzy
 msgid "Zoom out"
 msgstr "تصغير"
 
 #. L10n: 'Show he entire trip' as in 'Show all stops of the trip on the map'
 #: views/board/board.jade:17 views/components/map.jade:68
-#, fuzzy
 msgid "Show the entire trip"
 msgstr "عرض الرحلة بأكملها"
 
 #. L10n: "Place location" (location of the place) is the name or address of a place that the user wants to add to the trip
 #: views/board/board.jade:21
-#, fuzzy
 msgid "Place location"
-msgstr "مكان موقع"
+msgstr "موقع المكان"
 
 #. L10n: 'Suggest' as in 'Suggest a place to visit'
 #: views/board/board.jade:30
-#, fuzzy
 msgid "Suggest"
-msgstr "اقترح"
+msgstr "إقترح"
 
 #: views/board/board.jade:32 views/components/accounts.jade:82
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:13
@@ -84,190 +77,162 @@ msgstr "اقترح"
 #: views/components/trip-detail.jade:840 views/components/trip-detail.jade:848
 #: views/components/trip-detail.jade:858 views/components/trip-toolbar.jade:22
 #: views/components/trip-toolbar.jade:59 views/tripshot/mixin.jade:121
-#, fuzzy
 msgid "Cancel"
 msgstr "إلغاء"
 
 #: views/board/board.jade:33 views/components/applications.jade:21
 #: views/components/tour.jade:41
-#, fuzzy
 msgid "Close"
-msgstr "قريب"
+msgstr "اغلاق"
 
 #. L10n: curly brackets {} denote a placeholder for the trip name (destination)
 #: views/board/board.jade:39
-#, fuzzy
 msgid ""
 "Hi! I am planning a trip {}. I am hoping you can help me with that. This is "
 "my route so far."
 msgstr ""
-"مرحبا! أنا تخطط لرحلة {}. وأنا على أمل أن تتمكن من مساعدتي في ذلك. هذا هو "
+"مرحبا! أنا أخطط لرحلة {}. وأنا على أمل أن تتمكن من مساعدتي في ذلك. هذا هو "
 "طريقي حتى الآن."
 
 #: views/board/board.jade:40
-#, fuzzy
 msgid ""
 "If you know about any interesting places along my route please add them to "
 "this map. You can enter the name in the search box, or - if you know where "
 "the place is located - click on the map and choose from the list of places "
 "nearby. Add as many suggestions as you want."
 msgstr ""
-"إذا كنت تعرف عن أي أماكن مثيرة للاهتمام على طول طريقي يرجى إضافتها إلى هذه "
+"إذا كنت تعرف أماكن مثيرة للاهتمام على طول طريقي يرجى إضافتها إلى هذه "
 "الخريطة. يمكنك إدخال اسم في مربع البحث، أو - إذا كنت تعرف أين يقع المكان - "
-"النقر على الخريطة واختر من قائمة الأماكن القريبة. إضافة العديد من الاقتراحات "
-"على النحو الذي تريد."
+"أنقر على الخريطة واختر من قائمة الأماكن القريبة. قم بإضافة العديد من "
+"الاقتراحات على النحو الذي تريد."
 
 #: views/board/board.jade:41
-#, fuzzy
 msgid "Thanks for your help."
-msgstr "شكرا لمساعدتك."
+msgstr "شكرا للمساعدة."
 
 #: views/board/board.jade:44
-#, fuzzy
 msgid ""
 "This is the map of your trip that others will see. They will be able to "
 "suggest one or more places for you to visit on your trip."
 msgstr ""
-"هذه هي خريطة رحلة من شأنها أن يرى الآخرون. وسوف تكون قادرة على اقتراح واحد "
-"أو أكثر الأماكن بالنسبة لك لزيارة في رحلتك."
+"هذه خريطة رحلتك التي يمكن للآخرون رؤيتها. وسيكون بإمكانهم اقتراح الأماكن "
+"التي يمكن لك زيارتها في رحلتك."
 
 #: views/board/board.jade:45
-#, fuzzy
 msgid ""
 "Copy and paste this URL or use one of the share buttons to ask others to "
 "help you plan this trip."
 msgstr ""
-"نسخ ولصق هذا الرابط أو استخدام أحد الأزرار سهم لنطلب من الآخرين لمساعدتك على "
-"خطة هذه الرحلة."
+"إنسخ والصق هذا الرابط أو استخدم زر المشاركة للطلب من الآخرين مساعدتك في "
+"تخطيط هذه الرحلة."
 
 #: views/board/board.jade:78
-#, fuzzy
 msgid "Back"
-msgstr "الى الخلف"
+msgstr "رجوع"
 
 #. L10n: title of the trip board page, followed by trip name
 #: views/board/layout.jade:19
 msgid "Help me plan my trip:"
-msgstr ""
+msgstr "ساعدني في التخطيط لرحلتي:"
 
 #. L10n: description of the board page, used when shared on Facebook, Google+ etc.
 #: views/board/layout.jade:21
 msgid "Maybe you could suggest some places along the way that I should visit."
-msgstr ""
+msgstr "ربما يمكنك اقتراح بعض الأماكن على طول الطريق التي يجب أن أزورها."
 
 #: views/components/accounts.jade:2
-#, fuzzy
 msgid "Account Settings"
-msgstr "إعدادت الحساب"
+msgstr "إعدادات الحساب"
 
 #. L10n: Nickname is a private identifier used to sign in. Can be also translated as 'Alias' or 'Pseudonym'. We try to make it more comprehensive and less formal than username. Translate as 'Username' only if no better word is available
 #: views/components/accounts.jade:7
-#, fuzzy
 msgid "Nickname"
-msgstr "كنية"
+msgstr "اللقب"
 
 #. L10n: Nickname is a private identifier used to sign in. Can be also translated as 'Alias' or 'Pseudonym'. We try to make it more comprehensive and less formal than username. Translate as 'Username' only if no better word is available
 #: views/components/accounts.jade:10
-#, fuzzy
 msgid "Nickname is your private identifier used to sign in"
-msgstr "اللقب هو المعرف الخاص بك يستخدم لتسجيل الدخول"
+msgstr "اللقب هو المعرف الخاص بك المستخدم لتسجيل الدخول"
 
 #. L10n: Email in a sense of the "email address"
 #: views/components/accounts.jade:13 views/pass/index.jade:50
 #: views/welcome/password-forgot-page.jade:21
-#, fuzzy
 msgid "Email"
 msgstr "البريد الإلكتروني"
 
 #. L10n: Email in a sense of the "email address"
 #: views/components/accounts.jade:16
-#, fuzzy
 msgid "Email is only used to reset forgotten password and to share trips"
 msgstr ""
-"يستخدم البريد الإلكتروني فقط لإعادة تعيين كلمة المرور المنسية وتبادل الرحلات"
+"يستخدم البريد الإلكتروني فقط لإعادة تعيين كلمة المرور المنسية ومشاركة الرحلات"
 
 #. L10n: Email in a sense of the "email address"
 #: views/components/accounts.jade:18 views/components/accounts.jade:23
-#, fuzzy
 msgid "email is optional"
 msgstr "البريد الإلكتروني اختياري"
 
 #. L10n: Signature is a public name shown to others. It is NOT a username
 #: views/components/accounts.jade:26
-#, fuzzy
 msgid "Signature"
 msgstr "التوقيع"
 
 #. L10n: Signature is a public name shown to others. It is NOT a username
 #: views/components/accounts.jade:29
-#, fuzzy
 msgid "Signature is your public name shown to others"
-msgstr "يتم عرض اسم العمومي التوقيع على الآخرين"
+msgstr "التوقيع هو اسمك العام الذي يظهر للآخرين"
 
 #. L10n: hint displayed in the field for user's signature - a public name shown to others. Signature is NOT a username
 #: views/components/accounts.jade:30 views/components/accounts.jade:37
-#, fuzzy
 msgid "public name"
-msgstr "اسم العام"
+msgstr "الاسم العام"
 
 #: views/components/accounts.jade:39
-#, fuzzy
 msgid "Current Password"
 msgstr "كلمة السر الحالية"
 
 #. L10n: 'needed to change settings' as in 'password is needed to change settings'
 #: views/components/accounts.jade:43
-#, fuzzy
 msgid "needed to change settings"
-msgstr "هناك حاجة إلى تغيير إعدادات"
+msgstr "بحاجة لتغيير الإعدادات"
 
 #: views/components/accounts.jade:45
-#, fuzzy
 msgid "The current password is necessary to change settings"
-msgstr "هو ضروري لتغيير إعدادات كلمة المرور الحالية"
+msgstr "كلمة السر الحالية ضرورية لتغيير الإعدادات"
 
 #: views/components/accounts.jade:48 views/welcome/password-reset-page.jade:21
-#, fuzzy
 msgid "New Password"
 msgstr "كلمة السر الجديدة"
 
 #. L10n: Meaning: 'leave the field empty unless you are changing password or settings'
 #: views/components/accounts.jade:51
-#, fuzzy
 msgid "Leave it empty unless you want to change password"
-msgstr "اتركه فارغا إلا إذا كنت تريد تغيير كلمة المرور"
+msgstr "اتركه فارغا إلا إذا كنت تريد تغيير كلمة السر"
 
 #. L10n: 'leave empty unless changing' as in 'leave the field empty unless you are changing password or settings'
 #: views/components/accounts.jade:53 views/components/accounts.jade:58
-#, fuzzy
 msgid "leave empty unless changing"
-msgstr "ترك فارغا إلا إذا تغير"
+msgstr "اتركها فارغة ما لم تتغير"
 
 #: views/components/accounts.jade:61
-#, fuzzy
 msgid "Password changed successfully"
-msgstr "تم تغيير الرقم السري بنجاح"
+msgstr "تم تغيير كلمة السر بنجاح"
 
 #: views/components/accounts.jade:62
-#, fuzzy
 msgid "Settings changed successfully"
-msgstr "الإعدادات تغيرت بنجاح"
+msgstr "تم تغيير الإعدادات بنجاح"
 
 #. L10n: meaning 'Password cannot be changed'
 #: views/components/accounts.jade:65
-#, fuzzy
 msgid "Cannot change password"
 msgstr "لا يمكن تغيير كلمة المرور"
 
 #. L10n: meaning 'Settings cannot be changed'
 #: views/components/accounts.jade:67
-#, fuzzy
 msgid "Cannot change settings"
-msgstr "لا يمكن تغيير إعدادات"
+msgstr "لا يمكن تغيير الإعدادات"
 
 #. L10n: label for the list of social media accounts that the user connected to Furkot
 #: views/components/accounts.jade:72
-#, fuzzy
 msgid "Connected Accounts"
 msgstr "الحسابات المتصلة"
 
@@ -299,9 +264,8 @@ msgstr "الحسابات المتصلة"
 #: views/components/trip-detail.jade:873 views/components/trip-detail.jade:877
 #: views/components/trip-toolbar.jade:22 views/components/warning.jade:9
 #: views/tripshot/mixin.jade:124
-#, fuzzy
 msgid "OK"
-msgstr "حسنا"
+msgstr "نعم"
 
 #. L10n: 'Learn more' as in 'Learn more about this feature' - it links to a help article that describes the specific feature
 #: views/components/accounts.jade:86 views/components/applications.jade:18
@@ -328,636 +292,534 @@ msgstr "حسنا"
 #: views/components/trip-detail.jade:887 views/components/trip-detail.jade:893
 #: views/components/trip-toolbar.jade:49 views/pass/index.jade:101
 #: views/tripshot/mixin.jade:127 views/tripshot/mixin.jade:158
-#, fuzzy
 msgid "Learn more"
-msgstr "أعرف أكثر"
+msgstr "تعرف على المزيد"
 
 #. L10n: Caption of the message displayed when user clicked the 'Plan with Furkot' button on a partner website and was transfered to Furkot to select a trip to add stops to
 #: views/components/add-stops.jade:2 views/components/add-stops.jade:10
-#, fuzzy
 msgid "Plan stops"
-msgstr "توقف خطة"
+msgstr "توقف الخطة"
 
 #. L10n: 'Select a trip to add to.' as in 'Select a trip to add the stops listed above to.
 #: views/components/add-stops.jade:6
-#, fuzzy
 msgid "Select a trip to add to."
-msgstr "اختيار رحلة لإضافة ل."
+msgstr "حدد رحلة للإضافة إليها."
 
 #: views/components/add-stops.jade:13 views/components/trips.jade:4
-#, fuzzy
 msgid "New trip"
 msgstr "رحلة جديدة"
 
 #. L10n: the curly brackets {} stand for the language name
 #: views/components/add-stops.jade:15
-#, fuzzy
 msgid "Do you want to create your own version of a trip {}?"
-msgstr "هل ترغب في إنشاء نسخة خاصة بك من رحلة"
+msgstr "هل تريد إنشاء نسختك الخاصة من الرحلة {}؟"
 
 #. L10n: Caption of a dialog listing apps that work with Furkot
 #. L10n: Menu option that opens the panel listing apps that work with Furkot
 #: views/components/applications.jade:3 views/header.jade:34
-#, fuzzy
 msgid "Applications"
 msgstr "التطبيقات"
 
 #: views/components/applications.jade:6
-#, fuzzy
 msgid "You haven’t given any application access to your Furkot trips."
-msgstr "هل لم تعط أي وصول التطبيق لرحلات Furkot الخاص بك."
+msgstr "لم تمنح أي تطبيق وصولاً إلى رحلات Furkot الخاصة بك."
 
 #. L10n: 'We recommend:' as in 'We recommend the following applications that work with Furkot:' followed by the list of applications
 #: views/components/applications.jade:8
-#, fuzzy
 msgid "We recommend:"
 msgstr "نوصي:"
 
 #. L10n: Scenic is the name of an iPhone navigation app; can be translated as 'Scenic App' where 'App' is the word to translate while 'Scenic' is kept as is
 #. L10n: Scenic is a name of an iPhone navigation app; same as 'Scenic App' where App is the word to translate
 #: views/components/applications.jade:14 views/components/navigation.jade:81
-#, fuzzy
 msgid "Scenic"
-msgstr "المناظر الخلابة"
+msgstr "تطبيق Scenic"
 
 #. L10n: 'Remove' as in 'Remove Furkot access to an application' - displayed next to application that the user gave Furkot access to
 #: views/components/applications.jade:28
-#, fuzzy
 msgid "Remove"
 msgstr "إزالة"
 
 #: views/components/book-wizard.jade:2
-#, fuzzy
 msgid "Book trip"
-msgstr "كتاب في"
+msgstr "احجز رحلة"
 
 #: views/components/book-wizard.jade:6
-#, fuzzy
 msgid ""
 "Congratulations! You have booked lodging accommodations for every overnight "
 "stop on this trip."
-msgstr ""
-"تهانينا! كنت قد حجزت أماكن السكن للكل محطة بين عشية وضحاها في هذه الرحلة."
+msgstr "تهانينا! لقد حجزت أماكن إقامة لكل محطة ليلية في هذه الرحلة."
 
 #. L10n: Square brackets [] denote a button. The [Done] in the sentence is that name of the button that is also displayed elsewhere. It is important that is translated the same as the button (see the translation of the "Done" word in glossary). If needed for clarification, translate  as the phrase "the [Done] button"
 #: views/components/book-wizard.jade:9
-#, fuzzy
 msgid "Press [Done] to continue trip planning."
-msgstr "اضغط [التالي] لمواصلة الآن."
+msgstr "اضغط [تم] لمتابعة تخطيط الرحلة."
 
 #: views/components/book-wizard.jade:17
-#, fuzzy
 msgid ""
 "Make sure the hotel name and address in Furkot match the one that you booked."
-msgstr "تأكد من أن اسم الفندق وعنوانه في Furkot مباراة واحدة أنك حجز."
+msgstr "تأكد من تطابق اسم الفندق والعنوان في Furkot مع الاسم الذي حجزته."
 
 #: views/components/book-wizard.jade:19
-#, fuzzy
 msgid "Hotel name"
-msgstr "اسم فندق"
+msgstr "اسم الفندق"
 
 #: views/components/book-wizard.jade:21
-#, fuzzy
 msgid "Hotel address"
 msgstr "عنوان الفندق"
 
 #. L10n: label for the hotel check-in date; can be also translated as 'Arrival' or 'From' / 'From date'
 #: views/components/book-wizard.jade:25
-#, fuzzy
 msgid "Check in"
-msgstr "تحقق في"
+msgstr "الوصول"
 
 #. L10n: label for the hotel check-out date; can be also translated as 'Departure' or 'To' / 'To date'
 #: views/components/book-wizard.jade:29
-#, fuzzy
 msgid "Check out"
-msgstr "الدفع"
+msgstr "المغادرة"
 
 #: views/components/book-wizard.jade:34
-#, fuzzy
 msgid ""
 "Looks like you started hotel booking process, but did not enter any booking "
 "confirmation."
-msgstr "يبدو أنك بدأت عملية حجز الفندق، ولكن لم يدخل أي تأكيد الحجز."
+msgstr "يبدو أنك بدأت عملية حجز الفندق ، لكنك لم تدخل أي تأكيد للحجز."
 
 #. L10n: Square brackets [] denote a button. The [Next] in the sentence is that name of the button that is also displayed elsewhere. It is important that is translated the same as the button (see the translation of the "Next" word in glossary). If needed for clarification, translate  as the phrase "the [Next] button"
 #: views/components/book-wizard.jade:37
-#, fuzzy
 msgid ""
 "Press [Next] if you intend to enter the booking confirmation later, or if "
 "you don't want to complete the booking at this time."
 msgstr ""
-"اضغط [التالي] إذا كنت أريد أن أدخل في تأكيد الحجز في وقت لاحق، أو إذا كنت لا "
-"تريد لإتمام الحجز في هذا الوقت."
+"اضغط على [التالي] إذا كنت تنوي إدخال تأكيد الحجز لاحقًا ، أو إذا كنت لا تريد "
+"إكمال الحجز في هذا الوقت."
 
 #. L10n: Square brackets [] denote a button. The [Done] in the sentence is that name of the button that is also displayed elsewhere. It is important that is translated the same as the button (see the translation of the "Done" word in glossary). If needed for clarification, translate  as the phrase "the [Done] button"
 #: views/components/book-wizard.jade:39
-#, fuzzy
 msgid ""
 "Press [Done] if you intend to enter the booking confirmation later, or if "
 "you don't want to complete the booking at this time."
 msgstr ""
-"الصحافة [حرر] إذا كنت أريد أن أدخل في تأكيد الحجز في وقت لاحق، أو إذا كنت لا "
-"تريد لإتمام الحجز في هذا الوقت."
+"اضغط [تم] إذا كنت تنوي إدخال تأكيد الحجز لاحقًا ، أو إذا كنت لا تريد إكمال "
+"الحجز في هذا الوقت."
 
 #: views/components/book-wizard.jade:40
-#, fuzzy
 msgid ""
 "Entering your booking confirmation (number or URL) in Furkot does not change "
 "your booking status, but lets Furkot help you keep track of your "
 "reservations."
 msgstr ""
-"دخول تأكيد الحجز (العدد أو URL) في Furkot لا تغيير حالة الحجز، ولكن يتيح "
-"مساعدة Furkot التي تتبع لديك تحفظات."
+"إدخال تأكيد الحجز الخاص بك (الرقم أو عنوان URL) في Furkot لا يغير حالة الحجز "
+"الخاصة بك ، ولكنه يتيح ل Furkot مساعدتك في تتبع حجوزاتك."
 
 #. L10n: 'Booking confirmation' as a number or link to a page that confirms that a reservation of a lodging
 #: views/components/book-wizard.jade:43
-#, fuzzy
 msgid "Booking confirmation"
 msgstr "تأكيد الحجز"
 
 #: views/components/book-wizard.jade:43
 msgid "Enter booking confirmation if you made a reservation"
-msgstr ""
+msgstr "أدخل تأكيد الحجز إذا قمت بذلك"
 
 #. L10n: Label for links to websites that user can make lodging reservations at
 #: views/components/book-wizard.jade:48
-#, fuzzy
 msgid "Available to book at"
-msgstr "متاح للكتاب في السعر المعروض"
+msgstr "متاح للحجز في"
 
 #. L10n: Followed by the buttons that link to websites that provide reservations of lodging accommodations
 #: views/components/book-wizard.jade:53 views/components/step-lodging.jade:22
-#, fuzzy
 msgid "Want more options? Try these services"
 msgstr "هل تريد المزيد من الخيارات؟ جرب هذه الخدمات"
 
 #. L10n: square brackets [] denote a button
 #: views/components/book-wizard.jade:64
 msgid "Press this button to continue booking or press [Done] again"
-msgstr ""
+msgstr "اضغط على هذا الزر لمتابعة الحجز أو اضغط [تم] مرة أخرى"
 
 #: views/components/book-wizard.jade:65
-#, fuzzy
 msgid "Furkot will take you to the next lodging to book."
-msgstr "سوف Furkot يأخذك إلى السكن القادم للكتاب."
+msgstr "سوف يأخذك Furkot إلى السكن التالي للحجز."
 
 #: views/components/book-wizard.jade:66 views/components/export-dlg.jade:185
 #: views/components/import-dlg.jade:165
 #: views/components/new-trip-wizard.jade:147 views/components/tour.jade:42
-#, fuzzy
 msgid "Next"
 msgstr "التالى"
 
 #: views/components/book-wizard.jade:67
 #: views/components/new-trip-wizard.jade:148
-#, fuzzy
 msgid "Done"
-msgstr "فعله"
+msgstr "تم"
 
 #: views/components/book-wizard.jade:67
-#, fuzzy
 msgid "Furkot will take you back to the trip planning."
 msgstr "سوف Furkot يأخذك إلى تخطيط الرحلة."
 
 #: views/components/bookable.jade:35
-#, fuzzy
 msgid "See this hotel page"
-msgstr "رؤية هذه الصفحة فندق في"
+msgstr "انظر صفحة الفندق هذه"
 
 #: views/components/bookable.jade:36
-#, fuzzy
 msgid "See this hotel own website"
-msgstr "نرى هذا موقع الفندق الخاص"
+msgstr "انظر الى صفحة موقع الفندق الخاصة"
 
 #: views/components/bookable.jade:37 views/components/bookable.jade:52
 #: views/components/bookable.jade:84 views/components/bookable.jade:98
 #: views/components/bookable.jade:117 views/components/bookable.jade:132
-#, fuzzy
 msgid "See guest reviews"
-msgstr "نرى تعليقات من النزلاء في"
+msgstr "انظر آراء النزلاء"
 
 #: views/components/bookable.jade:38
-#, fuzzy
 msgid "Add this hotel as a new stop"
 msgstr "إضافة هذا الفندق كمحطة جديدة"
 
 #: views/components/bookable.jade:39 views/components/bookable.jade:86
-#, fuzzy
 msgid "Replace selected stop with this hotel"
-msgstr "استبدال المحطة المحددة مع هذا الفندق"
+msgstr "استبدال المحطة المحددة بهذا الفندق"
 
 #: views/components/bookable.jade:40
-#, fuzzy
 msgid "Save this hotel as a backup"
-msgstr "تعيين هذا الطريق جانبا لخطة احتياطية"
+msgstr "احفظ هذا الفندق كبديل احتياطي"
 
 #: views/components/bookable.jade:41
-#, fuzzy
 msgid "Add this hotel as a skipped stop"
-msgstr "إضافة هذا الفندق كمحطة تخطي"
+msgstr "أضف هذا الفندق كمحطة تم تخطيها"
 
 #: views/components/bookable.jade:42
-#, fuzzy
 msgid "Fold this hotel details"
-msgstr "أضعاف هذا تفاصيل الفندق"
+msgstr "اخفاء تفاصيل هذا الفندق"
 
 #: views/components/bookable.jade:50
-#, fuzzy
 msgid "See this campground page"
-msgstr "رؤية هذه الصفحة المخيم في"
+msgstr "انظر الى صفحة هذا المخيم"
 
 #: views/components/bookable.jade:51
-#, fuzzy
 msgid "See this campground own website"
-msgstr "انظر هذا الموقع المخيم الخاص"
+msgstr "انظر الى الموقع الخاص بالمخيم"
 
 #: views/components/bookable.jade:53
-#, fuzzy
 msgid "Add this campground as a new stop"
-msgstr "إضافة هذا المخيم كمحطة جديدة"
+msgstr "أضف هذا المخيم كمحطة جديدة"
 
 #: views/components/bookable.jade:54
-#, fuzzy
 msgid "Replace selected stop with this campground"
-msgstr "استبدال المحطة المحددة مع هذا المخيم"
+msgstr "استبدل المحطة المحددة بهذا المخيم"
 
 #: views/components/bookable.jade:55
-#, fuzzy
 msgid "Save this campground as a backup"
-msgstr "رؤية هذه الصفحة المخيم في"
+msgstr "احفظ هذا المخيم كبديل احتياطي"
 
 #: views/components/bookable.jade:56
-#, fuzzy
 msgid "Add this campground as a skipped stop"
-msgstr "إضافة هذا المخيم كمحطة تخطي"
+msgstr "أضف هذا المخيم كمحطة تم تخطيها"
 
 #: views/components/bookable.jade:57
-#, fuzzy
 msgid "Fold this campground details"
-msgstr "أضعاف هذه التفاصيل المخيم"
+msgstr "اخفاء تفاصيل هذا المخيم"
 
 #. L10n: generic name for a campground, displayed when we don't know the actual name
 #. L10n: stop type (icon)
 #: views/components/bookable.jade:58 views/components/bookable.jade:61
 #: views/components/places.jade:9 views/components/places.jade:10
 #: views/components/places.jade:14 views/components/step-detail.jade:19
-#, fuzzy
 msgid "Campground"
-msgstr "Campground"
+msgstr "مخيم"
 
 #: views/components/bookable.jade:70
-#, fuzzy
 msgid "Rent a car"
 msgstr "استئجار سيارة"
 
 #: views/components/bookable.jade:77
-#, fuzzy
 msgid "Book a flight"
 msgstr "إحجز رحلة طيران"
 
 #: views/components/bookable.jade:83
-#, fuzzy
 msgid "See this deal page"
-msgstr "رؤية هذه الصفحة صفقة في"
+msgstr "انظر صفحة الصفقة هذه"
 
 #: views/components/bookable.jade:85
-#, fuzzy
 msgid "Add hotel in this neighborhood as a new stop"
 msgstr "إضافة فندق في هذا الحي كمحطة جديدة"
 
 #: views/components/bookable.jade:87
-#, fuzzy
 msgid "Add hotel in this neighborhood as a skipped stop"
-msgstr "إضافة فندق في هذا الحي كمحطة تخطي"
+msgstr "إضافة فندق في هذا الحي كمحطة تم تخطيها"
 
 #: views/components/bookable.jade:88
-#, fuzzy
 msgid "Fold this deal details"
-msgstr "أضعاف هذه تفاصيل الصفقة"
+msgstr "اخفاء تفاصيل هذه الصفقة"
 
 #: views/components/bookable.jade:96 views/components/bookable.jade:130
-#, fuzzy
 msgid "See this lodging page"
-msgstr "رؤية هذه الصفحة السكن في"
+msgstr "انظر الى صفحة السكن هذه"
 
 #. L10n: 'host profile' as in 'the profile page of lodging host or owner' - displayed for services that provide booking of apartments and rooms
 #: views/components/bookable.jade:97 views/components/bookable.jade:111
-#, fuzzy
 msgid "See this lodging host profile"
-msgstr "انظر هذا الملف المضيف السكن"
+msgstr "انظر ملف تعريف مضيف السكن هذا"
 
 #: views/components/bookable.jade:99 views/components/bookable.jade:133
-#, fuzzy
 msgid "Add this lodging as a new stop"
-msgstr "إضافة هذه الإقامة كمحطة جديدة"
+msgstr "أضف هذا السكن كمحطة جديدة"
 
 #: views/components/bookable.jade:100 views/components/bookable.jade:134
-#, fuzzy
 msgid "Replace selected stop with this lodging"
-msgstr "استبدال المحطة المحددة مع هذه الإقامة"
+msgstr "استبدال المحطة المحددة بهذا السكن"
 
 #: views/components/bookable.jade:101 views/components/bookable.jade:135
-#, fuzzy
 msgid "Save this lodging as a backup"
-msgstr "رؤية هذه الصفحة السكن في"
+msgstr "حفظ هذا السكن كبديل احتياطي"
 
 #: views/components/bookable.jade:102 views/components/bookable.jade:136
-#, fuzzy
 msgid "Add this lodging as a skipped stop"
-msgstr "إضافة هذه الإقامة كمحطة تخطي"
+msgstr "أضف هذا السكن كمحطة تم تخطيها"
 
 #: views/components/bookable.jade:103 views/components/bookable.jade:137
-#, fuzzy
 msgid "Fold this lodging details"
-msgstr "أضعاف هذه التفاصيل السكن"
+msgstr "اخفاء تفاصيل هذا السكن"
 
 #: views/components/bookable.jade:115
-#, fuzzy
 msgid "See this hostel page"
-msgstr "رؤية هذه الصفحة نزل في"
+msgstr "انظر صفحة النزل هذه"
 
 #: views/components/bookable.jade:116
-#, fuzzy
 msgid "See this hostel own website"
-msgstr "انظر هذا الموقع نزل بك"
+msgstr "انظر الى الموقع الخاص بهذا نزل"
 
 #: views/components/bookable.jade:118
-#, fuzzy
 msgid "Add this hostel as a new stop"
-msgstr "إضافة هذا الفندق كمحطة جديدة"
+msgstr "أضف هذا النزل كمحطة جديدة"
 
 #: views/components/bookable.jade:119
-#, fuzzy
 msgid "Replace selected stop with this hostel"
-msgstr "استبدال المحطة المحددة مع هذا الفندق"
+msgstr "استبدال المحطة المحددة بهذا النزل"
 
 #: views/components/bookable.jade:120
-#, fuzzy
 msgid "Save this hostel as a backup"
-msgstr "تعيين هذا الطريق جانبا لخطة احتياطية"
+msgstr "حفظ هذا النزل كبديل احتياطي"
 
 #: views/components/bookable.jade:121
-#, fuzzy
 msgid "Add this hostel as a skipped stop"
-msgstr "إضافة هذا الفندق كمحطة تخطي"
+msgstr "أضف هذا النزل كمحطة تم تخطيها"
 
 #: views/components/bookable.jade:122
-#, fuzzy
 msgid "Fold this hostel details"
-msgstr "أضعاف هذه التفاصيل نزل"
+msgstr "اخفاء تفاصيل هذا النزل"
 
 #: views/components/bookable.jade:131
-#, fuzzy
 msgid "See this lodging own website"
-msgstr "انظر هذا الموقع السكن الخاص"
+msgstr "انظر الى موقع الويب الخاص لهذا السكن"
 
 #. L10n: 'Hot Rate' is Hotwire registered trademark. It's better left in its original form, untranslated.
 #: views/components/bookable.jade:163
-#, fuzzy
 msgid ""
 "The Hot Rate hotel is located in the highlighted area. Once you book, you'll "
 "learn the location."
-msgstr "يقع الفندق سعر خاص في المنطقة المميزة. بمجرد الكتاب، سوف تتعلم الموقع."
+msgstr ""
+"يقع فندق Hot Rate في المنطقة المحددة. بمجرد قيامك بالحجز ، ستتعرف على الموقع."
 
 #: views/components/bookable.jade:164
-#, fuzzy
 msgid ""
 "When brand-name hotels use Hotwire to fill rooms that would otherwise go "
 "unsold, their prices are deeply discounted. Hotels don't want to publicize "
 "rates this low, so Hotwire hides their name, address, and picture until "
 "after booking."
 msgstr ""
-"عندما تستخدم الفنادق ذات الأسماء التجارية شبان لملء الغرف التي كانت ستذهب "
-"غير المباعة، يتم خصم عميق أسعارها. فنادق لا يريدون نشر معدلات منخفضة هذا، "
-"لذلك يخفي شبان من الاسم والعنوان والصورة حتى بعد الحجز."
+"تستخدم الفنادق ذات العلامات التجارية المميزة Hotwire لملء الغرف التي لم يتم "
+"بيعها ، لذلك يتم تخفيض أسعارها كثيرا. ولذلك لا ترغب الفنادق في الإعلان عن "
+"الأسعار المنخفضة بهذا الشكل ، لذلك تخفي Hotwire اسمها وعنوانها وصورها إلا "
+"بعد الحجز."
 
 #. L10n: pair of _underscores_ denotes different formatting
 #: views/components/browse-happy.jade:5
-#, fuzzy
 msgid "You are using an _outdated_ browser."
-msgstr "كنت تستخدم متصفح _outdated_."
+msgstr "أنت تستخدم متصفحًا قديمًا."
 
 #. L10n: square brackets [] denote a link
 #: views/components/browse-happy.jade:7
-#, fuzzy
 msgid "Please [upgrade your browser] to improve your experience."
 msgstr "يرجى [ترقية متصفحك] لتحسين تجربتك."
 
 #. L10n: travel mode: travel by car
 #: views/components/common-mixins.jade:4 views/components/trip-detail.jade:699
-#, fuzzy
 msgid "Driving"
 msgstr "القيادة"
 
 #. L10n: travel mode: ride a motorcycle
 #: views/components/common-mixins.jade:8
-#, fuzzy
 msgid "Motorcycle"
 msgstr "دراجة نارية"
 
 #. L10n: travel mode: travel in RV (recreational vehicle) or camper
 #: views/components/common-mixins.jade:12
 msgid "Recreational Vehicle"
-msgstr ""
+msgstr "سيارة ترفيهية"
 
 #. L10n: travel mode: ride a bicycle
 #: views/components/common-mixins.jade:16
-#, fuzzy
 msgid "Bicycle"
 msgstr "دراجة"
 
 #. L10n: travel mode: walk
 #: views/components/common-mixins.jade:20 views/components/trip-detail.jade:701
-#, fuzzy
 msgid "Walking"
 msgstr "المشي"
 
 #. L10n: travel mode: flight
 #: views/components/common-mixins.jade:24
-#, fuzzy
 msgid "Flight"
-msgstr "ليل"
+msgstr "طيران"
 
 #. L10n: travel mode: ferry
 #: views/components/common-mixins.jade:28
 msgid "Ferry"
-msgstr ""
+msgstr "العبارة"
 
 #. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking, flight, ferry
 #: views/components/common-mixins.jade:32
-#, fuzzy
 msgctxt "other travel mode"
 msgid "Other"
 msgstr "آخر"
 
 #: views/components/common-mixins.jade:38
-#, fuzzy
 msgid ""
 "Your trip has stops with warnings or automatically scheduled placeholders."
-msgstr "هذا هو التوقف للتزود بالوقود من المقرر تلقائيا."
+msgstr "رحلتك تتضمن توقفات مع تحذيرات أو عناصر مجدولة تلقائيا."
 
 #: views/components/dialog.jade:5 views/components/step-detail.jade:929
 #: views/tripshot/mixin.jade:119
-#, fuzzy
 msgid "Cancel changes"
 msgstr "إلغاء التغييرات"
 
 #: views/components/dialog.jade:8 views/components/step-detail.jade:932
 #: views/tripshot/mixin.jade:122
-#, fuzzy
 msgid "Accept changes"
 msgstr "قبول التغييرات"
 
 #: views/components/dialog.jade:10 views/components/step-detail.jade:934
-#, fuzzy
 msgid "Save"
 msgstr "حفظ"
 
 #: views/components/dialog.jade:20 views/components/dialog.jade:22
 #: views/components/dialog.jade:33 views/header.jade:14
-#, fuzzy
 msgid "Update now"
-msgstr "تحديث الان"
+msgstr "حدث الان"
 
 #: views/components/dialog.jade:23 views/components/dialog.jade:34
 #: views/header.jade:7
-#, fuzzy
 msgid ""
 "New version of Furkot is available. Click the button above to update now."
-msgstr "إصدار جديد من Furkot هو متاح. انقر على الزر أعلاه لتحديث الآن."
+msgstr "إصدار جديد من Furkot متاح. انقر على الزر أعلاه للتحديث الآن."
 
 #: views/components/dialog.jade:26 views/header.jade:37
-#, fuzzy
 msgid "About Furkot"
-msgstr "اتبع Furkot"
+msgstr "عن Furkot"
 
 #: views/components/dialog.jade:28
 msgid "Version"
-msgstr ""
+msgstr "إصدار"
 
 #. L10n: instruction to user to pan and zoom map to find matching places when typing name or address
 #: views/components/dialog.jade:48
 msgid "No match? Pan and zoom map to cover the target area"
-msgstr ""
+msgstr "لا تطابق؟ قم بتحريك وتكبير الخريطة لتغطية المنطقة المستهدفة"
 
 #: views/components/dialog.jade:53 views/components/trip-detail.jade:9
-#, fuzzy
 msgid "Driving trip"
-msgstr "رحلة القيادة"
+msgstr "رحلة بالسيارة"
 
 #: views/components/dialog.jade:55 views/components/trip-detail.jade:12
-#, fuzzy
 msgid "Motorcycle trip"
-msgstr "رحلة دراجة نارية"
+msgstr "رحلة بالدراجة النارية"
 
 #: views/components/dialog.jade:57 views/components/trip-detail.jade:15
-#, fuzzy
 msgid "RV trip"
-msgstr "رحلة جديدة"
+msgstr "رحلة عربة سكن متنقلة"
 
 #: views/components/dialog.jade:59 views/components/trip-detail.jade:18
-#, fuzzy
 msgid "Bicycle trip"
 msgstr "رحلة الدراجات الهوائية"
 
 #: views/components/dialog.jade:61 views/components/trip-detail.jade:21
-#, fuzzy
 msgid "Walking trip"
 msgstr "رحلة سيرا على الأقدام"
 
 #. L10n: 'track' is a point-by-point representation of trip course; 'track' is more detailed than 'route'
 #: views/components/export-dlg.jade:10 views/components/export-dlg.jade:137
-#, fuzzy
 msgid "one track per day"
-msgstr "مسار واحد في اليوم الواحد"
+msgstr "مسار واحد في اليوم"
 
 #. L10n: 'route' is a series of points that help navigate along trip course; 'route' is less detailed than 'track'
 #: views/components/export-dlg.jade:15 views/components/export-dlg.jade:145
-#, fuzzy
 msgid "one route per day"
 msgstr "مسار واحد لكل يوم"
 
 #. L10n: 'points per route (minimum)' means minimum number of points per route in exported file
 #: views/components/export-dlg.jade:20 views/components/export-dlg.jade:151
-#, fuzzy
 msgid "points per route (minimum)"
-msgstr "نقاط في الطريق (الحد الأدنى)"
+msgstr "عدد النقاط لكل مسار (الحد الأدنى)"
 
 #. L10n: 'high-resolution tracks' is an export option that includes in the exported file all track points faithfully reflecting the trip course shape
 #: views/components/export-dlg.jade:26 views/components/export-dlg.jade:159
 msgid "high-resolution tracks"
-msgstr ""
+msgstr "مسارات عالية الدقة"
 
 #. L10n: Explanation for the 'skipped routes' export option (includes in the exported file route segments that have been skipped and are no longer part of the trip)
 #: views/components/export-dlg.jade:31 views/components/export-dlg.jade:169
-#, fuzzy
 msgid "include skipped routes"
-msgstr "المناطق إخفاء التزلج"
+msgstr "تشمل المسارات التي تم تخطيها"
 
 #. L10n: Caption of a dialog that sets up export parameters. 'Export trip' as in 'Export trip into a file'. Can be also translated as 'Download trip'
 #: views/components/export-dlg.jade:38 views/components/export-dlg.jade:191
 #: views/components/export-dlg.jade:205
-#, fuzzy
 msgid "Export trip"
-msgstr "رحلة تصدير"
+msgstr "تصدير الرحلة"
 
 #: views/components/export-dlg.jade:39 views/components/trip-toolbar.jade:60
-#, fuzzy
 msgid "Please wait while Furkot is recalculating your trip"
-msgstr "يرجى الانتظار بينما Furkot وإعادة حساب رحلتك"
+msgstr "الرجاء الانتظار بينما يقوم Furkot بإعادة حساب رحلتك"
 
 #. L10n: 'Export' as in 'Export into a file'. Can be also translated as 'Download'
 #: views/components/export-dlg.jade:44 views/components/export-dlg.jade:127
-#, fuzzy
 msgid "Export stops and routing information:"
-msgstr "توقف التصدير وتوجيه المعلومات:"
+msgstr "تصدير محطات الوقوف ومعلومات التوجيه:"
 
 #. L10n: Standard GPX format (without proprietary extensions)
 #: views/components/export-dlg.jade:46 views/components/export-dlg.jade:67
-#, fuzzy
 msgid "GPS exchange file (.gpx)"
-msgstr "ملف الصرف GPS (.GPX)"
+msgstr "ملف GPS exchange file (.gpx)"
 
 #. L10n: GPX format with Garmin-specific route extensions
 #: views/components/export-dlg.jade:47 views/components/export-dlg.jade:75
-#, fuzzy
 msgid "Garmin route GPX (.gpx)"
-msgstr "غارمين الطريق GPX (.GPX)"
+msgstr "ملف Garmin route GPX (.gpx)"
 
 #. L10n: GPX format with Guru Maps (formerly Galileo)-specific extensions
 #: views/components/export-dlg.jade:48 views/components/export-dlg.jade:83
-#, fuzzy
 msgid "Guru Maps GPX (.gpx)"
-msgstr "غارمين الطريق GPX (.GPX)"
+msgstr "ملف Garmin route GPX (.gpx)"
 
 #: views/components/export-dlg.jade:49 views/components/export-dlg.jade:90
-#, fuzzy
 msgid "KML file (.kml)"
-msgstr "ملف KML (ملفات kml)"
+msgstr "ملف KML file (.kml)"
 
 #. L10n: 'TomTom overlay file' is a proprietary format supported by TomTom GPS devices. 'TomTom' is a proper name to be left untranslated
 #: views/components/export-dlg.jade:50 views/components/export-dlg.jade:99
-#, fuzzy
 msgid "TomTom overlay file (.ov2)"
-msgstr "ملف التراكب الطبل (.ov2)"
+msgstr "ملف TomTom overlay file (.ov2)"
 
 #. L10n: 'CoPilot trip' is a proprietary format supported by CoPilot navigation apps. 'CoPilot' is a proper name to be left untranslated
 #: views/components/export-dlg.jade:51 views/components/export-dlg.jade:107
-#, fuzzy
 msgid "CoPilot trip (.trp)"
-msgstr "رحلة مساعد الطيار (.trp)"
+msgstr "ملف CoPilot trip (.trp)"
 
 #: views/components/export-dlg.jade:52 views/components/export-dlg.jade:114
-#, fuzzy
 msgid "iCalendar (.ics)"
-msgstr "آي (.ics)"
+msgstr "ملف iCalendar (.ics)"
 
 #. L10n: 'driving log' as an ordered sequence of trip stops
 #: views/components/export-dlg.jade:53 views/components/export-dlg.jade:122
-#, fuzzy
 msgid "driving log (.csv)"
-msgstr "سجل القيادة (CSV)"
+msgstr "ملف driving log (.csv)"
 
 #: views/components/export-dlg.jade:59
 #, fuzzy
