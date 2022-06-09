@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2022-04-23 16:20+0200\n"
-"PO-Revision-Date: 2022-06-06 06:01+0000\n"
+"PO-Revision-Date: 2022-06-10 08:42+0000\n"
 "Last-Translator: Sayed Husain Khalaf <hussainkhalaf@gmail.com>\n"
 "Language-Team: Arabic <https://translate.furkot.com/projects/furkot/trips/ar/"
 ">\n"
@@ -1203,7 +1203,6 @@ msgstr ""
 
 #: views/components/header.jade:8 views/components/share-dlg.jade:2
 #: views/welcome/signup-page.jade:22 views/widget/plan.jade:60
-#, fuzzy
 msgid "Sign up"
 msgstr "سجل"
 
@@ -1302,123 +1301,102 @@ msgid "Invalid GPX file."
 msgstr "ملف GPX غير صالح."
 
 #: views/components/import-dlg.jade:41 views/components/import-dlg.jade:149
-#, fuzzy
 msgid "GPX schema 1.1 is supported. Proprietary extensions are ignored."
-msgstr "ويدعم GPX مخطط 1.1. يتم تجاهل ملحقات الشخصية."
+msgstr "مخطط GPX 1.1 مدعوم. يتم تجاهل امتدادات الملكية."
 
 #: views/components/import-dlg.jade:43
-#, fuzzy
 msgid "Invalid KML file."
-msgstr "ملف KML صالح."
+msgstr "ملف KML غير صالح."
 
 #: views/components/import-dlg.jade:44 views/components/import-dlg.jade:148
-#, fuzzy
 msgid "Supported KML elements are Placemark and LineString."
-msgstr "عناصر KML المعتمدة هي موضعية وتنسيقي."
+msgstr "عناصر KML المدعومة هي علامة موضعية وسلسلة خطية."
 
 #: views/components/import-dlg.jade:46
-#, fuzzy
 msgid "Invalid KMZ file."
 msgstr "ملف KMZ غير صالح."
 
 #. L10n: pair of _underscores_ denotes different formatting
 #: views/components/import-dlg.jade:49
-#, fuzzy
 msgid ""
 "The URL doesn't serve _KML_, _GPX_, or _CSV_ data or requires a sign on."
-msgstr "عنوان URL لا يخدم _KML_، _GPX_، أو البيانات _CSV_ أو يتطلب علامة على."
+msgstr "لا يخدم عنوان URL بيانات _KML_ أو _GPX_ أو _CSV_ أو يتطلب تسجيل الدخول."
 
 #: views/components/import-dlg.jade:50
-#, fuzzy
 msgid ""
 "Try opening the URL directly in the browser and import the downloaded file."
-msgstr "حاول فتح URL مباشرة في المستعرض واستيراد الملف الذي تم تنزيله."
+msgstr "حاول فتح عنوان URL مباشرة في المتصفح واستورد الملف الذي تم تنزيله."
 
 #: views/components/import-dlg.jade:52
-#, fuzzy
 msgid " Please wait while Furkot is preparing your trip"
-msgstr " يرجى الانتظار بينما يتم Furkot إعداد رحلتك"
+msgstr " يرجى الانتظار بينما يعد Furkot رحلتك"
 
 #: views/components/import-dlg.jade:56
-#, fuzzy
 msgid "File analyzed successfully."
-msgstr "تحليل الملف بنجاح."
+msgstr "تم تحليل الملف بنجاح."
 
 #: views/components/import-dlg.jade:57
-#, fuzzy
 msgid "You can select which stops to import."
-msgstr "يمكنك تحديد أي توقف استيرادها."
+msgstr "يمكنك تحديد أي محطة للاستيراد."
 
 #. L10n: Label for the field that contains the number of stops found in the imported file
 #: views/components/import-dlg.jade:61
-#, fuzzy
 msgid "Found stops"
-msgstr "توقف وجدت"
+msgstr "محطات تم العثور علىها"
 
 #. L10n: Label for the field that allows user to specify the total number of stops to import from a file
 #: views/components/import-dlg.jade:65
-#, fuzzy
 msgid "Import stops"
-msgstr "توقف استيراد"
+msgstr "استيراد محطات"
 
 #: views/components/import-dlg.jade:71
-#, fuzzy
 msgid "Number of stops to import"
-msgstr "عدد من توقف استيراد"
+msgstr "عدد المحطات للاستيراد"
 
 #. L10n: 'Start at' as in 'Start at this index when importing stops'. Label for the field that allows user to specify index of the first stop to import
 #: views/components/import-dlg.jade:75
-#, fuzzy
 msgctxt "start import at"
 msgid "Start at"
-msgstr "تبدأ في"
+msgstr "إبدأ في"
 
 #: views/components/import-dlg.jade:80
-#, fuzzy
 msgid "Index of the first stop to import"
-msgstr "مؤشر أول محطة لاستيراد"
+msgstr "فهرس المحطة الأولى للاستيراد"
 
 #. L10n: Label for the field that allows user to specify what kind of stops to import from a file
 #: views/components/import-dlg.jade:83
-#, fuzzy
 msgid "Filter"
-msgstr "منقي"
+msgstr "إنتقاء"
 
 #. L10n: 'Matching phrase' is compared to stops when deciding which ones to import
 #: views/components/import-dlg.jade:86
-#, fuzzy
 msgid "Matching phrase"
 msgstr "عبارة مطابقة"
 
 #. L10n: The phrase is compared to stops when deciding which ones to import
 #: views/components/import-dlg.jade:87 views/components/import-dlg.jade:90
-#, fuzzy
 msgid "Optional phrase to match against stop fields"
-msgstr "العبارة اختياري لمباراة ضد حقول توقف"
+msgstr "العبارة الاختيارية لتتناسب مع حقول المحطة"
 
 #: views/components/import-dlg.jade:96
-#, fuzzy
 msgid "Reorder stops for the shortest route"
-msgstr "توقف إعادة ترتيب للأقصر الطرق"
+msgstr "أعد ترتيب التوقفات لأقصر طريق"
 
 #: views/components/import-dlg.jade:99
-#, fuzzy
 msgid ""
 "When not defined in the imported file, Furkot will use the default stop "
 "duration."
 msgstr ""
-"عندما لا تكون محددة في ملف المستوردة، وFurkot استخدام مدة التوقف الافتراضية."
+"عندما لا يتم تحديده في الملف المستورد ، سيستخدم Furkot مدة التوقف الافتراضية."
 
 #. L10n: 'Stopover' is a default duration of a stop, i.e. the time spend at a stop
 #: views/components/import-dlg.jade:102
 #: views/components/trip-config-item.jade:52
 #: views/components/trip-detail.jade:196
-#, fuzzy
 msgid "Stopover"
-msgstr "توقف"
+msgstr "مدة التوقف"
 
 #: views/components/import-dlg.jade:104 views/components/trip-detail.jade:198
-#, fuzzy
 msgid "Click to modify default duration of a stop"
 msgstr "انقر لتعديل المدة الافتراضية للتوقف"
 
@@ -1426,51 +1404,42 @@ msgstr "انقر لتعديل المدة الافتراضية للتوقف"
 #: views/components/import-dlg.jade:112
 #: views/components/new-trip-wizard.jade:102
 #: views/components/step-switches.jade:255
-#, fuzzy
 msgid "Travel by"
-msgstr "يسافر بواسطة"
+msgstr "السافر بواسطة"
 
 #: views/components/import-dlg.jade:115
-#, fuzzy
 msgid "Let Furkot follow roads unless importing off-road routes/tracks."
-msgstr ""
-"السماح Furkot اتباع الطرق ما لم المستوردة على الطرق الوعرة الطرق / المسارات."
+msgstr "دع Furkot يتبع الطرق ما لم تستورد طرق / مسارات على الطرق الوعرة."
 
 #. L10n: Label for the field that allows user to decide whether routes should follow roads or permit off-road travel (the routes shaped manually)
 #: views/components/import-dlg.jade:118 views/components/step-detail.jade:750
-#, fuzzy
 msgid "Routing"
 msgstr "التوجيه"
 
 #. L10n: 'Follow roads' - Furkot will automatically calculate routes that go over public roads - as opposed to 'Travel off-road' - user can shape routes manually without any constraint
 #: views/components/import-dlg.jade:121 views/components/step-detail.jade:752
-#, fuzzy
 msgid "Follow roads"
 msgstr "اتبع الطرق"
 
 #. L10n: 'Travel off-road' - user can shape routes manually without any constraint - as opposed to 'Follow roads' - Furkot will automatically calculate routes that go over public roads
 #: views/components/import-dlg.jade:121 views/components/import-dlg.jade:124
 #: views/components/step-detail.jade:751
-#, fuzzy
 msgid "Travel off road"
 msgstr "السفر على الطرق الوعرة"
 
 #: views/components/import-dlg.jade:129
-#, fuzzy
 msgid ""
 "Not all routes/tracks have timing data. Furkot will use an average speed "
 "instead."
 msgstr ""
-"ليست كل الطرق / المسارات لديها بيانات التوقيت. Furkot سوف تستخدم بمتوسط سرعة "
-"بدلا من ذلك."
+"لا تحتوي كل الطرق / المسارات على بيانات توقيت. سيستخدم Furkot متوسط السرعة "
+"بدلاً من ذلك."
 
 #: views/components/import-dlg.jade:130
-#, fuzzy
 msgid "For routes/tracks without timing data Furkot will use an average speed."
-msgstr "عن طرق / والمسارات دون توقيت Furkot البيانات استخدام بمتوسط سرعة."
+msgstr "للطرق / المسارات بدون بيانات التوقيت ، سيستخدم Furkot متوسط السرعة."
 
 #: views/components/import-dlg.jade:132
-#, fuzzy
 msgid "Average speed"
 msgstr "متوسط السرعة"
 
@@ -1483,7 +1452,6 @@ msgstr "متوسط السرعة"
 #: views/components/trip-detail.jade:425 views/components/trip-detail.jade:555
 #: views/tripshot/mixin.jade:210 views/tripshot/tripshot.jade:21
 #: views/tripshot/tripshot.jade:47
-#, fuzzy
 msgid "km"
 msgstr "كم"
 
@@ -1491,27 +1459,23 @@ msgstr "كم"
 #: views/components/import-dlg.jade:136 views/components/place-switch.jade:52
 #: views/components/trip-config-item.jade:91
 #: views/components/trip-detail.jade:213 views/components/trip-detail.jade:426
-#, fuzzy
 msgid "mi"
 msgstr "ميل"
 
 #. L10n: square brackets [] denote a button
 #: views/components/import-dlg.jade:139
-#, fuzzy
 msgid ""
 "Press [Import] to add a new trip now or configure more options on the [Next] "
 "page."
 msgstr ""
-"اضغط [استيراد] لإضافة رحلة جديدة الآن أو تكوين المزيد من الخيارات على "
-"[التالي] الصفحة."
+"اضغط على [استيراد] لإضافة رحلة جديدة الآن أو تكوين المزيد من الخيارات في "
+"صفحة [التالي]."
 
 #: views/components/import-dlg.jade:141
-#, fuzzy
 msgid "Please wait while Furkot is analyzing your file"
-msgstr "يرجى الانتظار بينما Furkot بتحليل الملف"
+msgstr "يرجى الانتظار بينما يقوم Furkot بتحليل الملف"
 
 #: views/components/import-dlg.jade:146
-#, fuzzy
 msgid "You can import places from _KML_, _GPX_, and _CSV_ files."
 msgstr "يمكنك استيراد الأماكن من _KML_، _GPX_، وملفات _CSV_."
 
