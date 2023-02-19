@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2022-10-25 11:16+0200\n"
-"PO-Revision-Date: 2023-02-16 13:02+0000\n"
+"PO-Revision-Date: 2023-02-20 13:02+0000\n"
 "Last-Translator: Mau Ter <pancomau@yahoo.com>\n"
 "Language-Team: Italian <https://translate.furkot.com/projects/furkot/trips/"
 "it/>\n"
@@ -760,7 +760,7 @@ msgstr "Preferisci autostrade dove possibile"
 #. L10n: Label for the option to avoid or prefer toll roads
 #: ../views/components/common-mixins.jade:57
 msgid "Toll Roads"
-msgstr "Pedaggio"
+msgstr "Pedaggi"
 
 #: ../views/components/common-mixins.jade:58
 msgid "Avoid toll roads where possible"
@@ -864,19 +864,19 @@ msgstr "un percorso al giorno"
 #: ../views/components/export-dlg.jade:20
 #: ../views/components/export-dlg.jade:151
 msgid "points per route (minimum)"
-msgstr "punti per rotta (minimo)"
+msgstr "punti per percorso (minimo)"
 
 #. L10n: 'high-resolution tracks' is an export option that includes in the exported file all track points faithfully reflecting the trip course shape
 #: ../views/components/export-dlg.jade:26
 #: ../views/components/export-dlg.jade:159
 msgid "high-resolution tracks"
-msgstr "tracciati ad alta risoluzione"
+msgstr "tracce ad alta risoluzione"
 
 #. L10n: Explanation for the 'skipped routes' export option (includes in the exported file route segments that have been skipped and are no longer part of the trip)
 #: ../views/components/export-dlg.jade:31
 #: ../views/components/export-dlg.jade:169
 msgid "include skipped routes"
-msgstr "includi strade saltate"
+msgstr "includi percorsi saltati"
 
 #. L10n: Caption of a dialog that sets up export parameters. 'Export trip' as in 'Export trip into a file'. Can be also translated as 'Download trip'
 #: ../views/components/export-dlg.jade:38
@@ -989,12 +989,12 @@ msgstr "apribile come foglio di calcolo"
 #. L10n: 'track' is a point-by-point representation of trip course; 'track' is more detailed than 'route'
 #: ../views/components/export-dlg.jade:135
 msgid "tracks"
-msgstr "tracciati"
+msgstr "tracce"
 
 #. L10n: 'route' is a series of points that help navigate along trip course; 'route' is less detailed than 'track'
 #: ../views/components/export-dlg.jade:143
 msgid "routes"
-msgstr "strade"
+msgstr "percorsi"
 
 #. L10n: Explanation for the 'high-resolution tracks' option. Means that Furkot will put all points it has in the exported daily tracks.
 #: ../views/components/export-dlg.jade:161
@@ -1004,27 +1004,30 @@ msgstr "includere tutti i punti traccia disponibili"
 #. L10n: 'skipped routes' is an export option that includes in the exported file route segments that have been skipped and are no longer part of the trip
 #: ../views/components/export-dlg.jade:167
 msgid "skipped routes"
-msgstr "strade saltate"
+msgstr "percorsi saltati"
 
 #: ../views/components/export-dlg.jade:173
 msgid "Track is a point-by-point representation of your trip course."
-msgstr "Tracciato è una rappresentazione punto a punto del tuo percorso."
+msgstr ""
+"Una traccia è una rappresentazione dettagliata con molti punti e di grandi "
+"dimensioni (miglior scelta per visualizzare su una mappa)"
 
 #: ../views/components/export-dlg.jade:174
 msgid ""
 "Route is a series of points that help your GPS device or navigation app "
 "navigate along your trip course."
 msgstr ""
-"Un percorso è una serie di punti che aiutano il dispositivo GPS o app di "
-"navigazione a navigare lungo il vostro percorso."
+"Un percorso è una serie di punti che il GPS/APP userà per ricalcolare il "
+"percorso (miglior scelta per uso di GPS/APP)."
 
 #: ../views/components/export-dlg.jade:175
 msgid ""
 "Make sure the number of points per route is within limits of your GPS device "
 "or navigation app."
 msgstr ""
-"Assicurati che il numero di punti per ogni percorso sia entro i limiti del "
-"dispositivo GPS o app di navigazione."
+"Assicurati che il numero di punti per ogni traccia/percorso sia entro i "
+"limiti del dispositivo GPS o APP di navigazione. Leggi l'help per verificare "
+"quali siano le scelte migliori per le opzioni di questa pagina."
 
 #. L10n: square brackets [] denote a button
 #: ../views/components/export-dlg.jade:178
@@ -1678,8 +1681,8 @@ msgid ""
 "If the selected GPX file contains waypoints, routes and tracks, the routes "
 "are ignored."
 msgstr ""
-"Se il file GPX selezionato contiene waypoint, percorsi e tracce, i percorsi "
-"vengono ignorati."
+"Se il file GPX selezionato contiene punti di passaggio, percorsi e tracce, i "
+"percorsi vengono ignorati."
 
 #: ../views/components/import-dlg.jade:152
 msgid ""
@@ -5959,7 +5962,7 @@ msgstr "Interrompi la sincronizzazione"
 #. L10n: hint for Export button that exports a single day of the trip
 #: ../views/components/step-detail.jade:859
 msgid "Export this day in a variety of formats"
-msgstr "Esporta questo giorno in una varietà di formati"
+msgstr "Esporta questo giorno in vari formati"
 
 #. L10n: can be translated "Move this day after its successor"
 #: ../views/components/step-detail.jade:863
@@ -7507,7 +7510,7 @@ msgstr "Condividi questo viaggio con gli altri"
 
 #: ../views/components/trip-toolbar.jade:6
 msgid "Export trip in a variety of formats"
-msgstr "Esporta il viaggio in una varietà di formati"
+msgstr "Esporta il viaggio in vari formati"
 
 #: ../views/components/trip-toolbar.jade:8
 msgid "Synchronize the trip with TripIt"
