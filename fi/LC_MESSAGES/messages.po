@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2023-04-03 16:59+0200\n"
-"PO-Revision-Date: 2023-05-04 02:18+0000\n"
+"PO-Revision-Date: 2023-05-04 08:21+0000\n"
 "Last-Translator: Tommi Riikonen <von.riikonen@gmail.com>\n"
 "Language-Team: Finnish <https://translate.furkot.com/projects/furkot/trips/"
 "fi/>\n"
@@ -2702,7 +2702,7 @@ msgstr "Milloin haluat mennä?"
 #: ../views/components/new-trip-wizard.jade:61
 #, fuzzy
 msgid "If you are not certain, pick approximate dates."
-msgstr "Jos et ole varma, valitse arvioitu päivämäärä."
+msgstr "Jos et ole varma, arvioi päivämäärät."
 
 #. L10n: 'Begin date' is the date of the first day of the trip
 #: ../views/components/new-trip-wizard.jade:65
@@ -2736,9 +2736,7 @@ msgstr "Kuinka pitkiä haluat päiväsi olevan?"
 msgid ""
 "Choose when you'll leave each morning and the time you want to finish your "
 "day by."
-msgstr ""
-"Valitse ajankohta jolloin haluat aloittaa ja ajankohta jolloin haluat "
-"lopettaa."
+msgstr "Valitse ajankohdat jolloin haluat aloittaa ja lopettaa päiväsi."
 
 #. L10n: 'Start at' as in 'Start your day at the following time'. Hint at the field for setting the earliest time to start traveling every day
 #: ../views/components/new-trip-wizard.jade:81
@@ -2750,7 +2748,7 @@ msgstr "Aloitusaika"
 #: ../views/components/new-trip-wizard.jade:82
 #, fuzzy
 msgid "The earliest time at which you'll start driving everyday"
-msgstr "Aikaisin ajankohtana, jolloin aloitat päivittäisen ajamisen"
+msgstr "Aikaisin ajankohta, jolloin aloitat päivittäisen ajamisen"
 
 #. L10n: 'Finish by' as in 'Finish your day by the following time'. Hint at the field for setting the latest time to finish traveling every day
 #: ../views/components/new-trip-wizard.jade:90
@@ -2772,8 +2770,8 @@ msgid ""
 "directions accordingly."
 msgstr ""
 "Autolla matkustaminen ei ole ainoa vaihtoehto. Jos suunnittelet ajavasi "
-"moottoripyörällä, polkupyörällä tai kävellä jalkaisin, valitse matkustustapa "
-"ja Furkot antaa ohjeet sen mukaisesti."
+"moottoripyörällä, polkupyörällä tai kävelyä, valitse matkustustapa ja Furkot "
+"antaa ohjeet sen mukaisesti."
 
 #. L10n: Displayed in the second step of creating a new trip (after selecting RV as a travel mode)
 #: ../views/components/new-trip-wizard.jade:117
@@ -2788,9 +2786,10 @@ msgid ""
 "travel with pets Furkot can help you book overnight accommodations. Staying "
 "with friends or family? No problem, just turn all the lodging options off."
 msgstr ""
-"Yövyit sitten hotellissa tai teltassa tai matkustat lemmikkisi kanssa, "
+"Yövyit sitten hotellissa tai teltassa, tai matkustat lemmikkisi kanssa, "
 "Furkot auttaa sinua varaamaan majoituksen. Vai majoitutko ystävien tai "
-"perheen luona? Ei hätää, napsautat vain kaikki majoitusvaihtoehdot pois."
+"perheen luona? Ei hätää, napsautat silloin vain kaikki majoitusvaihtoehdot "
+"pois."
 
 #. L10n: Label for selecting lodging options (hotels, motels, campgrounds, private apartments, etc)
 #: ../views/components/new-trip-wizard.jade:124
@@ -2852,7 +2851,7 @@ msgstr "Leirintäalueet"
 #: ../views/components/new-trip-wizard.jade:140
 #, fuzzy
 msgid "With Pets"
-msgstr "Mukana lemmikki"
+msgstr "Lemmikki mukana"
 
 #. L10n: Hint for the option to select when the user is looking for lodging accommodations that allow pets
 #: ../views/components/new-trip-wizard.jade:143
@@ -2905,7 +2904,7 @@ msgstr "Siirrä matkan pysähdys tähän"
 #: ../views/components/place-detail.jade:33
 #, fuzzy
 msgid "Move"
-msgstr "Liikkua"
+msgstr "Siirrä"
 
 #. L10n: 'Maybe' meaning 'Add the place to the trip as a skipped Stop'
 #: ../views/components/place-detail.jade:37
@@ -2928,32 +2927,34 @@ msgstr "Uusi"
 #: ../views/components/step-lodging.jade:50
 #, fuzzy
 msgid "Stay"
-msgstr "Pysyä"
+msgstr "Yöpyä"
 
 #. L10n: 'Backup' meaning 'Add this lodging as a backup to the selected lodging for an overnight stop'
 #: ../views/components/place-detail.jade:52
 #, fuzzy
 msgid "Backup"
-msgstr "Varmuuskopioida"
+msgstr "Kaiken varalta"
 
 #. L10n: Displayed when an attraction or a lodging requires or recommends an advance reservation / booking prior to arrival. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:74
 #: ../views/components/place-detail.jade:202
 #, fuzzy
 msgid "Book ahead"
-msgstr "Varaa"
+msgstr "Varaa etukäteen"
 
 #. L10n: Displayed when place (typically gas station) has air pump for tires. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:75
 #: ../views/components/place-detail.jade:204
+#, fuzzy
 msgid "Air Pump"
-msgstr ""
+msgstr "Ilmapumppu"
 
 #. L10n: Amperage of the power provided by a campground. {} stands for the numerical value and 'amp' for Ampere - unit of electrical current
 #: ../views/components/place-detail.jade:76
 #: ../views/components/place-detail.jade:206
+#, fuzzy
 msgid "{} amp"
-msgstr ""
+msgstr "Ampeeri"
 
 #. L10n: Displayed when POI location is approximate. "Check it out..." means "Go to this place webpage to learn its exact location". Link to webpage is displayed
 #: ../views/components/place-detail.jade:77
@@ -2963,12 +2964,13 @@ msgid ""
 "This place is located in the highlighted area. Check it out to learn the "
 "exact location."
 msgstr ""
-"Hot hotelliliiketoimissa sijaitsee korostettu alue. Kun varaat, opit "
-"sijainti."
+"Tämä paikka sijaitsee korostetulla alueella. Saadaksesi selville sen tarkan "
+"sijainnin, tarkista se."
 
 #. L10n: Acreage. Followed by number of acres. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:78
 #: ../views/components/place-detail.jade:210
+#, fuzzy
 msgid "Area"
 msgstr "Pinta-ala"
 
@@ -2977,7 +2979,7 @@ msgstr "Pinta-ala"
 #: ../views/components/place-detail.jade:212
 #, fuzzy
 msgid "ATM"
-msgstr "OLEN"
+msgstr "Pankkiautomaatti"
 
 #. L10n: Base elevation of a ski resort. Followed by number. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:81
@@ -2991,32 +2993,34 @@ msgstr "Korkeus"
 #: ../views/components/place-detail.jade:216
 #, fuzzy
 msgid "Bathrooms"
-msgstr "Kylpyhuoneissa"
+msgstr "Kylpyhuonetta"
 
 #: ../views/components/place-detail.jade:83
 #: ../views/components/place-detail.jade:218
+#, fuzzy
 msgid "Barbecues"
-msgstr ""
+msgstr "Grilliä"
 
 #. L10n: Number of bedrooms in the lodging. Followed by number. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:84
 #: ../views/components/place-detail.jade:220
 #, fuzzy
 msgid "Bedrooms"
-msgstr "Makuuhuoneet"
+msgstr "Makuuhuonetta"
 
 #. L10n: Number of beds in the lodging. Followed by number. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:85
 #: ../views/components/place-detail.jade:222
 #, fuzzy
 msgid "Number of beds"
-msgstr "Hoitopaikkoja"
+msgstr "Vuoteita"
 
 #. L10n: Campgrounds suitable for large caravans and motorhomes. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:86
 #: ../views/components/place-detail.jade:224
+#, fuzzy
 msgid "Big rig access"
-msgstr ""
+msgstr "Suuret yhdistelmät sallittu"
 
 #. L10n: Places that offer biking as an activity. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:87
@@ -3024,21 +3028,21 @@ msgstr ""
 #: ../views/components/trip-detail.jade:695
 #, fuzzy
 msgid "Biking"
-msgstr "pyöräily"
+msgstr "Pyöräilyä"
 
 #. L10n: Boating (motorized small watercraft) opportunities nearby a place. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:88
 #: ../views/components/place-detail.jade:228
 #, fuzzy
 msgid "Boating"
-msgstr "reititys"
+msgstr "Veneilyä"
 
 #. L10n: Campsites that are only accessible by boat. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:89
 #: ../views/components/place-detail.jade:230
 #, fuzzy
 msgid "Boat-in campsites"
-msgstr "veneluiska"
+msgstr "Leirintäalue veneille"
 
 #. L10n: Displayed when place has (like a campground) a boat ramp. Less than 25 characters if possible
 #. L10n: stop type (icon)
@@ -3047,75 +3051,82 @@ msgstr "veneluiska"
 #: ../views/components/step-detail.jade:212
 #, fuzzy
 msgid "Boat ramp"
-msgstr "veneluiska"
+msgstr "Veneluiska"
 
 #. L10n: Displayed also when there are scenic byways near a place (for instance a campground). Less than 25 characters if possible
 #: ../views/components/place-detail.jade:92
 #: ../views/components/place-detail.jade:234 ../views/components/places.jade:80
 #, fuzzy
 msgid "Scenic byways"
-msgstr "Amerikan Scenic Byways"
+msgstr "Luonnonkauniita sivuteitä"
 
 #. L10n: Displayed when campground has cabins for rent. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:93
 #: ../views/components/place-detail.jade:236
+#, fuzzy
 msgid "Cabins"
-msgstr ""
+msgstr "Mökkejä"
 
 #. L10n: Displayed when lodging offers Cable TV. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:94
 #: ../views/components/place-detail.jade:238
+#, fuzzy
 msgid "Cable TV"
-msgstr ""
+msgstr "Kaapeli-TV"
 
 #. L10n: When campground has campsites suitable for camper trailers. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:95
 #: ../views/components/place-detail.jade:240
 #, fuzzy
 msgid "Suitable for trailers"
-msgstr "Sopii henkilöautoihin"
+msgstr "Sopii matkailuvaunuille"
 
 #. L10n: Places that offer canoeing as an activity. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:96
 #: ../views/components/place-detail.jade:242
 #, fuzzy
 msgid "Canoeing"
-msgstr "lumikenkäily"
+msgstr "Melontaa"
 
 #. L10n: Displayed when there are auto touring / scenic driving opportunity nearby a place. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:97
 #: ../views/components/place-detail.jade:244
+#, fuzzy
 msgid "Auto touring"
-msgstr ""
+msgstr "Automatka/maisema-ajo"
 
 #. L10n: When campground has campsites suitable for caravans. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:98
 #: ../views/components/place-detail.jade:246
 #, fuzzy
 msgid "Suitable for caravans"
-msgstr "Sopii henkilöautoihin"
+msgstr "Sopii matkailuvaunuille"
 
 #. L10n: Displayed when place (typically gas station) has car wash. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:99
 #: ../views/components/place-detail.jade:248
+#, fuzzy
 msgid "Car Wash"
-msgstr ""
+msgstr "Autopesu"
 
 #. L10n: Displayed for places that are caves. Also when a lodging has a cave nearby. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:100
 #: ../views/components/place-detail.jade:250
+#, fuzzy
 msgid "Cave"
-msgstr ""
+msgstr "Luola"
 
 #. L10n: Displayed when gas station sells diesel fuel. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:106
 #: ../views/components/place-detail.jade:252
+#, fuzzy
 msgid "Diesel"
-msgstr ""
+msgstr "Diesel"
 
 #: ../views/components/place-detail.jade:107
+#, fuzzy
 msgid "Difficulty"
-msgstr ""
+msgstr "Vaikeus"
 
 #. L10n: Displayed to denote unpaved road in the Find drawer. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:108
@@ -3123,24 +3134,26 @@ msgstr ""
 #: ../views/components/trip-detail.jade:415
 #, fuzzy
 msgid "Gravel or dirt road"
-msgstr "Tien tai soran tie"
+msgstr "Sora- tai hiekkatie"
 
 #: ../views/components/place-detail.jade:109
+#, fuzzy
 msgid "Accessible facilities"
-msgstr ""
+msgstr "Esteetön pääsy"
 
 #. L10n: Wild camping with no water, electric, or sewer hookups. So called bush camping in Australia or boondocking in US. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:110
 #: ../views/components/place-detail.jade:256
+#, fuzzy
 msgid "Dispersed camping"
-msgstr ""
+msgstr "Askeettinen leirintä"
 
 #. L10n: Places that offer diving as an activity. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:111
 #: ../views/components/place-detail.jade:258
 #, fuzzy
 msgid "Diving"
-msgstr "Ajo"
+msgstr "Sukellusta"
 
 #. L10n: Displayed when drinking water is available at a place (for instance a campground). Less than 25 characters if possible
 #. L10n: stop type (icon)
@@ -3149,96 +3162,107 @@ msgstr "Ajo"
 #: ../views/components/step-detail.jade:256
 #, fuzzy
 msgid "Drinking water"
-msgstr "Juomavesi"
+msgstr "Juomavettä"
 
 #. L10n: displayed for place like campgrounds that can only be accessed during dry weather. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:113
 #: ../views/components/place-detail.jade:262
+#, fuzzy
 msgid "Dry weather access"
-msgstr ""
+msgstr "Pääsy kuivalla säällä"
 
 #. L10n: Displayed for dump stations for RV / campers / motorhomes and campgrounds with such. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:114
 #: ../views/components/place-detail.jade:266
 #, fuzzy
 msgid "Dump station"
-msgstr "Kesto"
+msgstr "Kierrätyspiste"
 
 #: ../views/components/place-detail.jade:115
+#, fuzzy
 msgid "Effort"
-msgstr ""
+msgstr "Vaiva"
 
 #: ../views/components/place-detail.jade:116
+#, fuzzy
 msgid "Environment"
-msgstr ""
+msgstr "Ympäristö"
 
 #: ../views/components/place-detail.jade:117
+#, fuzzy
 msgid "Exposition"
-msgstr ""
+msgstr "Näyttely"
 
 #. L10n: Fees required by the attraction. Followed by fee description. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:118
 #: ../views/components/place-detail.jade:264
+#, fuzzy
 msgid "Fees required"
-msgstr "Maksullinen"
+msgstr "Maksu vaaditaan"
 
 #. L10n: Displayed when fires are pemitted at the place (like campground). Less than 25 characters if possible
 #: ../views/components/place-detail.jade:119
 #: ../views/components/place-detail.jade:268
+#, fuzzy
 msgid "Fires permitted"
-msgstr ""
+msgstr "Nuotio sallittu"
 
 #. L10n: Displayed if there are fire pits or fireplaces at the campground. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:120
 #: ../views/components/place-detail.jade:270
 #, fuzzy
 msgid "Fire pit or fireplace"
-msgstr "Kokeile sitä ilmaiseksi"
+msgstr "Nuotiopaikka"
 
 #. L10n: Displayed when place (for instance campground) sells (or otherwise provides) firewood
 #: ../views/components/place-detail.jade:121
 #: ../views/components/place-detail.jade:272
+#, fuzzy
 msgid "Firewood"
-msgstr ""
+msgstr "Nuotiopuu"
 
 #. L10n: Places that offer fishing as an activity. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:122
 #: ../views/components/place-detail.jade:274
 #, fuzzy
 msgid "Fishing"
-msgstr "Huoltoasemat"
+msgstr "Kalastusta"
 
 #. L10n: Displayed when there is a restaurant, bar or food stand at the campground or other facility. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:123
 #: ../views/components/place-detail.jade:276
 #: ../views/components/places.jade:164
+#, fuzzy
 msgid "Food service"
-msgstr ""
+msgstr "Ruokatarjontaa"
 
 #. L10n: Displayed when something (for instance Wi-Fi access) is free of charge. Should be short, less than 10 characters if possible
 #: ../views/components/place-detail.jade:124
 #: ../views/components/place-detail.jade:278
+#, fuzzy
 msgid "free"
-msgstr ""
+msgstr "Ilmainen"
 
 #. L10n: Displayed when generators are pemitted at the place (like campground). Less than 25 characters if possible
 #: ../views/components/place-detail.jade:125
 #: ../views/components/place-detail.jade:282
+#, fuzzy
 msgid "Generators permitted"
-msgstr ""
+msgstr "Agregaatit sallittu"
 
 #. L10n: Grocery or convenience store. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:127
 #: ../views/components/place-detail.jade:284
+#, fuzzy
 msgid "Grocery"
-msgstr ""
+msgstr "Päivittäistavarakauppa"
 
 #. L10n: Displayed when a road is accessible to high clearance vehicles only (some unpaved roads in the Find drawer under category "Unpaved roads and off-road trails"). Also when access to a place like campground requires such vehicles. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:128
 #: ../views/components/place-detail.jade:286
 #, fuzzy
 msgid "High clearance required"
-msgstr "Vain ajoneuvot"
+msgstr "Vain matalat ajoneuvot"
 
 #. L10n: Displayed when road or access to a place is available only to vehicles permitted to drive on public roads. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:129
@@ -3259,66 +3283,72 @@ msgstr "Vaellusreitti"
 #. L10n: Places that offer horseback riding as an activity. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:131
 #: ../views/components/place-detail.jade:292
+#, fuzzy
 msgid "Horseback riding"
-msgstr ""
+msgstr "Ratsastusta"
 
 #. L10n: Displayed when there is hot tub (jacuzzi) and/or sauna on premises of a lodging
 #: ../views/components/place-detail.jade:132
 #: ../views/components/place-detail.jade:294
+#, fuzzy
 msgid "Hot tub or sauna"
-msgstr ""
+msgstr "Poreamme tai sauna"
 
 #. L10n: Place is or has visitor center or information point. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:133
 #: ../views/components/place-detail.jade:296
 #, fuzzy
 msgid "Information point"
-msgstr "Vahvistus"
+msgstr "Infopiste"
 
 #. L10n: Displayed when a road is accessible to 4WD (four-wheel drive) vehicles only. Also when access to a place like campground requires such vehicle. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:134
 #: ../views/components/place-detail.jade:298
 #, fuzzy
 msgid "4WD vehicles only"
-msgstr "Vain ajoneuvot"
+msgstr "Vain 4WD ajoneuvoille"
 
 #. L10n: Displayed when place has kitchen or area to prepare food. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:135
 #: ../views/components/place-detail.jade:300
+#, fuzzy
 msgid "Cooking facilities"
-msgstr ""
+msgstr "Keittopiste"
 
 #. L10n: Displayed when place is a historical site, monument or landmark. Also when a lodging is near such place. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:136
 #: ../views/components/place-detail.jade:302
 #, fuzzy
 msgid "Notable landmark"
-msgstr "Historiallinen sivusto tai maamerkki"
+msgstr "Merkittävä maamerkki"
 
 #. L10n: Number of lifts in a ski resort. Followed by number. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:137
 #: ../views/components/place-detail.jade:304
+#, fuzzy
 msgid "Lifts"
 msgstr "Hiihtohissejä"
 
 #. L10n: Length of a feature in meters, for instance maximum length of camping site. {} stands for the numerical value and 'm' for meters - metric unit of length
 #: ../views/components/place-detail.jade:138
 #: ../views/components/place-detail.jade:306
+#, fuzzy
 msgid "{} m"
-msgstr ""
+msgstr "{} m"
 
 #. L10n: Denotes availability powered campsites. Followed by maximum power offered by campground, if provided. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:139
 #: ../views/components/place-detail.jade:308
+#, fuzzy
 msgid "Electric hookup"
-msgstr ""
+msgstr "Sähköliitäntä"
 
 #. L10n: Maximum depth of a dive site. Followed by number. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:140
 #: ../views/components/place-detail.jade:310
 #, fuzzy
 msgid "Maximum depth"
-msgstr "maksimi vieraat"
+msgstr "Suurin syvyys"
 
 #. L10n: Elevation of a peak (mountain). Followed by number. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:141
@@ -3333,68 +3363,70 @@ msgstr "Korkeus"
 #: ../views/components/place-detail.jade:314
 #, fuzzy
 msgid "Maximum guests"
-msgstr "maksimi vieraat"
+msgstr "Maksimi määrä vieraita"
 
 #. L10n: Maximum length of RV / camper / motorhome that the campground can accommodate. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:143
 #: ../views/components/place-detail.jade:316
 #, fuzzy
 msgid "Maximum length"
-msgstr "maksimi vieraat"
+msgstr "Suurin pituus"
 
 #. L10n: Minimum number of nights required by the lodging. Followed by number. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:144
 #: ../views/components/place-detail.jade:318
 #, fuzzy
 msgid "Minimum nights"
-msgstr "vähintään yötä"
+msgstr "Vähimmäisyöt"
 
 #. L10n: displayed when attraction is or has a minigolf (miniature golf) course
 #: ../views/components/place-detail.jade:145
 #: ../views/components/place-detail.jade:320
+#, fuzzy
 msgid "Minigolf"
-msgstr ""
+msgstr "Minigolf"
 
 #. L10n: Displayed when mobile phone works at a place like campground. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:146
 #: ../views/components/place-detail.jade:322
+#, fuzzy
 msgid "Mobile coverage"
-msgstr ""
+msgstr "Mobiiliverkko"
 
 #. L10n: Displayed for tracks and trails open to motorcycles. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:147
 #: ../views/components/place-detail.jade:324
 #, fuzzy
 msgid "Open to motorcycles"
-msgstr "Avoin moottoripyörille"
+msgstr "Sallittu moottoripyörille"
 
 #. L10n: Displayed for dirt roads opened to OHV (off-highway vehicles, also ATV - all-terrain vahicles) wide 50 inch or less. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:150
 #: ../views/components/place-detail.jade:330
 #, fuzzy
 msgid "OHV 50\" or less in width"
-msgstr ""
-"Avoin pyörillä varustetuille offroad-ajoneuvoille 50\" tai vähemmän leveä"
+msgstr "Maastoajoneuvot, leveys max. 127cm (50\")"
 
 #. L10n: Displayed when place offers scenic views or has a lookout. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:151
 #: ../views/components/place-detail.jade:332
 #, fuzzy
 msgid "Scenic views"
-msgstr "Amerikan Scenic Byways"
+msgstr "Näköaloja"
 
 #. L10n: Displayed for backroads that can be driven by all kinds of vehicles including cars. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:152
 #: ../views/components/place-detail.jade:326
+#, fuzzy
 msgid "Open to all vehicles"
-msgstr "Avoin kaikille kulkuneuvoille"
+msgstr "Sallittu kaikille ajoneuvoille"
 
 #. L10n: Displayed when place (for instance a campground) is open year round. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:153
 #: ../views/components/place-detail.jade:328
 #, fuzzy
 msgid "Open all year"
-msgstr "Avoin kaikille kulkuneuvoille"
+msgstr "Auki läpi vuoden"
 
 #. L10n: Displayed when a place is or has a designated parking area. Less than 25 characters if possible
 #. L10n: stop type (icon)
@@ -3410,105 +3442,112 @@ msgstr "Pysäköintialue"
 #: ../views/components/place-detail.jade:336
 #, fuzzy
 msgid "Passenger cars"
-msgstr "Ajo (henkilöautot)"
+msgstr "Henkilöautot"
 
 #. L10n: Displayed for lodgings that allow pets. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:157
 #: ../views/components/place-detail.jade:338
 #, fuzzy
 msgid "Pets allowed"
-msgstr "Lemmikit sallittu"
+msgstr "Sallittu lemmikeille"
 
 #. L10n: Displayed when there are opportunities for taking scenic photos at the location. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:158
 #: ../views/components/place-detail.jade:340
+#, fuzzy
 msgid "Photography"
-msgstr ""
+msgstr "Valokuvausta"
 
 #. L10n: Displayed when picking tables are provided by a campground. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:159
 #: ../views/components/place-detail.jade:342
 #, fuzzy
 msgid "Picnic tables"
-msgstr "Piknikki"
+msgstr "Piknik-pöytiä"
 
 #. L10n: Place has or is a playground for kids. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:160
 #: ../views/components/place-detail.jade:344
+#, fuzzy
 msgid "Playground for kids"
-msgstr ""
+msgstr "Leikkipaikka"
 
 #. L10n: Displayed when propane (LPG) refill is available (for instance at campground or gas station)
 #: ../views/components/place-detail.jade:161
 #: ../views/components/place-detail.jade:346
+#, fuzzy
 msgid "Propane"
-msgstr ""
+msgstr "Kaasua"
 
 #. L10n: There is a public payphone at the place. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:162
 #: ../views/components/place-detail.jade:348
 #, fuzzy
 msgid "Public payphone"
-msgstr "julkinen nimi"
+msgstr "Yleisöpuhelin"
 
 #. L10n: Ranger station at or nearby the place. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:163
 #: ../views/components/place-detail.jade:350
 #, fuzzy
 msgid "Ranger station"
-msgstr "Juna-asema"
+msgstr "Metsänvartijan asema"
 
 #. L10n: Displayed when place is a rest area, rest stop, service area, or travel plaza. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:164
 #: ../views/components/place-detail.jade:352
 #, fuzzy
 msgid "Rest area"
-msgstr "Ravintola"
+msgstr "Levähdysalue"
 
 #. L10n: Displayed for backroads that are closed to all traffic except for authorized maintenance. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:165
 #: ../views/components/place-detail.jade:354
+#, fuzzy
 msgid "Closed for traffic"
-msgstr ""
+msgstr "Suljettu liikenteeltä"
 
 #. L10n: Displayed when campground has sites for RV / campers / motorhomes. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:166
 #: ../views/components/place-detail.jade:356
 #, fuzzy
 msgid "RV sites"
-msgstr "sukelluskohteita"
+msgstr "Paikkoja matkailuautoille"
 
 #. L10n: Places that offer sailing as an activity. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:167
 #: ../views/components/place-detail.jade:360
+#, fuzzy
 msgid "Sailing"
-msgstr ""
+msgstr "Purjehdusta"
 
 #. L10n: Displayed when place or road is open seasonally. Followed by dates. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:168
 #: ../views/components/place-detail.jade:362
+#, fuzzy
 msgid "Seasonal"
 msgstr "Kausittainen"
 
 #. L10n: Displayed for campgrounds with shaded campsites. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:169
 #: ../views/components/place-detail.jade:358
+#, fuzzy
 msgid "Shaded campsites"
-msgstr ""
+msgstr "Suojaisa leirintäalue"
 
 #. L10n: Displayed when a place (typicaly campground) has showers. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:170
 #: ../views/components/place-detail.jade:364
 #, fuzzy
 msgid "Showers"
-msgstr "Näytä minulle"
+msgstr "Suihkuja"
 
 #. L10n: Displayed when a place is or has a sports field (stadium). Less than 25 characters if possible
 #: ../views/components/place-detail.jade:172
 #: ../views/components/place-detail.jade:366
 #, fuzzy
 msgid "Sports field"
-msgstr "Maastojuoksussa ja toimintaa"
+msgstr "Urheilukenttä"
 
 #. L10n: Displayed for lodgings that are studio apartments. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:173
@@ -3520,21 +3559,23 @@ msgstr "Yksiö"
 #. L10n: Places that offer swimming as an activity. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:174
 #: ../views/components/place-detail.jade:370
+#, fuzzy
 msgid "Swimming"
-msgstr ""
+msgstr "Uintia"
 
 #. L10n: Places that offer tennis as an activity. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:175
 #: ../views/components/place-detail.jade:372
+#, fuzzy
 msgid "Tennis"
-msgstr ""
+msgstr "Tennistä"
 
 #. L10n: Displayed when campground has sites for tents. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:176
 #: ../views/components/place-detail.jade:374
 #, fuzzy
 msgid "Tent sites"
-msgstr "sukelluskohteita"
+msgstr "Telttapaikkoja"
 
 #. L10n: Displayed when place (typically gas station) has public restroom (toilets). Less than 25 characters if possible
 #. L10n: stop type (icon) for a public bathroom
@@ -3550,13 +3591,14 @@ msgstr "WC"
 #: ../views/components/place-detail.jade:378
 #, fuzzy
 msgid "Trails"
-msgstr "ATV polkuja"
+msgstr "Polkuja"
 
 #. L10n: Trash cans (rubbish bins) available at a place (for instance a campground). Less than 25 characters if possible
 #: ../views/components/place-detail.jade:183
 #: ../views/components/place-detail.jade:380
+#, fuzzy
 msgid "Trash cans"
-msgstr ""
+msgstr "Roska-astioita"
 
 #. L10n: Displayed when a lodging organizes tours or days trips or provides shuttle bus to nearby attraction(s)
 #. L10n: hint for the button that shows tours and day trips on the map
@@ -3566,21 +3608,21 @@ msgstr ""
 #: ../views/components/place-switch.jade:385
 #, fuzzy
 msgid "Tours and day trips"
-msgstr "Suunnittele matka"
+msgstr "Matkoja ja päiväretkiä"
 
 #. L10n: Displayed for dirt roads opened to vehicles wide 50 inch or less. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:190
 #: ../views/components/place-detail.jade:384
 #, fuzzy
 msgid "Vehicles 50\" or less in width"
-msgstr "Vain alle 50\" leveille ajoneuvoille"
+msgstr "Ajoneuvoille, leveys max. 127cm (50\")"
 
 #. L10n: Maximum vertical drop in a ski resort. Followed by number. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:191
 #: ../views/components/place-detail.jade:386
 #, fuzzy
 msgid "Vertical drop"
-msgstr "Laskun korkeus"
+msgstr "Pystysuora pudotus"
 
 #. L10n: Displayed for places like campgrounds where water is available. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:192
