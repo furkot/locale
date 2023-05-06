@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2023-04-03 16:59+0200\n"
-"PO-Revision-Date: 2023-05-06 06:11+0000\n"
+"PO-Revision-Date: 2023-05-07 00:16+0000\n"
 "Last-Translator: Tommi Riikonen <von.riikonen@gmail.com>\n"
 "Language-Team: Finnish <https://translate.furkot.com/projects/furkot/trips/"
 "fi/>\n"
@@ -7188,7 +7188,7 @@ msgstr "Matka alkaa myöhemmin {} klo {}."
 #: ../views/components/step-detail.jade:930
 #, fuzzy
 msgid "The trip ends earlier on {} at {}."
-msgstr "Matka päättyy aiemmin {} klo {}."
+msgstr "Matka päättyy aikaisemmin {} klo {}."
 
 #: ../views/components/step-detail.jade:931
 #, fuzzy
@@ -7204,54 +7204,59 @@ msgstr "Vierailun kesto ylittää matkustuspäivälle suunnittelemasi aikarajat.
 #, fuzzy
 msgid "Actual arrival on {} at {} is later than planned."
 msgstr ""
-"Todellinen saapumisen {} klo {} on matkustuspäivälle suunnittelemaasi "
-"saapumista myöhemmin."
+"Todellinen saapuminen {} klo {} on suunniteltua saapumisaikaa myöhemmin."
 
 #: ../views/components/step-detail.jade:934
 #, fuzzy
 msgid "Actual arrival on {} at {} is earlier than planned."
-msgstr "Varsinainen saapumisen {} klo {} on määritettyä aikarajaa aikaisemmin."
+msgstr ""
+"Todellinen saapuminen {} klo {} on suunniteltua saapumisaikaa aikaisemmin."
 
 #: ../views/components/step-detail.jade:935
 #, fuzzy
 msgid "Actual departure on {} at {} is later than planned."
-msgstr "Todellinen lähtö {} on {} on suunniteltua lähtöaikaa myöhemmin."
+msgstr "Todellinen lähtö {} klo {} on suunniteltua lähtöaikaa myöhemmin."
 
 #: ../views/components/step-detail.jade:936
 #, fuzzy
 msgid "Actual departure on {} at {} is earlier than planned."
-msgstr "Todellinen lähtö {} on {} on suunniteltua aikaisemmin."
+msgstr "Todellinen lähtö {} klo {} on suunniteltua lähtöaikaa aikaisemmin."
 
 #: ../views/components/step-detail.jade:937
 #, fuzzy
 msgid "No arrival date."
-msgstr "Ei saapumista."
+msgstr "Ei saapumispäivää."
 
 #: ../views/components/step-detail.jade:938
 #, fuzzy
 msgid ""
 "No route available (stops too far from roads or a road is seasonally closed)."
 msgstr ""
-"Ei reittiä käytettävissä (estää liian kaukana teistä tai tie on suljettu "
-"vuodenajasta)."
+"Reittiä ei ole saatavilla (pysähtyy liian kaukana tiestä tai tie on suljettu "
+"kausiluonteisesti)."
 
 #. L10n: Warning displayed when stops are too far apart to calculate route and user is advised to add more stops in-between
 #: ../views/components/step-detail.jade:939
 #: ../views/components/step-detail.jade:962
+#, fuzzy
 msgid "Stops too far apart. Add interim stops to calculate route."
 msgstr ""
+"Pysähdykset ovat liian kaukana toisistaan. Lisää välipysähdyksiä reitin "
+"laskemiseksi."
 
 #. L10n: Warning displayed when Furkot cannot calculate route duration and expect user to set it manually
 #: ../views/components/step-detail.jade:940
 #: ../views/components/step-detail.jade:958
 #, fuzzy
 msgid "Route duration needs to be set manually."
-msgstr "Reitin kesto on asetettava manuaalisesti."
+msgstr "Reitin kesto on annettava manuaalisesti."
 
 #: ../views/components/step-detail.jade:941
 #, fuzzy
 msgid "The road may be seasonally closed. Check its status before departure."
-msgstr "Tie voi olla suljettu vuodenajasta. Tarkista sen tila ennen lähtöä."
+msgstr ""
+"Tie saattaa olla kausiluontoisesti suljettu. Tarkista sen tila ennen kuin "
+"lähdet."
 
 #: ../views/components/step-detail.jade:942
 #, fuzzy
@@ -7261,7 +7266,7 @@ msgstr "Ei lähtöpäivää."
 #: ../views/components/step-detail.jade:943
 #, fuzzy
 msgid "Very little time to rest at the lodging."
-msgstr "Hyvin vähän aikaa levätä jättämisen."
+msgstr "Lepoon majoituksessa on hyvin vähän aikaa."
 
 #: ../views/components/step-detail.jade:944
 #, fuzzy
@@ -7269,15 +7274,16 @@ msgid ""
 "Split this lodging stop to avoid booking for {} nights in order to stay {} "
 "nights."
 msgstr ""
-"Split tämä majoitus pysäkki välttää varausta {} yötä pysyäkseen {} yötä."
+"Jaa tämän majoituksen pysähdys välttyäksesi {} yön varaukselta voidaksesi "
+"yöpyä {} yötä."
 
 #: ../views/components/step-detail.jade:945
 #, fuzzy
 msgid ""
 "Stop position is uncertain. Click the VISIT button above for the best guess."
 msgstr ""
-"Pysäytysasentoon on epävarmaa. Osoita vierailun painiketta yläpuolella paras "
-"arvaus."
+"Pysähdyspaikka on epävarma. Klikkaa yllä VIERAILE-painiketta saadaksesi "
+"parhaan arvauksen."
 
 #: ../views/components/step-detail.jade:946
 #, fuzzy
@@ -7285,78 +7291,80 @@ msgid ""
 "Stop has been moved from the linked place. Verify that its location is "
 "correct."
 msgstr ""
-"Stop on siirretty linkitetystä paikasta. Varmista, että sen sijainti on "
+"Pysähdys on siirretty linkitetystä paikasta. Varmista, että sen sijainti on "
 "oikea."
 
 #: ../views/components/step-detail.jade:947
+#, fuzzy
 msgid "Some roads have tolls."
-msgstr ""
+msgstr "Joillakin teillä on tulleja."
 
 #: ../views/components/step-detail.jade:948
+#, fuzzy
 msgid "Not all roads are paved."
-msgstr ""
+msgstr "Kaikki tiet eivät ole päällystettyjä."
 
 #: ../views/components/step-detail.jade:968
 #: ../views/components/trip-config-item.jade:211
 #, fuzzy
 msgid "Book a Flight"
-msgstr "Varaa lento"
+msgstr "Varaa Lento"
 
 #. L10n: Label for the field that displays subsequent number and the total for a multi-night lodging stop. Can be translated to a word that means a single night at a hotel
 #: ../views/components/step-item.jade:25
 #, fuzzy
 msgid "night"
-msgstr "yö-"
+msgstr "yötä"
 
 #. L10n: Word marking a stop as omited in the itinersry
 #: ../views/components/step-item.jade:33
 #, fuzzy
 msgid "Skipped"
-msgstr "Skipped"
+msgstr "Sivuutettu"
 
 #. L10n: Word marking a stop as deleted from the itinerary
 #: ../views/components/step-item.jade:37
 #, fuzzy
 msgid "Deleted"
-msgstr "poistettu"
+msgstr "Poistettu"
 
 #: ../views/components/step-lodging.jade:3
 #, fuzzy
 msgid "Available to book at the displayed price"
-msgstr "Varattavissa klo osoittimesi hinnan"
+msgstr "Varattavissa esitetyllä hinnalla"
 
 #: ../views/components/step-lodging.jade:8
 #, fuzzy
 msgid "More rooms may be available"
-msgstr "Enemmän huoneet voivat olla käytettävissä"
+msgstr "Lisää huoneita voi olla saatavilla"
 
 #: ../views/components/step-lodging.jade:10
 #, fuzzy
 msgid "This is an average price. The actual booking price may differ."
-msgstr "Tämä on keskimääräinen hinta. Varsinainen varaus hinta voi vaihdella."
+msgstr "Tämä on keskihinta. Todellinen varaushinta voi vaihdella."
 
 #: ../views/components/step-lodging.jade:30
 #, fuzzy
 msgid "Hotels"
-msgstr "hotellit"
+msgstr "Hotellit"
 
 #: ../views/components/step-lodging.jade:55
 #, fuzzy
 msgid "Nearby Lodgings"
-msgstr "lähistöllä Lodgings"
+msgstr "Majoitukset lähistöllä"
 
 #. L10n: Label for the field to edit lodging booking confirmation number or link
 #: ../views/components/step-lodging.jade:61
 #: ../views/components/step-lodging.jade:69
 #, fuzzy
 msgid "Booking"
-msgstr "varaus"
+msgstr "Varaus"
 
 #: ../views/components/step-lodging.jade:63
 #: ../views/components/step-lodging.jade:71
 #, fuzzy
 msgid "Click to add booking confirmation or link"
-msgstr "Lisää napsauttamalla varausvahvistuksen tai linkin"
+msgstr "Lisää klikkaamalla varausvahvistus tai linkki"
 
 #. L10n: 'confirmation' as in 'lodging booking confirmation number or link'
 #: ../views/components/step-lodging.jade:63
@@ -7368,62 +7376,62 @@ msgstr "Vahvistus"
 #: ../views/components/step-switches.jade:8
 #, fuzzy
 msgid "Keep this stop as the starting point"
-msgstr "Pidä luukun lähtökohtana"
+msgstr "Pidä pysähdys lähtöpisteenä"
 
 #: ../views/components/step-switches.jade:9
 #, fuzzy
 msgid "Allow placing stops before this one to minimize driving"
-msgstr "Sallia asettamalla pysähtyy ennen kuin tämä yksi minimoida ajo"
+msgstr "Ajon minimoimiseksi, salli pysähdysten asettaminen tätä ennen"
 
 #: ../views/components/step-switches.jade:13
 #, fuzzy
 msgid "Keep this stop as the trip end"
-msgstr "Säilytä tämä pysäytys matkan päähän"
+msgstr "Pidä pysähdys matkan loppupisteenä"
 
 #: ../views/components/step-switches.jade:14
 #, fuzzy
 msgid "Allow placing stops after this one to minimize driving"
-msgstr "Sallia asettamalla lakkaa, kun tämä yksi minimoimiseksi ajo"
+msgstr "Ajon minimoimiseksi, salli pysähdysten tekeminen tämän jälkeen"
 
 #: ../views/components/step-switches.jade:21
 #, fuzzy
 msgid "Hide all warnings for this stop"
-msgstr "Piilota kaikki varoitukset pysähdyspaikan"
+msgstr "Piilota kaikki pysähdyksen varoitukset"
 
 #. L10n: Hint for the button that allows user to filter out pass-through points. The button is available under the Filter button in the Plan drawer
 #: ../views/components/step-switches.jade:29
 #, fuzzy
 msgid "Pass-through points"
-msgstr "Kulkea läpi"
+msgstr "Läpikulkupaikat"
 
 #. L10n: Hint for the button that allows user to filter out regular stops representing places to visit on the trip. The button is available under the Filter button in the Plan drawer
 #: ../views/components/step-switches.jade:33
 #, fuzzy
 msgid "Places to visit"
-msgstr "Käyntikohteita"
+msgstr "Vierailukohteita"
 
 #. L10n: Hint for the button that allows user to filter out fuel stations planned for the trip. The button is available under the Filter button in the Plan drawer
 #: ../views/components/step-switches.jade:37
 #, fuzzy
 msgid "Refueling stops"
-msgstr "suunnitelma pysähtyy"
+msgstr "Tankkauspiste"
 
 #. L10n: Hint for the button that allows user to filter out overnight stops planned for the trip. The button is available under the Filter button in the Plan drawer
 #: ../views/components/step-switches.jade:45
 #, fuzzy
 msgid "Overnight lodgings"
-msgstr "Vain yhdessä yössä majoitusta"
+msgstr "Yön yli-majoitukset"
 
 #. L10n: Hint for the button that allows user to filter out stops that have a given tag. The button is available under the Filter button in the Plan drawer
 #: ../views/components/step-switches.jade:49
 #, fuzzy
 msgid "Stops with selected tags"
-msgstr "Vain valitut tunnisteet"
+msgstr "Pysähdykset valituilla tunnisteilla"
 
 #: ../views/components/step-switches.jade:55
 #, fuzzy
 msgid "Add a new stop"
-msgstr "Lisää uusi pysäkki"
+msgstr "Lisää uusi pysähdys"
 
 #: ../views/components/step-switches.jade:57
 #, fuzzy
@@ -7433,12 +7441,12 @@ msgstr "Käänteinen matkareitti"
 #: ../views/components/step-switches.jade:60
 #, fuzzy
 msgid "Filter displayed stops"
-msgstr "Suodatin näytölle pysähtyy"
+msgstr "Suodata näytettävät pysähdykset"
 
 #: ../views/components/step-switches.jade:67
 #, fuzzy
 msgid "Display Stops"
-msgstr "näyttö Pysäkit"
+msgstr "Näytä Pysähdykset"
 
 #. L10n: Label for configuring from what point Furkot should display distance
 #: ../views/components/step-switches.jade:73
@@ -7450,63 +7458,64 @@ msgstr "Etäisyys"
 #: ../views/components/step-switches.jade:76
 #, fuzzy
 msgid "From previous stop"
-msgstr "Edellisten pysäytys"
+msgstr "Edellisestä pysähdyksestä"
 
 #. L10n: Hint for the option to display distance from the previous fuel station
 #: ../views/components/step-switches.jade:80
 #, fuzzy
 msgid "From previous refueling stop"
-msgstr "Edellisten pysäytys"
+msgstr "Edellisestä tankkaamisesta"
 
 #. L10n: Hint for the option to display distance from the previous lodging
 #: ../views/components/step-switches.jade:88
 #, fuzzy
 msgid "From previous lodging"
-msgstr "Edellisten majoitus"
+msgstr "Edellisestä majoituksesta"
 
 #. L10n: Hint for the option to display distance from the trip starting point
 #: ../views/components/step-switches.jade:92
 #, fuzzy
 msgid "From trip start"
-msgstr "Alkaen Matkan aloitus"
+msgstr "Matkan alusta"
 
 #. L10n: Label for configuring for what Furkot should optimize the Plan drawer
 #: ../views/components/step-switches.jade:98
 #, fuzzy
 msgid "Optimize for"
-msgstr "optimoida"
+msgstr "Optimoi"
 
 #. L10n: Hint to optimize the Plan drawer for 'advanced use' i.e. show advanced features
 #: ../views/components/step-switches.jade:108
 #, fuzzy
 msgid "Advanced use"
-msgstr "Advanced käyttö"
+msgstr "Edistynyt käyttö"
 
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify stops. If user assigns tags to stops, they can then use filter to display only stops with those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parantheses () enhances understanding
 #: ../views/components/step-switches.jade:120
 #: ../views/components/step-switches.jade:124
 #, fuzzy
 msgid "Type tags to filter by"
-msgstr "Tyypin koodit suodattaa"
+msgstr "Suodata tunnisteet"
 
 #: ../views/components/step-switches.jade:131
 #, fuzzy
 msgid ""
 "Click anywhere on the map to drop a pin representing the start of your trip."
 msgstr ""
-"Klikkaa mitä tahansa kohtaa kartalla Pudota merkki edustaa alussa matkasi."
+"Asettaaksesi matkan lähtöpisteen, klikkaa missä kohdassa tahansa karttaa."
 
 #. L10n: square brackets [] denote a button (icon)
 #: ../views/components/step-switches.jade:133
 #, fuzzy
 msgid "Use the new stop [] button above to type-in the address."
-msgstr "Käytä pysäkkilista [] -painiketta yllä kirjoittaa-osoitekenttään."
+msgstr ""
+"Kirjoittaaksesi osoitteen, käytä yllä olevaa uusi pysähdys []-painiketta."
 
 #. L10n: L10n: square brackets [] denote a button
 #: ../views/components/step-switches.jade:135
 #, fuzzy
 msgid "Search for places to visit in the [Find] drawer."
-msgstr "Hae paikkoja käyt"
+msgstr "Etsi vierailtavia paikkoja [Etsi]-välilehdellä."
 
 #. L10n: Caption for the message displayed when user moving a stop will change trip starting or ending point
 #: ../views/components/step-switches.jade:138
@@ -7514,7 +7523,7 @@ msgstr "Hae paikkoja käyt"
 #: ../views/components/step-switches.jade:160
 #, fuzzy
 msgid "Move stop"
-msgstr "Siirrä pysäytys"
+msgstr "Siirrä pysähdys"
 
 #. L10n: Caption for the message displayed to confirm deleting a stop
 #: ../views/components/step-switches.jade:149
@@ -7524,13 +7533,13 @@ msgstr "Siirrä pysäytys"
 #: ../views/components/step-switches.jade:180
 #, fuzzy
 msgid "Delete stop"
-msgstr "poista pysäytys"
+msgstr "Poista pysähdys"
 
 #: ../views/components/step-switches.jade:161
 #: ../views/components/step-switches.jade:169
 #, fuzzy
 msgid "Do you want to change the trip end?"
-msgstr "Haluatko muuttaa matkan päähän?"
+msgstr "Haluatko muuttaa matkan loppua?"
 
 #: ../views/components/step-switches.jade:162
 #: ../views/components/step-switches.jade:170
@@ -7539,8 +7548,8 @@ msgid ""
 "You can also allow subsequent changes of the trip end if you don't want to "
 "see this message again."
 msgstr ""
-"Voit myös sallia myöhemmät muutokset Matkan päättyy, jos et halua nähdä tätä "
-"viestiä."
+"Voit myös muuttaa matkan loppua myöhemminkin, jos et halua nähdä tätä "
+"viestiä uudelleen."
 
 #: ../views/components/step-switches.jade:177
 #: ../views/components/step-switches.jade:185
@@ -7551,12 +7560,12 @@ msgstr "Oletko varma, että haluat poistaa pysähdyksen?"
 #: ../views/components/step-switches.jade:182
 #, fuzzy
 msgid "This stop represents a confirmed booking."
-msgstr "Tämä pysäkki on vahvistettu varaus."
+msgstr "Tällä pysähdyksellä on vahvistettu majoitus."
 
 #: ../views/components/step-switches.jade:183
 #, fuzzy
 msgid "You should cancel the booking before deleting it."
-msgstr "Sinun pitäisi perua varaus ennen sen poistamista."
+msgstr "Sinun pitää perua majoitusvaraus ennen sen poistamista."
 
 #: ../views/components/step-switches.jade:188
 #: ../views/components/step-switches.jade:201
@@ -7565,7 +7574,7 @@ msgstr "Sinun pitäisi perua varaus ennen sen poistamista."
 #: ../views/components/step-switches.jade:236
 #, fuzzy
 msgid "Automatically scheduled overnight stop"
-msgstr "Automaattisesti ajastettu yöpymistä"
+msgstr "Automaattisesti ajastettu yöpyminen"
 
 #: ../views/components/step-switches.jade:190
 #: ../views/components/step-switches.jade:203
@@ -7577,8 +7586,8 @@ msgid ""
 "This is an automatically scheduled overnight stop. It will disappear when "
 "you add your own lodging stop before it."
 msgstr ""
-"Tämä on automaattisesti suunniteltu yöpymistä. Se katoaa, kun lisäät omia "
-"majoitus pysäkki ennen sitä."
+"Tämä on automaattisesti suunniteltu yöpyminen. Se poistuu, kun lisäät oman, "
+"aikaisemman majoituksen."
 
 #: ../views/components/step-switches.jade:192
 #, fuzzy
@@ -7586,8 +7595,8 @@ msgid ""
 "If you want to travel longer on this day you can change its Start a Day or "
 "End a Day times."
 msgstr ""
-"Jos haluat matkustaa enää tänä päivänä voit muuttaa sen Aloita päivä tai "
-"päättää päivä kertaa."
+"Muuta Päivän Aloitus- tai Päivän Lopetusaikaa, jos haluat matkustaa "
+"pidempään tänä päivänä."
 
 #: ../views/components/step-switches.jade:195
 #, fuzzy
@@ -7595,8 +7604,8 @@ msgid ""
 "If you don't want Furkot to schedule overnight stops for your trip, set the "
 "End a Day to the same time as the Start a Day in the Trip drawer."
 msgstr ""
-"Jos et halua Furkot ajoittaa yöpymistä matkaasi, aseta päättää päivä samaan "
-"aikaan kuin Aloita päivä Trip laatikon."
+"Jos et halua Furkotin ajoittavan yöpymisiäsi automaattisesti, aseta Matka-"
+"välilehdellä Päivän Lopetus samaan aikaan kuin Päivän aloitus."
 
 #: ../views/components/step-switches.jade:205
 #, fuzzy
@@ -7604,8 +7613,8 @@ msgid ""
 "If you want to travel longer on this day you can change its daily travel "
 "time or mileage limits."
 msgstr ""
-"Jos haluat matkustaa enää tänä päivänä voit muuttaa sen Aloita päivä tai "
-"päättää päivä kertaa."
+"Muuta päivittäistä matka-aikaa tai matkan pituutta, jos haluat matkustaa "
+"pidempään tänä päivänä."
 
 #: ../views/components/step-switches.jade:208
 #, fuzzy
@@ -7613,8 +7622,8 @@ msgid ""
 "If you don't want Furkot to schedule overnight stops for your trip, clear "
 "daily travel time and mileage limits in the Trip drawer."
 msgstr ""
-"Jos et halua Furkot ajoittaa yöpymistä matkaasi, aseta päättää päivä samaan "
-"aikaan kuin Aloita päivä Trip laatikon."
+"Jos et halua Furkotin ajoittavan yöpymisiäsi automaattisesti, tyhjennä Matka-"
+"välilehdellä päivittäinen matka-aika ja matkan pituus."
 
 #: ../views/components/step-switches.jade:218
 #, fuzzy
@@ -7622,14 +7631,17 @@ msgid ""
 "If you want to travel longer on this day you can change the Finish Trip date "
 "and time."
 msgstr ""
-"Jos haluat matkustaa enää tänä päivänä voit muuttaa sen Aloita päivä tai "
-"päättää päivä kertaa."
+"Jos haluat matkustaa pidempään tänä päivänä, voit muuttaa Matkan Lopetus-"
+"päivämäärää ja -aikaa."
 
 #: ../views/components/step-switches.jade:218
+#, fuzzy
 msgid ""
 "Or you can clear the Finish Trip date and let Furkot calculate when you "
 "arrive at your destination."
 msgstr ""
+"Tai voit tyhjentää Matkan Lopetus-päivämäärän ja antaa Furkotin laskea, "
+"milloin saavut määränpäähäsi."
 
 #: ../views/components/step-switches.jade:229
 #, fuzzy
@@ -7637,8 +7649,8 @@ msgid ""
 "If you want to travel longer on this day you can change the fixed Arrival "
 "date and time."
 msgstr ""
-"Jos haluat matkustaa enää tänä päivänä voit muuttaa sen Aloita päivä tai "
-"päättää päivä kertaa."
+"Jos haluat matkustaa pidempään tänä päivänä, voit muuttaa kiinteää Matkan "
+"Lopetus-päivämäärää ja -aikaa."
 
 #: ../views/components/step-switches.jade:240
 #, fuzzy
@@ -7646,23 +7658,23 @@ msgid ""
 "If you want to travel longer on this day you can cancel the booking and "
 "remove confirmation."
 msgstr ""
-"Jos haluat matkustaa enää tänä päivänä voit muuttaa sen Aloita päivä tai "
-"päättää päivä kertaa."
+"Jos haluat matkustaa pidempään tänä päivänä, voit peruuttaa yöpymisen "
+"varauksen ja poistaa varausvahvistuksen."
 
 #: ../views/components/step-switches.jade:247
 #, fuzzy
 msgid "Automatically scheduled airport"
-msgstr "Automaattisesti ajastettu yöpymistä"
+msgstr "Automaattisesti ajastettu lentoasema"
 
 #: ../views/components/step-switches.jade:249
 #, fuzzy
 msgid "This is an automatically scheduled airport."
-msgstr "Tämä on automaattisesti ajoitettu tankkauspysähdyksen."
+msgstr "Tämä on automaattisesti ajastettu lentoasema."
 
 #: ../views/components/step-switches.jade:250
 #, fuzzy
 msgid "It will disappear when you add an airport before or after it."
-msgstr "Se katoaa, kun lisäät huoltoasemalle ennen sitä."
+msgstr "Se poistuu, kun lisäät lentoaseman ennen sitä tai sen jälkeen."
 
 #: ../views/components/step-switches.jade:252
 #, fuzzy
@@ -7670,8 +7682,8 @@ msgid ""
 "Alternatively you can change the travel mode for this route if you don't "
 "want Furkot to schedule airports."
 msgstr ""
-"Vaihtoehtoisesti voit muuttaa tämän reitin matkustustilaa, jos et halua "
-"Furkotia ajamaan lentoasemia."
+"Vaihtoehtoisesti voit muuttaa tämän reitin matkustustapaa, jos et halua "
+"Furkotin aikatauluttavan lentokenttiä."
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/components/tour-lodging.jade:3 ../views/welcome/blurbs.jade:78
@@ -7681,9 +7693,9 @@ msgid ""
 "&mdash; Furkot will show you scores of [accommodations] on the map and will "
 "help you find the perfect place for every night of your trip."
 msgstr ""
-"Mikä tahansa majoitus parempana &mdash; hotelli, leirintäalue, asunto "
-"&mdash; Furkot näyttää tulokset [majoitusta] kartalle ja auttaa sinua "
-"löytämään täydellinen paikka joka ilta matkasi."
+"Mikä tahansa majoitustyyppisi onkaan &mdash; hotelli, leirintäalue, asunto "
+"&mdash; Furkot näyttää sinulle tulokset [majoituksista] kartalla ja auttaa "
+"sinua löytämään täydellisen paikan jokaiselle yöpymisellesi."
 
 #. L10n: Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/components/tour-lodging.jade:4 ../views/welcome/blurbs.jade:84
@@ -7693,9 +7705,10 @@ msgid ""
 "booking site and pre-fill the check-in and check-out dates so that you don't "
 "have to worry about reserving that hard found lodging on the wrong night."
 msgstr ""
-"Kun olet valmis varaamaan, Furkot vie sinut suoraan suosikki varaus sivusto "
-"ja esitäytä check-in ja check-out päivämääriä, jotta sinun ei tarvitse "
-"huolehtia varaamalla että kova löytyi majoitus väärälle yönä."
+"Kun olet valmis varaamaan yöpymisen, Furkot vie sinut suoraan suosikki "
+"varaussivustollesi ja täyttää etukäteen sisään- ja uloskirjautumispäivät, "
+"jotta sinun ei tarvitsisi huolehtia siitä, että varaat vaikeasti löydettävän "
+"majoituksen väärälle yölle."
 
 #. L10n: square brackets [] denote a button
 #: ../views/components/tour-lodging.jade:9 ../views/components/tour.jade:21
@@ -7704,13 +7717,13 @@ msgid ""
 "Open the [Sleep] drawer to find the best place to spend the night. Choose "
 "from over 1 million hotels, motels, B&Bs, and campgrounds around the world."
 msgstr ""
-"Avaa [Sleep] laatikko löydettäisiin paras paikka viettää yön. Valitse yli 1 "
-"miljoona hotellit, motellit, B & B, ja leirintäalueilla ympäri maailmaa."
+"Löytääksesi parhaan majoituspaikan, avaa [Yövy]-välilehti. Valitse ympäri "
+"maailmaa yli miljoonasta hotellista, motellista, B&B:stä ja leirintäalueesta."
 
 #: ../views/components/tour-lodging.jade:11
 #, fuzzy
 msgid "Select types of lodging accommodations that you prefer."
-msgstr "Valitse tyyppisiä majapaikkavaihtoehdon että haluat."
+msgstr "Valitse haluamasi majoitustyypit."
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/components/tour-lodging.jade:19 ../views/welcome/blurbs.jade:87
@@ -7721,10 +7734,10 @@ msgid ""
 "Furkot help with that. We will take you through the whole process page by "
 "page and hotel by hotel."
 msgstr ""
-"Varaamalla [kaikki hotellit] matkaasi voi olla pelottava kokemus: useita "
-"kaupunkeja, useita varaus sivustoja ja monia päivämäärät ja yksityiskohdat "
-"mistype? Anna Furkot auttaa tässä asiassa. Otamme sinut läpi koko prosessin "
-"sivu sivulta ja hotelliin hotelli."
+"Valitsemalla varaa [kaikki hotellit], voi joskus olla hämmentävä kokemus: "
+"useiden kaupunkien, varaussivustojen ja monien päivämäärien sekä tietojen "
+"kanssa voi kirjoitus joskus lipsahtaa. Anna Furkotin auttaa siinä. Viemme "
+"sinut läpi koko prosessin sivu sivulta ja hotelli hotellilta."
 
 #: ../views/components/tour-lodging.jade:21
 #, fuzzy
@@ -7732,8 +7745,8 @@ msgid ""
 "Pick your preferred booking service or try out as many as you like to find "
 "the best price."
 msgstr ""
-"Pick haluamasi varauspalvelun tai kokeilla niin monta kuin haluat löytää "
-"paras hinta."
+"Valitse haluamasi varauspalvelu tai kokeile niin montaa kuin haluat "
+"löytääksesi parhaan hinnan."
 
 #: ../views/components/tour.jade:3
 #, fuzzy
@@ -7741,8 +7754,8 @@ msgid ""
 "Welcome to the guided tour of Furkot's features. We will give you several "
 "tips to help you plan your trip."
 msgstr ""
-"Tervetuloa opastettu Furkot ominaisuuksia. Annamme sinulle useita vinkkejä, "
-"joiden avulla voit suunnitella matkaa."
+"Tervetuloa Furkotin ominaisuuksien opastetulle kierrokselle. Annamme sinulle "
+"useita vinkkejä matkasi suunnitteluun."
 
 #. L10n: square brackets [] denote a button
 #: ../views/components/tour.jade:5
@@ -7751,19 +7764,19 @@ msgid ""
 "You can stop the tour at any time pressing [Close]. If you want to continue "
 "later just use the button above."
 msgstr ""
-"Voit lopettaa kierroksen koska tahansa painamalla [Sulje]. Jos haluat jatkaa "
-"myöhemmin vain käyttää yllä olevaa painiketta."
+"Voit lopettaa opastetun kierroksen milloin tahansa painamalla [Sulje]. Jos "
+"haluat jatkaa myöhemmin, käytä yllä olevaa painiketta."
 
 #. L10n: square brackets [] denote a button
 #: ../views/components/tour.jade:7
 #, fuzzy
 msgid "Press [Next] to continue now."
-msgstr "Paina [Seuraava] nyt."
+msgstr "Paina [Seuraava] jatkaaksesi."
 
 #: ../views/components/tour.jade:10
 #, fuzzy
 msgid "Furkot offers several ways of adding stops to your trip."
-msgstr "Furkot tarjoaa useita tapoja lisätä pysäkin matkan."
+msgstr "Furkot tarjoaa matkallesi useita tapoja lisätä pysähdyksen."
 
 #: ../views/components/tour.jade:11
 #, fuzzy
@@ -7772,13 +7785,14 @@ msgid ""
 "Furkot figure out its position and address. You can always refine or move it "
 "later."
 msgstr ""
-"Jos paikka haluat käydä näkyy kartalla, klikkaa sitä ja antaa Furkot "
-"selvittää kantaansa ja osoite. Voit aina tarkentaa tai siirtää sen myöhemmin."
+"Jos paikka jossa haluat vierailla, näkyy kartalla, klikkaa sitä ja anna "
+"Furkotin selvittää sen sijainti ja osoite. Voit aina tarkentaa tai siirtää "
+"sitä myöhemmin."
 
 #: ../views/components/tour.jade:12
 #, fuzzy
 msgid "Why don't you give it a try now?"
-msgstr "Miksi et anna sille yrittää nyt?"
+msgstr "Mikset kokeilisi sitä nyt?"
 
 #: ../views/components/tour.jade:15
 #, fuzzy
@@ -7786,8 +7800,8 @@ msgid ""
 "If you know the name or address of a place you want to visit, you can use "
 "the button above to add it to your trip."
 msgstr ""
-"Jos tiedät nimen tai osoitteen paikka haluat käydä, voit käyttää yllä olevaa "
-"painiketta lisätä sen matkaa."
+"Jos tiedät paikan nimen tai osoitteen jossa haluat vierailla, voit lisätä "
+"sen matkaasi yllä olevalla painikkeella."
 
 #: ../views/components/tour.jade:16
 #, fuzzy
@@ -7795,8 +7809,8 @@ msgid ""
 "Try it - as you type the name or address, Furkot will show you the list of "
 "matching places."
 msgstr ""
-"Kokeile - kirjoittaessasi nimeä tai osoitetta, Furkot näyttää sinulle "
-"luettelon sopivista paikoista."
+"Kokeile - kirjoittaessasi nimeä tai osoitetta, niin Furkot näyttää sinulle "
+"luettelon osuvista paikoista."
 
 #: ../views/components/tour.jade:19
 #, fuzzy
@@ -7805,9 +7819,9 @@ msgid ""
 "places, attractions, overnight lodging accommodations, dining and drinking "
 "establishments and even gas and electric refueling stations."
 msgstr ""
-"Voit myös valita pysäkkiä Furkot n laaja kokoelma mielenkiintoisia paikkoja, "
-"nähtävyyksiä, yön majapaikkavaihtoehdon, ruokailu ja juominen laitoksista ja "
-"jopa kaasu ja sähkö täyttöasemat."
+"Voit valita myös pysähdyksiä Furkotin laajasta mielenkiintoisten paikkojen, "
+"nähtävyyksien, majoitus-, ruokailu- ja juomapaikkojen tai jopa tankkaus- ja "
+"sähkön latausasemien valikoimasta."
 
 #: ../views/components/tour.jade:24
 #, fuzzy
@@ -7815,14 +7829,14 @@ msgid ""
 "Whether you like to visit museums or are an outdoor enthusiast Furkot can "
 "help you find places to visit and experiences to remember."
 msgstr ""
-"Haluatpa vierailla museoissa tai ovat ulkona harrastaja Furkot voi auttaa "
-"sinua löytämään paikkoja ja kokemuksia muistaa."
+"Halusitpa sitten vierailla museoissa tai harrastaa ulkoilua, Furkot auttaa "
+"sinua löytämään vierailukohteita ja elämyksiä jotka jäävät mieleen."
 
 #. L10n: square brackets [] denote a button
 #: ../views/components/tour.jade:26
 #, fuzzy
 msgid "Open the [Find] drawer and select one or more categories."
-msgstr "Avaa [Etsi] laatikon ja valita yhden tai useamman luokan."
+msgstr "Avaa [Etsi]-välilehti ja valitse yhdestä tai useammasta kategoriasta."
 
 #: ../views/components/tour.jade:29
 #, fuzzy
@@ -7830,15 +7844,15 @@ msgid ""
 "Car or bicycle? Campground or 5 star hotel? Start early or stay late? Furkot "
 "can accommodate your travel style."
 msgstr ""
-"Autolla tai polkupyörällä? Leirintäalue tai 5 tähden hotelli? Aloita "
-"aikaisin tai töitä myöhään? Furkot mahtuu matkasi tyyliin."
+"Autolla vai polkupyörällä? Leirintäalue vai 5 tähden hotelli? Aloita "
+"aikaisin vai viivy myöhään? Furkot sovittaa sen matkatyyliisi."
 
 #. L10n: square brackets [] denote a button
 #: ../views/components/tour.jade:31
 #, fuzzy
 msgid ""
 "Adjust the settings in the [Trip] drawer to reflect your travel preferences."
-msgstr "Säädä asetukset [Trip] laatikko vastaamaan matkasi mieltymyksiä."
+msgstr "Muuta [Matka]-välilehden asetuksia matkamieltymystesi mukaan."
 
 #: ../views/components/tour.jade:32
 #, fuzzy
@@ -7846,8 +7860,8 @@ msgid ""
 "You can also export your route, book the entire trip, and share it with "
 "others to show off or to ask for suggestions."
 msgstr ""
-"Voit myös viedä reittiä, varaa koko matkan, ja jakaa sen muiden kanssa "
-"keuliminen tai pyytää ehdotuksia."
+"Voit myös tallentaa reittisi toisessa muodossa, varata koko matkan ja jakaa "
+"sen muiden kanssa näyttääksesi tai pyytääksesi ehdotuksia."
 
 #. L10n: square brackets [] denote a button
 #: ../views/components/tour.jade:36
@@ -7856,19 +7870,19 @@ msgid ""
 "This concludes the guided tour of Furkot's features. You can find more "
 "information in our [Help]."
 msgstr ""
-"Tämä päättää opastettu Furkot ominaisuuksia. Löydät lisätietoja meidän "
-"[Ohje]."
+"Tämä päättää Furkotin ominaisuuksien opastetun kierroksen. Lisätietoja "
+"löydät [Apua]-valikosta."
 
 #. L10n: square brackets [] denote a button
 #: ../views/components/tour.jade:38
 #, fuzzy
 msgid "Press [Close] to end the tour now."
-msgstr "Paina [Sulje] lopettaa kiertueen nyt."
+msgstr "Paina [Sulje] lopettaaksesi opastetun kierroksen."
 
 #: ../views/components/tour.jade:49
 #, fuzzy
 msgid "Step-by-step introduction"
-msgstr "Step-by-Step käyttöönotto"
+msgstr "Vaiheittainen esittely"
 
 #: ../views/components/tour.jade:53
 #, fuzzy
@@ -7878,12 +7892,12 @@ msgstr "Etsi ja varaa majoitus"
 #: ../views/components/tour.jade:57
 #, fuzzy
 msgid "How to share a trip"
-msgstr "Miten jakaa matkan"
+msgstr "Miten jakaa matka"
 
 #: ../views/components/translate.jade:2
 #, fuzzy
 msgid "Help translate Furkot"
-msgstr "Auttaa kääntämään Furkot"
+msgstr "Auttaa kääntämään Furkotia"
 
 #. L10n: the curly brackets {} stand for the language name
 #: ../views/components/translate.jade:5
@@ -7892,14 +7906,15 @@ msgid ""
 "Furkot supports your preferred language {} but we don't have a complete "
 "translation yet."
 msgstr ""
-"Furkot tukee haluamasi kieli {}, mutta meillä ei ole täydellistä käännöstä "
-"vielä."
+"Furkot tukee haluamaasi kieltä {}, mutta meillä ei vielä ole täydellistä "
+"käännöstä."
 
 #. L10n: square brackets [] denote a link
 #: ../views/components/translate.jade:8
 #, fuzzy
 msgid "If you want to help us translate Furkot to your language [click here]"
-msgstr "Jos haluat auttaa meitä kääntämään Furkot oman kielen [klikkaa tästä]"
+msgstr ""
+"Jos haluat auttaa meitä kääntämään Furkot omalle kielellesi [klikkaa tästä]"
 
 #. L10n: Label for the link to trip snapshot (tripshot) if trip has been published
 #: ../views/components/trip-config-item.jade:28
@@ -7920,13 +7935,13 @@ msgstr "Ehdotukset"
 #: ../views/components/trip-detail.jade:243
 #, fuzzy
 msgid "Shared with"
-msgstr "Jaettu"
+msgstr "Jaettu [] kanssa"
 
 #. L10n: Label for the field displaying trip Start a Day and End a Day times
 #: ../views/components/trip-config-item.jade:48
 #, fuzzy
 msgid "Day Time"
-msgstr "päivä Aika"
+msgstr "Matkan päivän ajankohta"
 
 #. L10n: Label for the field to edit constraint of the time spent traveling per day
 #: ../views/components/trip-config-item.jade:55
@@ -7940,7 +7955,7 @@ msgstr "Matkustusaika"
 #: ../views/components/trip-detail.jade:160
 #, fuzzy
 msgid "Daily Mileage"
-msgstr "päivittäinen Mittarilukema"
+msgstr "Päivittäinen matkan pituus"
 
 #: ../views/components/trip-config-item.jade:62
 #: ../views/components/trip-config-item.jade:151
@@ -7957,8 +7972,9 @@ msgstr "mailia"
 #: ../views/components/trip-config-item.jade:163
 #: ../views/components/trip-detail.jade:411
 #: ../views/components/trip-detail.jade:589
+#, fuzzy
 msgid "Warnings"
-msgstr ""
+msgstr "Varoitukset"
 
 #. L10n: 24-hour clock; maximum 3 letters; can be just a number 24
 #: ../views/components/trip-config-item.jade:121
@@ -7972,7 +7988,7 @@ msgstr "24h"
 #: ../views/components/trip-detail.jade:211
 #, fuzzy
 msgid "am"
-msgstr "olen"
+msgstr "am"
 
 #. L10n: abbreviation of 'post meridiem', meaning 'after midday'; maximum 3 letters
 #: ../views/components/trip-config-item.jade:126
@@ -7994,67 +8010,71 @@ msgstr "Viikonloppuisin"
 #: ../views/components/trip-detail.jade:542
 #, fuzzy
 msgid "Fuel Range"
-msgstr "polttoainealueen"
+msgstr "Arvioitu matkan pituus tällä polttoainemäärällä"
 
 #. L10n: Label for the field to edit RV (motorhome) height
 #: ../views/components/trip-config-item.jade:179
 #: ../views/components/trip-detail.jade:425
 #, fuzzy
 msgid "Height"
-msgstr "Yö"
+msgstr "Korkeus"
 
 #. L10n: Label for the field to edit RV (motorhome) length
 #: ../views/components/trip-config-item.jade:186
 #: ../views/components/trip-detail.jade:447
+#, fuzzy
 msgid "Length"
-msgstr ""
+msgstr "Pituus"
 
 #. L10n: Label for the field to edit RV (motorhome) weight
 #: ../views/components/trip-config-item.jade:193
 #: ../views/components/trip-detail.jade:464
 #, fuzzy
 msgid "Weight"
-msgstr "Yö"
+msgstr "Paino"
 
 #. L10n: 't' is an abbreviation for metric ton (tonne)
 #: ../views/components/trip-config-item.jade:197
 #: ../views/components/trip-detail.jade:472
 #: ../views/components/trip-detail.jade:485
+#, fuzzy
 msgid "t"
-msgstr ""
+msgstr "t"
 
 #. L10n: 'lb' is an abbreviation for pound as imperial unit of weight
 #: ../views/components/trip-config-item.jade:199
 #: ../views/components/trip-detail.jade:474
 #: ../views/components/trip-detail.jade:487
+#, fuzzy
 msgid "lb"
-msgstr ""
+msgstr "lb"
 
 #. L10n: Label for checkbox to let user specify if RV carries hazardous material like propane
 #: ../views/components/trip-config-item.jade:201
 #: ../views/components/trip-detail.jade:461
+#, fuzzy
 msgid "Hazardous Materials"
-msgstr ""
+msgstr "Vaarallisia Aineita"
 
 #: ../views/components/trip-config-item.jade:210
 #: ../views/components/trip-detail.jade:669
 #, fuzzy
 msgid "Rent a Car"
-msgstr "Vuokrata auton"
+msgstr "Vuokraa Auto"
 
 #. L10n: Label for a field to set number of rooms to book for at lodgings
 #: ../views/components/trip-config-item.jade:246
 #: ../views/components/trip-detail.jade:364
 #, fuzzy
 msgid "Rooms"
-msgstr "Huoneet"
+msgstr "Huone(tta)"
 
 #. L10n: Label for a field to set number of persons per rooms when booking lodgings
 #: ../views/components/trip-config-item.jade:250
 #: ../views/components/trip-detail.jade:375
 #, fuzzy
 msgid "Persons per Room"
-msgstr "Henkilöä per huone"
+msgstr "Henkilöä per Huone"
 
 #: ../views/components/trip-config-item.jade:257
 #: ../views/components/trip-detail.jade:724
@@ -8066,170 +8086,180 @@ msgstr "Offline-kartta"
 #: ../views/components/trip-detail.jade:817
 #, fuzzy
 msgid "Offline access enabled"
-msgstr "Offline-tila on käytössä"
+msgstr "Offline-tila käytössä"
 
 #: ../views/components/trip-config-item.jade:263
 #: ../views/components/trip-detail.jade:827
 #, fuzzy
 msgid "Offline access disabled"
-msgstr "Offline-käyttö estetty"
+msgstr "Offline-käyttö poistettu käytöstä"
 
 #. L10n: 'trip type' is a travel mode for the trip
 #: ../views/components/trip-detail.jade:5
 #, fuzzy
 msgid "Change trip type"
-msgstr "Muutos matkatyyppi"
+msgstr "Muuta matkatyyppiä"
 
 #: ../views/components/trip-detail.jade:24
 #: ../views/components/trip-item.jade:17 ../views/components/trips.jade:42
 #, fuzzy
 msgid "Delete this trip"
-msgstr "Poista tämä matka"
+msgstr "Poista matka"
 
 #: ../views/components/trip-detail.jade:27
 #, fuzzy
 msgid "Duplicate this trip"
-msgstr "Monista tämä matka"
+msgstr "Monista matka"
 
 #. L10n: Label for the button to make a copy of a trip
 #: ../views/components/trip-detail.jade:30
 #, fuzzy
 msgid "Duplicate"
-msgstr "monistaa"
+msgstr "Monista"
 
 #. L10n: in addition to oil-based fuels like gasoline and diesel, 'fuel type' can also mean charging for electric cars
 #: ../views/components/trip-detail.jade:49
 #, fuzzy
 msgid "Change fuel type"
-msgstr "Muuta reittiä tyyppi"
+msgstr "Muuta polttoainetyyppiä"
 
 #: ../views/components/trip-detail.jade:53
+#, fuzzy
 msgid "Gasoline"
-msgstr ""
+msgstr "Bensiini"
 
 #. L10n: tip for an option to select diesel as preferred fuel type for the trip
 #: ../views/components/trip-detail.jade:57
+#, fuzzy
 msgid "Diesel fuel"
-msgstr ""
+msgstr "Diesel"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
 #: ../views/components/trip-detail.jade:61
+#, fuzzy
 msgid "Ethanol-free gas"
-msgstr ""
+msgstr "Etanolivapaa asema"
 
 #: ../views/components/trip-detail.jade:64
+#, fuzzy
 msgid "Electric car"
-msgstr ""
+msgstr "Sähköauto"
 
 #: ../views/components/trip-detail.jade:82
 #, fuzzy
 msgid "Name your trip"
-msgstr "Nimeä matkasi"
+msgstr "Anna matkallesi nimi"
 
 #: ../views/components/trip-detail.jade:82
 #, fuzzy
 msgid "Name your trip. Furkot will use it to orient the map"
-msgstr "Nimeä matkaa. Furkot käyttävät sitä suunnata karttaa"
+msgstr "Anna matkallesi nimi. Furkot käyttää sitä kartan suuntaamiseen"
 
 #: ../views/components/trip-detail.jade:86
 #: ../views/components/trip-detail.jade:87
 #, fuzzy
 msgid "Click to modify trip name"
-msgstr "Klikkaa muuttaa matkan nimi"
+msgstr "Klikkaa muuttaaksesi matkan nimi"
 
 #: ../views/components/trip-detail.jade:91
 #, fuzzy
 msgid "View more information about this trip"
-msgstr "Tarkastella lisätietoja tästä matkaa"
+msgstr "Katso lisätietoja tästä matkasta"
 
 #: ../views/components/trip-detail.jade:101
+#, fuzzy
 msgid "End Trip"
-msgstr ""
+msgstr "Lopeta Matka"
 
 #: ../views/components/trip-detail.jade:102
+#, fuzzy
 msgid "Open ended trip"
-msgstr ""
+msgstr "Avaa päättynyt matka"
 
 #: ../views/components/trip-detail.jade:103
+#, fuzzy
 msgid "Fixed date trip"
-msgstr ""
+msgstr "Matkalla kiinteä aika"
 
 #. L10n: Label for the date and time when the trip begins
 #: ../views/components/trip-detail.jade:111
 #, fuzzy
 msgid "Begin Trip"
-msgstr "Begin Trip"
+msgstr "Aloita Matka"
 
 #: ../views/components/trip-detail.jade:113
 #, fuzzy
 msgid "Click to modify trip begin date"
-msgstr "Klikkaa muuttaa matkan aloituspäivä"
+msgstr "Klikkaa muuttaaksesi matkan aloituspäivää"
 
 #: ../views/components/trip-detail.jade:117
 #, fuzzy
 msgid "Click to modify trip begin time"
-msgstr "Klikkaa muuttaa matkan alkamisaikaa"
+msgstr "Klikkaa muuttaaksesi matkan aloitusaikaa"
 
 #. L10n: Label for the date and time when the trip ends
 #: ../views/components/trip-detail.jade:124
 #, fuzzy
 msgid "Finish Trip"
-msgstr "Valmis Trip"
+msgstr "Lopeta Matka"
 
 #: ../views/components/trip-detail.jade:126
 #, fuzzy
 msgid "Click to modify trip end date"
-msgstr "Klikkaa muuttaa matkan päättymispäivän"
+msgstr "Klikkaa muuttaaksesi matkan päättymispäivää"
 
 #: ../views/components/trip-detail.jade:130
 #, fuzzy
 msgid "Click to modify trip end time"
-msgstr "Klikkaa muuttaa matkan päättymisaika"
+msgstr "Klikkaa muuttaaksesi matkan päättymisaikaa"
 
 #. L10n: Label for the field to set time at which user starts traveling
 #: ../views/components/trip-detail.jade:138
 #, fuzzy
 msgid "Start a Day"
-msgstr "Aloita päivä"
+msgstr "Aloita Päivä"
 
 #: ../views/components/trip-detail.jade:140
 #, fuzzy
 msgid "Click to modify the time at which you start traveling"
-msgstr "Klikkaa muuttaa aika, jolloin matkalle lähtöä"
+msgstr "Klikkaa muuttaaksesi matkallelähtöaikaa"
 
 #. L10n: Label for the field to set time at which user stops for the night
 #: ../views/components/trip-detail.jade:145
 #, fuzzy
 msgid "End a Day"
-msgstr "Päättää päivä"
+msgstr "Lopeta Päivä"
 
 #: ../views/components/trip-detail.jade:147
 #, fuzzy
 msgid "Click to modify the time by which you stop for the night"
-msgstr "Klikkaa muuttaa ajankohtaa, johon lopetat yöksi"
+msgstr "Klikkaa muuttaaksesi aikaa yöpyäksesi"
 
 #: ../views/components/trip-detail.jade:154
 #, fuzzy
 msgid "Click to modify the time spent traveling per day"
-msgstr "Klikkaa muuttaa matkoihin käytettyä aikaa päivässä"
+msgstr "Klikkaa muuttaaksesi matkoihin käytettyä aikaa per päivä"
 
 #: ../views/components/trip-detail.jade:162
 #, fuzzy
 msgid "Click to modify the distance traveled per day"
-msgstr "Klikkaa muuttaa kuljettu matka päivässä"
+msgstr "Klikkaa muuttaaksesi päivässä kuljettua matkan pituutta"
 
 #. L10n: Label for the field to switch between limiting daily travel and travelling non-stop
 #: ../views/components/trip-detail.jade:171
+#, fuzzy
 msgid "Travel Limits"
-msgstr ""
+msgstr "Matkustusrajoitukset"
 
 #: ../views/components/trip-detail.jade:172
+#, fuzzy
 msgid "Travel non-stop"
-msgstr ""
+msgstr "Matkusta tauotta"
 
 #: ../views/components/trip-detail.jade:173
+#, fuzzy
 msgid "Limit daily travel"
-msgstr ""
+msgstr "Rajoita päivittäistä matkustamista"
 
 #. L10n: Label for the field to select units of distance (kilometers or miles)
 #: ../views/components/trip-detail.jade:189
@@ -8252,29 +8282,29 @@ msgstr "Kello"
 #: ../views/components/trip-detail.jade:217
 #, fuzzy
 msgid "Quietly ignore warnings for weekend stops"
-msgstr "Hiljaa sivuuttaa varoitukset viikonlopun pysähtyy"
+msgstr "Sivuuta ilmoittamatta viikonloppupysähdyksiä koskevat varoitukset"
 
 #: ../views/components/trip-detail.jade:218
 #, fuzzy
 msgid "Show warnings for weekend stops"
-msgstr "Näytä varoitukset viikonlopun pysähtyy"
+msgstr "Näytä viikonloppupysähdyksiä koskevat varoitukset"
 
 #. L10n: tripshot is a static snapshot of the trip that can be shared with others or embedded in a webpage
 #: ../views/components/trip-detail.jade:232
 #, fuzzy
 msgid "View published tripshot"
-msgstr "Näytä julkaistu tripshot"
+msgstr "Katso julkaistu matkakuva"
 
 #: ../views/components/trip-detail.jade:238
 #, fuzzy
 msgid "View suggestions board"
-msgstr "Näytä ehdotukset hallituksen"
+msgstr "Näytä aloitelaatikko"
 
 #. L10n: Label for a column with access rights to a trip (view only vs. full access); if possible use a phrase with words of no more than 8 characters
 #: ../views/components/trip-detail.jade:245
 #, fuzzy
 msgid "Access"
-msgstr "Pääsy"
+msgstr "Anna lupa"
 
 #. L10n: Label for a column distinguishing owner of a trip from a fellow planner; if possible use a phrase with words of no more than 8 characters
 #: ../views/components/trip-detail.jade:247
@@ -8286,62 +8316,63 @@ msgstr "Omistaja"
 #: ../views/components/trip-detail.jade:249
 #, fuzzy
 msgid "Valid"
-msgstr "Pätevä"
+msgstr "Voimassa"
 
 #: ../views/components/trip-detail.jade:256
 #, fuzzy
 msgid "Restrict this user to viewing the trip only"
-msgstr "Rajoita tämän käyttäjän katseluun matkaa vain"
+msgstr "Rajoita tämän käyttäjän oikeudet vain matkan katseluun"
 
 #: ../views/components/trip-detail.jade:257
 #, fuzzy
 msgid "Authorize this user to modify the trip"
-msgstr "Valtuuttaa käyttäjä voi muokata matkan"
+msgstr "Anna käyttäjälle lupa muokata matkaa"
 
 #: ../views/components/trip-detail.jade:260
 #, fuzzy
 msgid "Make this user the new owner"
-msgstr "Tee tämän käyttäjän uusi omistaja"
+msgstr "Tee käyttäjästä uusi omistaja"
 
 #: ../views/components/trip-detail.jade:265
 #, fuzzy
 msgid "Stop sharing with this user"
-msgstr "Lopeta jakaminen tämän käyttäjän"
+msgstr "Lopeta jakaminen käyttäjän kanssa"
 
 #. L10n: Hint for the option that makes Furkot prefer chain hotels and motels
 #: ../views/components/trip-detail.jade:292
 #, fuzzy
 msgid "Chain hotels and motels"
-msgstr "Ketjun hotellit ja"
+msgstr "Ketjuhotellit ja -motellit"
 
 #. L10n: Hint for the option that makes Furkot prefer blind hotel deals
 #: ../views/components/trip-detail.jade:295
 #, fuzzy
 msgid "Blind hotel deals"
-msgstr "Blind hotellitarjoukset"
+msgstr "Hotellien sokkotarjoukset"
 
 #. L10n: Hint for the option that makes Furkot prefer RV parks (caravan campsites) in lodging suggestions
 #: ../views/components/trip-detail.jade:298
 #, fuzzy
 msgid "RV parks"
-msgstr "Rv Park"
+msgstr "Matkailuautoparkki"
 
 #. L10n: label for the list of loyalty and rewards programs that can be selected as preferred when searching for lodging accommodations
 #: ../views/components/trip-detail.jade:302
+#, fuzzy
 msgid "Loyalty Programs"
-msgstr ""
+msgstr "Kanta-asiakasohjelmat"
 
 #. L10n: User prefers for lower prices when looking for lodging accommodations
 #: ../views/components/trip-detail.jade:309
 #, fuzzy
 msgid "Low Price"
-msgstr "Alhainen hinta"
+msgstr "Alhainen Hinta"
 
 #. L10n: User prefers for higher ratings when looking for lodging accommodations
 #: ../views/components/trip-detail.jade:311
 #, fuzzy
 msgid "High Rating"
-msgstr "Rating"
+msgstr "Korkea Luokitus"
 
 #. L10n: User preference when looking for lodging accommodations
 #: ../views/components/trip-detail.jade:314
@@ -8352,7 +8383,7 @@ msgstr "Alhainen hinta tai korkea luokitus?"
 #: ../views/components/trip-detail.jade:329
 #, fuzzy
 msgid "Currency"
-msgstr "valuutta"
+msgstr "Valuutta"
 
 #: ../views/components/trip-detail.jade:331
 #, fuzzy
@@ -8362,7 +8393,7 @@ msgstr "USA: n dollari"
 #: ../views/components/trip-detail.jade:335
 #, fuzzy
 msgid "Euro"
-msgstr "euro"
+msgstr "Euro"
 
 #: ../views/components/trip-detail.jade:339
 #, fuzzy
@@ -8394,144 +8425,152 @@ msgstr "XYZ"
 #: ../views/components/trip-detail.jade:357
 #, fuzzy
 msgid "Click to set other currency code"
-msgstr "Klikkaa asettaa muu valuutta koodi"
+msgstr "Klikkaa asettaaksesi toisen valuutan tiedot"
 
 #: ../views/components/trip-detail.jade:370
 #, fuzzy
 msgid "Click to modify the number of rooms (1&nbsp;to&nbsp;6)"
-msgstr "Klikkaa muuttaa huoneiden lukumäärä (1 & nbsp; & nbsp; 6)"
+msgstr "Klikkaa muuttaaksesi huoneiden lukumäärää (1&nbsp;to&nbsp;6)"
 
 #: ../views/components/trip-detail.jade:381
 #, fuzzy
 msgid "Click to modify the number of persons per room (1&nbsp;to&nbsp;4)"
 msgstr ""
-"Napsauttamalla muuttaa henkilöiden lukumäärä huone (1 & nbsp; & nbsp; 4)"
+"Klikkaa muuttaaksesi henkilöiden lukumäärää per huone (1&nbsp;to&nbsp;4)"
 
 #: ../views/components/trip-detail.jade:403
 #, fuzzy
 msgid "Constant average speed"
-msgstr "Vakio keskimääräinen nopeus"
+msgstr "Muuttumaton keskinopeus"
 
 #: ../views/components/trip-detail.jade:404
 #, fuzzy
 msgid "Slower/faster than standard travel time"
-msgstr "Hitaampi / nopeampi kuin normaali matka-aika"
+msgstr "Hitaammin/nopeammin kuin normaali matka-aika"
 
 #: ../views/components/trip-detail.jade:413
+#, fuzzy
 msgid "Toll road"
-msgstr ""
+msgstr "Maksullinen tie"
 
 #: ../views/components/trip-detail.jade:427
 #, fuzzy
 msgid "Click to modify RV height"
-msgstr "Klikkaa muuttaa paikkaan"
+msgstr "Klikkaa muuttaaksesi matkailuauton korkeutta"
 
 #. L10n: Label for the field to edit RV (motorhome) width
 #: ../views/components/trip-detail.jade:436
+#, fuzzy
 msgid "Width"
-msgstr ""
+msgstr "Leveys"
 
 #: ../views/components/trip-detail.jade:438
 #, fuzzy
 msgid "Click to modify RV width"
-msgstr "Klikkaa muuttaa kestoa"
+msgstr "Klikkaa muuttaaksesi matkailuauton leveyttä"
 
 #: ../views/components/trip-detail.jade:449
 #, fuzzy
 msgid "Click to modify RV length"
-msgstr "Klikkaa muuttaa paikkaan"
+msgstr "Klikkaa muuttaaksesi matkailuauton pituutta"
 
 #: ../views/components/trip-detail.jade:466
 #, fuzzy
 msgid "Click to modify RV weight"
-msgstr "Klikkaa muuttaa paikkaan"
+msgstr "Klikkaa muuttaaksesi matkailuauton painoa"
 
 #. L10n: Label for the field to edit RV (motorhome) axle load
 #: ../views/components/trip-detail.jade:477
+#, fuzzy
 msgid "Axle Load"
-msgstr ""
+msgstr "Akselipaino"
 
 #: ../views/components/trip-detail.jade:479
 #, fuzzy
 msgid "Click to modify RV axle load"
-msgstr "Klikkaa muuttaa paikkaan"
+msgstr "Klikkaa muuttaaksesi matkailuauton akselipainoa"
 
 #. L10n: 'vehicle range between refills' means distance that user's vehicle can go on a full tank
 #: ../views/components/trip-detail.jade:545
 #, fuzzy
 msgid "Click to modify your vehicle range between refills"
-msgstr "Klikkaa muokata auton välillä täyttöjä"
+msgstr "Klikkaa muuttaaksesi toimintasädettä, jonka ajat yhdellä tankillisella"
 
 #. L10n: label displayed for a choice between options to manage refueling stops by user vs to let Furkot scheduling refueling stops automatically
 #: ../views/components/trip-detail.jade:554
+#, fuzzy
 msgid "Schedule"
-msgstr ""
+msgstr "Aikatauluta"
 
 #: ../views/components/trip-detail.jade:555
 #, fuzzy
 msgid "I will manage refueling stops myself"
-msgstr "Aion hoitaa välilaskuihin itseäni"
+msgstr "Hoida tarvittavat tankkaukset itse"
 
 #: ../views/components/trip-detail.jade:556
 #, fuzzy
 msgid "Let Furkot schedule refueling stops automatically"
-msgstr "Let Furkot aikataulu välilaskuihin automaattisesti"
+msgstr "Anna Furkotin hoitaa tarvittavat tankkaukset automaattisesti"
 
 #: ../views/components/trip-detail.jade:564
 #, fuzzy
 msgid "Click to modify default duration of a refueling stop"
-msgstr "Klikkaa muuttaa oletuskesto seis"
+msgstr "Klikkaa muuttaaksesi tankkaustauon oletuskesto"
 
 #. L10n: label for the field that allows user to schedule refueling everyday of the trip either in the morning right after leaving overnight lodging or just before arriving at the lodging to spend the night
 #: ../views/components/trip-detail.jade:570
+#, fuzzy
 msgid "Refuel Daily"
-msgstr ""
+msgstr "Tankkaa päivittäin"
 
 #. L10n: 'to fill up in the morning' means 'let Furkot schedule a refueling stop in the morning after leaving overnight lodging'
 #: ../views/components/trip-detail.jade:573
 #, fuzzy
 msgid "Click to skip filling up in the morning"
-msgstr "Klikkaa ohittaa täyttämisen aamulla"
+msgstr "Klikkaa ohittaaksesi tankkaaminen aamuisin"
 
 #. L10n: Meaning: 'let Furkot schedule a refueling stop in the morning right after leaving overnight lodging'
 #: ../views/components/trip-detail.jade:574
 #: ../views/components/trip-detail.jade:577
 #, fuzzy
 msgid "Click to fill up when leaving in the morning"
-msgstr "Klikkaa tankkauspaikat poistuttaessa aamulla"
+msgstr "Klikkaa tankkaaksesi matkaan lähtiessäsi"
 
 #. L10n: 'to fill up at night' means 'let Furkot schedule a refueling stop just before arriving at the lodging to spend the night'
 #: ../views/components/trip-detail.jade:580
 #, fuzzy
 msgid "Click to skip filling up at night"
-msgstr "Klikkaa ohittaa tankkaus yöllä"
+msgstr "Klikkaa ohittaaksesi tankkaukset juuri ennen majoitukseen saapumista"
 
 #. L10n: Meaning: 'let Furkot schedule a refueling stop before arriving at the lodging to spend the night'
 #: ../views/components/trip-detail.jade:581
 #: ../views/components/trip-detail.jade:584
 #, fuzzy
 msgid "Click to fill up before stopping for the night"
-msgstr "Click täyttää-up ennen pysäytystä yöksi"
+msgstr "Klikkaa tankataksesi juuri ennen yöpymistä"
 
 #. L10n: label displayed next to list of connectors for electric vehicle charging stations
 #: ../views/components/trip-detail.jade:595
+#, fuzzy
 msgid "Connector"
-msgstr ""
+msgstr "Sähkön latausliitin"
 
 #. L10n: hint displayed above the selected connector for electric vehicle charging stations
 #: ../views/components/trip-detail.jade:597
 #, fuzzy
 msgid "Change connector type"
-msgstr "Muutos pysäytys tyyppi"
+msgstr "Muuta sähkön latausliittimen tyyppiä"
 
 #: ../views/components/trip-detail.jade:601
+#, fuzzy
 msgid "Any connector"
-msgstr ""
+msgstr "Mikä tahansa sähkön latausliitin"
 
 #. L10n: label displayed next to list of fuel stations networks
 #: ../views/components/trip-detail.jade:656
+#, fuzzy
 msgid "Brands"
-msgstr ""
+msgstr "Nimiset"
 
 #: ../views/components/trip-detail.jade:675
 #, fuzzy
@@ -8541,17 +8580,17 @@ msgstr "Varaa lento kohteesta"
 #: ../views/components/trip-detail.jade:676
 #, fuzzy
 msgid "Airport or City"
-msgstr "Lentoaseman tai kaupunki"
+msgstr "Lentoasema tai kaupunki"
 
 #: ../views/components/trip-detail.jade:676
 #, fuzzy
 msgid "Click to enter airport to fly from"
-msgstr "Klikkaa päästäksesi lentokentälle lentää"
+msgstr "Klikkaa päästäksesi lentokentälle, jolta lentää"
 
 #: ../views/components/trip-detail.jade:677
 #, fuzzy
 msgid "Fly from home"
-msgstr "Fly kotoa"
+msgstr "Lennä kotoa"
 
 #. L10n: Label for the total distance of the trip
 #: ../views/components/trip-detail.jade:688
@@ -8564,7 +8603,7 @@ msgstr "Etäisyys"
 #: ../views/components/trip-detail.jade:693
 #, fuzzy
 msgid "Riding"
-msgstr "Ratsastus"
+msgstr "Ajoaika"
 
 #. L10n: Label for the average distance per day
 #: ../views/components/trip-detail.jade:701
@@ -8576,17 +8615,17 @@ msgstr "Päivässä"
 #: ../views/components/trip-detail.jade:705
 #, fuzzy
 msgid "Average"
-msgstr "Keskiverto"
+msgstr "Keskiarvo"
 
 #: ../views/components/trip-detail.jade:710
 #, fuzzy
 msgid "Description of this trip"
-msgstr "Kuvaus tämän matkan"
+msgstr "Matkan kuvaus"
 
 #: ../views/components/trip-detail.jade:732
 #, fuzzy
 msgid "Access this trip without Internet connection"
-msgstr "Pääsy tähän matkan ilman Internet-yhteyttä"
+msgstr "Pääsy matkaan ilman Internet-yhteyttä"
 
 #: ../views/components/trip-detail.jade:738
 #, fuzzy
@@ -8601,19 +8640,20 @@ msgstr "Matka päättyy ennen kuin se alkaa."
 #: ../views/components/trip-detail.jade:743
 #, fuzzy
 msgid "No lodgings to book"
-msgstr "Ei majoitusta varata"
+msgstr "Ei majoituksia varattuna"
 
 #: ../views/components/trip-detail.jade:745
 #, fuzzy
 msgid "This trip has no overnight stops to book lodging accommodations for."
-msgstr ""
-"Tämä matka ei ole yhdessä yössä pysähtyy varata majapaikkavaihtoehdon varten."
+msgstr "Majoittautumista ajatellen, tällä matkalla ei ole yön yli pysähdyksiä."
 
 #: ../views/components/trip-detail.jade:746
 #, fuzzy
 msgid ""
 "Booking hotels for the trip works best when you plan your itinerary first."
-msgstr "Varaukset Matkan toimii parhaiten, kun suunnittelet reittiä ensin."
+msgstr ""
+"Hotellien varaaminen matkaa varten toimii parhaiten, kun teet ensin "
+"matkasuunnitelman."
 
 #. L10n: square brackets [] denote a button (icon)
 #: ../views/components/trip-detail.jade:748
@@ -8622,18 +8662,18 @@ msgid ""
 "Add some overnight stops, pick hotels for them and then use the book [] "
 "button to let Furkot assist you with reservations."
 msgstr ""
-"Lisää noin yössä pysähtyy, pick hotellit niitä ja sitten käyttää kirjaa [] -"
-"painiketta päästää Furkot auttaa varauksin."
+"Furkot auttaa sinua varaamaan yöpymisiä, jos majoituspaikkoja lisätessä "
+"valitse ensin niille hotellit ja sitten klikkaat [Varaa]-painiketta."
 
 #: ../views/components/trip-detail.jade:751
 #, fuzzy
 msgid "All lodgings booked"
-msgstr "Kaikki majoitusta varattu"
+msgstr "Kaikki majoitukset varattu"
 
 #: ../views/components/trip-detail.jade:752
 #, fuzzy
 msgid "All future lodging accommodations for this trip are already booked."
-msgstr "Kaikki tulevat majapaikkavaihtoehdon tätä matkaa on jo varattu."
+msgstr "Kaikki tämän matkan tulevat majoituspaikat on jo varattu."
 
 #. L10n: square brackets [] denote a button (icon)
 #: ../views/components/trip-detail.jade:754
@@ -8642,71 +8682,72 @@ msgid ""
 "If you plan more overnight stops, add them to the trip now and use the book "
 "[] button to let Furkot assist you with reservations."
 msgstr ""
-"Jos aiot enemmän yössä pysähtyy, lisää ne matkaa nyt ja käyttää kirjaa [] -"
-"painiketta päästää Furkot auttaa varauksin."
+"Jos suunnittelet lisää yöpymisiä, lisää ne matkaan nyt ja käytä [Varaa]-"
+"painiketta antaaksesi Furkotin auttaa varausten teossa."
 
 #: ../views/components/trip-detail.jade:757
 #, fuzzy
 msgid "Automatically scheduled refueling stop"
-msgstr "Automaattisesti ajastettu tankkauspysähdyksen"
+msgstr "Automaattisesti lisätty tankkaus"
 
 #: ../views/components/trip-detail.jade:759
 #, fuzzy
 msgid "This is an automatically scheduled refueling stop."
-msgstr "Tämä on automaattisesti ajoitettu tankkauspysähdyksen."
+msgstr "Tämä on automaattinen tankkauksen lisäys"
 
 #: ../views/components/trip-detail.jade:760
 #, fuzzy
 msgid "It will disappear when you add a filling station before it."
-msgstr "Se katoaa, kun lisäät huoltoasemalle ennen sitä."
+msgstr "Se katoaa, kun lisäät huoltoaseman matkaasi ennen sitä."
 
 #: ../views/components/trip-detail.jade:762
 #, fuzzy
 msgid ""
 "You can control frequency of refueling stops by changing the driving range."
-msgstr "Voit hallita taajuutta välilaskuihin muuttamalla rangella."
+msgstr "Voit hallita tankkauksia muuttamalla ajoetäisyyttä."
 
 #: ../views/components/trip-detail.jade:763
 #, fuzzy
 msgid "You can also disable automatic scheduling of refueling stops."
-msgstr "Voit myös poistaa automaattisen aikataulutus välilaskuihin."
+msgstr "Voit myös poistaa automaattisesti lisättävän tankkauksen käytöstä."
 
 #. L10n: Caption of the message displayed when synchronizing Furkot trip plan with TripIt itinerary
 #: ../views/components/trip-detail.jade:770
 #: ../views/components/trip-detail.jade:801
 #, fuzzy
 msgid "Update trip"
-msgstr "päivitys matka"
+msgstr "Päivitä matka"
 
 #: ../views/components/trip-detail.jade:773
 #, fuzzy
 msgid ""
 "Furkot would like to synchronize your trip plan with your TripIt itinerary."
 msgstr ""
-"Furkot haluaisi synkronoida matkasuunnitelma kanssa TripIt matkareitistä."
+"Furkot haluaisi synkronoida matkasuunnitelmasi TripIt-matkasuunnitelman "
+"kanssa."
 
 #. L10n: Label for the field displaying numner of stops to update when synchronizing Furkot trip plan with TripIt itinerary
 #: ../views/components/trip-detail.jade:777
 #, fuzzy
 msgid "Stops to update"
-msgstr "Pysähtyy päivittää"
+msgstr "Päivitettävät pysähdykset"
 
 #. L10n: Label for the field displaying numner of new stops to add when synchronizing Furkot trip plan with TripIt itinerary
 #: ../views/components/trip-detail.jade:781
 #, fuzzy
 msgid "New stops to add"
-msgstr "Uusi pysähtyy lisätä"
+msgstr "Lisättävät uudet pysähdykset"
 
 #. L10n: Label for the field displaying numner of stops that user will need to review when synchronizing Furkot trip plan with TripIt itinerary
 #: ../views/components/trip-detail.jade:785
 #, fuzzy
 msgid "Stops to review"
-msgstr "Pysähtyy tarkistaa"
+msgstr "Tarkasteltavia pysähdyksiä"
 
 #: ../views/components/trip-detail.jade:788
 #, fuzzy
 msgid "Do you want to proceed?"
-msgstr "Haluatko edetä?"
+msgstr "Haluatko jatkaa?"
 
 #: ../views/components/trip-detail.jade:790
 #, fuzzy
@@ -8716,10 +8757,10 @@ msgid ""
 "ensure that the dates and addresses of your stops are the same in TripIt and "
 "Furkot before synchronizing again."
 msgstr ""
-"Jos Furkot matkasuunnitelma sisältää jo kaikki pysähtyy vastaava majoitus "
-"vahvistuksia oman TripIt matkareitin perua toiminnon ja varmistaa, että "
-"päivämäärät ja osoitteet teidän pysäkit ovat samat TripIt ja Furkot ennen "
-"synkronointia uudelleen."
+"Jos matkasuunnitelmasi sisältää jo kaikki TripIt-suunnitelmaan varatut "
+"majoitukset, peruuta tämä toiminto ja varmista, että pysähdystesi "
+"päivämäärät ja osoitteet ovat samat TripItissä sekä Furkotissa ennen kuin "
+"synkronoit niitä uudelleen."
 
 #. L10n: square brackets [] denote a button (icon) - please keep in the translation
 #: ../views/components/trip-detail.jade:792
@@ -8729,9 +8770,8 @@ msgid ""
 "synchronize automatically. You can review and add it to a stop using the "
 "match [] button."
 msgstr ""
-"Ainakin yksi majapaikka vahvistuksen omassa TripIt matkareitti voi "
-"synkronoida automaattisesti. Voit tarkastella ja lisätä sen lopeta ottelu [] "
-"-painiketta."
+"Ainakin yhtä TripIt-matkan majoitusvahvistusta ei voitu yhdistää. Voit "
+"katsella sitä ja lisätä sen klikkaamalla [Yhdistä tiedot]-painiketta."
 
 #. L10n: square brackets [] denote a button (icon) - please keep in the translation
 #: ../views/components/trip-detail.jade:794
@@ -8741,37 +8781,38 @@ msgid ""
 "before adding them to stops cancel this operation and use the match [] "
 "button."
 msgstr ""
-"Jos haluat tarkistaa majoitus vahvistuksia omalta TripIt matkareitti ennen "
-"niiden lisäämistä pysähtyy perua toiminnon ja käyttää ottelu [] -painiketta."
+"Jos haluat mieluummin tarkastella TripIt-suunnitelmasi majoitusvahvistuksia "
+"ennen Furkotiin lisäämistä, peruuta tämä toiminto ja käytä [Yhdistä "
+"tiedot]-painiketta."
 
 #: ../views/components/trip-detail.jade:804
 #, fuzzy
 msgid "Location access denied"
-msgstr "Sijainti käyttö estetty"
+msgstr "Sijainnin käyttö estetty"
 
 #: ../views/components/trip-detail.jade:806
 #, fuzzy
 msgid ""
 "Furkot needs access to your location to determine the city of departure."
 msgstr ""
-"Furkot täytyy voida käyttää sijainnin määrittämiseen kaupunkiin lähtöä."
+"Furkot tarvitsee luvan käyttää sijaintiasi määrittääkseen lähtökaupungin."
 
 #. L10n: Caption of a message displayed when Furkot cannot obtain user location
 #: ../views/components/trip-detail.jade:809
 #: ../views/components/trip-detail.jade:814
 #, fuzzy
 msgid "Location unavailable"
-msgstr "sij.ei"
+msgstr "Sijainti ei ole käytettävissä"
 
 #: ../views/components/trip-detail.jade:811
 #, fuzzy
 msgid "Furkot cannot obtain your location to determine the city of departure."
-msgstr "Furkot voi saada sijaintisi määrittää kaupunkiin lähtöä."
+msgstr "Furkot ei pysty käyttämään sijaintiasi määrittääkseen lähtökaupungin."
 
 #: ../views/components/trip-detail.jade:819
 #, fuzzy
 msgid "This trip is now ready for offline access."
-msgstr "Tämä matka on nyt valmis offline-käyttöä."
+msgstr "Matka on valmis käytettäväksi offline-tilassa."
 
 #: ../views/components/trip-detail.jade:822
 #, fuzzy
@@ -8780,22 +8821,23 @@ msgid ""
 "it locally."
 msgstr ""
 "Kun avaat tämän matkan millä tahansa tietokoneella, puhelimella tai "
-"tabletilla Furkot cache sen paikallisesti."
+"tabletilla, Furkot tallentaa sen laitteellesi välimuistiin."
 
 #: ../views/components/trip-detail.jade:824
 #, fuzzy
 msgid "You will not need Internet connection to access this trip."
-msgstr "Sinun ei tarvitse Internet-yhteyttä käyttää tätä matkaa."
+msgstr "Ei tarvitse Internet-yhteyttä tähän matkaan."
 
 #: ../views/components/trip-detail.jade:829
 #, fuzzy
 msgid "This trip will no longer be cached locally for offline access."
-msgstr "Tämä matka ei enää välimuistissa paikallisesti offline pääsy."
+msgstr ""
+"Tätä matkaa ei enää tallenneta laitteen välimuistiin offline-käyttöä varten."
 
 #: ../views/components/trip-detail.jade:832
 #, fuzzy
 msgid "You will need Internet connection to access this trip."
-msgstr "Tarvitset Internet-yhteyden käyttää tätä matkaa."
+msgstr "Tarvitset Internet-yhteyden tähän matkaan."
 
 #. L10n: Caption of the message asking to confirm user intention to delete a trip
 #: ../views/components/trip-detail.jade:835
@@ -8814,24 +8856,24 @@ msgstr "Oletko varma, että haluat poistaa tämän matkan?"
 #: ../views/components/trip-detail.jade:845
 #, fuzzy
 msgid "This trip is shared by other people."
-msgstr "Tämä matka on yhteinen muita ihmisiä."
+msgstr "Matka on jaettu muiden kanssa."
 
 #: ../views/components/trip-detail.jade:847
 #, fuzzy
 msgid "Once you delete it nobody will be able to access it."
-msgstr "Poistamisen jälkeen kukaan ei voi käyttää sitä."
+msgstr "Kun poistat matkan, kukaan ei voi enää käyttää sitä."
 
 #. L10n: Caption of a message displayed when Furkot asks user to confirm deleting all planned refueling stops
 #: ../views/components/trip-detail.jade:853
 #: ../views/components/trip-detail.jade:857
 #, fuzzy
 msgid "Clear refueling stops"
-msgstr "Aion hoitaa välilaskuihin itseäni"
+msgstr "Poista tankkaukset"
 
 #: ../views/components/trip-detail.jade:854
 #, fuzzy
 msgid "Do you want to delete all planned refueling stops?"
-msgstr "Oletko varma, että haluat poistaa pysähdyksen?"
+msgstr "Oletko varma, että haluat poistaa tankkaukset?"
 
 #. L10n: Caption of a message about results of planning refueling stations (i.e. assigning stations to automatically scheduled refueling stops); can be also translated as 'Refueling stations' or 'Gas stations'
 #: ../views/components/trip-detail.jade:860
@@ -8840,20 +8882,22 @@ msgstr "Oletko varma, että haluat poistaa pysähdyksen?"
 #: ../views/components/trip-detail.jade:872
 #, fuzzy
 msgid "Plan refueling stations"
-msgstr "Huoltoasemat"
+msgstr "Suunnittele huoltoasemilla käynnit"
 
 #. L10n: notice displayed when refueling stations are successfully planned for all automatically scheduled refueling stops
 #: ../views/components/trip-detail.jade:862
 #, fuzzy
 msgid "All refueling stations for this trip are now planned."
-msgstr "Kaikki tulevat majapaikkavaihtoehdon tätä matkaa on jo varattu."
+msgstr "Kaikki matkan huoltoasemilla käynnit on suunniteltu."
 
 #: ../views/components/trip-detail.jade:869
 #, fuzzy
 msgid ""
 "Refueling stations not found near one or more automatically scheduled "
 "refueling stops."
-msgstr "Tämä on automaattisesti ajoitettu tankkauspysähdyksen."
+msgstr ""
+"Huoltoasemia ei löydy yhden tai useamman automaattisesti asetetun "
+"tankkauksen läheltä."
 
 #. L10n: Displayed when planning refueling stations (assigning stations to refueling stops) was terminated prematurely because additional overnight lodging stops have been added in the process of planning refueling stations. The string can be translated as "Review newly (automatically) scheduled overnight lodging stops before (letting Furkot to try) to plan refueling stations (i.e. assign refueling stations to refueling stops) again." In this context both 'refueling stops' (placeholders where refueling should take place) and 'refueling stations' (actual gas stations) are both added/assigned by Furkot. See all fuel-related options: https://help.furkot.com/how-to/avoid-running-out-of-gas.html
 #: ../views/components/trip-detail.jade:874
@@ -8862,43 +8906,43 @@ msgid ""
 "Review newly scheduled overnight lodging stops before trying to plan "
 "refueling stations again."
 msgstr ""
-"Tarkasta hiljattain suunniteltu yöpyminen, ennen kuin yrität suunnitella "
-"uudelleen tankkausasemia."
+"Tarkista äskettäin suunnitellut majoittumiset ennen kuin yrität suunnitella "
+"uudelleen huoltoasemilla käyntejä."
 
 #: ../views/components/trip-detail.jade:876
 #, fuzzy
 msgid "Fold this section"
-msgstr "Kertainen tässä osiossa"
+msgstr "Sulje tämä ryhmä"
 
 #: ../views/components/trip-item.jade:19
 #, fuzzy
 msgid "Open this trip itinerary"
-msgstr "Avaa tämä matkareitti"
+msgstr "Avaa matkasuunnitelma"
 
 #: ../views/components/trip-toolbar.jade:4
 #, fuzzy
 msgid "Share this trip with others"
-msgstr "Jaa tämä matka muiden kanssa"
+msgstr "Jaa matka muiden kanssa"
 
 #: ../views/components/trip-toolbar.jade:6
 #, fuzzy
 msgid "Export trip in a variety of formats"
-msgstr "Vienti matkan eri muodoissa"
+msgstr "Matkan tallennus eri muodoissa"
 
 #: ../views/components/trip-toolbar.jade:8
 #, fuzzy
 msgid "Synchronize the trip with TripIt"
-msgstr "Synkronoida matka TripIt"
+msgstr "Synkronoi matka TripIt:n kanssa"
 
 #: ../views/components/trip-toolbar.jade:10
 #, fuzzy
 msgid "Book hotels for this trip"
-msgstr "Varaa hotelleja tätä matkaa"
+msgstr "Varaa hotelleja matkalle"
 
 #: ../views/components/trip-toolbar.jade:12
 #, fuzzy
 msgid "Plan refueling stations for this trip"
-msgstr "Katso lisätietoja tästä matkaa"
+msgstr "Suunnittele tankkauksia matkalle"
 
 #: ../views/components/trip-toolbar.jade:18
 #, fuzzy
@@ -8917,25 +8961,25 @@ msgstr "Tulosta matka"
 #: ../views/components/trip-toolbar.jade:26
 #, fuzzy
 msgid "Include:"
-msgstr "Sisältää:"
+msgstr "Sisällytä:"
 
 #. L10n: information to include in the printout of the trip
 #: ../views/components/trip-toolbar.jade:31
 #, fuzzy
 msgid "overnight stops only"
-msgstr "yön yli pysähtyy vain"
+msgstr "vain yön yli pysähtymiset"
 
 #. L10n: information to include in the printout of the trip. Pass-through stop is a point anchoring route in place - displayed as a small circle on the map and as a stop of zero duration in the itinerary
 #: ../views/components/trip-toolbar.jade:36
 #, fuzzy
 msgid "pass-through stops"
-msgstr "pass-through pysähtyy"
+msgstr "läpikulkupysähtymiset"
 
 #. L10n: information to include in the printout of the trip
 #: ../views/components/trip-toolbar.jade:41
 #, fuzzy
 msgid "turn-by-turn directions"
-msgstr "turn-by-turn suuntiin"
+msgstr "yksityiskohtaiset ohjeet"
 
 #. L10n: information to include in the printout of the trip
 #: ../views/components/trip-toolbar.jade:46
@@ -8947,28 +8991,28 @@ msgstr "kartta"
 #: ../views/components/trip-toolbar.jade:56
 #, fuzzy
 msgid "Travel off road, no directions available"
-msgstr "Suosi tietullit jos saatavilla"
+msgstr "Matkusta teiden ulkopuolella, ilman saatavilla olevia reittiohjeita"
 
 #: ../views/components/trips.jade:6 ../views/widget/plan.jade:35
 #, fuzzy
 msgid "New Trip"
-msgstr "uusi Trip"
+msgstr "Uusi Matka"
 
 #. L10n: hint for a button that lets user import entire new trip from a file
 #: ../views/components/trips.jade:8
 #, fuzzy
 msgid "Import trip"
-msgstr "tuonti matka"
+msgstr "Tuo matka"
 
 #: ../views/components/trips.jade:9
 #, fuzzy
 msgid "Hide trip thumbnails"
-msgstr "Piilota matka pikkukuvat"
+msgstr "Piilota matkan pikkukuvakkeet"
 
 #: ../views/components/trips.jade:10
 #, fuzzy
 msgid "Show trip thumbnails"
-msgstr "Näytä matkan pikkukuvat"
+msgstr "Näytä matkan pikkukuvakkeet"
 
 #: ../views/components/trips.jade:11
 #, fuzzy
@@ -8983,28 +9027,28 @@ msgstr "Näytä matkan tunnisteet"
 #: ../views/components/trips.jade:13
 #, fuzzy
 msgid "Hide deleted trips"
-msgstr "Piilottaa minun muita matkoja"
+msgstr "Piilota poistetut matkat"
 
 #: ../views/components/trips.jade:14
 #, fuzzy
 msgid "Show deleted trips"
-msgstr "Näytä koko matka"
+msgstr "Näytä poistetut matkat"
 
 #: ../views/components/trips.jade:24
 #, fuzzy
 msgid "Deleted trips"
-msgstr "Poista matka"
+msgstr "Poistetut matkat"
 
 #. L10n: "Restore" meaning "Undelete"
 #: ../views/components/trips.jade:45
 #, fuzzy
 msgid "Restore this trip"
-msgstr "Poista tämä matka"
+msgstr "Palauta matka"
 
 #: ../views/components/trips.jade:49
 #, fuzzy
 msgid "Display ready-made trips"
-msgstr "Näyttö valmiit matkat"
+msgstr "Näytä valmiit matkat"
 
 #. L10n: can be also translated as "Inspirations"
 #: ../views/components/trips.jade:51
@@ -9018,13 +9062,13 @@ msgid ""
 "You cannot create your own version of this trip when browsing in private "
 "mode."
 msgstr ""
-"Et voi luoda oman version tämän matkan selattaessa yksityisessä tilassa."
+"Et voi luoda omaa versiota tästä matkasta ollessasi yksityisessä tilassa."
 
 #. L10n: followed by the buttons of the social media services that Furkot supports for signing-in
 #: ../views/connect.jade:7 ../views/connect.jade:17
 #, fuzzy
 msgid "Sign in with"
-msgstr "Kirjaudu sisään"
+msgstr "Kirjaudu sisään käyttäen"
 
 #. L10n: 'Accept Invitation' as in 'Accept Invitation from the owner to share a trip'
 #: ../views/email/invite.html.jade:4 ../views/welcome/login.jade:14
@@ -9042,18 +9086,18 @@ msgstr "Nollaa salasana"
 #: ../views/email/password-reset.html.jade:8
 #, fuzzy
 msgid "Please click the button below to reset your Furkot password:"
-msgstr "Klikkaa alla olevaa painiketta nollata Furkot salasana:"
+msgstr "Klikkaa alla olevaa painiketta nollataksesi Furkotin salasana:"
 
 #. L10n: subject line for password reset e-mails
 #: ../views/email/password-reset.subject.jade:2
 #, fuzzy
 msgid "Furkot password reset request"
-msgstr "Furkot salasanan pyyntö"
+msgstr "Furkotin salasanan nollauspyyntö"
 
 #: ../views/email/password-reset.txt.jade:1
 #, fuzzy
 msgid "Please follow this link to reset your Furkot password:"
-msgstr "Seuraa linkkiä nollaamaan Furkot salasana:"
+msgstr "Seuraa linkkiä nollataksesi Furkotin salasana:"
 
 #: ../views/footer.jade:24
 #, fuzzy
@@ -9063,23 +9107,23 @@ msgstr "Vastuuvapauslauseke"
 #: ../views/footer.jade:36
 #, fuzzy
 msgid "Blog"
-msgstr "blogi"
+msgstr "Blogi"
 
 #: ../views/footer.jade:39
 #, fuzzy
 msgid "Affiliates"
-msgstr "Kumppanit"
+msgstr "Liitokset"
 
 #: ../views/footer.jade:49 ../views/footer.jade:53
 #: ../views/welcome/index.jade:27 ../views/welcome/index.jade:31
 #, fuzzy
 msgid "Follow Furkot"
-msgstr "Seuraa Furkot"
+msgstr "Seuraa Furkotia"
 
 #: ../views/footer.jade:51 ../views/welcome/index.jade:29
 #, fuzzy
 msgid "Like Furkot"
-msgstr "kuten Furkot"
+msgstr "Kuten Furkot"
 
 #: ../views/footer.jade:61
 #, fuzzy
@@ -9090,13 +9134,13 @@ msgstr "Kysymyksiä tai ehdotuksia?"
 #: ../views/footer.jade:64
 #, fuzzy
 msgid "E-mail Furkot"
-msgstr "Sähköposti Furkot"
+msgstr "Lähetä sähköpostia Furkotille"
 
 #. L10n: Hint for the menu with a set of basic options (Help, Account, Sign-out)
 #: ../views/header.jade:6
 #, fuzzy
 msgid "More options"
-msgstr "Lisää vaihtoehtoja"
+msgstr "Lisää valintoja"
 
 #. L10n: Curly braces {} denote the date when Furkot Pass will expire (i.e. Furkot Pass is valid until that date)
 #: ../views/header.jade:8 ../views/pass/index.jade:26
@@ -9118,16 +9162,17 @@ msgid ""
 "backpacking hike, family vacation, weekend outing. One planet, 6 continents, "
 "all roads"
 msgstr ""
-"Aikataulu pysähtyy löytää nähtävyyksiä, varaamaan hotellit osake Matkojen, "
-"kartta reitit. Suunnittele moottoripyörän kyydissä, RV kiertue, auto ajaa, "
-"pyöräilyreitti, backpacking vaellus, perheen loma, viikonloppu retki. Yksi "
-"planeetta, 6 maanosaa, kaikki tiet"
+"Suunnittele pysähdyksiä, etsi nähtävyyksiä, varaa hotelleja, jaa "
+"matkasuunnitelmia, kartoita reittejä. Suunnittele moottoripyöräretkesi, "
+"matkailuautomatkasi, autolla ajosi, pyöräilyreittisi, vaelluksesi, "
+"perhelomasi, viikonloppumatkasi. Yksi planeetta, kuusi maanosaa ja kaikki "
+"tiet käytettävissä"
 
 #. L10n: Nickname is a private identifier used to sign in. Email in a sense of the "email address"
 #: ../views/login-form.jade:15
 #, fuzzy
 msgid "Nickname or Email"
-msgstr "Nimimerkki tai sähköposti"
+msgstr "Käyttäjätunnus tai sähköposti"
 
 #. L10n: Password used to sign in
 #: ../views/login-form.jade:27
@@ -9143,16 +9188,19 @@ msgstr "Pidä minut kirjautuneena"
 
 #. L10n: Furkot Terms and Privacy Policy are in English for now. To emphasize that both documents should be referred by their original English names followed by translation marked off by round brackets (). Square brackets [] denote a link
 #: ../views/login-form.jade:42
+#, fuzzy
 msgid ""
 "By clicking Sign Up below, you agree to [Furkot Terms and Conditions of Use] "
 "including [Privacy Policy]"
 msgstr ""
+"Klikkaamalla alla olevaa Rekisteröidy-painiketta, hyväksyt [Furkotin "
+"käyttöehdot] mukaan lukien [Tietosuojakäytännön]"
 
 #. L10n: Curly braces {} denote the amount to be paid - for example $10
 #: ../views/pass/index.jade:3
 #, fuzzy
 msgid "You can buy 1 year pass for {}."
-msgstr "Voit ostaa 1 vuoden tilauksen {}."
+msgstr "Voit ostaa 1 vuoden tilauksen hintaan {}."
 
 #. L10n: Curly braces {} denote the date when Furkot Pass expired
 #: ../views/pass/index.jade:17
@@ -9169,12 +9217,12 @@ msgstr "Sinulla on elinikäinen Furkot-tilaus."
 #: ../views/pass/index.jade:33
 #, fuzzy
 msgid "You can extend your pass for a year for {}."
-msgstr "Voit laajentaa tilauksesi vuodeksi {}."
+msgstr "Voit laajentaa tilauksesi vuodeksi hintaan {}."
 
 #: ../views/pass/index.jade:34
 #, fuzzy
 msgid "Furkot Pass Terms"
-msgstr "Furkotin Tilaus"
+msgstr "Furkot-tilauksen Ehdot"
 
 #. L10n: Person name, as in credit card owner name
 #: ../views/pass/index.jade:42
@@ -9185,7 +9233,7 @@ msgstr "Nimi"
 #: ../views/pass/index.jade:59
 #, fuzzy
 msgid "Credit Card"
-msgstr "LaaLuottokorttijuus"
+msgstr "Luottokortti"
 
 #. L10n: Curly braces {} denote the amount to be paid - for example $10
 #: ../views/pass/index.jade:65
@@ -9195,8 +9243,9 @@ msgstr "Maksa {}"
 
 #: ../views/pass/index.jade:68 ../views/welcome/login-page.jade:20
 #: ../views/welcome/signup-page.jade:20
+#, fuzzy
 msgid "Or"
-msgstr ""
+msgstr "Tai"
 
 #. L10n: Label for the field to enter coupon for Furkot Pass
 #: ../views/pass/index.jade:74
@@ -9208,12 +9257,12 @@ msgstr "Kuponki"
 #: ../views/pass/index.jade:84
 #, fuzzy
 msgid "Apply coupon"
-msgstr "Käytä kuponki"
+msgstr "Käytä alennuskuponki"
 
 #: ../views/pass/index.jade:87
 #, fuzzy
 msgid "This coupon is not valid"
-msgstr "Tämä kuponki ei ole kelvollinen"
+msgstr "Tämä alennuskuponki ei ole kelvollinen"
 
 #: ../views/pass/index.jade:106 ../views/welcome/login.jade:14
 #, fuzzy
@@ -9230,13 +9279,13 @@ msgstr "tässä"
 #: ../views/relay.jade:31
 #, fuzzy
 msgid "Please wait while Furkot is sending you to "
-msgstr "Odota Furkot ohjaa sinut "
+msgstr "Odota, Furkot ohjaa sinut "
 
 #. L10n: followed by a target webpage logo or a phrase 'here'
 #: ../views/relay.jade:39
 #, fuzzy
 msgid "If it is taking too long click"
-msgstr "Jos se kestää liian kauan klikkauksella"
+msgstr "Jos se kestää liian kauan, klikkaa"
 
 #: ../views/relay.jade:45
 #, fuzzy
@@ -9244,36 +9293,36 @@ msgid ""
 "We take care to keep prices and availability current but they may differ at "
 "the partner site"
 msgstr ""
-"Hoidamme pitämään hinnat ja saatavuus nykyinen, mutta ne voivat erota "
-"milloin kumppanisivuston"
+"Pidämme hinnat ja saatavuuden ajan tasalla, mutta ne voivat kuitenkin "
+"vaihdella yhteistyökumppaneidemme sivustoilla"
 
 #: ../views/relay.jade:52
 #, fuzzy
 msgid "Booking site is in a separate window"
-msgstr "Varaus sivusto on erillisessä ikkunassa"
+msgstr "Varaus-sivusto on erillisessä ikkunassa"
 
 #. L10n: curly brackets {} are placeholders for trip start and end point respectively
 #: ../views/tripshot/mixin.jade:28
 #, fuzzy
 msgid "From {} to {}."
-msgstr "Kohteesta {} on {}."
+msgstr "Kohteesta {} kohteeseen {}."
 
 #. L10n: curly brackets {} are placeholders for trip time (as in 'X days') and distance respectively
 #: ../views/tripshot/mixin.jade:34
 #, fuzzy
 msgid "{} and {} kilometers of new adventures."
-msgstr "{} Ja {} kilometriä uusia seikkailuja."
+msgstr "{} ja {} kilometriä uusia seikkailuita."
 
 #. L10n: curly brackets {} are placeholders for trip time (as in 'X days') and distance respectively
 #: ../views/tripshot/mixin.jade:37
 #, fuzzy
 msgid "{} and {} miles of new adventures."
-msgstr "{} Ja {} päähän uusia seikkailuja."
+msgstr "{} ja {} mailia uusia seikkailuita."
 
 #: ../views/tripshot/mixin.jade:39
 #, fuzzy
 msgid "You too can use Furkot to plan your next road trip."
-msgstr "Sinäkin voit käyttää Furkot suunnitella seuraavaa road trip."
+msgstr "Sinäkin voit käyttää Furkotia seuraavan matkasi suunnitteluun."
 
 #. L10n: "Book cover" meaning a front and back of a book
 #: ../views/tripshot/mixin.jade:100 ../views/tripshot/mixin.jade:107
@@ -9284,13 +9333,13 @@ msgstr "Kirjan kansi"
 #: ../views/tripshot/mixin.jade:114 ../views/tripshot/mixin.jade:165
 #, fuzzy
 msgid "Select the best travel guide"
-msgstr "Valitse paras opas"
+msgstr "Valitse paras matkaopas"
 
 #. L10n: Label for the field to edit a title of published trip collection (album)
 #: ../views/tripshot/mixin.jade:137
 #, fuzzy
 msgid "Title"
-msgstr "otsikko"
+msgstr "Otsikko"
 
 #. L10n: Label for the field to edit a description of published trip collection (album)
 #: ../views/tripshot/mixin.jade:141
@@ -9301,27 +9350,28 @@ msgstr "Kuvaus"
 #: ../views/tripshot/mixin.jade:144
 #, fuzzy
 msgid "Link to the trip photo"
-msgstr "Linkki matka valokuva"
+msgstr "Linkki matkan valokuviin"
 
 #: ../views/tripshot/mixin.jade:147
 #, fuzzy
 msgid "Link to a webpage with more info"
-msgstr "Linkki sivulle, jossa on lisätietoa"
+msgstr "Linkki nettisivulle, jossa lisää tietoa"
 
 #: ../views/tripshot/mixin.jade:147
 #, fuzzy
 msgid "Link to more info about the trip"
-msgstr "Linkki lisätietoja matkasta"
+msgstr "Linkki matkan lisätietoihin"
 
 #: ../views/tripshot/mixin.jade:154
 #, fuzzy
 msgid "Copy and paste to embed in your website"
-msgstr "Kopioi ja liitä upottaa sivustosi"
+msgstr "Kopioi ja liitä upottaaksesi nettisivustollesi"
 
 #: ../views/tripshot/mixin.jade:170
 #, fuzzy
 msgid "Search travel guides by title, author, place(s), keyword(s)"
-msgstr "Etsi matkaoppaat nimen, tekijän, paikka (s), hakusana (t)"
+msgstr ""
+"Etsi matkaoppaita nimen, kirjoittajan, paikan tai avainsanojen perusteella"
 
 #. L10n: meaning 'search for travel guides'
 #: ../views/tripshot/mixin.jade:172
@@ -9333,22 +9383,22 @@ msgstr "Suorita haku"
 #: ../views/tripshot/mixin.jade:187
 #, fuzzy
 msgid "Edit trip snapshot"
-msgstr "Muokata matkojen tilannekuva"
+msgstr "Muokkaa matkan kuvia"
 
 #: ../views/tripshot/mixin.jade:193
 #, fuzzy
 msgid "Embed in website"
-msgstr "Koodi omalle sivulle"
+msgstr "Upota nettisivulle"
 
 #: ../views/tripshot/mixin.jade:230
 #, fuzzy
 msgid "Insert your own trip photo here"
-msgstr "Aseta oma matka valokuva täällä"
+msgstr "Lisää omat matkakuvasi tänne"
 
 #: ../views/tripshot/mixin.jade:232
 #, fuzzy
 msgid "Change a photo"
-msgstr "Muuta valokuvan"
+msgstr "Vaihda valokuva"
 
 #: ../views/tripshot/tripshot.jade:9
 #, fuzzy
@@ -9358,17 +9408,17 @@ msgstr "Katso lisää matkoja"
 #: ../views/tripshot/tripshot.jade:85
 #, fuzzy
 msgid "Itinerary"
-msgstr "matkareitti"
+msgstr "Reittisuunnitelma"
 
 #: ../views/tripshot/tripshot.jade:86
 #, fuzzy
 msgid "Guidebooks"
-msgstr "Oppaat"
+msgstr "Matkaoppaat"
 
 #: ../views/welcome/blurbs.jade:20
 #, fuzzy
 msgid "Dates, distances and directions"
-msgstr "Päivämääriä, etäisyydet ja suunnat"
+msgstr "Päivämäärät, etäisyydet ja suunnat"
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/welcome/blurbs.jade:24
@@ -9378,9 +9428,9 @@ msgid ""
 "for that? Did you ever try to figure out [how long it takes] to drive from "
 "Yosemite to Yellowstone or from Lisbon to Rome?"
 msgstr ""
-"Aina halunnut matkustaa halki Yhdysvaltojen, mutta ei ollut varma, jos "
-"sinulla on tarpeeksi aikaa siihen? Oletko koskaan yrittää selvittää [kuinka "
-"kauan kestää] ajaa Yosemite Yellowstonen tai Lissabonista Rooma?"
+"Oletko aina halunnut matkustaa Yhdysvaltojen halki, mutta et ollut varma "
+"onko sinulla tarpeeksi aikaa siihen? Oletko koskaan yrittänyt selvittää ["
+"kuinka kauan kestää] ajaa Yosemitesta Yellowstoneen tai Lissabonista Roomaan?"
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/welcome/blurbs.jade:27
@@ -9391,10 +9441,10 @@ msgid ""
 "travel time so none of your sightseeing has to be done under moonlight "
 "&mdash; unless, of course, that's what you want."
 msgstr ""
-"Aloita klikkaamalla karttaa. [Valitse kohde] ja on Furkot laskea, kuinka "
-"paljon aikaa sinun täytyy päästä sinne. Asettaa päivittäiset rajat matka "
-"kestää niin mikään nähtävyyksien on tapahduttava kuutamossa &mdash; paitsi "
-"tietenkin, että mitä haluat."
+"Aloita napsauttamalla karttaa. [Valitse määränpääsi] ja pyydä Furkotia "
+"laskemaan, kuinka paljon aikaa tarvitset saapuaksesi perille. Aseta "
+"päivittäiset rajoitukset matka-ajalle, jotta nähtävyyksiin ei tarvitse "
+"tutustua yön pimeydessä &mdash; ellet tietysti halua sitä."
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/welcome/blurbs.jade:30
@@ -9404,10 +9454,10 @@ msgid ""
 "for your trip in the most efficient way. If you don't want efficient, you "
 "can [drag your stops] around or even [reverse your itinerary]."
 msgstr ""
-"Älä ole huolissasi laskemisesta pysähtyy järjestyksessä. Furkot yrittää "
-"suunnitella reitin matkallesi tehokkaimmalla tavalla. Jos et halua "
-"tehokkaita, voit [vetää pysähtyy] ympärille tai jopa [kääntää "
-"matkasuunnitelmaasi]."
+"Älä ole huolissasi pysähdysten järjestelemisestä. Furkot yrittää suunnitella "
+"matkareittisi mahdollisimman tehokkaasti. Jos et halua tehokasta, voit "
+"halutessasi [siirrellä pysähdyksiäsi] tai jopa [kääntää "
+"reittisuunnitelmaasi]."
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/welcome/blurbs.jade:33
@@ -9417,9 +9467,9 @@ msgid ""
 "[stop for the night] Furkot suggests overnight stops along the route based "
 "on your schedule and preferences."
 msgstr ""
-"Kerro meille, kuinka kauan haluat ajaa joka päivä, ja näytämme, mistä "
-"[pysähtyä yöksi] Furkot ehdottaa yöpymistä reitillä perustuu oman aikataulun "
-"ja mieltymykset."
+"Kerro meille kuinka kauan haluat ajaa päivittäin, niin näytämme missä voit ["
+"pysähtyä yöpyäksesi]. Furkot ehdottaa yöpymisiä reitin varrelta aikataulusi "
+"ja mieltymystesi perusteella."
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/welcome/blurbs.jade:36
@@ -9430,10 +9480,10 @@ msgid ""
 "option]. You can also schedule motorcycle rides, biking excursions and "
 "walking tours with Furkot."
 msgstr ""
-"Furkot voi auttaa kaikissa matkasuunnitelmat päiväristeilyalusta, "
-"viikonloppumatkalle tai maanosan rajan road trip. Ja [ajaminen ei ole ainoa "
-"vaihtoehto]. Voit myös ajastaa moottoripyörä ratsastaa, pyöräily retkiä ja "
-"kävelykierroksia Furkot."
+"Furkot voi auttaa sinua kaikissa matkasuunnitelmissasi: päiväretkillä, "
+"viikonloppumatkoilla tai maanosan ylittävillä tiematkoilla. Eikä [autolla "
+"ajaminen ei ole ainoa vaihtoehto]. Voit myös varata moottoripyörä-, pyörä- "
+"tai kävelyretkiä Furkotin kautta."
 
 #: ../views/welcome/blurbs.jade:39 ../views/welcome/blurbs.jade:66
 #: ../views/welcome/blurbs.jade:92
@@ -9444,7 +9494,7 @@ msgstr "Lue lisää"
 #: ../views/welcome/blurbs.jade:43
 #, fuzzy
 msgid "Trip map"
-msgstr "trip kartta"
+msgstr "Matkakartta"
 
 #: ../views/welcome/blurbs.jade:47
 #, fuzzy
@@ -9459,8 +9509,8 @@ msgid ""
 "a couple of hours and hike one of the trails from the vast [Everytrail] "
 "collection."
 msgstr ""
-"Se on myös kaikki mitä teette matkalla. Jättää pysäköityyn autoon pari "
-"tuntia ja retkeillä yksi polkuja suuri [Everytrail] kokoelma."
+"Kyse on myös kaikesta mitä teet matkalla. Pysäköi autosi pariksi tunniksi ja "
+"vaella joillakin [Everytrail]-kokoelman monista poluista."
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/welcome/blurbs.jade:54
@@ -9470,9 +9520,9 @@ msgid ""
 "[Wikipedia]. They are one click away from ending up on your road trip stop "
 "list."
 msgstr ""
-"Tarvitsetko vihjeitä? Muista tarkistaa mielenkiintoisia paikkoja kuvattu "
-"[Wikipedia]. Ne ovat yhden klikkauksen päässä päätyä oman matkalle "
-"Pysäkkiluettelot."
+"Tarvitsetko vinkkejä? Muista tarkistaa [Wikipediassa] kuvatut "
+"mielenkiintoiset paikat. Ne ovat vain yhden klikkauksen päässä päätyäkseen "
+"omaan matkaasi."
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/welcome/blurbs.jade:57
@@ -9482,9 +9532,9 @@ msgid ""
 "you to the closest dry land point for those spots that do require a boat "
 "ride. You can [drive and dive] with Furkot."
 msgstr ""
-"Jos autosi muistuttaa meidän ei voi ajaa vettä, mutta Furkot reitittää sinut "
-"lähimmän kuivalle maalle pisteen kohtiin, jotka eivät edellytä venematka. "
-"Voit [ajaa ja sukeltaa] kanssa Furkot."
+"Jos autosi muistuttaa meidän autoamme, et voi ajaa vedessä, mutta Furkot "
+"ohjaa sinut lähimpään kuivaan, maalla olevaan pisteeseen, paikkaan joka "
+"vaatii venematkaa. Voit [ajaa ja sukeltaa] Furkotin kanssa."
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/welcome/blurbs.jade:60
@@ -9494,9 +9544,10 @@ msgid ""
 "or bowls? Skis or snowboard? Regardless of the answer, you can use Furkot to "
 "find ski resorts &mdash; courtesy of [Liftopia]."
 msgstr ""
-"Oletko jälkeen tuoretta jauhetta? Tai ehkä murskaamiseen sametti on sinun "
-"juttusi? Puita tai kulhoja? Sukset tai lumilauta? Riippumatta vastauksesta, "
-"voit Furkot löytää hiihtokeskuksissa &mdash; kohteliaisuus [Liftopia]."
+"Kaipaatko puuterilunta? Tai ehkä tiukiksi tampatut rinteet ovat juttusi? "
+"Puiden seassa vaiko avoimella rinteellä? Sukset vai lumilauta? Vastauksesta "
+"huolimatta voit käyttää Furkotia hiihtokeskuksien etsimiseen &mdash; "
+"[Liftopian] luvalla."
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/welcome/blurbs.jade:63
@@ -9507,21 +9558,21 @@ msgid ""
 "scenic views &mdash; add as many as you want. Furkot will keep you on track. "
 "You just need to show up."
 msgstr ""
-"Voit jopa suunnitella aterian pysähtyy ja lisää huoltoasemia "
-"matkasuunnitelmaasi. Puhumattakaan pyöräily polkuja, museot, muistomerkit, "
-"[kiipeilyreitin], kansallispuistot, luonnonkaunis näkemyksiä &mdash; lisätä "
-"niin monta kuin haluat. Furkot pitää sinut raiteilleen. Sinun tarvitsee vain "
-"näy."
+"Voit suunnitella matkasuunnitelmaasi jopa ruokataukoja tai lisätä "
+"huoltoasemia. Puhumattakaan pyöräteistä, museoista, monumenteista, "
+"[kiipeilyreiteistä], kansallispuistoista, luonnonkauniista näkymistä. Lisää "
+"niitä niin paljon kuin haluat. Furkot pitää sinut tien aina päällä. Sinun "
+"tarvitsee vain olla mukana."
 
 #: ../views/welcome/blurbs.jade:70
 #, fuzzy
 msgid "Attractions search"
-msgstr "Nähtävyydet haku"
+msgstr "Hae nähtävyyksiä"
 
 #: ../views/welcome/blurbs.jade:74
 #, fuzzy
 msgid "Campgrounds? Motels? Hotels? Staying with friends?"
-msgstr "Leirintäalueilla? Motellit? Hotellit? Pysyminen ystävien kanssa?"
+msgstr "Leirintäalueet? Motellit? Hotellit? Ystävien luona oleminen?"
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/welcome/blurbs.jade:81
@@ -9532,35 +9583,34 @@ msgid ""
 "exactly [what you are going to pay] (including taxes and service fees). You "
 "are in charge of what they charge."
 msgstr ""
-"Furkot on helppo päättää, mitkä hotellit tarjoavat parhaan yhdistelmän "
-"kustannus, mukavuuksia ja hyvällä paikalla. Aina saatavilla, Furkot näyttää "
-"täsmälleen [mitä aiot maksaa] (mukaan lukien verot ja palvelumaksut). Olet "
-"vastuussa siitä, mitä ne veloittavat."
+"Furkotin avulla on helppo päättää, mitkä hotellit tarjoavat parhaan "
+"yhdistelmän kustannuksista, mukavuuksista ja kätevistä sijainneista. Furkot "
+"näyttää tarkalleen [mistä aiot maksaa] (mukaan lukien verot ja palvelumaksut)"
+". Sinä päätät, mistä sinua veloitetaan."
 
 #. L10n: square brackets [] denote buttons. Displayed on Furkot front page (below the fold) (when user is not signed in). This is a bit of word play meaning that Furkot makes booking hotels as easy as pressing Next button repeatedly until the only thing left to do is to press "Done". If translation cannot reflect this word play, a sentence meaning that booking is easy is acceptable. Either button or both can be dropped.
 #: ../views/welcome/blurbs.jade:90
 #, fuzzy
 msgid "All you need to do is to keep pressing [Next] until you are [Done]."
-msgstr ""
-"Kaikki mitä tarvitsee tehdä, on pitää painamalla [Next] kunnes olet [Valmis]."
+msgstr "Sinun tarvitsee vain painaa [Seuraava], kunnes olet [Valmis]."
 
 #: ../views/welcome/blurbs.jade:96
 #, fuzzy
 msgid "Lodging search"
-msgstr "majoitushakulomaketta"
+msgstr "Etsi majoitusta"
 
 #: ../views/welcome/errors.jade:6
 #, fuzzy
 msgid "Invalid name and password combination (both are case-sensitive)."
 msgstr ""
-"Virheellinen ja salasanan yhdistelmää (molemmat ovat isot ja pienet "
-"kirjaimet)."
+"Virheellinen nimen ja salasanan yhdistelmä (molemmissa isot kirjaimet "
+"merkitseviä)."
 
 #. L10n: the curly brackets {} stand for the user name
 #: ../views/welcome/errors.jade:9
 #, fuzzy
 msgid "Cannot register user {}"
-msgstr "Ei voi rekisteröidä käyttäjän {}"
+msgstr "Käyttäjää {} ei voida rekisteröidä"
 
 #: ../views/welcome/errors.jade:12
 #, fuzzy
@@ -9571,7 +9621,7 @@ msgstr "Unohditko salasanasi?"
 #: ../views/welcome/header.jade:17
 #, fuzzy
 msgid "road trip planner"
-msgstr "Retken suunnittelu"
+msgstr "Autoreissun suunnittelu"
 
 #. L10n: Part of browser window title of Furkot furkot page (when user is not signed in)
 #: ../views/welcome/index.jade:5 ../views/welcome/index.jade:8
