@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2023-04-03 16:59+0200\n"
-"PO-Revision-Date: 2023-05-08 09:24+0000\n"
+"PO-Revision-Date: 2023-05-08 13:48+0000\n"
 "Last-Translator: Tommi Riikonen <von.riikonen@gmail.com>\n"
 "Language-Team: Finnish <https://translate.furkot.com/projects/furkot/trips/"
 "fi/>\n"
@@ -98,7 +98,7 @@ msgid ""
 "Hi! I am planning a trip {}. I am hoping you can help me with that. This is "
 "my route so far."
 msgstr ""
-"Hei! Olen suunnittelemassa reissua {}. Toivon, että voisit auttaa minua sen "
+"Hei! Olen suunnittelemassa reissua {}. Toivon että voisit auttaa minua sen "
 "kanssa. Tässä reittini tähän mennessä."
 
 #: ../views/board/board.jade:40
@@ -108,10 +108,10 @@ msgid ""
 "the place is located - click on the map and choose from the list of places "
 "nearby. Add as many suggestions as you want."
 msgstr ""
-"Jos tiedät reitiltä joitain mielenkiintoisia paikkoja, lisää ne tähän "
+"Jos tiedät reitiltä joitain mielenkiintoisia paikkoja niin lisää ne tähän "
 "karttaan. Voit kirjoittaa paikan nimen hakukenttään tai/jos et tiedä missä "
-"paikka sijaitsee, klikkaa karttaa ja valitse joku lähellä olevista "
-"paikoista. Lisää niin monta ehdotusta kuin haluat."
+"paikka sijaitsee klikkaa karttaa ja valitse joku lähellä olevista paikoista. "
+"Lisää niin monta ehdotusta kuin haluat."
 
 #: ../views/board/board.jade:41
 msgid "Thanks for your help."
@@ -122,8 +122,8 @@ msgid ""
 "This is the map of your trip that others will see. They will be able to "
 "suggest one or more places for you to visit on your trip."
 msgstr ""
-"Tämä kartta on reissustasi ja jonka muut näkevät. He voivat ehdottaa "
-"reissusi varrelta yhtä tai useampaa paikkaa jossa voisit vierailla."
+"Tämä kartta on reissustasi jonka muutkin näkevät. He voivat ehdottaa "
+"reissuusi yhtä tai useampaa paikkaa jossa voisit vierailla."
 
 #: ../views/board/board.jade:45
 msgid ""
@@ -159,7 +159,7 @@ msgstr "Käyttäjätunnus"
 #. L10n: Nickname is a private identifier used to sign in. Can be also translated as 'Alias' or 'Pseudonym'. We try to make it more comprehensive and less formal than username. Translate as 'Username' only if no better word is available
 #: ../views/components/accounts.jade:10
 msgid "Nickname is your private identifier used to sign in"
-msgstr "Käyttäjätunnus on yksityinen tunnuksesi jolla kirjaudut sisään"
+msgstr "Käyttäjätunnus on tunnuksesi jolla kirjaudut sisään"
 
 #. L10n: Email in a sense of the "email address"
 #: ../views/components/accounts.jade:13 ../views/pass/index.jade:50
@@ -177,7 +177,7 @@ msgstr ""
 #. L10n: Email in a sense of the "email address"
 #: ../views/components/accounts.jade:18 ../views/components/accounts.jade:23
 msgid "email is optional"
-msgstr "Sähköposti on valinnainen"
+msgstr "Sähköposti on vapaaehtoinen"
 
 #. L10n: Signature is a public name shown to others. It is NOT a username
 #: ../views/components/accounts.jade:26
@@ -187,7 +187,7 @@ msgstr "Allekirjoitus"
 #. L10n: Signature is a public name shown to others. It is NOT a username
 #: ../views/components/accounts.jade:29
 msgid "Signature is your public name shown to others"
-msgstr "Allekirjoituksesi julkinen nimi joka näkyy muille"
+msgstr "Allekirjoituksesi on nimi joka näkyy muille"
 
 #. L10n: hint displayed in the field for user's signature - a public name shown to others. Signature is NOT a username
 #: ../views/components/accounts.jade:30 ../views/components/accounts.jade:37
@@ -220,7 +220,7 @@ msgstr "Jätä tyhjäksi ellet halua vaihtaa salasanaa"
 #. L10n: 'leave empty unless changing' as in 'leave the field empty unless you are changing password or settings'
 #: ../views/components/accounts.jade:53 ../views/components/accounts.jade:58
 msgid "leave empty unless changing"
-msgstr "jätä tyhjäksi ellet halua muuta"
+msgstr "Jätä tyhjäksi ellet halua muuttaa"
 
 #: ../views/components/accounts.jade:61
 msgid "Password changed successfully"
@@ -340,7 +340,7 @@ msgstr "Suunnittele pysähdyksiä"
 #. L10n: 'Select a trip to add to.' as in 'Select a trip to add the stops listed above to.
 #: ../views/components/add-stops.jade:6
 msgid "Select a trip to add to."
-msgstr "Valitse reissu lisääksesi."
+msgstr "Valitse reissu johon haluat lisätä."
 
 #: ../views/components/add-stops.jade:13 ../views/components/trips.jade:4
 msgid "New trip"
@@ -380,18 +380,19 @@ msgstr "Poista"
 
 #: ../views/components/book-wizard.jade:2
 msgid "Book trip"
-msgstr "Varaa reissu"
+msgstr "Varaa matka"
 
 #: ../views/components/book-wizard.jade:6
 msgid ""
 "Congratulations! You have booked lodging accommodations for every overnight "
 "stop on this trip."
-msgstr "Onneksi olkoon! Olet varannut majoituksen jokaiselle yöpymiselle."
+msgstr ""
+"Onneksi olkoon! Olet varannut majoituksen reissun jokaiselle yöpymiselle."
 
 #. L10n: Square brackets [] denote a button. The [Done] in the sentence is that name of the button that is also displayed elsewhere. It is important that is translated the same as the button (see the translation of the "Done" word in glossary). If needed for clarification, translate  as the phrase "the [Done] button"
 #: ../views/components/book-wizard.jade:9
 msgid "Press [Done] to continue trip planning."
-msgstr "Klikkaa [Valmis] jatkaaksesi reissusuunnittelua."
+msgstr "Klikkaa [Valmis] jatkaaksesi reissun suunnittelua."
 
 #: ../views/components/book-wizard.jade:17
 msgid ""
@@ -423,7 +424,7 @@ msgid ""
 "Looks like you started hotel booking process, but did not enter any booking "
 "confirmation."
 msgstr ""
-"Näyttää että aloitit majoituksen varaamisen, mutta et antanut "
+"Näyttää siltä että aloitit majoituksen varaamisen, mutta et antanut "
 "varausvahvistusta."
 
 #. L10n: Square brackets [] denote a button. The [Next] in the sentence is that name of the button that is also displayed elsewhere. It is important that is translated the same as the button (see the translation of the "Next" word in glossary). If needed for clarification, translate  as the phrase "the [Next] button"
@@ -432,7 +433,7 @@ msgid ""
 "Press [Next] if you intend to enter the booking confirmation later, or if "
 "you don't want to complete the booking at this time."
 msgstr ""
-"Klikkaa [Seuraava] jos aiot tehdä varausvahvistuksen myöhemmin, tai jos et "
+"Klikkaa [Seuraava] jos aiot tehdä varausvahvistuksen myöhemmin tai jos et "
 "halua suorittaa varausta loppuun tällä kertaa."
 
 #. L10n: Square brackets [] denote a button. The [Done] in the sentence is that name of the button that is also displayed elsewhere. It is important that is translated the same as the button (see the translation of the "Done" word in glossary). If needed for clarification, translate  as the phrase "the [Done] button"
@@ -441,7 +442,7 @@ msgid ""
 "Press [Done] if you intend to enter the booking confirmation later, or if "
 "you don't want to complete the booking at this time."
 msgstr ""
-"Klikkaa [Valmis] jos aiot tehdä varausvahvistuksen myöhemmin, tai jos et "
+"Klikkaa [Valmis] jos aiot tehdä varausvahvistuksen myöhemmin tai jos et "
 "halua suorittaa varausta loppuun tällä kertaa."
 
 #: ../views/components/book-wizard.jade:40
@@ -450,8 +451,8 @@ msgid ""
 "your booking status, but lets Furkot help you keep track of your "
 "reservations."
 msgstr ""
-"Antamalla Furkotille varausvahvistuksen (numero tai URL-osoite) ei muuta "
-"oikean varauksen tilaa, mutta auttaa Furkotia pitämään varauksistasi kirjaa."
+"Syöttämällä Furkotiin varausvahvistuksen (numero tai URL-osoite) ei muuta "
+"oikean varauksen tilaa mutta auttaa Furkotia pitämään varauksistasi kirjaa."
 
 #. L10n: 'Booking confirmation' as a number or link to a page that confirms that a reservation of a lodging
 #: ../views/components/book-wizard.jade:43
@@ -499,15 +500,15 @@ msgstr "Valmis"
 
 #: ../views/components/book-wizard.jade:67
 msgid "Furkot will take you back to the trip planning."
-msgstr "Furkot vie sinut takaisin reittisuunnitteluun."
+msgstr "Furkot vie sinut takaisin reissun suunnitteluun."
 
 #: ../views/components/bookable.jade:35
 msgid "See this hotel page"
-msgstr "Katso hotellisivu"
+msgstr "Katso hotellin sivut"
 
 #: ../views/components/bookable.jade:36
 msgid "See this hotel own website"
-msgstr "Katso hotellin internetsivuja"
+msgstr "Katso hotellin nettisivuja"
 
 #: ../views/components/bookable.jade:37 ../views/components/bookable.jade:52
 #: ../views/components/bookable.jade:84 ../views/components/bookable.jade:98
@@ -537,7 +538,7 @@ msgstr "Sulje hotellin tiedot"
 
 #: ../views/components/bookable.jade:50
 msgid "See this campground page"
-msgstr "Katso leirintäalueen sivu"
+msgstr "Katso leirintäalueen sivut"
 
 #: ../views/components/bookable.jade:51
 msgid "See this campground own website"
@@ -589,7 +590,7 @@ msgstr "Lisää lähistöllä oleva hotelli uutena pysähdyksenä"
 
 #: ../views/components/bookable.jade:87
 msgid "Add hotel in this neighborhood as a skipped stop"
-msgstr "Lisää lähialueella oleva hotelli sivuutetuksi"
+msgstr "Lisää lähistöllä oleva hotelli sivuutetuksi"
 
 #: ../views/components/bookable.jade:88
 msgid "Fold this deal details"
@@ -597,12 +598,12 @@ msgstr "Sulje tarjouksen tiedot"
 
 #: ../views/components/bookable.jade:96 ../views/components/bookable.jade:130
 msgid "See this lodging page"
-msgstr "Katso majoitussivu"
+msgstr "Katso majoituksen sivut"
 
 #. L10n: 'host profile' as in 'the profile page of lodging host or owner' - displayed for services that provide booking of apartments and rooms
 #: ../views/components/bookable.jade:97 ../views/components/bookable.jade:111
 msgid "See this lodging host profile"
-msgstr "Katso majoituksen tarjoajan kuvaus"
+msgstr "Katso majoituksen tarjoajan tiedot"
 
 #: ../views/components/bookable.jade:99 ../views/components/bookable.jade:133
 msgid "Add this lodging as a new stop"
@@ -626,7 +627,7 @@ msgstr "Sulje majoituksen tiedot"
 
 #: ../views/components/bookable.jade:115
 msgid "See this hostel page"
-msgstr "Katso hostellin sivu"
+msgstr "Katso hostellin sivut"
 
 #: ../views/components/bookable.jade:116
 msgid "See this hostel own website"
@@ -672,10 +673,10 @@ msgid ""
 "rates this low, so Hotwire hides their name, address, and picture until "
 "after booking."
 msgstr ""
-"Kun merkkihotellit käyttävät Hotwireä (myydäkseen huoneita jotka muuten "
-"jäisi myymättä), niiden hinnat ovat erittäin edullisia. Hotellit eivät halua "
-"julkistaa näin alhaisia hintoja, joten Hotwire piilottaa nimen, osoitteen ja "
-"kuvan ennen varausta."
+"Nimekkäät hotellit käyttävät Hotwireä (myydäkseen huoneita jotka muuten "
+"jäisi myymättä) silloin niiden hinnat ovat erittäin edullisia. Hotellit "
+"eivät halua julkistaa näin alhaisia hintoja joten Hotwire piilottaa nimen, "
+"osoitteen ja kuvan kunnes varaus on tehty.."
 
 #. L10n: pair of _underscores_ denotes different formatting
 #: ../views/components/browse-happy.jade:5
@@ -685,58 +686,58 @@ msgstr "Käytät vanhentunutta selainta."
 #. L10n: square brackets [] denote a link
 #: ../views/components/browse-happy.jade:7
 msgid "Please [upgrade your browser] to improve your experience."
-msgstr "Ole hyvä ja [päivitä selaimesi] parantaaksesi käyttökokemusta."
+msgstr "Ole hyvä ja [päivitä selain] parantaaksesi käyttökokemusta."
 
 #. L10n: travel mode: travel by car
 #: ../views/components/common-mixins.jade:4
 #: ../views/components/trip-detail.jade:694
 #: ../views/components/trip-detail.jade:697
 msgid "Driving"
-msgstr "Ajaminen"
+msgstr "Autolla"
 
 #. L10n: travel mode: ride a motorcycle
 #: ../views/components/common-mixins.jade:8
 msgid "Motorcycle"
-msgstr "Moottoripyörä"
+msgstr "Moottoripyörällä"
 
 #. L10n: travel mode: travel in RV (recreational vehicle) or camper
 #: ../views/components/common-mixins.jade:12
 msgid "Recreational Vehicle"
-msgstr "Matkailuauto"
+msgstr "Matkailuautolla"
 
 #. L10n: travel mode: ride a bicycle
 #: ../views/components/common-mixins.jade:16
 msgid "Bicycle"
-msgstr "Polkupyörä"
+msgstr "Polkupyörällä"
 
 #. L10n: travel mode: walk
 #: ../views/components/common-mixins.jade:20
 #: ../views/components/trip-detail.jade:696
 msgid "Walking"
-msgstr "Kävely"
+msgstr "Kävellen"
 
 #. L10n: travel mode: flight
 #: ../views/components/common-mixins.jade:24
 msgid "Flight"
-msgstr "Lento"
+msgstr "Lentäen"
 
 #. L10n: travel mode: ferry
 #: ../views/components/common-mixins.jade:28
 msgid "Ferry"
-msgstr "Lautta"
+msgstr "Lautalla"
 
 #. L10n: travel mode: anything other than driving, motorcyle, bicycle, walking, flight, ferry
 #: ../views/components/common-mixins.jade:32
 msgctxt "other travel mode"
 msgid "Other"
-msgstr "Muu"
+msgstr "Muulla tavalla"
 
 #: ../views/components/common-mixins.jade:38
 msgid ""
 "Your trip has stops with warnings or automatically scheduled placeholders."
 msgstr ""
 "Reissullasi on varoituksia pysähdyksistä tai automaattisesti lisättyjä "
-"paikkamerkintöjä."
+"paikkamerkkejä."
 
 #. L10n: Label for the list of road options (to avoid or prefer highways, to avoid or prefer toll roads, etc)
 #. L10n: Label for the option to avoid or prefer highways and toll roads
@@ -781,12 +782,12 @@ msgstr "Vältä päällystämättömiä teitä"
 
 #: ../views/components/common-mixins.jade:60
 msgid "Permit unpaved roads if necessary"
-msgstr "Salli päällystämättömät tiet tarvittaessa"
+msgstr "Salli tarvittaessa päällystämättömät tiet"
 
 #. L10n: Hint for option to calculate straightforward route. Shown for motorcycle trips only
 #: ../views/components/common-mixins.jade:63
 msgid "Prefer major roads and minimize turns"
-msgstr "Suosi pääteitä ja minimoi kääntymiset"
+msgstr "Suosi pääteitä ja minimoi teiden mutkaisuus"
 
 #. L10n: Hint for option to calculate fun ride over curvy roads. Shown for motorcycle trips only
 #: ../views/components/common-mixins.jade:64
@@ -823,8 +824,7 @@ msgstr "Päivitä nyt"
 msgid ""
 "New version of Furkot is available. Click the button above to update now."
 msgstr ""
-"Uusi versio Furkotista on saatavilla. Päivitä klikkaamalla yllä olevaa "
-"painiketta."
+"Uusi versio Furkotista on saatavilla. Päivitä yllä olevasta painikeesta."
 
 #: ../views/components/dialog.jade:26 ../views/header.jade:37
 msgid "About Furkot"
@@ -837,7 +837,7 @@ msgstr "Versio"
 #. L10n: instruction to user to pan and zoom map to find matching places when typing name or address
 #: ../views/components/dialog.jade:49
 msgid "No match? Pan and zoom map to cover the target area"
-msgstr "Ei osumia? Siirrä ja zoomaa karttaa kohdealueen kattamiseksi"
+msgstr "Ei osumia? Siirrä ja zoomaa karttaa kohdealueen kokoiseksi"
 
 #: ../views/components/dialog.jade:53 ../views/components/trip-detail.jade:9
 msgid "Driving trip"
@@ -905,7 +905,7 @@ msgstr "Ole hyvä ja odota, Furkot laskee reissusi uudelleen"
 #: ../views/components/export-dlg.jade:44
 #: ../views/components/export-dlg.jade:136
 msgid "Export stops and routing information:"
-msgstr "Vie pysähdysten ja reititysten tiedot toiseen muotoon:"
+msgstr "Vie tiedot pysähdyksistä ja reitityksistä:"
 
 #. L10n: Standard GPX format (without proprietary extensions)
 #: ../views/components/export-dlg.jade:46
@@ -961,7 +961,7 @@ msgstr "Driving log-tiedosto (.csv)"
 
 #: ../views/components/export-dlg.jade:60
 msgid "Select a file format to export:"
-msgstr "Valitse vietä tiedostomuoto:"
+msgstr "Valitse vietävä tiedostomuoto:"
 
 #. L10n: 'use with many types of GPS devices' as in 'you can use files in this format with many types of GPS devices'
 #: ../views/components/export-dlg.jade:70
@@ -971,7 +971,7 @@ msgstr "Käytä useiden eri GPS-laitteiden kanssa"
 #. L10n: 'use with newer Garmin devices' as in 'you can use files in this format with newer Garmin devices [only]'
 #: ../views/components/export-dlg.jade:78
 msgid "use with newer Garmin devices"
-msgstr "Käytä useiden Garmin-laitteiden kanssa"
+msgstr "Käytä uusimpien Garmin-laitteiden kanssa"
 
 #. L10n: 'use with Guru Maps (formerly Galileo) navigation app' as in 'you can use files in this format with Guru Maps navigation app'
 #: ../views/components/export-dlg.jade:86
@@ -1063,7 +1063,7 @@ msgstr "Edellinen"
 #: ../views/components/export-dlg.jade:196
 #: ../views/components/step-detail.jade:861
 msgid "Export"
-msgstr "Vie toiseen muotoon"
+msgstr "Vie"
 
 #. L10n: Displayed to label a subsequent day of the trip followed by the number
 #: ../views/components/export-dlg.jade:202 ../views/components/print.jade:16
@@ -1168,7 +1168,7 @@ msgstr "Kumoa pysähtymisen siirtäminen"
 
 #: ../views/components/furkot-data.jade:17
 msgid "Undo reverse itinerary"
-msgstr "Kumoa käänteinen reittisuunnitelma"
+msgstr "Kumoa käänteinen matkasuunnitelma"
 
 #: ../views/components/furkot-data.jade:18
 msgid "Undo edit route"
@@ -1260,7 +1260,7 @@ msgstr "Toista pysähdyksen siirtäminen"
 
 #: ../views/components/furkot-data.jade:42
 msgid "Redo reverse itinerary"
-msgstr "Toista käänteinen reittisuunnitelma"
+msgstr "Toista käänteinen matkasuunnitelma"
 
 #: ../views/components/furkot-data.jade:43
 msgid "Redo edit route"
@@ -1779,12 +1779,12 @@ msgstr "Avaa Reissu-sivuvalikko"
 #. L10n: 'go to' can be also translated as 'open' or 'draw out'
 #: ../views/components/keyboard-shortcuts.jade:38
 msgid "go to Plan drawer"
-msgstr "Avaa Suunnitelma-sivuvalikko"
+msgstr "Avaa Suunnittele-sivuvalikko"
 
 #. L10n: 'go to' can be also translated as 'open' or 'draw out'
 #: ../views/components/keyboard-shortcuts.jade:40
 msgid "go to Sleep drawer"
-msgstr "Avaa Yövy-sivuvalikko"
+msgstr "Avaa Majoitu-sivuvalikko"
 
 #. L10n: 'go to' can be also translated as 'open' or 'draw out'
 #: ../views/components/keyboard-shortcuts.jade:42
@@ -1926,7 +1926,7 @@ msgstr "Näytä paikat"
 
 #: ../views/components/map.jade:88
 msgid "Find a place"
-msgstr "Etsi paikkaa"
+msgstr "Etsi paikkoja"
 
 #. L10n: hint for a button that opens Find drawer to let user import places, routes and tracks from a file or a website
 #: ../views/components/map.jade:91
@@ -1968,7 +1968,7 @@ msgstr ""
 
 #: ../views/components/map.jade:108
 msgid "Done editing trip"
-msgstr "Reissun muokkaaminen valmis"
+msgstr "Matkan muokkaaminen aktiivinen/valmis"
 
 #: ../views/components/map.jade:108
 msgid ""
@@ -2021,16 +2021,16 @@ msgstr "Reissu"
 
 #: ../views/components/map.jade:147
 msgid "Hide trip itinerary"
-msgstr "Piilota reissusuunnitelma"
+msgstr "Piilota matkasuunnitelma"
 
 #: ../views/components/map.jade:148
 msgid "Show trip itinerary"
-msgstr "Näytä reissusuunnitelma"
+msgstr "Näytä matkasuunnitelma"
 
 #. L10n: Label on the handle of the Plan drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Plan' can be also translated as 'Itinerary' or 'Schedule'
 #: ../views/components/map.jade:153
 msgid "Plan"
-msgstr "Suunnitelma"
+msgstr "Suunnittele"
 
 #: ../views/components/map.jade:158
 msgid "Hide nearby lodging accommodations"
@@ -2043,7 +2043,7 @@ msgstr "Näytä lähistöllä olevat majoituspaikat"
 #. L10n: Label on the handle of the Sleep drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Sleep' can be also translated as 'Lodgings'
 #: ../views/components/map.jade:164
 msgid "Sleep"
-msgstr "Yövy"
+msgstr "Majoitu"
 
 #: ../views/components/map.jade:169
 msgid "Hide places to eat, drink and get fuel"
@@ -2064,7 +2064,7 @@ msgstr "Piilota kiinnostavat kohteet"
 
 #: ../views/components/map.jade:181 ../views/components/step-switches.jade:135
 msgid "Show points of interest"
-msgstr "Näytä kiinnostavat kohteet"
+msgstr "Etsi kiinnostavia kohteita"
 
 #. L10n: Label on the handle of the Find drawer. Shorter word is better; ideally no longer than translation of 'Trip'. 'Find' can be also translated as 'Search', 'Places of Interest', 'Points of Interest' or 'Attractions'
 #: ../views/components/map.jade:186
@@ -2502,7 +2502,7 @@ msgstr "Uusi"
 #: ../views/components/step-detail.jade:350
 #: ../views/components/step-lodging.jade:50
 msgid "Stay"
-msgstr "Yövy"
+msgstr "Majoitu"
 
 #. L10n: 'Backup' meaning 'Add this lodging as a backup to the selected lodging for an overnight stop'
 #: ../views/components/place-detail.jade:52
@@ -3280,7 +3280,7 @@ msgstr "Näytä Paikat"
 #: ../views/components/place-switch.jade:35
 #: ../views/components/tour-lodging.jade:16
 msgid "Over the map"
-msgstr "Koko kartalla"
+msgstr "Koko kartta"
 
 #. L10n: 'Around the selected stop' as in 'Show places of interest in a circle Around the selected stop'
 #: ../views/components/place-switch.jade:39
@@ -3308,7 +3308,7 @@ msgstr "Hae reitin varrelta tämän etäisyyden sisältä"
 #. L10n: Label for an option that, when selected, will keep displaying places of interest on the map even when the Find drawer is closed
 #: ../views/components/place-switch.jade:67
 msgid "Keep on Map"
-msgstr "Pysy Kartalla"
+msgstr "Pidä kartalla"
 
 #: ../views/components/place-switch.jade:69
 msgid "Hide places when closing drawer"
@@ -3502,13 +3502,13 @@ msgstr "Piilota sähköautojen latausasemat"
 #: ../views/components/place-switch.jade:206
 #: ../views/components/place-switch.jade:209
 msgid "Airports"
-msgstr "Lentokentät"
+msgstr "Lentoasemat"
 
 #. L10n: hint for the button that hides airports on the map
 #: ../views/components/place-switch.jade:206
 #: ../views/components/places.jade:341
 msgid "Hide airports"
-msgstr "Piilota lentokentät"
+msgstr "Piilota lentoasemat"
 
 #. L10n: hint for the button that shows ferry terminals on the map
 #: ../views/components/place-switch.jade:212
@@ -3610,7 +3610,7 @@ msgstr "Piilota lintujen tarkkailupaikat"
 #. L10n: hint for the button that hides wildlife viewing spots on the map
 #: ../views/components/place-switch.jade:262
 msgid "Hide wildlife viewing spots"
-msgstr "Piilota villieläinten tarkkailupaikat"
+msgstr "Piilota mahdollisuus nähdä villieläimiä"
 
 #. L10n: hint for the button that hides hiking trails on the map
 #: ../views/components/place-switch.jade:268
@@ -3731,13 +3731,13 @@ msgstr "Piilota henkilöautoille tarkoitetut tiet"
 #. L10n: hint for the button that hides scenic roads suitable for jeeping and offroading on the map. Roads suitable for jeeping and offroading roads (i.e. roads accessible to SUV's and small trucks) as opposed to roads accessible to passenger cars
 #: ../views/components/place-switch.jade:328
 msgid "Hide jeeping and offroading"
-msgstr "Piilota maastoajo (Offroad)"
+msgstr "Piilota maasto ajo ja offroad"
 
 #. L10n: hint for the button that shows scenic roads suitable for jeeping and offroading on the map. Roads suitable for jeeping and offroading roads (i.e. roads accessible to SUV's and small trucks) as opposed to roads accessible to passenger cars
 #: ../views/components/place-switch.jade:328
 #: ../views/components/place-switch.jade:331
 msgid "Jeeping and offroading"
-msgstr "Maastoajo (Offroad)"
+msgstr "Maastoajo ja offroad"
 
 #. L10n: hint for the button that hides motorcycling routes on the map
 #: ../views/components/place-switch.jade:334
@@ -3786,13 +3786,13 @@ msgstr "Piknik-paikat"
 #. L10n: hint for the button that hides spectator sport events (games and races) on the map
 #: ../views/components/place-switch.jade:358
 msgid "Hide spectator sport events"
-msgstr "Piilota urheilutapahtumien seuraamiset"
+msgstr "Piilota urheilutapahtumat"
 
 #. L10n: hint for the button that shows spectator sport events (games and races) on the map
 #: ../views/components/place-switch.jade:358
 #: ../views/components/place-switch.jade:361
 msgid "Spectator sport events"
-msgstr "Urheilutapahtumien seuraamiset"
+msgstr "Urheilutapahtumat"
 
 #. L10n: hint for the button that hides shows and concerts on the map. Examples of shows: theater production, broadway show, special museum exhibiton, etc.
 #: ../views/components/place-switch.jade:364
@@ -3842,7 +3842,7 @@ msgstr "Opaskirjat ja matkaoppaat"
 #. L10n: hint for the button that hides guidebooks and travel guides displayed on the map
 #: ../views/components/place-switch.jade:388 ../views/components/places.jade:29
 msgid "Hide guidebooks"
-msgstr "Piilota opaskirjat"
+msgstr "Piilota opaskirjat ja matkaoppaat"
 
 #. L10n: hint for the button that hides other places on the map. 'Other places' as in categories of places not listed elsewhere
 #: ../views/components/place-switch.jade:394
@@ -3950,24 +3950,24 @@ msgstr "Piilota ranta- ja vesiaktiviteetit"
 #. L10n: hint for the button that hides scenic byways and backroads on the map
 #: ../views/components/place-switch.jade:450
 msgid "Hide scenic byways and backroads"
-msgstr "Piilota kauniit sivutiet"
+msgstr "Piilota kohteet pääteiden ulkopuolelta"
 
 #. L10n: hint for the button that shows scenic byways and backroads on the map
 #: ../views/components/place-switch.jade:450
 #: ../views/components/place-switch.jade:453
 msgid "Scenic byways and backroads"
-msgstr "Kauniit sivutiet"
+msgstr "Pääteiden ulkopuolelta"
 
 #. L10n: hint for the button that hides unpaved roads and off-road trails on the map
 #: ../views/components/place-switch.jade:456
 msgid "Hide unpaved roads and off-road trails"
-msgstr "Piilota päällystämättömät tiet ja Offroad-reitit"
+msgstr "Piilota päällystämättömät tiet ja offroad-reitit"
 
 #. L10n: hint for the button that shows unpaved roads and off-road trails on the map
 #: ../views/components/place-switch.jade:456
 #: ../views/components/place-switch.jade:459
 msgid "Unpaved roads and off-road trails"
-msgstr "Päällystämättömät tiet Offroad-reitit"
+msgstr "Päällystämättömät tiet ja offroad-reitit"
 
 #. L10n: hint for the button that shows events and entertainment on the map
 #: ../views/components/place-switch.jade:462
@@ -3984,12 +3984,12 @@ msgstr "Piilota tapahtumat ja viihde"
 #: ../views/components/place-switch.jade:468
 #: ../views/components/place-switch.jade:471
 msgid "Everything else"
-msgstr "Kaikki muu"
+msgstr "Muut kohteet"
 
 #. L10n: hint for the button that hides all other categories of places on the map
 #: ../views/components/place-switch.jade:468
 msgid "Hide everything else"
-msgstr "Piilota kaikki muu"
+msgstr "Piilota muut kohteet"
 
 #. L10n: hint for the button that hides user's other trips and imported routes and tracks on the map
 #: ../views/components/place-switch.jade:474
@@ -4779,9 +4779,8 @@ msgid ""
 "Let people inspire you. They will see your trip and suggest places but only "
 "you can add stops to it."
 msgstr ""
-"Anna muiden ihmisten ehdottaa sinulle. He näkevät reissusuunnitelmasi ja "
-"voivat ehdottaa siihen lisättäväksi paikkoja mutta jonka vain sinä voit "
-"tehdä."
+"Anna muiden ihmisten ehdottaa sinulle. He näkevät matkasi ja voivat ehdottaa "
+"siihen lisättäväksi paikkoja mutta jonka vain sinä voit tehdä."
 
 #: ../views/components/share-dlg.jade:15 ../views/components/share-dlg.jade:78
 msgid "They will know where you are planning to go but not when."
@@ -4855,7 +4854,7 @@ msgstr "Hei,"
 #: ../views/components/share-dlg.jade:48 ../views/email/invite.html.jade:9
 #: ../views/email/invite.txt.jade:5
 msgid "I'd like to share a plan of a trip {} with you."
-msgstr "Haluaisin jakaa reissusuunnitelmani {} kanssasi."
+msgstr "Haluaisin jakaa reittisuunnitelman {} kanssasi."
 
 #: ../views/components/share-dlg.jade:49 ../views/email/invite.txt.jade:6
 msgid "Please follow this link to view the trip:"
@@ -5494,7 +5493,7 @@ msgstr "Paikka"
 #. L10n: TripIt is a service that Furkot works with synchronizing trip itinerary from TripIt with Furkot trip plan
 #: ../views/components/step-detail.jade:383
 msgid "Match TripIt itinerary item"
-msgstr "Yhdistä osa TripIt-reittisuunnitelmasta"
+msgstr "Yhdistä osa TripIt-matkasuunnitelmasta"
 
 #. L10n: 'confirmation' as in 'confirmation of a hotel reservation'
 #: ../views/components/step-detail.jade:393
@@ -5512,7 +5511,7 @@ msgstr "Klikkaa muuttaaksesi osoitetta"
 
 #: ../views/components/step-detail.jade:405
 msgid "Navigate to stop address"
-msgstr "Navigoi loppuosoitteeseen"
+msgstr "Navigoi osoitteeseen"
 
 #. L10n: Label for the field to edit phone number
 #: ../views/components/step-detail.jade:409
@@ -5526,7 +5525,7 @@ msgstr "Klikkaa muokkaaksesi puhelinnumeroa"
 #. L10n: label for the number of nights at a lodging
 #: ../views/components/step-detail.jade:417
 msgid "Nights"
-msgstr "Yötä"
+msgstr "Yöt"
 
 #. L10n: the number of nights at a lodging
 #: ../views/components/step-detail.jade:420
@@ -5622,13 +5621,13 @@ msgstr "Auringonlasku"
 #. L10n: Label for the field that displays the average nighttime temperature on the day of the stop
 #: ../views/components/step-detail.jade:509
 msgid "Night"
-msgstr "Yöllä"
+msgstr "Yölämpötila"
 
 #. L10n: Label for the field that displays the average daytime temperature on the day of the stop
 #: ../views/components/step-detail.jade:513
 msgctxt "daytime temperature"
 msgid "Day"
-msgstr "Päivällä"
+msgstr "Päivälämpötila"
 
 #. L10n: Label for the field that links to the weather forecast for the stop
 #: ../views/components/step-detail.jade:518
@@ -5646,7 +5645,7 @@ msgstr "Koordinaatit"
 
 #: ../views/components/step-detail.jade:526
 msgid "Click to modify geographical coordinates"
-msgstr "Klikkaa muuttaaksesi maantieteelliset koordinaatit"
+msgstr "Klikkaa muuttaaksesi koordinaatteja"
 
 #: ../views/components/step-detail.jade:528
 msgid "Navigate to exact coordinates"
@@ -6168,7 +6167,7 @@ msgstr "Varaa lento"
 #. L10n: Label for the field that displays subsequent number and the total for a multi-night lodging stop. Can be translated to a word that means a single night at a hotel
 #: ../views/components/step-item.jade:25
 msgid "night"
-msgstr "yötä"
+msgstr "yöt"
 
 #. L10n: Word marking a stop as omited in the itinersry
 #: ../views/components/step-item.jade:33
@@ -6517,8 +6516,9 @@ msgid ""
 "Open the [Sleep] drawer to find the best place to spend the night. Choose "
 "from over 1 million hotels, motels, B&Bs, and campgrounds around the world."
 msgstr ""
-"Löytääksesi parhaan majoituspaikan, avaa [Yövy]-sivuvalikko. Valitse ympäri "
-"maailmaa yli miljoonasta hotellista, motellista, B&B:stä ja leirintäalueesta."
+"Löytääksesi parhaan majoituspaikan, avaa [Majoitu]-sivuvalikko. Valitse "
+"ympäri maailmaa yli miljoonasta hotellista, motellista, B&B:stä ja "
+"leirintäalueesta."
 
 #: ../views/components/tour-lodging.jade:11
 msgid "Select types of lodging accommodations that you prefer."
@@ -7303,8 +7303,8 @@ msgstr "Majoittautumista ajatellen, tällä reissulla ei ole yön yli pysähdyks
 msgid ""
 "Booking hotels for the trip works best when you plan your itinerary first."
 msgstr ""
-"Hotellien varaaminen reissua varten toimii parhaiten kun ensin teet "
-"reissusuunnitelman."
+"Hotellien varaaminen matkaa varten toimii parhaiten kun ensin teet "
+"matkasuunnitelman."
 
 #. L10n: square brackets [] denote a button (icon)
 #: ../views/components/trip-detail.jade:748
@@ -7364,7 +7364,7 @@ msgstr "Päivitä reissu"
 msgid ""
 "Furkot would like to synchronize your trip plan with your TripIt itinerary."
 msgstr ""
-"Furkot haluaisi synkronoida reissusuunnitelmasi TripIt-reissusuunnitelman "
+"Furkot haluaisi synkronoida reittisuunnitelmasi TripIt-matkasuunnitelman "
 "kanssa."
 
 #. L10n: Label for the field displaying numner of stops to update when synchronizing Furkot trip plan with TripIt itinerary
@@ -7393,7 +7393,7 @@ msgid ""
 "ensure that the dates and addresses of your stops are the same in TripIt and "
 "Furkot before synchronizing again."
 msgstr ""
-"Jos reissusuunnitelmasi sisältää jo kaikki TripIt-suunnitelmaan varatut "
+"Jos reittisuunnitelmasi sisältää jo kaikki TripIt-matkasuunnitelmaan varatut "
 "majoitukset, peruuta tämä toiminto ja varmista että pysähdystesi päivämäärät "
 "ja osoitteet ovat samat TripItissä sekä Furkotissa ennen kuin synkronoit "
 "niitä uudelleen."
@@ -7415,9 +7415,9 @@ msgid ""
 "before adding them to stops cancel this operation and use the match [] "
 "button."
 msgstr ""
-"Jos haluat mieluummin tarkastella TripIt-suunnitelmasi majoitusvahvistuksia "
-"ennen Furkotiin lisäämistä peruuta tämä toiminto ja käytä [Yhdistä "
-"tiedot]-painiketta."
+"Jos haluat mieluummin tarkastella TripIt-matkasuunnitelmasi "
+"majoitusvahvistuksia ennen Furkotiin lisäämistä peruuta tämä toiminto ja "
+"käytä [Yhdistä tiedot]-painiketta."
 
 #: ../views/components/trip-detail.jade:804
 msgid "Location access denied"
@@ -7530,7 +7530,7 @@ msgstr "Sulje tämä osa"
 
 #: ../views/components/trip-item.jade:19
 msgid "Open this trip itinerary"
-msgstr "Avaa reissusuunnitelma"
+msgstr "Avaa matkasuunnitelma"
 
 #: ../views/components/trip-toolbar.jade:4
 msgid "Share this trip with others"
@@ -7538,7 +7538,7 @@ msgstr "Jaa reissu muiden kanssa"
 
 #: ../views/components/trip-toolbar.jade:6
 msgid "Export trip in a variety of formats"
-msgstr "Reissun vienti eri muodoissa"
+msgstr "Reissun vienti"
 
 #: ../views/components/trip-toolbar.jade:8
 msgid "Synchronize the trip with TripIt"
@@ -7936,7 +7936,7 @@ msgstr "Katso lisää reissuja"
 
 #: ../views/tripshot/tripshot.jade:85
 msgid "Itinerary"
-msgstr "Reissusuunnitelma"
+msgstr "Matkasuunnitelma"
 
 #: ../views/tripshot/tripshot.jade:86
 msgid "Guidebooks"
@@ -7979,7 +7979,7 @@ msgid ""
 msgstr ""
 "Älä ole huolissasi pysähdysten järjestelemisestä. Furkot yrittää suunnitella "
 "matkareittisi mahdollisimman tehokkaasti. Jos et halua tehokasta voit "
-"halutessasi [siirrellä pysähdyksiäsi] tai jopa [kääntää reissusuunnitelmasi "
+"halutessasi [siirrellä pysähdyksiäsi] tai jopa [kääntää matkasuunnitelmasi "
 "suunnan]."
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
@@ -8071,7 +8071,7 @@ msgid ""
 "scenic views &mdash; add as many as you want. Furkot will keep you on track. "
 "You just need to show up."
 msgstr ""
-"Voit suunnitella reissusuunnitelmaasi jopa ruokataukoja tai lisätä "
+"Voit suunnitella matkasuunnitelmaasi jopa ruokataukoja tai lisätä "
 "huoltoasemia. Puhumattakaan pyöräteistä, museoista, monumenteista, "
 "[kiipeilyreiteistä], kansallispuistoista ja maisemista. Lisää niitä niin "
 "paljon kuin haluat ja Furkot pitää sinut tien aina päällä. Sinun tarvitsee "
@@ -8079,7 +8079,7 @@ msgstr ""
 
 #: ../views/welcome/blurbs.jade:70
 msgid "Attractions search"
-msgstr "Hae kiinnostavia kohteita"
+msgstr "Etsi kiinnostavia kohteita"
 
 #: ../views/welcome/blurbs.jade:74
 msgid "Campgrounds? Motels? Hotels? Staying with friends?"
@@ -8230,8 +8230,8 @@ msgid ""
 "trip itinerary, view route on the map, find more attractions and lodging "
 "options."
 msgstr ""
-"Kun olet lisännyt paikkoja reissullesi, siirry [Furkotiin] viimeistelläksesi "
-"reissusuunnitelman, katsoaksesi reissua kartalla, löytääksesi lisää "
+"Kun olet lisännyt paikkoja reitillesi siirry [Furkotiin] viimeistelläksesi "
+"matkasuunnitelman, katsoaksesi reittiä kartalla, löytääksesi lisää "
 "kiinnostavia kohteita ja majoitusvaihtoehtoja."
 
 #, fuzzy
