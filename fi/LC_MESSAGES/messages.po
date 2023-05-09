@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2023-04-03 16:59+0200\n"
-"PO-Revision-Date: 2023-05-09 05:27+0000\n"
+"PO-Revision-Date: 2023-05-09 07:49+0000\n"
 "Last-Translator: Tommi Riikonen <von.riikonen@gmail.com>\n"
 "Language-Team: Finnish <https://translate.furkot.com/projects/furkot/trips/"
 "fi/>\n"
@@ -702,7 +702,7 @@ msgstr "Moottoripyörällä"
 #. L10n: travel mode: travel in RV (recreational vehicle) or camper
 #: ../views/components/common-mixins.jade:12
 msgid "Recreational Vehicle"
-msgstr "Matkailuautolla"
+msgstr "Matkailuautolla/vaunulla"
 
 #. L10n: travel mode: ride a bicycle
 #: ../views/components/common-mixins.jade:16
@@ -745,7 +745,7 @@ msgstr ""
 #: ../views/components/new-trip-wizard.jade:106
 #: ../views/components/trip-config-item.jade:77
 msgid "Roads"
-msgstr "Tiet"
+msgstr "Teillä"
 
 #: ../views/components/common-mixins.jade:50
 #: ../views/components/new-trip-wizard.jade:108
@@ -844,19 +844,19 @@ msgstr "Autoretki"
 
 #: ../views/components/dialog.jade:55 ../views/components/trip-detail.jade:12
 msgid "Motorcycle trip"
-msgstr "Moottoripyöräretki"
+msgstr "Moottoripyörällä"
 
 #: ../views/components/dialog.jade:57 ../views/components/trip-detail.jade:15
 msgid "RV trip"
-msgstr "Matkailuautoretki"
+msgstr "Matkailuautolla/vaunulla"
 
 #: ../views/components/dialog.jade:59 ../views/components/trip-detail.jade:18
 msgid "Bicycle trip"
-msgstr "Pyöräretki"
+msgstr "Polkupyörällä"
 
 #: ../views/components/dialog.jade:61 ../views/components/trip-detail.jade:21
 msgid "Walking trip"
-msgstr "Kävelyretki"
+msgstr "Kävellen"
 
 #. L10n: 'track' is a point-by-point representation of trip course; 'track' is more detailed than 'route'
 #: ../views/components/export-dlg.jade:10
@@ -1599,7 +1599,7 @@ msgstr "Klikkaa muuttaaksesi pysähdyksen oletuskestoa"
 #: ../views/components/new-trip-wizard.jade:102
 #: ../views/components/step-switches.jade:255
 msgid "Travel by"
-msgstr "Matkusta"
+msgstr "Matkustustapa"
 
 #: ../views/components/import-dlg.jade:115
 msgid "Let Furkot follow roads unless importing off-road routes/tracks."
@@ -1812,7 +1812,7 @@ msgstr "Jos haluat auttaa [klikkaa tästä]"
 #. L10n: 'Terms' as in Terms of Service (ToS) governing use of a website
 #: ../views/components/map-attrib.jade:7 ../views/footer.jade:18
 msgid "Terms"
-msgstr "Ehdot"
+msgstr "Käyttöehdot"
 
 #. L10n: Displayed after the data is retrieved. Square brackets [] denote a name of the service that provided results
 #: ../views/components/map-attrib.jade:17
@@ -1880,7 +1880,7 @@ msgstr "Maastoajo (offroad) / seuraa teitä"
 #. L10n: 'Alternate days' as in 'Alternate colors to differentiate between subsequent days of the trip'
 #: ../views/components/map.jade:40
 msgid "Alternate days"
-msgstr "Vaihtoehtoiset päivät"
+msgstr "Päivien vaihtumiset"
 
 #. L10n: 'Outbound / inbound leg' as in 'Use different colors to distinguish between Outbound vs inbound leg of the trip'. Outbound leg is going out to the mid point, while the inbound leg means returning to the starting point. Outbound and inbound legs have meaning for loop trips only
 #: ../views/components/map.jade:44
@@ -1894,7 +1894,7 @@ msgstr "Yksilölliset reittivärit"
 
 #: ../views/components/map.jade:53 ../views/footer.jade:46
 msgid "Translate"
-msgstr "Käännä"
+msgstr "Auta kääntämään"
 
 #: ../views/components/map.jade:56
 msgid "Translate map names to user language"
@@ -2212,8 +2212,8 @@ msgstr "Aloitus kotoa"
 #: ../views/components/new-trip-wizard.jade:22
 msgid "Do you plan to end back where you started? Or is it a one-way trip?"
 msgstr ""
-"Suunnitteletko palaavasi takaisin lähtöpisteeseen (kiertomatka) vai onko "
-"matkasi yksisuuntainen?"
+"Suunnitteletko palaavasi takaisin lähtöpisteeseen vai onko matkasi "
+"yksisuuntainen?"
 
 #. L10n: label for a toggle between 'one-way' and 'loop' trip
 #: ../views/components/new-trip-wizard.jade:24
@@ -2236,16 +2236,13 @@ msgid ""
 "For round trips, enter a name of a city, a landmark or an address half way "
 "down the road."
 msgstr ""
-"Anna kiertomatkoilla matkan puolivälistä kaupungin nimi, maamerkki tai "
-"osoite."
+"Anna suunnilleen matkan puolivälistä kaupungin nimi, maamerkki tai osoite."
 
 #: ../views/components/new-trip-wizard.jade:32
 msgid ""
 "For one way trips, enter a name of a city, a landmark or an address where "
 "the trip ends."
-msgstr ""
-"Yksisuuntaisilla matkoilla, anna päätepisteelle kaupungin nimi, maamerkki "
-"tai osoite."
+msgstr "Anna loppupisteestä kaupungin nimi, maamerkki tai osoite."
 
 #. L10n: 'Mid point' meaning the point where a trip loops back. Displayed only for loop trips. Hint for the field that user is expected to type a city, landmark or address
 #: ../views/components/new-trip-wizard.jade:37
@@ -2297,7 +2294,7 @@ msgstr "Matkan nimi"
 #: ../views/components/new-trip-wizard.jade:57
 msgid ""
 "You can configure your trip dates and travel preferences on the [Next] page."
-msgstr "Voit määrittää matkapäiväsi ja -asetukset [Seuraava]-sivulla."
+msgstr "Voit määrittää matkapäiväsi ja -asetukset [Seuraava] painikkeesta."
 
 #: ../views/components/new-trip-wizard.jade:60
 msgid "When do you want to go?"
@@ -2305,7 +2302,7 @@ msgstr "Milloin haluaisit matkustaa?"
 
 #: ../views/components/new-trip-wizard.jade:61
 msgid "If you are not certain, pick approximate dates."
-msgstr "Jos et ole varma matkustuspäivistä, voit arvioida ne."
+msgstr "Jos et ole täysin varma matkustuspäivistä, arvioi ne."
 
 #. L10n: 'Begin date' is the date of the first day of the trip
 #: ../views/components/new-trip-wizard.jade:65
@@ -2327,14 +2324,13 @@ msgstr "Matkan viimeinen päivä"
 
 #: ../views/components/new-trip-wizard.jade:77
 msgid "How long do you want your days to be?"
-msgstr "Kuinka pitkiä haluaisit päiväsi olevan?"
+msgstr "Kuinka pitkiä haluaisit matkapäiväsi olevan?"
 
 #: ../views/components/new-trip-wizard.jade:78
 msgid ""
 "Choose when you'll leave each morning and the time you want to finish your "
 "day by."
-msgstr ""
-"Valitse ajankohdat jolloin haluaisit aloittaa ja lopettaa matkustuspäiväsi."
+msgstr "Valitse milloin haluaisit aloittaa ja lopettaa matkustuspäiväsi."
 
 #. L10n: 'Start at' as in 'Start your day at the following time'. Hint at the field for setting the earliest time to start traveling every day
 #: ../views/components/new-trip-wizard.jade:81
@@ -2344,7 +2340,7 @@ msgstr "Aloitusaika"
 
 #: ../views/components/new-trip-wizard.jade:82
 msgid "The earliest time at which you'll start driving everyday"
-msgstr "Aikaisin ajankohta, jolloin aloitat päivittäisen ajamisen"
+msgstr "Aika jolloin aloitat päivittäisen ajamisen"
 
 #. L10n: 'Finish by' as in 'Finish your day by the following time'. Hint at the field for setting the latest time to finish traveling every day
 #: ../views/components/new-trip-wizard.jade:90
@@ -2354,7 +2350,7 @@ msgstr "Lopetusaika"
 
 #: ../views/components/new-trip-wizard.jade:91
 msgid "The latest time by which you'll end driving everyday"
-msgstr "Myöhäisin ajankohta, jolloin lopetat päivittäisen ajamisen"
+msgstr "Aika jolloin lopetat päivittäisen ajamisen"
 
 #: ../views/components/new-trip-wizard.jade:98
 msgid ""
@@ -2369,7 +2365,7 @@ msgstr ""
 #. L10n: Displayed in the second step of creating a new trip (after selecting RV as a travel mode)
 #: ../views/components/new-trip-wizard.jade:117
 msgid "You can configure dimensions and weight of your RV later."
-msgstr "Voit määrittää asuntoautosi mitat ja painon myöhemmin."
+msgstr "Voit määrittää matkailuauton/vaunun mitat ja painon myöhemmin."
 
 #: ../views/components/new-trip-wizard.jade:120
 msgid ""
@@ -2377,8 +2373,8 @@ msgid ""
 "travel with pets Furkot can help you book overnight accommodations. Staying "
 "with friends or family? No problem, just turn all the lodging options off."
 msgstr ""
-"Yövyit sitten hotellissa, teltassa tai matkustat lemmikkisi kanssa, Furkot "
-"auttaa sinua varaamaan majoitukset. Vai majoitutko ystäviesi tai perheesi "
+"Yövyt sitten hotellissa, teltassa tai matkustat lemmikkisi kanssa, Furkot "
+"auttaa sinua varaamaan majoituksen. Vai majoitutko ystäviesi tai perheesi "
 "luona? Ei hätää, klikkaa silloin vain kaikki majoitusvaihtoehdot pois."
 
 #. L10n: Label for selecting lodging options (hotels, motels, campgrounds, private apartments, etc)
@@ -2435,13 +2431,13 @@ msgstr "Leirintäalueet"
 #. L10n: Label for the option to prefer lodging accommodations that accept pets
 #: ../views/components/new-trip-wizard.jade:140
 msgid "With Pets"
-msgstr "Lemmikki mukana"
+msgstr "Lemmikki matkassa"
 
 #. L10n: Hint for the option to select when the user is looking for lodging accommodations that allow pets
 #: ../views/components/new-trip-wizard.jade:143
 #: ../views/components/trip-detail.jade:289
 msgid "Pets welcome"
-msgstr "Lemmikit tervetulleita"
+msgstr "Lemmikki mukana"
 
 #: ../views/components/place-detail.jade:8
 msgid "Searching…"
@@ -3002,7 +2998,7 @@ msgstr "Suljettu liikenteeltä"
 #: ../views/components/place-detail.jade:166
 #: ../views/components/place-detail.jade:356
 msgid "RV sites"
-msgstr "Paikkoja matkailuautoille"
+msgstr "Paikkoja matkailuautoille/vaunuille"
 
 #. L10n: Places that offer sailing as an activity. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:167
@@ -3163,7 +3159,7 @@ msgstr "Arvostelut"
 
 #: ../views/components/place-detail.jade:421 ../views/footer.jade:21
 msgid "Credits"
-msgstr "Tekijät"
+msgstr "Tekijät ja kumppanit"
 
 #. L10n: Caption to a message asking for confirmation to add a stop to a trip
 #: ../views/components/place-detail.jade:445
@@ -5042,7 +5038,7 @@ msgstr "Hotelli- tai motelliketju"
 #. L10n: stop type (icon)
 #: ../views/components/step-detail.jade:23
 msgid "RV park"
-msgstr "Matkailuautoparkki"
+msgstr "Matkailuauto/vaunuparkki"
 
 #. L10n: stop type (icon)
 #: ../views/components/step-detail.jade:27
@@ -6059,7 +6055,7 @@ msgstr "Matka alkaa myöhemmin {} klo {}."
 
 #: ../views/components/step-detail.jade:930
 msgid "The trip ends earlier on {} at {}."
-msgstr "Matka päättyy aikaisemmin {} klo {}."
+msgstr "Muuta Matka-valikossa annettua lopetusaikaa {} klo {} myöhäisemmäksi."
 
 #: ../views/components/step-detail.jade:931
 msgid "The trip ends later on {} at {}."
@@ -6385,7 +6381,7 @@ msgstr "Sinun pitää perua majoitusvaraus ennen sen poistamista."
 #: ../views/components/step-switches.jade:225
 #: ../views/components/step-switches.jade:236
 msgid "Automatically scheduled overnight stop"
-msgstr "Automaattisesti asetettu yöpyminen"
+msgstr "Automaattisesti lisätty yöpyminen"
 
 #: ../views/components/step-switches.jade:190
 #: ../views/components/step-switches.jade:203
@@ -6396,8 +6392,8 @@ msgid ""
 "This is an automatically scheduled overnight stop. It will disappear when "
 "you add your own lodging stop before it."
 msgstr ""
-"Tämä on automaattisesti asetettu yöpyminen. Se poistuu, kun lisäät oman "
-"yöpymisen ennen tätä yöpymistä."
+"Tämä on automaattisesti lisätty yöpyminen. Se poistuu, kun lisäät oman "
+"yöpymisen ennen tätä."
 
 #: ../views/components/step-switches.jade:192
 msgid ""
@@ -6465,11 +6461,11 @@ msgstr ""
 
 #: ../views/components/step-switches.jade:247
 msgid "Automatically scheduled airport"
-msgstr "Automaattisesti asetettu lentoasema"
+msgstr "Automaattisesti lisätty lentoasema"
 
 #: ../views/components/step-switches.jade:249
 msgid "This is an automatically scheduled airport."
-msgstr "Tämä on automaattisesti asetettu lentoasema."
+msgstr "Tämä on automaattisesti lisätty lentoasema."
 
 #: ../views/components/step-switches.jade:250
 msgid "It will disappear when you add an airport before or after it."
@@ -7058,7 +7054,7 @@ msgstr "Hotellien sokkotarjoukset"
 #. L10n: Hint for the option that makes Furkot prefer RV parks (caravan campsites) in lodging suggestions
 #: ../views/components/trip-detail.jade:298
 msgid "RV parks"
-msgstr "Matkailuautoparkit"
+msgstr "Matkailuauto/vaunuparkit"
 
 #. L10n: label for the list of loyalty and rewards programs that can be selected as preferred when searching for lodging accommodations
 #: ../views/components/trip-detail.jade:302
@@ -7141,7 +7137,7 @@ msgstr "Maksullinen tie"
 
 #: ../views/components/trip-detail.jade:427
 msgid "Click to modify RV height"
-msgstr "Klikkaa muuttaaksesi matkailuauton korkeutta"
+msgstr "Klikkaa muuttaaksesi matkailuauton/vaunun korkeutta"
 
 #. L10n: Label for the field to edit RV (motorhome) width
 #: ../views/components/trip-detail.jade:436
@@ -7150,15 +7146,15 @@ msgstr "Leveys"
 
 #: ../views/components/trip-detail.jade:438
 msgid "Click to modify RV width"
-msgstr "Klikkaa muuttaaksesi matkailuauton leveyttä"
+msgstr "Klikkaa muuttaaksesi matkailuauton/vaunun leveyttä"
 
 #: ../views/components/trip-detail.jade:449
 msgid "Click to modify RV length"
-msgstr "Klikkaa muuttaaksesi matkailuauton pituutta"
+msgstr "Klikkaa muuttaaksesi matkailuauton/vaunun pituutta"
 
 #: ../views/components/trip-detail.jade:466
 msgid "Click to modify RV weight"
-msgstr "Klikkaa muuttaaksesi matkailuauton painoa"
+msgstr "Klikkaa muuttaaksesi matkailuauton/vaunun painoa"
 
 #. L10n: Label for the field to edit RV (motorhome) axle load
 #: ../views/components/trip-detail.jade:477
@@ -7167,7 +7163,7 @@ msgstr "Akselipaino"
 
 #: ../views/components/trip-detail.jade:479
 msgid "Click to modify RV axle load"
-msgstr "Klikkaa muuttaaksesi matkailuauton akselipainoa"
+msgstr "Klikkaa muuttaaksesi matkailuauton/vaunun akselipainoa"
 
 #. L10n: 'vehicle range between refills' means distance that user's vehicle can go on a full tank
 #: ../views/components/trip-detail.jade:545
@@ -7685,11 +7681,11 @@ msgstr "Vastuuvapauslauseke"
 
 #: ../views/footer.jade:36
 msgid "Blog"
-msgstr "Blogi"
+msgstr "Blogit"
 
 #: ../views/footer.jade:39
 msgid "Affiliates"
-msgstr "Liitokset"
+msgstr "Ansaitse"
 
 #: ../views/footer.jade:49 ../views/footer.jade:53
 #: ../views/welcome/index.jade:27 ../views/welcome/index.jade:31
@@ -7733,7 +7729,7 @@ msgid ""
 msgstr ""
 "Suunnittele pysähdyksiä, löydä kiinnostavia kohteita, varaa hotelleja, jaa "
 "matkasuunnitelmia, kartoita reittejä. Suunnittele moottoripyöräretkesi, "
-"matkailuautomatkasi, autoreissusi, pyöräilyreittisi, vaelluksesi, "
+"matkailuauto/vaunumatkasi, autoreissusi, pyöräilyreittisi, vaelluksesi, "
 "perhelomasi tai viikonloppureissusi. Yksi planeetta, kuusi maanosaa ja "
 "jokainen tie käytettävissä"
 
@@ -8149,7 +8145,7 @@ msgstr ""
 #. L10n: Hint for the RSS feed of Furkot help articles. Displayed at the bottom of Furkot front page (below the fold) (when user is not signed in)
 #: ../views/welcome/index.jade:34
 msgid "Subscribe to Furkot"
-msgstr "Furkot-artikkelit (RSS)"
+msgstr "Furkot RSS"
 
 #: ../views/welcome/login-page.jade:6
 msgid "Sign in to Road Trip Planner"
