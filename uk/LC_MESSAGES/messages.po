@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-01-14 12:45+0100\n"
+"POT-Creation-Date: 2024-01-19 09:42+0100\n"
 "PO-Revision-Date: 2023-03-02 16:15+0000\n"
 "Last-Translator: Max Povalinsky <m.povalinsky@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.furkot.com/projects/furkot/trips/"
@@ -51,8 +51,8 @@ msgstr "Запропонувати"
 
 #: ../views/board/board.jade:36 ../views/components/accounts.jade:90
 #: ../views/components/add-stops.jade:2 ../views/components/add-stops.jade:13
-#: ../views/components/dialog.jade:7 ../views/components/export-dlg.jade:206
-#: ../views/components/export-dlg.jade:214
+#: ../views/components/dialog.jade:7 ../views/components/export-dlg.jade:215
+#: ../views/components/export-dlg.jade:223
 #: ../views/components/import-dlg.jade:170
 #: ../views/components/navigation.jade:2
 #: ../views/components/navigation.jade:117 ../views/components/network.jade:2
@@ -299,7 +299,7 @@ msgstr "Гаразд"
 #: ../views/components/book-wizard.jade:60
 #: ../views/components/browse-happy.jade:10
 #: ../views/components/common-mixins.jade:42
-#: ../views/components/export-dlg.jade:190
+#: ../views/components/export-dlg.jade:199
 #: ../views/components/furkot-pass.jade:47
 #: ../views/components/import-dlg.jade:178 ../views/components/map.jade:123
 #: ../views/components/navigation.jade:114 ../views/components/network.jade:19
@@ -508,7 +508,7 @@ msgid "Furkot will take you to the next lodging to book."
 msgstr "Фуркот приведе вас до наступного поселення, щоб забронювати."
 
 #: ../views/components/book-wizard.jade:66
-#: ../views/components/export-dlg.jade:194
+#: ../views/components/export-dlg.jade:203
 #: ../views/components/import-dlg.jade:172
 #: ../views/components/new-trip-wizard.jade:149
 #: ../views/components/tour.jade:42
@@ -996,42 +996,42 @@ msgstr "Пішохідна поїздка"
 
 #. L10n: 'track' is a point-by-point representation of trip course; 'track' is more detailed than 'route'
 #: ../views/components/export-dlg.jade:10
-#: ../views/components/export-dlg.jade:146
+#: ../views/components/export-dlg.jade:155
 #, fuzzy
 msgid "one track per day"
 msgstr "один трек на день"
 
 #. L10n: 'route' is a series of points that help navigate along trip course; 'route' is less detailed than 'track'
 #: ../views/components/export-dlg.jade:15
-#: ../views/components/export-dlg.jade:154
+#: ../views/components/export-dlg.jade:163
 #, fuzzy
 msgid "one route per day"
 msgstr "один маршрут на день"
 
 #. L10n: 'points per route (minimum)' means minimum number of points per route in exported file
 #: ../views/components/export-dlg.jade:20
-#: ../views/components/export-dlg.jade:160
+#: ../views/components/export-dlg.jade:169
 #, fuzzy
 msgid "points per route (minimum)"
 msgstr "балів за маршрут (мінімум)"
 
 #. L10n: 'high-resolution tracks' is an export option that includes in the exported file all track points faithfully reflecting the trip course shape
 #: ../views/components/export-dlg.jade:26
-#: ../views/components/export-dlg.jade:168
+#: ../views/components/export-dlg.jade:177
 msgid "high-resolution tracks"
 msgstr ""
 
 #. L10n: Explanation for the 'skipped routes' export option (includes in the exported file route segments that have been skipped and are no longer part of the trip)
 #: ../views/components/export-dlg.jade:31
-#: ../views/components/export-dlg.jade:178
+#: ../views/components/export-dlg.jade:187
 #, fuzzy
 msgid "include skipped routes"
 msgstr "включати пропущені маршрути"
 
 #. L10n: Caption of a dialog that sets up export parameters. 'Export trip' as in 'Export trip into a file'. Can be also translated as 'Download trip'
 #: ../views/components/export-dlg.jade:38
-#: ../views/components/export-dlg.jade:200
-#: ../views/components/export-dlg.jade:214
+#: ../views/components/export-dlg.jade:209
+#: ../views/components/export-dlg.jade:223
 #, fuzzy
 msgid "Export trip"
 msgstr "Експортна поїздка"
@@ -1044,158 +1044,165 @@ msgstr "Будь ласка, зачекайте, поки Furkot перерах�
 
 #. L10n: 'Export' as in 'Export into a file'. Can be also translated as 'Download'
 #: ../views/components/export-dlg.jade:44
-#: ../views/components/export-dlg.jade:136
+#: ../views/components/export-dlg.jade:145
 #, fuzzy
 msgid "Export stops and routing information:"
 msgstr "Експортувати інформацію про зупинки та маршрутизацію:"
 
 #. L10n: Standard GPX format (without proprietary extensions)
 #: ../views/components/export-dlg.jade:46
-#: ../views/components/export-dlg.jade:68
+#: ../views/components/export-dlg.jade:69
 #, fuzzy
 msgid "GPS exchange file (.gpx)"
 msgstr "Файл обміну GPS (.gpx)"
 
 #. L10n: GPX format with Garmin-specific route extensions
 #: ../views/components/export-dlg.jade:47
-#: ../views/components/export-dlg.jade:76
+#: ../views/components/export-dlg.jade:77
 #, fuzzy
 msgid "Garmin route GPX (.gpx)"
 msgstr "Маршрут Garmin GPX (.gpx)"
 
 #. L10n: GPX format with Guru Maps (formerly Galileo)-specific extensions
 #: ../views/components/export-dlg.jade:48
-#: ../views/components/export-dlg.jade:84
+#: ../views/components/export-dlg.jade:85
 #, fuzzy
 msgid "Guru Maps GPX (.gpx)"
 msgstr "Guru Maps GPX (.gpx)"
 
 #. L10n: GPX format with OsmAnd Offline Maps and Navigation-specific extensions
 #: ../views/components/export-dlg.jade:49
-#: ../views/components/export-dlg.jade:92
+#: ../views/components/export-dlg.jade:93
 msgid "OsmAnd Maps GPX (.gpx)"
 msgstr ""
 
 #: ../views/components/export-dlg.jade:50
-#: ../views/components/export-dlg.jade:99
+#: ../views/components/export-dlg.jade:100
 #, fuzzy
 msgid "KML file (.kml)"
 msgstr "Файл KML (.kml)"
 
 #. L10n: 'TomTom overlay file' is a proprietary format supported by TomTom GPS devices. 'TomTom' is a proper name to be left untranslated
 #: ../views/components/export-dlg.jade:51
-#: ../views/components/export-dlg.jade:108
+#: ../views/components/export-dlg.jade:109
 #, fuzzy
 msgid "TomTom overlay file (.ov2)"
 msgstr "Файл накладання TomTom (.ov2)"
 
 #. L10n: 'CoPilot trip' is a proprietary format supported by CoPilot navigation apps. 'CoPilot' is a proper name to be left untranslated
 #: ../views/components/export-dlg.jade:52
-#: ../views/components/export-dlg.jade:116
+#: ../views/components/export-dlg.jade:117
 #, fuzzy
 msgid "CoPilot trip (.trp)"
 msgstr "Поїздка CoPilot (.trp)"
 
 #: ../views/components/export-dlg.jade:53
-#: ../views/components/export-dlg.jade:123
+#: ../views/components/export-dlg.jade:124
 #, fuzzy
 msgid "iCalendar (.ics)"
 msgstr "iCalendar (.ics)"
 
 #. L10n: 'driving log' as an ordered sequence of trip stops
 #: ../views/components/export-dlg.jade:54
-#: ../views/components/export-dlg.jade:131
+#: ../views/components/export-dlg.jade:132
 #, fuzzy
 msgid "driving log (.csv)"
 msgstr "журнал керування (.csv)"
 
-#: ../views/components/export-dlg.jade:60
+#. L10n: 'expense report' itemizes costs for the trip
+#: ../views/components/export-dlg.jade:55
+#: ../views/components/export-dlg.jade:140
+msgid "expense report (.csv)"
+msgstr ""
+
+#: ../views/components/export-dlg.jade:61
 #, fuzzy
 msgid "Select a file format to export:"
 msgstr "Виберіть формат файлу для експортування:"
 
 #. L10n: 'use with many types of GPS devices' as in 'you can use files in this format with many types of GPS devices'
-#: ../views/components/export-dlg.jade:70
+#: ../views/components/export-dlg.jade:71
 #, fuzzy
 msgid "use with many types of GPS devices"
 msgstr "використовувати з багатьма типами пристроїв GPS"
 
 #. L10n: 'use with newer Garmin devices' as in 'you can use files in this format with newer Garmin devices [only]'
-#: ../views/components/export-dlg.jade:78
+#: ../views/components/export-dlg.jade:79
 #, fuzzy
 msgid "use with newer Garmin devices"
 msgstr "використовувати з новими пристроями Garmin"
 
 #. L10n: 'use with Guru Maps (formerly Galileo) navigation app' as in 'you can use files in this format with Guru Maps navigation app'
-#: ../views/components/export-dlg.jade:86
+#: ../views/components/export-dlg.jade:87
 #, fuzzy
 msgid "use with Guru Maps (formerly Galileo) app"
 msgstr "використовувати з Guru Maps (раніше Galileo) додаток"
 
 #. L10n: 'use with OsmAnd Offline Maps and Navigation' as in 'you can use files in this format with OsmAnd Offline Maps and Navigation'
-#: ../views/components/export-dlg.jade:94
+#: ../views/components/export-dlg.jade:95
 msgid "use with OsmAnd Offline Maps and Navigation"
 msgstr ""
 
 #. L10n: 'upload into Google Earth and Google Maps' as in 'you can upload files in this format into Google Earth and Google Maps'
-#: ../views/components/export-dlg.jade:101
+#: ../views/components/export-dlg.jade:102
 #, fuzzy
 msgid "upload into Google Earth and Google Maps"
 msgstr "завантажити в Google Планета Земля та Карти Google"
 
 #. L10n: 'use with TomTom GPS devices' as in 'you can use files in this format with TomTom GPS devices'
-#: ../views/components/export-dlg.jade:110
+#: ../views/components/export-dlg.jade:111
 #, fuzzy
 msgid "use with TomTom GPS devices"
 msgstr "використовувати з пристроями TomTom GPS"
 
 #. L10n: 'use with CoPilot navigation apps' as in 'you can use files in this format with CoPilot navigation apps'
-#: ../views/components/export-dlg.jade:118
+#: ../views/components/export-dlg.jade:119
 #, fuzzy
 msgid "use with CoPilot navigation apps"
 msgstr "використовувати з навігаційними додатками CoPilot"
 
 #. L10n: 'import into a calendar' as in 'you can import files in this format into a calendar applications'
-#: ../views/components/export-dlg.jade:125
+#: ../views/components/export-dlg.jade:126
 #, fuzzy
 msgid "import into a calendar"
 msgstr "імпортувати до календаря"
 
 #. L10n: 'open as a spreadsheet' as in 'you can open files in this format in spreadsheet applications'
-#: ../views/components/export-dlg.jade:133
+#: ../views/components/export-dlg.jade:134
+#: ../views/components/export-dlg.jade:142
 #, fuzzy
 msgid "open as a spreadsheet"
 msgstr "відкрито як таблицю"
 
 #. L10n: 'track' is a point-by-point representation of trip course; 'track' is more detailed than 'route'
-#: ../views/components/export-dlg.jade:144
+#: ../views/components/export-dlg.jade:153
 #, fuzzy
 msgid "tracks"
 msgstr "треків"
 
 #. L10n: 'route' is a series of points that help navigate along trip course; 'route' is less detailed than 'track'
-#: ../views/components/export-dlg.jade:152
+#: ../views/components/export-dlg.jade:161
 #, fuzzy
 msgid "routes"
 msgstr "маршрутів"
 
 #. L10n: Explanation for the 'high-resolution tracks' option. Means that Furkot will put all points it has in the exported daily tracks.
-#: ../views/components/export-dlg.jade:170
+#: ../views/components/export-dlg.jade:179
 msgid "include all available track points"
 msgstr ""
 
 #. L10n: 'skipped routes' is an export option that includes in the exported file route segments that have been skipped and are no longer part of the trip
-#: ../views/components/export-dlg.jade:176
+#: ../views/components/export-dlg.jade:185
 #, fuzzy
 msgid "skipped routes"
 msgstr "пропущені маршрути"
 
-#: ../views/components/export-dlg.jade:182
+#: ../views/components/export-dlg.jade:191
 #, fuzzy
 msgid "Track is a point-by-point representation of your trip course."
 msgstr "Трек - це точкове подання вашого курсу поїздки."
 
-#: ../views/components/export-dlg.jade:183
+#: ../views/components/export-dlg.jade:192
 #, fuzzy
 msgid ""
 "Route is a series of points that help your GPS device or navigation app "
@@ -1204,7 +1211,7 @@ msgstr ""
 "Маршрут - це ряд точок, які допомагають вашому пристрою GPS або навігаційній "
 "програмі переміщатися по ходу поїздки."
 
-#: ../views/components/export-dlg.jade:184
+#: ../views/components/export-dlg.jade:193
 #, fuzzy
 msgid ""
 "Make sure the number of points per route is within limits of your GPS device "
@@ -1214,13 +1221,13 @@ msgstr ""
 "пристрою GPS або навігаційної програми."
 
 #. L10n: square brackets [] denote a button
-#: ../views/components/export-dlg.jade:187
+#: ../views/components/export-dlg.jade:196
 #, fuzzy
 msgid "You can change file format and content on the [Next] pages."
 msgstr ""
 "Ви можете налаштувати дати поїздки та параметри подорожі на сторінці [Next]."
 
-#: ../views/components/export-dlg.jade:193
+#: ../views/components/export-dlg.jade:202
 #: ../views/components/import-dlg.jade:171
 #: ../views/components/new-trip-wizard.jade:148
 #, fuzzy
@@ -1228,31 +1235,31 @@ msgid "Previous"
 msgstr "Попередній"
 
 #. L10n: 'Export' as in 'Export into a file'. Can be also translated as 'Download'
-#: ../views/components/export-dlg.jade:196
+#: ../views/components/export-dlg.jade:205
 #: ../views/components/step-detail.jade:556
 #, fuzzy
 msgid "Export"
 msgstr "Експорт"
 
 #. L10n: Displayed to label a subsequent day of the trip followed by the number
-#: ../views/components/export-dlg.jade:202 ../views/components/print.jade:16
+#: ../views/components/export-dlg.jade:211 ../views/components/print.jade:16
 #: ../views/components/step-detail.jade:570 ../views/tripshot/tripshot.jade:33
 #, fuzzy
 msgid "Day"
 msgstr "День"
 
-#: ../views/components/export-dlg.jade:206
+#: ../views/components/export-dlg.jade:215
 msgid "Furkot Terms and Conditions of Use"
 msgstr ""
 
 #. L10n: "I Agree" is a button that user has to click to confirm that they agree to Furkot Terms of Service
-#: ../views/components/export-dlg.jade:206
-#: ../views/components/export-dlg.jade:209
+#: ../views/components/export-dlg.jade:215
+#: ../views/components/export-dlg.jade:218
 msgid "I Agree"
 msgstr ""
 
 #. L10n: Furkot Terms are in English for now. To emphasize that the document should be referred by its original English name followed by translation marked off by round brackets (). Square brackets [] denote a link
-#: ../views/components/export-dlg.jade:211
+#: ../views/components/export-dlg.jade:220
 msgid ""
 "To continue you must consent to [Furkot Terms and Conditions of Use] and "
 "agree to accept any responsibility or liability for your use of the "
@@ -1260,25 +1267,25 @@ msgid ""
 msgstr ""
 
 #. L10n: Label for the button that copies to clipboard a link to the exported trip
-#: ../views/components/export-dlg.jade:214
-#: ../views/components/export-dlg.jade:217
+#: ../views/components/export-dlg.jade:223
+#: ../views/components/export-dlg.jade:226
 msgid "Copy"
 msgstr ""
 
 #. L10n: message displayed when exporting trip requires launching Safari (default browser on Mac and iOS)
-#: ../views/components/export-dlg.jade:219
+#: ../views/components/export-dlg.jade:228
 msgid ""
 "To complete exporting your trip, copy the link below and open it in Safari."
 msgstr ""
 
 #. L10n: title for each daily route or track in the exported file. the first curly brackets {} stand for day number, the second -  for day date
-#: ../views/components/export-dlg.jade:224 ../views/export/template.jade:2
+#: ../views/components/export-dlg.jade:233 ../views/export/template.jade:2
 #, fuzzy
 msgid "Day {} - {}"
 msgstr "День {} - {}"
 
 #. L10n: Warning displayed for automatically scheduled stops that are not associated with real places but are just placeholders
-#: ../views/components/export-dlg.jade:225
+#: ../views/components/export-dlg.jade:234
 #: ../views/components/navigation.jade:118
 #: ../views/components/step-detail.jade:614
 #: ../views/components/step-detail.jade:649 ../views/export/warning.jade:1
@@ -9872,294 +9879,40 @@ msgstr ""
 "пам'ятки та варіанти проживання."
 
 #, fuzzy
-#~ msgid "Museum"
-#~ msgstr "Музей"
-
-#, fuzzy
-#~ msgid "Historical site or landmark"
-#~ msgstr "Історичні місця або орієнтир"
-
-#, fuzzy
-#~ msgid "Theater"
-#~ msgstr "Театр"
-
-#, fuzzy
-#~ msgid "Zoo, aquarium or wildlife viewing"
-#~ msgstr "Зоопарк, акваріум або дика природа"
-
-#, fuzzy
-#~ msgid "Park"
-#~ msgstr "Парк"
-
-#, fuzzy
-#~ msgid "Bicycle path"
-#~ msgstr "Велосипедний шлях"
-
-#, fuzzy
-#~ msgid "Motorcycle route"
-#~ msgstr "Маршрут мотоциклів"
-
-#, fuzzy
-#~ msgid "ATV trail"
-#~ msgstr "Стежка ATV"
-
-#, fuzzy
-#~ msgid "Offroad route"
-#~ msgstr "Позашляховий маршрут"
-
-#, fuzzy
-#~ msgid "Driving route"
-#~ msgstr "Водійський маршрут"
-
-#, fuzzy
-#~ msgid "Overlook"
-#~ msgstr "Огляньте"
-
-#, fuzzy
-#~ msgid "Picnic"
-#~ msgstr "Пікнік"
-
-#, fuzzy
-#~ msgid "Climbing route"
-#~ msgstr "Альпіністський маршрут"
-
-#, fuzzy
-#~ msgid "Skiing"
-#~ msgstr "Катання на лижах"
-
-#, fuzzy
-#~ msgid "Snowshoeing"
-#~ msgstr "Прогулянки на лижах"
-
-#, fuzzy
-#~ msgid "Dive site"
-#~ msgstr "Сайт занурення"
-
-#~ msgid "Surf spot"
-#~ msgstr "Місце для сьорфу"
-
-#, fuzzy
-#~ msgid "Beach"
-#~ msgstr "Пляжний"
-
-#, fuzzy
-#~ msgid "Restaurant"
-#~ msgstr "Ресторан"
-
-#, fuzzy
-#~ msgid "Coffee shop"
-#~ msgstr "Кав'ярня"
-
-#, fuzzy
-#~ msgid "Gas station"
-#~ msgstr "Заправка"
-
-#, fuzzy
-#~ msgid "Charging station"
-#~ msgstr "Зарядна станція"
-
-#, fuzzy
-#~ msgid "Deal or discount"
-#~ msgstr "Угода або знижка"
-
-#, fuzzy
-#~ msgid "Follow Furkot"
-#~ msgstr "Слідкуйте за Furkot"
-
-#, fuzzy
-#~ msgid "Like Furkot"
-#~ msgstr "Як і Фуркот"
-
-#, fuzzy
-#~ msgid "No end date."
-#~ msgstr "Немає кінцевої дати."
-
-#, fuzzy
-#~ msgid "This feature is available to Furkot Pass holders."
-#~ msgstr "Ця функція доступна власникам Furkot Pass."
-
-#, fuzzy
-#~ msgid "Show Phone"
-#~ msgstr "Покажи мені"
-
-#, fuzzy
-#~ msgid "We couldn't find an account associated with your email."
-#~ msgstr ""
-#~ "Не вдалося знайти обліковий запис, пов’язаний з вашою електронною поштою."
-
-#, fuzzy
-#~ msgid ""
-#~ "If you used your social media account (Facebook, Google, Twitter, "
-#~ "Foursquare or TripIt), you don't need a separate Furkot password to "
-#~ "access your planned trips."
-#~ msgstr ""
-#~ "Якщо ви використовували свій обліковий запис соціальних медіа (Facebook, "
-#~ "Google, Twitter, Foursquare або TripIt), для доступу до запланованих "
-#~ "поїздок не потрібен окремий пароль Furkot."
-
-#, fuzzy
-#~ msgid "Try using your social media account again to sign in:"
-#~ msgstr ""
-#~ "Спробуйте ввійти в свій обліковий запис соціальних медіа, щоб увійти:"
-
-#, fuzzy
-#~ msgid ""
-#~ "If you tried out Furkot as a guest (without signing up for an account), "
-#~ "you cannot reset a password."
-#~ msgstr ""
-#~ "Якщо ви випробували Furkot як гостя (без реєстрації для облікового "
-#~ "запису), ви не можете скинути пароль."
-
-#, fuzzy
-#~ msgid ""
-#~ "You will have to use the same computer and browser to access your planned "
-#~ "trips."
-#~ msgstr ""
-#~ "Ви повинні використовувати той самий комп'ютер і браузер, щоб отримати "
-#~ "доступ до запланованих поїздок."
-
-#, fuzzy
-#~ msgid ""
-#~ "In case you provided a different email address when signing up, please "
-#~ "input it on this page:"
-#~ msgstr ""
-#~ "Якщо під час реєстрації ви вказали іншу адресу електронної пошти, введіть "
-#~ "її на цій сторінці:"
-
-#, fuzzy
-#~ msgid ""
-#~ "Feel free to sign up for a new account with Furkot and start planning a "
-#~ "new trip right away:"
-#~ msgstr ""
-#~ "Не соромтеся зареєструватися в новому обліковому записі Furkot і "
-#~ "розпочати планування нової поїздки одразу:"
-
-#, fuzzy
-#~ msgid "You can always move trips between accounts later on."
-#~ msgstr ""
-#~ "Ви можете завжди переміщати поїздки між обліковими записами пізніше."
-
-#, fuzzy
-#~ msgid "See this farmers market own website"
-#~ msgstr "Дивіться цей власний сайт фермерів"
-
-#, fuzzy
-#~ msgid "Stop at this farmers market"
-#~ msgstr "Зупиніться на цьому фермерському ринку"
-
-#, fuzzy
-#~ msgid "Add this farmers market as a skipped stop"
-#~ msgstr "Додайте цей ринок фермерів як пропущений призупинення"
-
-#, fuzzy
-#~ msgid "Fold this farmers market details"
-#~ msgstr "Складіть ці деталі фермерського ринку"
-
-#, fuzzy
-#~ msgid "Hide farmers markets"
-#~ msgstr "Приховати ринки фермерів"
-
-#, fuzzy
-#~ msgid "Farmers markets"
-#~ msgstr "Ринки фермерів"
-
-#, fuzzy
-#~ msgid "See this restaurant page"
-#~ msgstr "Перегляньте цю сторінку ресторану Yelp"
-
-#, fuzzy
-#~ msgid "See this restaurant own website"
-#~ msgstr "Дивіться цей власний сайт ресторану"
-
-#, fuzzy
-#~ msgid "Stop and eat at this restaurant"
-#~ msgstr "Зупиніться та поїсти в цьому ресторані"
-
-#, fuzzy
-#~ msgid "Add this restaurant as a skipped stop"
-#~ msgstr "Додайте цей ресторан в якості пропущеної зупинки"
-
-#, fuzzy
-#~ msgid "Fold this restaurant details"
-#~ msgstr "Складіть деталі цього ресторану"
-
-#, fuzzy
-#~ msgid "Recommended restaurants"
-#~ msgstr "Сховати ресторани"
-
-#, fuzzy
-#~ msgid "See description of this winery"
+#~ msgid "See description of this curiosity"
 #~ msgstr "Див. Опис цього місця"
 
 #, fuzzy
-#~ msgid "See this winery own website"
-#~ msgstr "Дивіться цей власний веб-сайт"
+#~ msgid "Stop at this curiosity"
+#~ msgstr "Зупиніться на цій цікавості"
 
 #, fuzzy
-#~ msgid "Stop at this winery"
-#~ msgstr "Зупиніться на цьому винному заводі"
+#~ msgid "Add this curiosity as a skipped stop"
+#~ msgstr "Додайте цю цікавість як пропущену зупинку"
 
 #, fuzzy
-#~ msgid "Add this winery as a skipped stop"
-#~ msgstr "Додайте цей винний завод як зупинений пропуск"
+#~ msgid "Fold this curiosity details"
+#~ msgstr "Складіть ці деталі цікавості"
 
 #, fuzzy
-#~ msgid "Fold this winery details"
-#~ msgstr "Складіть цей винний деталі"
+#~ msgid "Hide curiosities"
+#~ msgstr "Приховати гуртожитки"
 
 #, fuzzy
-#~ msgid "Hide wineries"
-#~ msgstr "Пожежні інциденти"
+#~ msgid "See description of this airport"
+#~ msgstr "Див. Опис цього місця"
 
 #, fuzzy
-#~ msgid "Wineries and vineyards"
-#~ msgstr "Пивоварні, виноробні та бари"
+#~ msgid "Stop at this airport"
+#~ msgstr "Зупиніться в цьому аеропорту"
 
 #, fuzzy
-#~ msgid "Regular"
-#~ msgstr "Регулярні"
+#~ msgid "Add this airport as a skipped stop"
+#~ msgstr "Додайте цей аеропорт як зупинений пропуск"
 
 #, fuzzy
-#~ msgid "Toll Roads"
-#~ msgstr "Платні дороги"
-
-#, fuzzy
-#~ msgid "Highways"
-#~ msgstr "Автомобільні дороги"
-
-#, fuzzy
-#~ msgid "Save for future use"
-#~ msgstr "Зберегти для майбутнього використання"
-
-#, fuzzy
-#~ msgid "Save your email address for future use"
-#~ msgstr "Збережіть адресу електронної пошти для подальшого використання"
-
-#, fuzzy
-#~ msgid "Your email address"
-#~ msgstr "Ваша електронна адреса"
-
-#, fuzzy
-#~ msgid "From"
-#~ msgstr "Від"
-
-#, fuzzy
-#~ msgid "Click to edit the invitation"
-#~ msgstr "Натисніть, щоб змінити запрошення"
-
-#, fuzzy
-#~ msgid "Restrict friends to viewing the trip only"
-#~ msgstr "Обмежте друзів лише для перегляду поїздки"
-
-#, fuzzy
-#~ msgid "Email addresses of your friends"
-#~ msgstr "Адреса електронної пошти ваших друзів"
-
-#, fuzzy
-#~ msgid ""
-#~ "Type email addresses of the friends you want to invite in the field below."
-#~ msgstr ""
-#~ "Введіть електронні адреси друзів, яких ви хочете запросити, у поле нижче."
+#~ msgid "Fold this airport details"
+#~ msgstr "Складіть деталі цього аеропорту"
 
 #, fuzzy
 #~ msgid ""
@@ -10172,37 +9925,291 @@ msgstr ""
 #~ "змінювати зупинки так само, як і ви."
 
 #, fuzzy
-#~ msgid "Fold this airport details"
-#~ msgstr "Складіть деталі цього аеропорту"
+#~ msgid ""
+#~ "Type email addresses of the friends you want to invite in the field below."
+#~ msgstr ""
+#~ "Введіть електронні адреси друзів, яких ви хочете запросити, у поле нижче."
 
 #, fuzzy
-#~ msgid "Add this airport as a skipped stop"
-#~ msgstr "Додайте цей аеропорт як зупинений пропуск"
+#~ msgid "Email addresses of your friends"
+#~ msgstr "Адреса електронної пошти ваших друзів"
 
 #, fuzzy
-#~ msgid "Stop at this airport"
-#~ msgstr "Зупиніться в цьому аеропорту"
+#~ msgid "Restrict friends to viewing the trip only"
+#~ msgstr "Обмежте друзів лише для перегляду поїздки"
 
 #, fuzzy
-#~ msgid "See description of this airport"
+#~ msgid "Click to edit the invitation"
+#~ msgstr "Натисніть, щоб змінити запрошення"
+
+#, fuzzy
+#~ msgid "From"
+#~ msgstr "Від"
+
+#, fuzzy
+#~ msgid "Your email address"
+#~ msgstr "Ваша електронна адреса"
+
+#, fuzzy
+#~ msgid "Save your email address for future use"
+#~ msgstr "Збережіть адресу електронної пошти для подальшого використання"
+
+#, fuzzy
+#~ msgid "Save for future use"
+#~ msgstr "Зберегти для майбутнього використання"
+
+#, fuzzy
+#~ msgid "Highways"
+#~ msgstr "Автомобільні дороги"
+
+#, fuzzy
+#~ msgid "Toll Roads"
+#~ msgstr "Платні дороги"
+
+#, fuzzy
+#~ msgid "Regular"
+#~ msgstr "Регулярні"
+
+#, fuzzy
+#~ msgid "Wineries and vineyards"
+#~ msgstr "Пивоварні, виноробні та бари"
+
+#, fuzzy
+#~ msgid "Hide wineries"
+#~ msgstr "Пожежні інциденти"
+
+#, fuzzy
+#~ msgid "Fold this winery details"
+#~ msgstr "Складіть цей винний деталі"
+
+#, fuzzy
+#~ msgid "Add this winery as a skipped stop"
+#~ msgstr "Додайте цей винний завод як зупинений пропуск"
+
+#, fuzzy
+#~ msgid "Stop at this winery"
+#~ msgstr "Зупиніться на цьому винному заводі"
+
+#, fuzzy
+#~ msgid "See this winery own website"
+#~ msgstr "Дивіться цей власний веб-сайт"
+
+#, fuzzy
+#~ msgid "See description of this winery"
 #~ msgstr "Див. Опис цього місця"
 
 #, fuzzy
-#~ msgid "Hide curiosities"
-#~ msgstr "Приховати гуртожитки"
+#~ msgid "Recommended restaurants"
+#~ msgstr "Сховати ресторани"
 
 #, fuzzy
-#~ msgid "Fold this curiosity details"
-#~ msgstr "Складіть ці деталі цікавості"
+#~ msgid "Fold this restaurant details"
+#~ msgstr "Складіть деталі цього ресторану"
 
 #, fuzzy
-#~ msgid "Add this curiosity as a skipped stop"
-#~ msgstr "Додайте цю цікавість як пропущену зупинку"
+#~ msgid "Add this restaurant as a skipped stop"
+#~ msgstr "Додайте цей ресторан в якості пропущеної зупинки"
 
 #, fuzzy
-#~ msgid "Stop at this curiosity"
-#~ msgstr "Зупиніться на цій цікавості"
+#~ msgid "Stop and eat at this restaurant"
+#~ msgstr "Зупиніться та поїсти в цьому ресторані"
 
 #, fuzzy
-#~ msgid "See description of this curiosity"
-#~ msgstr "Див. Опис цього місця"
+#~ msgid "See this restaurant own website"
+#~ msgstr "Дивіться цей власний сайт ресторану"
+
+#, fuzzy
+#~ msgid "See this restaurant page"
+#~ msgstr "Перегляньте цю сторінку ресторану Yelp"
+
+#, fuzzy
+#~ msgid "Farmers markets"
+#~ msgstr "Ринки фермерів"
+
+#, fuzzy
+#~ msgid "Hide farmers markets"
+#~ msgstr "Приховати ринки фермерів"
+
+#, fuzzy
+#~ msgid "Fold this farmers market details"
+#~ msgstr "Складіть ці деталі фермерського ринку"
+
+#, fuzzy
+#~ msgid "Add this farmers market as a skipped stop"
+#~ msgstr "Додайте цей ринок фермерів як пропущений призупинення"
+
+#, fuzzy
+#~ msgid "Stop at this farmers market"
+#~ msgstr "Зупиніться на цьому фермерському ринку"
+
+#, fuzzy
+#~ msgid "See this farmers market own website"
+#~ msgstr "Дивіться цей власний сайт фермерів"
+
+#, fuzzy
+#~ msgid "You can always move trips between accounts later on."
+#~ msgstr ""
+#~ "Ви можете завжди переміщати поїздки між обліковими записами пізніше."
+
+#, fuzzy
+#~ msgid ""
+#~ "Feel free to sign up for a new account with Furkot and start planning a "
+#~ "new trip right away:"
+#~ msgstr ""
+#~ "Не соромтеся зареєструватися в новому обліковому записі Furkot і "
+#~ "розпочати планування нової поїздки одразу:"
+
+#, fuzzy
+#~ msgid ""
+#~ "In case you provided a different email address when signing up, please "
+#~ "input it on this page:"
+#~ msgstr ""
+#~ "Якщо під час реєстрації ви вказали іншу адресу електронної пошти, введіть "
+#~ "її на цій сторінці:"
+
+#, fuzzy
+#~ msgid ""
+#~ "You will have to use the same computer and browser to access your planned "
+#~ "trips."
+#~ msgstr ""
+#~ "Ви повинні використовувати той самий комп'ютер і браузер, щоб отримати "
+#~ "доступ до запланованих поїздок."
+
+#, fuzzy
+#~ msgid ""
+#~ "If you tried out Furkot as a guest (without signing up for an account), "
+#~ "you cannot reset a password."
+#~ msgstr ""
+#~ "Якщо ви випробували Furkot як гостя (без реєстрації для облікового "
+#~ "запису), ви не можете скинути пароль."
+
+#, fuzzy
+#~ msgid "Try using your social media account again to sign in:"
+#~ msgstr ""
+#~ "Спробуйте ввійти в свій обліковий запис соціальних медіа, щоб увійти:"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you used your social media account (Facebook, Google, Twitter, "
+#~ "Foursquare or TripIt), you don't need a separate Furkot password to "
+#~ "access your planned trips."
+#~ msgstr ""
+#~ "Якщо ви використовували свій обліковий запис соціальних медіа (Facebook, "
+#~ "Google, Twitter, Foursquare або TripIt), для доступу до запланованих "
+#~ "поїздок не потрібен окремий пароль Furkot."
+
+#, fuzzy
+#~ msgid "We couldn't find an account associated with your email."
+#~ msgstr ""
+#~ "Не вдалося знайти обліковий запис, пов’язаний з вашою електронною поштою."
+
+#, fuzzy
+#~ msgid "Show Phone"
+#~ msgstr "Покажи мені"
+
+#, fuzzy
+#~ msgid "This feature is available to Furkot Pass holders."
+#~ msgstr "Ця функція доступна власникам Furkot Pass."
+
+#, fuzzy
+#~ msgid "No end date."
+#~ msgstr "Немає кінцевої дати."
+
+#, fuzzy
+#~ msgid "Like Furkot"
+#~ msgstr "Як і Фуркот"
+
+#, fuzzy
+#~ msgid "Follow Furkot"
+#~ msgstr "Слідкуйте за Furkot"
+
+#, fuzzy
+#~ msgid "Deal or discount"
+#~ msgstr "Угода або знижка"
+
+#, fuzzy
+#~ msgid "Charging station"
+#~ msgstr "Зарядна станція"
+
+#, fuzzy
+#~ msgid "Gas station"
+#~ msgstr "Заправка"
+
+#, fuzzy
+#~ msgid "Coffee shop"
+#~ msgstr "Кав'ярня"
+
+#, fuzzy
+#~ msgid "Restaurant"
+#~ msgstr "Ресторан"
+
+#, fuzzy
+#~ msgid "Beach"
+#~ msgstr "Пляжний"
+
+#~ msgid "Surf spot"
+#~ msgstr "Місце для сьорфу"
+
+#, fuzzy
+#~ msgid "Dive site"
+#~ msgstr "Сайт занурення"
+
+#, fuzzy
+#~ msgid "Snowshoeing"
+#~ msgstr "Прогулянки на лижах"
+
+#, fuzzy
+#~ msgid "Skiing"
+#~ msgstr "Катання на лижах"
+
+#, fuzzy
+#~ msgid "Climbing route"
+#~ msgstr "Альпіністський маршрут"
+
+#, fuzzy
+#~ msgid "Picnic"
+#~ msgstr "Пікнік"
+
+#, fuzzy
+#~ msgid "Overlook"
+#~ msgstr "Огляньте"
+
+#, fuzzy
+#~ msgid "Driving route"
+#~ msgstr "Водійський маршрут"
+
+#, fuzzy
+#~ msgid "Offroad route"
+#~ msgstr "Позашляховий маршрут"
+
+#, fuzzy
+#~ msgid "ATV trail"
+#~ msgstr "Стежка ATV"
+
+#, fuzzy
+#~ msgid "Motorcycle route"
+#~ msgstr "Маршрут мотоциклів"
+
+#, fuzzy
+#~ msgid "Bicycle path"
+#~ msgstr "Велосипедний шлях"
+
+#, fuzzy
+#~ msgid "Park"
+#~ msgstr "Парк"
+
+#, fuzzy
+#~ msgid "Zoo, aquarium or wildlife viewing"
+#~ msgstr "Зоопарк, акваріум або дика природа"
+
+#, fuzzy
+#~ msgid "Theater"
+#~ msgstr "Театр"
+
+#, fuzzy
+#~ msgid "Historical site or landmark"
+#~ msgstr "Історичні місця або орієнтир"
+
+#, fuzzy
+#~ msgid "Museum"
+#~ msgstr "Музей"

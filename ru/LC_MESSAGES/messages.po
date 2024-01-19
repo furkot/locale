@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-01-14 12:45+0100\n"
+"POT-Creation-Date: 2024-01-19 09:42+0100\n"
 "PO-Revision-Date: 2022-06-13 13:36+0000\n"
 "Last-Translator: Valeria Nazarova <alira.vn@gmail.com>\n"
 "Language-Team: Russian <https://translate.furkot.com/projects/furkot/trips/"
@@ -51,8 +51,8 @@ msgstr "Предложить"
 
 #: ../views/board/board.jade:36 ../views/components/accounts.jade:90
 #: ../views/components/add-stops.jade:2 ../views/components/add-stops.jade:13
-#: ../views/components/dialog.jade:7 ../views/components/export-dlg.jade:206
-#: ../views/components/export-dlg.jade:214
+#: ../views/components/dialog.jade:7 ../views/components/export-dlg.jade:215
+#: ../views/components/export-dlg.jade:223
 #: ../views/components/import-dlg.jade:170
 #: ../views/components/navigation.jade:2
 #: ../views/components/navigation.jade:117 ../views/components/network.jade:2
@@ -298,7 +298,7 @@ msgstr "ОК"
 #: ../views/components/book-wizard.jade:60
 #: ../views/components/browse-happy.jade:10
 #: ../views/components/common-mixins.jade:42
-#: ../views/components/export-dlg.jade:190
+#: ../views/components/export-dlg.jade:199
 #: ../views/components/furkot-pass.jade:47
 #: ../views/components/import-dlg.jade:178 ../views/components/map.jade:123
 #: ../views/components/navigation.jade:114 ../views/components/network.jade:19
@@ -490,7 +490,7 @@ msgid "Furkot will take you to the next lodging to book."
 msgstr "Furkot отправит Вас к следующему жилью для бронирования."
 
 #: ../views/components/book-wizard.jade:66
-#: ../views/components/export-dlg.jade:194
+#: ../views/components/export-dlg.jade:203
 #: ../views/components/import-dlg.jade:172
 #: ../views/components/new-trip-wizard.jade:149
 #: ../views/components/tour.jade:42
@@ -914,38 +914,38 @@ msgstr "Пеший поход"
 
 #. L10n: 'track' is a point-by-point representation of trip course; 'track' is more detailed than 'route'
 #: ../views/components/export-dlg.jade:10
-#: ../views/components/export-dlg.jade:146
+#: ../views/components/export-dlg.jade:155
 msgid "one track per day"
 msgstr "один трек в день"
 
 #. L10n: 'route' is a series of points that help navigate along trip course; 'route' is less detailed than 'track'
 #: ../views/components/export-dlg.jade:15
-#: ../views/components/export-dlg.jade:154
+#: ../views/components/export-dlg.jade:163
 msgid "one route per day"
 msgstr "один курс в день"
 
 #. L10n: 'points per route (minimum)' means minimum number of points per route in exported file
 #: ../views/components/export-dlg.jade:20
-#: ../views/components/export-dlg.jade:160
+#: ../views/components/export-dlg.jade:169
 msgid "points per route (minimum)"
 msgstr "точек на курс (минимум)"
 
 #. L10n: 'high-resolution tracks' is an export option that includes in the exported file all track points faithfully reflecting the trip course shape
 #: ../views/components/export-dlg.jade:26
-#: ../views/components/export-dlg.jade:168
+#: ../views/components/export-dlg.jade:177
 msgid "high-resolution tracks"
 msgstr "детальные маршруты"
 
 #. L10n: Explanation for the 'skipped routes' export option (includes in the exported file route segments that have been skipped and are no longer part of the trip)
 #: ../views/components/export-dlg.jade:31
-#: ../views/components/export-dlg.jade:178
+#: ../views/components/export-dlg.jade:187
 msgid "include skipped routes"
 msgstr "включают возможные маршруты"
 
 #. L10n: Caption of a dialog that sets up export parameters. 'Export trip' as in 'Export trip into a file'. Can be also translated as 'Download trip'
 #: ../views/components/export-dlg.jade:38
-#: ../views/components/export-dlg.jade:200
-#: ../views/components/export-dlg.jade:214
+#: ../views/components/export-dlg.jade:209
+#: ../views/components/export-dlg.jade:223
 msgid "Export trip"
 msgstr "Экспорт поездки"
 
@@ -956,138 +956,145 @@ msgstr "Пожалуйста подождите пока Furkot пересчит
 
 #. L10n: 'Export' as in 'Export into a file'. Can be also translated as 'Download'
 #: ../views/components/export-dlg.jade:44
-#: ../views/components/export-dlg.jade:136
+#: ../views/components/export-dlg.jade:145
 msgid "Export stops and routing information:"
 msgstr "Экспорт остановок и маршрутной информации:"
 
 #. L10n: Standard GPX format (without proprietary extensions)
 #: ../views/components/export-dlg.jade:46
-#: ../views/components/export-dlg.jade:68
+#: ../views/components/export-dlg.jade:69
 msgid "GPS exchange file (.gpx)"
 msgstr "GPS exchange file (.gpx)"
 
 #. L10n: GPX format with Garmin-specific route extensions
 #: ../views/components/export-dlg.jade:47
-#: ../views/components/export-dlg.jade:76
+#: ../views/components/export-dlg.jade:77
 msgid "Garmin route GPX (.gpx)"
 msgstr "Garmin маршрут GPX (.gpx)"
 
 #. L10n: GPX format with Guru Maps (formerly Galileo)-specific extensions
 #: ../views/components/export-dlg.jade:48
-#: ../views/components/export-dlg.jade:84
+#: ../views/components/export-dlg.jade:85
 msgid "Guru Maps GPX (.gpx)"
 msgstr "Guru Maps формат GPX (.gpx)"
 
 #. L10n: GPX format with OsmAnd Offline Maps and Navigation-specific extensions
 #: ../views/components/export-dlg.jade:49
-#: ../views/components/export-dlg.jade:92
+#: ../views/components/export-dlg.jade:93
 msgid "OsmAnd Maps GPX (.gpx)"
 msgstr ""
 
 #: ../views/components/export-dlg.jade:50
-#: ../views/components/export-dlg.jade:99
+#: ../views/components/export-dlg.jade:100
 msgid "KML file (.kml)"
 msgstr "KML-файл (.kml)"
 
 #. L10n: 'TomTom overlay file' is a proprietary format supported by TomTom GPS devices. 'TomTom' is a proper name to be left untranslated
 #: ../views/components/export-dlg.jade:51
-#: ../views/components/export-dlg.jade:108
+#: ../views/components/export-dlg.jade:109
 msgid "TomTom overlay file (.ov2)"
 msgstr "TomTom файл (.ov2)"
 
 #. L10n: 'CoPilot trip' is a proprietary format supported by CoPilot navigation apps. 'CoPilot' is a proper name to be left untranslated
 #: ../views/components/export-dlg.jade:52
-#: ../views/components/export-dlg.jade:116
+#: ../views/components/export-dlg.jade:117
 msgid "CoPilot trip (.trp)"
 msgstr "CoPilot trip формат (.trp)"
 
 #: ../views/components/export-dlg.jade:53
-#: ../views/components/export-dlg.jade:123
+#: ../views/components/export-dlg.jade:124
 msgid "iCalendar (.ics)"
 msgstr "iCalendar (.ics)"
 
 #. L10n: 'driving log' as an ordered sequence of trip stops
 #: ../views/components/export-dlg.jade:54
-#: ../views/components/export-dlg.jade:131
+#: ../views/components/export-dlg.jade:132
 msgid "driving log (.csv)"
 msgstr "журнал поездки (.csv)"
 
-#: ../views/components/export-dlg.jade:60
+#. L10n: 'expense report' itemizes costs for the trip
+#: ../views/components/export-dlg.jade:55
+#: ../views/components/export-dlg.jade:140
+msgid "expense report (.csv)"
+msgstr ""
+
+#: ../views/components/export-dlg.jade:61
 msgid "Select a file format to export:"
 msgstr "Выберите формат файла для экспорта:"
 
 #. L10n: 'use with many types of GPS devices' as in 'you can use files in this format with many types of GPS devices'
-#: ../views/components/export-dlg.jade:70
+#: ../views/components/export-dlg.jade:71
 msgid "use with many types of GPS devices"
 msgstr "используется во многих типах GPS устройств"
 
 #. L10n: 'use with newer Garmin devices' as in 'you can use files in this format with newer Garmin devices [only]'
-#: ../views/components/export-dlg.jade:78
+#: ../views/components/export-dlg.jade:79
 msgid "use with newer Garmin devices"
 msgstr "используется в новых устройствах Garmin"
 
 #. L10n: 'use with Guru Maps (formerly Galileo) navigation app' as in 'you can use files in this format with Guru Maps navigation app'
-#: ../views/components/export-dlg.jade:86
+#: ../views/components/export-dlg.jade:87
 msgid "use with Guru Maps (formerly Galileo) app"
 msgstr "используется с Guru Maps (Galileo)"
 
 #. L10n: 'use with OsmAnd Offline Maps and Navigation' as in 'you can use files in this format with OsmAnd Offline Maps and Navigation'
-#: ../views/components/export-dlg.jade:94
+#: ../views/components/export-dlg.jade:95
 msgid "use with OsmAnd Offline Maps and Navigation"
 msgstr ""
 
 #. L10n: 'upload into Google Earth and Google Maps' as in 'you can upload files in this format into Google Earth and Google Maps'
-#: ../views/components/export-dlg.jade:101
+#: ../views/components/export-dlg.jade:102
 msgid "upload into Google Earth and Google Maps"
 msgstr "загружается в Google Earth и Google Maps"
 
 #. L10n: 'use with TomTom GPS devices' as in 'you can use files in this format with TomTom GPS devices'
-#: ../views/components/export-dlg.jade:110
+#: ../views/components/export-dlg.jade:111
 msgid "use with TomTom GPS devices"
 msgstr "используется в GPS устройствах TomTom"
 
 #. L10n: 'use with CoPilot navigation apps' as in 'you can use files in this format with CoPilot navigation apps'
-#: ../views/components/export-dlg.jade:118
+#: ../views/components/export-dlg.jade:119
 msgid "use with CoPilot navigation apps"
 msgstr "используется в приложениях CoPilot"
 
 #. L10n: 'import into a calendar' as in 'you can import files in this format into a calendar applications'
-#: ../views/components/export-dlg.jade:125
+#: ../views/components/export-dlg.jade:126
 msgid "import into a calendar"
 msgstr "импортируется в календарь"
 
 #. L10n: 'open as a spreadsheet' as in 'you can open files in this format in spreadsheet applications'
-#: ../views/components/export-dlg.jade:133
+#: ../views/components/export-dlg.jade:134
+#: ../views/components/export-dlg.jade:142
 msgid "open as a spreadsheet"
 msgstr "открывается как электронная таблица"
 
 #. L10n: 'track' is a point-by-point representation of trip course; 'track' is more detailed than 'route'
-#: ../views/components/export-dlg.jade:144
+#: ../views/components/export-dlg.jade:153
 msgid "tracks"
 msgstr "Треки"
 
 #. L10n: 'route' is a series of points that help navigate along trip course; 'route' is less detailed than 'track'
-#: ../views/components/export-dlg.jade:152
+#: ../views/components/export-dlg.jade:161
 msgid "routes"
 msgstr "маршруты"
 
 #. L10n: Explanation for the 'high-resolution tracks' option. Means that Furkot will put all points it has in the exported daily tracks.
-#: ../views/components/export-dlg.jade:170
+#: ../views/components/export-dlg.jade:179
 #, fuzzy
 msgid "include all available track points"
 msgstr "включить все доступные точки трека"
 
 #. L10n: 'skipped routes' is an export option that includes in the exported file route segments that have been skipped and are no longer part of the trip
-#: ../views/components/export-dlg.jade:176
+#: ../views/components/export-dlg.jade:185
 msgid "skipped routes"
 msgstr "возможные маршруты"
 
-#: ../views/components/export-dlg.jade:182
+#: ../views/components/export-dlg.jade:191
 msgid "Track is a point-by-point representation of your trip course."
 msgstr ""
 "Трек представляет собой точечное представление вашего маршрута поездки."
 
-#: ../views/components/export-dlg.jade:183
+#: ../views/components/export-dlg.jade:192
 msgid ""
 "Route is a series of points that help your GPS device or navigation app "
 "navigate along your trip course."
@@ -1095,7 +1102,7 @@ msgstr ""
 "Маршрут представляет собой ряд точек, которые помогают Вашему устройству GPS "
 "или приложению навигации перемещаться по маршруту Вашей поездки."
 
-#: ../views/components/export-dlg.jade:184
+#: ../views/components/export-dlg.jade:193
 msgid ""
 "Make sure the number of points per route is within limits of your GPS device "
 "or navigation app."
@@ -1104,40 +1111,40 @@ msgstr ""
 "устройства GPS или навигационного приложения."
 
 #. L10n: square brackets [] denote a button
-#: ../views/components/export-dlg.jade:187
+#: ../views/components/export-dlg.jade:196
 msgid "You can change file format and content on the [Next] pages."
 msgstr "Вы можете изменить формат и контент файла на [последующих] страницах."
 
-#: ../views/components/export-dlg.jade:193
+#: ../views/components/export-dlg.jade:202
 #: ../views/components/import-dlg.jade:171
 #: ../views/components/new-trip-wizard.jade:148
 msgid "Previous"
 msgstr "Назад"
 
 #. L10n: 'Export' as in 'Export into a file'. Can be also translated as 'Download'
-#: ../views/components/export-dlg.jade:196
+#: ../views/components/export-dlg.jade:205
 #: ../views/components/step-detail.jade:556
 msgid "Export"
 msgstr "Экспорт"
 
 #. L10n: Displayed to label a subsequent day of the trip followed by the number
-#: ../views/components/export-dlg.jade:202 ../views/components/print.jade:16
+#: ../views/components/export-dlg.jade:211 ../views/components/print.jade:16
 #: ../views/components/step-detail.jade:570 ../views/tripshot/tripshot.jade:33
 msgid "Day"
 msgstr "День"
 
-#: ../views/components/export-dlg.jade:206
+#: ../views/components/export-dlg.jade:215
 msgid "Furkot Terms and Conditions of Use"
 msgstr "Условия пользования cервисом Furkot"
 
 #. L10n: "I Agree" is a button that user has to click to confirm that they agree to Furkot Terms of Service
-#: ../views/components/export-dlg.jade:206
-#: ../views/components/export-dlg.jade:209
+#: ../views/components/export-dlg.jade:215
+#: ../views/components/export-dlg.jade:218
 msgid "I Agree"
 msgstr "Я согласен"
 
 #. L10n: Furkot Terms are in English for now. To emphasize that the document should be referred by its original English name followed by translation marked off by round brackets (). Square brackets [] denote a link
-#: ../views/components/export-dlg.jade:211
+#: ../views/components/export-dlg.jade:220
 msgid ""
 "To continue you must consent to [Furkot Terms and Conditions of Use] and "
 "agree to accept any responsibility or liability for your use of the "
@@ -1148,13 +1155,13 @@ msgstr ""
 "использование информации, предоставленной Furkot."
 
 #. L10n: Label for the button that copies to clipboard a link to the exported trip
-#: ../views/components/export-dlg.jade:214
-#: ../views/components/export-dlg.jade:217
+#: ../views/components/export-dlg.jade:223
+#: ../views/components/export-dlg.jade:226
 msgid "Copy"
 msgstr "Копировать"
 
 #. L10n: message displayed when exporting trip requires launching Safari (default browser on Mac and iOS)
-#: ../views/components/export-dlg.jade:219
+#: ../views/components/export-dlg.jade:228
 msgid ""
 "To complete exporting your trip, copy the link below and open it in Safari."
 msgstr ""
@@ -1162,12 +1169,12 @@ msgstr ""
 "откройте ее в Safari."
 
 #. L10n: title for each daily route or track in the exported file. the first curly brackets {} stand for day number, the second -  for day date
-#: ../views/components/export-dlg.jade:224 ../views/export/template.jade:2
+#: ../views/components/export-dlg.jade:233 ../views/export/template.jade:2
 msgid "Day {} - {}"
 msgstr "День {} - {}"
 
 #. L10n: Warning displayed for automatically scheduled stops that are not associated with real places but are just placeholders
-#: ../views/components/export-dlg.jade:225
+#: ../views/components/export-dlg.jade:234
 #: ../views/components/navigation.jade:118
 #: ../views/components/step-detail.jade:614
 #: ../views/components/step-detail.jade:649 ../views/export/warning.jade:1
