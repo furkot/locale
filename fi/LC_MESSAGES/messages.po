@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2024-01-19 09:42+0100\n"
-"PO-Revision-Date: 2023-05-26 00:28+0000\n"
+"PO-Revision-Date: 2024-02-05 05:04+0000\n"
 "Last-Translator: Tommi Riikonen <von.riikonen@gmail.com>\n"
 "Language-Team: Finnish <https://translate.furkot.com/projects/furkot/trips/"
 "fi/>\n"
@@ -131,8 +131,8 @@ msgid ""
 "Copy and paste this URL or use one of the share buttons to ask others to "
 "help you plan this trip."
 msgstr ""
-"Kopioi ja liitä tämä URL-osoite tai käytä jakopainikkeita pyytääksesi muilta "
-"apua matkan suunnitteluun."
+"Kopioi ja liitä tämä URL-osoite tai käytä jako-painikkeita pyytääksesi "
+"muilta apua matkan suunnitteluun."
 
 #: ../views/board/board.jade:82
 msgid "Back"
@@ -141,7 +141,7 @@ msgstr "Takaisin"
 #. L10n: title of the trip board page, followed by trip name
 #: ../views/board/layout.jade:19
 msgid "Help me plan my trip:"
-msgstr "Auta suunnittelemaan matkani:"
+msgstr "Auta suunnittelemaan matkaani:"
 
 #. L10n: description of the board page, used when shared on Facebook, Google+ etc.
 #: ../views/board/layout.jade:21
@@ -155,12 +155,12 @@ msgstr "Tilin asetukset"
 #. L10n: Nickname is a private identifier used to sign in. Can be also translated as 'Alias' or 'Pseudonym'. We try to make it more comprehensive and less formal than username. Translate as 'Username' only if no better word is available
 #: ../views/components/accounts.jade:7
 msgid "Nickname"
-msgstr "Käyttäjätunnus"
+msgstr "Kirjautumistunnus"
 
 #. L10n: Nickname is a private identifier used to sign in. Can be also translated as 'Alias' or 'Pseudonym'. We try to make it more comprehensive and less formal than username. Translate as 'Username' only if no better word is available
 #: ../views/components/accounts.jade:10
 msgid "Nickname is your private identifier used to sign in"
-msgstr "Käyttäjätunnus on tunnuksesi jolla kirjaudut sisään"
+msgstr "Kirjautumistunnus on tunnuksesi jolla kirjaudut sisään"
 
 #. L10n: Email in a sense of the "email address"
 #: ../views/components/accounts.jade:13 ../views/pass/index.jade:50
@@ -172,7 +172,7 @@ msgstr "Sähköposti"
 #: ../views/components/accounts.jade:16
 msgid "Email is only used to reset forgotten password and to share trips"
 msgstr ""
-"Sähköpostia käytetään vain unohtuneen salasanan palautukseen ja matkojen "
+"Sähköpostia käytetään vain unohtuneen salasanan nollaamiseen ja matkojen "
 "jakamiseen"
 
 #. L10n: Email in a sense of the "email address"
@@ -188,7 +188,7 @@ msgstr "Nimimerkki"
 #. L10n: Signature is a public name shown to others. It is NOT a username
 #: ../views/components/accounts.jade:29
 msgid "Signature is your public name shown to others"
-msgstr "Allekirjoituksesi on nimi joka näkyy muille"
+msgstr "Nimimerkki on muille näkyvä nimi"
 
 #. L10n: hint displayed in the field for user's signature - a public name shown to others. Signature is NOT a username
 #: ../views/components/accounts.jade:30 ../views/components/accounts.jade:37
@@ -206,7 +206,7 @@ msgstr "tarvitaan asetusten muuttamiseen"
 
 #: ../views/components/accounts.jade:45
 msgid "The current password is necessary to change settings"
-msgstr "Asetusten muuttamiseen tarvitaan nykyinen salasana"
+msgstr "Nykyinen salasana tarvitaan asetusten muuttamiseen"
 
 #: ../views/components/accounts.jade:48
 #: ../views/welcome/password-reset-page.jade:21
@@ -225,16 +225,16 @@ msgstr "Jätä tyhjäksi ellet halua muuttaa"
 
 #: ../views/components/accounts.jade:61
 msgid "Password changed successfully"
-msgstr "Salasana on vaihdettu onnistuneesti"
+msgstr "Salasanan vaihto onnistui"
 
 #: ../views/components/accounts.jade:62
 msgid "Settings changed successfully"
-msgstr "Asetukset on vaihdettu onnistuneesti"
+msgstr "Asetusten muuttaminen onnistui"
 
 #. L10n: meaning 'Password cannot be changed'
 #: ../views/components/accounts.jade:65
 msgid "Cannot change password"
-msgstr "Salasanaa ei voida vaihtaa"
+msgstr "Salasanaa ei voida muuttaa"
 
 #. L10n: meaning 'Settings cannot be changed'
 #: ../views/components/accounts.jade:67
@@ -341,7 +341,7 @@ msgstr "Suunnittele pysähdyksiä"
 #. L10n: 'Select a trip to add to.' as in 'Select a trip to add the stops listed above to.
 #: ../views/components/add-stops.jade:6
 msgid "Select a trip to add to."
-msgstr "Valitse matka johon haluat lisätä."
+msgstr "Valitse listasta matka johon haluat lisätä pysähdyksen."
 
 #: ../views/components/add-stops.jade:13 ../views/components/trips.jade:4
 msgid "New trip"
@@ -360,7 +360,7 @@ msgstr "Sovellukset"
 
 #: ../views/components/applications.jade:6
 msgid "You haven’t given any application access to your Furkot trips."
-msgstr "Sinulla ei ole yhtään navigointi-sovellusta linkitettynä Furkotiin."
+msgstr "Sinulla ei ole linkitettynä yhtään navigointi-sovellusta Furkotiin."
 
 #. L10n: 'We recommend:' as in 'We recommend the following applications that work with Furkot:' followed by the list of applications
 #: ../views/components/applications.jade:8
@@ -387,7 +387,7 @@ msgstr "Varaa matka"
 msgid ""
 "Congratulations! You have booked lodging accommodations for every overnight "
 "stop on this trip."
-msgstr "Onneksi olkoon! Olet varannut jokaiselle yöpymiselle majoituksen."
+msgstr "Onneksi olkoon! Olet varannut majoituksen jokaiselle yöpymiselle."
 
 #. L10n: Square brackets [] denote a button. The [Done] in the sentence is that name of the button that is also displayed elsewhere. It is important that is translated the same as the button (see the translation of the "Done" word in glossary). If needed for clarification, translate  as the phrase "the [Done] button"
 #: ../views/components/book-wizard.jade:9
@@ -461,7 +461,7 @@ msgstr "Varausvahvistus"
 
 #: ../views/components/book-wizard.jade:43
 msgid "Enter booking confirmation if you made a reservation"
-msgstr "Jos teit varauksen anna varausvahvistus"
+msgstr "Anna varausvahvistus jos teit varauksen"
 
 #. L10n: Label for links to websites that user can make lodging reservations at
 #: ../views/components/book-wizard.jade:48
@@ -689,49 +689,49 @@ msgstr "Ole hyvä ja [päivitä selain] parantaaksesi käyttökokemusta."
 #. L10n: Label for a field showing whether tracking expenses (i.e. assigning costs to stops and routes) is enabled (or not) for the trip
 #: ../views/components/budget.jade:10
 msgid "Expenses"
-msgstr ""
+msgstr "Kustannukset"
 
 #. L10n: Label for the cost of drivng a mile or kilometer
 #. L10n: Label for the cost of drivng a mile or a kilometer
 #: ../views/components/budget.jade:16 ../views/components/budget.jade:36
 msgid "Mileage Rate"
-msgstr ""
+msgstr "Kilometrikustannus"
 
 #. L10n: follows a value (for instance cost) of 1 km
 #: ../views/components/budget.jade:22 ../views/components/budget.jade:46
 msgid "per km"
-msgstr ""
+msgstr "per km"
 
 #. L10n: follows a value (for instance cost) of 1 mile
 #: ../views/components/budget.jade:24 ../views/components/budget.jade:48
 msgid "per mile"
-msgstr ""
+msgstr "per maili"
 
 #. L10n: Label for checkbox to enable tracking expenses (i.e. assigning costs to stops and routes) for the trip
 #: ../views/components/budget.jade:33
 msgid "Track expenses for the trip"
-msgstr ""
+msgstr "Seuraa matkan kuluja"
 
 #. L10n: Hint for the field used to set the cost of driving a mile or a kilometer
 #: ../views/components/budget.jade:39
 msgid "Click to add mileage rate"
-msgstr ""
+msgstr "Klikkaa lisääksesi kilometrikustannuksia"
 
 #. L10n: Label for the field to edit cost associated with a stop (i.e. hotel price) or a route (i.e. toll). The field is available when tracking expenses is enabled for a trip
 #. L10n: Label for the total cost of the trip
 #: ../views/components/budget.jade:55 ../views/components/trip-detail.jade:712
 msgid "Cost"
-msgstr ""
+msgstr "Hinta"
 
 #. L10n: Hint for the field that takes cost of a single stop or a single route segment
 #: ../views/components/budget.jade:58
 msgid "Click to add cost"
-msgstr ""
+msgstr "Klikkaa lisääksesi hinta"
 
 #. L10n: Label for the field to showing nightly cost of an overnight lodging stop. The field is available for multinight stops when tracking expenses is enabled for a trip
 #: ../views/components/budget.jade:65
 msgid "Per Night"
-msgstr ""
+msgstr "Yöltä"
 
 #. L10n: travel mode: travel by car
 #: ../views/components/common-mixins.jade:4
@@ -1008,7 +1008,7 @@ msgstr "Driving log-tiedosto (.csv)"
 #: ../views/components/export-dlg.jade:55
 #: ../views/components/export-dlg.jade:140
 msgid "expense report (.csv)"
-msgstr ""
+msgstr "kustannuslaskelma (.csv)"
 
 #: ../views/components/export-dlg.jade:61
 msgid "Select a file format to export:"
@@ -2047,7 +2047,7 @@ msgstr ""
 
 #: ../views/components/map.jade:115
 msgid "Invite link copied to clipboard."
-msgstr ""
+msgstr "Kutsu-linkki kopioitu leikepöydälle."
 
 #: ../views/components/map.jade:117 ../views/components/step-switches.jade:129
 msgid "Nothing to display. Internet connection may be down."
@@ -2206,7 +2206,7 @@ msgstr "Jälki"
 #: ../views/components/trip-config-item.jade:244
 #: ../views/components/trip-detail.jade:274
 msgid "Lodging"
-msgstr "Majoitustaapa"
+msgstr "Majoitustapa"
 
 #: ../views/components/navigation.jade:2
 msgid "Navigation Apps"
@@ -2214,7 +2214,7 @@ msgstr "Navigointi-sovellukset"
 
 #: ../views/components/navigation.jade:4
 msgid "Install the app before you select it"
-msgstr "Valitse laitteella olevista asennetuista käytettävä sovellus"
+msgstr "Valitse laitteella oleva asennettu sovellus"
 
 #: ../views/components/navigation.jade:18
 msgid "Default Map App"
@@ -2232,12 +2232,12 @@ msgstr "Google Maps"
 
 #: ../views/components/navigation.jade:90
 msgid "Organic Maps"
-msgstr ""
+msgstr "Avoimen lähdekoodin kartat"
 
 #: ../views/components/navigation.jade:99
 #: ../views/components/navigation.jade:108
 msgid "Waze"
-msgstr ""
+msgstr "Waze"
 
 #: ../views/components/navigation.jade:111
 msgid ""
@@ -4894,7 +4894,7 @@ msgstr "Kysy muilta"
 
 #: ../views/components/share-dlg.jade:27
 msgid "Invite selected friends to help you plan road trip."
-msgstr ""
+msgstr "Kutsu valitsemasi ystävät auttamaan sinua matkan suunnittelussa."
 
 #. L10n: 'They' means people who are invited to share a trip (shown in the dialog to Share Trip)
 #: ../views/components/share-dlg.jade:30
@@ -4902,6 +4902,8 @@ msgid ""
 "They will have full access to the trip, will be able to add, remove, and "
 "modify stops, the same way you do."
 msgstr ""
+"Heillä on täydet oikeudet lisätä, poistaa ja muokata pysähdyksiä, kuten "
+"sinullakin."
 
 #: ../views/components/share-dlg.jade:31
 msgid "Or you can let them view the trip without ability to change it."
@@ -4946,12 +4948,12 @@ msgstr "Kutsu"
 
 #: ../views/components/share-dlg.jade:46
 msgid "Copy invite link to clipboard."
-msgstr ""
+msgstr "Kopioi kutsu-linkki leikepöydälle."
 
 #. L10n: 'Copy Link' to invite to share a trip
 #: ../views/components/share-dlg.jade:49
 msgid "Copy Link"
-msgstr ""
+msgstr "Kopioi linkki"
 
 #: ../views/components/share-dlg.jade:54
 msgid ""
@@ -7608,7 +7610,7 @@ msgstr "Keskiarvo"
 #: ../views/components/trip-detail.jade:717
 msgctxt "average cost per day"
 msgid "Per Day"
-msgstr ""
+msgstr "Päivässä"
 
 #: ../views/components/trip-detail.jade:723
 msgid "Description of this trip"
@@ -8231,7 +8233,7 @@ msgstr "Linkki matkan lisätietoihin"
 #. L10n: Question displayed when the owner tries to delete the static snapshot of the trip (tripshot) after publishing
 #: ../views/tripshot/mixin.jade:157
 msgid "Are you sure you want to delete this trip snapshot"
-msgstr ""
+msgstr "Haluatko varmasti poistaa snapshotin"
 
 #: ../views/tripshot/mixin.jade:172
 msgid "Copy and paste to embed in your website"
@@ -8255,7 +8257,7 @@ msgstr "Muokkaa matkan kuvia"
 #. L10n: Hint displayed on the button that allows deleting the static snapshot of the trip (tripshot) after publishing. Available to the owner of the trip only on the page with the tripshot.
 #: ../views/tripshot/mixin.jade:216
 msgid "Delete trip snapshot"
-msgstr ""
+msgstr "Poista snapshot"
 
 #: ../views/tripshot/mixin.jade:222
 msgid "Embed in website"
