@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2024-01-19 09:42+0100\n"
-"PO-Revision-Date: 2024-01-15 17:04+0000\n"
-"Last-Translator: Damian Krzeminski <pirxpilot@code42day.com>\n"
+"PO-Revision-Date: 2024-02-07 22:04+0000\n"
+"Last-Translator: Mau Ter <pancomau@yahoo.com>\n"
 "Language-Team: Italian <https://translate.furkot.com/projects/furkot/trips/"
 "it/>\n"
 "Language: it\n"
@@ -697,53 +697,50 @@ msgstr ""
 
 #. L10n: Label for a field showing whether tracking expenses (i.e. assigning costs to stops and routes) is enabled (or not) for the trip
 #: ../views/components/budget.jade:10
-#, fuzzy
 msgid "Expenses"
 msgstr "Spese"
 
 #. L10n: Label for the cost of drivng a mile or kilometer
 #. L10n: Label for the cost of drivng a mile or a kilometer
 #: ../views/components/budget.jade:16 ../views/components/budget.jade:36
-#, fuzzy
 msgid "Mileage Rate"
-msgstr "Tasso di chilometraggio"
+msgstr "Costo chilometrico"
 
 #. L10n: follows a value (for instance cost) of 1 km
 #: ../views/components/budget.jade:22 ../views/components/budget.jade:46
 msgid "per km"
-msgstr ""
+msgstr "per Km"
 
 #. L10n: follows a value (for instance cost) of 1 mile
 #: ../views/components/budget.jade:24 ../views/components/budget.jade:48
-#, fuzzy
 msgid "per mile"
 msgstr "per miglio"
 
 #. L10n: Label for checkbox to enable tracking expenses (i.e. assigning costs to stops and routes) for the trip
 #: ../views/components/budget.jade:33
 msgid "Track expenses for the trip"
-msgstr ""
+msgstr "Registra spese di viaggio"
 
 #. L10n: Hint for the field used to set the cost of driving a mile or a kilometer
 #: ../views/components/budget.jade:39
 msgid "Click to add mileage rate"
-msgstr ""
+msgstr "Clicca per aggiungere costo chilometrico"
 
 #. L10n: Label for the field to edit cost associated with a stop (i.e. hotel price) or a route (i.e. toll). The field is available when tracking expenses is enabled for a trip
 #. L10n: Label for the total cost of the trip
 #: ../views/components/budget.jade:55 ../views/components/trip-detail.jade:712
 msgid "Cost"
-msgstr ""
+msgstr "Prezzo"
 
 #. L10n: Hint for the field that takes cost of a single stop or a single route segment
 #: ../views/components/budget.jade:58
 msgid "Click to add cost"
-msgstr ""
+msgstr "Clicca per aggiungere il prezzo"
 
 #. L10n: Label for the field to showing nightly cost of an overnight lodging stop. The field is available for multinight stops when tracking expenses is enabled for a trip
 #: ../views/components/budget.jade:65
 msgid "Per Night"
-msgstr ""
+msgstr "per notte"
 
 #. L10n: travel mode: travel by car
 #: ../views/components/common-mixins.jade:4
@@ -1023,7 +1020,7 @@ msgstr "Log di guida (.csv)"
 #: ../views/components/export-dlg.jade:55
 #: ../views/components/export-dlg.jade:140
 msgid "expense report (.csv)"
-msgstr ""
+msgstr "Lista spese"
 
 #: ../views/components/export-dlg.jade:61
 msgid "Select a file format to export:"
@@ -2078,7 +2075,7 @@ msgstr ""
 
 #: ../views/components/map.jade:115
 msgid "Invite link copied to clipboard."
-msgstr ""
+msgstr "Link di invito copiato negli appunti."
 
 #: ../views/components/map.jade:117 ../views/components/step-switches.jade:129
 msgid "Nothing to display. Internet connection may be down."
@@ -2264,12 +2261,12 @@ msgstr "Google Maps"
 
 #: ../views/components/navigation.jade:90
 msgid "Organic Maps"
-msgstr ""
+msgstr "Organic Maps"
 
 #: ../views/components/navigation.jade:99
 #: ../views/components/navigation.jade:108
 msgid "Waze"
-msgstr ""
+msgstr "Waze"
 
 #: ../views/components/navigation.jade:111
 msgid ""
@@ -4947,7 +4944,7 @@ msgstr "Chiedi Intorno"
 
 #: ../views/components/share-dlg.jade:27
 msgid "Invite selected friends to help you plan road trip."
-msgstr ""
+msgstr "Invita degli amici per aiutarti a pianificare il viaggio."
 
 #. L10n: 'They' means people who are invited to share a trip (shown in the dialog to Share Trip)
 #: ../views/components/share-dlg.jade:30
@@ -4955,6 +4952,8 @@ msgid ""
 "They will have full access to the trip, will be able to add, remove, and "
 "modify stops, the same way you do."
 msgstr ""
+"Avranno pieno accesso al viaggio, potranno aggiungere, togliere, modificare "
+"le soste, proprio come fai tu."
 
 #: ../views/components/share-dlg.jade:31
 msgid "Or you can let them view the trip without ability to change it."
@@ -4998,12 +4997,12 @@ msgstr "Invita"
 
 #: ../views/components/share-dlg.jade:46
 msgid "Copy invite link to clipboard."
-msgstr ""
+msgstr "Copia il link di invito negli appunti."
 
 #. L10n: 'Copy Link' to invite to share a trip
 #: ../views/components/share-dlg.jade:49
 msgid "Copy Link"
-msgstr ""
+msgstr "Copia il link"
 
 #: ../views/components/share-dlg.jade:54
 msgid ""
@@ -7659,7 +7658,7 @@ msgstr "Media"
 #: ../views/components/trip-detail.jade:717
 msgctxt "average cost per day"
 msgid "Per Day"
-msgstr ""
+msgstr "Al giorno"
 
 #: ../views/components/trip-detail.jade:723
 msgid "Description of this trip"
@@ -8298,7 +8297,7 @@ msgstr "Link a maggiori informazioni sul viaggio"
 #. L10n: Question displayed when the owner tries to delete the static snapshot of the trip (tripshot) after publishing
 #: ../views/tripshot/mixin.jade:157
 msgid "Are you sure you want to delete this trip snapshot"
-msgstr ""
+msgstr "Sei sicuro di voler cancellare questa anteprima del viaggio?"
 
 #: ../views/tripshot/mixin.jade:172
 msgid "Copy and paste to embed in your website"
@@ -8321,7 +8320,7 @@ msgstr "Modifica l'anteprima del viaggio"
 #. L10n: Hint displayed on the button that allows deleting the static snapshot of the trip (tripshot) after publishing. Available to the owner of the trip only on the page with the tripshot.
 #: ../views/tripshot/mixin.jade:216
 msgid "Delete trip snapshot"
-msgstr ""
+msgstr "Cancella l'anteprima del viaggio"
 
 #: ../views/tripshot/mixin.jade:222
 msgid "Embed in website"
