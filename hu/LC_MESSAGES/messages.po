@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-02-08 21:53+0100\n"
+"POT-Creation-Date: 2024-02-19 09:36+0100\n"
 "PO-Revision-Date: 2023-08-25 08:17+0000\n"
 "Last-Translator: Fem Piff <fempiff@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.furkot.com/projects/furkot/trips/"
@@ -71,6 +71,7 @@ msgstr "Javasolj"
 #: ../views/components/step-switches.jade:229
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
+#: ../views/components/step-switches.jade:264
 #: ../views/components/trip-detail.jade:764
 #: ../views/components/trip-detail.jade:772
 #: ../views/components/trip-detail.jade:778
@@ -272,6 +273,7 @@ msgstr "Fiók csatlakozását megszüntetni"
 #: ../views/components/step-switches.jade:229
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
+#: ../views/components/step-switches.jade:264
 #: ../views/components/translate.jade:2
 #: ../views/components/trip-detail.jade:764
 #: ../views/components/trip-detail.jade:772
@@ -6754,6 +6756,7 @@ msgid "Are you sure you want to delete this stop?"
 msgstr ""
 
 #: ../views/components/step-switches.jade:184
+#: ../views/components/step-switches.jade:266
 msgid "This stop represents a confirmed booking."
 msgstr ""
 
@@ -6843,6 +6846,18 @@ msgstr ""
 msgid ""
 "Alternatively you can change the travel mode for this route if you don't "
 "want Furkot to schedule airports."
+msgstr ""
+
+#: ../views/components/step-switches.jade:264
+msgid "Skip stop"
+msgstr ""
+
+#: ../views/components/step-switches.jade:267
+msgid "You should cancel the booking before skipping it."
+msgstr ""
+
+#: ../views/components/step-switches.jade:269
+msgid "Are you sure you want to skip this stop?"
 msgstr ""
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
@@ -8342,16 +8357,16 @@ msgstr ""
 msgid "Lodging search"
 msgstr ""
 
-#: ../views/welcome/errors.jade:6
-msgid "Invalid name and password combination (both are case-sensitive)."
-msgstr ""
-
 #. L10n: the curly brackets {} stand for the user name
-#: ../views/welcome/errors.jade:9
+#: ../views/welcome/errors.jade:3
 msgid "Cannot register user {}"
 msgstr ""
 
-#: ../views/welcome/errors.jade:12
+#: ../views/welcome/errors.jade:4
+msgid "Invalid name and password combination (both are case-sensitive)."
+msgstr ""
+
+#: ../views/welcome/errors.jade:9
 msgid "Forgot your password?"
 msgstr ""
 
@@ -8458,35 +8473,95 @@ msgid ""
 "options."
 msgstr ""
 
-#~ msgid "See description of this curiosity"
-#~ msgstr "Nézd meg az érdekesség részleteit"
-
-#~ msgid "Stop at this curiosity"
-#~ msgstr "Állj meg ennél az érdekességnél"
-
-#~ msgid "Add this curiosity as a skipped stop"
-#~ msgstr "Add hozzá ezt az érdekességet kihagyott megállóként"
-
-#~ msgid "Fold this curiosity details"
-#~ msgstr "Érdekesség részleteinek összecsukása"
-
-#~ msgid "Hide curiosities"
-#~ msgstr "Érdekességek elrejtése"
-
-#~ msgid "Curiosities"
-#~ msgstr "Érdekességek"
-
-#~ msgid "See description of this airport"
-#~ msgstr "Repülőtér részleteinek megjelenítése"
-
-#~ msgid "Stop at this airport"
-#~ msgstr "Megálló ennél a repülőtérnél"
+#~ msgid "ATV trail"
+#~ msgstr "ATV út"
 
 #~ msgid "Add this airport as a skipped stop"
 #~ msgstr "Repülőtér hozzáadása kihagyott megállóként"
 
+#~ msgid "Add this curiosity as a skipped stop"
+#~ msgstr "Add hozzá ezt az érdekességet kihagyott megállóként"
+
+#~ msgid "Add this farmers market as a skipped stop"
+#~ msgstr "Helyi piac hozzáadása kihagyott megállóként"
+
+#~ msgid "Add this restaurant as a skipped stop"
+#~ msgstr "Étterem hozzáadása kihagyott megállóként"
+
+#~ msgid "Add this winery as a skipped stop"
+#~ msgstr "Borozó hozzáadása kihagyott megállóként"
+
+#~ msgid "Beach"
+#~ msgstr "Strand"
+
+#~ msgid "Bicycle path"
+#~ msgstr "Kerékpárút"
+
+#~ msgid "Charging station"
+#~ msgstr "Elektromos töltőállomás"
+
+#~ msgid "Click to edit the invitation"
+#~ msgstr "Kattints a meghívó modosításához"
+
+#~ msgid "Climbing route"
+#~ msgstr "Mászóút"
+
+#~ msgid "Coffee shop"
+#~ msgstr "Kávézó"
+
+#~ msgid "Curiosities"
+#~ msgstr "Érdekességek"
+
+#~ msgid "Deal or discount"
+#~ msgstr "Ajánlat vagy leárazás"
+
+#~ msgid "Dive site"
+#~ msgstr "Búvárterep"
+
+#~ msgid "Driving route"
+#~ msgstr "Autóút"
+
+#~ msgid "Email addresses of your friends"
+#~ msgstr "Barátaid e-mail címe"
+
+#~ msgid "Farmers markets"
+#~ msgstr "Helyi piacok"
+
 #~ msgid "Fold this airport details"
 #~ msgstr "Repülőtér részleteinek összecsukása"
+
+#~ msgid "Fold this curiosity details"
+#~ msgstr "Érdekesség részleteinek összecsukása"
+
+#~ msgid "Fold this farmers market details"
+#~ msgstr "Helyi piac részleteinek összecsukása"
+
+#~ msgid "Fold this restaurant details"
+#~ msgstr "Étterem részleteinek összecsukása"
+
+#~ msgid "Fold this winery details"
+#~ msgstr "Borozó részleteinek összecsukása"
+
+#~ msgid "From"
+#~ msgstr "Küldő"
+
+#~ msgid "Gas station"
+#~ msgstr "Benzinkút"
+
+#~ msgid "Hide curiosities"
+#~ msgstr "Érdekességek elrejtése"
+
+#~ msgid "Hide farmers markets"
+#~ msgstr "Helyi piacok elrejtése"
+
+#~ msgid "Hide wineries"
+#~ msgstr "Borozók elrejtése"
+
+#~ msgid "Highways"
+#~ msgstr "Autópályák"
+
+#~ msgid "Historical site or landmark"
+#~ msgstr "Történelmi emlékhely"
 
 #~ msgid ""
 #~ "Invite selected friends to help you plan road trip. They will have full "
@@ -8497,72 +8572,59 @@ msgstr ""
 #~ "hozzáférésük lesz útitervedhez, hozzáadhatnak, törölhetnek és "
 #~ "módosíthatnak megállókat, pont úgy mint te."
 
-#~ msgid ""
-#~ "Type email addresses of the friends you want to invite in the field below."
-#~ msgstr "Add meg barátaid e-mail címét, hogy meghívd őket."
+#~ msgid "Motorcycle route"
+#~ msgstr "Motoros út"
 
-#~ msgid "Email addresses of your friends"
-#~ msgstr "Barátaid e-mail címe"
+#~ msgid "Movie"
+#~ msgstr "Mozi"
 
-#~ msgid "Restrict friends to viewing the trip only"
-#~ msgstr "Barátok korlátozása csak megtekintésre"
+#~ msgid "Museum"
+#~ msgstr "Múzeum"
 
-#~ msgid "Click to edit the invitation"
-#~ msgstr "Kattints a meghívó modosításához"
+#~ msgid "Offroad route"
+#~ msgstr "Off-road út"
 
-#~ msgid "From"
-#~ msgstr "Küldő"
+#~ msgid "One way trip from start to end point"
+#~ msgstr "Egyirányú útiterv, a kezdőponttól a célig"
 
-#~ msgid "Your email address"
-#~ msgstr "Az e-mail címed"
+#~ msgid "Overlook"
+#~ msgstr "Kilátó"
 
-#~ msgid "Save your email address for future use"
-#~ msgstr "E-mail címed elmentése későbbi használathoz"
+#~ msgid "Park"
+#~ msgstr "Nemzeti park"
 
-#~ msgid "Save for future use"
-#~ msgstr "Mentés későbbi használathoz"
-
-#~ msgid "Highways"
-#~ msgstr "Autópályák"
-
-#~ msgid "Toll Roads"
-#~ msgstr "Díjköteles utak"
-
-#~ msgid "Regular"
-#~ msgstr "Szokásos"
-
-#~ msgid "Wineries and vineyards"
-#~ msgstr "Borozók és szőlők"
-
-#~ msgid "Hide wineries"
-#~ msgstr "Borozók elrejtése"
-
-#~ msgid "Fold this winery details"
-#~ msgstr "Borozó részleteinek összecsukása"
-
-#~ msgid "Add this winery as a skipped stop"
-#~ msgstr "Borozó hozzáadása kihagyott megállóként"
-
-#~ msgid "Stop at this winery"
-#~ msgstr "Megálló ennél a borozónál"
-
-#~ msgid "See this winery own website"
-#~ msgstr "Borozó saját weboldalának megtekintése"
-
-#~ msgid "See description of this winery"
-#~ msgstr "Borozó leírásának megtekintése"
+#~ msgid "Picnic"
+#~ msgstr "Piknik"
 
 #~ msgid "Recommended restaurants"
 #~ msgstr "Ajánlott éttermek"
 
-#~ msgid "Fold this restaurant details"
-#~ msgstr "Étterem részleteinek összecsukása"
+#~ msgid "Regular"
+#~ msgstr "Szokásos"
 
-#~ msgid "Add this restaurant as a skipped stop"
-#~ msgstr "Étterem hozzáadása kihagyott megállóként"
+#~ msgid "Restaurant"
+#~ msgstr "Étterem"
 
-#~ msgid "Stop and eat at this restaurant"
-#~ msgstr "Megálló és fogyasztás az étteremben"
+#~ msgid "Restrict friends to viewing the trip only"
+#~ msgstr "Barátok korlátozása csak megtekintésre"
+
+#~ msgid "Save for future use"
+#~ msgstr "Mentés későbbi használathoz"
+
+#~ msgid "Save your email address for future use"
+#~ msgstr "E-mail címed elmentése későbbi használathoz"
+
+#~ msgid "See description of this airport"
+#~ msgstr "Repülőtér részleteinek megjelenítése"
+
+#~ msgid "See description of this curiosity"
+#~ msgstr "Nézd meg az érdekesség részleteit"
+
+#~ msgid "See description of this winery"
+#~ msgstr "Borozó leírásának megtekintése"
+
+#~ msgid "See this farmers market own website"
+#~ msgstr "Helyi piac saját weboldala"
 
 #~ msgid "See this restaurant own website"
 #~ msgstr "Étterem saját weboldalának megtekintése"
@@ -8570,104 +8632,57 @@ msgstr ""
 #~ msgid "See this restaurant page"
 #~ msgstr "Étterem oldalának megtekintése"
 
-#~ msgid "Farmers markets"
-#~ msgstr "Helyi piacok"
-
-#~ msgid "Hide farmers markets"
-#~ msgstr "Helyi piacok elrejtése"
-
-#~ msgid "Fold this farmers market details"
-#~ msgstr "Helyi piac részleteinek összecsukása"
-
-#~ msgid "Add this farmers market as a skipped stop"
-#~ msgstr "Helyi piac hozzáadása kihagyott megállóként"
-
-#~ msgid "Stop at this farmers market"
-#~ msgstr "Megállás a helyi piacnál"
-
-#~ msgid "See this farmers market own website"
-#~ msgstr "Helyi piac saját weboldala"
+#~ msgid "See this winery own website"
+#~ msgstr "Borozó saját weboldalának megtekintése"
 
 #~ msgid "Show Phone"
 #~ msgstr "Telefonszám megjelenítése"
 
-#~ msgid "This feature is available to Furkot Pass holders."
-#~ msgstr "Ezt a funkciót a Furkot Pass tulajdonosok érhetik el."
-
-#~ msgid "Deal or discount"
-#~ msgstr "Ajánlat vagy leárazás"
-
-#~ msgid "Charging station"
-#~ msgstr "Elektromos töltőállomás"
-
-#~ msgid "Gas station"
-#~ msgstr "Benzinkút"
-
-#~ msgid "Coffee shop"
-#~ msgstr "Kávézó"
-
-#~ msgid "Restaurant"
-#~ msgstr "Étterem"
-
-#~ msgid "Beach"
-#~ msgstr "Strand"
-
-#~ msgid "Surf spot"
-#~ msgstr "Szörfterep"
-
-#~ msgid "Dive site"
-#~ msgstr "Búvárterep"
+#~ msgid "Skiing"
+#~ msgstr "Sípálya"
 
 #~ msgid "Snowshoeing"
 #~ msgstr "Hójárás"
 
-#~ msgid "Skiing"
-#~ msgstr "Sípálya"
+#~ msgid "Stop and eat at this restaurant"
+#~ msgstr "Megálló és fogyasztás az étteremben"
 
-#~ msgid "Climbing route"
-#~ msgstr "Mászóút"
+#~ msgid "Stop at this airport"
+#~ msgstr "Megálló ennél a repülőtérnél"
 
-#~ msgid "Picnic"
-#~ msgstr "Piknik"
+#~ msgid "Stop at this curiosity"
+#~ msgstr "Állj meg ennél az érdekességnél"
 
-#~ msgid "Overlook"
-#~ msgstr "Kilátó"
+#~ msgid "Stop at this farmers market"
+#~ msgstr "Megállás a helyi piacnál"
 
-#~ msgid "Driving route"
-#~ msgstr "Autóút"
+#~ msgid "Stop at this winery"
+#~ msgstr "Megálló ennél a borozónál"
 
-#~ msgid "Offroad route"
-#~ msgstr "Off-road út"
-
-#~ msgid "ATV trail"
-#~ msgstr "ATV út"
-
-#~ msgid "Motorcycle route"
-#~ msgstr "Motoros út"
-
-#~ msgid "Bicycle path"
-#~ msgstr "Kerékpárút"
-
-#~ msgid "Park"
-#~ msgstr "Nemzeti park"
-
-#~ msgid "Zoo, aquarium or wildlife viewing"
-#~ msgstr "Állatkert, akvárium vagy vadaspark"
-
-#~ msgid "Movie"
-#~ msgstr "Mozi"
+#~ msgid "Surf spot"
+#~ msgstr "Szörfterep"
 
 #~ msgid "Theater"
 #~ msgstr "Színház"
 
-#~ msgid "Historical site or landmark"
-#~ msgstr "Történelmi emlékhely"
+#~ msgid "This feature is available to Furkot Pass holders."
+#~ msgstr "Ezt a funkciót a Furkot Pass tulajdonosok érhetik el."
 
-#~ msgid "Museum"
-#~ msgstr "Múzeum"
-
-#~ msgid "One way trip from start to end point"
-#~ msgstr "Egyirányú útiterv, a kezdőponttól a célig"
+#~ msgid "Toll Roads"
+#~ msgstr "Díjköteles utak"
 
 #~ msgid "Trajectory"
 #~ msgstr "Útiterv módja"
+
+#~ msgid ""
+#~ "Type email addresses of the friends you want to invite in the field below."
+#~ msgstr "Add meg barátaid e-mail címét, hogy meghívd őket."
+
+#~ msgid "Wineries and vineyards"
+#~ msgstr "Borozók és szőlők"
+
+#~ msgid "Your email address"
+#~ msgstr "Az e-mail címed"
+
+#~ msgid "Zoo, aquarium or wildlife viewing"
+#~ msgstr "Állatkert, akvárium vagy vadaspark"

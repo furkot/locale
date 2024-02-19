@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-02-08 21:53+0100\n"
+"POT-Creation-Date: 2024-02-19 09:36+0100\n"
 "PO-Revision-Date: 2023-08-29 08:03+0000\n"
 "Last-Translator: markus2929 <mjh.ven@gmail.com>\n"
 "Language-Team: Dutch <https://translate.furkot.com/projects/furkot/trips/nl/"
@@ -71,6 +71,7 @@ msgstr "Stel voor"
 #: ../views/components/step-switches.jade:229
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
+#: ../views/components/step-switches.jade:264
 #: ../views/components/trip-detail.jade:764
 #: ../views/components/trip-detail.jade:772
 #: ../views/components/trip-detail.jade:778
@@ -271,6 +272,7 @@ msgstr "Account afmelden"
 #: ../views/components/step-switches.jade:229
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
+#: ../views/components/step-switches.jade:264
 #: ../views/components/translate.jade:2
 #: ../views/components/trip-detail.jade:764
 #: ../views/components/trip-detail.jade:772
@@ -6759,6 +6761,7 @@ msgid "Are you sure you want to delete this stop?"
 msgstr "Weet je zeker dat je deze stopplaats wilt verwijderen?"
 
 #: ../views/components/step-switches.jade:184
+#: ../views/components/step-switches.jade:266
 msgid "This stop represents a confirmed booking."
 msgstr "Deze stopplaats geeft een bevestigde boeking weer."
 
@@ -6872,6 +6875,18 @@ msgid ""
 msgstr ""
 "Als alternatief kunt u de reismodus voor deze route wijzigen als u niet wilt "
 "dat Furkot vliegvelden plant."
+
+#: ../views/components/step-switches.jade:264
+msgid "Skip stop"
+msgstr ""
+
+#: ../views/components/step-switches.jade:267
+msgid "You should cancel the booking before skipping it."
+msgstr ""
+
+#: ../views/components/step-switches.jade:269
+msgid "Are you sure you want to skip this stop?"
+msgstr ""
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/components/tour-lodging.jade:3 ../views/welcome/blurbs.jade:78
@@ -8498,17 +8513,17 @@ msgstr ""
 msgid "Lodging search"
 msgstr "Onderkomen zoeken"
 
-#: ../views/welcome/errors.jade:6
+#. L10n: the curly brackets {} stand for the user name
+#: ../views/welcome/errors.jade:3
+msgid "Cannot register user {}"
+msgstr "Kan gebruiker {} niet inschrijven"
+
+#: ../views/welcome/errors.jade:4
 msgid "Invalid name and password combination (both are case-sensitive)."
 msgstr ""
 "Ongeldige naam- en wachtwoordcombinatie (beide zijn hoofdlettergevoelig)."
 
-#. L10n: the curly brackets {} stand for the user name
 #: ../views/welcome/errors.jade:9
-msgid "Cannot register user {}"
-msgstr "Kan gebruiker {} niet inschrijven"
-
-#: ../views/welcome/errors.jade:12
 msgid "Forgot your password?"
 msgstr "Wachtwoord vergeten?"
 
@@ -8620,83 +8635,118 @@ msgstr ""
 "reisschema dan verder voltooien. Bekijk de route op de kaart en vind nog "
 "meer bezienswaardigheden en accomodatiemogelijkheden."
 
-#~ msgid "See description of this curiosity"
-#~ msgstr "Zie beschrijving van deze bijzonderheid"
-
-#~ msgid "Stop at this curiosity"
-#~ msgstr "Bij deze bijzonderheid stoppen"
-
-#~ msgid "Add this curiosity as a skipped stop"
-#~ msgstr "Voeg deze bijzonderheid toe als een overgeslagen stopplaats"
-
-#~ msgid "Fold this curiosity details"
-#~ msgstr "De gegevens van deze bijzonderheid sluiten"
-
-#~ msgid "Hide curiosities"
-#~ msgstr "Verberg bijzonderheden"
-
-#~ msgid "Curiosities"
-#~ msgstr "Bijzonderheden"
-
-#~ msgid "See description of this airport"
-#~ msgstr "Bekijk de beschrijving van dit vliegveld"
-
-#~ msgid "Stop at this airport"
-#~ msgstr "Stop bij dit vliegveld"
+#~ msgid "ATV trail"
+#~ msgstr "ATV-pad"
 
 #~ msgid "Add this airport as a skipped stop"
 #~ msgstr "Voeg dit vliegveld toe als een overgeslagen stopplaats"
 
-#~ msgid "Fold this airport details"
-#~ msgstr "Sluit de gegevens van dit vliegveld"
+#~ msgid "Add this curiosity as a skipped stop"
+#~ msgstr "Voeg deze bijzonderheid toe als een overgeslagen stopplaats"
 
-#~ msgid ""
-#~ "Invite selected friends to help you plan road trip. They will have full "
-#~ "access to the trip, will be able to add, remove, and modify stops, the "
-#~ "same way you do."
-#~ msgstr ""
-#~ "Nodig door jezelf gekozen vrienden uit om te helpen bij het plannen van "
-#~ "je reis. Zij hebben volledig toegang tot de reis en kunnen net zoals jij "
-#~ "stopplaatsen toevoegen, aanpassen en verwijderen."
+#~ msgid "Add this farmers market as a skipped stop"
+#~ msgstr "Voeg deze boerenmarkt toe als overgeslagen stopplaats"
 
-#~ msgid ""
-#~ "Type email addresses of the friends you want to invite in the field below."
-#~ msgstr ""
-#~ "Typ in het onderstaande veld de e-mailadressen van de vrienden die je "
-#~ "wilt uitnodigen."
+#~ msgid "Add this restaurant as a skipped stop"
+#~ msgstr "Voeg dit restaurant toe als een overgeslagen stopplaats"
 
-#~ msgid "Email addresses of your friends"
-#~ msgstr "E-mailadressen van je vrienden"
+#~ msgid "Add this winery as a skipped stop"
+#~ msgstr "Voeg dit wijnhuis toe als een overgeslagen stopplaats"
 
-#~ msgid "Restrict friends to viewing the trip only"
-#~ msgstr "Beperk vrienden tot het alleen bekijken van de reis"
+#~ msgid "Beach"
+#~ msgstr "Strand"
+
+#~ msgid "Bicycle path"
+#~ msgstr "Fietspad"
+
+#~ msgid "Charging station"
+#~ msgstr "EV-oplaadstation"
 
 #~ msgid "Click to edit the invitation"
 #~ msgstr "Klik om de uitnodiging te bewerken"
 
+#~ msgid "Climbing route"
+#~ msgstr "Klimroute"
+
+#~ msgid "Coffee shop"
+#~ msgstr "Koffiecorner"
+
+#~ msgid "Curiosities"
+#~ msgstr "Bijzonderheden"
+
+#~ msgid "Deal or discount"
+#~ msgstr "Aanbiedingen of kortingen"
+
+#~ msgid "Dive site"
+#~ msgstr "Duikplaats"
+
+#~ msgid "Driving route"
+#~ msgstr "Autoroute"
+
+#~ msgid "Email addresses of your friends"
+#~ msgstr "E-mailadressen van je vrienden"
+
+#~ msgid "End Trip"
+#~ msgstr "Einde reis"
+
+#~ msgid "Farmers markets"
+#~ msgstr "Boerenmarkten"
+
+#~ msgid ""
+#~ "Feel free to sign up for a new account with Furkot and start planning a "
+#~ "new trip right away:"
+#~ msgstr ""
+#~ "Ondertussen kunt u bij Furkot een nieuw account registreren en meteen "
+#~ "beginnen met het plannen van een nieuwe reis:"
+
+#~ msgid "Fold this airport details"
+#~ msgstr "Sluit de gegevens van dit vliegveld"
+
+#~ msgid "Fold this curiosity details"
+#~ msgstr "De gegevens van deze bijzonderheid sluiten"
+
+#~ msgid "Fold this farmers market details"
+#~ msgstr "Sluit de gegevens van deze boerenmarkt"
+
+#~ msgid "Fold this restaurant details"
+#~ msgstr "Sluit de gegevens van dit restaurant"
+
+#~ msgid "Fold this winery details"
+#~ msgstr "Sluit de gegevens van dit wijnhuis"
+
+#~ msgid "Follow Furkot"
+#~ msgstr "Volg Furkot"
+
 #~ msgid "From"
 #~ msgstr "Van"
 
-#~ msgid "Your email address"
-#~ msgstr "Je e-mailadres"
+#~ msgid "Gas station"
+#~ msgstr "Tankstation"
 
-#~ msgid "Save your email address for future use"
-#~ msgstr "Bewaar je e-mailadres voor toekomstig gebruik"
+#~ msgid "Hide curiosities"
+#~ msgstr "Verberg bijzonderheden"
 
-#~ msgid "Save for future use"
-#~ msgstr "Opslaan voor toekomstig gebruik"
+#~ msgid "Hide farmers markets"
+#~ msgstr "Verberg boerenmarkten"
 
-#~ msgid "No end date."
-#~ msgstr "Geen einddatum."
+#~ msgid "Hide wineries"
+#~ msgstr "Verberg wijnhuizen"
 
-#~ msgid "This feature is available to Furkot Pass holders."
-#~ msgstr "Dit onderdeel is beschikbaar voor Furkot-abonnementhouders."
+#~ msgid "Highways"
+#~ msgstr "Snelwegen"
 
-#~ msgid "Show Phone"
-#~ msgstr "Laat telefoonnummer zien"
+#~ msgid "Historical site or landmark"
+#~ msgstr "Historische plaats of bekend punt"
 
-#~ msgid "We couldn't find an account associated with your email."
-#~ msgstr "We konden geen account vinden dat aan je e-mailadres is gekoppeld."
+#~ msgid "I will manage refueling stops myself"
+#~ msgstr "Ik plan de tankstops zelf"
+
+#~ msgid ""
+#~ "If you tried out Furkot as a guest (without signing up for an account), "
+#~ "you cannot reset a password."
+#~ msgstr ""
+#~ "Wanneer je Furkot als gast gebruikt (zonder registratie voor een "
+#~ "account), kun je een wachtwoord niet opnieuw instellen."
 
 #~ msgid ""
 #~ "If you used your social media account (Facebook, Google, Twitter, "
@@ -8707,23 +8757,6 @@ msgstr ""
 #~ "Foursquare of TripIt) hebt, hoef je geen Furkot wachtwoord aan te maken "
 #~ "om toegang tot je geplande reizen te krijgen."
 
-#~ msgid "Try using your social media account again to sign in:"
-#~ msgstr "Probeer je nogmaals aan te melden bij je sociale media-account:"
-
-#~ msgid ""
-#~ "If you tried out Furkot as a guest (without signing up for an account), "
-#~ "you cannot reset a password."
-#~ msgstr ""
-#~ "Wanneer je Furkot als gast gebruikt (zonder registratie voor een "
-#~ "account), kun je een wachtwoord niet opnieuw instellen."
-
-#~ msgid ""
-#~ "You will have to use the same computer and browser to access your planned "
-#~ "trips."
-#~ msgstr ""
-#~ "Je moet dezelfde computer en browser gebruiken om toegang te krijgen tot "
-#~ "je geplande reizen."
-
 #~ msgid ""
 #~ "In case you provided a different email address when signing up, please "
 #~ "input it on this page:"
@@ -8732,177 +8765,159 @@ msgstr ""
 #~ "je dit op deze pagina in:"
 
 #~ msgid ""
-#~ "Feel free to sign up for a new account with Furkot and start planning a "
-#~ "new trip right away:"
+#~ "Invite selected friends to help you plan road trip. They will have full "
+#~ "access to the trip, will be able to add, remove, and modify stops, the "
+#~ "same way you do."
 #~ msgstr ""
-#~ "Ondertussen kunt u bij Furkot een nieuw account registreren en meteen "
-#~ "beginnen met het plannen van een nieuwe reis:"
+#~ "Nodig door jezelf gekozen vrienden uit om te helpen bij het plannen van "
+#~ "je reis. Zij hebben volledig toegang tot de reis en kunnen net zoals jij "
+#~ "stopplaatsen toevoegen, aanpassen en verwijderen."
+
+#~ msgid "Like Furkot"
+#~ msgstr "Furkot liken"
+
+#~ msgid "Motorcycle route"
+#~ msgstr "Motorroute"
+
+#~ msgid "Movie"
+#~ msgstr "Bioscoop"
+
+#~ msgid "Museum"
+#~ msgstr "Museum"
+
+#~ msgid "No end date."
+#~ msgstr "Geen einddatum."
+
+#~ msgid "Offroad route"
+#~ msgstr "Off-road route"
+
+#~ msgid "One way trip from start to end point"
+#~ msgstr "Enkele reis van begin- tot eindpunt"
+
+#~ msgid "Overlook"
+#~ msgstr "Uitzichtpunt"
+
+#~ msgid "Park"
+#~ msgstr "Park"
+
+#~ msgid "Picnic"
+#~ msgstr "Picknick"
+
+#~ msgid "Recommended restaurants"
+#~ msgstr "Aanbevolen restaurants"
+
+#~ msgid "Regular"
+#~ msgstr "Normaal"
+
+#~ msgid "Restaurant"
+#~ msgstr "Restaurant"
+
+#~ msgid "Restrict friends to viewing the trip only"
+#~ msgstr "Beperk vrienden tot het alleen bekijken van de reis"
+
+#~ msgid "Save for future use"
+#~ msgstr "Opslaan voor toekomstig gebruik"
+
+#~ msgid "Save your email address for future use"
+#~ msgstr "Bewaar je e-mailadres voor toekomstig gebruik"
+
+#~ msgid "See description of this airport"
+#~ msgstr "Bekijk de beschrijving van dit vliegveld"
+
+#~ msgid "See description of this curiosity"
+#~ msgstr "Zie beschrijving van deze bijzonderheid"
+
+#~ msgid "See description of this winery"
+#~ msgstr "Bekijk de beschrijving van dit wijnhuis"
+
+#~ msgid "See this farmers market own website"
+#~ msgstr "Zie de eigen website van deze boerenmarkt"
+
+#~ msgid "See this restaurant own website"
+#~ msgstr "Bekijk de eigen pagina van dit restaurant"
+
+#~ msgid "See this restaurant page"
+#~ msgstr "Bekijk de pagina van dit restaurant"
+
+#~ msgid "See this winery own website"
+#~ msgstr "Bekijk de eigen website van dit wijnhuis"
+
+#~ msgid "Show Phone"
+#~ msgstr "Laat telefoonnummer zien"
+
+#~ msgid "Skiing"
+#~ msgstr "Skiën"
+
+#~ msgid "Snowshoeing"
+#~ msgstr "Sneeuwschoenwandelen"
+
+#~ msgid "Stop and eat at this restaurant"
+#~ msgstr "Stop en ga in dit restaurant eten"
+
+#~ msgid "Stop at this airport"
+#~ msgstr "Stop bij dit vliegveld"
+
+#~ msgid "Stop at this curiosity"
+#~ msgstr "Bij deze bijzonderheid stoppen"
+
+#~ msgid "Stop at this farmers market"
+#~ msgstr "Stop bij deze boerenmarkt"
+
+#~ msgid "Stop at this winery"
+#~ msgstr "Stop bij dit wijnhuis"
+
+#~ msgid "Surf spot"
+#~ msgstr "Surfplaats"
+
+#~ msgid "Theater"
+#~ msgstr "Schouwburg"
+
+#~ msgid "This feature is available to Furkot Pass holders."
+#~ msgstr "Dit onderdeel is beschikbaar voor Furkot-abonnementhouders."
+
+#~ msgid "Toll Roads"
+#~ msgstr "Tolwegen"
+
+#~ msgid "Trajectory"
+#~ msgstr "Traject"
+
+#~ msgid "Travel Limits"
+#~ msgstr "Reislimieten"
+
+#~ msgid "Travel non-stop"
+#~ msgstr "Reis non-stop"
+
+#~ msgid "Try using your social media account again to sign in:"
+#~ msgstr "Probeer je nogmaals aan te melden bij je sociale media-account:"
+
+#~ msgid ""
+#~ "Type email addresses of the friends you want to invite in the field below."
+#~ msgstr ""
+#~ "Typ in het onderstaande veld de e-mailadressen van de vrienden die je "
+#~ "wilt uitnodigen."
+
+#~ msgid "We couldn't find an account associated with your email."
+#~ msgstr "We konden geen account vinden dat aan je e-mailadres is gekoppeld."
+
+#~ msgid "Weekends"
+#~ msgstr "Weekeindes"
+
+#~ msgid "Wineries and vineyards"
+#~ msgstr "Wijnhuizen en wijngaarden"
 
 #~ msgid "You can always move trips between accounts later on."
 #~ msgstr ""
 #~ "Je kunt later altijd reizen tussen de accounts heen en weer schuiven."
 
-#~ msgid "See this farmers market own website"
-#~ msgstr "Zie de eigen website van deze boerenmarkt"
+#~ msgid ""
+#~ "You will have to use the same computer and browser to access your planned "
+#~ "trips."
+#~ msgstr ""
+#~ "Je moet dezelfde computer en browser gebruiken om toegang te krijgen tot "
+#~ "je geplande reizen."
 
-#~ msgid "Stop at this farmers market"
-#~ msgstr "Stop bij deze boerenmarkt"
-
-#~ msgid "Add this farmers market as a skipped stop"
-#~ msgstr "Voeg deze boerenmarkt toe als overgeslagen stopplaats"
-
-#~ msgid "Fold this farmers market details"
-#~ msgstr "Sluit de gegevens van deze boerenmarkt"
-
-#~ msgid "Hide farmers markets"
-#~ msgstr "Verberg boerenmarkten"
-
-#~ msgid "Farmers markets"
-#~ msgstr "Boerenmarkten"
-
-#~ msgid "See this restaurant page"
-#~ msgstr "Bekijk de pagina van dit restaurant"
-
-#~ msgid "See this restaurant own website"
-#~ msgstr "Bekijk de eigen pagina van dit restaurant"
-
-#~ msgid "Stop and eat at this restaurant"
-#~ msgstr "Stop en ga in dit restaurant eten"
-
-#~ msgid "Add this restaurant as a skipped stop"
-#~ msgstr "Voeg dit restaurant toe als een overgeslagen stopplaats"
-
-#~ msgid "Fold this restaurant details"
-#~ msgstr "Sluit de gegevens van dit restaurant"
-
-#~ msgid "Recommended restaurants"
-#~ msgstr "Aanbevolen restaurants"
-
-#~ msgid "See description of this winery"
-#~ msgstr "Bekijk de beschrijving van dit wijnhuis"
-
-#~ msgid "See this winery own website"
-#~ msgstr "Bekijk de eigen website van dit wijnhuis"
-
-#~ msgid "Stop at this winery"
-#~ msgstr "Stop bij dit wijnhuis"
-
-#~ msgid "Add this winery as a skipped stop"
-#~ msgstr "Voeg dit wijnhuis toe als een overgeslagen stopplaats"
-
-#~ msgid "Fold this winery details"
-#~ msgstr "Sluit de gegevens van dit wijnhuis"
-
-#~ msgid "Hide wineries"
-#~ msgstr "Verberg wijnhuizen"
-
-#~ msgid "Wineries and vineyards"
-#~ msgstr "Wijnhuizen en wijngaarden"
-
-#~ msgid "Regular"
-#~ msgstr "Normaal"
-
-#~ msgid "Toll Roads"
-#~ msgstr "Tolwegen"
-
-#~ msgid "Highways"
-#~ msgstr "Snelwegen"
-
-#~ msgid "Like Furkot"
-#~ msgstr "Furkot liken"
-
-#~ msgid "Follow Furkot"
-#~ msgstr "Volg Furkot"
-
-#~ msgid "Deal or discount"
-#~ msgstr "Aanbiedingen of kortingen"
-
-#~ msgid "Charging station"
-#~ msgstr "EV-oplaadstation"
-
-#~ msgid "Gas station"
-#~ msgstr "Tankstation"
-
-#~ msgid "Coffee shop"
-#~ msgstr "Koffiecorner"
-
-#~ msgid "Restaurant"
-#~ msgstr "Restaurant"
-
-#~ msgid "Beach"
-#~ msgstr "Strand"
-
-#~ msgid "Surf spot"
-#~ msgstr "Surfplaats"
-
-#~ msgid "Dive site"
-#~ msgstr "Duikplaats"
-
-#~ msgid "Snowshoeing"
-#~ msgstr "Sneeuwschoenwandelen"
-
-#~ msgid "Skiing"
-#~ msgstr "Skiën"
-
-#~ msgid "Climbing route"
-#~ msgstr "Klimroute"
-
-#~ msgid "Picnic"
-#~ msgstr "Picknick"
-
-#~ msgid "Overlook"
-#~ msgstr "Uitzichtpunt"
-
-#~ msgid "Driving route"
-#~ msgstr "Autoroute"
-
-#~ msgid "Offroad route"
-#~ msgstr "Off-road route"
-
-#~ msgid "ATV trail"
-#~ msgstr "ATV-pad"
-
-#~ msgid "Motorcycle route"
-#~ msgstr "Motorroute"
-
-#~ msgid "Bicycle path"
-#~ msgstr "Fietspad"
-
-#~ msgid "Park"
-#~ msgstr "Park"
+#~ msgid "Your email address"
+#~ msgstr "Je e-mailadres"
 
 #~ msgid "Zoo, aquarium or wildlife viewing"
 #~ msgstr "Dierentuin, aquarium of wildspotten"
-
-#~ msgid "Movie"
-#~ msgstr "Bioscoop"
-
-#~ msgid "Theater"
-#~ msgstr "Schouwburg"
-
-#~ msgid "Historical site or landmark"
-#~ msgstr "Historische plaats of bekend punt"
-
-#~ msgid "Museum"
-#~ msgstr "Museum"
-
-#~ msgid "I will manage refueling stops myself"
-#~ msgstr "Ik plan de tankstops zelf"
-
-#~ msgid "Travel non-stop"
-#~ msgstr "Reis non-stop"
-
-#~ msgid "Travel Limits"
-#~ msgstr "Reislimieten"
-
-#~ msgid "End Trip"
-#~ msgstr "Einde reis"
-
-#~ msgid "Weekends"
-#~ msgstr "Weekeindes"
-
-#~ msgid "One way trip from start to end point"
-#~ msgstr "Enkele reis van begin- tot eindpunt"
-
-#~ msgid "Trajectory"
-#~ msgstr "Traject"

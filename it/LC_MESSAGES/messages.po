@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-02-08 21:53+0100\n"
+"POT-Creation-Date: 2024-02-19 09:36+0100\n"
 "PO-Revision-Date: 2024-02-07 22:04+0000\n"
 "Last-Translator: Mau Ter <pancomau@yahoo.com>\n"
 "Language-Team: Italian <https://translate.furkot.com/projects/furkot/trips/"
@@ -71,6 +71,7 @@ msgstr "Suggerisci"
 #: ../views/components/step-switches.jade:229
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
+#: ../views/components/step-switches.jade:264
 #: ../views/components/trip-detail.jade:764
 #: ../views/components/trip-detail.jade:772
 #: ../views/components/trip-detail.jade:778
@@ -272,6 +273,7 @@ msgstr "Sconnetti il tuo account social"
 #: ../views/components/step-switches.jade:229
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
+#: ../views/components/step-switches.jade:264
 #: ../views/components/translate.jade:2
 #: ../views/components/trip-detail.jade:764
 #: ../views/components/trip-detail.jade:772
@@ -6784,6 +6786,7 @@ msgid "Are you sure you want to delete this stop?"
 msgstr "Sei sicuro di voler cancellare questa sosta?"
 
 #: ../views/components/step-switches.jade:184
+#: ../views/components/step-switches.jade:266
 msgid "This stop represents a confirmed booking."
 msgstr "Questa sosta rappresenta una prenotazione confermata."
 
@@ -6896,6 +6899,18 @@ msgid ""
 msgstr ""
 "In alternativa puoi cambiare la modalità di trasporto per questo percorso se "
 "non vuoi che Furkot pianifichi gli aeroporti."
+
+#: ../views/components/step-switches.jade:264
+msgid "Skip stop"
+msgstr ""
+
+#: ../views/components/step-switches.jade:267
+msgid "You should cancel the booking before skipping it."
+msgstr ""
+
+#: ../views/components/step-switches.jade:269
+msgid "Are you sure you want to skip this stop?"
+msgstr ""
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/components/tour-lodging.jade:3 ../views/welcome/blurbs.jade:78
@@ -8531,18 +8546,18 @@ msgstr ""
 msgid "Lodging search"
 msgstr "Ricerca alloggio"
 
-#: ../views/welcome/errors.jade:6
+#. L10n: the curly brackets {} stand for the user name
+#: ../views/welcome/errors.jade:3
+msgid "Cannot register user {}"
+msgstr "Impossibile registrare utente {}"
+
+#: ../views/welcome/errors.jade:4
 msgid "Invalid name and password combination (both are case-sensitive)."
 msgstr ""
 "Combinazione di nome e password non valida (entrambi usano maiuscole e "
 "minuscole)."
 
-#. L10n: the curly brackets {} stand for the user name
 #: ../views/welcome/errors.jade:9
-msgid "Cannot register user {}"
-msgstr "Impossibile registrare utente {}"
-
-#: ../views/welcome/errors.jade:12
 msgid "Forgot your password?"
 msgstr "Hai dimenticato la password?"
 
@@ -8655,85 +8670,122 @@ msgstr ""
 "l'itinerario, controllare il percorso sulla mappa, trovare altre attrazioni "
 "e le opzioni di alloggio."
 
-#~ msgid "See description of this curiosity"
-#~ msgstr "Vedi la descrizione di questo posto curioso"
-
-#~ msgid "Stop at this curiosity"
-#~ msgstr "Fermati in questo posto curioso"
-
-#~ msgid "Add this curiosity as a skipped stop"
-#~ msgstr "Aggiungi questo posto curioso come una sosta saltata"
-
-#~ msgid "Fold this curiosity details"
-#~ msgstr "Chiudi dettagli di posti curiosi"
-
-#~ msgid "Hide curiosities"
-#~ msgstr "Nascondi posti curiosi"
-
-#~ msgid "Curiosities"
-#~ msgstr "Posti curiosi"
-
-#~ msgid "See description of this airport"
-#~ msgstr "Vedi la descrizione di questo aeroporto"
-
-#~ msgid "Stop at this airport"
-#~ msgstr "Fermati a questo aeroporto"
+#~ msgid "ATV trail"
+#~ msgstr "Sentiero per ATV"
 
 #~ msgid "Add this airport as a skipped stop"
 #~ msgstr "Aggiungi questo aeroporto come una sosta saltata"
 
-#~ msgid "Fold this airport details"
-#~ msgstr "Chiudi i dettagli di questo aeroporto"
+#~ msgid "Add this curiosity as a skipped stop"
+#~ msgstr "Aggiungi questo posto curioso come una sosta saltata"
 
-#~ msgid ""
-#~ "Invite selected friends to help you plan road trip. They will have full "
-#~ "access to the trip, will be able to add, remove, and modify stops, the "
-#~ "same way you do."
-#~ msgstr ""
-#~ "Invita amici selezionati per aiutarti a pianificare un viaggio su strada. "
-#~ "Avranno accesso completo al viaggio, saranno in grado di aggiungere, "
-#~ "rimuovere e modificare le soste allo stesso modo di come puoi fare tu."
+#~ msgid "Add this farmers market as a skipped stop"
+#~ msgstr "Aggiungi questo mercato agricolo come una sosta saltata"
 
-#~ msgid ""
-#~ "Type email addresses of the friends you want to invite in the field below."
-#~ msgstr ""
-#~ "Digita gli indirizzi e-mail degli amici da invitare nel campo sottostante."
+#~ msgid "Add this restaurant as a skipped stop"
+#~ msgstr "Aggiungi questo ristorante come una sosta saltata"
 
-#~ msgid "Email addresses of your friends"
-#~ msgstr "Indirizzi e-mail dei tuoi amici"
+#, fuzzy
+#~ msgid "Add this winery as a skipped stop"
+#~ msgstr "Aggiungi questa cantina come una sosta saltata"
 
-#~ msgid "Restrict friends to viewing the trip only"
-#~ msgstr "Limita gli amici a visualizzare solo il viaggio"
+#~ msgid "Beach"
+#~ msgstr "Spiaggia"
+
+#~ msgid "Bicycle path"
+#~ msgstr "Pista ciclabile"
+
+#~ msgid "Charging station"
+#~ msgstr "Stazione di ricarica"
 
 #~ msgid "Click to edit the invitation"
 #~ msgstr "Fai clic per modificare l'invito"
 
+#~ msgid "Climbing route"
+#~ msgstr "Via di arrampicata"
+
+#~ msgid "Coffee shop"
+#~ msgstr "Caffè"
+
+#~ msgid "Curiosities"
+#~ msgstr "Posti curiosi"
+
+#~ msgid "Deal or discount"
+#~ msgstr "Offerta o sconto"
+
+#~ msgid "Dive site"
+#~ msgstr "Sito per immersioni"
+
+#~ msgid "Driving route"
+#~ msgstr "Strada asfaltata"
+
+#~ msgid "Email addresses of your friends"
+#~ msgstr "Indirizzi e-mail dei tuoi amici"
+
+#~ msgid "End Trip"
+#~ msgstr "Fine Viaggio"
+
+#~ msgid "Farmers markets"
+#~ msgstr "Mercati agricoli"
+
+#~ msgid ""
+#~ "Feel free to sign up for a new account with Furkot and start planning a "
+#~ "new trip right away:"
+#~ msgstr ""
+#~ "Sentitevi liberi di iscrivervi con un nuovo account Furkot e iniziare a "
+#~ "pianificare un nuovo viaggio da subito:"
+
+#~ msgid "Fold this airport details"
+#~ msgstr "Chiudi i dettagli di questo aeroporto"
+
+#~ msgid "Fold this curiosity details"
+#~ msgstr "Chiudi dettagli di posti curiosi"
+
+#~ msgid "Fold this farmers market details"
+#~ msgstr "Chiudi i dettagli di questo mercato agricolo"
+
+#~ msgid "Fold this restaurant details"
+#~ msgstr "Chiudi i dettagli di questo ristorante"
+
+#, fuzzy
+#~ msgid "Fold this winery details"
+#~ msgstr "Chiudi la descrizione di questa cantina"
+
+#~ msgid "Follow Furkot"
+#~ msgstr "Segui Furkot"
+
 #~ msgid "From"
 #~ msgstr "Da"
 
-#~ msgid "Your email address"
-#~ msgstr "Il tuo indirizzo e-mail"
+#~ msgid "Gas station"
+#~ msgstr "Stazione di rifornimento"
 
-#~ msgid "Save your email address for future use"
-#~ msgstr "Salva il tuo indirizzo e-mail per un utilizzo futuro"
+#~ msgid "Hide curiosities"
+#~ msgstr "Nascondi posti curiosi"
 
-#~ msgid "Save for future use"
-#~ msgstr "Salva per uso futuro"
-
-#~ msgid "No end date."
-#~ msgstr "Nessuna data di fine."
-
-#~ msgid "This feature is available to Furkot Pass holders."
-#~ msgstr "Questa funzione è riservata ai titolari di Furkot Pass."
+#~ msgid "Hide farmers markets"
+#~ msgstr "Nascondi mercati agricoli"
 
 #, fuzzy
-#~ msgid "Show Phone"
-#~ msgstr "Mostra numero di telefono"
+#~ msgid "Hide wineries"
+#~ msgstr "Nascondi cantine"
+
+#~ msgid "Highways"
+#~ msgstr "Autostrade"
+
+#~ msgid "Historical site or landmark"
+#~ msgstr "Siti storico o punto di riferimento"
+
+#~ msgid "I will manage refueling stops myself"
+#~ msgstr "Gestirò da solo i rifornimenti"
 
 #, fuzzy
-#~ msgid "We couldn't find an account associated with your email."
+#~ msgid ""
+#~ "If you tried out Furkot as a guest (without signing up for an account), "
+#~ "you cannot reset a password."
 #~ msgstr ""
-#~ "Siamo riusciti a trovare un account associato con il tuo indirizzo email."
+#~ "Se provato Furkot come ospite (senza la firma per un account), non è "
+#~ "possibile reimpostare una password."
 
 #, fuzzy
 #~ msgid ""
@@ -8746,17 +8798,167 @@ msgstr ""
 #~ "accedere ai vostri viaggi previsti."
 
 #, fuzzy
+#~ msgid ""
+#~ "In case you provided a different email address when signing up, please "
+#~ "input it on this page:"
+#~ msgstr ""
+#~ "Nel caso in cui hai fornito un indirizzo email diverso al momento della "
+#~ "firma, ingresso per favore in questa pagina:"
+
+#~ msgid ""
+#~ "Invite selected friends to help you plan road trip. They will have full "
+#~ "access to the trip, will be able to add, remove, and modify stops, the "
+#~ "same way you do."
+#~ msgstr ""
+#~ "Invita amici selezionati per aiutarti a pianificare un viaggio su strada. "
+#~ "Avranno accesso completo al viaggio, saranno in grado di aggiungere, "
+#~ "rimuovere e modificare le soste allo stesso modo di come puoi fare tu."
+
+#~ msgid "Like Furkot"
+#~ msgstr "Metti un Like a Furkot"
+
+#~ msgid "Motorcycle route"
+#~ msgstr "Percorso motociclistico"
+
+#~ msgid "Movie"
+#~ msgstr "Cinema"
+
+#~ msgid "Museum"
+#~ msgstr "Museo"
+
+#~ msgid "No end date."
+#~ msgstr "Nessuna data di fine."
+
+#~ msgid "Offroad route"
+#~ msgstr "Percorso fuoristrada"
+
+#~ msgid "One way trip from start to end point"
+#~ msgstr "Viaggio di sola andata dal punto di inizio a quello di fine"
+
+#~ msgid "Overlook"
+#~ msgstr "Punto panoramico"
+
+#~ msgid "Park"
+#~ msgstr "Parco"
+
+#~ msgid "Picnic"
+#~ msgstr "Pic-nic"
+
+#, fuzzy
+#~ msgid "Recommended restaurants"
+#~ msgstr "Ristoranti consigliati"
+
+#~ msgid "Regular"
+#~ msgstr "Regolare"
+
+#~ msgid "Restaurant"
+#~ msgstr "Ristorante"
+
+#~ msgid "Restrict friends to viewing the trip only"
+#~ msgstr "Limita gli amici a visualizzare solo il viaggio"
+
+#~ msgid "Save for future use"
+#~ msgstr "Salva per uso futuro"
+
+#~ msgid "Save your email address for future use"
+#~ msgstr "Salva il tuo indirizzo e-mail per un utilizzo futuro"
+
+#~ msgid "See description of this airport"
+#~ msgstr "Vedi la descrizione di questo aeroporto"
+
+#~ msgid "See description of this curiosity"
+#~ msgstr "Vedi la descrizione di questo posto curioso"
+
+#, fuzzy
+#~ msgid "See description of this winery"
+#~ msgstr "Vedi la descrizione di questa cantina"
+
+#~ msgid "See this farmers market own website"
+#~ msgstr "Vedi il sito web di questo mercato agricolo"
+
+#~ msgid "See this restaurant own website"
+#~ msgstr "Vedi il sito web di questo ristorante"
+
+#, fuzzy
+#~ msgid "See this restaurant page"
+#~ msgstr "Vedi la pagina di questo ristorante"
+
+#, fuzzy
+#~ msgid "See this winery own website"
+#~ msgstr "Vedi il sito web di questa cantina"
+
+#, fuzzy
+#~ msgid "Show Phone"
+#~ msgstr "Mostra numero di telefono"
+
+#~ msgid "Skiing"
+#~ msgstr "Pista da Sci"
+
+#~ msgid "Snowshoeing"
+#~ msgstr "Racchette da neve"
+
+#~ msgid "Stop and eat at this restaurant"
+#~ msgstr "Fermati a mangiare in questo ristorante"
+
+#~ msgid "Stop at this airport"
+#~ msgstr "Fermati a questo aeroporto"
+
+#~ msgid "Stop at this curiosity"
+#~ msgstr "Fermati in questo posto curioso"
+
+#~ msgid "Stop at this farmers market"
+#~ msgstr "Sosta a questo mercato agricolo"
+
+#, fuzzy
+#~ msgid "Stop at this winery"
+#~ msgstr "Fermati in questa cantina"
+
+#~ msgid "Surf spot"
+#~ msgstr "Posto da surf"
+
+#~ msgid "Theater"
+#~ msgstr "Teatro"
+
+#~ msgid "This feature is available to Furkot Pass holders."
+#~ msgstr "Questa funzione è riservata ai titolari di Furkot Pass."
+
+#~ msgid "Toll Roads"
+#~ msgstr "Pedaggi"
+
+#~ msgid "Trajectory"
+#~ msgstr "Traiettoria"
+
+#~ msgid "Travel Limits"
+#~ msgstr "Limiti di viaggio"
+
+#~ msgid "Travel non-stop"
+#~ msgstr "Viaggio non-stop"
+
+#, fuzzy
 #~ msgid "Try using your social media account again to sign in:"
 #~ msgstr ""
 #~ "Provare a utilizzare nuovamente l'account servizio sociale per accedere:"
 
-#, fuzzy
 #~ msgid ""
-#~ "If you tried out Furkot as a guest (without signing up for an account), "
-#~ "you cannot reset a password."
+#~ "Type email addresses of the friends you want to invite in the field below."
 #~ msgstr ""
-#~ "Se provato Furkot come ospite (senza la firma per un account), non è "
-#~ "possibile reimpostare una password."
+#~ "Digita gli indirizzi e-mail degli amici da invitare nel campo sottostante."
+
+#, fuzzy
+#~ msgid "We couldn't find an account associated with your email."
+#~ msgstr ""
+#~ "Siamo riusciti a trovare un account associato con il tuo indirizzo email."
+
+#~ msgid "Weekends"
+#~ msgstr "Fine Settimana"
+
+#, fuzzy
+#~ msgid "Wineries and vineyards"
+#~ msgstr "Cantine e vigneti"
+
+#, fuzzy
+#~ msgid "You can always move trips between accounts later on."
+#~ msgstr "È sempre possibile spostare i viaggi tra conti in seguito."
 
 #, fuzzy
 #~ msgid ""
@@ -8766,195 +8968,8 @@ msgstr ""
 #~ "Si dovrà utilizzare lo stesso computer e il browser per accedere ai "
 #~ "vostri viaggi previsti."
 
-#, fuzzy
-#~ msgid ""
-#~ "In case you provided a different email address when signing up, please "
-#~ "input it on this page:"
-#~ msgstr ""
-#~ "Nel caso in cui hai fornito un indirizzo email diverso al momento della "
-#~ "firma, ingresso per favore in questa pagina:"
-
-#~ msgid ""
-#~ "Feel free to sign up for a new account with Furkot and start planning a "
-#~ "new trip right away:"
-#~ msgstr ""
-#~ "Sentitevi liberi di iscrivervi con un nuovo account Furkot e iniziare a "
-#~ "pianificare un nuovo viaggio da subito:"
-
-#, fuzzy
-#~ msgid "You can always move trips between accounts later on."
-#~ msgstr "È sempre possibile spostare i viaggi tra conti in seguito."
-
-#~ msgid "See this farmers market own website"
-#~ msgstr "Vedi il sito web di questo mercato agricolo"
-
-#~ msgid "Stop at this farmers market"
-#~ msgstr "Sosta a questo mercato agricolo"
-
-#~ msgid "Add this farmers market as a skipped stop"
-#~ msgstr "Aggiungi questo mercato agricolo come una sosta saltata"
-
-#~ msgid "Fold this farmers market details"
-#~ msgstr "Chiudi i dettagli di questo mercato agricolo"
-
-#~ msgid "Hide farmers markets"
-#~ msgstr "Nascondi mercati agricoli"
-
-#~ msgid "Farmers markets"
-#~ msgstr "Mercati agricoli"
-
-#, fuzzy
-#~ msgid "See this restaurant page"
-#~ msgstr "Vedi la pagina di questo ristorante"
-
-#~ msgid "See this restaurant own website"
-#~ msgstr "Vedi il sito web di questo ristorante"
-
-#~ msgid "Stop and eat at this restaurant"
-#~ msgstr "Fermati a mangiare in questo ristorante"
-
-#~ msgid "Add this restaurant as a skipped stop"
-#~ msgstr "Aggiungi questo ristorante come una sosta saltata"
-
-#~ msgid "Fold this restaurant details"
-#~ msgstr "Chiudi i dettagli di questo ristorante"
-
-#, fuzzy
-#~ msgid "Recommended restaurants"
-#~ msgstr "Ristoranti consigliati"
-
-#, fuzzy
-#~ msgid "See description of this winery"
-#~ msgstr "Vedi la descrizione di questa cantina"
-
-#, fuzzy
-#~ msgid "See this winery own website"
-#~ msgstr "Vedi il sito web di questa cantina"
-
-#, fuzzy
-#~ msgid "Stop at this winery"
-#~ msgstr "Fermati in questa cantina"
-
-#, fuzzy
-#~ msgid "Add this winery as a skipped stop"
-#~ msgstr "Aggiungi questa cantina come una sosta saltata"
-
-#, fuzzy
-#~ msgid "Fold this winery details"
-#~ msgstr "Chiudi la descrizione di questa cantina"
-
-#, fuzzy
-#~ msgid "Hide wineries"
-#~ msgstr "Nascondi cantine"
-
-#, fuzzy
-#~ msgid "Wineries and vineyards"
-#~ msgstr "Cantine e vigneti"
-
-#~ msgid "Regular"
-#~ msgstr "Regolare"
-
-#~ msgid "Toll Roads"
-#~ msgstr "Pedaggi"
-
-#~ msgid "Highways"
-#~ msgstr "Autostrade"
-
-#~ msgid "Like Furkot"
-#~ msgstr "Metti un Like a Furkot"
-
-#~ msgid "Follow Furkot"
-#~ msgstr "Segui Furkot"
-
-#~ msgid "Deal or discount"
-#~ msgstr "Offerta o sconto"
-
-#~ msgid "Charging station"
-#~ msgstr "Stazione di ricarica"
-
-#~ msgid "Gas station"
-#~ msgstr "Stazione di rifornimento"
-
-#~ msgid "Coffee shop"
-#~ msgstr "Caffè"
-
-#~ msgid "Restaurant"
-#~ msgstr "Ristorante"
-
-#~ msgid "Beach"
-#~ msgstr "Spiaggia"
-
-#~ msgid "Surf spot"
-#~ msgstr "Posto da surf"
-
-#~ msgid "Dive site"
-#~ msgstr "Sito per immersioni"
-
-#~ msgid "Snowshoeing"
-#~ msgstr "Racchette da neve"
-
-#~ msgid "Skiing"
-#~ msgstr "Pista da Sci"
-
-#~ msgid "Climbing route"
-#~ msgstr "Via di arrampicata"
-
-#~ msgid "Picnic"
-#~ msgstr "Pic-nic"
-
-#~ msgid "Overlook"
-#~ msgstr "Punto panoramico"
-
-#~ msgid "Driving route"
-#~ msgstr "Strada asfaltata"
-
-#~ msgid "Offroad route"
-#~ msgstr "Percorso fuoristrada"
-
-#~ msgid "ATV trail"
-#~ msgstr "Sentiero per ATV"
-
-#~ msgid "Motorcycle route"
-#~ msgstr "Percorso motociclistico"
-
-#~ msgid "Bicycle path"
-#~ msgstr "Pista ciclabile"
-
-#~ msgid "Park"
-#~ msgstr "Parco"
+#~ msgid "Your email address"
+#~ msgstr "Il tuo indirizzo e-mail"
 
 #~ msgid "Zoo, aquarium or wildlife viewing"
 #~ msgstr "Zoo, acquario o area di osservazione fauna selvatica"
-
-#~ msgid "Movie"
-#~ msgstr "Cinema"
-
-#~ msgid "Theater"
-#~ msgstr "Teatro"
-
-#~ msgid "Historical site or landmark"
-#~ msgstr "Siti storico o punto di riferimento"
-
-#~ msgid "Museum"
-#~ msgstr "Museo"
-
-#~ msgid "I will manage refueling stops myself"
-#~ msgstr "Gestirò da solo i rifornimenti"
-
-#~ msgid "Travel non-stop"
-#~ msgstr "Viaggio non-stop"
-
-#~ msgid "Travel Limits"
-#~ msgstr "Limiti di viaggio"
-
-#~ msgid "End Trip"
-#~ msgstr "Fine Viaggio"
-
-#~ msgid "Weekends"
-#~ msgstr "Fine Settimana"
-
-#~ msgid "One way trip from start to end point"
-#~ msgstr "Viaggio di sola andata dal punto di inizio a quello di fine"
-
-#~ msgid "Trajectory"
-#~ msgstr "Traiettoria"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-02-08 21:53+0100\n"
+"POT-Creation-Date: 2024-02-19 09:36+0100\n"
 "PO-Revision-Date: 2022-01-17 17:36+0000\n"
 "Last-Translator: Eduard Negrescu <eduard.negrescu@gmail.com>\n"
 "Language-Team: Romanian <https://translate.furkot.com/projects/furkot/trips/"
@@ -72,6 +72,7 @@ msgstr "Sugerează"
 #: ../views/components/step-switches.jade:229
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
+#: ../views/components/step-switches.jade:264
 #: ../views/components/trip-detail.jade:764
 #: ../views/components/trip-detail.jade:772
 #: ../views/components/trip-detail.jade:778
@@ -274,6 +275,7 @@ msgstr ""
 #: ../views/components/step-switches.jade:229
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
+#: ../views/components/step-switches.jade:264
 #: ../views/components/translate.jade:2
 #: ../views/components/trip-detail.jade:764
 #: ../views/components/trip-detail.jade:772
@@ -6815,6 +6817,7 @@ msgid "Are you sure you want to delete this stop?"
 msgstr "Ești sigur că vrei să ștergi această oprire?"
 
 #: ../views/components/step-switches.jade:184
+#: ../views/components/step-switches.jade:266
 msgid "This stop represents a confirmed booking."
 msgstr "Această oprire reprezintă o rezervare confirmată."
 
@@ -6927,6 +6930,18 @@ msgid ""
 msgstr ""
 "Alternativ, poți schimba modul de călătorie pentru această rută dacă nu vrei "
 "ca Furkot să programeze aeroporturile."
+
+#: ../views/components/step-switches.jade:264
+msgid "Skip stop"
+msgstr ""
+
+#: ../views/components/step-switches.jade:267
+msgid "You should cancel the booking before skipping it."
+msgstr ""
+
+#: ../views/components/step-switches.jade:269
+msgid "Are you sure you want to skip this stop?"
+msgstr ""
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/components/tour-lodging.jade:3 ../views/welcome/blurbs.jade:78
@@ -8540,18 +8555,18 @@ msgstr ""
 msgid "Lodging search"
 msgstr "Căutare cazare"
 
-#: ../views/welcome/errors.jade:6
+#. L10n: the curly brackets {} stand for the user name
+#: ../views/welcome/errors.jade:3
+msgid "Cannot register user {}"
+msgstr "Nu se poate înregistra utilizatorul {}"
+
+#: ../views/welcome/errors.jade:4
 msgid "Invalid name and password combination (both are case-sensitive)."
 msgstr ""
 "Combinație nevalidă de nume și parolă (ambele sunt sensibile la litere mari "
 "și mici)."
 
-#. L10n: the curly brackets {} stand for the user name
 #: ../views/welcome/errors.jade:9
-msgid "Cannot register user {}"
-msgstr "Nu se poate înregistra utilizatorul {}"
-
-#: ../views/welcome/errors.jade:12
 msgid "Forgot your password?"
 msgstr "Ai uitat parola?"
 
@@ -8668,74 +8683,46 @@ msgstr ""
 "finaliza itinerariul călătoriei, pentru a vizualiza traseul pe hartă, pentru "
 "a găsi mai multe atracții și opțiuni de cazare."
 
-#, fuzzy
-#~ msgid "See description of this curiosity"
-#~ msgstr "Vezi descrierea acestei curiozități"
-
-#~ msgid "Stop at this curiosity"
-#~ msgstr "Oprește-te la această curiozitate"
+#~ msgid "ATV trail"
+#~ msgstr "Traseu ATV"
 
 #~ msgid "Add this curiosity as a skipped stop"
 #~ msgstr "Adaugă această curiozitate ca o oprire omisă"
 
-#~ msgid "Fold this curiosity details"
-#~ msgstr "Restrânge detaliile acestei curiozități"
+#~ msgid "Beach"
+#~ msgstr "Plajă"
 
-#, fuzzy
-#~ msgid "Hide curiosities"
-#~ msgstr "Ascunde curiozități"
+#~ msgid "Bicycle path"
+#~ msgstr "Pista de biciclete"
+
+#~ msgid "Charging station"
+#~ msgstr "Stație de încărcare"
+
+#~ msgid "Click to edit the invitation"
+#~ msgstr "Clic pentru a edita invitația"
+
+#~ msgid "Climbing route"
+#~ msgstr "Traseu de alpinism"
+
+#~ msgid "Coffee shop"
+#~ msgstr "Cafenea"
 
 #, fuzzy
 #~ msgid "Curiosities"
 #~ msgstr "Curiozităţi"
 
-#~ msgid ""
-#~ "Invite selected friends to help you plan road trip. They will have full "
-#~ "access to the trip, will be able to add, remove, and modify stops, the "
-#~ "same way you do."
-#~ msgstr ""
-#~ "Invita-ți prietenii selectați pentru a te ajuta să planifici călătora. Ei "
-#~ "vor avea acces complet la călătorie, vor putea adăuga, elimina și "
-#~ "modifica opririle, la fel ca tine."
+#~ msgid "Deal or discount"
+#~ msgstr "Ofertă sau reducere"
 
-#~ msgid ""
-#~ "Type email addresses of the friends you want to invite in the field below."
-#~ msgstr ""
-#~ "Tastează în câmpul de mai jos adresele de e-Mail ale prietenilor pe care "
-#~ "dorești să-i inviti."
+#~ msgid "Dive site"
+#~ msgstr "Loc pentru scufundări"
+
+#, fuzzy
+#~ msgid "Driving route"
+#~ msgstr "Drum pentru masină"
 
 #~ msgid "Email addresses of your friends"
 #~ msgstr "Adresele de e-Mail ale prietenilor tăi"
-
-#~ msgid "Restrict friends to viewing the trip only"
-#~ msgstr "Restricționează prietenii doar ca să vizualizeze călătoria"
-
-#~ msgid "Click to edit the invitation"
-#~ msgstr "Clic pentru a edita invitația"
-
-#~ msgid "From"
-#~ msgstr "De la"
-
-#~ msgid "Your email address"
-#~ msgstr "Adresa ta de e-Mail"
-
-#~ msgid "Save your email address for future use"
-#~ msgstr "Salvează adresa de e-Mail pentru utilizare ulterioară"
-
-#~ msgid "Save for future use"
-#~ msgstr "Salvează pentru utilizare ulterioară"
-
-#~ msgid "Highways"
-#~ msgstr "Autostrăzi"
-
-#~ msgid "Toll Roads"
-#~ msgstr "Drumuri cu taxă"
-
-#~ msgid "Fold this farmers market details"
-#~ msgstr "Restrânge detaliile acestei piețe de fermieri"
-
-#~ msgid "You can always move trips between accounts later on."
-#~ msgstr "Poi oricând mai târziu să muți călătoriile între conturi."
 
 #~ msgid ""
 #~ "Feel free to sign up for a new account with Furkot and start planning a "
@@ -8744,19 +8731,33 @@ msgstr ""
 #~ "Fără probleme, poți să te inscrii pentru un cont nou cu Furkot și să "
 #~ "începi să planifici imediat o nouă călătorie:"
 
-#~ msgid ""
-#~ "In case you provided a different email address when signing up, please "
-#~ "input it on this page:"
-#~ msgstr ""
-#~ "În cazul în care ai furnizat o altă adresă de e-mail atunci când te-ai "
-#~ "înscris, te rog să o introduci pe această pagină:"
+#~ msgid "Fold this curiosity details"
+#~ msgstr "Restrânge detaliile acestei curiozități"
 
-#~ msgid ""
-#~ "You will have to use the same computer and browser to access your planned "
-#~ "trips."
-#~ msgstr ""
-#~ "Va trebui să utilizezi același computer și același browser pentru a-ți "
-#~ "accesa călătoriile planificate."
+#~ msgid "Fold this farmers market details"
+#~ msgstr "Restrânge detaliile acestei piețe de fermieri"
+
+#~ msgid "Follow Furkot"
+#~ msgstr "Urmărește Furkot"
+
+#~ msgid "From"
+#~ msgstr "De la"
+
+#~ msgid "Gas station"
+#~ msgstr "Benzinărie"
+
+#, fuzzy
+#~ msgid "Hide curiosities"
+#~ msgstr "Ascunde curiozități"
+
+#~ msgid "Highways"
+#~ msgstr "Autostrăzi"
+
+#~ msgid "Historical site or landmark"
+#~ msgstr "Sit istoric sau reper"
+
+#~ msgid "I will manage refueling stops myself"
+#~ msgstr "Voi gestiona singur opririle de realimentare"
 
 #~ msgid ""
 #~ "If you tried out Furkot as a guest (without signing up for an account), "
@@ -8764,11 +8765,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Dacă ai încercat Furkot ca oaspete (fără a te înscrie pentru un cont), nu "
 #~ "poți reseta o parolă."
-
-#~ msgid "Try using your social media account again to sign in:"
-#~ msgstr ""
-#~ "Încearcă să folosești din nou contul tău de social media pentru a te "
-#~ "conecta:"
 
 #~ msgid ""
 #~ "If you used your social media account (Facebook, Google, Twitter, "
@@ -8779,104 +8775,123 @@ msgstr ""
 #~ "Foursquare sau TripIt), nu ai nevoie de o parolă Furkot separată pentru a "
 #~ "accesa călătoriile planificate."
 
-#~ msgid "We couldn't find an account associated with your email."
-#~ msgstr "Nu am putut găsi un cont asociat cu e-mailul tau."
-
-#~ msgid "Show Phone"
-#~ msgstr "Arată numar de telefon"
-
-#~ msgid "This feature is available to Furkot Pass holders."
+#~ msgid ""
+#~ "In case you provided a different email address when signing up, please "
+#~ "input it on this page:"
 #~ msgstr ""
-#~ "Această caracteristică este disponibilă pentru deținătorii de Furkot Pass."
+#~ "În cazul în care ai furnizat o altă adresă de e-mail atunci când te-ai "
+#~ "înscris, te rog să o introduci pe această pagină:"
 
-#~ msgid "No end date."
-#~ msgstr "Fără dată de încheiere."
+#~ msgid ""
+#~ "Invite selected friends to help you plan road trip. They will have full "
+#~ "access to the trip, will be able to add, remove, and modify stops, the "
+#~ "same way you do."
+#~ msgstr ""
+#~ "Invita-ți prietenii selectați pentru a te ajuta să planifici călătora. Ei "
+#~ "vor avea acces complet la călătorie, vor putea adăuga, elimina și "
+#~ "modifica opririle, la fel ca tine."
 
 #~ msgid "Like Furkot"
 #~ msgstr "Like Furkot"
 
-#~ msgid "Follow Furkot"
-#~ msgstr "Urmărește Furkot"
-
-#~ msgid "Deal or discount"
-#~ msgstr "Ofertă sau reducere"
-
-#~ msgid "Charging station"
-#~ msgstr "Stație de încărcare"
-
-#~ msgid "Gas station"
-#~ msgstr "Benzinărie"
-
-#~ msgid "Coffee shop"
-#~ msgstr "Cafenea"
-
-#~ msgid "Restaurant"
-#~ msgstr "Restaurant"
-
-#~ msgid "Beach"
-#~ msgstr "Plajă"
-
-#~ msgid "Surf spot"
-#~ msgstr "Loc pentru surfing"
-
-#~ msgid "Dive site"
-#~ msgstr "Loc pentru scufundări"
-
-#~ msgid "Snowshoeing"
-#~ msgstr "Mers pe zapada cu rachete"
-
-#~ msgid "Skiing"
-#~ msgstr "Schi"
-
-#~ msgid "Climbing route"
-#~ msgstr "Traseu de alpinism"
-
-#~ msgid "Picnic"
-#~ msgstr "Picnic"
-
-#, fuzzy
-#~ msgid "Driving route"
-#~ msgstr "Drum pentru masină"
-
-#~ msgid "Offroad route"
-#~ msgstr "Traseu offroad"
-
-#~ msgid "ATV trail"
-#~ msgstr "Traseu ATV"
-
 #~ msgid "Motorcycle route"
 #~ msgstr "Traseu de motociclism"
-
-#~ msgid "Bicycle path"
-#~ msgstr "Pista de biciclete"
-
-#~ msgid "Park"
-#~ msgstr "Parc"
-
-#~ msgid "Zoo, aquarium or wildlife viewing"
-#~ msgstr "Grădină zoologică, acvariu sau observare faunei sălbatice"
 
 #~ msgid "Movie"
 #~ msgstr "Film"
 
-#~ msgid "Theater"
-#~ msgstr "Teatru"
-
-#~ msgid "Historical site or landmark"
-#~ msgstr "Sit istoric sau reper"
-
 #~ msgid "Museum"
 #~ msgstr "Muzeu"
 
-#~ msgid "I will manage refueling stops myself"
-#~ msgstr "Voi gestiona singur opririle de realimentare"
+#~ msgid "No end date."
+#~ msgstr "Fără dată de încheiere."
 
-#~ msgid "Weekends"
-#~ msgstr "Weekend"
+#~ msgid "Offroad route"
+#~ msgstr "Traseu offroad"
 
 #~ msgid "One way trip from start to end point"
 #~ msgstr ""
 #~ "Călătorie într-un singur sens, începută la un punct și final la alt punct"
 
+#~ msgid "Park"
+#~ msgstr "Parc"
+
+#~ msgid "Picnic"
+#~ msgstr "Picnic"
+
+#~ msgid "Restaurant"
+#~ msgstr "Restaurant"
+
+#~ msgid "Restrict friends to viewing the trip only"
+#~ msgstr "Restricționează prietenii doar ca să vizualizeze călătoria"
+
+#~ msgid "Save for future use"
+#~ msgstr "Salvează pentru utilizare ulterioară"
+
+#~ msgid "Save your email address for future use"
+#~ msgstr "Salvează adresa de e-Mail pentru utilizare ulterioară"
+
+#, fuzzy
+#~ msgid "See description of this curiosity"
+#~ msgstr "Vezi descrierea acestei curiozități"
+
+#~ msgid "Show Phone"
+#~ msgstr "Arată numar de telefon"
+
+#~ msgid "Skiing"
+#~ msgstr "Schi"
+
+#~ msgid "Snowshoeing"
+#~ msgstr "Mers pe zapada cu rachete"
+
+#~ msgid "Stop at this curiosity"
+#~ msgstr "Oprește-te la această curiozitate"
+
+#~ msgid "Surf spot"
+#~ msgstr "Loc pentru surfing"
+
+#~ msgid "Theater"
+#~ msgstr "Teatru"
+
+#~ msgid "This feature is available to Furkot Pass holders."
+#~ msgstr ""
+#~ "Această caracteristică este disponibilă pentru deținătorii de Furkot Pass."
+
+#~ msgid "Toll Roads"
+#~ msgstr "Drumuri cu taxă"
+
 #~ msgid "Trajectory"
 #~ msgstr "Felul traseului"
+
+#~ msgid "Try using your social media account again to sign in:"
+#~ msgstr ""
+#~ "Încearcă să folosești din nou contul tău de social media pentru a te "
+#~ "conecta:"
+
+#~ msgid ""
+#~ "Type email addresses of the friends you want to invite in the field below."
+#~ msgstr ""
+#~ "Tastează în câmpul de mai jos adresele de e-Mail ale prietenilor pe care "
+#~ "dorești să-i inviti."
+
+#~ msgid "We couldn't find an account associated with your email."
+#~ msgstr "Nu am putut găsi un cont asociat cu e-mailul tau."
+
+#~ msgid "Weekends"
+#~ msgstr "Weekend"
+
+#~ msgid "You can always move trips between accounts later on."
+#~ msgstr "Poi oricând mai târziu să muți călătoriile între conturi."
+
+#~ msgid ""
+#~ "You will have to use the same computer and browser to access your planned "
+#~ "trips."
+#~ msgstr ""
+#~ "Va trebui să utilizezi același computer și același browser pentru a-ți "
+#~ "accesa călătoriile planificate."
+
+#~ msgid "Your email address"
+#~ msgstr "Adresa ta de e-Mail"
+
+#~ msgid "Zoo, aquarium or wildlife viewing"
+#~ msgstr "Grădină zoologică, acvariu sau observare faunei sălbatice"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-02-08 21:53+0100\n"
+"POT-Creation-Date: 2024-02-19 09:36+0100\n"
 "PO-Revision-Date: 2023-12-12 19:04+0000\n"
 "Last-Translator: Marina <mpenoumarina@gmail.com>\n"
 "Language-Team: Greek <https://translate.furkot.com/projects/furkot/trips/el/"
@@ -71,6 +71,7 @@ msgstr "Προτείνετε"
 #: ../views/components/step-switches.jade:229
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
+#: ../views/components/step-switches.jade:264
 #: ../views/components/trip-detail.jade:764
 #: ../views/components/trip-detail.jade:772
 #: ../views/components/trip-detail.jade:778
@@ -278,6 +279,7 @@ msgstr "Αποσύνδεση λογαριασμού"
 #: ../views/components/step-switches.jade:229
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
+#: ../views/components/step-switches.jade:264
 #: ../views/components/translate.jade:2
 #: ../views/components/trip-detail.jade:764
 #: ../views/components/trip-detail.jade:772
@@ -7114,6 +7116,7 @@ msgid "Are you sure you want to delete this stop?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη στάση;"
 
 #: ../views/components/step-switches.jade:184
+#: ../views/components/step-switches.jade:266
 #, fuzzy
 msgid "This stop represents a confirmed booking."
 msgstr "Αυτή η στάση αποτελεί μια επιβεβαιωμένη κράτηση."
@@ -7236,6 +7239,18 @@ msgid ""
 msgstr ""
 "Εναλλακτικά μπορείτε να αλλάξετε τη λειτουργία ταξίδι για αυτή τη διαδρομή, "
 "εάν δεν θέλετε να Furkot για τον προγραμματισμό των αεροδρομίων."
+
+#: ../views/components/step-switches.jade:264
+msgid "Skip stop"
+msgstr ""
+
+#: ../views/components/step-switches.jade:267
+msgid "You should cancel the booking before skipping it."
+msgstr ""
+
+#: ../views/components/step-switches.jade:269
+msgid "Are you sure you want to skip this stop?"
+msgstr ""
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/components/tour-lodging.jade:3 ../views/welcome/blurbs.jade:78
@@ -8987,18 +9002,18 @@ msgstr ""
 msgid "Lodging search"
 msgstr "Αναζήτηση καταλύματος"
 
-#: ../views/welcome/errors.jade:6
+#. L10n: the curly brackets {} stand for the user name
+#: ../views/welcome/errors.jade:3
+msgid "Cannot register user {}"
+msgstr "Δεν είναι δυνατή η εγγραφή του χρήστη {}"
+
+#: ../views/welcome/errors.jade:4
 msgid "Invalid name and password combination (both are case-sensitive)."
 msgstr ""
 "Συνδυασμός μη έγκυρου ονόματος και κωδικού πρόσβασης (και τα δύο κάνουν "
 "διάκριση πεζών-κεφαλαίων)."
 
-#. L10n: the curly brackets {} stand for the user name
 #: ../views/welcome/errors.jade:9
-msgid "Cannot register user {}"
-msgstr "Δεν είναι δυνατή η εγγραφή του χρήστη {}"
-
-#: ../views/welcome/errors.jade:12
 msgid "Forgot your password?"
 msgstr "Ξέχασες τον κωδικό πρόσβασης?"
 
@@ -9125,40 +9140,151 @@ msgstr ""
 "χάρτη, μάθετε περισσότερα αξιοθέατα και διαμονή επιλογές."
 
 #, fuzzy
-#~ msgid "See description of this curiosity"
-#~ msgstr "Δείτε την περιγραφή αυτού του τόπου"
-
-#, fuzzy
-#~ msgid "Stop at this curiosity"
-#~ msgstr "Σταματήστε αυτή την περιέργεια"
-
-#, fuzzy
-#~ msgid "Add this curiosity as a skipped stop"
-#~ msgstr "Προσθέστε αυτή η περιέργεια ως παραλειφθεί στάση"
-
-#, fuzzy
-#~ msgid "Fold this curiosity details"
-#~ msgstr "Διπλώστε αυτό λεπτομέρειες περιέργεια"
-
-#, fuzzy
-#~ msgid "Hide curiosities"
-#~ msgstr "Απόκρυψη ξενώνες"
-
-#, fuzzy
-#~ msgid "See description of this airport"
-#~ msgstr "Δείτε την περιγραφή αυτού του τόπου"
-
-#, fuzzy
-#~ msgid "Stop at this airport"
-#~ msgstr "Σταματήστε σε αυτό το αεροδρόμιο"
+#~ msgid "ATV trail"
+#~ msgstr "μονοπάτι ATV"
 
 #, fuzzy
 #~ msgid "Add this airport as a skipped stop"
 #~ msgstr "Πρόσθεσε το αεροδρόμιο ως παραλειφθεί στάση"
 
 #, fuzzy
+#~ msgid "Add this curiosity as a skipped stop"
+#~ msgstr "Προσθέστε αυτή η περιέργεια ως παραλειφθεί στάση"
+
+#, fuzzy
+#~ msgid "Add this farmers market as a skipped stop"
+#~ msgstr "Προσθέστε αυτή την αγορά αγροτών ως παραλειφθεί στάση"
+
+#, fuzzy
+#~ msgid "Add this restaurant as a skipped stop"
+#~ msgstr "Προσθέστε αυτό το εστιατόριο ως παραλειφθεί στάση"
+
+#, fuzzy
+#~ msgid "Add this winery as a skipped stop"
+#~ msgstr "Προσθέστε αυτό το οινοποιείο ως παραλειφθεί στάση"
+
+#~ msgid "Beach"
+#~ msgstr "Παραλία"
+
+#~ msgid "Bicycle path"
+#~ msgstr "Ποδηλατόδρομος"
+
+#~ msgid "Charging station"
+#~ msgstr "Σταθμός φόρτισης"
+
+#~ msgid "Click to edit the invitation"
+#~ msgstr "Κάντε κλικ για να επεξεργαστείτε την πρόσκληση"
+
+#~ msgid "Climbing route"
+#~ msgstr "Αναρριχητική διαδρομή"
+
+#~ msgid "Coffee shop"
+#~ msgstr "Καφετέρια"
+
+#~ msgid "Deal or discount"
+#~ msgstr "Προσφορά ή έκπτωση"
+
+#~ msgid "Dive site"
+#~ msgstr "Τοποθεσία κατάδυσης"
+
+#, fuzzy
+#~ msgid "Driving route"
+#~ msgstr "οδήγηση διαδρομή"
+
+#~ msgid "Email addresses of your friends"
+#~ msgstr "Διευθύνσεις ηλεκτρονικού ταχυδρομείου των φίλων σας"
+
+#~ msgid "End Trip"
+#~ msgstr "Τέλος ταξιδιού"
+
+#, fuzzy
+#~ msgid "Farmers markets"
+#~ msgstr "λαϊκές αγορές"
+
+#, fuzzy
+#~ msgid ""
+#~ "Feel free to sign up for a new account with Furkot and start planning a "
+#~ "new trip right away:"
+#~ msgstr ""
+#~ "Μη διστάσετε να εγγραφείτε για ένα νέο λογαριασμό με Furkot και να "
+#~ "αρχίσετε να σχεδιάζετε ένα νέο ταξίδι αμέσως:"
+
+#, fuzzy
 #~ msgid "Fold this airport details"
 #~ msgstr "Διπλώστε αυτό στοιχεία αεροδρομίου"
+
+#, fuzzy
+#~ msgid "Fold this curiosity details"
+#~ msgstr "Διπλώστε αυτό λεπτομέρειες περιέργεια"
+
+#, fuzzy
+#~ msgid "Fold this farmers market details"
+#~ msgstr "Διπλώστε αυτό λεπτομέρειες αγρότες της αγοράς"
+
+#, fuzzy
+#~ msgid "Fold this restaurant details"
+#~ msgstr "Διπλώστε αυτό στοιχεία εστιατορίου"
+
+#, fuzzy
+#~ msgid "Fold this winery details"
+#~ msgstr "Διπλώστε αυτό λεπτομέρειες οινοποιείο"
+
+#~ msgid "Follow Furkot"
+#~ msgstr "Ακολουθήστε το Furkot"
+
+#~ msgid "From"
+#~ msgstr "Από"
+
+#~ msgid "Gas station"
+#~ msgstr "Βενζινάδικο"
+
+#, fuzzy
+#~ msgid "Hide curiosities"
+#~ msgstr "Απόκρυψη ξενώνες"
+
+#, fuzzy
+#~ msgid "Hide farmers markets"
+#~ msgstr "Απόκρυψη αγορές αγροτών"
+
+#, fuzzy
+#~ msgid "Hide wineries"
+#~ msgstr "περιστατικά Πυρκαγιών"
+
+#~ msgid "Highways"
+#~ msgstr "αυτοκινητόδρομοι"
+
+#~ msgid "Historical site or landmark"
+#~ msgstr "Ιστορικός χώρος ή ορόσημο"
+
+#~ msgid "I will manage refueling stops myself"
+#~ msgstr "Θα διαχειριστώ μόνος μου τις στάσεις ανεφοδιασμού"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you tried out Furkot as a guest (without signing up for an account), "
+#~ "you cannot reset a password."
+#~ msgstr ""
+#~ "Αν έχετε δοκιμάσει Furkot ως επισκέπτης (χωρίς εγγραφή για έναν "
+#~ "λογαριασμό), δεν μπορείτε να επαναφέρετε τον κωδικό πρόσβασης."
+
+#, fuzzy
+#~ msgid ""
+#~ "If you used your social media account (Facebook, Google, Twitter, "
+#~ "Foursquare or TripIt), you don't need a separate Furkot password to "
+#~ "access your planned trips."
+#~ msgstr ""
+#~ "Εάν χρησιμοποιηθεί λογαριασμό σας μέσα κοινωνικής δικτύωσης (Facebook, "
+#~ "Google, Twitter, Foursquare ή TripIt), δεν χρειάζεστε ξεχωριστό κωδικό "
+#~ "Furkot να έχουν πρόσβαση σε προγραμματισμένες εκδρομές σας."
+
+#, fuzzy
+#~ msgid ""
+#~ "In case you provided a different email address when signing up, please "
+#~ "input it on this page:"
+#~ msgstr ""
+#~ "Σε περίπτωση που παρέχεται μια διαφορετική διεύθυνση ηλεκτρονικού "
+#~ "ταχυδρομείου κατά την εγγραφή, παρακαλούμε εισόδου είναι σε αυτή τη "
+#~ "σελίδα:"
 
 #, fuzzy
 #~ msgid ""
@@ -9172,61 +9298,145 @@ msgstr ""
 #~ "τρόπο που κάνετε."
 
 #, fuzzy
-#~ msgid ""
-#~ "Type email addresses of the friends you want to invite in the field below."
-#~ msgstr ""
-#~ "Πληκτρολογήστε τις διευθύνσεις ηλεκτρονικού ταχυδρομείου των φίλων που "
-#~ "θέλετε να προσκαλέσετε στο παρακάτω πεδίο."
+#~ msgid "Like Furkot"
+#~ msgstr "Όπως Furkot"
 
-#~ msgid "Email addresses of your friends"
-#~ msgstr "Διευθύνσεις ηλεκτρονικού ταχυδρομείου των φίλων σας"
+#, fuzzy
+#~ msgid "Motorcycle route"
+#~ msgstr "διαδρομή Μοτοσικλέτα"
+
+#~ msgid "Movie"
+#~ msgstr "Ταινία"
+
+#~ msgid "Museum"
+#~ msgstr "Μουσείο"
+
+#~ msgid "No end date."
+#~ msgstr "Χωρίς ημερομηνία λήξης."
+
+#, fuzzy
+#~ msgid "Offroad route"
+#~ msgstr "διαδρομή εκτός δρόμου"
+
+#, fuzzy
+#~ msgid "One way trip from start to end point"
+#~ msgstr "Ένας τρόπος για ταξίδι από την αρχή μέχρι το τέλος το σημείο"
+
+#, fuzzy
+#~ msgid "Overlook"
+#~ msgstr "Παραβλέπω"
+
+#~ msgid "Park"
+#~ msgstr "Πάρκο"
+
+#~ msgid "Picnic"
+#~ msgstr "Πικνίκ"
+
+#, fuzzy
+#~ msgid "Recommended restaurants"
+#~ msgstr "Απόκρυψη εστιατόρια"
+
+#, fuzzy
+#~ msgid "Regular"
+#~ msgstr "Τακτικός"
+
+#~ msgid "Restaurant"
+#~ msgstr "Εστιατόριο"
 
 #, fuzzy
 #~ msgid "Restrict friends to viewing the trip only"
 #~ msgstr "Περιορισμός φίλους να βλέπουν μόνο το ταξίδι"
 
-#~ msgid "Click to edit the invitation"
-#~ msgstr "Κάντε κλικ για να επεξεργαστείτε την πρόσκληση"
-
-#~ msgid "From"
-#~ msgstr "Από"
-
-#~ msgid "Your email address"
-#~ msgstr "Η διεύθυνση του ηλεκτρονικού ταχυδρομείου σας"
+#~ msgid "Save for future use"
+#~ msgstr "Αποθήκευση για μελλοντική χρήση"
 
 #~ msgid "Save your email address for future use"
 #~ msgstr ""
 #~ "Αποθηκεύστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας για μελλοντική "
 #~ "χρήση"
 
-#~ msgid "Save for future use"
-#~ msgstr "Αποθήκευση για μελλοντική χρήση"
+#, fuzzy
+#~ msgid "See description of this airport"
+#~ msgstr "Δείτε την περιγραφή αυτού του τόπου"
 
-#~ msgid "No end date."
-#~ msgstr "Χωρίς ημερομηνία λήξης."
+#, fuzzy
+#~ msgid "See description of this curiosity"
+#~ msgstr "Δείτε την περιγραφή αυτού του τόπου"
 
-#~ msgid "This feature is available to Furkot Pass holders."
-#~ msgstr ""
-#~ "Αυτή η δυνατότητα είναι διαθέσιμη για τους κατόχους του Furkot Pass."
+#, fuzzy
+#~ msgid "See description of this winery"
+#~ msgstr "Δείτε την περιγραφή αυτού του τόπου"
+
+#, fuzzy
+#~ msgid "See this farmers market own website"
+#~ msgstr "Δείτε αυτό οι αγρότες αγορά τη δική του ιστοσελίδα"
+
+#, fuzzy
+#~ msgid "See this restaurant own website"
+#~ msgstr "Δείτε αυτό το εστιατόριο δική του ιστοσελίδα"
+
+#, fuzzy
+#~ msgid "See this restaurant page"
+#~ msgstr "Δείτε αυτή τη σελίδα εστιατόριο στο Yelp"
+
+#, fuzzy
+#~ msgid "See this winery own website"
+#~ msgstr "Δείτε αυτό το οινοποιείο δική του ιστοσελίδα"
 
 #, fuzzy
 #~ msgid "Show Phone"
 #~ msgstr "Δείξε μου"
 
 #, fuzzy
-#~ msgid "We couldn't find an account associated with your email."
-#~ msgstr ""
-#~ "Δεν μπορέσαμε να βρούμε έναν λογαριασμό που συνδέεται με το e-mail σας."
+#~ msgid "Skiing"
+#~ msgstr "Χιονοδρόμια"
 
 #, fuzzy
-#~ msgid ""
-#~ "If you used your social media account (Facebook, Google, Twitter, "
-#~ "Foursquare or TripIt), you don't need a separate Furkot password to "
-#~ "access your planned trips."
+#~ msgid "Snowshoeing"
+#~ msgstr "snowshoeing"
+
+#, fuzzy
+#~ msgid "Stop and eat at this restaurant"
+#~ msgstr "Σταματήστε και να φάτε σε αυτό το εστιατόριο"
+
+#, fuzzy
+#~ msgid "Stop at this airport"
+#~ msgstr "Σταματήστε σε αυτό το αεροδρόμιο"
+
+#, fuzzy
+#~ msgid "Stop at this curiosity"
+#~ msgstr "Σταματήστε αυτή την περιέργεια"
+
+#, fuzzy
+#~ msgid "Stop at this farmers market"
+#~ msgstr "Σταματήστε σε αυτή την αγορά αγροτών"
+
+#, fuzzy
+#~ msgid "Stop at this winery"
+#~ msgstr "Σταματήστε σε αυτό το οινοποιείο"
+
+#, fuzzy
+#~ msgid "Surf spot"
+#~ msgstr "σημείο surf"
+
+#~ msgid "Theater"
+#~ msgstr "Θέατρο"
+
+#~ msgid "This feature is available to Furkot Pass holders."
 #~ msgstr ""
-#~ "Εάν χρησιμοποιηθεί λογαριασμό σας μέσα κοινωνικής δικτύωσης (Facebook, "
-#~ "Google, Twitter, Foursquare ή TripIt), δεν χρειάζεστε ξεχωριστό κωδικό "
-#~ "Furkot να έχουν πρόσβαση σε προγραμματισμένες εκδρομές σας."
+#~ "Αυτή η δυνατότητα είναι διαθέσιμη για τους κατόχους του Furkot Pass."
+
+#~ msgid "Toll Roads"
+#~ msgstr "Δρόμοι με διόδια"
+
+#~ msgid "Trajectory"
+#~ msgstr "Πορεία"
+
+#~ msgid "Travel Limits"
+#~ msgstr "Όρια ταξιδιού"
+
+#~ msgid "Travel non-stop"
+#~ msgstr "Ταξιδέψτε χωρίς στάσεις"
 
 #, fuzzy
 #~ msgid "Try using your social media account again to sign in:"
@@ -9236,11 +9446,27 @@ msgstr ""
 
 #, fuzzy
 #~ msgid ""
-#~ "If you tried out Furkot as a guest (without signing up for an account), "
-#~ "you cannot reset a password."
+#~ "Type email addresses of the friends you want to invite in the field below."
 #~ msgstr ""
-#~ "Αν έχετε δοκιμάσει Furkot ως επισκέπτης (χωρίς εγγραφή για έναν "
-#~ "λογαριασμό), δεν μπορείτε να επαναφέρετε τον κωδικό πρόσβασης."
+#~ "Πληκτρολογήστε τις διευθύνσεις ηλεκτρονικού ταχυδρομείου των φίλων που "
+#~ "θέλετε να προσκαλέσετε στο παρακάτω πεδίο."
+
+#, fuzzy
+#~ msgid "We couldn't find an account associated with your email."
+#~ msgstr ""
+#~ "Δεν μπορέσαμε να βρούμε έναν λογαριασμό που συνδέεται με το e-mail σας."
+
+#~ msgid "Weekends"
+#~ msgstr "Σαββατοκύριακα"
+
+#, fuzzy
+#~ msgid "Wineries and vineyards"
+#~ msgstr "Breweries, οινοποιεία και μπαρ"
+
+#, fuzzy
+#~ msgid "You can always move trips between accounts later on."
+#~ msgstr ""
+#~ "Μπορείτε πάντα να μετακινήσετε τα ταξίδια μεταξύ των λογαριασμών αργότερα."
 
 #, fuzzy
 #~ msgid ""
@@ -9250,219 +9476,8 @@ msgstr ""
 #~ "Θα πρέπει να χρησιμοποιούν τον ίδιο υπολογιστή και το πρόγραμμα "
 #~ "περιήγησης για να αποκτήσετε πρόσβαση σε προγραμματισμένες εκδρομές σας."
 
-#, fuzzy
-#~ msgid ""
-#~ "In case you provided a different email address when signing up, please "
-#~ "input it on this page:"
-#~ msgstr ""
-#~ "Σε περίπτωση που παρέχεται μια διαφορετική διεύθυνση ηλεκτρονικού "
-#~ "ταχυδρομείου κατά την εγγραφή, παρακαλούμε εισόδου είναι σε αυτή τη "
-#~ "σελίδα:"
-
-#, fuzzy
-#~ msgid ""
-#~ "Feel free to sign up for a new account with Furkot and start planning a "
-#~ "new trip right away:"
-#~ msgstr ""
-#~ "Μη διστάσετε να εγγραφείτε για ένα νέο λογαριασμό με Furkot και να "
-#~ "αρχίσετε να σχεδιάζετε ένα νέο ταξίδι αμέσως:"
-
-#, fuzzy
-#~ msgid "You can always move trips between accounts later on."
-#~ msgstr ""
-#~ "Μπορείτε πάντα να μετακινήσετε τα ταξίδια μεταξύ των λογαριασμών αργότερα."
-
-#, fuzzy
-#~ msgid "See this farmers market own website"
-#~ msgstr "Δείτε αυτό οι αγρότες αγορά τη δική του ιστοσελίδα"
-
-#, fuzzy
-#~ msgid "Stop at this farmers market"
-#~ msgstr "Σταματήστε σε αυτή την αγορά αγροτών"
-
-#, fuzzy
-#~ msgid "Add this farmers market as a skipped stop"
-#~ msgstr "Προσθέστε αυτή την αγορά αγροτών ως παραλειφθεί στάση"
-
-#, fuzzy
-#~ msgid "Fold this farmers market details"
-#~ msgstr "Διπλώστε αυτό λεπτομέρειες αγρότες της αγοράς"
-
-#, fuzzy
-#~ msgid "Hide farmers markets"
-#~ msgstr "Απόκρυψη αγορές αγροτών"
-
-#, fuzzy
-#~ msgid "Farmers markets"
-#~ msgstr "λαϊκές αγορές"
-
-#, fuzzy
-#~ msgid "See this restaurant page"
-#~ msgstr "Δείτε αυτή τη σελίδα εστιατόριο στο Yelp"
-
-#, fuzzy
-#~ msgid "See this restaurant own website"
-#~ msgstr "Δείτε αυτό το εστιατόριο δική του ιστοσελίδα"
-
-#, fuzzy
-#~ msgid "Stop and eat at this restaurant"
-#~ msgstr "Σταματήστε και να φάτε σε αυτό το εστιατόριο"
-
-#, fuzzy
-#~ msgid "Add this restaurant as a skipped stop"
-#~ msgstr "Προσθέστε αυτό το εστιατόριο ως παραλειφθεί στάση"
-
-#, fuzzy
-#~ msgid "Fold this restaurant details"
-#~ msgstr "Διπλώστε αυτό στοιχεία εστιατορίου"
-
-#, fuzzy
-#~ msgid "Recommended restaurants"
-#~ msgstr "Απόκρυψη εστιατόρια"
-
-#, fuzzy
-#~ msgid "See description of this winery"
-#~ msgstr "Δείτε την περιγραφή αυτού του τόπου"
-
-#, fuzzy
-#~ msgid "See this winery own website"
-#~ msgstr "Δείτε αυτό το οινοποιείο δική του ιστοσελίδα"
-
-#, fuzzy
-#~ msgid "Stop at this winery"
-#~ msgstr "Σταματήστε σε αυτό το οινοποιείο"
-
-#, fuzzy
-#~ msgid "Add this winery as a skipped stop"
-#~ msgstr "Προσθέστε αυτό το οινοποιείο ως παραλειφθεί στάση"
-
-#, fuzzy
-#~ msgid "Fold this winery details"
-#~ msgstr "Διπλώστε αυτό λεπτομέρειες οινοποιείο"
-
-#, fuzzy
-#~ msgid "Hide wineries"
-#~ msgstr "περιστατικά Πυρκαγιών"
-
-#, fuzzy
-#~ msgid "Wineries and vineyards"
-#~ msgstr "Breweries, οινοποιεία και μπαρ"
-
-#, fuzzy
-#~ msgid "Regular"
-#~ msgstr "Τακτικός"
-
-#~ msgid "Toll Roads"
-#~ msgstr "Δρόμοι με διόδια"
-
-#~ msgid "Highways"
-#~ msgstr "αυτοκινητόδρομοι"
-
-#, fuzzy
-#~ msgid "Like Furkot"
-#~ msgstr "Όπως Furkot"
-
-#~ msgid "Follow Furkot"
-#~ msgstr "Ακολουθήστε το Furkot"
-
-#~ msgid "Deal or discount"
-#~ msgstr "Προσφορά ή έκπτωση"
-
-#~ msgid "Charging station"
-#~ msgstr "Σταθμός φόρτισης"
-
-#~ msgid "Gas station"
-#~ msgstr "Βενζινάδικο"
-
-#~ msgid "Coffee shop"
-#~ msgstr "Καφετέρια"
-
-#~ msgid "Restaurant"
-#~ msgstr "Εστιατόριο"
-
-#~ msgid "Beach"
-#~ msgstr "Παραλία"
-
-#, fuzzy
-#~ msgid "Surf spot"
-#~ msgstr "σημείο surf"
-
-#~ msgid "Dive site"
-#~ msgstr "Τοποθεσία κατάδυσης"
-
-#, fuzzy
-#~ msgid "Snowshoeing"
-#~ msgstr "snowshoeing"
-
-#, fuzzy
-#~ msgid "Skiing"
-#~ msgstr "Χιονοδρόμια"
-
-#~ msgid "Climbing route"
-#~ msgstr "Αναρριχητική διαδρομή"
-
-#~ msgid "Picnic"
-#~ msgstr "Πικνίκ"
-
-#, fuzzy
-#~ msgid "Overlook"
-#~ msgstr "Παραβλέπω"
-
-#, fuzzy
-#~ msgid "Driving route"
-#~ msgstr "οδήγηση διαδρομή"
-
-#, fuzzy
-#~ msgid "Offroad route"
-#~ msgstr "διαδρομή εκτός δρόμου"
-
-#, fuzzy
-#~ msgid "ATV trail"
-#~ msgstr "μονοπάτι ATV"
-
-#, fuzzy
-#~ msgid "Motorcycle route"
-#~ msgstr "διαδρομή Μοτοσικλέτα"
-
-#~ msgid "Bicycle path"
-#~ msgstr "Ποδηλατόδρομος"
-
-#~ msgid "Park"
-#~ msgstr "Πάρκο"
+#~ msgid "Your email address"
+#~ msgstr "Η διεύθυνση του ηλεκτρονικού ταχυδρομείου σας"
 
 #~ msgid "Zoo, aquarium or wildlife viewing"
 #~ msgstr "Ζωολογικός κήπος, ενυδρείο ή παρατηρητήριο άγριας ζωής"
-
-#~ msgid "Movie"
-#~ msgstr "Ταινία"
-
-#~ msgid "Theater"
-#~ msgstr "Θέατρο"
-
-#~ msgid "Historical site or landmark"
-#~ msgstr "Ιστορικός χώρος ή ορόσημο"
-
-#~ msgid "Museum"
-#~ msgstr "Μουσείο"
-
-#~ msgid "I will manage refueling stops myself"
-#~ msgstr "Θα διαχειριστώ μόνος μου τις στάσεις ανεφοδιασμού"
-
-#~ msgid "Travel non-stop"
-#~ msgstr "Ταξιδέψτε χωρίς στάσεις"
-
-#~ msgid "Travel Limits"
-#~ msgstr "Όρια ταξιδιού"
-
-#~ msgid "End Trip"
-#~ msgstr "Τέλος ταξιδιού"
-
-#~ msgid "Weekends"
-#~ msgstr "Σαββατοκύριακα"
-
-#, fuzzy
-#~ msgid "One way trip from start to end point"
-#~ msgstr "Ένας τρόπος για ταξίδι από την αρχή μέχρι το τέλος το σημείο"
-
-#~ msgid "Trajectory"
-#~ msgstr "Πορεία"
