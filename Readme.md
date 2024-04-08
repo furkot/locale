@@ -112,14 +112,20 @@ For example for German
 
 ## Credits
 
-Let us know how you want to be credited: we will list your name here and in Furkot.
+Let us know how you want to be credited: we will list your name here, in [Furkot help][translators credits] and in [Furkot].
 We can also include (or not) your e-mail and/or a link to your website.
 
-Dutch translation by Merijn Peeters
+Dutch translation by Merijn Peeters, Willo Vleer.
 
 French translation by [Sylvain Francois](https://github.com/syllant).
 
-German translation by [Jörgen Klein](http://www.klein-bild.de/), Christian Hansen.
+German translation by [Jörgen Klein](http://www.klein-bild.de/), Christian Hansen, [Manuel Sailer](https://manuel-sailer.de/).
+
+Hungarian translation by Gellért Turi.
+
+Norwegian translation by [TheTor](https://www.youtube.com/channel/UCkI8CmP2sGzocu9ghudEVKQ).
+
+Russian translation by [Oleksandr Hubanov](https://github.com/alexgubanow).
 
 
 [Furkot]: https://trips.furkot.com
@@ -129,6 +135,7 @@ German translation by [Jörgen Klein](http://www.klein-bild.de/), Christian Hans
 [PoEdit]: http://poedit.net
 [PoEditor]: https://localise.biz/free/poeditor
 [Furkot translation website]: https://translate.furkot.com/projects/furkot/trips/
+[translators credits]: https://help.furkot.com/credits/contributors.html
 [translators guide]: http://weblate.readthedocs.org/en/latest/user/translating.html
 [Weblate]: https://weblate.org
 [weblate-furkot-image]: https://translate.furkot.com/widgets/furkot/-/svg-badge.svg
