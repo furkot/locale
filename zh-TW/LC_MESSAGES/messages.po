@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-03-27 17:52+0100\n"
+"POT-Creation-Date: 2024-04-08 07:59+0200\n"
 "PO-Revision-Date: 2021-05-27 06:51+0000\n"
 "Last-Translator: Damian Krzeminski <pirxpilot@code42day.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.furkot.com/projects/"
@@ -54,7 +54,7 @@ msgstr "建議"
 #: ../views/components/export-dlg.jade:223
 #: ../views/components/import-dlg.jade:165
 #: ../views/components/navigation.jade:2
-#: ../views/components/navigation.jade:117 ../views/components/network.jade:2
+#: ../views/components/navigation.jade:116 ../views/components/network.jade:2
 #: ../views/components/place-switch.jade:509
 #: ../views/components/plan-msg.jade:2 ../views/components/share-dlg.jade:75
 #: ../views/components/share-dlg.jade:86 ../views/components/share-dlg.jade:98
@@ -252,7 +252,7 @@ msgstr ""
 
 #: ../views/components/accounts.jade:91 ../views/components/add-stops.jade:2
 #: ../views/components/add-stops.jade:13 ../views/components/navigation.jade:2
-#: ../views/components/navigation.jade:117 ../views/components/network.jade:2
+#: ../views/components/navigation.jade:116 ../views/components/network.jade:2
 #: ../views/components/place-switch.jade:510
 #: ../views/components/plan-msg.jade:2 ../views/components/plan-msg.jade:17
 #: ../views/components/share-dlg.jade:75 ../views/components/share-dlg.jade:86
@@ -294,12 +294,12 @@ msgstr "好"
 #: ../views/components/accounts.jade:94
 #: ../views/components/applications.jade:18
 #: ../views/components/book-wizard.jade:60
-#: ../views/components/browse-happy.jade:10
+#: ../views/components/browse-happy.jade:10 ../views/components/budget.jade:74
 #: ../views/components/common-mixins.jade:42
 #: ../views/components/export-dlg.jade:199
 #: ../views/components/furkot-pass.jade:47
 #: ../views/components/import-dlg.jade:173 ../views/components/map.jade:123
-#: ../views/components/navigation.jade:114 ../views/components/network.jade:19
+#: ../views/components/navigation.jade:113 ../views/components/network.jade:19
 #: ../views/components/new-trip-wizard.jade:154
 #: ../views/components/place-detail.jade:14
 #: ../views/components/place-detail.jade:435
@@ -374,9 +374,7 @@ msgid "We recommend:"
 msgstr "我們推薦："
 
 #. L10n: Scenic is the name of an iPhone navigation app; can be translated as 'Scenic App' where 'App' is the word to translate while 'Scenic' is kept as is
-#. L10n: Scenic is a name of an iPhone navigation app; same as 'Scenic App' where App is the word to translate
 #: ../views/components/applications.jade:14
-#: ../views/components/navigation.jade:81
 #, fuzzy
 msgid "Scenic"
 msgstr "名勝"
@@ -719,7 +717,7 @@ msgstr ""
 #. L10n: label for using per diem (standard daily rate regardless of actual cost) method for lodging, meals and incidental expenses
 #. L10n: Label for the field to showing per diem rate (standard daily rate regardless of actual cost). The field is available for overnight stops when both tracking expenses and per diem method are enabled for a trip
 #: ../views/components/budget.jade:16 ../views/components/budget.jade:46
-#: ../views/components/budget.jade:93
+#: ../views/components/budget.jade:96
 msgid "Per Diem"
 msgstr ""
 
@@ -766,17 +764,17 @@ msgstr ""
 
 #. L10n: Label for the field to edit cost associated with a stop (i.e. hotel price) or a route (i.e. toll). The field is available when tracking expenses is enabled for a trip
 #. L10n: Label for the total cost of the trip
-#: ../views/components/budget.jade:78 ../views/components/trip-detail.jade:719
+#: ../views/components/budget.jade:81 ../views/components/trip-detail.jade:719
 msgid "Cost"
 msgstr ""
 
 #. L10n: Hint for the field that takes cost of a single stop or a single route segment
-#: ../views/components/budget.jade:81
+#: ../views/components/budget.jade:84
 msgid "Click to add cost"
 msgstr ""
 
 #. L10n: Label for the field to showing nightly cost of an overnight lodging stop. The field is available for multinight stops when tracking expenses is enabled for a trip
-#: ../views/components/budget.jade:88
+#: ../views/components/budget.jade:91
 msgid "Per Night"
 msgstr ""
 
@@ -1236,7 +1234,7 @@ msgstr ""
 
 #. L10n: Warning displayed for automatically scheduled stops that are not associated with real places but are just placeholders
 #: ../views/components/export-dlg.jade:234
-#: ../views/components/navigation.jade:118
+#: ../views/components/navigation.jade:117
 #: ../views/components/step-detail.jade:617
 #: ../views/components/step-detail.jade:653 ../views/export/warning.jade:1
 #, fuzzy
@@ -1999,18 +1997,18 @@ msgstr "去吃飯抽屜"
 msgid "go to Find drawer"
 msgstr "去尋找抽屜"
 
-#: ../views/components/language.jade:73
+#: ../views/components/language.jade:75
 #, fuzzy
 msgid "Choose your language"
 msgstr "選擇你的語言"
 
-#: ../views/components/language.jade:76
+#: ../views/components/language.jade:78
 #, fuzzy
 msgid "Languages partially translated"
 msgstr "語言部分翻譯"
 
 #. L10n: square brackets [] denote a link
-#: ../views/components/language.jade:80
+#: ../views/components/language.jade:82
 #, fuzzy
 msgid "If you want to help [click here]"
 msgstr "如果您想幫助[點擊這裡]"
@@ -2140,7 +2138,7 @@ msgstr "在選定的一站式服務中心的地圖"
 
 #. L10n: 'places' means 'places displayed on the map'
 #: ../views/components/map.jade:82 ../views/components/places.jade:121
-#: ../views/components/places.jade:474
+#: ../views/components/places.jade:463
 #, fuzzy
 msgid "Hide places"
 msgstr "隱藏的地方"
@@ -2431,16 +2429,7 @@ msgstr "蘋果地圖"
 msgid "Google Maps"
 msgstr "谷歌地圖"
 
-#: ../views/components/navigation.jade:90
-msgid "Organic Maps"
-msgstr ""
-
-#: ../views/components/navigation.jade:99
-#: ../views/components/navigation.jade:108
-msgid "Waze"
-msgstr ""
-
-#: ../views/components/navigation.jade:111
+#: ../views/components/navigation.jade:110
 #, fuzzy
 msgid ""
 "Selected app will open when you click on the navigation button next to stop "
@@ -2448,13 +2437,13 @@ msgid ""
 msgstr ""
 "當你在導航按鈕，點擊旁邊的停止坐標，它的地址或路由選擇的應用程序將打開。"
 
-#: ../views/components/navigation.jade:117
+#: ../views/components/navigation.jade:116
 #: ../views/components/step-switches.jade:102 ../views/header.jade:20
 #, fuzzy
 msgid "Navigation"
 msgstr "導航"
 
-#: ../views/components/navigation.jade:119
+#: ../views/components/navigation.jade:118
 #, fuzzy
 msgid "Are you sure you want to navigate there?"
 msgstr "你確定要刪除此行？"
@@ -3920,7 +3909,7 @@ msgstr "加油站"
 #: ../views/components/place-switch.jade:194
 #: ../views/components/place-switch.jade:199 ../views/components/places.jade:59
 #: ../views/components/places.jade:69 ../views/components/places.jade:175
-#: ../views/components/places.jade:317
+#: ../views/components/places.jade:306
 #, fuzzy
 msgid "Hide gas stations"
 msgstr "隱藏加油站"
@@ -3945,7 +3934,7 @@ msgstr "從myGasFeed加油站"
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
 #: ../views/components/place-switch.jade:194
 #: ../views/components/place-switch.jade:197
-#: ../views/components/places.jade:316 ../views/components/step-icons.jade:41
+#: ../views/components/places.jade:305 ../views/components/step-icons.jade:41
 #, fuzzy
 msgid "Ethanol-free gas stations"
 msgstr "從pure-gas.org不含乙醇的加油站"
@@ -3953,6 +3942,7 @@ msgstr "從pure-gas.org不含乙醇的加油站"
 #. L10n: hint for the button that shows stations that sell LPG (in US Propane Autogas) on the map
 #: ../views/components/place-switch.jade:199
 #: ../views/components/place-switch.jade:202 ../views/components/places.jade:70
+#: ../views/components/step-icons.jade:45
 msgid "Gas stations with LPG / Propane Autogas"
 msgstr ""
 
@@ -4125,7 +4115,7 @@ msgstr "隱藏遠足徑"
 #. L10n: stop type (icon)
 #: ../views/components/place-switch.jade:273
 #: ../views/components/place-switch.jade:276
-#: ../views/components/places.jade:204 ../views/components/places.jade:360
+#: ../views/components/places.jade:204 ../views/components/places.jade:349
 #: ../views/components/step-icons.jade:298
 #, fuzzy
 msgid "Hiking trails"
@@ -4195,14 +4185,14 @@ msgstr "滑雪區"
 #. L10n: stop type (icon)
 #: ../views/components/place-switch.jade:306
 #: ../views/components/place-switch.jade:309
-#: ../views/components/places.jade:422 ../views/components/step-icons.jade:372
+#: ../views/components/places.jade:411 ../views/components/step-icons.jade:372
 #, fuzzy
 msgid "Dive sites"
 msgstr "潛水點"
 
 #. L10n: hint for the button that hides dive sites on the map. 'Dive site' is a spot suitable for scuba diving
 #: ../views/components/place-switch.jade:306
-#: ../views/components/places.jade:421
+#: ../views/components/places.jade:410
 #, fuzzy
 msgid "Hide dive sites"
 msgstr "隱藏潛水點"
@@ -4630,28 +4620,28 @@ msgstr "配置查找"
 
 #: ../views/components/places.jade:2 ../views/components/places.jade:74
 #: ../views/components/places.jade:115 ../views/components/places.jade:136
-#: ../views/components/places.jade:331 ../views/components/places.jade:467
+#: ../views/components/places.jade:320 ../views/components/places.jade:456
 #, fuzzy
 msgid "See description of this place"
 msgstr "看到這個地方的描述"
 
 #: ../views/components/places.jade:3 ../views/components/places.jade:75
 #: ../views/components/places.jade:116 ../views/components/places.jade:137
-#: ../views/components/places.jade:332 ../views/components/places.jade:456
-#: ../views/components/places.jade:468
+#: ../views/components/places.jade:321 ../views/components/places.jade:445
+#: ../views/components/places.jade:457
 #, fuzzy
 msgid "See this place own website"
 msgstr "看到這個地方自己的網站"
 
-#: ../views/components/places.jade:4 ../views/components/places.jade:457
+#: ../views/components/places.jade:4 ../views/components/places.jade:446
 #, fuzzy
 msgid "Stop and visit this place"
 msgstr "停止並參觀這個地方"
 
 #: ../views/components/places.jade:5 ../views/components/places.jade:77
 #: ../views/components/places.jade:119 ../views/components/places.jade:139
-#: ../views/components/places.jade:334 ../views/components/places.jade:458
-#: ../views/components/places.jade:471 ../views/components/step-detail.jade:611
+#: ../views/components/places.jade:323 ../views/components/places.jade:447
+#: ../views/components/places.jade:460 ../views/components/step-detail.jade:611
 #, fuzzy
 msgid "Add this place as a skipped stop"
 msgstr "加入這個地方作為跳躍停止"
@@ -4668,7 +4658,7 @@ msgstr "扭轉這一路線"
 
 #: ../views/components/places.jade:8 ../views/components/places.jade:78
 #: ../views/components/places.jade:120 ../views/components/places.jade:140
-#: ../views/components/places.jade:335 ../views/components/places.jade:472
+#: ../views/components/places.jade:324 ../views/components/places.jade:461
 #, fuzzy
 msgid "Fold this place details"
 msgstr "折這個地點的詳細信息"
@@ -4768,29 +4758,29 @@ msgid "Fill up at this gas station"
 msgstr "在這個加油站填補"
 
 #: ../views/components/places.jade:57 ../views/components/places.jade:67
-#: ../views/components/places.jade:166 ../views/components/places.jade:310
+#: ../views/components/places.jade:166 ../views/components/places.jade:299
 #, fuzzy
 msgid "Add this gas station as a skipped stop"
 msgstr "加入這個加油站作為跳躍停止"
 
 #: ../views/components/places.jade:58 ../views/components/places.jade:68
-#: ../views/components/places.jade:167 ../views/components/places.jade:311
+#: ../views/components/places.jade:167 ../views/components/places.jade:300
 #, fuzzy
 msgid "Fold this gas station details"
 msgstr "折這個加油站的細節"
 
 #: ../views/components/places.jade:76 ../views/components/places.jade:118
-#: ../views/components/places.jade:333 ../views/components/places.jade:470
+#: ../views/components/places.jade:322 ../views/components/places.jade:459
 #, fuzzy
 msgid "Stop at this place"
 msgstr "停在這個地方"
 
-#: ../views/components/places.jade:79 ../views/components/places.jade:336
+#: ../views/components/places.jade:79 ../views/components/places.jade:325
 #, fuzzy
 msgid "Hide places and activities"
 msgstr "隱藏公園和自然景觀"
 
-#: ../views/components/places.jade:80 ../views/components/places.jade:337
+#: ../views/components/places.jade:80 ../views/components/places.jade:326
 #, fuzzy
 msgid "Places and activities"
 msgstr "地方和活動從Recreation.gov"
@@ -4838,20 +4828,20 @@ msgstr "折疊這條小道的細節"
 
 #: ../views/components/places.jade:102 ../views/components/places.jade:117
 #: ../views/components/places.jade:229 ../views/components/places.jade:242
-#: ../views/components/places.jade:417 ../views/components/places.jade:469
+#: ../views/components/places.jade:406 ../views/components/places.jade:458
 #, fuzzy
 msgid "See user reviews"
 msgstr "參考房客評價於"
 
 #: ../views/components/places.jade:103 ../views/components/places.jade:149
-#: ../views/components/places.jade:198 ../views/components/places.jade:355
+#: ../views/components/places.jade:198 ../views/components/places.jade:344
 #, fuzzy
 msgid "Stop and take this trail"
 msgstr "停下來這條小道"
 
 #: ../views/components/places.jade:104 ../views/components/places.jade:150
-#: ../views/components/places.jade:199 ../views/components/places.jade:356
-#: ../views/components/places.jade:367
+#: ../views/components/places.jade:199 ../views/components/places.jade:345
+#: ../views/components/places.jade:356
 #, fuzzy
 msgid "Add this trail as a skipped stop"
 msgstr "添加這條古道作為跳躍停止"
@@ -4883,7 +4873,7 @@ msgstr "隱藏博物館"
 msgid "Trail guides"
 msgstr "滑雪道"
 
-#: ../views/components/places.jade:122 ../views/components/places.jade:475
+#: ../views/components/places.jade:122 ../views/components/places.jade:464
 #, fuzzy
 msgid "Recommended places"
 msgstr "復原加入地點"
@@ -4911,13 +4901,13 @@ msgid "See author's profile"
 msgstr "見筆者在MBPost簡介"
 
 #: ../views/components/places.jade:153 ../views/components/places.jade:202
-#: ../views/components/places.jade:357 ../views/components/places.jade:368
+#: ../views/components/places.jade:346 ../views/components/places.jade:357
 #, fuzzy
 msgid "Fold this trail details"
 msgstr "折疊這條小道的細節"
 
-#: ../views/components/places.jade:154 ../views/components/places.jade:359
-#: ../views/components/places.jade:370
+#: ../views/components/places.jade:154 ../views/components/places.jade:348
+#: ../views/components/places.jade:359
 #, fuzzy
 msgid "Hide trails"
 msgstr "隱藏亞視步道"
@@ -4928,32 +4918,32 @@ msgid "Trail recordings"
 msgstr ""
 
 #: ../views/components/places.jade:180 ../views/components/places.jade:252
-#: ../views/components/places.jade:342
+#: ../views/components/places.jade:331
 #, fuzzy
 msgid "See description of this road"
 msgstr "看到這個地方的描述"
 
-#: ../views/components/places.jade:181 ../views/components/places.jade:343
+#: ../views/components/places.jade:181 ../views/components/places.jade:332
 #, fuzzy
 msgid "Stop at this road"
 msgstr "停在這個景象"
 
-#: ../views/components/places.jade:182 ../views/components/places.jade:344
+#: ../views/components/places.jade:182 ../views/components/places.jade:333
 #, fuzzy
 msgid "Add this road as a skipped stop"
 msgstr "添加這條古道作為跳躍停止"
 
-#: ../views/components/places.jade:183 ../views/components/places.jade:345
+#: ../views/components/places.jade:183 ../views/components/places.jade:334
 #, fuzzy
 msgid "Ride this road"
 msgstr "騎這輛摩托車道路"
 
-#: ../views/components/places.jade:184 ../views/components/places.jade:346
+#: ../views/components/places.jade:184 ../views/components/places.jade:335
 #, fuzzy
 msgid "Reverse this road"
 msgstr "扭轉這一路線"
 
-#: ../views/components/places.jade:185 ../views/components/places.jade:347
+#: ../views/components/places.jade:185 ../views/components/places.jade:336
 #, fuzzy
 msgid "Fold this road details"
 msgstr "折這個路線詳情"
@@ -5172,232 +5162,225 @@ msgstr "增加這個充電站作為跳躍停止"
 msgid "Fold this charging station details"
 msgstr "折這個充電站的詳細信息"
 
-#: ../views/components/places.jade:296 ../views/components/places.jade:387
-#, fuzzy
-msgid "See description of this peak"
-msgstr "看到這個地方的描述"
-
-#: ../views/components/places.jade:297
-#, fuzzy
-msgid "See climber's profile"
-msgstr "見筆者在LocalHikes簡介"
-
-#: ../views/components/places.jade:298 ../views/components/places.jade:388
-#, fuzzy
-msgid "Stop and climb this peak"
-msgstr "停下來這條小道"
-
-#: ../views/components/places.jade:299 ../views/components/places.jade:389
-#, fuzzy
-msgid "Add this peak as a skipped stop"
-msgstr "加入這個地方作為跳躍停止"
-
-#: ../views/components/places.jade:300 ../views/components/places.jade:390
-#, fuzzy
-msgid "Fold this peak details"
-msgstr "摺疊這交易的細節"
-
-#: ../views/components/places.jade:301 ../views/components/places.jade:348
-#: ../views/components/places.jade:392
-#, fuzzy
-msgid "Hide peaks and routes"
-msgstr "隱藏公園和自然景觀"
-
-#: ../views/components/places.jade:302 ../views/components/places.jade:349
-#: ../views/components/places.jade:393
-#, fuzzy
-msgid "Peaks and routes"
-msgstr "恢復添加路線"
-
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:308
+#: ../views/components/places.jade:297
 #, fuzzy
 msgid "See this ethanol-free gas station page"
 msgstr "查看pure-gas.org這個免費的乙醇加油站頁"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:309 ../views/components/places.jade:314
+#: ../views/components/places.jade:298 ../views/components/places.jade:303
 #, fuzzy
 msgid "Fill up at this ethanol-free gas station"
 msgstr "在這個免費的乙醇加油站填補"
 
 #. L10n: square brackets [] denote a link. "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:323
+#: ../views/components/places.jade:312
 #, fuzzy
 msgid "The list of ethanol-free gas stations by [pure-gas.org]"
 msgstr "無乙醇的加油站由列表[pure-gas.org]"
 
 #. L10n: square brackets [] denote a link
-#: ../views/components/places.jade:325
+#: ../views/components/places.jade:314
 #, fuzzy
 msgid "with [permission]"
 msgstr "與[權限]"
 
-#: ../views/components/places.jade:354 ../views/components/places.jade:365
+#: ../views/components/places.jade:337 ../views/components/places.jade:381
+#, fuzzy
+msgid "Hide peaks and routes"
+msgstr "隱藏公園和自然景觀"
+
+#: ../views/components/places.jade:338 ../views/components/places.jade:382
+#, fuzzy
+msgid "Peaks and routes"
+msgstr "恢復添加路線"
+
+#: ../views/components/places.jade:343 ../views/components/places.jade:354
 #, fuzzy
 msgid "See description of this trail"
 msgstr "看到這個地方的描述"
 
-#: ../views/components/places.jade:366
+#: ../views/components/places.jade:355
 #, fuzzy
 msgid "Stop and ski this trail"
 msgstr "停下來這條小道"
 
-#: ../views/components/places.jade:371
+#: ../views/components/places.jade:360
 msgid "Backcountry ski trails"
 msgstr ""
 
-#: ../views/components/places.jade:376
+#: ../views/components/places.jade:365
 #, fuzzy
 msgid "See description of this bike track"
 msgstr "看到這個自行車賽道的描述在MBPost"
 
-#: ../views/components/places.jade:377
+#: ../views/components/places.jade:366
 #, fuzzy
 msgid "Stop and ride this bike track"
 msgstr "停止和騎這輛自行車賽道"
 
-#: ../views/components/places.jade:378
+#: ../views/components/places.jade:367
 #, fuzzy
 msgid "Add this bike track as a skipped stop"
 msgstr "添加這個自行車賽道作為跳躍停止"
 
-#: ../views/components/places.jade:379
+#: ../views/components/places.jade:368
 #, fuzzy
 msgid "Fold this bike track details"
 msgstr "這個折疊自行車賽道的細節"
 
-#: ../views/components/places.jade:381
+#: ../views/components/places.jade:370
 #, fuzzy
 msgid "Hide bike tracks"
 msgstr "騎這種自行車賽道"
 
-#: ../views/components/places.jade:382
+#: ../views/components/places.jade:371
 #, fuzzy
 msgid "Bike tracks"
 msgstr "路徑"
 
-#: ../views/components/places.jade:416
+#: ../views/components/places.jade:376
+#, fuzzy
+msgid "See description of this peak"
+msgstr "看到這個地方的描述"
+
+#: ../views/components/places.jade:377
+#, fuzzy
+msgid "Stop and climb this peak"
+msgstr "停下來這條小道"
+
+#: ../views/components/places.jade:378
+#, fuzzy
+msgid "Add this peak as a skipped stop"
+msgstr "加入這個地方作為跳躍停止"
+
+#: ../views/components/places.jade:379
+#, fuzzy
+msgid "Fold this peak details"
+msgstr "摺疊這交易的細節"
+
+#: ../views/components/places.jade:405
 #, fuzzy
 msgid "See description of this dive site"
 msgstr "參見本DiveSpots潛點介紹"
 
-#: ../views/components/places.jade:418
+#: ../views/components/places.jade:407
 #, fuzzy
 msgid "Stop and dive at this site"
 msgstr "停止和潛水在這個網站"
 
-#: ../views/components/places.jade:419
+#: ../views/components/places.jade:408
 #, fuzzy
 msgid "Add this dive site as a skipped stop"
 msgstr "增加這個潛點作為跳躍停止"
 
-#: ../views/components/places.jade:420
+#: ../views/components/places.jade:409
 #, fuzzy
 msgid "Fold this dive site details"
 msgstr "折這個潛點的細節"
 
-#: ../views/components/places.jade:427
+#: ../views/components/places.jade:416
 #, fuzzy
 msgid "See more information about this place"
 msgstr "查看有關這個地方的詳細信息"
 
-#: ../views/components/places.jade:428
+#: ../views/components/places.jade:417
 #, fuzzy
 msgid "Copy stop from its trip to this one"
 msgstr "從其啟動複製停止這一"
 
-#: ../views/components/places.jade:429
+#: ../views/components/places.jade:418
 #, fuzzy
 msgid "Add as a skipped stop"
 msgstr "添加為跳過停止"
 
-#: ../views/components/places.jade:430
+#: ../views/components/places.jade:419
 #, fuzzy
 msgid "Copy route to the next stop"
 msgstr "拷貝路由到下一站"
 
-#: ../views/components/places.jade:431
+#: ../views/components/places.jade:420
 #, fuzzy
 msgid "Reverse route when copying"
 msgstr "複印時，反向路由"
 
-#: ../views/components/places.jade:432 ../views/components/step-detail.jade:594
+#: ../views/components/places.jade:421 ../views/components/step-detail.jade:594
 #, fuzzy
 msgid "Fold this stop details"
 msgstr "折這個站的詳細信息"
 
-#: ../views/components/places.jade:435
+#: ../views/components/places.jade:424
 #, fuzzy
 msgid "Open this trip"
 msgstr "打開這趟旅程"
 
-#: ../views/components/places.jade:436 ../views/components/places.jade:444
+#: ../views/components/places.jade:425 ../views/components/places.jade:433
 #, fuzzy
 msgid "Stop at this trip starting point"
 msgstr "停在此行的起點"
 
-#: ../views/components/places.jade:437 ../views/components/places.jade:445
+#: ../views/components/places.jade:426 ../views/components/places.jade:434
 #, fuzzy
 msgid "Add this trip starting point as a skipped stop"
 msgstr "加入此行的起點作為跳躍停止"
 
-#: ../views/components/places.jade:438
+#: ../views/components/places.jade:427
 #, fuzzy
 msgid "Copy the entire trip to this one"
 msgstr "整個行程複製到這一個"
 
-#: ../views/components/places.jade:439
+#: ../views/components/places.jade:428
 #, fuzzy
 msgid "Reverse this trip when copying"
 msgstr "複印時反轉此行"
 
-#: ../views/components/places.jade:440 ../views/components/places.jade:448
+#: ../views/components/places.jade:429 ../views/components/places.jade:437
 #, fuzzy
 msgid "Fold this trip details"
 msgstr "倍此行的細節"
 
-#: ../views/components/places.jade:443
+#: ../views/components/places.jade:432
 #, fuzzy
 msgid "See more information about this trip"
 msgstr "查看有關此行的更多信息"
 
-#: ../views/components/places.jade:446
+#: ../views/components/places.jade:435
 #, fuzzy
 msgid "Add this trip to yours"
 msgstr "加入此行到你"
 
-#: ../views/components/places.jade:447
+#: ../views/components/places.jade:436
 #, fuzzy
 msgid "Reverse this trip when adding"
 msgstr "當添加反向此行"
 
-#: ../views/components/places.jade:449
+#: ../views/components/places.jade:438
 #, fuzzy
 msgid "Hide trips shared by Furkot community"
 msgstr "通過Furkot社區共享隱藏人次"
 
-#: ../views/components/places.jade:450
+#: ../views/components/places.jade:439
 #, fuzzy
 msgid "Trips shared by Furkot community"
 msgstr "通過Furkot社區分享旅程"
 
-#: ../views/components/places.jade:455
+#: ../views/components/places.jade:444
 #, fuzzy
 msgid "Read this article"
 msgstr "閱讀這篇文章，在維基百科"
 
-#: ../views/components/places.jade:459
+#: ../views/components/places.jade:448
 #, fuzzy
 msgid "Fold this article details"
 msgstr "折疊這篇文章的詳細信息"
 
-#: ../views/components/places.jade:460
+#: ../views/components/places.jade:449
 #, fuzzy
 msgid "Hide articles"
 msgstr "隱藏的地方"
 
-#: ../views/components/places.jade:461
+#: ../views/components/places.jade:450
 #, fuzzy
 msgid "Articles from Wikipedia, the free encyclopedia"
 msgstr "文章從維基百科，自由的百科全書"
@@ -6675,10 +6658,6 @@ msgstr "其他"
 #, fuzzy
 msgid "Pass-through"
 msgstr "直通"
-
-#: ../views/components/step-icons.jade:45
-msgid "Gas stations with LPG / Propane Autogas)"
-msgstr ""
 
 #. L10n: stop type (icon)
 #: ../views/components/step-icons.jade:54
@@ -9262,8 +9241,9 @@ msgstr "鏈接到有關旅行的更多信息"
 
 #. L10n: Question displayed when the owner tries to delete the static snapshot of the trip (tripshot) after publishing
 #: ../views/tripshot/mixin.jade:157
-msgid "Are you sure you want to delete this trip snapshot"
-msgstr ""
+#, fuzzy
+msgid "Are you sure you want to delete this trip snapshot?"
+msgstr "你確定要刪除此行？"
 
 #: ../views/tripshot/mixin.jade:172
 #, fuzzy
@@ -9870,6 +9850,10 @@ msgstr ""
 #, fuzzy
 #~ msgid "Save your email address for future use"
 #~ msgstr "保存您的電子郵件地址，以供將來使用"
+
+#, fuzzy
+#~ msgid "See climber's profile"
+#~ msgstr "見筆者在LocalHikes簡介"
 
 #, fuzzy
 #~ msgid "See description of this airport"

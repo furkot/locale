@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-03-27 17:52+0100\n"
+"POT-Creation-Date: 2024-04-08 07:59+0200\n"
 "PO-Revision-Date: 2021-05-27 06:51+0000\n"
 "Last-Translator: Damian Krzeminski <pirxpilot@code42day.com>\n"
 "Language-Team: Hebrew <https://translate.furkot.com/projects/furkot/trips/he/"
@@ -61,7 +61,7 @@ msgstr "לְהַצִיעַ"
 #: ../views/components/export-dlg.jade:223
 #: ../views/components/import-dlg.jade:165
 #: ../views/components/navigation.jade:2
-#: ../views/components/navigation.jade:117 ../views/components/network.jade:2
+#: ../views/components/navigation.jade:116 ../views/components/network.jade:2
 #: ../views/components/place-switch.jade:509
 #: ../views/components/plan-msg.jade:2 ../views/components/share-dlg.jade:75
 #: ../views/components/share-dlg.jade:86 ../views/components/share-dlg.jade:98
@@ -286,7 +286,7 @@ msgstr ""
 
 #: ../views/components/accounts.jade:91 ../views/components/add-stops.jade:2
 #: ../views/components/add-stops.jade:13 ../views/components/navigation.jade:2
-#: ../views/components/navigation.jade:117 ../views/components/network.jade:2
+#: ../views/components/navigation.jade:116 ../views/components/network.jade:2
 #: ../views/components/place-switch.jade:510
 #: ../views/components/plan-msg.jade:2 ../views/components/plan-msg.jade:17
 #: ../views/components/share-dlg.jade:75 ../views/components/share-dlg.jade:86
@@ -329,12 +329,12 @@ msgstr "בסדר"
 #: ../views/components/accounts.jade:94
 #: ../views/components/applications.jade:18
 #: ../views/components/book-wizard.jade:60
-#: ../views/components/browse-happy.jade:10
+#: ../views/components/browse-happy.jade:10 ../views/components/budget.jade:74
 #: ../views/components/common-mixins.jade:42
 #: ../views/components/export-dlg.jade:199
 #: ../views/components/furkot-pass.jade:47
 #: ../views/components/import-dlg.jade:173 ../views/components/map.jade:123
-#: ../views/components/navigation.jade:114 ../views/components/network.jade:19
+#: ../views/components/navigation.jade:113 ../views/components/network.jade:19
 #: ../views/components/new-trip-wizard.jade:154
 #: ../views/components/place-detail.jade:14
 #: ../views/components/place-detail.jade:435
@@ -411,9 +411,7 @@ msgid "We recommend:"
 msgstr "אנחנו ממליצים:"
 
 #. L10n: Scenic is the name of an iPhone navigation app; can be translated as 'Scenic App' where 'App' is the word to translate while 'Scenic' is kept as is
-#. L10n: Scenic is a name of an iPhone navigation app; same as 'Scenic App' where App is the word to translate
 #: ../views/components/applications.jade:14
-#: ../views/components/navigation.jade:81
 #, fuzzy
 msgid "Scenic"
 msgstr "נוֹפִי"
@@ -792,7 +790,7 @@ msgstr ""
 #. L10n: label for using per diem (standard daily rate regardless of actual cost) method for lodging, meals and incidental expenses
 #. L10n: Label for the field to showing per diem rate (standard daily rate regardless of actual cost). The field is available for overnight stops when both tracking expenses and per diem method are enabled for a trip
 #: ../views/components/budget.jade:16 ../views/components/budget.jade:46
-#: ../views/components/budget.jade:93
+#: ../views/components/budget.jade:96
 msgid "Per Diem"
 msgstr ""
 
@@ -839,17 +837,17 @@ msgstr ""
 
 #. L10n: Label for the field to edit cost associated with a stop (i.e. hotel price) or a route (i.e. toll). The field is available when tracking expenses is enabled for a trip
 #. L10n: Label for the total cost of the trip
-#: ../views/components/budget.jade:78 ../views/components/trip-detail.jade:719
+#: ../views/components/budget.jade:81 ../views/components/trip-detail.jade:719
 msgid "Cost"
 msgstr ""
 
 #. L10n: Hint for the field that takes cost of a single stop or a single route segment
-#: ../views/components/budget.jade:81
+#: ../views/components/budget.jade:84
 msgid "Click to add cost"
 msgstr ""
 
 #. L10n: Label for the field to showing nightly cost of an overnight lodging stop. The field is available for multinight stops when tracking expenses is enabled for a trip
-#: ../views/components/budget.jade:88
+#: ../views/components/budget.jade:91
 msgid "Per Night"
 msgstr ""
 
@@ -1338,7 +1336,7 @@ msgstr ""
 
 #. L10n: Warning displayed for automatically scheduled stops that are not associated with real places but are just placeholders
 #: ../views/components/export-dlg.jade:234
-#: ../views/components/navigation.jade:118
+#: ../views/components/navigation.jade:117
 #: ../views/components/step-detail.jade:617
 #: ../views/components/step-detail.jade:653 ../views/export/warning.jade:1
 #, fuzzy
@@ -2124,17 +2122,17 @@ msgstr "ללכת לאכול מגירה"
 msgid "go to Find drawer"
 msgstr "ללכת מצא במגירה"
 
-#: ../views/components/language.jade:73
+#: ../views/components/language.jade:75
 msgid "Choose your language"
 msgstr ""
 
-#: ../views/components/language.jade:76
+#: ../views/components/language.jade:78
 #, fuzzy
 msgid "Languages partially translated"
 msgstr "שפות מתורגמות חלקית"
 
 #. L10n: square brackets [] denote a link
-#: ../views/components/language.jade:80
+#: ../views/components/language.jade:82
 #, fuzzy
 msgid "If you want to help [click here]"
 msgstr "אם אתה רוצה לעזור [לחץ כאן]"
@@ -2262,7 +2260,7 @@ msgstr "מרכז מפה על התחנה שנבחרה"
 
 #. L10n: 'places' means 'places displayed on the map'
 #: ../views/components/map.jade:82 ../views/components/places.jade:121
-#: ../views/components/places.jade:474
+#: ../views/components/places.jade:463
 #, fuzzy
 msgid "Hide places"
 msgstr "מקומות סתר"
@@ -2558,16 +2556,7 @@ msgstr "מפות אפלות"
 msgid "Google Maps"
 msgstr "גוגל מפות"
 
-#: ../views/components/navigation.jade:90
-msgid "Organic Maps"
-msgstr ""
-
-#: ../views/components/navigation.jade:99
-#: ../views/components/navigation.jade:108
-msgid "Waze"
-msgstr ""
-
-#: ../views/components/navigation.jade:111
+#: ../views/components/navigation.jade:110
 #, fuzzy
 msgid ""
 "Selected app will open when you click on the navigation button next to stop "
@@ -2576,13 +2565,13 @@ msgstr ""
 "אפליקציה שנבחרה תיפתח בעת הלחיצה על כפתור הניווט הבא להפסיק קואורדינטות, "
 "הכתובת או התוואי שלה."
 
-#: ../views/components/navigation.jade:117
+#: ../views/components/navigation.jade:116
 #: ../views/components/step-switches.jade:102 ../views/header.jade:20
 #, fuzzy
 msgid "Navigation"
 msgstr "ניווט"
 
-#: ../views/components/navigation.jade:119
+#: ../views/components/navigation.jade:118
 #, fuzzy
 msgid "Are you sure you want to navigate there?"
 msgstr "האם אתה בטוח שאתה רוצה למחוק את הטיול הזה?"
@@ -4040,7 +4029,7 @@ msgstr "תחנת דלק"
 #: ../views/components/place-switch.jade:194
 #: ../views/components/place-switch.jade:199 ../views/components/places.jade:59
 #: ../views/components/places.jade:69 ../views/components/places.jade:175
-#: ../views/components/places.jade:317
+#: ../views/components/places.jade:306
 #, fuzzy
 msgid "Hide gas stations"
 msgstr "סתר תחנות תדלוק"
@@ -4065,7 +4054,7 @@ msgstr "תחנות גז מן myGasFeed"
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
 #: ../views/components/place-switch.jade:194
 #: ../views/components/place-switch.jade:197
-#: ../views/components/places.jade:316 ../views/components/step-icons.jade:41
+#: ../views/components/places.jade:305 ../views/components/step-icons.jade:41
 #, fuzzy
 msgid "Ethanol-free gas stations"
 msgstr "אתנול ללא תחנות גז pure-gas.org"
@@ -4073,6 +4062,7 @@ msgstr "אתנול ללא תחנות גז pure-gas.org"
 #. L10n: hint for the button that shows stations that sell LPG (in US Propane Autogas) on the map
 #: ../views/components/place-switch.jade:199
 #: ../views/components/place-switch.jade:202 ../views/components/places.jade:70
+#: ../views/components/step-icons.jade:45
 msgid "Gas stations with LPG / Propane Autogas"
 msgstr ""
 
@@ -4245,7 +4235,7 @@ msgstr "הסתר מסלולי הליכה"
 #. L10n: stop type (icon)
 #: ../views/components/place-switch.jade:273
 #: ../views/components/place-switch.jade:276
-#: ../views/components/places.jade:204 ../views/components/places.jade:360
+#: ../views/components/places.jade:204 ../views/components/places.jade:349
 #: ../views/components/step-icons.jade:298
 #, fuzzy
 msgid "Hiking trails"
@@ -4315,14 +4305,14 @@ msgstr "אזורי סקי"
 #. L10n: stop type (icon)
 #: ../views/components/place-switch.jade:306
 #: ../views/components/place-switch.jade:309
-#: ../views/components/places.jade:422 ../views/components/step-icons.jade:372
+#: ../views/components/places.jade:411 ../views/components/step-icons.jade:372
 #, fuzzy
 msgid "Dive sites"
 msgstr "אתרי צלילה"
 
 #. L10n: hint for the button that hides dive sites on the map. 'Dive site' is a spot suitable for scuba diving
 #: ../views/components/place-switch.jade:306
-#: ../views/components/places.jade:421
+#: ../views/components/places.jade:410
 #, fuzzy
 msgid "Hide dive sites"
 msgstr "אתרי הצלילה הסתר"
@@ -4748,28 +4738,28 @@ msgstr "גדר מצא"
 
 #: ../views/components/places.jade:2 ../views/components/places.jade:74
 #: ../views/components/places.jade:115 ../views/components/places.jade:136
-#: ../views/components/places.jade:331 ../views/components/places.jade:467
+#: ../views/components/places.jade:320 ../views/components/places.jade:456
 #, fuzzy
 msgid "See description of this place"
 msgstr "ראה תיאור של המקום הזה"
 
 #: ../views/components/places.jade:3 ../views/components/places.jade:75
 #: ../views/components/places.jade:116 ../views/components/places.jade:137
-#: ../views/components/places.jade:332 ../views/components/places.jade:456
-#: ../views/components/places.jade:468
+#: ../views/components/places.jade:321 ../views/components/places.jade:445
+#: ../views/components/places.jade:457
 #, fuzzy
 msgid "See this place own website"
 msgstr "ראה זה אתר המקום עצמו"
 
-#: ../views/components/places.jade:4 ../views/components/places.jade:457
+#: ../views/components/places.jade:4 ../views/components/places.jade:446
 #, fuzzy
 msgid "Stop and visit this place"
 msgstr "עצרו לבקר את המקום הזה"
 
 #: ../views/components/places.jade:5 ../views/components/places.jade:77
 #: ../views/components/places.jade:119 ../views/components/places.jade:139
-#: ../views/components/places.jade:334 ../views/components/places.jade:458
-#: ../views/components/places.jade:471 ../views/components/step-detail.jade:611
+#: ../views/components/places.jade:323 ../views/components/places.jade:447
+#: ../views/components/places.jade:460 ../views/components/step-detail.jade:611
 #, fuzzy
 msgid "Add this place as a skipped stop"
 msgstr "הוסף מקום זה כמו לעצור דלג"
@@ -4786,7 +4776,7 @@ msgstr "בכיוון הפוך זה"
 
 #: ../views/components/places.jade:8 ../views/components/places.jade:78
 #: ../views/components/places.jade:120 ../views/components/places.jade:140
-#: ../views/components/places.jade:335 ../views/components/places.jade:472
+#: ../views/components/places.jade:324 ../views/components/places.jade:461
 #, fuzzy
 msgid "Fold this place details"
 msgstr "מקפלים את פרטי המקום הזה"
@@ -4886,29 +4876,29 @@ msgid "Fill up at this gas station"
 msgstr "להתמלא בתחנת דלק זו"
 
 #: ../views/components/places.jade:57 ../views/components/places.jade:67
-#: ../views/components/places.jade:166 ../views/components/places.jade:310
+#: ../views/components/places.jade:166 ../views/components/places.jade:299
 #, fuzzy
 msgid "Add this gas station as a skipped stop"
 msgstr "הוספת תחנת דלק זה כמו לעצור דלג"
 
 #: ../views/components/places.jade:58 ../views/components/places.jade:68
-#: ../views/components/places.jade:167 ../views/components/places.jade:311
+#: ../views/components/places.jade:167 ../views/components/places.jade:300
 #, fuzzy
 msgid "Fold this gas station details"
 msgstr "מקפלים פרטים בתחנת הדלק הזו"
 
 #: ../views/components/places.jade:76 ../views/components/places.jade:118
-#: ../views/components/places.jade:333 ../views/components/places.jade:470
+#: ../views/components/places.jade:322 ../views/components/places.jade:459
 #, fuzzy
 msgid "Stop at this place"
 msgstr "עצור במקום הזה"
 
-#: ../views/components/places.jade:79 ../views/components/places.jade:336
+#: ../views/components/places.jade:79 ../views/components/places.jade:325
 #, fuzzy
 msgid "Hide places and activities"
 msgstr "פרקי הסתר ותופעות טבע"
 
-#: ../views/components/places.jade:80 ../views/components/places.jade:337
+#: ../views/components/places.jade:80 ../views/components/places.jade:326
 #, fuzzy
 msgid "Places and activities"
 msgstr "מקומות ופעילויות מן Recreation.gov"
@@ -4956,20 +4946,20 @@ msgstr "מקפלי פרטי השביל הזה"
 
 #: ../views/components/places.jade:102 ../views/components/places.jade:117
 #: ../views/components/places.jade:229 ../views/components/places.jade:242
-#: ../views/components/places.jade:417 ../views/components/places.jade:469
+#: ../views/components/places.jade:406 ../views/components/places.jade:458
 #, fuzzy
 msgid "See user reviews"
 msgstr "ראה חוות דעת אורח"
 
 #: ../views/components/places.jade:103 ../views/components/places.jade:149
-#: ../views/components/places.jade:198 ../views/components/places.jade:355
+#: ../views/components/places.jade:198 ../views/components/places.jade:344
 #, fuzzy
 msgid "Stop and take this trail"
 msgstr "לעצור ולקחת השביל הזה"
 
 #: ../views/components/places.jade:104 ../views/components/places.jade:150
-#: ../views/components/places.jade:199 ../views/components/places.jade:356
-#: ../views/components/places.jade:367
+#: ../views/components/places.jade:199 ../views/components/places.jade:345
+#: ../views/components/places.jade:356
 #, fuzzy
 msgid "Add this trail as a skipped stop"
 msgstr "להוסיף השביל הזה כתחנה דלגה"
@@ -5001,7 +4991,7 @@ msgstr "מוזיאוני סתר"
 msgid "Trail guides"
 msgstr "שבילי טרקטורונים"
 
-#: ../views/components/places.jade:122 ../views/components/places.jade:475
+#: ../views/components/places.jade:122 ../views/components/places.jade:464
 #, fuzzy
 msgid "Recommended places"
 msgstr "ביצוע הוספה מחדש במקום"
@@ -5029,13 +5019,13 @@ msgid "See author's profile"
 msgstr "לראות את הפרופיל של המחבר בכתובת MBPost"
 
 #: ../views/components/places.jade:153 ../views/components/places.jade:202
-#: ../views/components/places.jade:357 ../views/components/places.jade:368
+#: ../views/components/places.jade:346 ../views/components/places.jade:357
 #, fuzzy
 msgid "Fold this trail details"
 msgstr "מקפלי פרטי השביל הזה"
 
-#: ../views/components/places.jade:154 ../views/components/places.jade:359
-#: ../views/components/places.jade:370
+#: ../views/components/places.jade:154 ../views/components/places.jade:348
+#: ../views/components/places.jade:359
 #, fuzzy
 msgid "Hide trails"
 msgstr "הסתר שבילי טרקטורונים"
@@ -5046,32 +5036,32 @@ msgid "Trail recordings"
 msgstr ""
 
 #: ../views/components/places.jade:180 ../views/components/places.jade:252
-#: ../views/components/places.jade:342
+#: ../views/components/places.jade:331
 #, fuzzy
 msgid "See description of this road"
 msgstr "ראה תיאור של המקום הזה"
 
-#: ../views/components/places.jade:181 ../views/components/places.jade:343
+#: ../views/components/places.jade:181 ../views/components/places.jade:332
 #, fuzzy
 msgid "Stop at this road"
 msgstr "עצור בשדה התעופה הזה"
 
-#: ../views/components/places.jade:182 ../views/components/places.jade:344
+#: ../views/components/places.jade:182 ../views/components/places.jade:333
 #, fuzzy
 msgid "Add this road as a skipped stop"
 msgstr "להוסיף השביל הזה כתחנה דלגה"
 
-#: ../views/components/places.jade:183 ../views/components/places.jade:345
+#: ../views/components/places.jade:183 ../views/components/places.jade:334
 #, fuzzy
 msgid "Ride this road"
 msgstr "לרכב כביש אופנוע זה"
 
-#: ../views/components/places.jade:184 ../views/components/places.jade:346
+#: ../views/components/places.jade:184 ../views/components/places.jade:335
 #, fuzzy
 msgid "Reverse this road"
 msgstr "בכיוון הפוך זה"
 
-#: ../views/components/places.jade:185 ../views/components/places.jade:347
+#: ../views/components/places.jade:185 ../views/components/places.jade:336
 #, fuzzy
 msgid "Fold this road details"
 msgstr "מקפלים פרטי המסלול הזה"
@@ -5290,232 +5280,225 @@ msgstr "הוספת תחנת טעינה זה כמו לעצור דלג"
 msgid "Fold this charging station details"
 msgstr "מקפלי פרטי תחנת הטעינה"
 
-#: ../views/components/places.jade:296 ../views/components/places.jade:387
-#, fuzzy
-msgid "See description of this peak"
-msgstr "ראה תיאור של המקום הזה"
-
-#: ../views/components/places.jade:297
-#, fuzzy
-msgid "See climber's profile"
-msgstr "לראות את הפרופיל של המחבר בכתובת LocalHikes"
-
-#: ../views/components/places.jade:298 ../views/components/places.jade:388
-#, fuzzy
-msgid "Stop and climb this peak"
-msgstr "לעצור ולקחת השביל הזה"
-
-#: ../views/components/places.jade:299 ../views/components/places.jade:389
-#, fuzzy
-msgid "Add this peak as a skipped stop"
-msgstr "הוסף מקום זה כמו לעצור דלג"
-
-#: ../views/components/places.jade:300 ../views/components/places.jade:390
-#, fuzzy
-msgid "Fold this peak details"
-msgstr "מקפלי פרטי עסקה הזאת"
-
-#: ../views/components/places.jade:301 ../views/components/places.jade:348
-#: ../views/components/places.jade:392
-#, fuzzy
-msgid "Hide peaks and routes"
-msgstr "פרקי הסתר ותופעות טבע"
-
-#: ../views/components/places.jade:302 ../views/components/places.jade:349
-#: ../views/components/places.jade:393
-#, fuzzy
-msgid "Peaks and routes"
-msgstr "ביצוע הוספה מחדש תוואי"
-
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:308
+#: ../views/components/places.jade:297
 #, fuzzy
 msgid "See this ethanol-free gas station page"
 msgstr "ראה עמוד זה תחנת דלק אתנול-חינם על pure-gas.org"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:309 ../views/components/places.jade:314
+#: ../views/components/places.jade:298 ../views/components/places.jade:303
 #, fuzzy
 msgid "Fill up at this ethanol-free gas station"
 msgstr "להתמלא בתחנת דלק אתנול ללא זה"
 
 #. L10n: square brackets [] denote a link. "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:323
+#: ../views/components/places.jade:312
 #, fuzzy
 msgid "The list of ethanol-free gas stations by [pure-gas.org]"
 msgstr "רשימת תחנות דלק ללא אתנול על ידי [pure-gas.org]"
 
 #. L10n: square brackets [] denote a link
-#: ../views/components/places.jade:325
+#: ../views/components/places.jade:314
 #, fuzzy
 msgid "with [permission]"
 msgstr "עם [אישור]"
 
-#: ../views/components/places.jade:354 ../views/components/places.jade:365
+#: ../views/components/places.jade:337 ../views/components/places.jade:381
+#, fuzzy
+msgid "Hide peaks and routes"
+msgstr "פרקי הסתר ותופעות טבע"
+
+#: ../views/components/places.jade:338 ../views/components/places.jade:382
+#, fuzzy
+msgid "Peaks and routes"
+msgstr "ביצוע הוספה מחדש תוואי"
+
+#: ../views/components/places.jade:343 ../views/components/places.jade:354
 #, fuzzy
 msgid "See description of this trail"
 msgstr "ראה תיאור של המקום הזה"
 
-#: ../views/components/places.jade:366
+#: ../views/components/places.jade:355
 #, fuzzy
 msgid "Stop and ski this trail"
 msgstr "לעצור ולקחת השביל הזה"
 
-#: ../views/components/places.jade:371
+#: ../views/components/places.jade:360
 msgid "Backcountry ski trails"
 msgstr ""
 
-#: ../views/components/places.jade:376
+#: ../views/components/places.jade:365
 #, fuzzy
 msgid "See description of this bike track"
 msgstr "ראה תיאור של אופניים במסלול זה ב MBPost"
 
-#: ../views/components/places.jade:377
+#: ../views/components/places.jade:366
 #, fuzzy
 msgid "Stop and ride this bike track"
 msgstr "תפסיק לרכוב במסלול האופניים הזה"
 
-#: ../views/components/places.jade:378
+#: ../views/components/places.jade:367
 #, fuzzy
 msgid "Add this bike track as a skipped stop"
 msgstr "הוספת מסלול אופניים זה כמו לעצור דלג"
 
-#: ../views/components/places.jade:379
+#: ../views/components/places.jade:368
 #, fuzzy
 msgid "Fold this bike track details"
 msgstr "מקפל את פרטי רצועת האופנוע הזה"
 
-#: ../views/components/places.jade:381
+#: ../views/components/places.jade:370
 #, fuzzy
 msgid "Hide bike tracks"
 msgstr "לרכוב במסלול האופניים הזה"
 
-#: ../views/components/places.jade:382
+#: ../views/components/places.jade:371
 #, fuzzy
 msgid "Bike tracks"
 msgstr "מסלולים"
 
-#: ../views/components/places.jade:416
+#: ../views/components/places.jade:376
+#, fuzzy
+msgid "See description of this peak"
+msgstr "ראה תיאור של המקום הזה"
+
+#: ../views/components/places.jade:377
+#, fuzzy
+msgid "Stop and climb this peak"
+msgstr "לעצור ולקחת השביל הזה"
+
+#: ../views/components/places.jade:378
+#, fuzzy
+msgid "Add this peak as a skipped stop"
+msgstr "הוסף מקום זה כמו לעצור דלג"
+
+#: ../views/components/places.jade:379
+#, fuzzy
+msgid "Fold this peak details"
+msgstr "מקפלי פרטי עסקה הזאת"
+
+#: ../views/components/places.jade:405
 #, fuzzy
 msgid "See description of this dive site"
 msgstr "ראה תיאור של צלילה באתר זה DiveSpots"
 
-#: ../views/components/places.jade:418
+#: ../views/components/places.jade:407
 #, fuzzy
 msgid "Stop and dive at this site"
 msgstr "תפסיק לצלול באתר זה"
 
-#: ../views/components/places.jade:419
+#: ../views/components/places.jade:408
 #, fuzzy
 msgid "Add this dive site as a skipped stop"
 msgstr "הוספת אתר צלילה זה כמו לעצור דלג"
 
-#: ../views/components/places.jade:420
+#: ../views/components/places.jade:409
 #, fuzzy
 msgid "Fold this dive site details"
 msgstr "מקפלים פרטים באתר הצלילה"
 
-#: ../views/components/places.jade:427
+#: ../views/components/places.jade:416
 #, fuzzy
 msgid "See more information about this place"
 msgstr "ראה מידע נוסף על המקום הזה"
 
-#: ../views/components/places.jade:428
+#: ../views/components/places.jade:417
 #, fuzzy
 msgid "Copy stop from its trip to this one"
 msgstr "העתק להפסיק מהטיול שלה לאחד זה"
 
-#: ../views/components/places.jade:429
+#: ../views/components/places.jade:418
 #, fuzzy
 msgid "Add as a skipped stop"
 msgstr "להוסיף כתחנה דלגה"
 
-#: ../views/components/places.jade:430
+#: ../views/components/places.jade:419
 #, fuzzy
 msgid "Copy route to the next stop"
 msgstr "מסלול העתק אל התחנה הבאה"
 
-#: ../views/components/places.jade:431
+#: ../views/components/places.jade:420
 #, fuzzy
 msgid "Reverse route when copying"
 msgstr "בכיוון הפוך בעת העתקה"
 
-#: ../views/components/places.jade:432 ../views/components/step-detail.jade:594
+#: ../views/components/places.jade:421 ../views/components/step-detail.jade:594
 #, fuzzy
 msgid "Fold this stop details"
 msgstr "מקפלי פרטים בתחנה זו"
 
-#: ../views/components/places.jade:435
+#: ../views/components/places.jade:424
 #, fuzzy
 msgid "Open this trip"
 msgstr "הדפס את המסע הזה"
 
-#: ../views/components/places.jade:436 ../views/components/places.jade:444
+#: ../views/components/places.jade:425 ../views/components/places.jade:433
 #, fuzzy
 msgid "Stop at this trip starting point"
 msgstr "עצור בשלב ההתחלה הטיול הזה"
 
-#: ../views/components/places.jade:437 ../views/components/places.jade:445
+#: ../views/components/places.jade:426 ../views/components/places.jade:434
 #, fuzzy
 msgid "Add this trip starting point as a skipped stop"
 msgstr "הוספת הנקודה המוצא לטיול הזה כתחנה דלגה"
 
-#: ../views/components/places.jade:438
+#: ../views/components/places.jade:427
 #, fuzzy
 msgid "Copy the entire trip to this one"
 msgstr "העתק את הטיול כולו לאחד זה"
 
-#: ../views/components/places.jade:439
+#: ../views/components/places.jade:428
 #, fuzzy
 msgid "Reverse this trip when copying"
 msgstr "הפוך את הטיול הזה בעת העתקה"
 
-#: ../views/components/places.jade:440 ../views/components/places.jade:448
+#: ../views/components/places.jade:429 ../views/components/places.jade:437
 #, fuzzy
 msgid "Fold this trip details"
 msgstr "מקפלי פרטי נסיעה זה"
 
-#: ../views/components/places.jade:443
+#: ../views/components/places.jade:432
 #, fuzzy
 msgid "See more information about this trip"
 msgstr "ראה מידע נוסף על הטיול הזה"
 
-#: ../views/components/places.jade:446
+#: ../views/components/places.jade:435
 #, fuzzy
 msgid "Add this trip to yours"
 msgstr "להוסיף את המסע הזה לשלך"
 
-#: ../views/components/places.jade:447
+#: ../views/components/places.jade:436
 #, fuzzy
 msgid "Reverse this trip when adding"
 msgstr "הפוך את הטיול הזה כאשר הוסיף"
 
-#: ../views/components/places.jade:449
+#: ../views/components/places.jade:438
 #, fuzzy
 msgid "Hide trips shared by Furkot community"
 msgstr "טיולי סתר משותפים קהילת Furkot"
 
-#: ../views/components/places.jade:450
+#: ../views/components/places.jade:439
 #, fuzzy
 msgid "Trips shared by Furkot community"
 msgstr "טיולים משותפים בקהילה Furkot"
 
-#: ../views/components/places.jade:455
+#: ../views/components/places.jade:444
 #, fuzzy
 msgid "Read this article"
 msgstr "קרא מאמר זה על ויקיפדיה"
 
-#: ../views/components/places.jade:459
+#: ../views/components/places.jade:448
 #, fuzzy
 msgid "Fold this article details"
 msgstr "מקפלים את הפרטים במאמר זה"
 
-#: ../views/components/places.jade:460
+#: ../views/components/places.jade:449
 #, fuzzy
 msgid "Hide articles"
 msgstr "מקומות סתר"
 
-#: ../views/components/places.jade:461
+#: ../views/components/places.jade:450
 #, fuzzy
 msgid "Articles from Wikipedia, the free encyclopedia"
 msgstr "מאמרים מוויקיפדיה, האנציקלופדיה החופשית"
@@ -6787,10 +6770,6 @@ msgstr "אַחֵר"
 #, fuzzy
 msgid "Pass-through"
 msgstr "עובר דרך"
-
-#: ../views/components/step-icons.jade:45
-msgid "Gas stations with LPG / Propane Autogas)"
-msgstr ""
 
 #. L10n: stop type (icon)
 #: ../views/components/step-icons.jade:54
@@ -9386,8 +9365,9 @@ msgstr "קישור למידע נוסף על הטיול"
 
 #. L10n: Question displayed when the owner tries to delete the static snapshot of the trip (tripshot) after publishing
 #: ../views/tripshot/mixin.jade:157
-msgid "Are you sure you want to delete this trip snapshot"
-msgstr ""
+#, fuzzy
+msgid "Are you sure you want to delete this trip snapshot?"
+msgstr "האם אתה בטוח שאתה רוצה למחוק את הטיול הזה?"
 
 #: ../views/tripshot/mixin.jade:172
 #, fuzzy
@@ -10001,6 +9981,10 @@ msgstr ""
 #, fuzzy
 #~ msgid "Save your email address for future use"
 #~ msgstr "שמור את כתובת הדוא\"ל שלך לשימוש עתידי"
+
+#, fuzzy
+#~ msgid "See climber's profile"
+#~ msgstr "לראות את הפרופיל של המחבר בכתובת LocalHikes"
 
 #, fuzzy
 #~ msgid "See description of this airport"

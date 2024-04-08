@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-03-27 17:52+0100\n"
+"POT-Creation-Date: 2024-04-08 07:59+0200\n"
 "PO-Revision-Date: 2024-03-23 06:42+0000\n"
 "Last-Translator: Tommi Riikonen <von.riikonen@gmail.com>\n"
 "Language-Team: Finnish <https://translate.furkot.com/projects/furkot/trips/"
@@ -54,7 +54,7 @@ msgstr "Ehdota"
 #: ../views/components/export-dlg.jade:223
 #: ../views/components/import-dlg.jade:165
 #: ../views/components/navigation.jade:2
-#: ../views/components/navigation.jade:117 ../views/components/network.jade:2
+#: ../views/components/navigation.jade:116 ../views/components/network.jade:2
 #: ../views/components/place-switch.jade:509
 #: ../views/components/plan-msg.jade:2 ../views/components/share-dlg.jade:75
 #: ../views/components/share-dlg.jade:86 ../views/components/share-dlg.jade:98
@@ -254,7 +254,7 @@ msgstr "Katkaise tilin liitos"
 
 #: ../views/components/accounts.jade:91 ../views/components/add-stops.jade:2
 #: ../views/components/add-stops.jade:13 ../views/components/navigation.jade:2
-#: ../views/components/navigation.jade:117 ../views/components/network.jade:2
+#: ../views/components/navigation.jade:116 ../views/components/network.jade:2
 #: ../views/components/place-switch.jade:510
 #: ../views/components/plan-msg.jade:2 ../views/components/plan-msg.jade:17
 #: ../views/components/share-dlg.jade:75 ../views/components/share-dlg.jade:86
@@ -296,12 +296,12 @@ msgstr "OK"
 #: ../views/components/accounts.jade:94
 #: ../views/components/applications.jade:18
 #: ../views/components/book-wizard.jade:60
-#: ../views/components/browse-happy.jade:10
+#: ../views/components/browse-happy.jade:10 ../views/components/budget.jade:74
 #: ../views/components/common-mixins.jade:42
 #: ../views/components/export-dlg.jade:199
 #: ../views/components/furkot-pass.jade:47
 #: ../views/components/import-dlg.jade:173 ../views/components/map.jade:123
-#: ../views/components/navigation.jade:114 ../views/components/network.jade:19
+#: ../views/components/navigation.jade:113 ../views/components/network.jade:19
 #: ../views/components/new-trip-wizard.jade:154
 #: ../views/components/place-detail.jade:14
 #: ../views/components/place-detail.jade:435
@@ -370,9 +370,7 @@ msgid "We recommend:"
 msgstr "Suosittelemme:"
 
 #. L10n: Scenic is the name of an iPhone navigation app; can be translated as 'Scenic App' where 'App' is the word to translate while 'Scenic' is kept as is
-#. L10n: Scenic is a name of an iPhone navigation app; same as 'Scenic App' where App is the word to translate
 #: ../views/components/applications.jade:14
-#: ../views/components/navigation.jade:81
 msgid "Scenic"
 msgstr "Scenic"
 
@@ -696,7 +694,7 @@ msgstr "Kustannukset"
 #. L10n: label for using per diem (standard daily rate regardless of actual cost) method for lodging, meals and incidental expenses
 #. L10n: Label for the field to showing per diem rate (standard daily rate regardless of actual cost). The field is available for overnight stops when both tracking expenses and per diem method are enabled for a trip
 #: ../views/components/budget.jade:16 ../views/components/budget.jade:46
-#: ../views/components/budget.jade:93
+#: ../views/components/budget.jade:96
 msgid "Per Diem"
 msgstr "Per päivä"
 
@@ -743,17 +741,17 @@ msgstr "Klikkaa lisääksesi kilometrikustannuksia"
 
 #. L10n: Label for the field to edit cost associated with a stop (i.e. hotel price) or a route (i.e. toll). The field is available when tracking expenses is enabled for a trip
 #. L10n: Label for the total cost of the trip
-#: ../views/components/budget.jade:78 ../views/components/trip-detail.jade:719
+#: ../views/components/budget.jade:81 ../views/components/trip-detail.jade:719
 msgid "Cost"
 msgstr "Hinta"
 
 #. L10n: Hint for the field that takes cost of a single stop or a single route segment
-#: ../views/components/budget.jade:81
+#: ../views/components/budget.jade:84
 msgid "Click to add cost"
 msgstr "Klikkaa lisääksesi hinta"
 
 #. L10n: Label for the field to showing nightly cost of an overnight lodging stop. The field is available for multinight stops when tracking expenses is enabled for a trip
-#: ../views/components/budget.jade:88
+#: ../views/components/budget.jade:91
 msgid "Per Night"
 msgstr "Yöltä"
 
@@ -1193,7 +1191,7 @@ msgstr "Päivä(t) {} - {}"
 
 #. L10n: Warning displayed for automatically scheduled stops that are not associated with real places but are just placeholders
 #: ../views/components/export-dlg.jade:234
-#: ../views/components/navigation.jade:118
+#: ../views/components/navigation.jade:117
 #: ../views/components/step-detail.jade:617
 #: ../views/components/step-detail.jade:653 ../views/export/warning.jade:1
 msgid "This stop is an automatically scheduled placeholder, not a real place."
@@ -1870,16 +1868,16 @@ msgstr "Avaa Syö-sivuvalikko"
 msgid "go to Find drawer"
 msgstr "Avaa Näytä-sivuvalikko"
 
-#: ../views/components/language.jade:73
+#: ../views/components/language.jade:75
 msgid "Choose your language"
 msgstr "Valitse kieli"
 
-#: ../views/components/language.jade:76
+#: ../views/components/language.jade:78
 msgid "Languages partially translated"
 msgstr "Kielet osittain käännettyjä"
 
 #. L10n: square brackets [] denote a link
-#: ../views/components/language.jade:80
+#: ../views/components/language.jade:82
 msgid "If you want to help [click here]"
 msgstr "Jos haluat auttaa [klikkaa tästä]"
 
@@ -1989,7 +1987,7 @@ msgstr "Keskitä kartta nykyiseen sijaintiin"
 
 #. L10n: 'places' means 'places displayed on the map'
 #: ../views/components/map.jade:82 ../views/components/places.jade:121
-#: ../views/components/places.jade:474
+#: ../views/components/places.jade:463
 msgid "Hide places"
 msgstr "Piilota paikat"
 
@@ -2247,16 +2245,7 @@ msgstr "Apple Maps"
 msgid "Google Maps"
 msgstr "Google Maps"
 
-#: ../views/components/navigation.jade:90
-msgid "Organic Maps"
-msgstr "Avoimen lähdekoodin kartat"
-
-#: ../views/components/navigation.jade:99
-#: ../views/components/navigation.jade:108
-msgid "Waze"
-msgstr "Waze"
-
-#: ../views/components/navigation.jade:111
+#: ../views/components/navigation.jade:110
 msgid ""
 "Selected app will open when you click on the navigation button next to stop "
 "coordinates, its address or route."
@@ -2264,12 +2253,12 @@ msgstr ""
 "Valittu sovellus avautuu pysähdyksen koordinaattien, osoitteen tai reitin "
 "viereisestä navigointi-painikkeesta."
 
-#: ../views/components/navigation.jade:117
+#: ../views/components/navigation.jade:116
 #: ../views/components/step-switches.jade:102 ../views/header.jade:20
 msgid "Navigation"
 msgstr "Navigointi"
 
-#: ../views/components/navigation.jade:119
+#: ../views/components/navigation.jade:118
 msgid "Are you sure you want to navigate there?"
 msgstr "Oletko varma että haluat navigoida sinne?"
 
@@ -3580,7 +3569,7 @@ msgstr "Huoltoasemat"
 #: ../views/components/place-switch.jade:194
 #: ../views/components/place-switch.jade:199 ../views/components/places.jade:59
 #: ../views/components/places.jade:69 ../views/components/places.jade:175
-#: ../views/components/places.jade:317
+#: ../views/components/places.jade:306
 msgid "Hide gas stations"
 msgstr "Piilota huoltoasemat"
 
@@ -3602,13 +3591,14 @@ msgstr "Diesel-asemat"
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
 #: ../views/components/place-switch.jade:194
 #: ../views/components/place-switch.jade:197
-#: ../views/components/places.jade:316 ../views/components/step-icons.jade:41
+#: ../views/components/places.jade:305 ../views/components/step-icons.jade:41
 msgid "Ethanol-free gas stations"
 msgstr "Etanolittomat huoltoasemat"
 
 #. L10n: hint for the button that shows stations that sell LPG (in US Propane Autogas) on the map
 #: ../views/components/place-switch.jade:199
 #: ../views/components/place-switch.jade:202 ../views/components/places.jade:70
+#: ../views/components/step-icons.jade:45
 msgid "Gas stations with LPG / Propane Autogas"
 msgstr "Nestekaasua/propaania myyvät huoltoasemat"
 
@@ -3760,7 +3750,7 @@ msgstr "Piilota vaellusreitit"
 #. L10n: stop type (icon)
 #: ../views/components/place-switch.jade:273
 #: ../views/components/place-switch.jade:276
-#: ../views/components/places.jade:204 ../views/components/places.jade:360
+#: ../views/components/places.jade:204 ../views/components/places.jade:349
 #: ../views/components/step-icons.jade:298
 msgid "Hiking trails"
 msgstr "Vaellusreitit"
@@ -3821,13 +3811,13 @@ msgstr "Hiihtokeskukset"
 #. L10n: stop type (icon)
 #: ../views/components/place-switch.jade:306
 #: ../views/components/place-switch.jade:309
-#: ../views/components/places.jade:422 ../views/components/step-icons.jade:372
+#: ../views/components/places.jade:411 ../views/components/step-icons.jade:372
 msgid "Dive sites"
 msgstr "Sukelluskohteet"
 
 #. L10n: hint for the button that hides dive sites on the map. 'Dive site' is a spot suitable for scuba diving
 #: ../views/components/place-switch.jade:306
-#: ../views/components/places.jade:421
+#: ../views/components/places.jade:410
 msgid "Hide dive sites"
 msgstr "Piilota sukelluskohteet"
 
@@ -4196,25 +4186,25 @@ msgstr "Muokkaa Näytä-välilehden parametrejä"
 
 #: ../views/components/places.jade:2 ../views/components/places.jade:74
 #: ../views/components/places.jade:115 ../views/components/places.jade:136
-#: ../views/components/places.jade:331 ../views/components/places.jade:467
+#: ../views/components/places.jade:320 ../views/components/places.jade:456
 msgid "See description of this place"
 msgstr "Katso paikan kuvaus"
 
 #: ../views/components/places.jade:3 ../views/components/places.jade:75
 #: ../views/components/places.jade:116 ../views/components/places.jade:137
-#: ../views/components/places.jade:332 ../views/components/places.jade:456
-#: ../views/components/places.jade:468
+#: ../views/components/places.jade:321 ../views/components/places.jade:445
+#: ../views/components/places.jade:457
 msgid "See this place own website"
 msgstr "Katso paikan nettisivut"
 
-#: ../views/components/places.jade:4 ../views/components/places.jade:457
+#: ../views/components/places.jade:4 ../views/components/places.jade:446
 msgid "Stop and visit this place"
 msgstr "Pysähdy ja vieraile paikassa"
 
 #: ../views/components/places.jade:5 ../views/components/places.jade:77
 #: ../views/components/places.jade:119 ../views/components/places.jade:139
-#: ../views/components/places.jade:334 ../views/components/places.jade:458
-#: ../views/components/places.jade:471 ../views/components/step-detail.jade:611
+#: ../views/components/places.jade:323 ../views/components/places.jade:447
+#: ../views/components/places.jade:460 ../views/components/step-detail.jade:611
 msgid "Add this place as a skipped stop"
 msgstr "Lisää tämä paikka sivuutetuksi pysähdykseksi"
 
@@ -4228,7 +4218,7 @@ msgstr "Käännä reitin suunta"
 
 #: ../views/components/places.jade:8 ../views/components/places.jade:78
 #: ../views/components/places.jade:120 ../views/components/places.jade:140
-#: ../views/components/places.jade:335 ../views/components/places.jade:472
+#: ../views/components/places.jade:324 ../views/components/places.jade:461
 msgid "Fold this place details"
 msgstr "Sulje paikan tiedot"
 
@@ -4312,25 +4302,25 @@ msgid "Fill up at this gas station"
 msgstr "Tankkaa huoltoasemalla"
 
 #: ../views/components/places.jade:57 ../views/components/places.jade:67
-#: ../views/components/places.jade:166 ../views/components/places.jade:310
+#: ../views/components/places.jade:166 ../views/components/places.jade:299
 msgid "Add this gas station as a skipped stop"
 msgstr "Lisää huoltoasema sivuutetuksi pysähdykseksi"
 
 #: ../views/components/places.jade:58 ../views/components/places.jade:68
-#: ../views/components/places.jade:167 ../views/components/places.jade:311
+#: ../views/components/places.jade:167 ../views/components/places.jade:300
 msgid "Fold this gas station details"
 msgstr "Sulje huoltoaseman tiedot"
 
 #: ../views/components/places.jade:76 ../views/components/places.jade:118
-#: ../views/components/places.jade:333 ../views/components/places.jade:470
+#: ../views/components/places.jade:322 ../views/components/places.jade:459
 msgid "Stop at this place"
 msgstr "Pysähdy tähän paikkaan"
 
-#: ../views/components/places.jade:79 ../views/components/places.jade:336
+#: ../views/components/places.jade:79 ../views/components/places.jade:325
 msgid "Hide places and activities"
 msgstr "Piilota paikat ja aktiviteetit"
 
-#: ../views/components/places.jade:80 ../views/components/places.jade:337
+#: ../views/components/places.jade:80 ../views/components/places.jade:326
 msgid "Places and activities"
 msgstr "Paikat ja aktiviteetit"
 
@@ -4369,18 +4359,18 @@ msgstr "Katso tästä reittioppaasta"
 
 #: ../views/components/places.jade:102 ../views/components/places.jade:117
 #: ../views/components/places.jade:229 ../views/components/places.jade:242
-#: ../views/components/places.jade:417 ../views/components/places.jade:469
+#: ../views/components/places.jade:406 ../views/components/places.jade:458
 msgid "See user reviews"
 msgstr "Katso käyttäjien arvostelut"
 
 #: ../views/components/places.jade:103 ../views/components/places.jade:149
-#: ../views/components/places.jade:198 ../views/components/places.jade:355
+#: ../views/components/places.jade:198 ../views/components/places.jade:344
 msgid "Stop and take this trail"
 msgstr "Pysähdy ja kulje tätä jälkeä"
 
 #: ../views/components/places.jade:104 ../views/components/places.jade:150
-#: ../views/components/places.jade:199 ../views/components/places.jade:356
-#: ../views/components/places.jade:367
+#: ../views/components/places.jade:199 ../views/components/places.jade:345
+#: ../views/components/places.jade:356
 msgid "Add this trail as a skipped stop"
 msgstr "Lisää jälki sivuutetuksi pysähdykseksi"
 
@@ -4406,7 +4396,7 @@ msgstr "Piilota oppaat"
 msgid "Trail guides"
 msgstr "Reittioppaat"
 
-#: ../views/components/places.jade:122 ../views/components/places.jade:475
+#: ../views/components/places.jade:122 ../views/components/places.jade:464
 msgid "Recommended places"
 msgstr "Suositellut kohteet"
 
@@ -4431,12 +4421,12 @@ msgid "See author's profile"
 msgstr "Katso kirjoittajan kuvaus"
 
 #: ../views/components/places.jade:153 ../views/components/places.jade:202
-#: ../views/components/places.jade:357 ../views/components/places.jade:368
+#: ../views/components/places.jade:346 ../views/components/places.jade:357
 msgid "Fold this trail details"
 msgstr "Sulje jäljen tiedot"
 
-#: ../views/components/places.jade:154 ../views/components/places.jade:359
-#: ../views/components/places.jade:370
+#: ../views/components/places.jade:154 ../views/components/places.jade:348
+#: ../views/components/places.jade:359
 msgid "Hide trails"
 msgstr "Piilota jäljet"
 
@@ -4446,27 +4436,27 @@ msgid "Trail recordings"
 msgstr "Jälkien tallenteet"
 
 #: ../views/components/places.jade:180 ../views/components/places.jade:252
-#: ../views/components/places.jade:342
+#: ../views/components/places.jade:331
 msgid "See description of this road"
 msgstr "Näytä tien kuvaus"
 
-#: ../views/components/places.jade:181 ../views/components/places.jade:343
+#: ../views/components/places.jade:181 ../views/components/places.jade:332
 msgid "Stop at this road"
 msgstr "Pysähdy tiellä"
 
-#: ../views/components/places.jade:182 ../views/components/places.jade:344
+#: ../views/components/places.jade:182 ../views/components/places.jade:333
 msgid "Add this road as a skipped stop"
 msgstr "Lisää tie sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:183 ../views/components/places.jade:345
+#: ../views/components/places.jade:183 ../views/components/places.jade:334
 msgid "Ride this road"
 msgstr "Aja tietä"
 
-#: ../views/components/places.jade:184 ../views/components/places.jade:346
+#: ../views/components/places.jade:184 ../views/components/places.jade:335
 msgid "Reverse this road"
 msgstr "Käännä tien suunta"
 
-#: ../views/components/places.jade:185 ../views/components/places.jade:347
+#: ../views/components/places.jade:185 ../views/components/places.jade:336
 msgid "Fold this road details"
 msgstr "Sulje tien tiedot"
 
@@ -4643,189 +4633,183 @@ msgstr "Lisää sähkön latausasema sivuutetuksi pysähdykseksi"
 msgid "Fold this charging station details"
 msgstr "Sulje sähkön latausaseman tiedot"
 
-#: ../views/components/places.jade:296 ../views/components/places.jade:387
-msgid "See description of this peak"
-msgstr "Katso huipun kuvaus"
-
-#: ../views/components/places.jade:297
-msgid "See climber's profile"
-msgstr "Katso kiipeilijän kuvaus"
-
-#: ../views/components/places.jade:298 ../views/components/places.jade:388
-msgid "Stop and climb this peak"
-msgstr "Pysähdy ja kiipeä tälle huipulle"
-
-#: ../views/components/places.jade:299 ../views/components/places.jade:389
-msgid "Add this peak as a skipped stop"
-msgstr "Lisää tämä huippu sivuutetuksi pysähdykseksi"
-
-#: ../views/components/places.jade:300 ../views/components/places.jade:390
-msgid "Fold this peak details"
-msgstr "Sulje huipun tiedot"
-
-#: ../views/components/places.jade:301 ../views/components/places.jade:348
-#: ../views/components/places.jade:392
-msgid "Hide peaks and routes"
-msgstr "Piilota huiput ja reitit"
-
-#: ../views/components/places.jade:302 ../views/components/places.jade:349
-#: ../views/components/places.jade:393
-msgid "Peaks and routes"
-msgstr "Huiput ja reitit"
-
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:308
+#: ../views/components/places.jade:297
 msgid "See this ethanol-free gas station page"
 msgstr "Näytä etanolittoman huoltoaseman sivu"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:309 ../views/components/places.jade:314
+#: ../views/components/places.jade:298 ../views/components/places.jade:303
 msgid "Fill up at this ethanol-free gas station"
 msgstr "Tankkaa etanolittomalla asemalla"
 
 #. L10n: square brackets [] denote a link. "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:323
+#: ../views/components/places.jade:312
 msgid "The list of ethanol-free gas stations by [pure-gas.org]"
 msgstr "Luettelon etanolittomista asemista tarjoaa [pure-gas.org]"
 
 #. L10n: square brackets [] denote a link
-#: ../views/components/places.jade:325
+#: ../views/components/places.jade:314
 msgid "with [permission]"
 msgstr "[luvalla]"
 
-#: ../views/components/places.jade:354 ../views/components/places.jade:365
+#: ../views/components/places.jade:337 ../views/components/places.jade:381
+msgid "Hide peaks and routes"
+msgstr "Piilota huiput ja reitit"
+
+#: ../views/components/places.jade:338 ../views/components/places.jade:382
+msgid "Peaks and routes"
+msgstr "Huiput ja reitit"
+
+#: ../views/components/places.jade:343 ../views/components/places.jade:354
 msgid "See description of this trail"
 msgstr "Näytä jäljen kuvaus"
 
-#: ../views/components/places.jade:366
+#: ../views/components/places.jade:355
 msgid "Stop and ski this trail"
 msgstr "Pysähdy ja laskettele jälki"
 
-#: ../views/components/places.jade:371
+#: ../views/components/places.jade:360
 msgid "Backcountry ski trails"
 msgstr "Hiihtolatuja"
 
-#: ../views/components/places.jade:376
+#: ../views/components/places.jade:365
 msgid "See description of this bike track"
 msgstr "Katso pyöräilyreitin kuvaus"
 
-#: ../views/components/places.jade:377
+#: ../views/components/places.jade:366
 msgid "Stop and ride this bike track"
 msgstr "Pysähdy ja aja pyöräilyreitti"
 
-#: ../views/components/places.jade:378
+#: ../views/components/places.jade:367
 msgid "Add this bike track as a skipped stop"
 msgstr "Lisää pyöräilyreitti sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:379
+#: ../views/components/places.jade:368
 msgid "Fold this bike track details"
 msgstr "Sulje pyöräilyreitin tiedot"
 
-#: ../views/components/places.jade:381
+#: ../views/components/places.jade:370
 msgid "Hide bike tracks"
 msgstr "Piilota pyöräilyreitit"
 
-#: ../views/components/places.jade:382
+#: ../views/components/places.jade:371
 msgid "Bike tracks"
 msgstr "Pyöräilyreitit"
 
-#: ../views/components/places.jade:416
+#: ../views/components/places.jade:376
+msgid "See description of this peak"
+msgstr "Katso huipun kuvaus"
+
+#: ../views/components/places.jade:377
+msgid "Stop and climb this peak"
+msgstr "Pysähdy ja kiipeä tälle huipulle"
+
+#: ../views/components/places.jade:378
+msgid "Add this peak as a skipped stop"
+msgstr "Lisää tämä huippu sivuutetuksi pysähdykseksi"
+
+#: ../views/components/places.jade:379
+msgid "Fold this peak details"
+msgstr "Sulje huipun tiedot"
+
+#: ../views/components/places.jade:405
 msgid "See description of this dive site"
 msgstr "Katso sukelluskohteen kuvaus"
 
-#: ../views/components/places.jade:418
+#: ../views/components/places.jade:407
 msgid "Stop and dive at this site"
 msgstr "Pysähdy ja sukella tässä kohteessa"
 
-#: ../views/components/places.jade:419
+#: ../views/components/places.jade:408
 msgid "Add this dive site as a skipped stop"
 msgstr "Lisää tämä sukelluskohde sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:420
+#: ../views/components/places.jade:409
 msgid "Fold this dive site details"
 msgstr "Sulje sukelluskohteen tiedot"
 
-#: ../views/components/places.jade:427
+#: ../views/components/places.jade:416
 msgid "See more information about this place"
 msgstr "Katso lisätietoja tästä paikasta"
 
-#: ../views/components/places.jade:428
+#: ../views/components/places.jade:417
 msgid "Copy stop from its trip to this one"
 msgstr "Kopioi pysähdys matkalta tähän"
 
-#: ../views/components/places.jade:429
+#: ../views/components/places.jade:418
 msgid "Add as a skipped stop"
 msgstr "Lisää sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:430
+#: ../views/components/places.jade:419
 msgid "Copy route to the next stop"
 msgstr "Kopioi reitti seuraavaksi pysähdykseksi"
 
-#: ../views/components/places.jade:431
+#: ../views/components/places.jade:420
 msgid "Reverse route when copying"
 msgstr "Käännä reitti kopioitaessa"
 
-#: ../views/components/places.jade:432 ../views/components/step-detail.jade:594
+#: ../views/components/places.jade:421 ../views/components/step-detail.jade:594
 msgid "Fold this stop details"
 msgstr "Sulje pysähdyksen tiedot"
 
-#: ../views/components/places.jade:435
+#: ../views/components/places.jade:424
 msgid "Open this trip"
 msgstr "Avaa matka"
 
-#: ../views/components/places.jade:436 ../views/components/places.jade:444
+#: ../views/components/places.jade:425 ../views/components/places.jade:433
 msgid "Stop at this trip starting point"
 msgstr "Pysähdy matkan lähtöpisteessä"
 
-#: ../views/components/places.jade:437 ../views/components/places.jade:445
+#: ../views/components/places.jade:426 ../views/components/places.jade:434
 msgid "Add this trip starting point as a skipped stop"
 msgstr "Lisää matkan lähtöpiste sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:438
+#: ../views/components/places.jade:427
 msgid "Copy the entire trip to this one"
 msgstr "Kopioi koko matka tähän"
 
-#: ../views/components/places.jade:439
+#: ../views/components/places.jade:428
 msgid "Reverse this trip when copying"
 msgstr "Käännä reitti kopioitaessa"
 
-#: ../views/components/places.jade:440 ../views/components/places.jade:448
+#: ../views/components/places.jade:429 ../views/components/places.jade:437
 msgid "Fold this trip details"
 msgstr "Sulje matkan tiedot"
 
-#: ../views/components/places.jade:443
+#: ../views/components/places.jade:432
 msgid "See more information about this trip"
 msgstr "Katso lisätietoja matkasta"
 
-#: ../views/components/places.jade:446
+#: ../views/components/places.jade:435
 msgid "Add this trip to yours"
 msgstr "Lisää tämä omiin matkoihisi"
 
-#: ../views/components/places.jade:447
+#: ../views/components/places.jade:436
 msgid "Reverse this trip when adding"
 msgstr "Käännä reitti lisättäessä"
 
-#: ../views/components/places.jade:449
+#: ../views/components/places.jade:438
 msgid "Hide trips shared by Furkot community"
 msgstr "Piilota Furkot-yhteisön jakamat matkat"
 
-#: ../views/components/places.jade:450
+#: ../views/components/places.jade:439
 msgid "Trips shared by Furkot community"
 msgstr "Furkot-yhteisön jakamat matkat"
 
-#: ../views/components/places.jade:455
+#: ../views/components/places.jade:444
 msgid "Read this article"
 msgstr "Lue artikkeli Wikipediassa"
 
-#: ../views/components/places.jade:459
+#: ../views/components/places.jade:448
 msgid "Fold this article details"
 msgstr "Sulje artikkelin tiedot"
 
-#: ../views/components/places.jade:460
+#: ../views/components/places.jade:449
 msgid "Hide articles"
 msgstr "Sulje artikkelit"
 
-#: ../views/components/places.jade:461
+#: ../views/components/places.jade:450
 msgid "Articles from Wikipedia, the free encyclopedia"
 msgstr "Artikkeleita Wikipediasta"
 
@@ -5927,10 +5911,6 @@ msgstr "Muu"
 #: ../views/components/step-icons.jade:25
 msgid "Pass-through"
 msgstr "Läpikulku"
-
-#: ../views/components/step-icons.jade:45
-msgid "Gas stations with LPG / Propane Autogas)"
-msgstr "Nestekaasua/propaania myyvät huoltoasemat)"
 
 #. L10n: stop type (icon)
 #: ../views/components/step-icons.jade:54
@@ -8257,7 +8237,8 @@ msgstr "Linkki matkan lisätietoihin"
 
 #. L10n: Question displayed when the owner tries to delete the static snapshot of the trip (tripshot) after publishing
 #: ../views/tripshot/mixin.jade:157
-msgid "Are you sure you want to delete this trip snapshot"
+#, fuzzy
+msgid "Are you sure you want to delete this trip snapshot?"
 msgstr "Haluatko varmasti poistaa snapshotin"
 
 #: ../views/tripshot/mixin.jade:172
@@ -8697,6 +8678,9 @@ msgstr ""
 #~ msgid "Gas station"
 #~ msgstr "Huoltoasema"
 
+#~ msgid "Gas stations with LPG / Propane Autogas)"
+#~ msgstr "Nestekaasua/propaania myyvät huoltoasemat)"
+
 #~ msgid "Hide curiosities"
 #~ msgstr "Piilota erikoisuudet"
 
@@ -8774,6 +8758,9 @@ msgstr ""
 #~ msgid "One way trip from start to end point"
 #~ msgstr "Yksisuuntainen matka"
 
+#~ msgid "Organic Maps"
+#~ msgstr "Avoimen lähdekoodin kartat"
+
 #~ msgid "Overlook"
 #~ msgstr "Näköalapaikka"
 
@@ -8808,6 +8795,9 @@ msgstr ""
 
 #~ msgid "Save your email address for future use"
 #~ msgstr "Tallenna sähköpostiosoitteesi myöhempää käyttöä varten"
+
+#~ msgid "See climber's profile"
+#~ msgstr "Katso kiipeilijän kuvaus"
 
 #~ msgid "See description of this airport"
 #~ msgstr "Katso lentoaseman kuvaus"
@@ -8900,6 +8890,9 @@ msgstr ""
 #~ "Type email addresses of the friends you want to invite in the field below."
 #~ msgstr ""
 #~ "Kirjoita kutsuttavien ystäviesi sähköpostiosoitteet alla olevaan kenttään."
+
+#~ msgid "Waze"
+#~ msgstr "Waze"
 
 #, fuzzy
 #~ msgid "We couldn't find an account associated with your email."
