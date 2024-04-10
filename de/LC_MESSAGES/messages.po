@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2024-04-08 07:59+0200\n"
-"PO-Revision-Date: 2023-08-25 08:17+0000\n"
-"Last-Translator: Fem Piff <fempiff@gmail.com>\n"
+"PO-Revision-Date: 2024-04-10 14:19+0000\n"
+"Last-Translator: Damian Krzeminski <pirxpilot@code42day.com>\n"
 "Language-Team: German <https://translate.furkot.com/projects/furkot/trips/de/"
 ">\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.10.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Loco-Source-Locale: de_DE\n"
 "X-Loco-Parser: loco_parse_po\n"
@@ -712,44 +712,47 @@ msgstr ""
 #. L10n: Label for the field to showing per diem rate (standard daily rate regardless of actual cost). The field is available for overnight stops when both tracking expenses and per diem method are enabled for a trip
 #: ../views/components/budget.jade:16 ../views/components/budget.jade:46
 #: ../views/components/budget.jade:96
+#, fuzzy
 msgid "Per Diem"
-msgstr ""
+msgstr "Tagesspesen"
 
 #. L10n: Label for the cost of drivng a mile or kilometer
 #. L10n: Label for the cost of drivng a mile or a kilometer
 #: ../views/components/budget.jade:26 ../views/components/budget.jade:59
+#, fuzzy
 msgid "Mileage Rate"
-msgstr ""
+msgstr "Kilometer-Tarif"
 
 #. L10n: follows a value (for instance cost) of 1 km
 #: ../views/components/budget.jade:32 ../views/components/budget.jade:69
+#, fuzzy
 msgid "per km"
-msgstr ""
+msgstr "pro km"
 
 #. L10n: follows a value (for instance cost) of 1 mile
 #: ../views/components/budget.jade:34 ../views/components/budget.jade:71
 msgid "per mile"
-msgstr ""
+msgstr "pro Meile"
 
 #. L10n: Label for checkbox to enable tracking expenses (i.e. assigning costs to stops and routes) for the trip
 #: ../views/components/budget.jade:43
 msgid "Track expenses for the trip"
-msgstr ""
+msgstr "Verfolgen Sie die Ausgaben für die Reise"
 
 #. L10n: Hint for the option that uses per diem (standard daily rate) instead of actual cost for lodging expenses
 #: ../views/components/budget.jade:49
 msgid "Lodging allowance"
-msgstr ""
+msgstr "Übernachtungsgeld"
 
 #. L10n: Hint for the option that uses per diem (standard daily rate) instead of actual cost for meals
 #: ../views/components/budget.jade:52
 msgid "Meal allowance"
-msgstr ""
+msgstr "Essenszuschuss"
 
 #. L10n: Hint for the option that uses per diem (standard daily rate) instead of actual cost for incidental expenses (fees and tips given to porters, baggage carriers, hotel staff, etc)
 #: ../views/components/budget.jade:55
 msgid "Incidental expenses"
-msgstr ""
+msgstr "Nebenkosten"
 
 #. L10n: Hint for the field used to set the cost of driving a mile or a kilometer
 #: ../views/components/budget.jade:62
@@ -760,7 +763,7 @@ msgstr ""
 #. L10n: Label for the total cost of the trip
 #: ../views/components/budget.jade:81 ../views/components/trip-detail.jade:719
 msgid "Cost"
-msgstr ""
+msgstr "Kosten"
 
 #. L10n: Hint for the field that takes cost of a single stop or a single route segment
 #: ../views/components/budget.jade:84
@@ -770,7 +773,7 @@ msgstr ""
 #. L10n: Label for the field to showing nightly cost of an overnight lodging stop. The field is available for multinight stops when tracking expenses is enabled for a trip
 #: ../views/components/budget.jade:91
 msgid "Per Night"
-msgstr ""
+msgstr "Pro Nacht"
 
 #. L10n: travel mode: travel by car
 #: ../views/components/common-mixins.jade:4
@@ -1057,7 +1060,7 @@ msgstr "Fahrprotokoll (.csv)"
 #: ../views/components/export-dlg.jade:55
 #: ../views/components/export-dlg.jade:140
 msgid "expense report (.csv)"
-msgstr ""
+msgstr "Spesenabrechnung (.csv)"
 
 #: ../views/components/export-dlg.jade:61
 msgid "Select a file format to export:"
@@ -2094,7 +2097,7 @@ msgstr ""
 
 #: ../views/components/map.jade:115
 msgid "Invite link copied to clipboard."
-msgstr ""
+msgstr "Einladungslink in die Zwischenablage kopiert."
 
 #: ../views/components/map.jade:117 ../views/components/step-switches.jade:131
 msgid "Nothing to display. Internet connection may be down."
@@ -2986,7 +2989,7 @@ msgstr "Skilifte"
 #: ../views/components/place-detail.jade:310
 #: ../views/components/trip-detail.jade:65
 msgid "LPG / Propane Autogas"
-msgstr ""
+msgstr "LPG / Propan Autogas"
 
 #. L10n: Length of a feature in meters, for instance maximum length of camping site. {} stands for the numerical value and 'm' for meters - metric unit of length
 #: ../views/components/place-detail.jade:140
@@ -3654,7 +3657,7 @@ msgstr "Ethanolfreie Tankstellen"
 #: ../views/components/place-switch.jade:202 ../views/components/places.jade:70
 #: ../views/components/step-icons.jade:45
 msgid "Gas stations with LPG / Propane Autogas"
-msgstr ""
+msgstr "Tankstellen mit LPG / Propangas"
 
 #. L10n: hint for the button that shows electric car charging stations on the map
 #. L10n: stop type (icon) for an electric vehicle charging station
@@ -4947,6 +4950,7 @@ msgstr "Herumfragen"
 #: ../views/components/share-dlg.jade:27
 msgid "Invite selected friends to help you plan road trip."
 msgstr ""
+"Lade ausgewählte Freunde ein, dir bei der Planung deines Roadtrips zu helfen."
 
 #. L10n: 'They' means people who are invited to share a trip (shown in the dialog to Share Trip)
 #: ../views/components/share-dlg.jade:30
@@ -4954,6 +4958,8 @@ msgid ""
 "They will have full access to the trip, will be able to add, remove, and "
 "modify stops, the same way you do."
 msgstr ""
+"Sie haben vollen Zugriff auf die Fahrt und können Stopps hinzufügen, "
+"entfernen und ändern, genau wie Sie."
 
 #: ../views/components/share-dlg.jade:31
 msgid "Or you can let them view the trip without ability to change it."
@@ -4999,12 +5005,12 @@ msgstr "Einladen"
 #: ../views/components/share-dlg.jade:46
 #: ../views/components/trip-detail.jade:266
 msgid "Copy invite link to clipboard."
-msgstr ""
+msgstr "Einladungslink in die Zwischenablage kopieren."
 
 #. L10n: 'Copy Link' to invite to share a trip
 #: ../views/components/share-dlg.jade:49
 msgid "Copy Link"
-msgstr ""
+msgstr "Link kopieren"
 
 #: ../views/components/share-dlg.jade:54
 msgid ""
@@ -6900,16 +6906,18 @@ msgstr ""
 "Furkot Flughäfen automatisch plant."
 
 #: ../views/components/step-switches.jade:264
+#, fuzzy
 msgid "Skip stop"
-msgstr ""
+msgstr "Station überspringen"
 
 #: ../views/components/step-switches.jade:267
 msgid "You should cancel the booking before skipping it."
 msgstr ""
 
 #: ../views/components/step-switches.jade:269
+#, fuzzy
 msgid "Are you sure you want to skip this stop?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie diese Station überspringen möchten?"
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
 #: ../views/components/tour-lodging.jade:3 ../views/welcome/blurbs.jade:78
@@ -7267,7 +7275,7 @@ msgstr "Personen pro Zimmer"
 #. L10n: Label for a field showing whether trip can be accessed without Internet connection
 #: ../views/components/trip-config-item.jade:285
 msgid "Offline Access"
-msgstr ""
+msgstr "Offline-Zugriff"
 
 #: ../views/components/trip-config-item.jade:290
 #: ../views/components/trip-detail.jade:749
@@ -7690,7 +7698,7 @@ msgstr "Durchschnitt"
 #: ../views/components/trip-detail.jade:724
 msgctxt "average cost per day"
 msgid "Per Day"
-msgstr ""
+msgstr "Pro Tag"
 
 #: ../views/components/trip-detail.jade:730
 msgid "Description of this trip"
@@ -8359,8 +8367,9 @@ msgstr "Reiseschnappschuss bearbeiten"
 
 #. L10n: Hint displayed on the button that allows deleting the static snapshot of the trip (tripshot) after publishing. Available to the owner of the trip only on the page with the tripshot.
 #: ../views/tripshot/mixin.jade:216
+#, fuzzy
 msgid "Delete trip snapshot"
-msgstr ""
+msgstr "Reiseschnappschuss löschen"
 
 #: ../views/tripshot/mixin.jade:222
 msgid "Embed in website"
