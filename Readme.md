@@ -115,6 +115,8 @@ For example for German
 Let us know how you want to be credited: we will list your name here, in [Furkot help][translators credits] and in [Furkot].
 We can also include (or not) your e-mail and/or a link to your website.
 
+Catalan translation by [Airald Marquet](https://github.com/airald).
+
 Dutch translation by Merijn Peeters, Willo Vleer.
 
 French translation by [Sylvain Francois](https://github.com/syllant).
