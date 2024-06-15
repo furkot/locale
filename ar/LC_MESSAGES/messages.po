@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-05-07 08:36-0700\n"
+"POT-Creation-Date: 2024-06-15 11:12-0600\n"
 "PO-Revision-Date: 2022-06-10 08:42+0000\n"
 "Last-Translator: Sayed Husain Khalaf <hussainkhalaf@gmail.com>\n"
 "Language-Team: Arabic <https://translate.furkot.com/projects/furkot/trips/ar/"
@@ -59,7 +59,7 @@ msgstr "إقترح"
 #: ../views/components/place-switch.jade:509
 #: ../views/components/plan-msg.jade:2 ../views/components/share-dlg.jade:75
 #: ../views/components/share-dlg.jade:86 ../views/components/share-dlg.jade:98
-#: ../views/components/step-detail.jade:602
+#: ../views/components/step-detail.jade:606
 #: ../views/components/step-switches.jade:140
 #: ../views/components/step-switches.jade:151
 #: ../views/components/step-switches.jade:162
@@ -307,9 +307,9 @@ msgstr "نعم"
 #: ../views/components/place-detail.jade:435
 #: ../views/components/place-switch.jade:513
 #: ../views/components/share-dlg.jade:72
-#: ../views/components/step-detail.jade:676
 #: ../views/components/step-detail.jade:682
 #: ../views/components/step-detail.jade:688
+#: ../views/components/step-detail.jade:694
 #: ../views/components/step-lodging.jade:15
 #: ../views/components/step-switches.jade:24
 #: ../views/components/step-switches.jade:200
@@ -865,17 +865,17 @@ msgstr ""
 msgid "Curvy Roads"
 msgstr "السفر على الطرق الوعرة"
 
-#: ../views/components/dialog.jade:5 ../views/components/step-detail.jade:600
+#: ../views/components/dialog.jade:5 ../views/components/step-detail.jade:604
 #: ../views/tripshot/mixin.jade:119
 msgid "Cancel changes"
 msgstr "إلغاء التغييرات"
 
-#: ../views/components/dialog.jade:8 ../views/components/step-detail.jade:603
+#: ../views/components/dialog.jade:8 ../views/components/step-detail.jade:607
 #: ../views/tripshot/mixin.jade:122
 msgid "Accept changes"
 msgstr "قبول التغييرات"
 
-#: ../views/components/dialog.jade:10 ../views/components/step-detail.jade:605
+#: ../views/components/dialog.jade:10 ../views/components/step-detail.jade:609
 msgid "Save"
 msgstr "حفظ"
 
@@ -1137,13 +1137,13 @@ msgstr "سابق"
 
 #. L10n: 'Export' as in 'Export into a file'. Can be also translated as 'Download'
 #: ../views/components/export-dlg.jade:205
-#: ../views/components/step-detail.jade:559
+#: ../views/components/step-detail.jade:563
 msgid "Export"
 msgstr "تصدير"
 
 #. L10n: Displayed to label a subsequent day of the trip followed by the number
 #: ../views/components/export-dlg.jade:211 ../views/components/print.jade:16
-#: ../views/components/step-detail.jade:573 ../views/tripshot/tripshot.jade:33
+#: ../views/components/step-detail.jade:577 ../views/tripshot/tripshot.jade:33
 msgid "Day"
 msgstr "يوم"
 
@@ -1187,8 +1187,8 @@ msgstr ""
 #. L10n: Warning displayed for automatically scheduled stops that are not associated with real places but are just placeholders
 #: ../views/components/export-dlg.jade:234
 #: ../views/components/navigation.jade:117
-#: ../views/components/step-detail.jade:617
-#: ../views/components/step-detail.jade:653 ../views/export/warning.jade:1
+#: ../views/components/step-detail.jade:621
+#: ../views/components/step-detail.jade:659 ../views/export/warning.jade:1
 #, fuzzy
 msgid "This stop is an automatically scheduled placeholder, not a real place."
 msgstr "هذا هو التوقف للتزود بالوقود من المقرر تلقائيا."
@@ -1687,7 +1687,7 @@ msgstr "دع Furkot يتبع الطرق ما لم تستورد طرق / مسار
 
 #. L10n: 'Travel off-road' - user can shape routes manually without any constraint - as opposed to 'Follow roads' - Furkot will automatically calculate routes that go over public roads
 #: ../views/components/import-dlg.jade:128
-#: ../views/components/step-detail.jade:449
+#: ../views/components/step-detail.jade:453
 msgid "Travel off road"
 msgstr "السفر على الطرق الوعرة"
 
@@ -1876,17 +1876,17 @@ msgstr "الذهاب لتناول الطعام درج"
 msgid "go to Find drawer"
 msgstr "اذهب إلى البحث درج"
 
-#: ../views/components/language.jade:75
+#: ../views/components/language.jade:77
 msgid "Choose your language"
 msgstr ""
 
-#: ../views/components/language.jade:78
+#: ../views/components/language.jade:80
 #, fuzzy
 msgid "Languages partially translated"
 msgstr "اللغات ترجمت جزئيا"
 
 #. L10n: square brackets [] denote a link
-#: ../views/components/language.jade:82
+#: ../views/components/language.jade:84
 #, fuzzy
 msgid "If you want to help [click here]"
 msgstr "إذا كنت ترغب في مساعدة [انقر هنا]"
@@ -2014,7 +2014,7 @@ msgstr "خريطة مركز في المحطة المختارة"
 
 #. L10n: 'places' means 'places displayed on the map'
 #: ../views/components/map.jade:82 ../views/components/places.jade:121
-#: ../views/components/places.jade:463
+#: ../views/components/places.jade:450
 #, fuzzy
 msgid "Hide places"
 msgstr "إخفاء الأماكن"
@@ -2126,7 +2126,7 @@ msgstr "عرض رحلة"
 
 #. L10n: Label on the handle of the Trip drawer. Shorter word is better; ideally words for other handles (Plan, Sleep, Eat, Find) will not be longer
 #. L10n: Label for time/distance covered since beginning of the trip
-#: ../views/components/map.jade:143 ../views/components/step-detail.jade:316
+#: ../views/components/map.jade:143 ../views/components/step-detail.jade:320
 #, fuzzy
 msgid "Trip"
 msgstr "رحلة قصيرة"
@@ -2196,9 +2196,9 @@ msgid "Find"
 msgstr "تجد"
 
 #. L10n: meters as unit of elevation
-#: ../views/components/map.jade:222 ../views/components/step-detail.jade:520
-#: ../views/components/step-detail.jade:531
-#: ../views/components/step-detail.jade:540
+#: ../views/components/map.jade:222 ../views/components/step-detail.jade:524
+#: ../views/components/step-detail.jade:535
+#: ../views/components/step-detail.jade:544
 #: ../views/components/trip-config-item.jade:200
 #: ../views/components/trip-config-item.jade:207
 #: ../views/components/trip-detail.jade:441
@@ -2209,9 +2209,9 @@ msgid "m"
 msgstr "كم"
 
 #. L10n: feet as unit of elevation
-#: ../views/components/map.jade:224 ../views/components/step-detail.jade:522
-#: ../views/components/step-detail.jade:533
-#: ../views/components/step-detail.jade:542
+#: ../views/components/map.jade:224 ../views/components/step-detail.jade:526
+#: ../views/components/step-detail.jade:537
+#: ../views/components/step-detail.jade:546
 #: ../views/components/trip-config-item.jade:201
 #: ../views/components/trip-config-item.jade:208
 #: ../views/components/trip-detail.jade:442
@@ -2688,7 +2688,7 @@ msgstr "نقل"
 #. L10n: 'Maybe' meaning 'Add the place to the trip as a skipped Stop'
 #: ../views/components/place-detail.jade:37
 #: ../views/components/place-detail.jade:55
-#: ../views/components/step-detail.jade:613
+#: ../views/components/step-detail.jade:617
 #, fuzzy
 msgid "Maybe"
 msgstr "يمكن"
@@ -3096,7 +3096,7 @@ msgstr "الضيوف الأقصى"
 #. L10n: Elevation of a peak (mountain). Followed by number. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:143
 #: ../views/components/place-detail.jade:318
-#: ../views/components/step-detail.jade:515
+#: ../views/components/step-detail.jade:519
 #, fuzzy
 msgid "Elevation"
 msgstr "ارتفاع"
@@ -3782,7 +3782,7 @@ msgstr "محطة غاز"
 #: ../views/components/place-switch.jade:194
 #: ../views/components/place-switch.jade:199 ../views/components/places.jade:59
 #: ../views/components/places.jade:69 ../views/components/places.jade:175
-#: ../views/components/places.jade:306
+#: ../views/components/places.jade:293
 #, fuzzy
 msgid "Hide gas stations"
 msgstr "إخفاء محطات تعبئة الوقود"
@@ -3807,7 +3807,7 @@ msgstr "محطات الوقود من myGasFeed"
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
 #: ../views/components/place-switch.jade:194
 #: ../views/components/place-switch.jade:197
-#: ../views/components/places.jade:305 ../views/components/step-icons.jade:41
+#: ../views/components/places.jade:292 ../views/components/step-icons.jade:41
 #, fuzzy
 msgid "Ethanol-free gas stations"
 msgstr "محطات الوقود خالية من الإيثانول من pure-gas.org"
@@ -3823,7 +3823,7 @@ msgstr ""
 #. L10n: stop type (icon) for an electric vehicle charging station
 #: ../views/components/place-switch.jade:205
 #: ../views/components/place-switch.jade:208
-#: ../views/components/places.jade:283 ../views/components/places.jade:292
+#: ../views/components/places.jade:270 ../views/components/places.jade:279
 #: ../views/components/step-icons.jade:50
 #, fuzzy
 msgid "Electric car charging stations"
@@ -3831,7 +3831,7 @@ msgstr "محطات سيارة الشحن الكهربائي"
 
 #. L10n: hint for the button that hides electric car charging stations on the map
 #: ../views/components/place-switch.jade:205
-#: ../views/components/places.jade:282 ../views/components/places.jade:291
+#: ../views/components/places.jade:269 ../views/components/places.jade:278
 #, fuzzy
 msgid "Hide electric car charging stations"
 msgstr "إخفاء محطات سيارة الشحن الكهربائي"
@@ -3988,7 +3988,7 @@ msgstr "إخفاء مسارات المشي لمسافات طويلة"
 #. L10n: stop type (icon)
 #: ../views/components/place-switch.jade:273
 #: ../views/components/place-switch.jade:276
-#: ../views/components/places.jade:204 ../views/components/places.jade:349
+#: ../views/components/places.jade:204 ../views/components/places.jade:336
 #: ../views/components/step-icons.jade:298
 #, fuzzy
 msgid "Hiking trails"
@@ -4058,14 +4058,14 @@ msgstr "مناطق التزلج"
 #. L10n: stop type (icon)
 #: ../views/components/place-switch.jade:306
 #: ../views/components/place-switch.jade:309
-#: ../views/components/places.jade:411 ../views/components/step-icons.jade:372
+#: ../views/components/places.jade:398 ../views/components/step-icons.jade:372
 #, fuzzy
 msgid "Dive sites"
 msgstr "مواقع الغوص"
 
 #. L10n: hint for the button that hides dive sites on the map. 'Dive site' is a spot suitable for scuba diving
 #: ../views/components/place-switch.jade:306
-#: ../views/components/places.jade:410
+#: ../views/components/places.jade:397
 #, fuzzy
 msgid "Hide dive sites"
 msgstr "مواقع إخفاء الغوص"
@@ -4491,28 +4491,28 @@ msgstr "تكوين البحث"
 
 #: ../views/components/places.jade:2 ../views/components/places.jade:74
 #: ../views/components/places.jade:115 ../views/components/places.jade:136
-#: ../views/components/places.jade:320 ../views/components/places.jade:456
+#: ../views/components/places.jade:307 ../views/components/places.jade:443
 #, fuzzy
 msgid "See description of this place"
 msgstr "انظر وصف هذا المكان"
 
 #: ../views/components/places.jade:3 ../views/components/places.jade:75
 #: ../views/components/places.jade:116 ../views/components/places.jade:137
-#: ../views/components/places.jade:321 ../views/components/places.jade:445
-#: ../views/components/places.jade:457
+#: ../views/components/places.jade:308 ../views/components/places.jade:432
+#: ../views/components/places.jade:444
 #, fuzzy
 msgid "See this place own website"
 msgstr "انظر هذا الموقع مكان خاص بها"
 
-#: ../views/components/places.jade:4 ../views/components/places.jade:446
+#: ../views/components/places.jade:4 ../views/components/places.jade:433
 #, fuzzy
 msgid "Stop and visit this place"
 msgstr "وقف وزيارة هذا المكان"
 
 #: ../views/components/places.jade:5 ../views/components/places.jade:77
 #: ../views/components/places.jade:119 ../views/components/places.jade:139
-#: ../views/components/places.jade:323 ../views/components/places.jade:447
-#: ../views/components/places.jade:460 ../views/components/step-detail.jade:611
+#: ../views/components/places.jade:310 ../views/components/places.jade:434
+#: ../views/components/places.jade:447 ../views/components/step-detail.jade:615
 #, fuzzy
 msgid "Add this place as a skipped stop"
 msgstr "إضافة هذا المكان كمحطة تخطي"
@@ -4529,7 +4529,7 @@ msgstr "عكس هذا الطريق"
 
 #: ../views/components/places.jade:8 ../views/components/places.jade:78
 #: ../views/components/places.jade:120 ../views/components/places.jade:140
-#: ../views/components/places.jade:324 ../views/components/places.jade:461
+#: ../views/components/places.jade:311 ../views/components/places.jade:448
 #, fuzzy
 msgid "Fold this place details"
 msgstr "أضعاف هذا على تفاصيل المكان"
@@ -4631,29 +4631,29 @@ msgid "Fill up at this gas station"
 msgstr "تملأ في هذه المحطة الغاز"
 
 #: ../views/components/places.jade:57 ../views/components/places.jade:67
-#: ../views/components/places.jade:166 ../views/components/places.jade:299
+#: ../views/components/places.jade:166 ../views/components/places.jade:286
 #, fuzzy
 msgid "Add this gas station as a skipped stop"
 msgstr "إضافة محطة وقود هذه كمحطة تخطي"
 
 #: ../views/components/places.jade:58 ../views/components/places.jade:68
-#: ../views/components/places.jade:167 ../views/components/places.jade:300
+#: ../views/components/places.jade:167 ../views/components/places.jade:287
 #, fuzzy
 msgid "Fold this gas station details"
 msgstr "أضعاف هذه التفاصيل محطة الغاز"
 
 #: ../views/components/places.jade:76 ../views/components/places.jade:118
-#: ../views/components/places.jade:322 ../views/components/places.jade:459
+#: ../views/components/places.jade:309 ../views/components/places.jade:446
 #, fuzzy
 msgid "Stop at this place"
 msgstr "وقف في هذا المكان"
 
-#: ../views/components/places.jade:79 ../views/components/places.jade:325
+#: ../views/components/places.jade:79 ../views/components/places.jade:312
 #, fuzzy
 msgid "Hide places and activities"
 msgstr "إخفاء الحدائق والمسطحات الطبيعية"
 
-#: ../views/components/places.jade:80 ../views/components/places.jade:326
+#: ../views/components/places.jade:80 ../views/components/places.jade:313
 #, fuzzy
 msgid "Places and activities"
 msgstr "الأماكن والأنشطة من Recreation.gov"
@@ -4700,21 +4700,21 @@ msgid "See this trail guide"
 msgstr "أضعاف هذه التفاصيل درب"
 
 #: ../views/components/places.jade:102 ../views/components/places.jade:117
-#: ../views/components/places.jade:229 ../views/components/places.jade:242
-#: ../views/components/places.jade:406 ../views/components/places.jade:458
+#: ../views/components/places.jade:229 ../views/components/places.jade:393
+#: ../views/components/places.jade:445
 #, fuzzy
 msgid "See user reviews"
 msgstr "نرى تعليقات من النزلاء في"
 
 #: ../views/components/places.jade:103 ../views/components/places.jade:149
-#: ../views/components/places.jade:198 ../views/components/places.jade:344
+#: ../views/components/places.jade:198 ../views/components/places.jade:331
 #, fuzzy
 msgid "Stop and take this trail"
 msgstr "توقف وأخذ هذا الدرب"
 
 #: ../views/components/places.jade:104 ../views/components/places.jade:150
-#: ../views/components/places.jade:199 ../views/components/places.jade:345
-#: ../views/components/places.jade:356
+#: ../views/components/places.jade:199 ../views/components/places.jade:332
+#: ../views/components/places.jade:343
 #, fuzzy
 msgid "Add this trail as a skipped stop"
 msgstr "إضافة هذا درب كمحطة تخطي"
@@ -4746,7 +4746,7 @@ msgstr "إخفاء المتاحف"
 msgid "Trail guides"
 msgstr "مسارات مركبة"
 
-#: ../views/components/places.jade:122 ../views/components/places.jade:464
+#: ../views/components/places.jade:122 ../views/components/places.jade:451
 #, fuzzy
 msgid "Recommended places"
 msgstr "الإعادة إضافة مكان"
@@ -4774,13 +4774,13 @@ msgid "See author's profile"
 msgstr "رؤية الشخصي البلاغ في MBPost"
 
 #: ../views/components/places.jade:153 ../views/components/places.jade:202
-#: ../views/components/places.jade:346 ../views/components/places.jade:357
+#: ../views/components/places.jade:333 ../views/components/places.jade:344
 #, fuzzy
 msgid "Fold this trail details"
 msgstr "أضعاف هذه التفاصيل درب"
 
-#: ../views/components/places.jade:154 ../views/components/places.jade:348
-#: ../views/components/places.jade:359
+#: ../views/components/places.jade:154 ../views/components/places.jade:335
+#: ../views/components/places.jade:346
 #, fuzzy
 msgid "Hide trails"
 msgstr "إخفاء مسارات مركبة"
@@ -4790,33 +4790,33 @@ msgstr "إخفاء مسارات مركبة"
 msgid "Trail recordings"
 msgstr ""
 
-#: ../views/components/places.jade:180 ../views/components/places.jade:252
-#: ../views/components/places.jade:331
+#: ../views/components/places.jade:180 ../views/components/places.jade:239
+#: ../views/components/places.jade:318
 #, fuzzy
 msgid "See description of this road"
 msgstr "انظر وصف هذا المكان"
 
-#: ../views/components/places.jade:181 ../views/components/places.jade:332
+#: ../views/components/places.jade:181 ../views/components/places.jade:319
 #, fuzzy
 msgid "Stop at this road"
 msgstr "تتوقف عند هذا المطار"
 
-#: ../views/components/places.jade:182 ../views/components/places.jade:333
+#: ../views/components/places.jade:182 ../views/components/places.jade:320
 #, fuzzy
 msgid "Add this road as a skipped stop"
 msgstr "إضافة هذا درب كمحطة تخطي"
 
-#: ../views/components/places.jade:183 ../views/components/places.jade:334
+#: ../views/components/places.jade:183 ../views/components/places.jade:321
 #, fuzzy
 msgid "Ride this road"
 msgstr "ركوب هذا الطريق دراجة نارية"
 
-#: ../views/components/places.jade:184 ../views/components/places.jade:335
+#: ../views/components/places.jade:184 ../views/components/places.jade:322
 #, fuzzy
 msgid "Reverse this road"
 msgstr "عكس هذا الطريق"
 
-#: ../views/components/places.jade:185 ../views/components/places.jade:336
+#: ../views/components/places.jade:185 ../views/components/places.jade:323
 #, fuzzy
 msgid "Fold this road details"
 msgstr "أضعاف هذه التفاصيل الطريق"
@@ -4898,365 +4898,330 @@ msgstr "مناطق التزلج"
 
 #: ../views/components/places.jade:240
 #, fuzzy
-msgid "See review of this sight"
-msgstr "انظر استعراض فودور من هذا المنظر"
-
-#: ../views/components/places.jade:241
-#, fuzzy
-msgid "See this sight own website"
-msgstr "انظر هذا الموقع البصر الخاص"
-
-#: ../views/components/places.jade:243
-#, fuzzy
-msgid "Stop at this sight"
-msgstr "تتوقف عند هذا المنظر"
-
-#: ../views/components/places.jade:244
-#, fuzzy
-msgid "Add this sight as a skipped stop"
-msgstr "إضافة هذا المنظر كمحطة تخطي"
-
-#: ../views/components/places.jade:245
-#, fuzzy
-msgid "Fold this sight details"
-msgstr "أضعاف هذه التفاصيل البصر"
-
-#: ../views/components/places.jade:246
-#, fuzzy
-msgid "Hide sights"
-msgstr "فنادق إخفاء"
-
-#: ../views/components/places.jade:247
-#, fuzzy
-msgid "Sights and attractions"
-msgstr "مسارات الدراجات ومسارات"
-
-#: ../views/components/places.jade:253
-#, fuzzy
 msgid "See contributor's profile"
 msgstr "رؤية الشخصي المساهم في MotorcycleRoads.us"
 
-#: ../views/components/places.jade:254
+#: ../views/components/places.jade:241
 #, fuzzy
 msgid "See riders' rating"
 msgstr "انظر تصنيف الدراجين في MotorcycleRoads.us"
 
-#: ../views/components/places.jade:255
+#: ../views/components/places.jade:242
 #, fuzzy
 msgid "Stop at this motorcycle road"
 msgstr "تتوقف عند هذا الطريق دراجة نارية"
 
-#: ../views/components/places.jade:256
+#: ../views/components/places.jade:243
 #, fuzzy
 msgid "Add this motorcycle road as a skipped stop"
 msgstr "إضافة هذا الطريق دراجة نارية كمحطة تخطي"
 
-#: ../views/components/places.jade:257
+#: ../views/components/places.jade:244
 #, fuzzy
 msgid "Ride this motorcycle road"
 msgstr "ركوب هذا الطريق دراجة نارية"
 
-#: ../views/components/places.jade:258
+#: ../views/components/places.jade:245
 #, fuzzy
 msgid "Reverse this motorcycle road"
 msgstr "عكس هذا الطريق دراجة نارية"
 
-#: ../views/components/places.jade:259
+#: ../views/components/places.jade:246
 #, fuzzy
 msgid "Fold this motorcycle road details"
 msgstr "أضعاف هذا دراجة نارية تفاصيل الطرق"
 
-#: ../views/components/places.jade:260
+#: ../views/components/places.jade:247
 #, fuzzy
 msgid "Hide roads and rides"
 msgstr "إخفاء يتوقف من رحلاتي الأخرى"
 
-#: ../views/components/places.jade:261
+#: ../views/components/places.jade:248
 msgid "Roads and rides"
 msgstr ""
 
-#: ../views/components/places.jade:266
+#: ../views/components/places.jade:253
 #, fuzzy
 msgid "See Motor Vehicle Use Maps at U.S. Forest Service"
 msgstr ""
 "رؤية المركبات ذات المحركات استخدام الخرائط في دائرة الغابات في الولايات "
 "المتحدة"
 
-#: ../views/components/places.jade:267
+#: ../views/components/places.jade:254
 #, fuzzy
 msgid "Stop at this road or trail"
 msgstr "تتوقف عند هذا الطريق أو درب"
 
-#: ../views/components/places.jade:268
+#: ../views/components/places.jade:255
 #, fuzzy
 msgid "Add this road or trail as a skipped stop"
 msgstr "إضافة هذا الطريق أو درب كمحطة تخطي"
 
-#: ../views/components/places.jade:269
+#: ../views/components/places.jade:256
 #, fuzzy
 msgid "Travel this road or trail"
 msgstr "السفر هذا الطريق أو درب"
 
-#: ../views/components/places.jade:270
+#: ../views/components/places.jade:257
 #, fuzzy
 msgid "Reverse this road or trail"
 msgstr "عكس هذا الطريق أو درب"
 
-#: ../views/components/places.jade:271
+#: ../views/components/places.jade:258
 #, fuzzy
 msgid "Fold this road or trail details"
 msgstr "أضعاف هذا الطريق أو درب تفاصيل"
 
-#: ../views/components/places.jade:272
+#: ../views/components/places.jade:259
 #, fuzzy
 msgid "Hide Motor Vehicle Use Maps"
 msgstr ""
 "إخفاء خدمة الغابات في الولايات المتحدة المركبات ذات المحركات استخدام الخرائط"
 
-#: ../views/components/places.jade:273
+#: ../views/components/places.jade:260
 #, fuzzy
 msgid "U.S. Forest Service Motor Vehicle Use Maps"
 msgstr "خدمة الغابات في الولايات المتحدة المركبات ذات المحركات استخدام الخرائط"
 
-#: ../views/components/places.jade:278 ../views/components/places.jade:287
+#: ../views/components/places.jade:265 ../views/components/places.jade:274
 #, fuzzy
 msgid "See charging station network"
 msgstr "انظر شحن محطة الشبكة"
 
-#: ../views/components/places.jade:279 ../views/components/places.jade:288
+#: ../views/components/places.jade:266 ../views/components/places.jade:275
 #, fuzzy
 msgid "Add this charging station to your trip"
 msgstr "إضافة هذه محطة شحن لرحلتك"
 
-#: ../views/components/places.jade:280 ../views/components/places.jade:289
+#: ../views/components/places.jade:267 ../views/components/places.jade:276
 #, fuzzy
 msgid "Add this charging station as a skipped stop"
 msgstr "هذا إضافة محطة الشحن كمحطة تخطي"
 
-#: ../views/components/places.jade:281 ../views/components/places.jade:290
+#: ../views/components/places.jade:268 ../views/components/places.jade:277
 #, fuzzy
 msgid "Fold this charging station details"
 msgstr "أضعاف هذا الشحن تفاصيل المحطة"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:297
+#: ../views/components/places.jade:284
 #, fuzzy
 msgid "See this ethanol-free gas station page"
 msgstr "رؤية هذه الصفحة محطة وقود خال من الإيثانول على pure-gas.org"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:298 ../views/components/places.jade:303
+#: ../views/components/places.jade:285 ../views/components/places.jade:290
 #, fuzzy
 msgid "Fill up at this ethanol-free gas station"
 msgstr "تملأ في هذه المحطة الغاز الحر الإيثانول"
 
 #. L10n: square brackets [] denote a link. "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:312
+#: ../views/components/places.jade:299
 #, fuzzy
 msgid "The list of ethanol-free gas stations by [pure-gas.org]"
 msgstr "قائمة محطات الوقود خالية من الايثانول [pure-gas.org]"
 
 #. L10n: square brackets [] denote a link
-#: ../views/components/places.jade:314
+#: ../views/components/places.jade:301
 #, fuzzy
 msgid "with [permission]"
 msgstr "[باذن]"
 
-#: ../views/components/places.jade:337 ../views/components/places.jade:381
+#: ../views/components/places.jade:324 ../views/components/places.jade:368
 #, fuzzy
 msgid "Hide peaks and routes"
 msgstr "إخفاء الحدائق والمسطحات الطبيعية"
 
-#: ../views/components/places.jade:338 ../views/components/places.jade:382
+#: ../views/components/places.jade:325 ../views/components/places.jade:369
 #, fuzzy
 msgid "Peaks and routes"
 msgstr "الإعادة إضافة مسار"
 
-#: ../views/components/places.jade:343 ../views/components/places.jade:354
+#: ../views/components/places.jade:330 ../views/components/places.jade:341
 #, fuzzy
 msgid "See description of this trail"
 msgstr "انظر وصف هذا المكان"
 
-#: ../views/components/places.jade:355
+#: ../views/components/places.jade:342
 #, fuzzy
 msgid "Stop and ski this trail"
 msgstr "توقف وأخذ هذا الدرب"
 
-#: ../views/components/places.jade:360
+#: ../views/components/places.jade:347
 msgid "Backcountry ski trails"
 msgstr ""
 
-#: ../views/components/places.jade:365
+#: ../views/components/places.jade:352
 #, fuzzy
 msgid "See description of this bike track"
 msgstr "انظر وصف هذا المسار الدراجة في MBPost"
 
-#: ../views/components/places.jade:366
+#: ../views/components/places.jade:353
 #, fuzzy
 msgid "Stop and ride this bike track"
 msgstr "والتوقف عن ركوب هذه الدراجة المسار"
 
-#: ../views/components/places.jade:367
+#: ../views/components/places.jade:354
 #, fuzzy
 msgid "Add this bike track as a skipped stop"
 msgstr "إضافة هذه الدراجة المسار كمحطة تخطي"
 
-#: ../views/components/places.jade:368
+#: ../views/components/places.jade:355
 #, fuzzy
 msgid "Fold this bike track details"
 msgstr "أضعاف هذه الدراجة تفاصيل المسار"
 
-#: ../views/components/places.jade:370
+#: ../views/components/places.jade:357
 #, fuzzy
 msgid "Hide bike tracks"
 msgstr "ركوب هذه الدراجة المسار"
 
-#: ../views/components/places.jade:371
+#: ../views/components/places.jade:358
 #, fuzzy
 msgid "Bike tracks"
 msgstr "المسارات"
 
-#: ../views/components/places.jade:376
+#: ../views/components/places.jade:363
 #, fuzzy
 msgid "See description of this peak"
 msgstr "انظر وصف هذا المكان"
 
-#: ../views/components/places.jade:377
+#: ../views/components/places.jade:364
 #, fuzzy
 msgid "Stop and climb this peak"
 msgstr "توقف وأخذ هذا الدرب"
 
-#: ../views/components/places.jade:378
+#: ../views/components/places.jade:365
 #, fuzzy
 msgid "Add this peak as a skipped stop"
 msgstr "إضافة هذا المكان كمحطة تخطي"
 
-#: ../views/components/places.jade:379
+#: ../views/components/places.jade:366
 #, fuzzy
 msgid "Fold this peak details"
 msgstr "أضعاف هذه تفاصيل الصفقة"
 
-#: ../views/components/places.jade:405
+#: ../views/components/places.jade:392
 #, fuzzy
 msgid "See description of this dive site"
 msgstr "انظر وصف لهذا الموقع الغوص في DiveSpots"
 
-#: ../views/components/places.jade:407
+#: ../views/components/places.jade:394
 #, fuzzy
 msgid "Stop and dive at this site"
 msgstr "وقف والغوص في هذا الموقع"
 
-#: ../views/components/places.jade:408
+#: ../views/components/places.jade:395
 #, fuzzy
 msgid "Add this dive site as a skipped stop"
 msgstr "أضف هذا الموقع الغوص كمحطة تخطي"
 
-#: ../views/components/places.jade:409
+#: ../views/components/places.jade:396
 #, fuzzy
 msgid "Fold this dive site details"
 msgstr "أضعاف هذه التفاصيل موقع الغوص"
 
-#: ../views/components/places.jade:416
+#: ../views/components/places.jade:403
 #, fuzzy
 msgid "See more information about this place"
 msgstr "رؤية المزيد من المعلومات عن هذا المكان"
 
-#: ../views/components/places.jade:417
+#: ../views/components/places.jade:404
 #, fuzzy
 msgid "Copy stop from its trip to this one"
 msgstr "نسخ محطة من رحلتها إلى هذا واحد"
 
-#: ../views/components/places.jade:418
+#: ../views/components/places.jade:405
 #, fuzzy
 msgid "Add as a skipped stop"
 msgstr "أضف الى وقف تخطي"
 
-#: ../views/components/places.jade:419
+#: ../views/components/places.jade:406
 #, fuzzy
 msgid "Copy route to the next stop"
 msgstr "نسخة الطريق إلى المحطة التالية"
 
-#: ../views/components/places.jade:420
+#: ../views/components/places.jade:407
 #, fuzzy
 msgid "Reverse route when copying"
 msgstr "عكس خط السير عند نسخ"
 
-#: ../views/components/places.jade:421 ../views/components/step-detail.jade:594
+#: ../views/components/places.jade:408 ../views/components/step-detail.jade:598
 #, fuzzy
 msgid "Fold this stop details"
 msgstr "أضعاف هذه التفاصيل توقف"
 
-#: ../views/components/places.jade:424
+#: ../views/components/places.jade:411
 #, fuzzy
 msgid "Open this trip"
 msgstr "طباعة هذه الرحلة"
 
-#: ../views/components/places.jade:425 ../views/components/places.jade:433
+#: ../views/components/places.jade:412 ../views/components/places.jade:420
 #, fuzzy
 msgid "Stop at this trip starting point"
 msgstr "Stop at this trip starting point"
 
-#: ../views/components/places.jade:426 ../views/components/places.jade:434
+#: ../views/components/places.jade:413 ../views/components/places.jade:421
 #, fuzzy
 msgid "Add this trip starting point as a skipped stop"
 msgstr "Add this trip starting point as a skipped stop"
 
-#: ../views/components/places.jade:427
+#: ../views/components/places.jade:414
 #, fuzzy
 msgid "Copy the entire trip to this one"
 msgstr "Copy the entire trip to this one"
 
-#: ../views/components/places.jade:428
+#: ../views/components/places.jade:415
 #, fuzzy
 msgid "Reverse this trip when copying"
 msgstr "Reverse this trip when copying"
 
-#: ../views/components/places.jade:429 ../views/components/places.jade:437
+#: ../views/components/places.jade:416 ../views/components/places.jade:424
 #, fuzzy
 msgid "Fold this trip details"
 msgstr "Fold this trip details"
 
-#: ../views/components/places.jade:432
+#: ../views/components/places.jade:419
 #, fuzzy
 msgid "See more information about this trip"
 msgstr "See more information about this trip"
 
-#: ../views/components/places.jade:435
+#: ../views/components/places.jade:422
 #, fuzzy
 msgid "Add this trip to yours"
 msgstr "Add this trip to yours"
 
-#: ../views/components/places.jade:436
+#: ../views/components/places.jade:423
 #, fuzzy
 msgid "Reverse this trip when adding"
 msgstr "Reverse this trip when adding"
 
-#: ../views/components/places.jade:438
+#: ../views/components/places.jade:425
 #, fuzzy
 msgid "Hide trips shared by Furkot community"
 msgstr "Hide trips shared by Furkot community"
 
-#: ../views/components/places.jade:439
+#: ../views/components/places.jade:426
 #, fuzzy
 msgid "Trips shared by Furkot community"
 msgstr "Trips shared by Furkot community"
 
-#: ../views/components/places.jade:444
+#: ../views/components/places.jade:431
 #, fuzzy
 msgid "Read this article"
 msgstr "Read this article on Wikipedia"
 
-#: ../views/components/places.jade:448
+#: ../views/components/places.jade:435
 #, fuzzy
 msgid "Fold this article details"
 msgstr "Fold this article details"
 
-#: ../views/components/places.jade:449
+#: ../views/components/places.jade:436
 #, fuzzy
 msgid "Hide articles"
 msgstr "إخفاء الأماكن"
 
-#: ../views/components/places.jade:450
+#: ../views/components/places.jade:437
 #, fuzzy
 msgid "Articles from Wikipedia, the free encyclopedia"
 msgstr "Articles from Wikipedia, the free encyclopedia"
@@ -5579,7 +5544,7 @@ msgstr "حذف هذا التوقف"
 
 #. L10n: Label for a button to delete (stop, trip or route)
 #: ../views/components/step-detail.jade:22
-#: ../views/components/step-detail.jade:339
+#: ../views/components/step-detail.jade:343
 #: ../views/components/trip-detail.jade:26
 #, fuzzy
 msgid "Delete"
@@ -5605,7 +5570,7 @@ msgstr "تخطي هذا المكان"
 
 #. L10n: Label for a button to omit the stop or route in the itinerary but keep it in the trip as possible alternative
 #: ../views/components/step-detail.jade:30
-#: ../views/components/step-detail.jade:349
+#: ../views/components/step-detail.jade:353
 #, fuzzy
 msgid "Skip"
 msgstr "تخطى"
@@ -5628,293 +5593,302 @@ msgstr "يزور"
 msgid "Stay in this lodging"
 msgstr "البقاء في هذه الإقامة"
 
+#: ../views/components/step-detail.jade:44
+msgid "Reorder stop based on date"
+msgstr ""
+
+#. L10n: 'Reorder' to change the position of the stop based on the set date
+#: ../views/components/step-detail.jade:47
+msgid "Reorder"
+msgstr ""
+
 #. L10n: can be also translated "Move this stop after its successor"
-#: ../views/components/step-detail.jade:45
+#: ../views/components/step-detail.jade:49
 #, fuzzy
 msgid "Move this stop down"
 msgstr "تحرك هذا وقف أسفل"
 
 #. L10n: Label for a button that moves the stop or day after its successor. Can also be translated as 'After'
-#: ../views/components/step-detail.jade:48
-#: ../views/components/step-detail.jade:563
+#: ../views/components/step-detail.jade:52
+#: ../views/components/step-detail.jade:567
 #, fuzzy
 msgid "Down"
 msgstr "أسفل"
 
 #. L10n: can be translated "Move this stop before its predecessor"
-#: ../views/components/step-detail.jade:50
+#: ../views/components/step-detail.jade:54
 #, fuzzy
 msgid "Move this stop up"
 msgstr "نقل هذا التوقف حتى"
 
 #. L10n: Label for a button that moves the stop or day before its predecessor. Can also be translated as 'Before'
-#: ../views/components/step-detail.jade:53
-#: ../views/components/step-detail.jade:567
+#: ../views/components/step-detail.jade:57
+#: ../views/components/step-detail.jade:571
 #, fuzzy
 msgid "Up"
 msgstr "فوق"
 
 #. L10n: Hint for the "In" button - changing the stop to be visited on the return leg (inbound) instead of when traveling outward (loop trips only). Inbound means 'when returning'.
-#: ../views/components/step-detail.jade:55
+#: ../views/components/step-detail.jade:59
 #, fuzzy
 msgid "Visit this place traveling inbound"
 msgstr "زيارة هذا المكان السفر واردة"
 
 #. L10n: Label for a button to change the stop to be visited on the return leg (inbound) instead of when traveling outward (loop trips only). Translation of "From (somewhere)" may be a good approximation
-#: ../views/components/step-detail.jade:58
+#: ../views/components/step-detail.jade:62
 #, fuzzy
 msgid "In"
 msgstr "في"
 
 #. L10n: Hint for the "Out" button - changing the stop to be visited traveling outward (outbound) instead of on the return leg (loop trips only)
-#: ../views/components/step-detail.jade:60
+#: ../views/components/step-detail.jade:64
 #, fuzzy
 msgid "Visit this place traveling outbound"
 msgstr "زيارة هذا المكان السفر إلى الخارج"
 
 #. L10n: Label for a button to change the stop to be visited traveling outward (outbound) instead of on the return leg (loop trips only). Translation of "To (somewhere)" may be a good approximation
-#: ../views/components/step-detail.jade:63
+#: ../views/components/step-detail.jade:67
 #, fuzzy
 msgid "Out"
 msgstr "خارج"
 
 #. L10n: Hint to specify a good name when adding a stop by clicking on the map
-#: ../views/components/step-detail.jade:65
-#: ../views/components/step-detail.jade:81
+#: ../views/components/step-detail.jade:69
+#: ../views/components/step-detail.jade:85
 #, fuzzy
 msgid "Specify a descriptive name"
 msgstr "تحديد اسم وصفي"
 
 #. L10n: Hint to provide place location when adding a new stop by name
-#: ../views/components/step-detail.jade:66
-#: ../views/components/step-detail.jade:83
+#: ../views/components/step-detail.jade:70
+#: ../views/components/step-detail.jade:87
 #, fuzzy
 msgid "Specify place location"
 msgstr "تحديد مكان موقع"
 
 #. L10n: 'place' means name of the stop location
-#: ../views/components/step-detail.jade:69
-#: ../views/components/step-detail.jade:70
 #: ../views/components/step-detail.jade:73
+#: ../views/components/step-detail.jade:74
+#: ../views/components/step-detail.jade:77
 #, fuzzy
 msgid "Click to modify place"
 msgstr "انقر لتعديل مكان"
 
 #. L10n: 'place' means name of the stop location
-#: ../views/components/step-detail.jade:69
-#: ../views/components/step-detail.jade:70
+#: ../views/components/step-detail.jade:73
+#: ../views/components/step-detail.jade:74
 #, fuzzy
 msgid "Place"
 msgstr "مكان"
 
 #. L10n: TripIt is a service that Furkot works with synchronizing trip itinerary from TripIt with Furkot trip plan
-#: ../views/components/step-detail.jade:76
+#: ../views/components/step-detail.jade:80
 #, fuzzy
 msgid "Match TripIt itinerary item"
 msgstr "مباراة TripIt البند سير"
 
 #. L10n: 'confirmation' as in 'confirmation of a hotel reservation'
-#: ../views/components/step-detail.jade:86
+#: ../views/components/step-detail.jade:90
 #, fuzzy
 msgid "No confirmation"
 msgstr "أي تأكيد"
 
 #. L10n: 'Address' is a field to edit stop address
-#: ../views/components/step-detail.jade:97
+#: ../views/components/step-detail.jade:101
 #, fuzzy
 msgid "Address"
 msgstr "عنوان"
 
-#: ../views/components/step-detail.jade:97
+#: ../views/components/step-detail.jade:101
 #, fuzzy
 msgid "Click to modify address"
 msgstr "انقر لتعديل عنوان"
 
-#: ../views/components/step-detail.jade:98
+#: ../views/components/step-detail.jade:102
 #, fuzzy
 msgid "Navigate to stop address"
 msgstr "انتقل إلى وقف عنوان"
 
 #. L10n: Label for the field to edit phone number
-#: ../views/components/step-detail.jade:102
+#: ../views/components/step-detail.jade:106
 #, fuzzy
 msgid "Phone"
 msgstr "هاتف"
 
-#: ../views/components/step-detail.jade:103
+#: ../views/components/step-detail.jade:107
 #, fuzzy
 msgid "Click to modify phone number"
 msgstr "انقر لتعديل رقم الهاتف"
 
 #. L10n: label for the number of nights at a lodging
-#: ../views/components/step-detail.jade:110
+#: ../views/components/step-detail.jade:114
 #, fuzzy
 msgid "Nights"
 msgstr "ليالي"
 
 #. L10n: the number of nights at a lodging
-#: ../views/components/step-detail.jade:113
+#: ../views/components/step-detail.jade:117
 #, fuzzy
 msgid "Click to modify number of nights"
 msgstr "انقر لتعديل عدد الليالي"
 
 #. L10n: label for the time needed to visit a place - duration of the stop
-#: ../views/components/step-detail.jade:121
+#: ../views/components/step-detail.jade:125
 #, fuzzy
 msgid "Duration"
 msgstr "المدة الزمنية"
 
 #. L10n: duration of the stop - the time needed to visit a place
-#: ../views/components/step-detail.jade:124
+#: ../views/components/step-detail.jade:128
 #, fuzzy
 msgid "Click to modify duration"
 msgstr "انقر لتعديل مدة"
 
-#: ../views/components/step-detail.jade:129
+#: ../views/components/step-detail.jade:133
 #, fuzzy
 msgid "Stay the night here"
 msgstr "البقاء ليلة هنا"
 
-#: ../views/components/step-detail.jade:130
+#: ../views/components/step-detail.jade:134
 #, fuzzy
 msgid "Visit and go to the next stop"
 msgstr "زيارة والذهاب إلى المحطة التالية"
 
-#: ../views/components/step-detail.jade:134
+#: ../views/components/step-detail.jade:138
 #, fuzzy
 msgid "View booking confirmation"
 msgstr "عرض تأكيد الحجز"
 
 #. L10n: Label for displaying and editing date and time of arrival at a stop
-#: ../views/components/step-detail.jade:142
-#: ../views/components/step-detail.jade:498
+#: ../views/components/step-detail.jade:146
+#: ../views/components/step-detail.jade:502
 #, fuzzy
 msgid "Arrival"
 msgstr "وصول"
 
 #. L10n: arrival at a stop
-#: ../views/components/step-detail.jade:145
+#: ../views/components/step-detail.jade:149
 #, fuzzy
 msgid "Click to modify arrival date"
 msgstr "انقر لتعديل تاريخ وصوله"
 
 #. L10n: arrival at a stop
-#: ../views/components/step-detail.jade:150
+#: ../views/components/step-detail.jade:154
 #, fuzzy
 msgid "Click to modify arrival time"
 msgstr "انقر لتعديل وقت وصول"
 
 #. L10n: 'automatic changes' to the arrival date and time of a stop whenever Furkot recalculates trip itinerary
-#: ../views/components/step-detail.jade:156
+#: ../views/components/step-detail.jade:160
 #, fuzzy
 msgid "Prevent automatic changes"
 msgstr "منع التغييرات التلقائية"
 
 #. L10n: 'automatic changes' to the arrival date and time of a stop whenever Furkot recalculates trip itinerary
-#: ../views/components/step-detail.jade:157
-#: ../views/components/step-detail.jade:160
+#: ../views/components/step-detail.jade:161
+#: ../views/components/step-detail.jade:164
 #, fuzzy
 msgid "Allow automatic changes"
 msgstr "تسمح التغييرات التلقائية"
 
 #. L10n: Label for displaying and editing date and time of departure from a stop
-#: ../views/components/step-detail.jade:168
-#: ../views/components/step-detail.jade:506
+#: ../views/components/step-detail.jade:172
+#: ../views/components/step-detail.jade:510
 #, fuzzy
 msgid "Departure"
 msgstr "مقال"
 
 #. L10n: departure from a stop
-#: ../views/components/step-detail.jade:171
+#: ../views/components/step-detail.jade:175
 #, fuzzy
 msgid "Click to modify departure date"
 msgstr "انقر لتعديل موعد المغادرة"
 
 #. L10n: departure from a stop
-#: ../views/components/step-detail.jade:176
+#: ../views/components/step-detail.jade:180
 #, fuzzy
 msgid "Click to modify departure time"
 msgstr "انقر لتعديل موعد المغادرة"
 
 #. L10n: Label for a button that links to a webpage with more information about the place represented by a stop
-#: ../views/components/step-detail.jade:186
+#: ../views/components/step-detail.jade:190
 #: ../views/components/trip-detail.jade:94
 #, fuzzy
 msgid "More Info"
 msgstr "مزيد من المعلومات"
 
 #. L10n: Means "Go to this webpage to see more information about this stop". This hint is displayed when there is a link associated with a stop; usually when a stop is added by selecting a place from Sleep, Eat or Find drawer
-#: ../views/components/step-detail.jade:188
+#: ../views/components/step-detail.jade:192
 #, fuzzy
 msgid "View webpage for this stop"
 msgstr "صفحة العرض لهذا التوقف"
 
 #. L10n: Label for the field that displays the time of the sunrise on the day of the stop
-#: ../views/components/step-detail.jade:193
+#: ../views/components/step-detail.jade:197
 #, fuzzy
 msgid "Sunrise"
 msgstr "شروق الشمس"
 
 #. L10n: Label for the field that displays the time of the sunset on the day of the stop
-#: ../views/components/step-detail.jade:197
+#: ../views/components/step-detail.jade:201
 #, fuzzy
 msgid "Sunset"
 msgstr "غروب الشمس"
 
 #. L10n: Label for the field that displays the average nighttime temperature on the day of the stop
-#: ../views/components/step-detail.jade:202
+#: ../views/components/step-detail.jade:206
 #, fuzzy
 msgid "Night"
 msgstr "ليل"
 
 #. L10n: Label for the field that displays the average daytime temperature on the day of the stop
-#: ../views/components/step-detail.jade:206
+#: ../views/components/step-detail.jade:210
 #, fuzzy
 msgctxt "daytime temperature"
 msgid "Day"
 msgstr "يوم"
 
 #. L10n: Label for the field that links to the weather forecast for the stop
-#: ../views/components/step-detail.jade:211
+#: ../views/components/step-detail.jade:215
 #, fuzzy
 msgid "Forecast"
 msgstr "توقعات"
 
-#: ../views/components/step-detail.jade:212
+#: ../views/components/step-detail.jade:216
 #, fuzzy
 msgid "View current weather forecast"
 msgstr "عرض توقعات الطقس الحالي"
 
 #. L10n: Label for the field with stop geographical coordinates (latitude and longitude)
-#: ../views/components/step-detail.jade:216
+#: ../views/components/step-detail.jade:220
 #, fuzzy
 msgid "Coordinates"
 msgstr "إحداثيات"
 
-#: ../views/components/step-detail.jade:219
+#: ../views/components/step-detail.jade:223
 #, fuzzy
 msgid "Click to modify geographical coordinates"
 msgstr "انقر لتعديل الإحداثيات الجغرافية"
 
-#: ../views/components/step-detail.jade:221
+#: ../views/components/step-detail.jade:225
 #, fuzzy
 msgid "Navigate to exact coordinates"
 msgstr "انتقل إلى انتزاع الإحداثيات"
 
-#: ../views/components/step-detail.jade:226
+#: ../views/components/step-detail.jade:230
 #: ../views/components/trip-detail.jade:730
 #, fuzzy
 msgid "Click to edit description"
 msgstr "انقر لتعديل وصف"
 
-#: ../views/components/step-detail.jade:226
+#: ../views/components/step-detail.jade:230
 #, fuzzy
 msgid "Description of this stop"
 msgstr "وصف هذا التوقف"
 
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify stops. If user assigns tags to stops, they can then use filter to display only stops with those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parentheses () enhances understanding
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify trips. If user specifies tags in the Trip drawer, they can then view trips in the My Trips page grouped by those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parentheses () enhances understanding
-#: ../views/components/step-detail.jade:231
+#: ../views/components/step-detail.jade:235
 #: ../views/components/trip-detail.jade:735 ../views/components/trips.jade:40
 #, fuzzy
 msgid "Click to edit tags (labels)"
@@ -5922,8 +5896,8 @@ msgstr "انقر لتحرير علامات رحلة"
 
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify stops. If user assigns tags to stops, they can then use filter to display only stops with those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parentheses () enhances understanding
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify trips. If user specifies tags in the Trip drawer, they can then view trips in the My Trips page grouped by those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parentheses () enhances understanding
-#: ../views/components/step-detail.jade:232
-#: ../views/components/step-detail.jade:237
+#: ../views/components/step-detail.jade:236
+#: ../views/components/step-detail.jade:241
 #: ../views/components/step-switches.jade:121
 #: ../views/components/trip-detail.jade:736
 #: ../views/components/trip-detail.jade:739 ../views/components/trips.jade:34
@@ -5931,80 +5905,80 @@ msgstr "انقر لتحرير علامات رحلة"
 msgid "Tags (labels)"
 msgstr "موضوع اليوم (التسمية)"
 
-#: ../views/components/step-detail.jade:244
+#: ../views/components/step-detail.jade:248
 #, fuzzy
 msgid "Fill up at this refueling station"
 msgstr "تملأ في هذه المحطة الغاز"
 
 #. L10n: 'Fill up' means to select a specific fuel station for an automatically scheduled refueling stop and add it to the itinerary
 #. L10n: label displayed for a field with time spend at refueling stop filling the tank up
-#: ../views/components/step-detail.jade:247
+#: ../views/components/step-detail.jade:251
 #: ../views/components/trip-config-item.jade:178
 #: ../views/components/trip-detail.jade:587
 msgid "Fill up"
 msgstr ""
 
-#: ../views/components/step-detail.jade:252
+#: ../views/components/step-detail.jade:256
 #, fuzzy
 msgid "Nearby Refueling Stations"
 msgstr "إخفاء محطات تعبئة الوقود"
 
-#: ../views/components/step-detail.jade:262
+#: ../views/components/step-detail.jade:266
 #, fuzzy
 msgid "Depart from this airport"
 msgstr "تتوقف عند هذا المطار"
 
 #. L10n: 'Depart' means to select a specific airport to depart from for an automatically scheduled airport stop and add it to the itinerary
-#: ../views/components/step-detail.jade:265
+#: ../views/components/step-detail.jade:269
 #, fuzzy
 msgid "Depart"
 msgstr "مقال"
 
-#: ../views/components/step-detail.jade:270
-#: ../views/components/step-detail.jade:288
+#: ../views/components/step-detail.jade:274
+#: ../views/components/step-detail.jade:292
 #, fuzzy
 msgid "Nearby Airports"
 msgstr "المطارات"
 
-#: ../views/components/step-detail.jade:280
+#: ../views/components/step-detail.jade:284
 #, fuzzy
 msgid "Arrive at this airport"
 msgstr "تتوقف عند هذا المطار"
 
 #. L10n: 'Arrive' means to select a specific airport to arrive at for an automatically scheduled airport stop and add it to the itinerary
-#: ../views/components/step-detail.jade:283
+#: ../views/components/step-detail.jade:287
 #, fuzzy
 msgid "Arrive"
 msgstr "وصول"
 
 #. L10n: label for time/distance covered since last stop
-#: ../views/components/step-detail.jade:299
+#: ../views/components/step-detail.jade:303
 #, fuzzy
 msgid "Leg"
 msgstr "رجل"
 
 #. L10n: label for time/distance covered since last fuel station
-#: ../views/components/step-detail.jade:308
+#: ../views/components/step-detail.jade:312
 msgid "Fuel"
 msgstr ""
 
 #. L10n: label for time/distance covered since last overnight stop
-#: ../views/components/step-detail.jade:312
+#: ../views/components/step-detail.jade:316
 #, fuzzy
 msgctxt "since last lodging"
 msgid "Day"
 msgstr "يوم"
 
-#: ../views/components/step-detail.jade:321
-#: ../views/components/step-detail.jade:485
+#: ../views/components/step-detail.jade:325
+#: ../views/components/step-detail.jade:489
 #: ../views/components/trip-config-item.jade:104
 #: ../views/components/trip-detail.jade:409
 #, fuzzy
 msgid "km/h"
 msgstr "كم / ساعة"
 
-#: ../views/components/step-detail.jade:322
-#: ../views/components/step-detail.jade:486
+#: ../views/components/step-detail.jade:326
+#: ../views/components/step-detail.jade:490
 #: ../views/components/trip-config-item.jade:105
 #: ../views/components/trip-detail.jade:410
 #, fuzzy
@@ -6012,486 +5986,490 @@ msgid "mph"
 msgstr "ميل في الساعة"
 
 #. L10n: Hint for the button to change route travel mode
-#: ../views/components/step-detail.jade:332
+#: ../views/components/step-detail.jade:336
 #, fuzzy
 msgid "Change route type"
 msgstr "تغيير نوع الطريق"
 
-#: ../views/components/step-detail.jade:337
+#: ../views/components/step-detail.jade:341
 #, fuzzy
 msgid "Delete this route"
 msgstr "حذف هذا الطريق"
 
 #. L10n: when resetting routes following roads are calculated anew and off-road routes are reset to a straight line
-#: ../views/components/step-detail.jade:341
+#: ../views/components/step-detail.jade:345
 #, fuzzy
 msgid "Reset this route"
 msgstr "إعادة تعيين هذا الطريق"
 
 #. L10n: Button that resets the route: routes following roads are calculated anew while off-road routes are reset to a straight line
-#: ../views/components/step-detail.jade:344
+#: ../views/components/step-detail.jade:348
 #, fuzzy
 msgid "Reset"
 msgstr "إعادة تعيين"
 
 #. L10n: 'Skip' means to omit the route in the itinerary but keep it in the trip as possible alternative
-#: ../views/components/step-detail.jade:346
+#: ../views/components/step-detail.jade:350
 #, fuzzy
 msgid "Skip this route"
 msgstr "تخطي هذا المكان"
 
-#: ../views/components/step-detail.jade:350
+#: ../views/components/step-detail.jade:354
 #, fuzzy
 msgid "Bring this route out as primary plan"
 msgstr "جلب هذا الطريق من كخطة أولية"
 
-#: ../views/components/step-detail.jade:350
+#: ../views/components/step-detail.jade:354
 #, fuzzy
 msgid "Set this route aside as backup plan"
 msgstr "تعيين هذا الطريق جانبا لخطة احتياطية"
 
 #. L10n: Plan B is a button that designates a route as a backup
-#: ../views/components/step-detail.jade:353
+#: ../views/components/step-detail.jade:357
 #, fuzzy
 msgid "Plan B"
 msgstr "الخطة (ب)"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:360
+#: ../views/components/step-detail.jade:364
 #, fuzzy
 msgid "Black"
 msgstr "أسود"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:364
+#: ../views/components/step-detail.jade:368
 #, fuzzy
 msgid "Dark Red"
 msgstr "احمر غامق"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:368
+#: ../views/components/step-detail.jade:372
 #, fuzzy
 msgid "Dark Green"
 msgstr "أخضر غامق"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:372
+#: ../views/components/step-detail.jade:376
 #, fuzzy
 msgid "Dark Yellow"
 msgstr "اصفر غامق"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:376
+#: ../views/components/step-detail.jade:380
 #, fuzzy
 msgid "Dark Blue"
 msgstr "أزرق غامق"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:380
+#: ../views/components/step-detail.jade:384
 #, fuzzy
 msgid "Dark Magenta"
 msgstr "أرجواني داكن"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:384
+#: ../views/components/step-detail.jade:388
 #, fuzzy
 msgid "Dark Cyan"
 msgstr "سماوي الظلام"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:388
+#: ../views/components/step-detail.jade:392
 #, fuzzy
 msgid "Light Gray"
 msgstr "رمادي فاتح"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:392
+#: ../views/components/step-detail.jade:396
 #, fuzzy
 msgid "Dark Gray"
 msgstr "الرمادي الداكن"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:396
+#: ../views/components/step-detail.jade:400
 #, fuzzy
 msgid "Red"
 msgstr "أحمر"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:400
+#: ../views/components/step-detail.jade:404
 #, fuzzy
 msgid "Green"
 msgstr "أخضر"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:404
+#: ../views/components/step-detail.jade:408
 #, fuzzy
 msgid "Yellow"
 msgstr "الأصفر"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:408
+#: ../views/components/step-detail.jade:412
 #, fuzzy
 msgid "Blue"
 msgstr "أزرق"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:412
+#: ../views/components/step-detail.jade:416
 #, fuzzy
 msgid "Magenta"
 msgstr "أرجواني"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:416
+#: ../views/components/step-detail.jade:420
 #, fuzzy
 msgid "Cyan"
 msgstr "ازرق سماوي"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:420
+#: ../views/components/step-detail.jade:424
 #, fuzzy
 msgid "White"
 msgstr "أبيض"
 
 #. L10n: Label for a checkbox to display route in default color
-#: ../views/components/step-detail.jade:427
+#: ../views/components/step-detail.jade:431
 #, fuzzy
 msgid "Default color"
 msgstr "اللون الافتراضي"
 
 #. L10n: Label for a checkbox to display route as transparent (i.e. to avoid obscuring map details)
-#: ../views/components/step-detail.jade:433
+#: ../views/components/step-detail.jade:437
 #, fuzzy
 msgid "Transparent"
 msgstr "شفاف"
 
-#: ../views/components/step-detail.jade:440
+#: ../views/components/step-detail.jade:444
 #, fuzzy
 msgid "Change route color"
 msgstr "تغيير لون الطريق"
 
-#: ../views/components/step-detail.jade:443
+#: ../views/components/step-detail.jade:447
 #, fuzzy
 msgid "Navigate this route"
 msgstr "انتقل هذا الطريق"
 
-#: ../views/components/step-detail.jade:448
+#: ../views/components/step-detail.jade:452
 msgid "Routing"
 msgstr "التوجيه"
 
-#: ../views/components/step-detail.jade:450
+#: ../views/components/step-detail.jade:454
 msgid "Follow roads"
 msgstr "اتبع الطرق"
 
 #. L10n: Alternate is a label for a switch that allows selecting between regular route calculated using standard algorithm and a slightly different alternative route. It shows up on routes that follow roads. "Alternate" route can be translated as "Detour" unless detour has a negative flavor, i.e. means that something is wrong with the normal road
-#: ../views/components/step-detail.jade:455
+#: ../views/components/step-detail.jade:459
 #, fuzzy
 msgid "Alternate"
 msgstr "البديل"
 
 #. L10n: Hint to switch between regular and alternative routes. "Regular route" can be also translated as "Straight route" or "Normal route". It is a route calculated using a standard algorithm
-#: ../views/components/step-detail.jade:457
+#: ../views/components/step-detail.jade:461
 #, fuzzy
 msgid "Regular route"
 msgstr "الطريق العادي"
 
 #. L10n: Hint to switch between regular and alternative routes. "Alternate route" is an alternative, slightly different route between stops. "Alternate route" can be also translated as "Detour" unless detour has a negative flavor, i.e. means that something is wrong with the normal road
-#: ../views/components/step-detail.jade:458
-#: ../views/components/step-detail.jade:461
+#: ../views/components/step-detail.jade:462
+#: ../views/components/step-detail.jade:465
 #, fuzzy
 msgid "Alternative to this route"
 msgstr "بديل لهذا الطريق"
 
 #. L10n: label for the time needed to cover the route between two stops
-#: ../views/components/step-detail.jade:466
+#: ../views/components/step-detail.jade:470
 #, fuzzy
 msgctxt "route between stops"
 msgid "Duration"
 msgstr "المدة الزمنية"
 
 #. L10n: duration is the time needed to cover the route between two stops
-#: ../views/components/step-detail.jade:469
+#: ../views/components/step-detail.jade:473
 #, fuzzy
 msgctxt "route between stops"
 msgid "Click to modify duration"
 msgstr "انقر لتعديل مدة"
 
 #. L10n: Label for the field to display/edit user average speed for the selected route or for the entire trip
-#: ../views/components/step-detail.jade:477
+#: ../views/components/step-detail.jade:481
 #: ../views/components/trip-config-item.jade:100
 #: ../views/components/trip-detail.jade:401
 #, fuzzy
 msgid "My Speed"
 msgstr "سرعتي"
 
-#: ../views/components/step-detail.jade:479
+#: ../views/components/step-detail.jade:483
 #: ../views/components/trip-detail.jade:403
 #, fuzzy
 msgid "Click to adjust your average speed for more accurate travel times"
 msgstr "انقر لضبط السرعة المتوسطة للحصول على أوقات السفر أكثر دقة"
 
 #. L10n: 'route theme (label)' is a phrase that labels or describes a route
-#: ../views/components/step-detail.jade:489
+#: ../views/components/step-detail.jade:493
 #, fuzzy
 msgid "Click to edit this route theme"
 msgstr "انقر لتعديل هذا موضوع الطريق"
 
 #. L10n: 'route theme (label)' is a phrase that labels or describes a route
-#: ../views/components/step-detail.jade:490
 #: ../views/components/step-detail.jade:494
+#: ../views/components/step-detail.jade:498
 #, fuzzy
 msgid "Route theme (label)"
 msgstr "موضوع الطريق (التسمية)"
 
-#: ../views/components/step-detail.jade:526
+#: ../views/components/step-detail.jade:530
 msgid "Ascent"
 msgstr ""
 
-#: ../views/components/step-detail.jade:535
+#: ../views/components/step-detail.jade:539
 msgid "Descent"
 msgstr ""
 
-#: ../views/components/step-detail.jade:550
+#: ../views/components/step-detail.jade:554
 #: ../views/components/trip-detail.jade:38
 msgid "Download map for offline use"
 msgstr ""
 
-#: ../views/components/step-detail.jade:552
+#: ../views/components/step-detail.jade:556
 #: ../views/components/trip-detail.jade:40
 msgid "Sync Map"
 msgstr ""
 
-#: ../views/components/step-detail.jade:553
+#: ../views/components/step-detail.jade:557
 #: ../views/components/trip-detail.jade:41
 msgid "Pause downloading map for offline use"
 msgstr ""
 
-#: ../views/components/step-detail.jade:555
+#: ../views/components/step-detail.jade:559
 #: ../views/components/trip-detail.jade:43
 #, fuzzy
 msgid "Stop Sync"
 msgstr "توقف"
 
 #. L10n: hint for Export button that exports a single day of the trip
-#: ../views/components/step-detail.jade:557
+#: ../views/components/step-detail.jade:561
 #, fuzzy
 msgid "Export this day in a variety of formats"
 msgstr "رحلة تصدير في مجموعة متنوعة من الأشكال"
 
 #. L10n: can be translated "Move this day after its successor"
-#: ../views/components/step-detail.jade:561
+#: ../views/components/step-detail.jade:565
 #, fuzzy
 msgid "Move this day down"
 msgstr "نقل هذا اليوم بانخفاض"
 
 #. L10n: can be translated "Move this day before its predecessor"
-#: ../views/components/step-detail.jade:565
+#: ../views/components/step-detail.jade:569
 #, fuzzy
 msgid "Move this day up"
 msgstr "نقل هذا اليوم ارتفع"
 
-#: ../views/components/step-detail.jade:579
+#: ../views/components/step-detail.jade:583
 #, fuzzy
 msgid "Change day color"
 msgstr "تغيير اللون اليوم"
 
 #. L10n: 'day theme (label)' is a phrase that labels or shortly describes a day
-#: ../views/components/step-detail.jade:584
+#: ../views/components/step-detail.jade:588
 #, fuzzy
 msgid "Click to edit this day theme"
 msgstr "انقر لتعديل هذا موضوع اليوم"
 
 #. L10n: 'day theme (label)' is a phrase that labels or shortly describes a day
-#: ../views/components/step-detail.jade:585
 #: ../views/components/step-detail.jade:589
+#: ../views/components/step-detail.jade:593
 #, fuzzy
 msgid "Day theme (label)"
 msgstr "موضوع اليوم (التسمية)"
 
-#: ../views/components/step-detail.jade:591
+#: ../views/components/step-detail.jade:595
 #, fuzzy
 msgid "Click to edit this day description"
 msgstr "انقر لتعديل هذا الوصف اليوم"
 
-#: ../views/components/step-detail.jade:592
+#: ../views/components/step-detail.jade:596
 #, fuzzy
 msgid "Description of this day"
 msgstr "وصف هذا اليوم"
 
-#: ../views/components/step-detail.jade:594
+#: ../views/components/step-detail.jade:598
 #, fuzzy
 msgid "Fold this route details"
 msgstr "أضعاف هذه التفاصيل الطريق"
 
 #. L10n: Hint to add the place as the last stop of the trip (one but last for loop trips)
-#: ../views/components/step-detail.jade:607
+#: ../views/components/step-detail.jade:611
 #, fuzzy
 msgid "Visit this place at the end"
 msgstr "زيارة هذا المكان في نهاية"
 
 #. L10n: add stop at the end of the trip (as opposed to 'Save' that positions the stop to minimize driving)
-#: ../views/components/step-detail.jade:610
+#: ../views/components/step-detail.jade:614
 #, fuzzy
 msgid "Append"
 msgstr "ألحق"
 
 #. L10n: Warning displayed when part of the route involves ferry and Furkot adds an automatic stop at the location of a ferry terminal
-#: ../views/components/step-detail.jade:616
-#: ../views/components/step-detail.jade:651
+#: ../views/components/step-detail.jade:620
+#: ../views/components/step-detail.jade:657
 msgid "This is an automatically scheduled ferry."
 msgstr ""
 
 #. L10n: Note displayed for automatically scheduled stops directing user to see and modify settings to change the stop placement
-#: ../views/components/step-detail.jade:618
-#: ../views/components/step-detail.jade:665
+#: ../views/components/step-detail.jade:622
+#: ../views/components/step-detail.jade:671
 msgid "Check its settings above to see why it has been added here."
 msgstr ""
 
-#: ../views/components/step-detail.jade:620
+#: ../views/components/step-detail.jade:624
 #, fuzzy
 msgid "Stop cannot be located."
 msgstr "توقف لا يمكن أن يكون موجودا."
 
 #. L10n: Can be also translated as "This stop is on Saturday."
-#: ../views/components/step-detail.jade:621
-#: ../views/components/step-detail.jade:655
+#: ../views/components/step-detail.jade:625
+#: ../views/components/step-detail.jade:661
 #, fuzzy
 msgid "This is Saturday."
 msgstr "هذا هو يوم السبت."
 
-#: ../views/components/step-detail.jade:622
+#: ../views/components/step-detail.jade:626
 #, fuzzy
 msgid "Lodging on weekend not reserved yet."
 msgstr "السكن في عطلة نهاية الأسبوع لا يحتفظ حتى الان."
 
 #. L10n: Warning displayed when there is more than half gas tank when arriving at a planned fuel station
-#: ../views/components/step-detail.jade:623
-#: ../views/components/step-detail.jade:659
+#: ../views/components/step-detail.jade:627
+#: ../views/components/step-detail.jade:665
 #: ../views/components/trip-detail.jade:597
 msgid "More than half tank left."
 msgstr ""
 
-#: ../views/components/step-detail.jade:624
-#: ../views/components/step-detail.jade:625
+#: ../views/components/step-detail.jade:628
+#: ../views/components/step-detail.jade:629
 msgid "No station serves your preferred fuel nearby."
 msgstr ""
 
-#: ../views/components/step-detail.jade:626
+#: ../views/components/step-detail.jade:630
 #, fuzzy
 msgid "The trip begins earlier on {} at {}."
 msgstr "الرحلة تبدأ في وقت سابق يوم {} في {}."
 
-#: ../views/components/step-detail.jade:627
+#: ../views/components/step-detail.jade:631
 #, fuzzy
 msgid "The trip begins later on {} at {}."
 msgstr "تبدأ الرحلة في وقت لاحق {} في {}."
 
-#: ../views/components/step-detail.jade:628
+#: ../views/components/step-detail.jade:632
 #, fuzzy
 msgid "The trip ends earlier on {} at {}."
 msgstr "وتنتهي الزيارة في وقت سابق يوم {} في {}."
 
-#: ../views/components/step-detail.jade:629
+#: ../views/components/step-detail.jade:633
 #, fuzzy
 msgid "The trip ends later on {} at {}."
 msgstr "وتنتهي الزيارة في وقت لاحق {} في {}."
 
-#: ../views/components/step-detail.jade:630
+#: ../views/components/step-detail.jade:634
 #, fuzzy
 msgid "Visit duration exceeds time between this day start and end."
 msgstr "تتجاوز زيارة المدة الزمنية بين هذه البداية اليوم ونهاية."
 
-#: ../views/components/step-detail.jade:631
+#: ../views/components/step-detail.jade:635
 #, fuzzy
 msgid "Actual arrival on {} at {} is later than planned."
 msgstr "الوصول الفعلي على {} في {} هو في وقت لاحق مما كان مخططا له."
 
-#: ../views/components/step-detail.jade:632
+#: ../views/components/step-detail.jade:636
+msgid "Click the REORDER button above to visit this stop earlier."
+msgstr ""
+
+#: ../views/components/step-detail.jade:638
 #, fuzzy
 msgid "Actual arrival on {} at {} is earlier than planned."
 msgstr "الوصول الفعلي على {} في {} أقدم مما كان مخططا له."
 
-#: ../views/components/step-detail.jade:633
+#: ../views/components/step-detail.jade:639
 #, fuzzy
 msgid "Actual departure on {} at {} is later than planned."
 msgstr "رحيل الفعلي على {} في {} هو في وقت لاحق مما كان مخططا له."
 
-#: ../views/components/step-detail.jade:634
+#: ../views/components/step-detail.jade:640
 #, fuzzy
 msgid "Actual departure on {} at {} is earlier than planned."
 msgstr "رحيل الفعلي على {} في {} أقدم مما كان مخططا له."
 
-#: ../views/components/step-detail.jade:635
+#: ../views/components/step-detail.jade:641
 #, fuzzy
 msgid "No arrival date."
 msgstr "موعد وصوله."
 
-#: ../views/components/step-detail.jade:636
+#: ../views/components/step-detail.jade:642
 #, fuzzy
 msgid ""
 "No route available (stops too far from roads or a road is seasonally closed)."
 msgstr "لا الطرق المتاحة (يتوقف كثيرا من الطرق أو طريق مغلق موسميا)."
 
 #. L10n: Warning displayed when trip mode is set to RV and Furkot cannot calculate route given the RV dimensions configured in the Trip drawer
-#: ../views/components/step-detail.jade:637
-#: ../views/components/step-detail.jade:661
+#: ../views/components/step-detail.jade:643
+#: ../views/components/step-detail.jade:667
 msgid "No route available for RV. Adjust RV dimensions in the Trip drawer."
 msgstr ""
 
 #. L10n: Warning displayed when stops are too far apart to calculate route and user is advised to add more stops in-between
-#: ../views/components/step-detail.jade:638
-#: ../views/components/step-detail.jade:663
+#: ../views/components/step-detail.jade:644
+#: ../views/components/step-detail.jade:669
 msgid "Stops too far apart. Add interim stops to calculate route."
 msgstr ""
 
 #. L10n: Warning displayed when Furkot cannot calculate route duration and expect user to set it manually
-#: ../views/components/step-detail.jade:639
-#: ../views/components/step-detail.jade:657
+#: ../views/components/step-detail.jade:645
+#: ../views/components/step-detail.jade:663
 msgid "Route duration needs to be set manually."
 msgstr ""
 
-#: ../views/components/step-detail.jade:640
+#: ../views/components/step-detail.jade:646
 #, fuzzy
 msgid "The road may be seasonally closed. Check its status before departure."
 msgstr "الطريق قد تكون مغلقة موسميا. التحقق من وضعها قبل المغادرة."
 
-#: ../views/components/step-detail.jade:641
+#: ../views/components/step-detail.jade:647
 #, fuzzy
 msgid "No departure date."
 msgstr "موعد المغادرة."
 
-#: ../views/components/step-detail.jade:642
+#: ../views/components/step-detail.jade:648
 #, fuzzy
 msgid "Very little time to rest at the lodging."
 msgstr "القليل جدا من الوقت للراحة في السكن."
 
-#: ../views/components/step-detail.jade:643
+#: ../views/components/step-detail.jade:649
 #, fuzzy
 msgid ""
 "Split this lodging stop to avoid booking for {} nights in order to stay {} "
 "nights."
 msgstr "تقسيم هذا التوقف السكن لتجنب حجز ل{} ليال من أجل البقاء {} ليال."
 
-#: ../views/components/step-detail.jade:644
+#: ../views/components/step-detail.jade:650
 #, fuzzy
 msgid ""
 "Stop position is uncertain. Click the VISIT button above for the best guess."
 msgstr "موقف وقف غير مؤكد. انقر على زر زيارة أعلاه لأفضل تخمين."
 
-#: ../views/components/step-detail.jade:645
+#: ../views/components/step-detail.jade:651
 msgid ""
 "Stop has been moved from the linked place. Verify that its location is "
 "correct."
 msgstr ""
 
-#: ../views/components/step-detail.jade:646
+#: ../views/components/step-detail.jade:652
 msgid "Some roads have tolls."
 msgstr ""
 
-#: ../views/components/step-detail.jade:647
+#: ../views/components/step-detail.jade:653
 msgid "Not all roads are paved."
 msgstr ""
 
-#: ../views/components/step-detail.jade:669
+#: ../views/components/step-detail.jade:675
 #: ../views/components/trip-config-item.jade:234
 #, fuzzy
 msgid "Book a Flight"
@@ -9541,6 +9519,10 @@ msgstr ""
 #~ msgstr "إضافة هذا المطعم كمحطة تخطي"
 
 #, fuzzy
+#~ msgid "Add this sight as a skipped stop"
+#~ msgstr "إضافة هذا المنظر كمحطة تخطي"
+
+#, fuzzy
 #~ msgid "Add this surf spot as a skipped stop"
 #~ msgstr "Add this surf spot as a skipped stop"
 
@@ -9617,6 +9599,10 @@ msgstr ""
 #~ msgstr "أضعاف هذا تفاصيل المطعم"
 
 #, fuzzy
+#~ msgid "Fold this sight details"
+#~ msgstr "أضعاف هذه التفاصيل البصر"
+
+#, fuzzy
 #~ msgid "Fold this surf spot details"
 #~ msgstr "Fold this surf spot details"
 
@@ -9643,6 +9629,10 @@ msgstr ""
 #, fuzzy
 #~ msgid "Hide farmers markets"
 #~ msgstr "إخفاء أسواق المزارعين"
+
+#, fuzzy
+#~ msgid "Hide sights"
+#~ msgstr "فنادق إخفاء"
 
 #, fuzzy
 #~ msgid "Hide wineries"
@@ -9785,6 +9775,10 @@ msgstr ""
 #~ msgstr "انظر وصف هذا المكان"
 
 #, fuzzy
+#~ msgid "See review of this sight"
+#~ msgstr "انظر استعراض فودور من هذا المنظر"
+
+#, fuzzy
 #~ msgid "See this farmers market own website"
 #~ msgstr "ترى هذه المزارعين السوق موقع الويب الخاص بها"
 
@@ -9797,12 +9791,20 @@ msgstr ""
 #~ msgstr "See this restaurant page on Yelp"
 
 #, fuzzy
+#~ msgid "See this sight own website"
+#~ msgstr "انظر هذا الموقع البصر الخاص"
+
+#, fuzzy
 #~ msgid "See this winery own website"
 #~ msgstr "انظر هذا الموقع الخمرة الخاصة"
 
 #, fuzzy
 #~ msgid "Show Phone"
 #~ msgstr "عرض الخريطة"
+
+#, fuzzy
+#~ msgid "Sights and attractions"
+#~ msgstr "مسارات الدراجات ومسارات"
 
 #, fuzzy
 #~ msgid "Skiing"
@@ -9831,6 +9833,10 @@ msgstr ""
 #, fuzzy
 #~ msgid "Stop at this farmers market"
 #~ msgstr "يتوقف الأمر عند هذا السوق المزارعين"
+
+#, fuzzy
+#~ msgid "Stop at this sight"
+#~ msgstr "تتوقف عند هذا المنظر"
 
 #, fuzzy
 #~ msgid "Stop at this winery"

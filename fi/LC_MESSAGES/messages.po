@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-05-07 08:36-0700\n"
+"POT-Creation-Date: 2024-06-15 11:12-0600\n"
 "PO-Revision-Date: 2024-04-08 06:27+0000\n"
 "Last-Translator: Damian Krzeminski <pirxpilot@code42day.com>\n"
 "Language-Team: Finnish <https://translate.furkot.com/projects/furkot/trips/"
@@ -58,7 +58,7 @@ msgstr "Ehdota"
 #: ../views/components/place-switch.jade:509
 #: ../views/components/plan-msg.jade:2 ../views/components/share-dlg.jade:75
 #: ../views/components/share-dlg.jade:86 ../views/components/share-dlg.jade:98
-#: ../views/components/step-detail.jade:602
+#: ../views/components/step-detail.jade:606
 #: ../views/components/step-switches.jade:140
 #: ../views/components/step-switches.jade:151
 #: ../views/components/step-switches.jade:162
@@ -307,9 +307,9 @@ msgstr "OK"
 #: ../views/components/place-detail.jade:435
 #: ../views/components/place-switch.jade:513
 #: ../views/components/share-dlg.jade:72
-#: ../views/components/step-detail.jade:676
 #: ../views/components/step-detail.jade:682
 #: ../views/components/step-detail.jade:688
+#: ../views/components/step-detail.jade:694
 #: ../views/components/step-lodging.jade:15
 #: ../views/components/step-switches.jade:24
 #: ../views/components/step-switches.jade:200
@@ -867,17 +867,17 @@ msgstr "Suosi mutkaisia ja mäkisiä teitä välttäen kaupunkeja"
 msgid "Curvy Roads"
 msgstr "Mutkaisia teitä"
 
-#: ../views/components/dialog.jade:5 ../views/components/step-detail.jade:600
+#: ../views/components/dialog.jade:5 ../views/components/step-detail.jade:604
 #: ../views/tripshot/mixin.jade:119
 msgid "Cancel changes"
 msgstr "Peruuta muutokset"
 
-#: ../views/components/dialog.jade:8 ../views/components/step-detail.jade:603
+#: ../views/components/dialog.jade:8 ../views/components/step-detail.jade:607
 #: ../views/tripshot/mixin.jade:122
 msgid "Accept changes"
 msgstr "Hyväksy muutokset"
 
-#: ../views/components/dialog.jade:10 ../views/components/step-detail.jade:605
+#: ../views/components/dialog.jade:10 ../views/components/step-detail.jade:609
 msgid "Save"
 msgstr "Tallenna"
 
@@ -1140,13 +1140,13 @@ msgstr "Edellinen"
 
 #. L10n: 'Export' as in 'Export into a file'. Can be also translated as 'Download'
 #: ../views/components/export-dlg.jade:205
-#: ../views/components/step-detail.jade:559
+#: ../views/components/step-detail.jade:563
 msgid "Export"
 msgstr "Vie"
 
 #. L10n: Displayed to label a subsequent day of the trip followed by the number
 #: ../views/components/export-dlg.jade:211 ../views/components/print.jade:16
-#: ../views/components/step-detail.jade:573 ../views/tripshot/tripshot.jade:33
+#: ../views/components/step-detail.jade:577 ../views/tripshot/tripshot.jade:33
 msgid "Day"
 msgstr "Päivä"
 
@@ -1192,8 +1192,8 @@ msgstr "Päivä(t) {} - {}"
 #. L10n: Warning displayed for automatically scheduled stops that are not associated with real places but are just placeholders
 #: ../views/components/export-dlg.jade:234
 #: ../views/components/navigation.jade:117
-#: ../views/components/step-detail.jade:617
-#: ../views/components/step-detail.jade:653 ../views/export/warning.jade:1
+#: ../views/components/step-detail.jade:621
+#: ../views/components/step-detail.jade:659 ../views/export/warning.jade:1
 msgid "This stop is an automatically scheduled placeholder, not a real place."
 msgstr "Tämä on automaattisesti lisätty paikkamerkki, ei oikea paikka."
 
@@ -1693,7 +1693,7 @@ msgstr ""
 
 #. L10n: 'Travel off-road' - user can shape routes manually without any constraint - as opposed to 'Follow roads' - Furkot will automatically calculate routes that go over public roads
 #: ../views/components/import-dlg.jade:128
-#: ../views/components/step-detail.jade:449
+#: ../views/components/step-detail.jade:453
 msgid "Travel off road"
 msgstr "Off Road"
 
@@ -1868,16 +1868,16 @@ msgstr "Avaa Syö-sivuvalikko"
 msgid "go to Find drawer"
 msgstr "Avaa Näytä-sivuvalikko"
 
-#: ../views/components/language.jade:75
+#: ../views/components/language.jade:77
 msgid "Choose your language"
 msgstr "Valitse kieli"
 
-#: ../views/components/language.jade:78
+#: ../views/components/language.jade:80
 msgid "Languages partially translated"
 msgstr "Kielet osittain käännettyjä"
 
 #. L10n: square brackets [] denote a link
-#: ../views/components/language.jade:82
+#: ../views/components/language.jade:84
 msgid "If you want to help [click here]"
 msgstr "Jos haluat auttaa [klikkaa tästä]"
 
@@ -1987,7 +1987,7 @@ msgstr "Keskitä kartta nykyiseen sijaintiin"
 
 #. L10n: 'places' means 'places displayed on the map'
 #: ../views/components/map.jade:82 ../views/components/places.jade:121
-#: ../views/components/places.jade:463
+#: ../views/components/places.jade:450
 msgid "Hide places"
 msgstr "Piilota paikat"
 
@@ -2090,7 +2090,7 @@ msgstr "Näytä matkan tiedot"
 
 #. L10n: Label on the handle of the Trip drawer. Shorter word is better; ideally words for other handles (Plan, Sleep, Eat, Find) will not be longer
 #. L10n: Label for time/distance covered since beginning of the trip
-#: ../views/components/map.jade:143 ../views/components/step-detail.jade:316
+#: ../views/components/map.jade:143 ../views/components/step-detail.jade:320
 msgid "Trip"
 msgstr "Matka"
 
@@ -2147,9 +2147,9 @@ msgid "Find"
 msgstr "Näytä"
 
 #. L10n: meters as unit of elevation
-#: ../views/components/map.jade:222 ../views/components/step-detail.jade:520
-#: ../views/components/step-detail.jade:531
-#: ../views/components/step-detail.jade:540
+#: ../views/components/map.jade:222 ../views/components/step-detail.jade:524
+#: ../views/components/step-detail.jade:535
+#: ../views/components/step-detail.jade:544
 #: ../views/components/trip-config-item.jade:200
 #: ../views/components/trip-config-item.jade:207
 #: ../views/components/trip-detail.jade:441
@@ -2159,9 +2159,9 @@ msgid "m"
 msgstr "m"
 
 #. L10n: feet as unit of elevation
-#: ../views/components/map.jade:224 ../views/components/step-detail.jade:522
-#: ../views/components/step-detail.jade:533
-#: ../views/components/step-detail.jade:542
+#: ../views/components/map.jade:224 ../views/components/step-detail.jade:526
+#: ../views/components/step-detail.jade:537
+#: ../views/components/step-detail.jade:546
 #: ../views/components/trip-config-item.jade:201
 #: ../views/components/trip-config-item.jade:208
 #: ../views/components/trip-detail.jade:442
@@ -2578,7 +2578,7 @@ msgstr "Siirrä"
 #. L10n: 'Maybe' meaning 'Add the place to the trip as a skipped Stop'
 #: ../views/components/place-detail.jade:37
 #: ../views/components/place-detail.jade:55
-#: ../views/components/step-detail.jade:613
+#: ../views/components/step-detail.jade:617
 msgid "Maybe"
 msgstr "Ehkä"
 
@@ -2958,7 +2958,7 @@ msgstr "Suurin syvyys"
 #. L10n: Elevation of a peak (mountain). Followed by number. Less than 25 characters if possible
 #: ../views/components/place-detail.jade:143
 #: ../views/components/place-detail.jade:318
-#: ../views/components/step-detail.jade:515
+#: ../views/components/step-detail.jade:519
 msgid "Elevation"
 msgstr "Korkeus"
 
@@ -3569,7 +3569,7 @@ msgstr "Huoltoasemat"
 #: ../views/components/place-switch.jade:194
 #: ../views/components/place-switch.jade:199 ../views/components/places.jade:59
 #: ../views/components/places.jade:69 ../views/components/places.jade:175
-#: ../views/components/places.jade:306
+#: ../views/components/places.jade:293
 msgid "Hide gas stations"
 msgstr "Piilota huoltoasemat"
 
@@ -3591,7 +3591,7 @@ msgstr "Diesel-asemat"
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
 #: ../views/components/place-switch.jade:194
 #: ../views/components/place-switch.jade:197
-#: ../views/components/places.jade:305 ../views/components/step-icons.jade:41
+#: ../views/components/places.jade:292 ../views/components/step-icons.jade:41
 msgid "Ethanol-free gas stations"
 msgstr "Etanolittomat huoltoasemat"
 
@@ -3606,14 +3606,14 @@ msgstr "Nestekaasua/propaania myyvät huoltoasemat"
 #. L10n: stop type (icon) for an electric vehicle charging station
 #: ../views/components/place-switch.jade:205
 #: ../views/components/place-switch.jade:208
-#: ../views/components/places.jade:283 ../views/components/places.jade:292
+#: ../views/components/places.jade:270 ../views/components/places.jade:279
 #: ../views/components/step-icons.jade:50
 msgid "Electric car charging stations"
 msgstr "Sähköautojen latausasemat"
 
 #. L10n: hint for the button that hides electric car charging stations on the map
 #: ../views/components/place-switch.jade:205
-#: ../views/components/places.jade:282 ../views/components/places.jade:291
+#: ../views/components/places.jade:269 ../views/components/places.jade:278
 msgid "Hide electric car charging stations"
 msgstr "Piilota sähköautojen latausasemat"
 
@@ -3750,7 +3750,7 @@ msgstr "Piilota vaellusreitit"
 #. L10n: stop type (icon)
 #: ../views/components/place-switch.jade:273
 #: ../views/components/place-switch.jade:276
-#: ../views/components/places.jade:204 ../views/components/places.jade:349
+#: ../views/components/places.jade:204 ../views/components/places.jade:336
 #: ../views/components/step-icons.jade:298
 msgid "Hiking trails"
 msgstr "Vaellusreitit"
@@ -3811,13 +3811,13 @@ msgstr "Hiihtokeskukset"
 #. L10n: stop type (icon)
 #: ../views/components/place-switch.jade:306
 #: ../views/components/place-switch.jade:309
-#: ../views/components/places.jade:411 ../views/components/step-icons.jade:372
+#: ../views/components/places.jade:398 ../views/components/step-icons.jade:372
 msgid "Dive sites"
 msgstr "Sukelluskohteet"
 
 #. L10n: hint for the button that hides dive sites on the map. 'Dive site' is a spot suitable for scuba diving
 #: ../views/components/place-switch.jade:306
-#: ../views/components/places.jade:410
+#: ../views/components/places.jade:397
 msgid "Hide dive sites"
 msgstr "Piilota sukelluskohteet"
 
@@ -4186,25 +4186,25 @@ msgstr "Muokkaa Näytä-välilehden parametrejä"
 
 #: ../views/components/places.jade:2 ../views/components/places.jade:74
 #: ../views/components/places.jade:115 ../views/components/places.jade:136
-#: ../views/components/places.jade:320 ../views/components/places.jade:456
+#: ../views/components/places.jade:307 ../views/components/places.jade:443
 msgid "See description of this place"
 msgstr "Katso paikan kuvaus"
 
 #: ../views/components/places.jade:3 ../views/components/places.jade:75
 #: ../views/components/places.jade:116 ../views/components/places.jade:137
-#: ../views/components/places.jade:321 ../views/components/places.jade:445
-#: ../views/components/places.jade:457
+#: ../views/components/places.jade:308 ../views/components/places.jade:432
+#: ../views/components/places.jade:444
 msgid "See this place own website"
 msgstr "Katso paikan nettisivut"
 
-#: ../views/components/places.jade:4 ../views/components/places.jade:446
+#: ../views/components/places.jade:4 ../views/components/places.jade:433
 msgid "Stop and visit this place"
 msgstr "Pysähdy ja vieraile paikassa"
 
 #: ../views/components/places.jade:5 ../views/components/places.jade:77
 #: ../views/components/places.jade:119 ../views/components/places.jade:139
-#: ../views/components/places.jade:323 ../views/components/places.jade:447
-#: ../views/components/places.jade:460 ../views/components/step-detail.jade:611
+#: ../views/components/places.jade:310 ../views/components/places.jade:434
+#: ../views/components/places.jade:447 ../views/components/step-detail.jade:615
 msgid "Add this place as a skipped stop"
 msgstr "Lisää tämä paikka sivuutetuksi pysähdykseksi"
 
@@ -4218,7 +4218,7 @@ msgstr "Käännä reitin suunta"
 
 #: ../views/components/places.jade:8 ../views/components/places.jade:78
 #: ../views/components/places.jade:120 ../views/components/places.jade:140
-#: ../views/components/places.jade:324 ../views/components/places.jade:461
+#: ../views/components/places.jade:311 ../views/components/places.jade:448
 msgid "Fold this place details"
 msgstr "Sulje paikan tiedot"
 
@@ -4302,25 +4302,25 @@ msgid "Fill up at this gas station"
 msgstr "Tankkaa huoltoasemalla"
 
 #: ../views/components/places.jade:57 ../views/components/places.jade:67
-#: ../views/components/places.jade:166 ../views/components/places.jade:299
+#: ../views/components/places.jade:166 ../views/components/places.jade:286
 msgid "Add this gas station as a skipped stop"
 msgstr "Lisää huoltoasema sivuutetuksi pysähdykseksi"
 
 #: ../views/components/places.jade:58 ../views/components/places.jade:68
-#: ../views/components/places.jade:167 ../views/components/places.jade:300
+#: ../views/components/places.jade:167 ../views/components/places.jade:287
 msgid "Fold this gas station details"
 msgstr "Sulje huoltoaseman tiedot"
 
 #: ../views/components/places.jade:76 ../views/components/places.jade:118
-#: ../views/components/places.jade:322 ../views/components/places.jade:459
+#: ../views/components/places.jade:309 ../views/components/places.jade:446
 msgid "Stop at this place"
 msgstr "Pysähdy tähän paikkaan"
 
-#: ../views/components/places.jade:79 ../views/components/places.jade:325
+#: ../views/components/places.jade:79 ../views/components/places.jade:312
 msgid "Hide places and activities"
 msgstr "Piilota paikat ja aktiviteetit"
 
-#: ../views/components/places.jade:80 ../views/components/places.jade:326
+#: ../views/components/places.jade:80 ../views/components/places.jade:313
 msgid "Places and activities"
 msgstr "Paikat ja aktiviteetit"
 
@@ -4358,19 +4358,19 @@ msgid "See this trail guide"
 msgstr "Katso tästä reittioppaasta"
 
 #: ../views/components/places.jade:102 ../views/components/places.jade:117
-#: ../views/components/places.jade:229 ../views/components/places.jade:242
-#: ../views/components/places.jade:406 ../views/components/places.jade:458
+#: ../views/components/places.jade:229 ../views/components/places.jade:393
+#: ../views/components/places.jade:445
 msgid "See user reviews"
 msgstr "Katso käyttäjien arvostelut"
 
 #: ../views/components/places.jade:103 ../views/components/places.jade:149
-#: ../views/components/places.jade:198 ../views/components/places.jade:344
+#: ../views/components/places.jade:198 ../views/components/places.jade:331
 msgid "Stop and take this trail"
 msgstr "Pysähdy ja kulje tätä jälkeä"
 
 #: ../views/components/places.jade:104 ../views/components/places.jade:150
-#: ../views/components/places.jade:199 ../views/components/places.jade:345
-#: ../views/components/places.jade:356
+#: ../views/components/places.jade:199 ../views/components/places.jade:332
+#: ../views/components/places.jade:343
 msgid "Add this trail as a skipped stop"
 msgstr "Lisää jälki sivuutetuksi pysähdykseksi"
 
@@ -4396,7 +4396,7 @@ msgstr "Piilota oppaat"
 msgid "Trail guides"
 msgstr "Reittioppaat"
 
-#: ../views/components/places.jade:122 ../views/components/places.jade:464
+#: ../views/components/places.jade:122 ../views/components/places.jade:451
 msgid "Recommended places"
 msgstr "Suositellut kohteet"
 
@@ -4421,12 +4421,12 @@ msgid "See author's profile"
 msgstr "Katso kirjoittajan kuvaus"
 
 #: ../views/components/places.jade:153 ../views/components/places.jade:202
-#: ../views/components/places.jade:346 ../views/components/places.jade:357
+#: ../views/components/places.jade:333 ../views/components/places.jade:344
 msgid "Fold this trail details"
 msgstr "Sulje jäljen tiedot"
 
-#: ../views/components/places.jade:154 ../views/components/places.jade:348
-#: ../views/components/places.jade:359
+#: ../views/components/places.jade:154 ../views/components/places.jade:335
+#: ../views/components/places.jade:346
 msgid "Hide trails"
 msgstr "Piilota jäljet"
 
@@ -4435,28 +4435,28 @@ msgstr "Piilota jäljet"
 msgid "Trail recordings"
 msgstr "Jälkien tallenteet"
 
-#: ../views/components/places.jade:180 ../views/components/places.jade:252
-#: ../views/components/places.jade:331
+#: ../views/components/places.jade:180 ../views/components/places.jade:239
+#: ../views/components/places.jade:318
 msgid "See description of this road"
 msgstr "Näytä tien kuvaus"
 
-#: ../views/components/places.jade:181 ../views/components/places.jade:332
+#: ../views/components/places.jade:181 ../views/components/places.jade:319
 msgid "Stop at this road"
 msgstr "Pysähdy tiellä"
 
-#: ../views/components/places.jade:182 ../views/components/places.jade:333
+#: ../views/components/places.jade:182 ../views/components/places.jade:320
 msgid "Add this road as a skipped stop"
 msgstr "Lisää tie sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:183 ../views/components/places.jade:334
+#: ../views/components/places.jade:183 ../views/components/places.jade:321
 msgid "Ride this road"
 msgstr "Aja tietä"
 
-#: ../views/components/places.jade:184 ../views/components/places.jade:335
+#: ../views/components/places.jade:184 ../views/components/places.jade:322
 msgid "Reverse this road"
 msgstr "Käännä tien suunta"
 
-#: ../views/components/places.jade:185 ../views/components/places.jade:336
+#: ../views/components/places.jade:185 ../views/components/places.jade:323
 msgid "Fold this road details"
 msgstr "Sulje tien tiedot"
 
@@ -4522,294 +4522,266 @@ msgid "Ski resorts"
 msgstr "Hiihtokeskukset"
 
 #: ../views/components/places.jade:240
-msgid "See review of this sight"
-msgstr "Katso nähtävyyden arvostelu"
-
-#: ../views/components/places.jade:241
-msgid "See this sight own website"
-msgstr "Katso nähtävyyden nettisivuja"
-
-#: ../views/components/places.jade:243
-msgid "Stop at this sight"
-msgstr "Pysähdy nähtävyydellä"
-
-#: ../views/components/places.jade:244
-msgid "Add this sight as a skipped stop"
-msgstr "Lisää nähtävyys sivuutetuksi pysähdykseksi"
-
-#: ../views/components/places.jade:245
-msgid "Fold this sight details"
-msgstr "Sulje nähtävyyden tiedot"
-
-#: ../views/components/places.jade:246
-msgid "Hide sights"
-msgstr "Piilota nähtävyydet"
-
-#: ../views/components/places.jade:247
-msgid "Sights and attractions"
-msgstr "Nähtävyydet ja kohteet"
-
-#: ../views/components/places.jade:253
 msgid "See contributor's profile"
 msgstr "Näytä avustajan kuvaus"
 
-#: ../views/components/places.jade:254
+#: ../views/components/places.jade:241
 msgid "See riders' rating"
 msgstr "Näytä ajajien luokitukset"
 
-#: ../views/components/places.jade:255
+#: ../views/components/places.jade:242
 msgid "Stop at this motorcycle road"
 msgstr "Pysähdy moottoripyöräreitillä"
 
-#: ../views/components/places.jade:256
+#: ../views/components/places.jade:243
 msgid "Add this motorcycle road as a skipped stop"
 msgstr "Lisää moottoripyöräreitti sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:257
+#: ../views/components/places.jade:244
 msgid "Ride this motorcycle road"
 msgstr "Aja moottoripyöräreitti"
 
-#: ../views/components/places.jade:258
+#: ../views/components/places.jade:245
 msgid "Reverse this motorcycle road"
 msgstr "Käännä moottoripyöräreitin suunta"
 
-#: ../views/components/places.jade:259
+#: ../views/components/places.jade:246
 msgid "Fold this motorcycle road details"
 msgstr "Sulje moottoripyöräreitin tiedot"
 
-#: ../views/components/places.jade:260
+#: ../views/components/places.jade:247
 msgid "Hide roads and rides"
 msgstr "Piilota tiet ja ajamiset"
 
-#: ../views/components/places.jade:261
+#: ../views/components/places.jade:248
 msgid "Roads and rides"
 msgstr "Tiet ja ajamiset"
 
-#: ../views/components/places.jade:266
+#: ../views/components/places.jade:253
 msgid "See Motor Vehicle Use Maps at U.S. Forest Service"
 msgstr "Katso moottoriajoneuvojen käyttökarttoja U.S. Forest Servicestä"
 
-#: ../views/components/places.jade:267
+#: ../views/components/places.jade:254
 msgid "Stop at this road or trail"
 msgstr "Pysähdy tiellä tai polulla"
 
-#: ../views/components/places.jade:268
+#: ../views/components/places.jade:255
 msgid "Add this road or trail as a skipped stop"
 msgstr "Lisää tie tai polku sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:269
+#: ../views/components/places.jade:256
 msgid "Travel this road or trail"
 msgstr "Matkusta tiellä tai polulla"
 
-#: ../views/components/places.jade:270
+#: ../views/components/places.jade:257
 msgid "Reverse this road or trail"
 msgstr "Käännä tien tai polun suunta"
 
-#: ../views/components/places.jade:271
+#: ../views/components/places.jade:258
 msgid "Fold this road or trail details"
 msgstr "Sulje tien tai polun tiedot"
 
-#: ../views/components/places.jade:272
+#: ../views/components/places.jade:259
 msgid "Hide Motor Vehicle Use Maps"
 msgstr "Piilota Yhdysvaltain metsähallituksen moottoriajoneuvojen käyttökartat"
 
-#: ../views/components/places.jade:273
+#: ../views/components/places.jade:260
 msgid "U.S. Forest Service Motor Vehicle Use Maps"
 msgstr "Yhdysvaltain metsähallituksen moottoriajoneuvojen käyttökartat"
 
-#: ../views/components/places.jade:278 ../views/components/places.jade:287
+#: ../views/components/places.jade:265 ../views/components/places.jade:274
 msgid "See charging station network"
 msgstr "Näytä sähkön latausasemaverkosto"
 
-#: ../views/components/places.jade:279 ../views/components/places.jade:288
+#: ../views/components/places.jade:266 ../views/components/places.jade:275
 msgid "Add this charging station to your trip"
 msgstr "Lisää sähkön latausasema matkaasi"
 
-#: ../views/components/places.jade:280 ../views/components/places.jade:289
+#: ../views/components/places.jade:267 ../views/components/places.jade:276
 msgid "Add this charging station as a skipped stop"
 msgstr "Lisää sähkön latausasema sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:281 ../views/components/places.jade:290
+#: ../views/components/places.jade:268 ../views/components/places.jade:277
 msgid "Fold this charging station details"
 msgstr "Sulje sähkön latausaseman tiedot"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:297
+#: ../views/components/places.jade:284
 msgid "See this ethanol-free gas station page"
 msgstr "Näytä etanolittoman huoltoaseman sivu"
 
 #. L10n: "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:298 ../views/components/places.jade:303
+#: ../views/components/places.jade:285 ../views/components/places.jade:290
 msgid "Fill up at this ethanol-free gas station"
 msgstr "Tankkaa etanolittomalla asemalla"
 
 #. L10n: square brackets [] denote a link. "ethanol-free" may not be applicable in Europe, but those stations would only show in US and Canada anyway
-#: ../views/components/places.jade:312
+#: ../views/components/places.jade:299
 msgid "The list of ethanol-free gas stations by [pure-gas.org]"
 msgstr "Luettelon etanolittomista asemista tarjoaa [pure-gas.org]"
 
 #. L10n: square brackets [] denote a link
-#: ../views/components/places.jade:314
+#: ../views/components/places.jade:301
 msgid "with [permission]"
 msgstr "[luvalla]"
 
-#: ../views/components/places.jade:337 ../views/components/places.jade:381
+#: ../views/components/places.jade:324 ../views/components/places.jade:368
 msgid "Hide peaks and routes"
 msgstr "Piilota huiput ja reitit"
 
-#: ../views/components/places.jade:338 ../views/components/places.jade:382
+#: ../views/components/places.jade:325 ../views/components/places.jade:369
 msgid "Peaks and routes"
 msgstr "Huiput ja reitit"
 
-#: ../views/components/places.jade:343 ../views/components/places.jade:354
+#: ../views/components/places.jade:330 ../views/components/places.jade:341
 msgid "See description of this trail"
 msgstr "Näytä jäljen kuvaus"
 
-#: ../views/components/places.jade:355
+#: ../views/components/places.jade:342
 msgid "Stop and ski this trail"
 msgstr "Pysähdy ja laskettele jälki"
 
-#: ../views/components/places.jade:360
+#: ../views/components/places.jade:347
 msgid "Backcountry ski trails"
 msgstr "Hiihtolatuja"
 
-#: ../views/components/places.jade:365
+#: ../views/components/places.jade:352
 msgid "See description of this bike track"
 msgstr "Katso pyöräilyreitin kuvaus"
 
-#: ../views/components/places.jade:366
+#: ../views/components/places.jade:353
 msgid "Stop and ride this bike track"
 msgstr "Pysähdy ja aja pyöräilyreitti"
 
-#: ../views/components/places.jade:367
+#: ../views/components/places.jade:354
 msgid "Add this bike track as a skipped stop"
 msgstr "Lisää pyöräilyreitti sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:368
+#: ../views/components/places.jade:355
 msgid "Fold this bike track details"
 msgstr "Sulje pyöräilyreitin tiedot"
 
-#: ../views/components/places.jade:370
+#: ../views/components/places.jade:357
 msgid "Hide bike tracks"
 msgstr "Piilota pyöräilyreitit"
 
-#: ../views/components/places.jade:371
+#: ../views/components/places.jade:358
 msgid "Bike tracks"
 msgstr "Pyöräilyreitit"
 
-#: ../views/components/places.jade:376
+#: ../views/components/places.jade:363
 msgid "See description of this peak"
 msgstr "Katso huipun kuvaus"
 
-#: ../views/components/places.jade:377
+#: ../views/components/places.jade:364
 msgid "Stop and climb this peak"
 msgstr "Pysähdy ja kiipeä tälle huipulle"
 
-#: ../views/components/places.jade:378
+#: ../views/components/places.jade:365
 msgid "Add this peak as a skipped stop"
 msgstr "Lisää tämä huippu sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:379
+#: ../views/components/places.jade:366
 msgid "Fold this peak details"
 msgstr "Sulje huipun tiedot"
 
-#: ../views/components/places.jade:405
+#: ../views/components/places.jade:392
 msgid "See description of this dive site"
 msgstr "Katso sukelluskohteen kuvaus"
 
-#: ../views/components/places.jade:407
+#: ../views/components/places.jade:394
 msgid "Stop and dive at this site"
 msgstr "Pysähdy ja sukella tässä kohteessa"
 
-#: ../views/components/places.jade:408
+#: ../views/components/places.jade:395
 msgid "Add this dive site as a skipped stop"
 msgstr "Lisää tämä sukelluskohde sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:409
+#: ../views/components/places.jade:396
 msgid "Fold this dive site details"
 msgstr "Sulje sukelluskohteen tiedot"
 
-#: ../views/components/places.jade:416
+#: ../views/components/places.jade:403
 msgid "See more information about this place"
 msgstr "Katso lisätietoja tästä paikasta"
 
-#: ../views/components/places.jade:417
+#: ../views/components/places.jade:404
 msgid "Copy stop from its trip to this one"
 msgstr "Kopioi pysähdys matkalta tähän"
 
-#: ../views/components/places.jade:418
+#: ../views/components/places.jade:405
 msgid "Add as a skipped stop"
 msgstr "Lisää sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:419
+#: ../views/components/places.jade:406
 msgid "Copy route to the next stop"
 msgstr "Kopioi reitti seuraavaksi pysähdykseksi"
 
-#: ../views/components/places.jade:420
+#: ../views/components/places.jade:407
 msgid "Reverse route when copying"
 msgstr "Käännä reitti kopioitaessa"
 
-#: ../views/components/places.jade:421 ../views/components/step-detail.jade:594
+#: ../views/components/places.jade:408 ../views/components/step-detail.jade:598
 msgid "Fold this stop details"
 msgstr "Sulje pysähdyksen tiedot"
 
-#: ../views/components/places.jade:424
+#: ../views/components/places.jade:411
 msgid "Open this trip"
 msgstr "Avaa matka"
 
-#: ../views/components/places.jade:425 ../views/components/places.jade:433
+#: ../views/components/places.jade:412 ../views/components/places.jade:420
 msgid "Stop at this trip starting point"
 msgstr "Pysähdy matkan lähtöpisteessä"
 
-#: ../views/components/places.jade:426 ../views/components/places.jade:434
+#: ../views/components/places.jade:413 ../views/components/places.jade:421
 msgid "Add this trip starting point as a skipped stop"
 msgstr "Lisää matkan lähtöpiste sivuutetuksi pysähdykseksi"
 
-#: ../views/components/places.jade:427
+#: ../views/components/places.jade:414
 msgid "Copy the entire trip to this one"
 msgstr "Kopioi koko matka tähän"
 
-#: ../views/components/places.jade:428
+#: ../views/components/places.jade:415
 msgid "Reverse this trip when copying"
 msgstr "Käännä reitti kopioitaessa"
 
-#: ../views/components/places.jade:429 ../views/components/places.jade:437
+#: ../views/components/places.jade:416 ../views/components/places.jade:424
 msgid "Fold this trip details"
 msgstr "Sulje matkan tiedot"
 
-#: ../views/components/places.jade:432
+#: ../views/components/places.jade:419
 msgid "See more information about this trip"
 msgstr "Katso lisätietoja matkasta"
 
-#: ../views/components/places.jade:435
+#: ../views/components/places.jade:422
 msgid "Add this trip to yours"
 msgstr "Lisää tämä omiin matkoihisi"
 
-#: ../views/components/places.jade:436
+#: ../views/components/places.jade:423
 msgid "Reverse this trip when adding"
 msgstr "Käännä reitti lisättäessä"
 
-#: ../views/components/places.jade:438
+#: ../views/components/places.jade:425
 msgid "Hide trips shared by Furkot community"
 msgstr "Piilota Furkot-yhteisön jakamat matkat"
 
-#: ../views/components/places.jade:439
+#: ../views/components/places.jade:426
 msgid "Trips shared by Furkot community"
 msgstr "Furkot-yhteisön jakamat matkat"
 
-#: ../views/components/places.jade:444
+#: ../views/components/places.jade:431
 msgid "Read this article"
 msgstr "Lue artikkeli Wikipediassa"
 
-#: ../views/components/places.jade:448
+#: ../views/components/places.jade:435
 msgid "Fold this article details"
 msgstr "Sulje artikkelin tiedot"
 
-#: ../views/components/places.jade:449
+#: ../views/components/places.jade:436
 msgid "Hide articles"
 msgstr "Sulje artikkelit"
 
-#: ../views/components/places.jade:450
+#: ../views/components/places.jade:437
 msgid "Articles from Wikipedia, the free encyclopedia"
 msgstr "Artikkeleita Wikipediasta"
 
@@ -5089,7 +5061,7 @@ msgstr "Poista pysähdys"
 
 #. L10n: Label for a button to delete (stop, trip or route)
 #: ../views/components/step-detail.jade:22
-#: ../views/components/step-detail.jade:339
+#: ../views/components/step-detail.jade:343
 #: ../views/components/trip-detail.jade:26
 msgid "Delete"
 msgstr "Poista"
@@ -5111,7 +5083,7 @@ msgstr "Sivuuta paikka"
 
 #. L10n: Label for a button to omit the stop or route in the itinerary but keep it in the trip as possible alternative
 #: ../views/components/step-detail.jade:30
-#: ../views/components/step-detail.jade:349
+#: ../views/components/step-detail.jade:353
 msgid "Skip"
 msgstr "Sivuuta"
 
@@ -5130,685 +5102,698 @@ msgstr "Käy"
 msgid "Stay in this lodging"
 msgstr "Yövy majoituksessa"
 
+#: ../views/components/step-detail.jade:44
+msgid "Reorder stop based on date"
+msgstr ""
+
+#. L10n: 'Reorder' to change the position of the stop based on the set date
+#: ../views/components/step-detail.jade:47
+msgid "Reorder"
+msgstr ""
+
 #. L10n: can be also translated "Move this stop after its successor"
-#: ../views/components/step-detail.jade:45
+#: ../views/components/step-detail.jade:49
 msgid "Move this stop down"
 msgstr "Siirrä pysähdys alemmaksi"
 
 #. L10n: Label for a button that moves the stop or day after its successor. Can also be translated as 'After'
-#: ../views/components/step-detail.jade:48
-#: ../views/components/step-detail.jade:563
+#: ../views/components/step-detail.jade:52
+#: ../views/components/step-detail.jade:567
 msgid "Down"
 msgstr "Alemmaksi"
 
 #. L10n: can be translated "Move this stop before its predecessor"
-#: ../views/components/step-detail.jade:50
+#: ../views/components/step-detail.jade:54
 msgid "Move this stop up"
 msgstr "Siirrä pysähdys ylemmäksi"
 
 #. L10n: Label for a button that moves the stop or day before its predecessor. Can also be translated as 'Before'
-#: ../views/components/step-detail.jade:53
-#: ../views/components/step-detail.jade:567
+#: ../views/components/step-detail.jade:57
+#: ../views/components/step-detail.jade:571
 msgid "Up"
 msgstr "Ylemmäksi"
 
 #. L10n: Hint for the "In" button - changing the stop to be visited on the return leg (inbound) instead of when traveling outward (loop trips only). Inbound means 'when returning'.
-#: ../views/components/step-detail.jade:55
+#: ../views/components/step-detail.jade:59
 msgid "Visit this place traveling inbound"
 msgstr "Käy paikassa tulomatkalla"
 
 #. L10n: Label for a button to change the stop to be visited on the return leg (inbound) instead of when traveling outward (loop trips only). Translation of "From (somewhere)" may be a good approximation
-#: ../views/components/step-detail.jade:58
+#: ../views/components/step-detail.jade:62
 msgid "In"
 msgstr "Paluu"
 
 #. L10n: Hint for the "Out" button - changing the stop to be visited traveling outward (outbound) instead of on the return leg (loop trips only)
-#: ../views/components/step-detail.jade:60
+#: ../views/components/step-detail.jade:64
 msgid "Visit this place traveling outbound"
 msgstr "Käy paikassa menomatkalla"
 
 #. L10n: Label for a button to change the stop to be visited traveling outward (outbound) instead of on the return leg (loop trips only). Translation of "To (somewhere)" may be a good approximation
-#: ../views/components/step-detail.jade:63
+#: ../views/components/step-detail.jade:67
 msgid "Out"
 msgstr "Meno"
 
 #. L10n: Hint to specify a good name when adding a stop by clicking on the map
-#: ../views/components/step-detail.jade:65
-#: ../views/components/step-detail.jade:81
+#: ../views/components/step-detail.jade:69
+#: ../views/components/step-detail.jade:85
 msgid "Specify a descriptive name"
 msgstr "Anna kuvaava nimi"
 
 #. L10n: Hint to provide place location when adding a new stop by name
-#: ../views/components/step-detail.jade:66
-#: ../views/components/step-detail.jade:83
+#: ../views/components/step-detail.jade:70
+#: ../views/components/step-detail.jade:87
 msgid "Specify place location"
 msgstr "Anna paikan sijainti"
 
 #. L10n: 'place' means name of the stop location
-#: ../views/components/step-detail.jade:69
-#: ../views/components/step-detail.jade:70
 #: ../views/components/step-detail.jade:73
+#: ../views/components/step-detail.jade:74
+#: ../views/components/step-detail.jade:77
 msgid "Click to modify place"
 msgstr "Muuta paikkaa"
 
 #. L10n: 'place' means name of the stop location
-#: ../views/components/step-detail.jade:69
-#: ../views/components/step-detail.jade:70
+#: ../views/components/step-detail.jade:73
+#: ../views/components/step-detail.jade:74
 msgid "Place"
 msgstr "Paikka"
 
 #. L10n: TripIt is a service that Furkot works with synchronizing trip itinerary from TripIt with Furkot trip plan
-#: ../views/components/step-detail.jade:76
+#: ../views/components/step-detail.jade:80
 msgid "Match TripIt itinerary item"
 msgstr "Yhdistä osa TripIt-matkasuunnitelmasta"
 
 #. L10n: 'confirmation' as in 'confirmation of a hotel reservation'
-#: ../views/components/step-detail.jade:86
+#: ../views/components/step-detail.jade:90
 msgid "No confirmation"
 msgstr "Ei vahvistusta"
 
 #. L10n: 'Address' is a field to edit stop address
-#: ../views/components/step-detail.jade:97
+#: ../views/components/step-detail.jade:101
 msgid "Address"
 msgstr "Osoite"
 
-#: ../views/components/step-detail.jade:97
+#: ../views/components/step-detail.jade:101
 msgid "Click to modify address"
 msgstr "Muuta osoitetta"
 
-#: ../views/components/step-detail.jade:98
+#: ../views/components/step-detail.jade:102
 msgid "Navigate to stop address"
 msgstr "Navigoi osoitteeseen"
 
 #. L10n: Label for the field to edit phone number
-#: ../views/components/step-detail.jade:102
+#: ../views/components/step-detail.jade:106
 msgid "Phone"
 msgstr "Puhelin"
 
-#: ../views/components/step-detail.jade:103
+#: ../views/components/step-detail.jade:107
 msgid "Click to modify phone number"
 msgstr "Muokkaa puhelinnumeroa"
 
 #. L10n: label for the number of nights at a lodging
-#: ../views/components/step-detail.jade:110
+#: ../views/components/step-detail.jade:114
 msgid "Nights"
 msgstr "Yöt"
 
 #. L10n: the number of nights at a lodging
-#: ../views/components/step-detail.jade:113
+#: ../views/components/step-detail.jade:117
 msgid "Click to modify number of nights"
 msgstr "Muuta yöpymisen kestoa"
 
 #. L10n: label for the time needed to visit a place - duration of the stop
-#: ../views/components/step-detail.jade:121
+#: ../views/components/step-detail.jade:125
 msgid "Duration"
 msgstr "Kesto"
 
 #. L10n: duration of the stop - the time needed to visit a place
-#: ../views/components/step-detail.jade:124
+#: ../views/components/step-detail.jade:128
 msgid "Click to modify duration"
 msgstr "Muuta kestoa"
 
-#: ../views/components/step-detail.jade:129
+#: ../views/components/step-detail.jade:133
 msgid "Stay the night here"
 msgstr "Yövy täällä"
 
-#: ../views/components/step-detail.jade:130
+#: ../views/components/step-detail.jade:134
 msgid "Visit and go to the next stop"
 msgstr "Vieraile ja jatka seuraavaan pysähdykseen"
 
-#: ../views/components/step-detail.jade:134
+#: ../views/components/step-detail.jade:138
 msgid "View booking confirmation"
 msgstr "Näytä varausvahvistus"
 
 #. L10n: Label for displaying and editing date and time of arrival at a stop
-#: ../views/components/step-detail.jade:142
-#: ../views/components/step-detail.jade:498
+#: ../views/components/step-detail.jade:146
+#: ../views/components/step-detail.jade:502
 msgid "Arrival"
 msgstr "Saapumisaika"
 
 #. L10n: arrival at a stop
-#: ../views/components/step-detail.jade:145
+#: ../views/components/step-detail.jade:149
 msgid "Click to modify arrival date"
 msgstr "Muuta saapumispäivää"
 
 #. L10n: arrival at a stop
-#: ../views/components/step-detail.jade:150
+#: ../views/components/step-detail.jade:154
 msgid "Click to modify arrival time"
 msgstr "Muuta saapumisaikaa"
 
 #. L10n: 'automatic changes' to the arrival date and time of a stop whenever Furkot recalculates trip itinerary
-#: ../views/components/step-detail.jade:156
+#: ../views/components/step-detail.jade:160
 msgid "Prevent automatic changes"
 msgstr "Itse asetettu saapumisaika"
 
 #. L10n: 'automatic changes' to the arrival date and time of a stop whenever Furkot recalculates trip itinerary
-#: ../views/components/step-detail.jade:157
-#: ../views/components/step-detail.jade:160
+#: ../views/components/step-detail.jade:161
+#: ../views/components/step-detail.jade:164
 msgid "Allow automatic changes"
 msgstr "Furkotin laskema saapumisaika"
 
 #. L10n: Label for displaying and editing date and time of departure from a stop
-#: ../views/components/step-detail.jade:168
-#: ../views/components/step-detail.jade:506
+#: ../views/components/step-detail.jade:172
+#: ../views/components/step-detail.jade:510
 msgid "Departure"
 msgstr "Lähtöaika"
 
 #. L10n: departure from a stop
-#: ../views/components/step-detail.jade:171
+#: ../views/components/step-detail.jade:175
 msgid "Click to modify departure date"
 msgstr "Muuta lähtöpäivää"
 
 #. L10n: departure from a stop
-#: ../views/components/step-detail.jade:176
+#: ../views/components/step-detail.jade:180
 msgid "Click to modify departure time"
 msgstr "Muuta lähtöaikaa"
 
 #. L10n: Label for a button that links to a webpage with more information about the place represented by a stop
-#: ../views/components/step-detail.jade:186
+#: ../views/components/step-detail.jade:190
 #: ../views/components/trip-detail.jade:94
 msgid "More Info"
 msgstr "Lisätietoja"
 
 #. L10n: Means "Go to this webpage to see more information about this stop". This hint is displayed when there is a link associated with a stop; usually when a stop is added by selecting a place from Sleep, Eat or Find drawer
-#: ../views/components/step-detail.jade:188
+#: ../views/components/step-detail.jade:192
 msgid "View webpage for this stop"
 msgstr "Näytä pysähdyksen nettisivu"
 
 #. L10n: Label for the field that displays the time of the sunrise on the day of the stop
-#: ../views/components/step-detail.jade:193
+#: ../views/components/step-detail.jade:197
 msgid "Sunrise"
 msgstr "Auringonnousu"
 
 #. L10n: Label for the field that displays the time of the sunset on the day of the stop
-#: ../views/components/step-detail.jade:197
+#: ../views/components/step-detail.jade:201
 msgid "Sunset"
 msgstr "Auringonlasku"
 
 #. L10n: Label for the field that displays the average nighttime temperature on the day of the stop
-#: ../views/components/step-detail.jade:202
+#: ../views/components/step-detail.jade:206
 msgid "Night"
 msgstr "Yölämpötila"
 
 #. L10n: Label for the field that displays the average daytime temperature on the day of the stop
-#: ../views/components/step-detail.jade:206
+#: ../views/components/step-detail.jade:210
 msgctxt "daytime temperature"
 msgid "Day"
 msgstr "Päivälämpötila"
 
 #. L10n: Label for the field that links to the weather forecast for the stop
-#: ../views/components/step-detail.jade:211
+#: ../views/components/step-detail.jade:215
 msgid "Forecast"
 msgstr "Sääennuste"
 
-#: ../views/components/step-detail.jade:212
+#: ../views/components/step-detail.jade:216
 msgid "View current weather forecast"
 msgstr "Näytä tämän hetkinen sääennuste"
 
 #. L10n: Label for the field with stop geographical coordinates (latitude and longitude)
-#: ../views/components/step-detail.jade:216
+#: ../views/components/step-detail.jade:220
 msgid "Coordinates"
 msgstr "Koordinaatit"
 
-#: ../views/components/step-detail.jade:219
+#: ../views/components/step-detail.jade:223
 msgid "Click to modify geographical coordinates"
 msgstr "Muuta koordinaatteja"
 
-#: ../views/components/step-detail.jade:221
+#: ../views/components/step-detail.jade:225
 msgid "Navigate to exact coordinates"
 msgstr "Navigoi tarkkoihin koordinaatteihin"
 
-#: ../views/components/step-detail.jade:226
+#: ../views/components/step-detail.jade:230
 #: ../views/components/trip-detail.jade:730
 msgid "Click to edit description"
 msgstr "Muokkaa kuvausta"
 
-#: ../views/components/step-detail.jade:226
+#: ../views/components/step-detail.jade:230
 msgid "Description of this stop"
 msgstr "Kuvaus pysähdyksestä"
 
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify stops. If user assigns tags to stops, they can then use filter to display only stops with those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parentheses () enhances understanding
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify trips. If user specifies tags in the Trip drawer, they can then view trips in the My Trips page grouped by those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parentheses () enhances understanding
-#: ../views/components/step-detail.jade:231
+#: ../views/components/step-detail.jade:235
 #: ../views/components/trip-detail.jade:735 ../views/components/trips.jade:40
 msgid "Click to edit tags (labels)"
 msgstr "Muokkaa tunnisteita"
 
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify stops. If user assigns tags to stops, they can then use filter to display only stops with those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parentheses () enhances understanding
 #. L10n: 'tags (labels)' as in 'keywords' - words or phrases that can be used to classify trips. If user specifies tags in the Trip drawer, they can then view trips in the My Trips page grouped by those tags. One word meaning 'tags', 'labels' or 'keywords' is sufficient unless providing the second one in parentheses () enhances understanding
-#: ../views/components/step-detail.jade:232
-#: ../views/components/step-detail.jade:237
+#: ../views/components/step-detail.jade:236
+#: ../views/components/step-detail.jade:241
 #: ../views/components/step-switches.jade:121
 #: ../views/components/trip-detail.jade:736
 #: ../views/components/trip-detail.jade:739 ../views/components/trips.jade:34
 msgid "Tags (labels)"
 msgstr "Tunnisteet"
 
-#: ../views/components/step-detail.jade:244
+#: ../views/components/step-detail.jade:248
 msgid "Fill up at this refueling station"
 msgstr "Tankkaa huoltoasemalla"
 
 #. L10n: 'Fill up' means to select a specific fuel station for an automatically scheduled refueling stop and add it to the itinerary
 #. L10n: label displayed for a field with time spend at refueling stop filling the tank up
-#: ../views/components/step-detail.jade:247
+#: ../views/components/step-detail.jade:251
 #: ../views/components/trip-config-item.jade:178
 #: ../views/components/trip-detail.jade:587
 msgid "Fill up"
 msgstr "Tankkausaika"
 
-#: ../views/components/step-detail.jade:252
+#: ../views/components/step-detail.jade:256
 msgid "Nearby Refueling Stations"
 msgstr "Lähistöllä olevat huoltoasemat"
 
-#: ../views/components/step-detail.jade:262
+#: ../views/components/step-detail.jade:266
 msgid "Depart from this airport"
 msgstr "Lähde tältä lentoasemalta"
 
 #. L10n: 'Depart' means to select a specific airport to depart from for an automatically scheduled airport stop and add it to the itinerary
-#: ../views/components/step-detail.jade:265
+#: ../views/components/step-detail.jade:269
 msgid "Depart"
 msgstr "Lähtö"
 
-#: ../views/components/step-detail.jade:270
-#: ../views/components/step-detail.jade:288
+#: ../views/components/step-detail.jade:274
+#: ../views/components/step-detail.jade:292
 msgid "Nearby Airports"
 msgstr "Lähistöllä olevat lentoasemat"
 
-#: ../views/components/step-detail.jade:280
+#: ../views/components/step-detail.jade:284
 msgid "Arrive at this airport"
 msgstr "Saavu tälle lentoasemalle"
 
 #. L10n: 'Arrive' means to select a specific airport to arrive at for an automatically scheduled airport stop and add it to the itinerary
-#: ../views/components/step-detail.jade:283
+#: ../views/components/step-detail.jade:287
 msgid "Arrive"
 msgstr "Saapuminen"
 
 #. L10n: label for time/distance covered since last stop
-#: ../views/components/step-detail.jade:299
+#: ../views/components/step-detail.jade:303
 msgid "Leg"
 msgstr "Etappi"
 
 #. L10n: label for time/distance covered since last fuel station
-#: ../views/components/step-detail.jade:308
+#: ../views/components/step-detail.jade:312
 msgid "Fuel"
 msgstr "Polttoaine"
 
 #. L10n: label for time/distance covered since last overnight stop
-#: ../views/components/step-detail.jade:312
+#: ../views/components/step-detail.jade:316
 msgctxt "since last lodging"
 msgid "Day"
 msgstr "Päivä"
 
-#: ../views/components/step-detail.jade:321
-#: ../views/components/step-detail.jade:485
+#: ../views/components/step-detail.jade:325
+#: ../views/components/step-detail.jade:489
 #: ../views/components/trip-config-item.jade:104
 #: ../views/components/trip-detail.jade:409
 msgid "km/h"
 msgstr "km/h"
 
-#: ../views/components/step-detail.jade:322
-#: ../views/components/step-detail.jade:486
+#: ../views/components/step-detail.jade:326
+#: ../views/components/step-detail.jade:490
 #: ../views/components/trip-config-item.jade:105
 #: ../views/components/trip-detail.jade:410
 msgid "mph"
 msgstr "mph"
 
 #. L10n: Hint for the button to change route travel mode
-#: ../views/components/step-detail.jade:332
+#: ../views/components/step-detail.jade:336
 msgid "Change route type"
 msgstr "Muuta reittityyppiä"
 
-#: ../views/components/step-detail.jade:337
+#: ../views/components/step-detail.jade:341
 msgid "Delete this route"
 msgstr "Poista reitti"
 
 #. L10n: when resetting routes following roads are calculated anew and off-road routes are reset to a straight line
-#: ../views/components/step-detail.jade:341
+#: ../views/components/step-detail.jade:345
 msgid "Reset this route"
 msgstr "Nollaa reitti"
 
 #. L10n: Button that resets the route: routes following roads are calculated anew while off-road routes are reset to a straight line
-#: ../views/components/step-detail.jade:344
+#: ../views/components/step-detail.jade:348
 msgid "Reset"
 msgstr "Nollaa"
 
 #. L10n: 'Skip' means to omit the route in the itinerary but keep it in the trip as possible alternative
-#: ../views/components/step-detail.jade:346
+#: ../views/components/step-detail.jade:350
 msgid "Skip this route"
 msgstr "Sivuuta reitti"
 
-#: ../views/components/step-detail.jade:350
+#: ../views/components/step-detail.jade:354
 msgid "Bring this route out as primary plan"
 msgstr "Tuo reitti ensisijaisena suunnitelmana"
 
-#: ../views/components/step-detail.jade:350
+#: ../views/components/step-detail.jade:354
 msgid "Set this route aside as backup plan"
 msgstr "Aseta reitti varasuunnitelmaksi"
 
 #. L10n: Plan B is a button that designates a route as a backup
-#: ../views/components/step-detail.jade:353
+#: ../views/components/step-detail.jade:357
 msgid "Plan B"
 msgstr "Varasuunnitelma"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:360
+#: ../views/components/step-detail.jade:364
 msgid "Black"
 msgstr "Musta"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:364
+#: ../views/components/step-detail.jade:368
 msgid "Dark Red"
 msgstr "Tummanpunainen"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:368
+#: ../views/components/step-detail.jade:372
 msgid "Dark Green"
 msgstr "Tummanvihreä"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:372
+#: ../views/components/step-detail.jade:376
 msgid "Dark Yellow"
 msgstr "Tummankeltainen"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:376
+#: ../views/components/step-detail.jade:380
 msgid "Dark Blue"
 msgstr "Tummansininen"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:380
+#: ../views/components/step-detail.jade:384
 msgid "Dark Magenta"
 msgstr "Tummanvioletti"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:384
+#: ../views/components/step-detail.jade:388
 msgid "Dark Cyan"
 msgstr "Tummanturkoosi"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:388
+#: ../views/components/step-detail.jade:392
 msgid "Light Gray"
 msgstr "Vaaleanharmaa"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:392
+#: ../views/components/step-detail.jade:396
 msgid "Dark Gray"
 msgstr "Tummanharmaa"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:396
+#: ../views/components/step-detail.jade:400
 msgid "Red"
 msgstr "Punainen"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:400
+#: ../views/components/step-detail.jade:404
 msgid "Green"
 msgstr "Vihreä"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:404
+#: ../views/components/step-detail.jade:408
 msgid "Yellow"
 msgstr "Keltainen"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:408
+#: ../views/components/step-detail.jade:412
 msgid "Blue"
 msgstr "Sininen"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:412
+#: ../views/components/step-detail.jade:416
 msgid "Magenta"
 msgstr "Violetti"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:416
+#: ../views/components/step-detail.jade:420
 msgid "Cyan"
 msgstr "Turkoosi"
 
 #. L10n: route color
-#: ../views/components/step-detail.jade:420
+#: ../views/components/step-detail.jade:424
 msgid "White"
 msgstr "Valkoinen"
 
 #. L10n: Label for a checkbox to display route in default color
-#: ../views/components/step-detail.jade:427
+#: ../views/components/step-detail.jade:431
 msgid "Default color"
 msgstr "Oletusväri"
 
 #. L10n: Label for a checkbox to display route as transparent (i.e. to avoid obscuring map details)
-#: ../views/components/step-detail.jade:433
+#: ../views/components/step-detail.jade:437
 msgid "Transparent"
 msgstr "Läpinäkyvä"
 
-#: ../views/components/step-detail.jade:440
+#: ../views/components/step-detail.jade:444
 msgid "Change route color"
 msgstr "Muuta reitin väriä"
 
-#: ../views/components/step-detail.jade:443
+#: ../views/components/step-detail.jade:447
 msgid "Navigate this route"
 msgstr "Navigoi reittiä"
 
-#: ../views/components/step-detail.jade:448
+#: ../views/components/step-detail.jade:452
 msgid "Routing"
 msgstr "Kohdistaminen"
 
-#: ../views/components/step-detail.jade:450
+#: ../views/components/step-detail.jade:454
 msgid "Follow roads"
 msgstr "Seuraa teitä"
 
 #. L10n: Alternate is a label for a switch that allows selecting between regular route calculated using standard algorithm and a slightly different alternative route. It shows up on routes that follow roads. "Alternate" route can be translated as "Detour" unless detour has a negative flavor, i.e. means that something is wrong with the normal road
-#: ../views/components/step-detail.jade:455
+#: ../views/components/step-detail.jade:459
 msgid "Alternate"
 msgstr "Vaihtoehtoinen"
 
 #. L10n: Hint to switch between regular and alternative routes. "Regular route" can be also translated as "Straight route" or "Normal route". It is a route calculated using a standard algorithm
-#: ../views/components/step-detail.jade:457
+#: ../views/components/step-detail.jade:461
 msgid "Regular route"
 msgstr "Normaali reitti"
 
 #. L10n: Hint to switch between regular and alternative routes. "Alternate route" is an alternative, slightly different route between stops. "Alternate route" can be also translated as "Detour" unless detour has a negative flavor, i.e. means that something is wrong with the normal road
-#: ../views/components/step-detail.jade:458
-#: ../views/components/step-detail.jade:461
+#: ../views/components/step-detail.jade:462
+#: ../views/components/step-detail.jade:465
 msgid "Alternative to this route"
 msgstr "Vaihtoehto reitille"
 
 #. L10n: label for the time needed to cover the route between two stops
-#: ../views/components/step-detail.jade:466
+#: ../views/components/step-detail.jade:470
 msgctxt "route between stops"
 msgid "Duration"
 msgstr "Kesto"
 
 #. L10n: duration is the time needed to cover the route between two stops
-#: ../views/components/step-detail.jade:469
+#: ../views/components/step-detail.jade:473
 msgctxt "route between stops"
 msgid "Click to modify duration"
 msgstr "Muuta kestoa"
 
 #. L10n: Label for the field to display/edit user average speed for the selected route or for the entire trip
-#: ../views/components/step-detail.jade:477
+#: ../views/components/step-detail.jade:481
 #: ../views/components/trip-config-item.jade:100
 #: ../views/components/trip-detail.jade:401
 msgid "My Speed"
 msgstr "Keskinopeuteni"
 
-#: ../views/components/step-detail.jade:479
+#: ../views/components/step-detail.jade:483
 #: ../views/components/trip-detail.jade:403
 msgid "Click to adjust your average speed for more accurate travel times"
 msgstr "Säädä keskinopeuttasi saadaksesi tarkemmat matka-ajat"
 
 #. L10n: 'route theme (label)' is a phrase that labels or describes a route
-#: ../views/components/step-detail.jade:489
+#: ../views/components/step-detail.jade:493
 msgid "Click to edit this route theme"
 msgstr "Muokkaa reitin teemaa"
 
 #. L10n: 'route theme (label)' is a phrase that labels or describes a route
-#: ../views/components/step-detail.jade:490
 #: ../views/components/step-detail.jade:494
+#: ../views/components/step-detail.jade:498
 msgid "Route theme (label)"
 msgstr "Reitin teema (tunniste)"
 
-#: ../views/components/step-detail.jade:526
+#: ../views/components/step-detail.jade:530
 msgid "Ascent"
 msgstr "Nousu"
 
-#: ../views/components/step-detail.jade:535
+#: ../views/components/step-detail.jade:539
 msgid "Descent"
 msgstr "Lasku"
 
-#: ../views/components/step-detail.jade:550
+#: ../views/components/step-detail.jade:554
 #: ../views/components/trip-detail.jade:38
 msgid "Download map for offline use"
 msgstr "Lataa kartta offline-käyttöä varten"
 
-#: ../views/components/step-detail.jade:552
+#: ../views/components/step-detail.jade:556
 #: ../views/components/trip-detail.jade:40
 msgid "Sync Map"
 msgstr "Synkronoi kartta"
 
-#: ../views/components/step-detail.jade:553
+#: ../views/components/step-detail.jade:557
 #: ../views/components/trip-detail.jade:41
 msgid "Pause downloading map for offline use"
 msgstr "Keskeytä kartan lataaminen offline-käyttöä varten"
 
-#: ../views/components/step-detail.jade:555
+#: ../views/components/step-detail.jade:559
 #: ../views/components/trip-detail.jade:43
 msgid "Stop Sync"
 msgstr "Pysäytä synkronointi"
 
 #. L10n: hint for Export button that exports a single day of the trip
-#: ../views/components/step-detail.jade:557
+#: ../views/components/step-detail.jade:561
 msgid "Export this day in a variety of formats"
 msgstr "Vie päivä eri muodoissa"
 
 #. L10n: can be translated "Move this day after its successor"
-#: ../views/components/step-detail.jade:561
+#: ../views/components/step-detail.jade:565
 msgid "Move this day down"
 msgstr "Siirrä päivä alemmaksi"
 
 #. L10n: can be translated "Move this day before its predecessor"
-#: ../views/components/step-detail.jade:565
+#: ../views/components/step-detail.jade:569
 msgid "Move this day up"
 msgstr "Siirrä päivä ylemmäksi"
 
-#: ../views/components/step-detail.jade:579
+#: ../views/components/step-detail.jade:583
 msgid "Change day color"
 msgstr "Vaihda päivän väri"
 
 #. L10n: 'day theme (label)' is a phrase that labels or shortly describes a day
-#: ../views/components/step-detail.jade:584
+#: ../views/components/step-detail.jade:588
 msgid "Click to edit this day theme"
 msgstr "Muokkaa päiväteemaa"
 
 #. L10n: 'day theme (label)' is a phrase that labels or shortly describes a day
-#: ../views/components/step-detail.jade:585
 #: ../views/components/step-detail.jade:589
+#: ../views/components/step-detail.jade:593
 msgid "Day theme (label)"
 msgstr "Päiväteema (tunniste)"
 
-#: ../views/components/step-detail.jade:591
+#: ../views/components/step-detail.jade:595
 msgid "Click to edit this day description"
 msgstr "Muokkaa päivän kuvausta"
 
-#: ../views/components/step-detail.jade:592
+#: ../views/components/step-detail.jade:596
 msgid "Description of this day"
 msgstr "Päivän kuvaus"
 
-#: ../views/components/step-detail.jade:594
+#: ../views/components/step-detail.jade:598
 msgid "Fold this route details"
 msgstr "Sulje reitin tiedot"
 
 #. L10n: Hint to add the place as the last stop of the trip (one but last for loop trips)
-#: ../views/components/step-detail.jade:607
+#: ../views/components/step-detail.jade:611
 msgid "Visit this place at the end"
 msgstr "Käy tässä paikassa lopuksi"
 
 #. L10n: add stop at the end of the trip (as opposed to 'Save' that positions the stop to minimize driving)
-#: ../views/components/step-detail.jade:610
+#: ../views/components/step-detail.jade:614
 msgid "Append"
 msgstr "Liitä"
 
 #. L10n: Warning displayed when part of the route involves ferry and Furkot adds an automatic stop at the location of a ferry terminal
-#: ../views/components/step-detail.jade:616
-#: ../views/components/step-detail.jade:651
+#: ../views/components/step-detail.jade:620
+#: ../views/components/step-detail.jade:657
 msgid "This is an automatically scheduled ferry."
 msgstr "Tämä on automaattisesti lisätty lautta."
 
 #. L10n: Note displayed for automatically scheduled stops directing user to see and modify settings to change the stop placement
-#: ../views/components/step-detail.jade:618
-#: ../views/components/step-detail.jade:665
+#: ../views/components/step-detail.jade:622
+#: ../views/components/step-detail.jade:671
 msgid "Check its settings above to see why it has been added here."
 msgstr ""
 "Tarkista sen asetuksista ylhäältä, nähdäksesi miksi se on lisätty tänne."
 
-#: ../views/components/step-detail.jade:620
+#: ../views/components/step-detail.jade:624
 msgid "Stop cannot be located."
 msgstr "Pysähdystä ei löydy."
 
 #. L10n: Can be also translated as "This stop is on Saturday."
-#: ../views/components/step-detail.jade:621
-#: ../views/components/step-detail.jade:655
+#: ../views/components/step-detail.jade:625
+#: ../views/components/step-detail.jade:661
 msgid "This is Saturday."
 msgstr "Tämä on lauantai."
 
-#: ../views/components/step-detail.jade:622
+#: ../views/components/step-detail.jade:626
 msgid "Lodging on weekend not reserved yet."
 msgstr "Majoitusta ei vielä ole varattu viikonlopuksi."
 
 #. L10n: Warning displayed when there is more than half gas tank when arriving at a planned fuel station
-#: ../views/components/step-detail.jade:623
-#: ../views/components/step-detail.jade:659
+#: ../views/components/step-detail.jade:627
+#: ../views/components/step-detail.jade:665
 #: ../views/components/trip-detail.jade:597
 msgid "More than half tank left."
 msgstr "Polttoainetta yli puolet jäljellä."
 
-#: ../views/components/step-detail.jade:624
-#: ../views/components/step-detail.jade:625
+#: ../views/components/step-detail.jade:628
+#: ../views/components/step-detail.jade:629
 msgid "No station serves your preferred fuel nearby."
 msgstr "Yksikään asema lähistöllä ei tarjoa haluamaasi polttoainetta."
 
-#: ../views/components/step-detail.jade:626
+#: ../views/components/step-detail.jade:630
 msgid "The trip begins earlier on {} at {}."
 msgstr "Matka alkaa aikaisemmin {} klo {}."
 
-#: ../views/components/step-detail.jade:627
+#: ../views/components/step-detail.jade:631
 msgid "The trip begins later on {} at {}."
 msgstr "Matka alkaa myöhemmin {} klo {}."
 
-#: ../views/components/step-detail.jade:628
+#: ../views/components/step-detail.jade:632
 msgid "The trip ends earlier on {} at {}."
 msgstr "Muuta Matka-valikossa annettua lopetusaikaa {} klo {} myöhäisemmäksi."
 
-#: ../views/components/step-detail.jade:629
+#: ../views/components/step-detail.jade:633
 msgid "The trip ends later on {} at {}."
 msgstr "Matka päättyy myöhemmin {} klo {}."
 
-#: ../views/components/step-detail.jade:630
+#: ../views/components/step-detail.jade:634
 msgid "Visit duration exceeds time between this day start and end."
 msgstr "Vierailun kesto ylittää matkustuspäivälle suunnittelemasi aikarajat."
 
-#: ../views/components/step-detail.jade:631
+#: ../views/components/step-detail.jade:635
 msgid "Actual arrival on {} at {} is later than planned."
 msgstr ""
 "Todellinen saapumisaika {} klo {} on suunniteltua saapumisaikaa myöhemmin."
 
-#: ../views/components/step-detail.jade:632
+#: ../views/components/step-detail.jade:636
+msgid "Click the REORDER button above to visit this stop earlier."
+msgstr ""
+
+#: ../views/components/step-detail.jade:638
 msgid "Actual arrival on {} at {} is earlier than planned."
 msgstr ""
 "Todellinen saapumisaika {} klo {} on suunniteltua saapumisaikaa aikaisemmin."
 
-#: ../views/components/step-detail.jade:633
+#: ../views/components/step-detail.jade:639
 msgid "Actual departure on {} at {} is later than planned."
 msgstr "Todellinen lähtöaika {} klo {} on suunniteltua lähtöaikaa myöhemmin."
 
-#: ../views/components/step-detail.jade:634
+#: ../views/components/step-detail.jade:640
 msgid "Actual departure on {} at {} is earlier than planned."
 msgstr "Todellinen lähtöaika {} klo {} on suunniteltua lähtöaikaa aikaisemmin."
 
-#: ../views/components/step-detail.jade:635
+#: ../views/components/step-detail.jade:641
 msgid "No arrival date."
 msgstr "Ei saapumispäivää."
 
-#: ../views/components/step-detail.jade:636
+#: ../views/components/step-detail.jade:642
 msgid ""
 "No route available (stops too far from roads or a road is seasonally closed)."
 msgstr ""
@@ -5816,40 +5801,40 @@ msgstr ""
 "suljettu kausiluonteisesti)."
 
 #. L10n: Warning displayed when trip mode is set to RV and Furkot cannot calculate route given the RV dimensions configured in the Trip drawer
-#: ../views/components/step-detail.jade:637
-#: ../views/components/step-detail.jade:661
+#: ../views/components/step-detail.jade:643
+#: ../views/components/step-detail.jade:667
 msgid "No route available for RV. Adjust RV dimensions in the Trip drawer."
 msgstr ""
 
 #. L10n: Warning displayed when stops are too far apart to calculate route and user is advised to add more stops in-between
-#: ../views/components/step-detail.jade:638
-#: ../views/components/step-detail.jade:663
+#: ../views/components/step-detail.jade:644
+#: ../views/components/step-detail.jade:669
 msgid "Stops too far apart. Add interim stops to calculate route."
 msgstr ""
 "Pysähdykset ovat liian kaukana toisistaan. Lisää välipysähdyksiä reitin "
 "laskemiseksi."
 
 #. L10n: Warning displayed when Furkot cannot calculate route duration and expect user to set it manually
-#: ../views/components/step-detail.jade:639
-#: ../views/components/step-detail.jade:657
+#: ../views/components/step-detail.jade:645
+#: ../views/components/step-detail.jade:663
 msgid "Route duration needs to be set manually."
 msgstr "Reitin kesto on annettava manuaalisesti."
 
-#: ../views/components/step-detail.jade:640
+#: ../views/components/step-detail.jade:646
 msgid "The road may be seasonally closed. Check its status before departure."
 msgstr ""
 "Tie saattaa olla kausiluontoisesti suljettu. Tarkista sen tila ennen kuin "
 "lähdet matkaan."
 
-#: ../views/components/step-detail.jade:641
+#: ../views/components/step-detail.jade:647
 msgid "No departure date."
 msgstr "Ei lähtöpäivää."
 
-#: ../views/components/step-detail.jade:642
+#: ../views/components/step-detail.jade:648
 msgid "Very little time to rest at the lodging."
 msgstr "Lepäämiseen majoituksessa on hyvin vähän aikaa."
 
-#: ../views/components/step-detail.jade:643
+#: ../views/components/step-detail.jade:649
 msgid ""
 "Split this lodging stop to avoid booking for {} nights in order to stay {} "
 "nights."
@@ -5857,14 +5842,14 @@ msgstr ""
 "Jaa tämän majoituksen pysähdys välttyäksesi {} yön varaukselta voidaksesi "
 "yöpyä {} yötä."
 
-#: ../views/components/step-detail.jade:644
+#: ../views/components/step-detail.jade:650
 msgid ""
 "Stop position is uncertain. Click the VISIT button above for the best guess."
 msgstr ""
 "Pysähdyspaikkaa täytyy muuttaa. Klikkaa yllä VIERAILE-painiketta saadaksesi "
 "parhaan tuloksen paikalle."
 
-#: ../views/components/step-detail.jade:645
+#: ../views/components/step-detail.jade:651
 msgid ""
 "Stop has been moved from the linked place. Verify that its location is "
 "correct."
@@ -5872,15 +5857,15 @@ msgstr ""
 "Pysähdys on siirretty linkitetystä paikasta. Varmista että sen sijainti on "
 "oikea."
 
-#: ../views/components/step-detail.jade:646
+#: ../views/components/step-detail.jade:652
 msgid "Some roads have tolls."
 msgstr "Osa teistä maksullisia."
 
-#: ../views/components/step-detail.jade:647
+#: ../views/components/step-detail.jade:653
 msgid "Not all roads are paved."
 msgstr "Osa teistä päällystämättömiä."
 
-#: ../views/components/step-detail.jade:669
+#: ../views/components/step-detail.jade:675
 #: ../views/components/trip-config-item.jade:234
 msgid "Book a Flight"
 msgstr "Varaa lento"
@@ -8593,6 +8578,9 @@ msgstr ""
 #~ msgid "Add this restaurant as a skipped stop"
 #~ msgstr "Tällä ravintolalla että kyseessä on ohitettava seis"
 
+#~ msgid "Add this sight as a skipped stop"
+#~ msgstr "Lisää nähtävyys sivuutetuksi pysähdykseksi"
+
 #~ msgid "Add this surf spot as a skipped stop"
 #~ msgstr "Lisää surffauskohde sivuutetuksi pysähdykseksi"
 
@@ -8662,6 +8650,9 @@ msgstr ""
 #~ msgid "Fold this restaurant details"
 #~ msgstr "Kertainen tämä ravintola yksityiskohdat"
 
+#~ msgid "Fold this sight details"
+#~ msgstr "Sulje nähtävyyden tiedot"
+
 #~ msgid "Fold this surf spot details"
 #~ msgstr "Sulje surffauskohteen tiedot"
 
@@ -8687,6 +8678,9 @@ msgstr ""
 #, fuzzy
 #~ msgid "Hide farmers markets"
 #~ msgstr "Piilota viljelijöiden markkinat"
+
+#~ msgid "Hide sights"
+#~ msgstr "Piilota nähtävyydet"
 
 #, fuzzy
 #~ msgid "Hide wineries"
@@ -8812,6 +8806,9 @@ msgstr ""
 #~ msgid "See description of this winery"
 #~ msgstr "Katso kuvaus tämän paikan"
 
+#~ msgid "See review of this sight"
+#~ msgstr "Katso nähtävyyden arvostelu"
+
 #, fuzzy
 #~ msgid "See this farmers market own website"
 #~ msgstr "Katso tämä viljelijöiden markkinat omilta sivuilta"
@@ -8824,6 +8821,9 @@ msgstr ""
 #~ msgid "See this restaurant page"
 #~ msgstr "Katso tämä ravintola sivu Yelp"
 
+#~ msgid "See this sight own website"
+#~ msgstr "Katso nähtävyyden nettisivuja"
+
 #, fuzzy
 #~ msgid "See this winery own website"
 #~ msgstr "Katso tästä Rosendahl omilta sivuilta"
@@ -8831,6 +8831,9 @@ msgstr ""
 #, fuzzy
 #~ msgid "Show Phone"
 #~ msgstr "Näytä minulle"
+
+#~ msgid "Sights and attractions"
+#~ msgstr "Nähtävyydet ja kohteet"
 
 #~ msgid "Skiing"
 #~ msgstr "Laskettelu"
@@ -8854,6 +8857,9 @@ msgstr ""
 #, fuzzy
 #~ msgid "Stop at this farmers market"
 #~ msgstr "Lopettaa tähän viljelijöiden markkinat"
+
+#~ msgid "Stop at this sight"
+#~ msgstr "Pysähdy nähtävyydellä"
 
 #, fuzzy
 #~ msgid "Stop at this winery"
