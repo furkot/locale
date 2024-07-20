@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2024-06-15 20:16-0600\n"
+"POT-Creation-Date: 2024-07-20 16:18-0700\n"
 "PO-Revision-Date: 2023-03-02 16:15+0000\n"
 "Last-Translator: Max Povalinsky <m.povalinsky@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.furkot.com/projects/furkot/trips/"
@@ -20,7 +20,7 @@ msgid "My Trips"
 msgstr "Мої Мандрівки"
 
 #. L10n: square brackets [] denote a link
-#: ../views/board/board.jade:14 ../views/tripshot/mixin.jade:203
+#: ../views/board/board.jade:14 ../views/tripshot/mixin.jade:206
 msgid "Plan with [Furkot]"
 msgstr "Плануйте з [Furkot]"
 
@@ -86,8 +86,8 @@ msgstr "Запропонувати"
 #: ../views/components/trip-detail.jade:878
 #: ../views/components/trip-detail.jade:888
 #: ../views/components/trip-toolbar.jade:23
-#: ../views/components/trip-toolbar.jade:60 ../views/tripshot/mixin.jade:121
-#: ../views/tripshot/mixin.jade:161
+#: ../views/components/trip-toolbar.jade:60 ../views/tripshot/mixin.jade:124
+#: ../views/tripshot/mixin.jade:165
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -292,8 +292,8 @@ msgstr "Відʼєднати обліковий запис"
 #: ../views/components/trip-detail.jade:895
 #: ../views/components/trip-detail.jade:903
 #: ../views/components/trip-detail.jade:907
-#: ../views/components/trip-toolbar.jade:23 ../views/components/warning.jade:9
-#: ../views/tripshot/mixin.jade:124 ../views/tripshot/mixin.jade:164
+#: ../views/components/trip-toolbar.jade:23 ../views/tripshot/mixin.jade:121
+#: ../views/tripshot/mixin.jade:162
 msgid "OK"
 msgstr "Гаразд"
 
@@ -335,8 +335,8 @@ msgstr "Гаразд"
 #: ../views/components/trip-detail.jade:917
 #: ../views/components/trip-detail.jade:923
 #: ../views/components/trip-toolbar.jade:50 ../views/pass/index.jade:101
-#: ../views/tripshot/mixin.jade:127 ../views/tripshot/mixin.jade:167
-#: ../views/tripshot/mixin.jade:176
+#: ../views/tripshot/mixin.jade:127 ../views/tripshot/mixin.jade:168
+#: ../views/tripshot/mixin.jade:177
 msgid "Learn more"
 msgstr "Дізнатись більше"
 
@@ -607,7 +607,7 @@ msgstr "Складіть цей деталі кемпінгу"
 #. L10n: generic name for a campground, displayed when we don't know the actual name
 #. L10n: stop type (icon)
 #: ../views/components/bookable.jade:60 ../views/components/names.jade:2
-#: ../views/components/names.jade:16 ../views/components/names.jade:19
+#: ../views/components/names.jade:16 ../views/components/names.jade:21
 #: ../views/components/places.jade:11 ../views/components/step-icons.jade:708
 #, fuzzy
 msgid "Campground"
@@ -947,13 +947,13 @@ msgid "Curvy Roads"
 msgstr "Подорож по дорозі"
 
 #: ../views/components/dialog.jade:5 ../views/components/step-detail.jade:604
-#: ../views/tripshot/mixin.jade:119
+#: ../views/tripshot/mixin.jade:122
 #, fuzzy
 msgid "Cancel changes"
 msgstr "Скасувати зміни"
 
 #: ../views/components/dialog.jade:8 ../views/components/step-detail.jade:607
-#: ../views/tripshot/mixin.jade:122
+#: ../views/tripshot/mixin.jade:119
 #, fuzzy
 msgid "Accept changes"
 msgstr "Прийняти зміни"
@@ -1951,7 +1951,7 @@ msgstr "Середня швидкість"
 #: ../views/components/trip-detail.jade:178
 #: ../views/components/trip-detail.jade:196
 #: ../views/components/trip-detail.jade:429
-#: ../views/components/trip-detail.jade:579 ../views/tripshot/mixin.jade:239
+#: ../views/components/trip-detail.jade:579 ../views/tripshot/mixin.jade:242
 #: ../views/tripshot/tripshot.jade:21 ../views/tripshot/tripshot.jade:44
 #, fuzzy
 msgid "km"
@@ -2022,96 +2022,96 @@ msgid "Import"
 msgstr "Імпортувати"
 
 #. L10n: 'zoom in' meaning 'change map scale to show less area but more details'
-#: ../views/components/keyboard-shortcuts.jade:14
+#: ../views/components/keyboard-shortcuts.jade:13
 #, fuzzy
 msgid "zoom in"
 msgstr "приближувати"
 
 #. L10n: 'zoom out' meaning 'change map scale to show more area but less details'
-#: ../views/components/keyboard-shortcuts.jade:16
+#: ../views/components/keyboard-shortcuts.jade:15
 #, fuzzy
 msgid "zoom out"
 msgstr "зменшення"
 
 #. L10n: 'show full trip' as in 'show all stops of the trip on the map'
-#: ../views/components/keyboard-shortcuts.jade:18
+#: ../views/components/keyboard-shortcuts.jade:17
 #, fuzzy
 msgid "show full trip"
 msgstr "показати повну поїздку"
 
 #. L10n: 'center active stop' as in 'center the map on the active stop'. 'Active' stop is the one selected in the Plan drawer
-#: ../views/components/keyboard-shortcuts.jade:20
+#: ../views/components/keyboard-shortcuts.jade:19
 #, fuzzy
 msgid "center active stop"
 msgstr "центр активної зупинки"
 
 #. L10n: 'next stop' meaning the stop following the one currently selected as displayed in the Plan drawer
-#: ../views/components/keyboard-shortcuts.jade:22
+#: ../views/components/keyboard-shortcuts.jade:21
 #, fuzzy
 msgid "select next stop"
 msgstr "виберіть наступну зупинку"
 
 #. L10n: 'previous stop' meaning the stop preceding the one currently selected as displayed in the Plan drawer
-#: ../views/components/keyboard-shortcuts.jade:24
+#: ../views/components/keyboard-shortcuts.jade:23
 #, fuzzy
 msgid "select previous stop"
 msgstr "виберіть попередню зупинку"
 
 #. L10n: 'first stop' meaning the first stop of the trip
-#: ../views/components/keyboard-shortcuts.jade:26
+#: ../views/components/keyboard-shortcuts.jade:25
 #, fuzzy
 msgid "select first stop"
 msgstr "виберіть першу зупинку"
 
 #. L10n: 'last stop' meaning the last stop of the trip
-#: ../views/components/keyboard-shortcuts.jade:28
+#: ../views/components/keyboard-shortcuts.jade:27
 #, fuzzy
 msgid "select last stop"
 msgstr "виберіть останню зупинку"
 
-#: ../views/components/keyboard-shortcuts.jade:30
+#: ../views/components/keyboard-shortcuts.jade:29
 #, fuzzy
 msgid "add new stop"
 msgstr "додайте нову зупинку"
 
 #. L10n: 'undo' means undoing (reverting) the last operation
-#: ../views/components/keyboard-shortcuts.jade:32
+#: ../views/components/keyboard-shortcuts.jade:31
 #, fuzzy
 msgid "undo"
 msgstr "скасувати"
 
 #. L10n: 'redo' means redoing (repeating) the lastly undone operation
-#: ../views/components/keyboard-shortcuts.jade:34
+#: ../views/components/keyboard-shortcuts.jade:33
 #, fuzzy
 msgid "redo"
 msgstr "повторити"
 
 #. L10n: 'go to' can be also translated as 'open' or 'draw out'
-#: ../views/components/keyboard-shortcuts.jade:36
+#: ../views/components/keyboard-shortcuts.jade:35
 #, fuzzy
 msgid "go to Trip drawer"
 msgstr "перейдіть до ящика подорожі"
 
 #. L10n: 'go to' can be also translated as 'open' or 'draw out'
-#: ../views/components/keyboard-shortcuts.jade:38
+#: ../views/components/keyboard-shortcuts.jade:37
 #, fuzzy
 msgid "go to Plan drawer"
 msgstr "перейдіть у план-ящик"
 
 #. L10n: 'go to' can be also translated as 'open' or 'draw out'
-#: ../views/components/keyboard-shortcuts.jade:40
+#: ../views/components/keyboard-shortcuts.jade:39
 #, fuzzy
 msgid "go to Sleep drawer"
 msgstr "перейдіть до режиму сну"
 
 #. L10n: 'go to' can be also translated as 'open' or 'draw out'
-#: ../views/components/keyboard-shortcuts.jade:42
+#: ../views/components/keyboard-shortcuts.jade:41
 #, fuzzy
 msgid "go to Eat drawer"
 msgstr "перейдіть до ящика"
 
 #. L10n: 'go to' can be also translated as 'open' or 'draw out'
-#: ../views/components/keyboard-shortcuts.jade:44
+#: ../views/components/keyboard-shortcuts.jade:43
 #, fuzzy
 msgid "go to Find drawer"
 msgstr "перейдіть до Find drawer"
@@ -2488,7 +2488,7 @@ msgstr "Натисніть, щоб додати нову зупинку"
 #. L10n: Displayed when there is a restaurant, bar or food stand at the campground or other facility. Less than 25 characters if possible
 #: ../views/components/names.jade:3 ../views/components/names.jade:4
 #: ../views/components/names.jade:8 ../views/components/names.jade:11
-#: ../views/components/names.jade:15 ../views/components/names.jade:23
+#: ../views/components/names.jade:15 ../views/components/names.jade:25
 #: ../views/components/place-detail.jade:123
 #: ../views/components/place-detail.jade:278
 msgid "Food service"
@@ -2498,26 +2498,26 @@ msgstr ""
 #. L10n: generic name for a gas (fuel) station, displayed when we don't know the brand name
 #: ../views/components/names.jade:5 ../views/components/names.jade:6
 #: ../views/components/names.jade:9 ../views/components/names.jade:10
-#: ../views/components/names.jade:14 ../views/components/names.jade:25
+#: ../views/components/names.jade:14 ../views/components/names.jade:27
 #: ../views/components/places.jade:174
 #, fuzzy
 msgid "Gas Station"
 msgstr "Заправка"
 
 #. L10n: generic name for a ferry terminal, displayed when we don't know the actual name
-#: ../views/components/names.jade:7 ../views/components/names.jade:21
+#: ../views/components/names.jade:7 ../views/components/names.jade:23
 msgid "Ferry terminal"
 msgstr ""
 
 #. L10n: generic name for a hiking/climbing trail, displayed when we don't know the actual name
-#: ../views/components/names.jade:12 ../views/components/names.jade:29
+#: ../views/components/names.jade:12 ../views/components/names.jade:31
 #, fuzzy
 msgid "Trail"
 msgstr "Траси"
 
 #. L10n: generic name for a lodging establishment, displayed when we don't know the actual name
 #. L10n: Label for selecting lodging options (hotels, motels, campgrounds, private apartments, etc)
-#: ../views/components/names.jade:13 ../views/components/names.jade:27
+#: ../views/components/names.jade:13 ../views/components/names.jade:29
 #: ../views/components/new-trip-wizard.jade:124
 #: ../views/components/step-lodging.jade:28
 #: ../views/components/trip-config-item.jade:248
@@ -2525,6 +2525,11 @@ msgstr "Траси"
 #, fuzzy
 msgid "Lodging"
 msgstr "Житло"
+
+#. L10n: generic name for a viewpoint, displayed when we don't know the actual name
+#: ../views/components/names.jade:17 ../views/components/names.jade:33
+msgid "Viewpoint"
+msgstr ""
 
 #: ../views/components/navigation.jade:2
 #, fuzzy
@@ -8107,7 +8112,7 @@ msgstr "Щоденний пробіг"
 #: ../views/components/trip-config-item.jade:72
 #: ../views/components/trip-config-item.jade:176
 #: ../views/components/trip-detail.jade:179
-#: ../views/components/trip-detail.jade:580 ../views/tripshot/mixin.jade:239
+#: ../views/components/trip-detail.jade:580 ../views/tripshot/mixin.jade:242
 #: ../views/tripshot/tripshot.jade:21 ../views/tripshot/tripshot.jade:44
 #, fuzzy
 msgid "miles"
@@ -9182,15 +9187,6 @@ msgstr "Відображення готових поїздок"
 msgid "Inspire me"
 msgstr "Надихають мене"
 
-#: ../views/components/warning.jade:5
-#, fuzzy
-msgid ""
-"You cannot create your own version of this trip when browsing in private "
-"mode."
-msgstr ""
-"Не можна створювати власну версію цієї поїздки під час перегляду в "
-"приватному режимі."
-
 #. L10n: followed by the buttons of the social media services that Furkot supports for signing-in
 #: ../views/connect.jade:7 ../views/connect.jade:17
 #, fuzzy
@@ -9448,82 +9444,82 @@ msgstr ""
 msgid "Book cover"
 msgstr "Обкладинка книжки"
 
-#: ../views/tripshot/mixin.jade:114 ../views/tripshot/mixin.jade:183
+#: ../views/tripshot/mixin.jade:114 ../views/tripshot/mixin.jade:186
 #, fuzzy
 msgid "Select the best travel guide"
 msgstr "Виберіть найкращий путівник"
 
 #. L10n: Label for the field to edit a title of published trip collection (album)
-#: ../views/tripshot/mixin.jade:137
+#: ../views/tripshot/mixin.jade:138
 #, fuzzy
 msgid "Title"
 msgstr "Назва"
 
 #. L10n: Label for the field to edit a description of published trip collection (album)
-#: ../views/tripshot/mixin.jade:141
+#: ../views/tripshot/mixin.jade:142
 #, fuzzy
 msgid "Description"
 msgstr "Опис"
 
-#: ../views/tripshot/mixin.jade:144
+#: ../views/tripshot/mixin.jade:145
 #, fuzzy
 msgid "Link to the trip photo"
 msgstr "Посилання на фото подорожі"
 
-#: ../views/tripshot/mixin.jade:147
+#: ../views/tripshot/mixin.jade:148
 #, fuzzy
 msgid "Link to a webpage with more info"
 msgstr "Посилання на веб-сторінку з додатковою інформацією"
 
-#: ../views/tripshot/mixin.jade:147
+#: ../views/tripshot/mixin.jade:148
 #, fuzzy
 msgid "Link to more info about the trip"
 msgstr "Посилання на додаткову інформацію про поїздку"
 
 #. L10n: Question displayed when the owner tries to delete the static snapshot of the trip (tripshot) after publishing
-#: ../views/tripshot/mixin.jade:157
+#: ../views/tripshot/mixin.jade:158
 #, fuzzy
 msgid "Are you sure you want to delete this trip snapshot?"
 msgstr "Дійсно видалити цю поїздку?"
 
-#: ../views/tripshot/mixin.jade:172
+#: ../views/tripshot/mixin.jade:173
 #, fuzzy
 msgid "Copy and paste to embed in your website"
 msgstr "Скопіюйте та вставте, щоб вставити на свій веб-сайт"
 
-#: ../views/tripshot/mixin.jade:188
+#: ../views/tripshot/mixin.jade:191
 #, fuzzy
 msgid "Search travel guides by title, author, place(s), keyword(s)"
 msgstr "Пошук путівників за назвою, автором, місцем, ключовим словом"
 
 #. L10n: meaning 'search for travel guides'
-#: ../views/tripshot/mixin.jade:190
+#: ../views/tripshot/mixin.jade:193
 #, fuzzy
 msgid "Run the search"
 msgstr "Запустіть пошук"
 
 #. L10n: Hint displayed on the button that allows editing some fields of the static snapshot of the trip (tripshot) after publishing. Available to the owner of the trip only on the page with the tripshot.
-#: ../views/tripshot/mixin.jade:210
+#: ../views/tripshot/mixin.jade:213
 #, fuzzy
 msgid "Edit trip snapshot"
 msgstr "Змінити знімок подорожі"
 
 #. L10n: Hint displayed on the button that allows deleting the static snapshot of the trip (tripshot) after publishing. Available to the owner of the trip only on the page with the tripshot.
-#: ../views/tripshot/mixin.jade:216
+#: ../views/tripshot/mixin.jade:219
 msgid "Delete trip snapshot"
 msgstr ""
 
-#: ../views/tripshot/mixin.jade:222
+#: ../views/tripshot/mixin.jade:225
 #, fuzzy
 msgid "Embed in website"
 msgstr "Вставити в веб-сайт"
 
-#: ../views/tripshot/mixin.jade:264
+#: ../views/tripshot/mixin.jade:267
 #, fuzzy
 msgid "Insert your own trip photo here"
 msgstr "Вставте власну фотографію подорожі тут"
 
-#: ../views/tripshot/mixin.jade:266
+#: ../views/tripshot/mixin.jade:269
 #, fuzzy
 msgid "Change a photo"
 msgstr "Змініть фотографію"
@@ -10271,6 +10267,14 @@ msgstr ""
 #~ msgid "You can always move trips between accounts later on."
 #~ msgstr ""
 #~ "Ви можете завжди переміщати поїздки між обліковими записами пізніше."
+
+#, fuzzy
+#~ msgid ""
+#~ "You cannot create your own version of this trip when browsing in private "
+#~ "mode."
+#~ msgstr ""
+#~ "Не можна створювати власну версію цієї поїздки під час перегляду в "
+#~ "приватному режимі."
 
 #, fuzzy
 #~ msgid ""
