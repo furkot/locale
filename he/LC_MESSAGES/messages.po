@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2024-07-20 16:18-0700\n"
-"PO-Revision-Date: 2025-01-20 17:36+0000\n"
+"PO-Revision-Date: 2025-01-21 23:07+0000\n"
 "Last-Translator: Orit Meir <orit1207@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.furkot.com/projects/furkot/trips/he/"
 ">\n"
@@ -130,7 +130,7 @@ msgid ""
 "This is the map of your trip that others will see. They will be able to "
 "suggest one or more places for you to visit on your trip."
 msgstr ""
-"זוהי מפת נסיעתך שאחרים יראו. הם יוכלו להציע עבורכם מקום אחד או יותר לבקר "
+"זוהי מפת נסיעתך שאחרים יראו. הם יוכלו להציע עבורך מקום אחד או יותר לבקר "
 "בטיול שלכם."
 
 #: ../views/board/board.jade:49
@@ -149,12 +149,12 @@ msgstr "חזור"
 #. L10n: title of the trip board page, followed by trip name
 #: ../views/board/layout.jade:19
 msgid "Help me plan my trip:"
-msgstr ""
+msgstr "עזור לי לתכנון את הטיול שלי:"
 
 #. L10n: description of the board page, used when shared on Facebook, Google+ etc.
 #: ../views/board/layout.jade:21
 msgid "Maybe you could suggest some places along the way that I should visit."
-msgstr "אולי תוכל להציע מספר מקומות לאורך המסלול שמומלץ שאבקר בהם"
+msgstr "אולי תוכל להציע מספר מקומות לאורך המסלול שמומלץ שאבקר בהם."
 
 #: ../views/components/accounts.jade:2
 #, fuzzy
@@ -163,14 +163,13 @@ msgstr "הגדרות חשבון"
 
 #. L10n: Nickname is a private identifier used to sign in. Can be also translated as 'Alias' or 'Pseudonym'. We try to make it more comprehensive and less formal than username. Translate as 'Username' only if no better word is available
 #: ../views/components/accounts.jade:7
-#, fuzzy
 msgid "Nickname"
 msgstr "כינוי"
 
 #. L10n: Nickname is a private identifier used to sign in. Can be also translated as 'Alias' or 'Pseudonym'. We try to make it more comprehensive and less formal than username. Translate as 'Username' only if no better word is available
 #: ../views/components/accounts.jade:10
 msgid "Nickname is your private identifier used to sign in"
-msgstr "הכינוי הוא המזהה אישי על מנת להיכנס"
+msgstr "הכינוי הוא המזהה אישי בו משתמשים על מנת להיכנס"
 
 #. L10n: Email in a sense of the "email address"
 #: ../views/components/accounts.jade:13 ../views/pass/index.jade:50
@@ -303,7 +302,6 @@ msgstr "חשבון לא מקושר"
 #: ../views/components/trip-detail.jade:907
 #: ../views/components/trip-toolbar.jade:23 ../views/tripshot/mixin.jade:121
 #: ../views/tripshot/mixin.jade:162
-#, fuzzy
 msgid "OK"
 msgstr "בסדר"
 
@@ -347,7 +345,6 @@ msgstr "בסדר"
 #: ../views/components/trip-toolbar.jade:50 ../views/pass/index.jade:101
 #: ../views/tripshot/mixin.jade:127 ../views/tripshot/mixin.jade:168
 #: ../views/tripshot/mixin.jade:177
-#, fuzzy
 msgid "Learn more"
 msgstr "למד עוד"
 
@@ -368,7 +365,7 @@ msgstr "טיול חדש"
 #. L10n: the curly brackets {} stand for the language name
 #: ../views/components/add-stops.jade:15
 msgid "Do you want to create your own version of a trip {}?"
-msgstr "האם אתה רוצה ליצור גרסה משלך לטיול"
+msgstr "האם אתה רוצה ליצור גרסה משלך לטיול?"
 
 #. L10n: Caption of a dialog listing apps that work with Furkot
 #. L10n: Menu option that opens the panel listing apps that work with Furkot
@@ -379,7 +376,7 @@ msgstr "יישומים"
 
 #: ../views/components/applications.jade:6
 msgid "You haven’t given any application access to your Furkot trips."
-msgstr "אתה לא נתת שום לאף אפליקציה כלשהי גישה לנסיעות Furkot שלך."
+msgstr "אתה לא נתת שום לאף אפליקציה כלשהי גישה למסלולי Furkot שלך."
 
 #. L10n: 'We recommend:' as in 'We recommend the following applications that work with Furkot:' followed by the list of applications
 #: ../views/components/applications.jade:8
@@ -389,13 +386,11 @@ msgstr "אנחנו ממליצים:"
 
 #. L10n: Scenic is the name of an iPhone navigation app; can be translated as 'Scenic App' where 'App' is the word to translate while 'Scenic' is kept as is
 #: ../views/components/applications.jade:14
-#, fuzzy
 msgid "Scenic"
 msgstr "נוֹפִי"
 
 #. L10n: 'Remove' as in 'Remove Furkot access to an application' - displayed next to application that the user gave Furkot access to
 #: ../views/components/applications.jade:28
-#, fuzzy
 msgid "Remove"
 msgstr "לְהַסִיר"
 
@@ -420,20 +415,17 @@ msgid ""
 msgstr "ודא ששם המלון וכתובתו הרשומים ב- Furkot מתאימים אלו שהזמנת."
 
 #: ../views/components/book-wizard.jade:19
-#, fuzzy
 msgid "Hotel name"
 msgstr "שם המלון"
 
 #: ../views/components/book-wizard.jade:21
-#, fuzzy
 msgid "Hotel address"
 msgstr "כתובת המלון"
 
 #. L10n: label for the hotel check-in date; can be also translated as 'Arrival' or 'From' / 'From date'
 #: ../views/components/book-wizard.jade:25
-#, fuzzy
 msgid "Check in"
-msgstr "קבלה"
+msgstr "להירשם"
 
 #. L10n: label for the hotel check-out date; can be also translated as 'Departure' or 'To' / 'To date'
 #: ../views/components/book-wizard.jade:29
@@ -453,7 +445,7 @@ msgid ""
 "you don't want to complete the booking at this time."
 msgstr ""
 "לחץ [הבא] אם אתה מתכוון להכניס את אישור ההזמנה במועד מאוחר יותר, או אם אתה "
-"לא רוצה את ביצוע ההזמנה בשלב זה."
+"לא רוצה להשלים את ביצוע ההזמנה בשלב זה."
 
 #. L10n: Square brackets [] denote a button. The [Done] in the sentence is that name of the button that is also displayed elsewhere. It is important that is translated the same as the button (see the translation of the "Done" word in glossary). If needed for clarification, translate  as the phrase "the [Done] button"
 #: ../views/components/book-wizard.jade:39
@@ -465,14 +457,13 @@ msgstr ""
 "רוצה להשלים את ההזמנה בשלב זה."
 
 #: ../views/components/book-wizard.jade:40
-#, fuzzy
 msgid ""
 "Entering your booking confirmation (number or URL) in Furkot does not change "
 "your booking status, but lets Furkot help you keep track of your "
 "reservations."
 msgstr ""
-"הזנת אישור ההזמנה (מספר או URL) Furkot אינו משנה מצב ההזמנה שלך, אבל בוא "
-"לעזור Furkot לך לעקוב אחר ההזמנות שלך."
+"הזנת אישור ההזמנה (מספר או קישור) ב- Furkot אינו משנה מצב ההזמנה שלך, אבל תן "
+"ל- Furkot לעזור לך לעקוב אחר ההזמנות שלך."
 
 #. L10n: 'Booking confirmation' as a number or link to a page that confirms that a reservation of a lodging
 #: ../views/components/book-wizard.jade:43
@@ -482,13 +473,12 @@ msgstr "אישור הזמנה"
 
 #: ../views/components/book-wizard.jade:43
 msgid "Enter booking confirmation if you made a reservation"
-msgstr ""
+msgstr "הכנס אישור הזמנה אם ביצעת הזמנה"
 
 #. L10n: Label for links to websites that user can make lodging reservations at
 #: ../views/components/book-wizard.jade:48
-#, fuzzy
 msgid "Available to book at"
-msgstr "ישמח לסייע לכם להזמין במחיר המוצג"
+msgstr "פנוי להזמנות"
 
 #. L10n: Followed by the buttons that link to websites that provide reservations of lodging accommodations
 #: ../views/components/book-wizard.jade:53
@@ -500,94 +490,78 @@ msgstr "רוצה יותר אפשרויות? נסה שירותים אלה"
 #. L10n: square brackets [] denote a button
 #: ../views/components/book-wizard.jade:64
 msgid "Press this button to continue booking or press [Done] again"
-msgstr ""
+msgstr "לחץ על הלחצן"
 
 #: ../views/components/book-wizard.jade:65
-#, fuzzy
 msgid "Furkot will take you to the next lodging to book."
-msgstr "Furkot ייקח אתכם אל הלינה ליד להזמין."
+msgstr "Furkot ייקח אותך אל מקום הלינה הבא לביצוע הזמנה."
 
 #: ../views/components/book-wizard.jade:66
 #: ../views/components/export-dlg.jade:203
 #: ../views/components/import-dlg.jade:167
 #: ../views/components/new-trip-wizard.jade:149
 #: ../views/components/tour.jade:42
-#, fuzzy
 msgid "Next"
 msgstr "הַבָּא"
 
 #: ../views/components/book-wizard.jade:67
 #: ../views/components/new-trip-wizard.jade:150
-#, fuzzy
 msgid "Done"
 msgstr "בוצע"
 
 #: ../views/components/book-wizard.jade:67
-#, fuzzy
 msgid "Furkot will take you back to the trip planning."
-msgstr "Furkot ייקח אותך חזרה בתכנון הטיול."
+msgstr "Furkot ייקח אותך חזרה לתכנון הטיול."
 
 #: ../views/components/bookable.jade:35
-#, fuzzy
 msgid "See this hotel page"
-msgstr "ראה עמוד במלון זה בבית"
+msgstr "ראה את העמוד של מלון זה"
 
 #: ../views/components/bookable.jade:36
-#, fuzzy
 msgid "See this hotel own website"
-msgstr "ראה זה באתר האינטרנט של המלון עצמו"
+msgstr "ראה את אתר האינטרנט של המלון עצמו"
 
 #: ../views/components/bookable.jade:37 ../views/components/bookable.jade:52
 #: ../views/components/bookable.jade:83 ../views/components/bookable.jade:97
 #: ../views/components/bookable.jade:116 ../views/components/bookable.jade:131
-#, fuzzy
 msgid "See guest reviews"
-msgstr "ראה חוות דעת אורח"
+msgstr "ראה חוות דעת אורחים"
 
 #: ../views/components/bookable.jade:38
-#, fuzzy
 msgid "Add this hotel as a new stop"
-msgstr "הוסף את המלון הזה כתחנה חדשה"
+msgstr "הוסף מלון זה כעצירה חדשה"
 
 #: ../views/components/bookable.jade:39 ../views/components/bookable.jade:85
-#, fuzzy
 msgid "Replace selected stop with this hotel"
-msgstr "חלף תחנה שנבחרה עם אחרים במלון זה"
+msgstr "החלף את העצירה שנבחרה במלון זה"
 
 #: ../views/components/bookable.jade:40
-#, fuzzy
 msgid "Save this hotel as a backup"
-msgstr "הגדר בתוואי זה הצידה כמו תוכנית גיבוי"
+msgstr "שמור מלון זה כגיבוי"
 
 #: ../views/components/bookable.jade:41
-#, fuzzy
 msgid "Add this hotel as a skipped stop"
-msgstr "הוסף את המלון הזה כתחנה דלגה"
+msgstr "הוסף מלון זה כעצירה שדולגה"
 
 #: ../views/components/bookable.jade:42
-#, fuzzy
 msgid "Fold this hotel details"
-msgstr "מקפלים את הפרטים במלון זה"
+msgstr "הסתר את הפרטים של מלון זה"
 
 #: ../views/components/bookable.jade:50
-#, fuzzy
 msgid "See this campground page"
-msgstr "ראה עמוד המחנאות הזה"
+msgstr "ראה את העמוד של אתר הקמפינג הזה"
 
 #: ../views/components/bookable.jade:51
-#, fuzzy
 msgid "See this campground own website"
-msgstr "ראה זה אתר מחנאות עצמו"
+msgstr "ראה את אתר האינטרנט של אתר הקמפינג הזה"
 
 #: ../views/components/bookable.jade:53
-#, fuzzy
 msgid "Add this campground as a new stop"
-msgstr "להוסיף מחנאות זה כמו לעצור חדש"
+msgstr "הוסף את אתר הקמפינג הזה כעצירה חדשה"
 
 #: ../views/components/bookable.jade:54
-#, fuzzy
 msgid "Replace selected stop with this campground"
-msgstr "חלף תחנה שנבחרה עם מחנאות זה"
+msgstr "החלף את העצירה שנבחרה באתר הקמפינג הזה"
 
 #: ../views/components/bookable.jade:55
 #, fuzzy
