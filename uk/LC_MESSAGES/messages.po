@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
 "POT-Creation-Date: 2025-07-14 20:46-0600\n"
-"PO-Revision-Date: 2023-03-02 16:15+0000\n"
-"Last-Translator: Max Povalinsky <m.povalinsky@gmail.com>\n"
+"PO-Revision-Date: 2025-12-16 14:30+0000\n"
+"Last-Translator: Damian Krzeminski <pirxpilot@code42day.com>\n"
 "Language-Team: Ukrainian <https://translate.furkot.com/projects/furkot/trips/"
 "uk/>\n"
 "Language: uk\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: ../views/app.jade:4
 msgid "My Trips"
@@ -759,8 +759,9 @@ msgstr "Будь ласка [оновіть свій браузер], щоб п�
 
 #. L10n: Label for a field showing whether tracking expenses (i.e. assigning costs to stops and routes) is enabled (or not) for the trip
 #: ../views/components/budget.jade:10
+#, fuzzy
 msgid "Expenses"
-msgstr ""
+msgstr "Витрати"
 
 #. L10n: Label for using per diem method (standard daily rate regardless of actual cost) for lodging, meals and incidental expenses. Can be translated as 'Daily Expenses'
 #: ../views/components/budget.jade:16 ../views/components/budget.jade:46
@@ -780,8 +781,9 @@ msgstr ""
 
 #. L10n: follows a value (for instance cost) of 1 mile
 #: ../views/components/budget.jade:34 ../views/components/budget.jade:71
+#, fuzzy
 msgid "per mile"
-msgstr ""
+msgstr "на милю"
 
 #. L10n: Label for checkbox to enable tracking expenses (i.e. assigning costs to stops and routes) for the trip
 #: ../views/components/budget.jade:43
@@ -790,13 +792,15 @@ msgstr ""
 
 #. L10n: Hint for the option that uses per diem (standard daily rate) instead of actual cost for lodging expenses
 #: ../views/components/budget.jade:49
+#, fuzzy
 msgid "Lodging allowance"
-msgstr ""
+msgstr "Витрати на проживання"
 
 #. L10n: Hint for the option that uses per diem (standard daily rate) instead of actual cost for meals
 #: ../views/components/budget.jade:52
+#, fuzzy
 msgid "Meal allowance"
-msgstr ""
+msgstr "Надбавка на харчування"
 
 #. L10n: Hint for the option that uses per diem (standard daily rate) instead of actual cost for incidental expenses (fees and tips given to porters, baggage carriers, hotel staff, etc)
 #: ../views/components/budget.jade:55
@@ -821,8 +825,9 @@ msgstr ""
 
 #. L10n: Label for the field to showing nightly cost of an overnight lodging stop. The field is available for multinight stops when tracking expenses is enabled for a trip
 #: ../views/components/budget.jade:91
+#, fuzzy
 msgid "Per Night"
-msgstr ""
+msgstr "За ніч"
 
 #. L10n: Label for the field to showing per diem rate (standard daily rate regardless of actual cost). The field is available for overnight stops when both tracking expenses and per diem method are enabled for a trip. Can be translated as 'Daily Rate'
 #: ../views/components/budget.jade:96
@@ -893,8 +898,9 @@ msgstr "Це автоматично запланований аеропорт."
 #: ../views/components/common-mixins.jade:48
 #: ../views/components/new-trip-wizard.jade:106
 #: ../views/components/trip-config-item.jade:87
+#, fuzzy
 msgid "Roads"
-msgstr ""
+msgstr "Дороги"
 
 #: ../views/components/common-mixins.jade:50
 #: ../views/components/new-trip-wizard.jade:108
@@ -921,8 +927,9 @@ msgid "Prefer toll roads where available"
 msgstr "Віддайте перевагу платним дорогам, якщо вони є"
 
 #: ../views/components/common-mixins.jade:56
+#, fuzzy
 msgid "Avoid ferries where possible"
-msgstr ""
+msgstr "Уникайте поромів, де це можливо"
 
 #: ../views/components/common-mixins.jade:57
 msgid "Prefer ferries where available"
@@ -1013,8 +1020,9 @@ msgstr "Ванні кімнати"
 
 #: ../views/components/common-mixins.jade:92
 #: ../views/components/common-mixins.jade:229
+#, fuzzy
 msgid "Barbecues"
-msgstr ""
+msgstr "Барбекю"
 
 #. L10n: Number of bedrooms in the lodging. Followed by number. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:93
@@ -1116,20 +1124,23 @@ msgstr "Підходить для легкових автомобілів"
 #. L10n: Displayed when place (typically gas station) has car wash. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:108
 #: ../views/components/common-mixins.jade:259
+#, fuzzy
 msgid "Car Wash"
-msgstr ""
+msgstr "Автомийка"
 
 #. L10n: Displayed for places that are caves. Also when a lodging has a cave nearby. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:109
 #: ../views/components/common-mixins.jade:261
+#, fuzzy
 msgid "Cave"
-msgstr ""
+msgstr "Печера"
 
 #. L10n: Displayed when gas station sells diesel fuel. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:115
 #: ../views/components/common-mixins.jade:263
+#, fuzzy
 msgid "Diesel"
-msgstr ""
+msgstr "Дизель"
 
 #: ../views/components/common-mixins.jade:116
 msgid "Difficulty"
@@ -1172,8 +1183,9 @@ msgstr "Питна вода"
 #. L10n: displayed for place like campgrounds that can only be accessed during dry weather. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:122
 #: ../views/components/common-mixins.jade:273
+#, fuzzy
 msgid "Dry weather access"
-msgstr ""
+msgstr "Доступ у суху погоду"
 
 #. L10n: Displayed for dump stations for RV / campers / motorhomes and campgrounds with such. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:123
@@ -1191,8 +1203,9 @@ msgid "Environment"
 msgstr ""
 
 #: ../views/components/common-mixins.jade:126
+#, fuzzy
 msgid "Exposition"
-msgstr ""
+msgstr "Експозиція"
 
 #. L10n: Fees required by the attraction. Followed by fee description. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:127
@@ -1217,8 +1230,9 @@ msgstr "Спробуйте безкоштовно"
 #. L10n: Displayed when place (for instance campground) sells (or otherwise provides) firewood
 #: ../views/components/common-mixins.jade:130
 #: ../views/components/common-mixins.jade:283
+#, fuzzy
 msgid "Firewood"
-msgstr ""
+msgstr "Дрова"
 
 #. L10n: Places that offer fishing as an activity. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:131
@@ -1240,20 +1254,23 @@ msgstr ""
 #. L10n: Displayed when something (for instance Wi-Fi access) is free of charge. Should be short, less than 10 characters if possible
 #: ../views/components/common-mixins.jade:133
 #: ../views/components/common-mixins.jade:289
+#, fuzzy
 msgid "free"
-msgstr ""
+msgstr "Безкоштовно"
 
 #. L10n: Displayed when generators are pemitted at the place (like campground). Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:135
 #: ../views/components/common-mixins.jade:295
+#, fuzzy
 msgid "Generators permitted"
-msgstr ""
+msgstr "Дозволені генератори"
 
 #. L10n: Grocery or convenience store. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:137
 #: ../views/components/common-mixins.jade:297
+#, fuzzy
 msgid "Grocery"
-msgstr ""
+msgstr "Продукти"
 
 #. L10n: Displayed when a road is accessible to high clearance vehicles only (some unpaved roads in the Find drawer under category "Unpaved roads and off-road trails"). Also when access to a place like campground requires such vehicles. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:138
@@ -1279,14 +1296,16 @@ msgstr "Туристична стежка"
 #. L10n: Places that offer horseback riding as an activity. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:141
 #: ../views/components/common-mixins.jade:305
+#, fuzzy
 msgid "Horseback riding"
-msgstr ""
+msgstr "Верхова їзда"
 
 #. L10n: Displayed when there is hot tub (jacuzzi) and/or sauna on premises of a lodging
 #: ../views/components/common-mixins.jade:142
 #: ../views/components/common-mixins.jade:307
+#, fuzzy
 msgid "Hot tub or sauna"
-msgstr ""
+msgstr "Джакузі або сауна"
 
 #. L10n: Place is or has visitor center or information point. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:143
@@ -1327,14 +1346,16 @@ msgstr "Ліфти"
 #: ../views/components/common-mixins.jade:148
 #: ../views/components/common-mixins.jade:319
 #: ../views/components/trip-detail.jade:65
+#, fuzzy
 msgid "LPG / Propane Autogas"
-msgstr ""
+msgstr "LPG / Пропановий автогаз"
 
 #. L10n: Length of a feature in meters, for instance maximum length of camping site. {} stands for the numerical value and 'm' for meters - metric unit of length
 #: ../views/components/common-mixins.jade:149
 #: ../views/components/common-mixins.jade:321
+#, fuzzy
 msgid "{} m"
-msgstr ""
+msgstr "{} м"
 
 #. L10n: Denotes availability powered campsites. Followed by maximum power offered by campground, if provided. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:150
@@ -1381,14 +1402,16 @@ msgstr "Мінімальні ночі"
 #. L10n: displayed when attraction is or has a minigolf (miniature golf) course
 #: ../views/components/common-mixins.jade:156
 #: ../views/components/common-mixins.jade:335
+#, fuzzy
 msgid "Minigolf"
-msgstr ""
+msgstr "Мінігольф"
 
 #. L10n: Displayed when mobile phone works at a place like campground. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:157
 #: ../views/components/common-mixins.jade:337
+#, fuzzy
 msgid "Mobile coverage"
-msgstr ""
+msgstr "Мобільне покриття"
 
 #. L10n: Displayed for tracks and trails open to motorcycles. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:158
@@ -1451,8 +1474,9 @@ msgstr "Допускаються домашні тварини"
 #. L10n: Displayed when there are opportunities for taking scenic photos at the location. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:169
 #: ../views/components/common-mixins.jade:355
+#, fuzzy
 msgid "Photography"
-msgstr ""
+msgstr "Фотографія"
 
 #. L10n: Displayed when picking tables are provided by a campground. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:170
@@ -1464,14 +1488,16 @@ msgstr "Пікнічні місця"
 #. L10n: Place has or is a playground for kids. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:171
 #: ../views/components/common-mixins.jade:359
+#, fuzzy
 msgid "Playground for kids"
-msgstr ""
+msgstr "Дитячий майданчик"
 
 #. L10n: Displayed when propane (LPG) refill is available (for instance at campground or gas station)
 #: ../views/components/common-mixins.jade:172
 #: ../views/components/common-mixins.jade:361
+#, fuzzy
 msgid "Propane"
-msgstr ""
+msgstr "Пропан"
 
 #. L10n: There is a public payphone at the place. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:173
@@ -1497,8 +1523,9 @@ msgstr "Ресторан"
 #. L10n: Displayed for backroads that are closed to all traffic except for authorized maintenance. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:176
 #: ../views/components/common-mixins.jade:369
+#, fuzzy
 msgid "Closed for traffic"
-msgstr ""
+msgstr "Закрито для руху"
 
 #. L10n: Displayed when campground has sites for RV / campers / motorhomes. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:177
@@ -1523,8 +1550,9 @@ msgstr "Сезонні"
 #. L10n: Displayed for campgrounds with shaded campsites. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:180
 #: ../views/components/common-mixins.jade:373
+#, fuzzy
 msgid "Shaded campsites"
-msgstr ""
+msgstr "Затінені кемпінги"
 
 #. L10n: Displayed when a place (typically campground) has showers. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:181
@@ -1550,14 +1578,16 @@ msgstr "Апартаменти-студіо"
 #. L10n: Places that offer swimming as an activity. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:185
 #: ../views/components/common-mixins.jade:385
+#, fuzzy
 msgid "Swimming"
-msgstr ""
+msgstr "Плавання"
 
 #. L10n: Places that offer tennis as an activity. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:186
 #: ../views/components/common-mixins.jade:387
+#, fuzzy
 msgid "Tennis"
-msgstr ""
+msgstr "Теніс"
 
 #. L10n: Displayed when campground has sites for tents. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:187
@@ -1585,8 +1615,9 @@ msgstr "Траси"
 #. L10n: Trash cans (rubbish bins) available at a place (for instance a campground). Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:194
 #: ../views/components/common-mixins.jade:395
+#, fuzzy
 msgid "Trash cans"
-msgstr ""
+msgstr "Сміттєві баки"
 
 #. L10n: Displayed when a lodging organizes tours or days trips or provides shuttle bus to nearby attraction(s)
 #. L10n: hint for the button that shows tours and day trips on the map
@@ -1622,8 +1653,9 @@ msgstr "Місцезнаходження недоступне"
 #. L10n: Displayed for places that are waterfalls. Also when a lodging is near a waterfall. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:204
 #: ../views/components/common-mixins.jade:405
+#, fuzzy
 msgid "Waterfall"
-msgstr ""
+msgstr "Водоспад"
 
 #. L10n: Displayed for places that offer water recreation, for instance waterskiing. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:205
@@ -1651,14 +1683,16 @@ msgstr "Перегляд дикої природи"
 #. L10n: Displayed for places like campgrounds with a wildlife (crocodiles, dingoes, jellyfish, etc) danger. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:208
 #: ../views/components/common-mixins.jade:413
+#, fuzzy
 msgid "Beware of wildlife"
-msgstr ""
+msgstr "Остерігайтеся дикої природи"
 
 #. L10n: Displayed for world heritage sites. Less than 25 characters if possible
 #: ../views/components/common-mixins.jade:209
 #: ../views/components/common-mixins.jade:415
+#, fuzzy
 msgid "World Heritage Site"
-msgstr ""
+msgstr "Об'єкт Світової спадщини"
 
 #. L10n: Displayed for backcountry and cross-country skiing opportunities. Less than 25 characters if possible
 #. L10n: hint for the button that shows backcountry and cross-country ski trails on the map
@@ -1666,8 +1700,9 @@ msgstr ""
 #: ../views/components/common-mixins.jade:291
 #: ../views/components/place-switch.jade:297
 #: ../views/components/step-icons.jade:314
+#, fuzzy
 msgid "Backcountry / cross-country skiing"
-msgstr ""
+msgstr "Беккантрі / лижні гонки"
 
 #. L10n: Length of a feature in feet, for instance maximum length of camping site. {} stands for the numerical value and 'ft' for feet - imperial unit of length
 #: ../views/components/common-mixins.jade:293
@@ -1677,14 +1712,16 @@ msgstr ""
 #. L10n: 'Open 24 Hours' is displayed when a place is open 24 hours
 #: ../views/components/common-mixins.jade:416
 #: ../views/components/place-detail.jade:158
+#, fuzzy
 msgid "Open 24 Hours"
-msgstr ""
+msgstr "Відкрито 24 години"
 
 #. L10n: label for the field showing number of reviews behind the place or lodging rating
 #: ../views/components/common-mixins.jade:427
 #: ../views/components/place-item.jade:14
+#, fuzzy
 msgid "Reviews"
-msgstr ""
+msgstr "Відгуки"
 
 #: ../views/components/dialog.jade:5 ../views/components/step-detail.jade:625
 #: ../views/tripshot/mixin.jade:120
@@ -1735,8 +1772,9 @@ msgstr ""
 
 #. L10n: instruction to user to provide longer text when typing name or address
 #: ../views/components/dialog.jade:51
+#, fuzzy
 msgid "Continue typing to start finding places"
-msgstr ""
+msgstr "Продовжуйте друкувати, щоб почати шукати місця"
 
 #: ../views/components/dialog.jade:55 ../views/components/trip-detail.jade:9
 #, fuzzy
@@ -2020,8 +2058,9 @@ msgid "Day"
 msgstr "День"
 
 #: ../views/components/export-dlg.jade:215
+#, fuzzy
 msgid "Furkot Terms and Conditions of Use"
-msgstr ""
+msgstr "Умови використання Furkot"
 
 #. L10n: "I Agree" is a button that user has to click to confirm that they agree to Furkot Terms of Service
 #: ../views/components/export-dlg.jade:215
