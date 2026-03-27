@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2026-03-16 07:50-0600\n"
+"POT-Creation-Date: 2026-03-27 17:24-0600\n"
 "PO-Revision-Date: 2026-03-16 14:42+0000\n"
 "Last-Translator: Weblate Admin <weblate@furkot.com>\n"
 "Language-Team: Russian <https://translate.furkot.com/projects/furkot/trips/"
@@ -75,6 +75,8 @@ msgstr "Предложить"
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
 #: ../views/components/step-switches.jade:264
+#: ../views/components/step-switches.jade:272
+#: ../views/components/step-switches.jade:282
 #: ../views/components/trip-detail.jade:760
 #: ../views/components/trip-detail.jade:768
 #: ../views/components/trip-detail.jade:774
@@ -279,6 +281,8 @@ msgstr ""
 #: ../views/components/step-switches.jade:240
 #: ../views/components/step-switches.jade:251
 #: ../views/components/step-switches.jade:264
+#: ../views/components/step-switches.jade:272
+#: ../views/components/step-switches.jade:282
 #: ../views/components/translate.jade:2
 #: ../views/components/trip-detail.jade:760
 #: ../views/components/trip-detail.jade:768
@@ -317,7 +321,7 @@ msgstr "ОК"
 #: ../views/components/step-detail.jade:728
 #: ../views/components/step-detail.jade:734
 #: ../views/components/step-detail.jade:740
-#: ../views/components/step-lodging.jade:25
+#: ../views/components/step-lodging.jade:19
 #: ../views/components/step-switches.jade:24
 #: ../views/components/step-switches.jade:200
 #: ../views/components/step-switches.jade:213
@@ -480,7 +484,7 @@ msgstr "Доступно бронирование в"
 
 #. L10n: Followed by the buttons that link to websites that provide reservations of lodging accommodations
 #: ../views/components/book-wizard.jade:61
-#: ../views/components/step-lodging.jade:32
+#: ../views/components/step-lodging.jade:26
 msgid "Want more options? Try these services"
 msgstr "Хотите больше возможностей? Попробуйте эти сервисы"
 
@@ -2763,7 +2767,7 @@ msgstr ""
 #. L10n: Label for selecting lodging options (hotels, motels, campgrounds, private apartments, etc)
 #: ../views/components/names.jade:13 ../views/components/names.jade:29
 #: ../views/components/new-trip-wizard.jade:124
-#: ../views/components/step-lodging.jade:38
+#: ../views/components/step-lodging.jade:32
 #: ../views/components/trip-config-item.jade:248
 #: ../views/components/trip-detail.jade:307
 msgid "Lodging"
@@ -3056,7 +3060,7 @@ msgstr "Гостиницы и мотели"
 #: ../views/components/new-trip-wizard.jade:130
 #: ../views/components/place-switch.jade:126
 #: ../views/components/place-switch.jade:129
-#: ../views/components/step-lodging.jade:42
+#: ../views/components/step-lodging.jade:36
 #: ../views/components/trip-detail.jade:312
 msgid "Apartments and private rooms"
 msgstr "Квартиры и комнаты"
@@ -3067,7 +3071,7 @@ msgstr "Квартиры и комнаты"
 #: ../views/components/new-trip-wizard.jade:133
 #: ../views/components/place-switch.jade:132
 #: ../views/components/place-switch.jade:135
-#: ../views/components/step-lodging.jade:44
+#: ../views/components/step-lodging.jade:38
 #: ../views/components/trip-detail.jade:315
 msgid "Hostels"
 msgstr "Хостелы"
@@ -3078,7 +3082,7 @@ msgstr "Хостелы"
 #: ../views/components/new-trip-wizard.jade:136
 #: ../views/components/place-switch.jade:146
 #: ../views/components/place-switch.jade:149
-#: ../views/components/step-lodging.jade:48
+#: ../views/components/step-lodging.jade:42
 #: ../views/components/trip-detail.jade:318
 msgid "Campgrounds"
 msgstr "Кемпинги"
@@ -3150,7 +3154,7 @@ msgstr "Новое"
 #. L10n: 'Stay' to select a specific lodging accommodation for an automatically scheduled overnight stop and add it to the itinerary
 #: ../views/components/place-detail.jade:48
 #: ../views/components/step-detail.jade:60
-#: ../views/components/step-lodging.jade:69
+#: ../views/components/step-lodging.jade:63
 msgid "Stay"
 msgstr "Остаться"
 
@@ -3388,7 +3392,7 @@ msgstr "Скрыть приветствующие LGBT гостиницы"
 #. L10n: hint for the button that shows LGBT-friendly hotels on the map. LGBT stands for 'lesbian, gay, bisexual, and transgender'
 #: ../views/components/place-switch.jade:140
 #: ../views/components/place-switch.jade:143
-#: ../views/components/step-lodging.jade:46
+#: ../views/components/step-lodging.jade:40
 msgid "LGBT welcoming hotels"
 msgstr "Приветствующие LGBT гостиницы"
 
@@ -4938,7 +4942,7 @@ msgid "Visit"
 msgstr "Посетить"
 
 #: ../views/components/step-detail.jade:57
-#: ../views/components/step-lodging.jade:67
+#: ../views/components/step-lodging.jade:61
 msgid "Stay in this lodging"
 msgstr "Остаться на ночь здесь"
 
@@ -6337,40 +6341,32 @@ msgstr "ночь"
 msgid "Skipped"
 msgstr "Возможные"
 
-#: ../views/components/step-lodging.jade:3
-msgid "Available to book at the displayed price"
-msgstr "Доступно бронирование в пределах отображаемых цен"
-
-#: ../views/components/step-lodging.jade:18
-msgid "More rooms may be available"
-msgstr "Может быть доступно больше комнат"
-
-#: ../views/components/step-lodging.jade:20
+#: ../views/components/step-lodging.jade:14
 msgid "This is an average price. The actual booking price may differ."
 msgstr "Это средняя цена. Фактическая цена бронирования может отличаться."
 
-#: ../views/components/step-lodging.jade:40
+#: ../views/components/step-lodging.jade:34
 msgid "Hotels"
 msgstr "Гостиницы"
 
-#: ../views/components/step-lodging.jade:74
+#: ../views/components/step-lodging.jade:68
 msgid "Nearby Lodgings"
 msgstr "Близлежащее жилье"
 
 #. L10n: Label for the field to edit lodging booking confirmation number or link
-#: ../views/components/step-lodging.jade:80
-#: ../views/components/step-lodging.jade:88
+#: ../views/components/step-lodging.jade:74
+#: ../views/components/step-lodging.jade:82
 msgid "Booking"
 msgstr "Бронирование"
 
-#: ../views/components/step-lodging.jade:82
-#: ../views/components/step-lodging.jade:90
+#: ../views/components/step-lodging.jade:76
+#: ../views/components/step-lodging.jade:84
 msgid "Click to add booking confirmation or link"
 msgstr "Нажмите, чтобы добавить подтверждение бронирования или ссылку"
 
 #. L10n: 'confirmation' as in 'lodging booking confirmation number or link'
-#: ../views/components/step-lodging.jade:82
-#: ../views/components/step-lodging.jade:90
+#: ../views/components/step-lodging.jade:76
+#: ../views/components/step-lodging.jade:84
 msgid "Confirmation"
 msgstr "Подтверждение"
 
@@ -6501,6 +6497,8 @@ msgstr "Искать места для посещения во вкладке [�
 #: ../views/components/step-switches.jade:140
 #: ../views/components/step-switches.jade:148
 #: ../views/components/step-switches.jade:162
+#: ../views/components/step-switches.jade:272
+#: ../views/components/step-switches.jade:282
 msgid "Move stop"
 msgstr "Переместить остановку"
 
@@ -6662,6 +6660,22 @@ msgstr ""
 
 #: ../views/components/step-switches.jade:269
 msgid "Are you sure you want to skip this stop?"
+msgstr ""
+
+#: ../views/components/step-switches.jade:273
+msgid "Do you want to visit this place traveling outbound?"
+msgstr ""
+
+#: ../views/components/step-switches.jade:279
+msgid "Visit this place twice - when traveling inbound and outbound"
+msgstr ""
+
+#: ../views/components/step-switches.jade:283
+msgid "Do you want to visit this place traveling inbound?"
+msgstr ""
+
+#: ../views/components/step-switches.jade:289
+msgid "Visit this place twice - when traveling outbound and inbound"
 msgstr ""
 
 #. L10n: square brackets [] denote a link. Displayed on Furkot front page (below the fold) (when user is not signed in)
@@ -8468,6 +8482,9 @@ msgstr ""
 #~ msgid "Articles from Wikipedia, the free encyclopedia"
 #~ msgstr "Статьи из Википедии"
 
+#~ msgid "Available to book at the displayed price"
+#~ msgstr "Доступно бронирование в пределах отображаемых цен"
+
 #, fuzzy
 #~ msgid "Backcountry ski trails"
 #~ msgstr "Бэккантри лыжные трассы"
@@ -8681,6 +8698,9 @@ msgstr ""
 
 #~ msgid "Like Furkot"
 #~ msgstr "Нравится Furkot"
+
+#~ msgid "More rooms may be available"
+#~ msgstr "Может быть доступно больше комнат"
 
 #~ msgid "Motorcycle route"
 #~ msgstr "Мотоциклетная трасса"
