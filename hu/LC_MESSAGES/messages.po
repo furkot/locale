@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Furkot\n"
 "Report-Msgid-Bugs-To: trips@furkot.com\n"
-"POT-Creation-Date: 2026-03-27 17:24-0600\n"
+"POT-Creation-Date: 2026-06-24 10:14-0600\n"
 "PO-Revision-Date: 2023-08-25 08:17+0000\n"
 "Last-Translator: Fem Piff <fempiff@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.furkot.com/projects/furkot/trips/"
@@ -19,7 +19,7 @@ msgid "My Trips"
 msgstr "Útiterveim"
 
 #. L10n: square brackets [] denote a link
-#: ../views/board/board.jade:14 ../views/tripshot/mixin.jade:204
+#: ../views/board/board.jade:14 ../views/tripshot/mixin.jade:206
 msgid "Plan with [Furkot]"
 msgstr "Tervezés a [Furkot]-al"
 
@@ -310,10 +310,17 @@ msgstr "OK"
 #: ../views/components/browse-happy.jade:10 ../views/components/budget.jade:74
 #: ../views/components/common-mixins.jade:42
 #: ../views/components/export-dlg.jade:199
-#: ../views/components/furkot-pass.jade:47
+#: ../views/components/furkot-pass.jade:42
 #: ../views/components/import-dlg.jade:173 ../views/components/map.jade:126
 #: ../views/components/navigation.jade:113 ../views/components/network.jade:19
 #: ../views/components/new-trip-wizard.jade:154
+#: ../views/components/notifications.jade:9
+#: ../views/components/notifications.jade:22
+#: ../views/components/notifications.jade:29
+#: ../views/components/notifications.jade:36
+#: ../views/components/notifications.jade:43
+#: ../views/components/notifications.jade:63
+#: ../views/components/notifications.jade:123
 #: ../views/components/place-detail.jade:14
 #: ../views/components/place-detail.jade:84
 #: ../views/components/place-switch.jade:513
@@ -367,7 +374,7 @@ msgstr "Szeretnéd létrehozni a saját verziódat ebből az útitervből {}?"
 
 #. L10n: Caption of a dialog listing apps that work with Furkot
 #. L10n: Menu option that opens the panel listing apps that work with Furkot
-#: ../views/components/applications.jade:3 ../views/header.jade:34
+#: ../views/components/applications.jade:3 ../views/header.jade:33
 msgid "Applications"
 msgstr "Alkalmazások"
 
@@ -518,11 +525,13 @@ msgstr "A Furkot visszairányít az útvonal tervezéséhez."
 
 #. L10n: pair of _underscores_ denotes different formatting
 #: ../views/components/browse-happy.jade:5
+#: ../views/components/notifications.jade:4
 msgid "You are using an _outdated_ browser."
 msgstr "_Elavult_ böngészőt használsz."
 
 #. L10n: square brackets [] denote a link
 #: ../views/components/browse-happy.jade:7
+#: ../views/components/notifications.jade:6
 msgid "Please [upgrade your browser] to improve your experience."
 msgstr "Kérjük [frissítsd böngésződet] a jobb felhasználói élmény érdekében."
 
@@ -1404,17 +1413,17 @@ msgid "Save"
 msgstr "Menteni"
 
 #: ../views/components/dialog.jade:20 ../views/components/dialog.jade:22
-#: ../views/components/dialog.jade:33 ../views/header.jade:14
+#: ../views/components/dialog.jade:33 ../views/components/notifications.jade:15
+#: ../views/header.jade:13
 msgid "Update now"
 msgstr "Frissítés most"
 
 #: ../views/components/dialog.jade:23 ../views/components/dialog.jade:34
-#: ../views/header.jade:7
 msgid ""
 "New version of Furkot is available. Click the button above to update now."
 msgstr "A Furkot új verziója elérhető. Kattints a fenti gombra a frissítéshez."
 
-#: ../views/components/dialog.jade:26 ../views/header.jade:37
+#: ../views/components/dialog.jade:26 ../views/header.jade:36
 msgid "About Furkot"
 msgstr "A Furkot-ról"
 
@@ -1664,7 +1673,7 @@ msgstr "Előző"
 
 #. L10n: 'Export' as in 'Export into a file'. Can be also translated as 'Download'
 #: ../views/components/export-dlg.jade:205 ../views/components/map.jade:8
-#: ../views/components/step-detail.jade:600 ../views/tripshot/mixin.jade:212
+#: ../views/components/step-detail.jade:600 ../views/tripshot/mixin.jade:216
 #: ../views/welcome/login.jade:14 ../views/welcome/login.jade:31
 msgid "Export"
 msgstr "Exportálás"
@@ -1942,7 +1951,7 @@ msgid "PM"
 msgstr "du."
 
 #. L10n: 'Furkot Pass' offers exclusive access to selected features: https://help.furkot.com/getting-started/furkot-pass.html . It can be translated or left as is. If in doubt check if names of those products are translated in your language: Amazon Prime, Apple Store, Google Ads.
-#: ../views/components/furkot-pass.jade:3 ../views/header.jade:30
+#: ../views/components/furkot-pass.jade:3 ../views/header.jade:29
 msgid "Furkot Pass"
 msgstr "Furkot Pass"
 
@@ -1967,10 +1976,12 @@ msgstr "Az út további szerkesztéséhez szükséges a [Furkot Pass]."
 
 #. L10n: square brackets [] denote a link
 #: ../views/components/furkot-pass.jade:18
+#: ../views/components/notifications.jade:68
 msgid "Unlock [Furkot Pass] holder exclusive benefits."
 msgstr "Váltsd ki a [Furkot Pass]-t az extra funkciók használatához."
 
 #: ../views/components/furkot-pass.jade:23
+#: ../views/components/notifications.jade:48
 msgid "Purchase Furkot Pass"
 msgstr "Furkot Pass vásárlása"
 
@@ -1984,16 +1995,16 @@ msgstr "Foglalj a Furkot-n a jutalomért"
 msgid "Try it out for free"
 msgstr "Próbáld ki ingyen"
 
-#. L10n: title of the link to article explaining what to do to continue using Furkot for free
-#: ../views/components/furkot-pass.jade:43
-msgid "Find out how to use Furkot for free"
-msgstr "Tudd meg, hogyan lehet ingyen kipróbálni a [Furkot Passt]"
-
-#: ../views/components/furkot-pass.jade:44 ../views/pass/index.jade:6
+#: ../views/components/furkot-pass.jade:39 ../views/pass/index.jade:6
 msgid "Thank you for supporting Furkot."
 msgstr "Köszönjük hogy támogatod a Furkot-t."
 
-#: ../views/components/header.jade:7 ../views/components/share-dlg.jade:3
+#. L10n: short phrase describing what Furkot is displayed under the logo. As 'road trip' may not translate well, translation meaning 'trip planner' or 'trip planning' is acceptable
+#: ../views/components/header.jade:9
+msgid "road trip planner"
+msgstr ""
+
+#: ../views/components/header.jade:13 ../views/components/share-dlg.jade:3
 msgid ""
 "Sign up to share your trip with friends and to access it from other "
 "computers and browsers."
@@ -2001,24 +2012,24 @@ msgstr ""
 "Regisztrálj hogy megoszthass tippeket barátaiddal, és hogy más "
 "számítógépekről és böngészőkről is elérd."
 
-#: ../views/components/header.jade:8 ../views/components/share-dlg.jade:2
+#: ../views/components/header.jade:14 ../views/components/share-dlg.jade:2
 #: ../views/welcome/signup-page.jade:22 ../views/widget/plan.jade:61
 msgid "Sign up"
 msgstr "Fiók létre hozása"
 
-#: ../views/components/header.jade:14 ../views/login-form.jade:3
+#: ../views/components/header.jade:20 ../views/login-form.jade:3
 #: ../views/widget/plan.jade:60
 msgid "Sign in"
 msgstr "Bejelentkezni"
 
-#: ../views/components/header.jade:17 ../views/components/tour.jade:62
-#: ../views/footer.jade:30 ../views/header.jade:17
-#: ../views/welcome/header.jade:5 ../views/welcome/header.jade:6
+#: ../views/components/header.jade:23 ../views/components/header.jade:28
+#: ../views/components/header.jade:29 ../views/components/tour.jade:62
+#: ../views/footer.jade:30 ../views/header.jade:16
 msgid "Help"
 msgstr "Segítség"
 
-#: ../views/components/header.jade:21 ../views/header.jade:40
-#: ../views/welcome/header.jade:10 ../views/welcome/header.jade:11
+#: ../views/components/header.jade:32 ../views/components/header.jade:38
+#: ../views/components/header.jade:39 ../views/header.jade:39
 #: ../views/widget/plan.jade:62
 msgid "Sign out"
 msgstr "Kijelentkezés"
@@ -2268,7 +2279,7 @@ msgstr "Átlagsebesség"
 #: ../views/components/trip-detail.jade:178
 #: ../views/components/trip-detail.jade:196
 #: ../views/components/trip-detail.jade:438
-#: ../views/components/trip-detail.jade:542 ../views/tripshot/mixin.jade:248
+#: ../views/components/trip-detail.jade:542 ../views/tripshot/mixin.jade:252
 #: ../views/tripshot/tripshot.jade:21 ../views/tripshot/tripshot.jade:44
 msgid "km"
 msgstr "km"
@@ -2804,7 +2815,7 @@ msgid ""
 msgstr "A navigáció gomb megnyomásakor a kiválasztott alkalmazás nyílik meg."
 
 #: ../views/components/navigation.jade:116
-#: ../views/components/step-switches.jade:102 ../views/header.jade:20
+#: ../views/components/step-switches.jade:102 ../views/header.jade:19
 msgid "Navigation"
 msgstr "Navigáció"
 
@@ -2813,7 +2824,7 @@ msgid "Are you sure you want to navigate there?"
 msgstr "Biztos vagy benne hogy ide kérsz navigációt?"
 
 #. L10n: Menu option that opens panel with the options that control how Furkot works when offline
-#: ../views/components/network.jade:2 ../views/header.jade:24
+#: ../views/components/network.jade:2 ../views/header.jade:23
 msgid "Data Saver"
 msgstr "Adatmentés"
 
@@ -3092,6 +3103,89 @@ msgstr "Házikedvenccel"
 #: ../views/components/trip-detail.jade:322
 msgid "Pets welcome"
 msgstr "Házikedvenc barát szállás"
+
+#: ../views/components/notifications.jade:12
+msgid "New version of Furkot is available."
+msgstr ""
+
+#. L10n: Warning displayed when trip mode is set to RV and Furkot cannot calculate route given the RV dimensions configured in the Trip drawer
+#: ../views/components/notifications.jade:19
+#: ../views/components/step-detail.jade:679
+#: ../views/components/step-detail.jade:703
+msgid "No RV route available. Adjust RV dimensions in the Trip drawer."
+msgstr ""
+
+#: ../views/components/notifications.jade:26
+#: ../views/components/step-detail.jade:678
+msgid ""
+"No route available (stops may be too far from roads, or a road may be "
+"seasonally closed)."
+msgstr ""
+"Nincs útvonal (megálóhely túl messve van a legközelebbi úttol vagy az út "
+"ebben az évszakban zárva lezárt)."
+
+#. L10n: Warning displayed when stops are too far apart to calculate route and user is advised to add more stops in-between
+#: ../views/components/notifications.jade:33
+#: ../views/components/step-detail.jade:680
+#: ../views/components/step-detail.jade:705
+msgid "Stops too far apart. Add interim stops to calculate route."
+msgstr ""
+"Megálóhelyek túl messze vannak egymástol. Adjál hozzá megálóhelyeket az "
+"útvonal tervezéséhez."
+
+#: ../views/components/notifications.jade:40
+msgid "Your trip contains stops with warnings."
+msgstr ""
+
+#: ../views/components/notifications.jade:58
+msgid "Get Furkot Pass"
+msgstr ""
+
+#. L10n: square brackets [] denote a link
+#: ../views/components/notifications.jade:76
+msgid "Your [Furkot Pass] has expired."
+msgstr ""
+
+#: ../views/components/notifications.jade:77
+#: ../views/components/notifications.jade:86
+msgid ""
+"Renew now to enjoy uninterrupted access to pass holder exclusive benefits."
+msgstr ""
+
+#. L10n: square brackets [] denote a link
+#: ../views/components/notifications.jade:85
+msgid "Your [Furkot Pass] is about to expire."
+msgstr ""
+
+#. L10n: square brackets [] denote a link
+#: ../views/components/notifications.jade:94
+msgid "Claim your [Furkot Pass] as a reward for booking on Furkot."
+msgstr ""
+
+#: ../views/components/notifications.jade:101
+msgid ""
+"You fully utilized your complimentary allowance. You can still view all the "
+"trips you planned."
+msgstr ""
+
+#. L10n: square brackets [] denote a link
+#: ../views/components/notifications.jade:103
+msgid "Get [Furkot Pass] to resume planning your trip."
+msgstr ""
+
+#: ../views/components/notifications.jade:110
+msgid "Your complimentary allowance is almost utilized."
+msgstr ""
+
+#. L10n: square brackets [] denote a link
+#: ../views/components/notifications.jade:112
+msgid "Get [Furkot Pass] to enjoy uninterrupted access to all Furkot features."
+msgstr ""
+
+#. L10n: square brackets [] denote a link
+#: ../views/components/notifications.jade:120
+msgid "Join the [Furkot Affiliate Program] and earn."
+msgstr ""
 
 #: ../views/components/place-detail.jade:8 ../views/components/places.jade:66
 msgid "Searching…"
@@ -3453,7 +3547,9 @@ msgstr "Helyi piacok és pékségek"
 msgid "Hide farmers markets and grocery stores"
 msgstr "Helyi piacok és pékségek elrejtése"
 
+#. L10n: hint for the button that shows gas stations on the map
 #: ../views/components/place-switch.jade:184
+#: ../views/components/place-switch.jade:187
 #: ../views/components/places.jade:126
 msgid "Gas stations"
 msgstr "Benzinkutak"
@@ -3467,13 +3563,6 @@ msgstr "Benzinkutak"
 #: ../views/components/places.jade:223
 msgid "Hide gas stations"
 msgstr "Benzinkutak elrejtése"
-
-#. L10n: hint for the button that shows gas stations on the map
-#. L10n: stop type (icon) for a fuel station
-#: ../views/components/place-switch.jade:187
-#: ../views/components/step-icons.jade:33
-msgid "Filling stations"
-msgstr "Benzinkutak"
 
 #. L10n: hint for the button that shows diesel stations on the map
 #: ../views/components/place-switch.jade:189
@@ -5618,27 +5707,6 @@ msgstr "Tényleges indulás {}-án {}-kor korább mint tervezve."
 msgid "No arrival date."
 msgstr "Nincs érkezési dátum."
 
-#: ../views/components/step-detail.jade:678
-msgid ""
-"No route available (stops may be too far from roads, or a road may be seasonally closed)."
-msgstr ""
-"Nincs útvonal (megálóhely túl messve van a legközelebbi úttol vagy az út "
-"ebben az évszakban zárva lezárt)."
-
-#. L10n: Warning displayed when trip mode is set to RV and Furkot cannot calculate route given the RV dimensions configured in the Trip drawer
-#: ../views/components/step-detail.jade:679
-#: ../views/components/step-detail.jade:703
-msgid "No RV route available. Adjust RV dimensions in the Trip drawer."
-msgstr ""
-
-#. L10n: Warning displayed when stops are too far apart to calculate route and user is advised to add more stops in-between
-#: ../views/components/step-detail.jade:680
-#: ../views/components/step-detail.jade:705
-msgid "Stops too far apart. Add interim stops to calculate route."
-msgstr ""
-"Megálóhelyek túl messze vannak egymástol. Adjál hozzá megálóhelyeket az "
-"útvonal tervezéséhez."
-
 #. L10n: Warning displayed when Furkot cannot calculate route duration and expect user to set it manually
 #: ../views/components/step-detail.jade:681
 #: ../views/components/step-detail.jade:699
@@ -5715,6 +5783,11 @@ msgstr "Egyéb"
 #: ../views/components/step-icons.jade:25
 msgid "Pass-through"
 msgstr "Letűzött pont"
+
+#. L10n: stop type (icon) for a fuel station
+#: ../views/components/step-icons.jade:33
+msgid "Filling stations"
+msgstr "Benzinkutak"
 
 #. L10n: stop type (icon)
 #: ../views/components/step-icons.jade:54
@@ -6814,7 +6887,7 @@ msgstr ""
 #: ../views/components/trip-config-item.jade:72
 #: ../views/components/trip-config-item.jade:176
 #: ../views/components/trip-detail.jade:179
-#: ../views/components/trip-detail.jade:543 ../views/tripshot/mixin.jade:248
+#: ../views/components/trip-detail.jade:543 ../views/tripshot/mixin.jade:252
 #: ../views/tripshot/tripshot.jade:21 ../views/tripshot/tripshot.jade:44
 msgid "miles"
 msgstr ""
@@ -7745,12 +7818,12 @@ msgid "More options"
 msgstr ""
 
 #. L10n: Curly braces {} denote the date when Furkot Pass will expire (i.e. Furkot Pass is valid until that date)
-#: ../views/header.jade:8 ../views/pass/index.jade:26
+#: ../views/header.jade:7 ../views/pass/index.jade:26
 #: ../views/pass/index.jade:30
 msgid "Your Furkot Pass is valid until {}."
 msgstr ""
 
-#: ../views/header.jade:27
+#: ../views/header.jade:26
 msgid "Account settings"
 msgstr ""
 
@@ -7931,24 +8004,24 @@ msgid "Run the search"
 msgstr ""
 
 #. L10n: Hint displayed on the button that allows editing some fields of the static snapshot of the trip (tripshot) after publishing. Available to the owner of the trip only on the page with the tripshot.
-#: ../views/tripshot/mixin.jade:219
+#: ../views/tripshot/mixin.jade:223
 msgid "Edit trip snapshot"
 msgstr ""
 
 #. L10n: Hint displayed on the button that allows deleting the static snapshot of the trip (tripshot) after publishing. Available to the owner of the trip only on the page with the tripshot.
-#: ../views/tripshot/mixin.jade:225
+#: ../views/tripshot/mixin.jade:229
 msgid "Delete trip snapshot"
 msgstr ""
 
-#: ../views/tripshot/mixin.jade:231
+#: ../views/tripshot/mixin.jade:235
 msgid "Embed in website"
 msgstr ""
 
-#: ../views/tripshot/mixin.jade:275
+#: ../views/tripshot/mixin.jade:279
 msgid "Insert your own trip photo here"
 msgstr ""
 
-#: ../views/tripshot/mixin.jade:277
+#: ../views/tripshot/mixin.jade:281
 msgid "Change a photo"
 msgstr ""
 
@@ -8101,11 +8174,6 @@ msgstr ""
 
 #: ../views/welcome/errors.jade:9
 msgid "Forgot your password?"
-msgstr ""
-
-#. L10n: short phrase describing what Furkot is displayed under the logo. As 'road trip' may not translate well, translation meaning 'trip planner' or 'trip planning' is acceptable
-#: ../views/welcome/header.jade:17
-msgid "road trip planner"
 msgstr ""
 
 #. L10n: Part of browser window title of Furkot furkot page (when user is not signed in)
@@ -8298,6 +8366,9 @@ msgstr ""
 
 #~ msgid "Farmers markets"
 #~ msgstr "Helyi piacok"
+
+#~ msgid "Find out how to use Furkot for free"
+#~ msgstr "Tudd meg, hogyan lehet ingyen kipróbálni a [Furkot Passt]"
 
 #~ msgid "Fold this airport details"
 #~ msgstr "Repülőtér részleteinek összecsukása"
